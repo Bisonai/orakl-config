@@ -1,0 +1,9 @@
+{
+  "aggregatorHash": "",
+  "name": "DOGE-USDT",
+  "address": "",
+  "heartbeat": 15000,
+  "threshold": 0.05,
+  "absoluteThreshold": 0.1,
+  "adapterHash": "0xc648c89b2677c019dda482bbcfd60a5d58be0a3f02df9503b182fcaefbe5fa15"
+}
