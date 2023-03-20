@@ -1,0 +1,9 @@
+{
+  "aggregatorHash": "",
+  "name": "TRX-USDT",
+  "address": "",
+  "heartbeat": 15000,
+  "threshold": 0.05,
+  "absoluteThreshold": 0.1,
+  "adapterHash": "0xf7385af79a7201e79185c79ff80dfa9d39960bb5c0d62e837477e0f0a87df716"
+}

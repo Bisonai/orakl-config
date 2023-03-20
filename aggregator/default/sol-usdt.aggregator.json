@@ -1,0 +1,9 @@
+{
+  "aggregatorHash": "",
+  "name": "SOL-USDT",
+  "address": "",
+  "heartbeat": 15000,
+  "threshold": 0.05,
+  "absoluteThreshold": 0.1,
+  "adapterHash": "0xf8ba3eafdf66c135dcd093dbb1bfdb10dca956ee3c75b510f76407353eb251d0"
+}
