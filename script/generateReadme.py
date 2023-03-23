@@ -8,6 +8,7 @@ aggregatorBaobabPath = 'aggregator/baobab/'
 adapters = sorted(os.listdir(adapterPath))
 aggregatorsDefault = sorted(os.listdir(aggregatorDefaultPath))
 aggregatorsBaobab = sorted(os.listdir(aggregatorBaobabPath))
+baseUrl = "https://bisonai.github.io/orakl-config/"
 
 
 def makeLine(words):
@@ -45,7 +46,7 @@ def generateAdapterList():
             if key == 'feeds':
                 values.append(len(data[key]))
             elif key == 'name':
-                values.append({'url': filePath, 'value': data[key]})
+                values.append({'url': baseUrl + filePath, 'value': data[key]})
             else:
                 values.append(data[key])
         makeLine(values)
@@ -63,7 +64,7 @@ def generateAggregatorList(aggregatorBasePath, aggregators):
             if key == 'feeds':
                 values.append(len(data[key]))
             elif key == 'name':
-                values.append({'url': filePath, 'value': data[key]})
+                values.append({'url': baseUrl + filePath, 'value': data[key]})
             else:
                 values.append(data[key])
         makeLine(values)
