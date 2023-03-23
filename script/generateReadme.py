@@ -9,9 +9,6 @@ adapters = sorted(os.listdir(adapterPath))
 aggregatorsDefault = sorted(os.listdir(aggregatorDefaultPath))
 aggregatorsBaobab = sorted(os.listdir(aggregatorBaobabPath))
 
-# adapterUrl = "https://bisonai.github.io/orakl-config/adapter/"
-# aggregatorUrl = "https://bisonai.github.io/orakl-config/aggregator/default/"
-
 
 def makeLine(words):
     for word in words:
@@ -98,7 +95,7 @@ def checkHashMatch():
 checkHashMatch()
 
 print('# Orakl Config\n')
-print('## Adapter List\n')
+print('## Adapter\n')
 generateAdapterList()
 print('## Aggregator Baobab\n')
 generateAggregatorList(aggregatorDefaultPath, aggregatorsBaobab)
