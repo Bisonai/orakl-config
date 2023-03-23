@@ -25,9 +25,9 @@
 
 ## Aggregator Baobab
 
-| name                                                  | aggregatorHash | address | heartbeat | threshold | absoluteThreshold | adapterHash                                                        |
-| ----------------------------------------------------- | -------------- | ------- | --------- | --------- | ----------------- | ------------------------------------------------------------------ |
-| [ETH-USD](aggregator/default/eth-usd.aggregator.json) | -              | -       | 15000     | 0.05      | 0.1               | 0x0b754850b753b9eca61724dc780c02d5f9a62a08c8853b80a213a03d85e35729 |
+| name                                                 | aggregatorHash                                                     | address                                    | heartbeat | threshold | absoluteThreshold | adapterHash                                                        |
+| ---------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------ | --------- | --------- | ----------------- | ------------------------------------------------------------------ |
+| [ETH-USD](aggregator/baobab/eth-usd.aggregator.json) | 0xfda8c08a8b7641e001ad23c0fb363a9e7aab1e3a7eb8a6ddee41deeb7e3ef279 | 0x15c0b3ea93ed4de0a1f93f4ae130aefd8f2e8ccb | 15000     | 0.05      | 0.1               | 0x7e6552824ce107ab0d6e4266ba6b93f0afe5aa576a491364fc01881a34ddb12b |
 
 ## Aggregator Default
 
