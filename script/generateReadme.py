@@ -28,14 +28,19 @@ def makeEmptyLine(words):
     print(' |')
 
 
+def loadJsonFromPath(filePath):
+    with open(filePath) as json_file:
+        data = json.load(json_file)
+    return data
+
+
 def generateAdapterList():
     keys = ['name', 'adapterHash', 'decimals', 'feeds']
     makeLine(keys)
     makeEmptyLine(keys)
     for adapter in adapters:
         filePath = os.path.join(adapterPath, adapter)
-        with open(filePath) as json_file:
-            data = json.load(json_file)
+        data = loadJsonFromPath(filePath)
         values = []
         for key in keys:
             if key == 'feeds':
@@ -53,8 +58,7 @@ def generateAggregatorList():
     makeEmptyLine(keys)
     for aggregator in aggregators:
         filePath = os.path.join(aggregatorPath, aggregator)
-        with open(filePath) as json_file:
-            data = json.load(json_file)
+        data = loadJsonFromPath(filePath)
         values = []
         for key in keys:
             if key == 'feeds':
@@ -65,6 +69,31 @@ def generateAggregatorList():
                 values.append(data[key])
         makeLine(values)
 
+
+def checkHashMatch():
+    for i in range(len(adapters)):
+        adapter = adapters[i]
+        adapterFilePath = os.path.join(adapterPath, adapter)
+        adapterData = loadJsonFromPath(adapterFilePath)
+
+        aggregator = aggregators[i]
+        aggregatorFilePath = os.path.join(aggregatorPath, aggregator)
+        aggregatorData = loadJsonFromPath(aggregatorFilePath)
+        if adapterData['name'] != aggregatorData['name']:
+            msg = "Wrong file Name or Price feed name, Adapter:{} Aggregator: {}".format(adapter, aggregator)
+            raise Exception(msg)
+
+        if adapterData['adapterHash'] != aggregatorData['adapterHash']:
+            print('\n\n------------------------')
+            print('Adapter hash values does not match')
+            print("Adapter file:", adapter, adapterData['adapterHash'])
+            print("Aggregator file:", aggregator, aggregatorData['adapterHash'])
+            print()
+            msg = "Adapter hash values does not match, Adapter:{} Aggregator: {}".format(adapter, aggregator)
+            raise Exception(msg)
+
+
+checkHashMatch()
 
 print('# Orakl Config\n')
 print('## Adapter List\n')
