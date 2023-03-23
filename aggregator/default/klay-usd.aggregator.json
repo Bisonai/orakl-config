@@ -1,7 +1,7 @@
 {
   "aggregatorHash": "",
   "name": "KLAY-USD",
-  "address": "10",
+  "address": "",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,
