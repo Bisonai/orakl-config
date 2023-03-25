@@ -1,9 +1,0 @@
-{
-  "aggregatorHash": "0x9258ddf37ae6c47ef4a87e7b855b828e07e5cf28f4f404238bbac96a91020bfb",
-  "name": "ETH-USD",
-  "address": "0x15c0b3ea93ed4de0a1f93f4ae130aefd8f2e8ccb",
-  "heartbeat": 15000,
-  "threshold": 0.05,
-  "absoluteThreshold": 0.1,
-  "adapterHash": "0x0b754850b753b9eca61724dc780c02d5f9a62a08c8853b80a213a03d85e35729"
-}
