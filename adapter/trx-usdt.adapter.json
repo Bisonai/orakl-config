@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0xf7385af79a7201e79185c79ff80dfa9d39960bb5c0d62e837477e0f0a87df716",
+  "adapterHash": "0xa18dbcc041ad0373929711bc3570e7da99659a370db1665699092a5b231dd8fe",
   "name": "TRX-USDT",
   "decimals": 8,
   "feeds": [
@@ -96,29 +96,6 @@
           {
             "function": "PARSE",
             "args": ["indexPrice"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Bittrex-TRX-USDT",
-      "definition": {
-        "url": "https://api.bittrex.com/v3/markets/TRX-USDT/ticker",
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["lastTradeRate"]
           },
           {
             "function": "POW10",
