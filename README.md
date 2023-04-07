@@ -17,7 +17,7 @@
 | [MATIC-USDT](adapter/matic-usdt.adapter.json) | 0xaac691986b90ba59358d2b8bff58036bcfea21cbd9f82ab08915902bdb00cdb1 | 8        | 10    |
 | [SHIB-USDT](adapter/shib-usdt.adapter.json)   | 0x8300f3385e5843e0da2504964067ab0d81de054550826e60577602e50cffe48c | 8        | 8     |
 | [SOL-USDT](adapter/sol-usdt.adapter.json)     | 0xf8ba3eafdf66c135dcd093dbb1bfdb10dca956ee3c75b510f76407353eb251d0 | 8        | 10    |
-| [TRX-USDT](adapter/trx-usdt.adapter.json)     | 0xf7385af79a7201e79185c79ff80dfa9d39960bb5c0d62e837477e0f0a87df716 | 8        | 8     |
+| [TRX-USDT](adapter/trx-usdt.adapter.json)     | 0xa18dbcc041ad0373929711bc3570e7da99659a370db1665699092a5b231dd8fe | 8        | 7     |
 | [USDC-USDT](adapter/usdc-usdt.adapter.json)   | 0x04c991c1f0504684d1d4f4bd689066c08f9b32bea47746510590489e810eb23d | 8        | 8     |
 | [XRP-USDT](adapter/xrp-usdt.adapter.json)     | 0x61dc4a3225212016c0cbe5deffa1db31e01837fb0a061ff1cf355650287e0162 | 8        | 10    |
 
@@ -56,6 +56,6 @@
 | [MATIC-USDT](aggregator/default/matic-usdt.aggregator.json) | -              | -       | 15000     | 0.05      | 0.1               | 0xaac691986b90ba59358d2b8bff58036bcfea21cbd9f82ab08915902bdb00cdb1 |
 | [SHIB-USDT](aggregator/default/shib-usdt.aggregator.json)   | -              | -       | 15000     | 0.05      | 0.1               | 0x8300f3385e5843e0da2504964067ab0d81de054550826e60577602e50cffe48c |
 | [SOL-USDT](aggregator/default/sol-usdt.aggregator.json)     | -              | -       | 15000     | 0.05      | 0.1               | 0xf8ba3eafdf66c135dcd093dbb1bfdb10dca956ee3c75b510f76407353eb251d0 |
-| [TRX-USDT](aggregator/default/trx-usdt.aggregator.json)     | -              | -       | 15000     | 0.05      | 0.1               | 0xf7385af79a7201e79185c79ff80dfa9d39960bb5c0d62e837477e0f0a87df716 |
+| [TRX-USDT](aggregator/default/trx-usdt.aggregator.json)     | -              | -       | 15000     | 0.05      | 0.1               | 0xa18dbcc041ad0373929711bc3570e7da99659a370db1665699092a5b231dd8fe |
 | [USDC-USDT](aggregator/default/usdc-usdt.aggregator.json)   | -              | -       | 15000     | 0.05      | 0.1               | 0x04c991c1f0504684d1d4f4bd689066c08f9b32bea47746510590489e810eb23d |
 | [XRP-USDT](aggregator/default/xrp-usdt.aggregator.json)     | -              | -       | 15000     | 0.05      | 0.1               | 0x61dc4a3225212016c0cbe5deffa1db31e01837fb0a061ff1cf355650287e0162 |
