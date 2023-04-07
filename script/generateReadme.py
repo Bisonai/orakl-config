@@ -94,10 +94,9 @@ def checkHashMatch():
 
 checkHashMatch()
 
-print('# Orakl Config\n')
 print('## Adapter\n')
 generateAdapterList()
-print('## Aggregator Baobab\n')
+print('\n## Aggregator Baobab\n')
 generateAggregatorList(aggregatorBaobabPath, aggregatorsBaobab)
-print('## Aggregator Default\n')
+print('\n## Aggregator Default\n')
 generateAggregatorList(aggregatorDefaultPath, aggregatorsDefault)
