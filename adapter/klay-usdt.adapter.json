@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0x83e72a0fdd9c43e21c1720ff0c10b0f76fe17426a96b5622bc59b92e58099d34",
+  "adapterHash": "0x28685856d05c545536c1fe0211c2d3b042a4e4346c8ae071f32893873da29c3d",
   "name": "KLAY-USDT",
   "decimals": 8,
   "feeds": [
@@ -150,29 +150,6 @@
           {
             "function": "PARSE",
             "args": ["data", "rates", "USDT"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Bittrex-KLAY-USDT",
-      "definition": {
-        "url": "https://api.bittrex.com/v3/markets/KLAY-USDT/ticker",
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["lastTradeRate"]
           },
           {
             "function": "POW10",

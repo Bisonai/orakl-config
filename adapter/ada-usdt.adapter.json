@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0x0cb4cf2bbe73c14b1ac4efdbb7f9fe6d96c53f722946eb624d0f11076f5b0ed6",
+  "adapterHash": "0x3687675a0761d814147ac24366bb558b991397e5cabc6ed31498ba11b6125489",
   "name": "ADA-USDT",
   "decimals": 8,
   "feeds": [
@@ -150,29 +150,6 @@
           {
             "function": "PARSE",
             "args": ["data", "rates", "USDT"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Bittrex-ADA-USDT",
-      "definition": {
-        "url": "https://api.bittrex.com/v3/markets/ADA-USDT/ticker",
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["lastTradeRate"]
           },
           {
             "function": "POW10",
