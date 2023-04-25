@@ -27,22 +27,34 @@ def makeEmptyLine(words):
     print(' |')
 
 
+def getFileName(filePath, version):
+    fileName = filePath.split('/')[-1].split('.')[0] + '-v' + str(version + 1)
+    return fileName
+
+
+def getCommitHistory(filePath):
+    # https://git-scm.com/docs/pretty-formats
+    command = 'git log --pretty=format:"%H %as" {}'.format(filePath)
+    process = Popen(command, stdout=PIPE, stderr=None, shell=True)
+    output = process.communicate()[0].decode("utf-8").splitlines()
+    result = []
+    for commit in output:
+        result.append(commit.split(' '))
+    return result
+
+
 def generateHistory(fileList, basePath):
-    keys = ['File Name', 'commit']
+    keys = ['File Name', 'commit', 'date']
     makeLine(keys)
     makeEmptyLine(keys)
     oraklConfigPath = 'https://github.com/Bisonai/orakl-config/blob/'
     for file in fileList:
-
         filePath = os.path.join(basePath, file)
-        command = 'git log --pretty=format:"%H" {}'.format(filePath)
-        process = Popen(command, stdout=PIPE, stderr=None, shell=True)
-        output = process.communicate()[0].decode("utf-8").splitlines()
-
-        # print(filePath, output)
-        for commit in output:
-            url = '{}{}/{}'.format(oraklConfigPath, commit, filePath)
-            makeLine([{'url': url, 'value': filePath}, commit])
+        commitList = getCommitHistory(filePath)
+        for index, commit in enumerate(commitList):
+            url = '{}{}/{}'.format(oraklConfigPath, commit[0], filePath)
+            fileName = getFileName(filePath, index)
+            makeLine([{'url': url, 'value': fileName}, commit[0], commit[1]])
 
 
 print('\n## Adapter History\n')

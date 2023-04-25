@@ -94,8 +94,8 @@ def checkHashMatch():
 
 checkHashMatch()
 
-print("## History\n")
-print("History of Adapter and Aggregator configuration - [Link to page](HISTORY.md)")
+print("## Log history\n")
+print("History of Adapter and Aggregator - [Link to page](HISTORY.md)")
 
 print('\n## Adapter\n')
 generateAdapterList()
