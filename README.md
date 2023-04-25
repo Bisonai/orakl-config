@@ -1,7 +1,11 @@
+## History
+
+History of Adapter and Aggregator configuration - [Link to page](HISTORY.md)
+
 ## Adapter
 
 | name                                          | adapterHash                                                        | decimals | feeds |
-|-----------------------------------------------|--------------------------------------------------------------------|----------|-------|
+| --------------------------------------------- | ------------------------------------------------------------------ | -------- | ----- |
 | [ADA-USDT](adapter/ada-usdt.adapter.json)     | 0x0cb4cf2bbe73c14b1ac4efdbb7f9fe6d96c53f722946eb624d0f11076f5b0ed6 | 8        | 10    |
 | [BNB-USDT](adapter/bnb-usdt.adapter.json)     | 0x8b4d886ffb1b1f24bd6069f648b03413d79ffcf84f56f3ae23857a02fa4186a5 | 8        | 8     |
 | [BTC-USD](adapter/btc-usd.adapter.json)       | 0xfb03ebf457def32f2d28944ec58af6796ec87e0aad6e01760bc7037d6ac71ea3 | 8        | 5     |
@@ -24,7 +28,7 @@
 ## Aggregator Baobab
 
 | name                                                       | aggregatorHash                                                     | address                                    | heartbeat | threshold | absoluteThreshold | adapterHash                                                        |
-|------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------|-----------|-----------|-------------------|--------------------------------------------------------------------|
+| ---------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------ | --------- | --------- | ----------------- | ------------------------------------------------------------------ |
 | [BNB-USDT](aggregator/baobab/bnb-usdt.aggregator.json)     | 0xbb42e0a9c45b898b29b763e28c2aaf3c117fb638fd8035378181b7cd6b613bd3 | 0x4D92F10A23E28AB11d2d39325B9db0Fd0504520d | 15000     | 0.05      | 0.1               | 0x8b4d886ffb1b1f24bd6069f648b03413d79ffcf84f56f3ae23857a02fa4186a5 |
 | [BTC-USDT](aggregator/baobab/btc-usdt.aggregator.json)     | 0xf4e664cc5b6cf7006e3d3db842095d175d46444e2f92b1259ab8a98899598a56 | 0x640Ed61e261C545D7439bDBb27e1674a6F589e96 | 15000     | 0.05      | 0.1               | 0xb0c3c252c76334d29db18a5324e9ee815d95395689b532e9e58c1ecc05411993 |
 | [BUSD-USDT](aggregator/baobab/busd-usdt.aggregator.json)   | 0xdbb1237a135711c5c05bddd02cf283c1025f27a8b069a7eeaa19afa9d4974a7d | 0xA3ca19bAE3dC93521Ff0a9A7DC78713e8bB55D0c | 15000     | 0.05      | 0.1               | 0x6e1a8237ab158c7a69a78f82f59033964c5d511b8ea9b42064d206f01868e081 |
@@ -34,13 +38,13 @@
 | [KLAY-USDT](aggregator/baobab/klay-usdt.aggregator.json)   | 0x1ba663139938b66528d1b8f28a89db819be1e445fc0f4c0d137f83a273e5f6a5 | 0x80139B55D6539E08890b93448B1A93cd014Ed87C | 15000     | 0.05      | 0.1               | 0x83e72a0fdd9c43e21c1720ff0c10b0f76fe17426a96b5622bc59b92e58099d34 |
 | [MATIC-USDT](aggregator/baobab/matic-usdt.aggregator.json) | 0xc3d7ff282b7ecdc26b72382546154edafbff90d37e171fa80db5ccd6eb94c0f4 | 0x99E9E1a78498575E78F46675b54847767C5787Fb | 15000     | 0.05      | 0.1               | 0xaac691986b90ba59358d2b8bff58036bcfea21cbd9f82ab08915902bdb00cdb1 |
 | [SOL-USDT](aggregator/baobab/sol-usdt.aggregator.json)     | 0xc9a02ddb5c877dc9806393382b633a072dea171786cbe895ee77130c420710e9 | 0x56BbC261dE7529a2D9F89B75734A86ac5f9e3008 | 15000     | 0.05      | 0.1               | 0xf8ba3eafdf66c135dcd093dbb1bfdb10dca956ee3c75b510f76407353eb251d0 |
-| [TRX-USDT](aggregator/baobab/trx-usdt.aggregator.json)     | 0x6299029414ddcff77d22a2145a8666df212f2c3813914292ed459de223b97b7c | 0x50365C346BAd261a29ADd3Be7bA18B6c49E4f4Cf | 15000     | 0.05      | 0.1               | 0xf7385af79a7201e79185c79ff80dfa9d39960bb5c0d62e837477e0f0a87df716 |
+| [TRX-USDT](aggregator/baobab/trx-usdt.aggregator.json)     | 0x6299029414ddcff77d22a2145a8666df212f2c3813914292ed459de223b97b7c | 0x70eF30152a6d37032831DcA7A78890584b4919f5 | 15000     | 0.05      | 0.1               | 0xf7385af79a7201e79185c79ff80dfa9d39960bb5c0d62e837477e0f0a87df716 |
 | [USDC-USDT](aggregator/baobab/usdc-usdt.aggregator.json)   | 0x8a316f999ab52280460671482176173f9e2766cae8983f84e277a003f79a0df7 | 0x08e2425CE1fa5f8EB006d3898C48C5d3de44B795 | 15000     | 0.05      | 0.1               | 0x04c991c1f0504684d1d4f4bd689066c08f9b32bea47746510590489e810eb23d |
 
 ## Aggregator Default
 
 | name                                                        | aggregatorHash | address | heartbeat | threshold | absoluteThreshold | adapterHash                                                        |
-|-------------------------------------------------------------|----------------|---------|-----------|-----------|-------------------|--------------------------------------------------------------------|
+| ----------------------------------------------------------- | -------------- | ------- | --------- | --------- | ----------------- | ------------------------------------------------------------------ |
 | [ADA-USDT](aggregator/default/ada-usdt.aggregator.json)     | -              | -       | 15000     | 0.05      | 0.1               | 0x0cb4cf2bbe73c14b1ac4efdbb7f9fe6d96c53f722946eb624d0f11076f5b0ed6 |
 | [BNB-USDT](aggregator/default/bnb-usdt.aggregator.json)     | -              | -       | 15000     | 0.05      | 0.1               | 0x8b4d886ffb1b1f24bd6069f648b03413d79ffcf84f56f3ae23857a02fa4186a5 |
 | [BTC-USD](aggregator/default/btc-usd.aggregator.json)       | -              | -       | 15000     | 0.05      | 0.1               | 0xfb03ebf457def32f2d28944ec58af6796ec87e0aad6e01760bc7037d6ac71ea3 |

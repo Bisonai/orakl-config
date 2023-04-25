@@ -94,9 +94,14 @@ def checkHashMatch():
 
 checkHashMatch()
 
-print('## Adapter\n')
+print("## History\n")
+print("History of Adapter and Aggregator configuration - [Link to page](HISTORY.md)")
+
+print('\n## Adapter\n')
 generateAdapterList()
+
 print('\n## Aggregator Baobab\n')
 generateAggregatorList(aggregatorBaobabPath, aggregatorsBaobab)
+
 print('\n## Aggregator Default\n')
 generateAggregatorList(aggregatorDefaultPath, aggregatorsDefault)
