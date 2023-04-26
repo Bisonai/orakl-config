@@ -24,9 +24,9 @@ def makeLine(words):
         elif type(word) == list:
             print('| ', end='')
             for version in word:
-                print('[{}]({}) '.format(version['value'], version['url']), end='')
+                print('[{}]({})'.format(version['value'], version['url']), end='')
                 if version != word[-1]:
-                    print(',', end='')
+                    print(', ', end='')
         else:
             if word == '':
                 word = '-'
