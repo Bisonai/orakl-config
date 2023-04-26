@@ -1,7 +1,3 @@
-## History
-
-History of Adapter and Aggregator configuration - [Link to page](HISTORY.md)
-
 ## Adapter
 
 | name                                          | adapterHash                                                        | decimals | feeds |
@@ -63,3 +59,7 @@ History of Adapter and Aggregator configuration - [Link to page](HISTORY.md)
 | [TRX-USDT](aggregator/default/trx-usdt.aggregator.json)     | -              | -       | 15000     | 0.05      | 0.1               | 0xa18dbcc041ad0373929711bc3570e7da99659a370db1665699092a5b231dd8fe |
 | [USDC-USDT](aggregator/default/usdc-usdt.aggregator.json)   | -              | -       | 15000     | 0.05      | 0.1               | 0x04c991c1f0504684d1d4f4bd689066c08f9b32bea47746510590489e810eb23d |
 | [XRP-USDT](aggregator/default/xrp-usdt.aggregator.json)     | -              | -       | 15000     | 0.05      | 0.1               | 0x61dc4a3225212016c0cbe5deffa1db31e01837fb0a061ff1cf355650287e0162 |
+
+## Log history
+
+History of Adapter and Aggregator - [Link to page](HISTORY.md)

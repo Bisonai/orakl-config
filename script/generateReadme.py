@@ -94,9 +94,6 @@ def checkHashMatch():
 
 checkHashMatch()
 
-print("## Log history\n")
-print("History of Adapter and Aggregator - [Link to page](HISTORY.md)")
-
 print('\n## Adapter\n')
 generateAdapterList()
 
@@ -105,3 +102,6 @@ generateAggregatorList(aggregatorBaobabPath, aggregatorsBaobab)
 
 print('\n## Aggregator Default\n')
 generateAggregatorList(aggregatorDefaultPath, aggregatorsDefault)
+
+print("## Log history\n")
+print("History of Adapter and Aggregator - [Link to page](HISTORY.md)")
