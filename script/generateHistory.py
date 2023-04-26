@@ -57,11 +57,11 @@ def generateHistory(fileList, basePath):
             makeLine([{'url': url, 'value': fileName}, commit[0], commit[1]])
 
 
-print('\n## Adapter History\n')
+print('\n## Adapter\n')
 generateHistory(adapters, adapterPath)
 
-print('\n## Aggregator Baobab History\n')
+print('\n## Aggregator Baobab\n')
 generateHistory(aggregatorsBaobab, aggregatorBaobabPath)
 
-print('\n## Aggregator Default History\n')
+print('\n## Aggregator Default\n')
 generateHistory(aggregatorsDefault, aggregatorDefaultPath)
