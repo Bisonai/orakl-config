@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0x5eb600d4de7c55d13490dd34cd700674766f3968d6fb5af2a6f2d00f6afb8a73",
+  "adapterHash": "0x9c7a66a871649601bdccbd3a477e1f62f22856a745b86fa14ffde22e3a72151b",
   "name": "DOT-USDT",
   "decimals": 8,
   "feeds": [
@@ -127,29 +127,6 @@
           {
             "function": "PARSE",
             "args": ["indexPrice"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Coinbase-DOT-USDT",
-      "definition": {
-        "url": "https://api.coinbase.com/v2/exchange-rates?currency=DOT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["data", "rates", "USDT"]
           },
           {
             "function": "POW10",
