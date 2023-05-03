@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0xc648c89b2677c019dda482bbcfd60a5d58be0a3f02df9503b182fcaefbe5fa15",
+  "adapterHash": "0x4ec5aa686e27c152457bfe8256741316eebb100cb62eb8a1a93590e058b045a0",
   "name": "DOGE-USDT",
   "decimals": 8,
   "feeds": [
@@ -150,29 +150,6 @@
           {
             "function": "PARSE",
             "args": ["data", "rates", "USDT"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Bittrex-DOGE-USDT",
-      "definition": {
-        "url": "https://api.bittrex.com/v3/markets/DOGE-USDT/ticker",
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["lastTradeRate"]
           },
           {
             "function": "POW10",

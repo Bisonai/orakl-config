@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0x432cf9560d26116f8900891242ab36f957608862eaa6005d2935aa43ea4cd79a",
+  "adapterHash": "0x9c7a66a871649601bdccbd3a477e1f62f22856a745b86fa14ffde22e3a72151b",
   "name": "DOT-USDT",
   "decimals": 8,
   "feeds": [
@@ -127,52 +127,6 @@
           {
             "function": "PARSE",
             "args": ["indexPrice"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Coinbase-DOT-USDT",
-      "definition": {
-        "url": "https://api.coinbase.com/v2/exchange-rates?currency=DOT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["data", "rates", "USDT"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Bittrex-DOT-USDT",
-      "definition": {
-        "url": "https://api.bittrex.com/v3/markets/DOT-USDT/ticker",
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["lastTradeRate"]
           },
           {
             "function": "POW10",

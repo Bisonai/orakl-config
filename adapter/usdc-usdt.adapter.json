@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0x04c991c1f0504684d1d4f4bd689066c08f9b32bea47746510590489e810eb23d",
+  "adapterHash": "0xcc5560356e56fd70153a9e928967b363189360167d55e9844d69e357b32ed6ca",
   "name": "USDC-USDT",
   "decimals": 8,
   "feeds": [
@@ -92,29 +92,6 @@
           {
             "function": "PARSE",
             "args": ["data", "rates", "USDT"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Bittrex-USDC-USDT",
-      "definition": {
-        "url": "https://api.bittrex.com/v3/markets/USDC-USDT/ticker",
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["lastTradeRate"]
           },
           {
             "function": "POW10",

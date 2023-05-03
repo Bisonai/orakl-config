@@ -1,9 +1,9 @@
 {
-  "aggregatorHash": "0xc3d7ff282b7ecdc26b72382546154edafbff90d37e171fa80db5ccd6eb94c0f4",
+  "aggregatorHash": "0xff894ce902b0dd7552da6359fb38df6b4c498fde2394225f3f0fd167099fb4aa",
   "name": "MATIC-USDT",
-  "address": "0x99E9E1a78498575E78F46675b54847767C5787Fb",
+  "address": "0x38E0f7a626Efe241cCBe6EB2aA65273a9D6321Ce",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,
-  "adapterHash": "0xaac691986b90ba59358d2b8bff58036bcfea21cbd9f82ab08915902bdb00cdb1"
+  "adapterHash": "0x42fb5c5f2ee4712d9b4665bc87bf8147960cfc919e1716faaa2b5b7262a3915a"
 }

@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0x6e1a8237ab158c7a69a78f82f59033964c5d511b8ea9b42064d206f01868e081",
+  "adapterHash": "0xcdd026d2200555d3c7e7317df0fde759e2688d165fced268f8e9469f3c195bbf",
   "name": "BUSD-USDT",
   "decimals": 8,
   "feeds": [
@@ -69,37 +69,6 @@
           {
             "function": "PARSE",
             "args": ["data", "price"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Crypto-BUSD-USDT",
-      "definition": {
-        "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=BUSD_USDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["result", "data"]
-          },
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["a"]
           },
           {
             "function": "POW10",

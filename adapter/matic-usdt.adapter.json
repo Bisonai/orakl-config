@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0xaac691986b90ba59358d2b8bff58036bcfea21cbd9f82ab08915902bdb00cdb1",
+  "adapterHash": "0x42fb5c5f2ee4712d9b4665bc87bf8147960cfc919e1716faaa2b5b7262a3915a",
   "name": "MATIC-USDT",
   "decimals": 8,
   "feeds": [
@@ -127,52 +127,6 @@
           {
             "function": "PARSE",
             "args": ["indexPrice"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Coinbase-MATIC-USDT",
-      "definition": {
-        "url": "https://api.coinbase.com/v2/exchange-rates?currency=MATIC",
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["data", "rates", "USDT"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Bittrex-MATIC-USDT",
-      "definition": {
-        "url": "https://api.bittrex.com/v3/markets/MATIC-USDT/ticker",
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["lastTradeRate"]
           },
           {
             "function": "POW10",

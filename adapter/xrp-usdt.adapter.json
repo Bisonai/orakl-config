@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0x61dc4a3225212016c0cbe5deffa1db31e01837fb0a061ff1cf355650287e0162",
+  "adapterHash": "0x8fc3bf663dcfd380be2e9941dcc163cff1f14ef1d4b7f4140ed2fce34961c4cd",
   "name": "XRP-USDT",
   "decimals": 8,
   "feeds": [
@@ -150,29 +150,6 @@
           {
             "function": "PARSE",
             "args": ["data", "rates", "USDT"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Bittrex-XRP-USDT",
-      "definition": {
-        "url": "https://api.bittrex.com/v3/markets/XRP-USDT/ticker",
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["lastTradeRate"]
           },
           {
             "function": "POW10",
