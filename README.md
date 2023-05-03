@@ -59,3 +59,7 @@
 | [TRX-USDT](aggregator/default/trx-usdt.aggregator.json)     | -              | -       | 15000     | 0.05      | 0.1               | 0xa18dbcc041ad0373929711bc3570e7da99659a370db1665699092a5b231dd8fe |
 | [USDC-USDT](aggregator/default/usdc-usdt.aggregator.json)   | -              | -       | 15000     | 0.05      | 0.1               | 0xcc5560356e56fd70153a9e928967b363189360167d55e9844d69e357b32ed6ca |
 | [XRP-USDT](aggregator/default/xrp-usdt.aggregator.json)     | -              | -       | 15000     | 0.05      | 0.1               | 0x8fc3bf663dcfd380be2e9941dcc163cff1f14ef1d4b7f4140ed2fce34961c4cd |
+
+## Log history
+
+History of Adapter and Aggregator - [Link to page](HISTORY.md)
