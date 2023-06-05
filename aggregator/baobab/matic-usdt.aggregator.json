@@ -1,7 +1,7 @@
 {
   "aggregatorHash": "0xff894ce902b0dd7552da6359fb38df6b4c498fde2394225f3f0fd167099fb4aa",
   "name": "MATIC-USDT",
-  "address": "0x38E0f7a626Efe241cCBe6EB2aA65273a9D6321Ce",
+  "address": "0x7970d00F24e65F1BC757896e32Db820A8e9260F0",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,
