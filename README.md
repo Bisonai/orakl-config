@@ -1,4 +1,3 @@
-
 ## Adapter
 
 | name | adapterHash | decimals | feeds  |
@@ -42,27 +41,28 @@
 
 ## Aggregator Default
 
-| name | aggregatorHash | address | heartbeat | threshold | absoluteThreshold | adapterHash  |
-|  --- |  --- |  --- |  --- |  --- |  --- |  ---  |
-| [ADA-USDT](aggregator/default/ada-usdt.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0x3687675a0761d814147ac24366bb558b991397e5cabc6ed31498ba11b6125489  |
-| [BNB-USDT](aggregator/default/bnb-usdt.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0x8b4d886ffb1b1f24bd6069f648b03413d79ffcf84f56f3ae23857a02fa4186a5  |
-| [BTC-USD](aggregator/default/btc-usd.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0xfb03ebf457def32f2d28944ec58af6796ec87e0aad6e01760bc7037d6ac71ea3  |
-| [BTC-USDT](aggregator/default/btc-usdt.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0x428f92e44e58b056bf93283c185a2a9c493a020f3692ba6d79112e79e3178490  |
-| [BUSD-USDT](aggregator/default/busd-usdt.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0xcdd026d2200555d3c7e7317df0fde759e2688d165fced268f8e9469f3c195bbf  |
-| [DAI-USDT](aggregator/default/dai-usdt.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0x0e0c7b9f61f34aa68cd9fcd48e6fef8ebca763171626b808671c9e2d79cf100d  |
-| [DOGE-USDT](aggregator/default/doge-usdt.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0x4ec5aa686e27c152457bfe8256741316eebb100cb62eb8a1a93590e058b045a0  |
-| [DOT-USDT](aggregator/default/dot-usdt.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0x9c7a66a871649601bdccbd3a477e1f62f22856a745b86fa14ffde22e3a72151b  |
-| [ETH-USD](aggregator/default/eth-usd.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0x0b754850b753b9eca61724dc780c02d5f9a62a08c8853b80a213a03d85e35729  |
-| [ETH-USDT](aggregator/default/eth-usdt.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0x65c601a931e65d7708d7e69e25615eeec2fcc6c7a1b5de095370efc2948edaa1  |
-| [KLAY-USD](aggregator/default/klay-usd.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0x69f797b7591e939b45f8aa51766bd696dfc2707d6316743b3c8c8bdfac73eb93  |
-| [KLAY-USDT](aggregator/default/klay-usdt.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0x28685856d05c545536c1fe0211c2d3b042a4e4346c8ae071f32893873da29c3d  |
-| [MATIC-USDT](aggregator/default/matic-usdt.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0x42fb5c5f2ee4712d9b4665bc87bf8147960cfc919e1716faaa2b5b7262a3915a  |
-| [MNR-KRW](aggregator/default/mnr-krw.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0x343d0b550e7e286aa9f966a738d48877a550fa52521196b31f3f314809253cf6  |
-| [SHIB-USDT](aggregator/default/shib-usdt.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0x8300f3385e5843e0da2504964067ab0d81de054550826e60577602e50cffe48c  |
-| [SOL-USDT](aggregator/default/sol-usdt.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0x6de578980052d37436cdbc5b478691bb5b8237302d058fa3f69b1d3a7639bfe2  |
-| [TRX-USDT](aggregator/default/trx-usdt.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0xa18dbcc041ad0373929711bc3570e7da99659a370db1665699092a5b231dd8fe  |
-| [USDC-USDT](aggregator/default/usdc-usdt.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0xcc5560356e56fd70153a9e928967b363189360167d55e9844d69e357b32ed6ca  |
-| [XRP-USDT](aggregator/default/xrp-usdt.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0x8fc3bf663dcfd380be2e9941dcc163cff1f14ef1d4b7f4140ed2fce34961c4cd  |
+| name                                                        | aggregatorHash | address | heartbeat | threshold | absoluteThreshold | adapterHash                                                        |
+|-------------------------------------------------------------|----------------|---------|-----------|-----------|-------------------|--------------------------------------------------------------------|
+| [ADA-USDT](aggregator/default/ada-usdt.aggregator.json)     | -              | -       | 15000     | 0.05      | 0.1               | 0x3687675a0761d814147ac24366bb558b991397e5cabc6ed31498ba11b6125489 |
+| [BNB-USDT](aggregator/default/bnb-usdt.aggregator.json)     | -              | -       | 15000     | 0.05      | 0.1               | 0x8b4d886ffb1b1f24bd6069f648b03413d79ffcf84f56f3ae23857a02fa4186a5 |
+| [BTC-USD](aggregator/default/btc-usd.aggregator.json)       | -              | -       | 15000     | 0.05      | 0.1               | 0xfb03ebf457def32f2d28944ec58af6796ec87e0aad6e01760bc7037d6ac71ea3 |
+| [BTC-USDT](aggregator/default/btc-usdt.aggregator.json)     | -              | -       | 15000     | 0.05      | 0.1               | 0x428f92e44e58b056bf93283c185a2a9c493a020f3692ba6d79112e79e3178490 |
+| [BUSD-USDT](aggregator/default/busd-usdt.aggregator.json)   | -              | -       | 15000     | 0.05      | 0.1               | 0xcdd026d2200555d3c7e7317df0fde759e2688d165fced268f8e9469f3c195bbf |
+| [DAI-USDT](aggregator/default/dai-usdt.aggregator.json)     | -              | -       | 15000     | 0.05      | 0.1               | 0x0e0c7b9f61f34aa68cd9fcd48e6fef8ebca763171626b808671c9e2d79cf100d |
+| [DOGE-USDT](aggregator/default/doge-usdt.aggregator.json)   | -              | -       | 15000     | 0.05      | 0.1               | 0x4ec5aa686e27c152457bfe8256741316eebb100cb62eb8a1a93590e058b045a0 |
+| [DOT-USDT](aggregator/default/dot-usdt.aggregator.json)     | -              | -       | 15000     | 0.05      | 0.1               | 0x9c7a66a871649601bdccbd3a477e1f62f22856a745b86fa14ffde22e3a72151b |
+| [ETH-USD](aggregator/default/eth-usd.aggregator.json)       | -              | -       | 15000     | 0.05      | 0.1               | 0x0b754850b753b9eca61724dc780c02d5f9a62a08c8853b80a213a03d85e35729 |
+| [ETH-USDT](aggregator/default/eth-usdt.aggregator.json)     | -              | -       | 15000     | 0.05      | 0.1               | 0x65c601a931e65d7708d7e69e25615eeec2fcc6c7a1b5de095370efc2948edaa1 |
+| [KLAY-USD](aggregator/default/klay-usd.aggregator.json)     | -              | -       | 15000     | 0.05      | 0.1               | 0x69f797b7591e939b45f8aa51766bd696dfc2707d6316743b3c8c8bdfac73eb93 |
+| [KLAY-USDT](aggregator/default/klay-usdt.aggregator.json)   | -              | -       | 15000     | 0.05      | 0.1               | 0x28685856d05c545536c1fe0211c2d3b042a4e4346c8ae071f32893873da29c3d |
+| [MATIC-USDT](aggregator/default/matic-usdt.aggregator.json) | -              | -       | 15000     | 0.05      | 0.1               | 0x42fb5c5f2ee4712d9b4665bc87bf8147960cfc919e1716faaa2b5b7262a3915a |
+| [MNR-KRW](aggregator/default/mnr-krw.aggregator.json)       | -              | -       | 15000     | 0.05      | 0.1               | 0x343d0b550e7e286aa9f966a738d48877a550fa52521196b31f3f314809253cf6 |
+| [SHIB-USDT](aggregator/default/shib-usdt.aggregator.json)   | -              | -       | 15000     | 0.05      | 0.1               | 0x8300f3385e5843e0da2504964067ab0d81de054550826e60577602e50cffe48c |
+| [SOL-USDT](aggregator/default/sol-usdt.aggregator.json)     | -              | -       | 15000     | 0.05      | 0.1               | 0x6de578980052d37436cdbc5b478691bb5b8237302d058fa3f69b1d3a7639bfe2 |
+| [TRX-USDT](aggregator/default/trx-usdt.aggregator.json)     | -              | -       | 15000     | 0.05      | 0.1               | 0xa18dbcc041ad0373929711bc3570e7da99659a370db1665699092a5b231dd8fe |
+| [USDC-USDT](aggregator/default/usdc-usdt.aggregator.json)   | -              | -       | 15000     | 0.05      | 0.1               | 0xcc5560356e56fd70153a9e928967b363189360167d55e9844d69e357b32ed6ca |
+| [XRP-USDT](aggregator/default/xrp-usdt.aggregator.json)     | -              | -       | 15000     | 0.05      | 0.1               | 0x8fc3bf663dcfd380be2e9941dcc163cff1f14ef1d4b7f4140ed2fce34961c4cd |
+
 ## Log history
 
 History of Adapter and Aggregator - [Link to page](HISTORY.md)
