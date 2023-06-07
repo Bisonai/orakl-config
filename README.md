@@ -1,3 +1,4 @@
+
 ## Adapter
 
 | name | adapterHash | decimals | feeds  |
@@ -56,7 +57,7 @@
 | [KLAY-USD](aggregator/default/klay-usd.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0x69f797b7591e939b45f8aa51766bd696dfc2707d6316743b3c8c8bdfac73eb93  |
 | [KLAY-USDT](aggregator/default/klay-usdt.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0x28685856d05c545536c1fe0211c2d3b042a4e4346c8ae071f32893873da29c3d  |
 | [MATIC-USDT](aggregator/default/matic-usdt.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0x42fb5c5f2ee4712d9b4665bc87bf8147960cfc919e1716faaa2b5b7262a3915a  |
-| [MNR-KRW](aggregator/default/mnr-krw.aggregator.json) | 0x4f864798f40a3ad4163400b31d493cf9cf03aa4dd9ce1153b9bda5e47cf6ecaa | - | 15000 | 0.05 | 0.1 | 0x343d0b550e7e286aa9f966a738d48877a550fa52521196b31f3f314809253cf6  |
+| [MNR-KRW](aggregator/default/mnr-krw.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0x343d0b550e7e286aa9f966a738d48877a550fa52521196b31f3f314809253cf6  |
 | [SHIB-USDT](aggregator/default/shib-usdt.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0x8300f3385e5843e0da2504964067ab0d81de054550826e60577602e50cffe48c  |
 | [SOL-USDT](aggregator/default/sol-usdt.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0x6de578980052d37436cdbc5b478691bb5b8237302d058fa3f69b1d3a7639bfe2  |
 | [TRX-USDT](aggregator/default/trx-usdt.aggregator.json) | - | - | 15000 | 0.05 | 0.1 | 0xa18dbcc041ad0373929711bc3570e7da99659a370db1665699092a5b231dd8fe  |
