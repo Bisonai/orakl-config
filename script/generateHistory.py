@@ -5,10 +5,13 @@ from subprocess import PIPE, Popen
 adapterPath = 'adapter/'
 aggregatorDefaultPath = 'aggregator/default/'
 aggregatorBaobabPath = 'aggregator/baobab/'
+aggregatorCypressPath = 'aggregator/cypress/'
+
 
 adapters = sorted(os.listdir(adapterPath))
 aggregatorsDefault = sorted(os.listdir(aggregatorDefaultPath))
 aggregatorsBaobab = sorted(os.listdir(aggregatorBaobabPath))
+aggregatorsCypress = sorted(os.listdir(aggregatorCypressPath))
 
 
 def loadJsonFromPath(filePath):
@@ -76,6 +79,9 @@ print('\n# History of Adapter and Aggregator')
 
 print('\n## Adapter\n')
 generateHistory(adapters, adapterPath)
+
+print('\n## Aggregator Cypress\n')
+generateHistory(aggregatorsCypress, aggregatorCypressPath)
 
 print('\n## Aggregator Baobab\n')
 generateHistory(aggregatorsBaobab, aggregatorBaobabPath)

@@ -1,0 +1,9 @@
+{
+  "aggregatorHash": "0x59b1bc11d0eb079e7df154b3c8082c28f3fee9825c684ab131fd79ea24b58cf2",
+  "name": "DOT-USDT",
+  "address": "0x38362F1a2d7c223a132018505A35a87A63f7840A",
+  "heartbeat": 15000,
+  "threshold": 0.05,
+  "absoluteThreshold": 0.1,
+  "adapterHash": "0x9c7a66a871649601bdccbd3a477e1f62f22856a745b86fa14ffde22e3a72151b"
+}
