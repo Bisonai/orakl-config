@@ -4,10 +4,12 @@ import json
 adapterPath = 'adapter/'
 aggregatorDefaultPath = 'aggregator/default/'
 aggregatorBaobabPath = 'aggregator/baobab/'
+aggregatorCypressPath = 'aggregator/cypress/'
 
 adapters = sorted(os.listdir(adapterPath))
 aggregatorsDefault = sorted(os.listdir(aggregatorDefaultPath))
 aggregatorsBaobab = sorted(os.listdir(aggregatorBaobabPath))
+aggregatorsCypress = sorted(os.listdir(aggregatorCypressPath))
 
 
 def makeLine(words):
@@ -96,6 +98,9 @@ checkHashMatch()
 
 print('\n## Adapter\n')
 generateAdapterList()
+
+print('\n## Aggregator Cypress\n')
+generateAggregatorList(aggregatorCypressPath, aggregatorsCypress)
 
 print('\n## Aggregator Baobab\n')
 generateAggregatorList(aggregatorBaobabPath, aggregatorsBaobab)
