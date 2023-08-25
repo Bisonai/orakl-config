@@ -1,7 +1,7 @@
 {
-  "aggregatorHash": "",
+  "aggregatorHash": "0xc5d9f1ed91a9bfe17b32f6495f96e4ea16c3605a4580c58ff90d27260d0bcc6d",
   "name": "DAI-USDT",
-  "address": "",
+  "address": "16",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,
