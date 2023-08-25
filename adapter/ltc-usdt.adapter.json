@@ -1,0 +1,223 @@
+{
+  "adapterHash": "0xbf751ea93246f30d17f41e51bb833d82367f6020788dbe9cf99db2bfaa99d063",
+  "name": "LTC-USDT",
+  "decimals": 8,
+  "feeds": [
+    {
+      "name": "Bybit-LTC-USDT",
+      "definition": {
+        "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=LTCUSDT",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": ["result", "list"]
+          },
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": ["lastPrice"]
+          },
+          {
+            "function": "POW10",
+            "args": 8
+          },
+          {
+            "function": "ROUND"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Binance-LTC-USDT",
+      "definition": {
+        "url": "https://api.binance.com/api/v3/avgPrice?symbol=LTCUSDT",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": ["price"]
+          },
+          {
+            "function": "POW10",
+            "args": 8
+          },
+          {
+            "function": "ROUND"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kucoin-LTC-USDT",
+      "definition": {
+        "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=LTC-USDT",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": ["data", "price"]
+          },
+          {
+            "function": "POW10",
+            "args": 8
+          },
+          {
+            "function": "ROUND"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crypto-LTC-USDT",
+      "definition": {
+        "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=LTC_USDT",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": ["result", "data"]
+          },
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": ["a"]
+          },
+          {
+            "function": "POW10",
+            "args": 8
+          },
+          {
+            "function": "ROUND"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Btse-LTC-USDT",
+      "definition": {
+        "url": "https://api.btse.com/spot/api/v3.2/price?symbol=LTC-USDT",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": ["indexPrice"]
+          },
+          {
+            "function": "POW10",
+            "args": 8
+          },
+          {
+            "function": "ROUND"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gateio-LTC-USDT",
+      "definition": {
+        "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=LTC_USDT",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": ["last"]
+          },
+          {
+            "function": "POW10",
+            "args": 8
+          },
+          {
+            "function": "ROUND"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lbkex-LTC-USDT",
+      "definition": {
+        "url": "https://api.lbkex.com/v2/ticker/24hr.do?symbol=ltc_usdt",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": ["data"]
+          },
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": ["ticker", "latest"]
+          },
+          {
+            "function": "POW10",
+            "args": 8
+          },
+          {
+            "function": "ROUND"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Coinex-LTC-USDT",
+      "definition": {
+        "url": "https://api.coinex.com/v1/market/ticker?market=LTCUSDT",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": ["data", "ticker", "last"]
+          },
+          {
+            "function": "POW10",
+            "args": 8
+          },
+          {
+            "function": "ROUND"
+          }
+        ]
+      }
+    }
+  ]
+}
