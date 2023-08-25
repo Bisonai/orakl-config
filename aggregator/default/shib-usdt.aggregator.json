@@ -1,7 +1,7 @@
 {
-  "aggregatorHash": "",
+  "aggregatorHash": "0x4749b583b16706985e39bf13b47e13c47528354ba4a5346e244b5c13d389ccc4",
   "name": "SHIB-USDT",
-  "address": "",
+  "address": "4",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,
