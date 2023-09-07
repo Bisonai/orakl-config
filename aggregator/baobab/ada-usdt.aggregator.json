@@ -1,7 +1,7 @@
 {
   "aggregatorHash": "0x9f09b00a7525c29679a8121f1a73f54dcfece55b3b8d9f9e80db8cd32d037b2d",
   "name": "ADA-USDT",
-  "address": "",
+  "address": "0x70cDE6bE67486017C52215Ad5d6740ce8EaBC9b8",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,

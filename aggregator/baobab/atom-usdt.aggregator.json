@@ -1,7 +1,7 @@
 {
   "aggregatorHash": "0x6513850de3a036576ef41daa191a5ce8c1995abc2b1df78f2600cff2fe99bfda",
   "name": "ATOM-USDT",
-  "address": "",
+  "address": "0xD84659b5e6d7123e21ee80f13685D733a9a9a0b0",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,

@@ -1,9 +1,9 @@
 {
-  "aggregatorHash": "0xcdf65156d5d4adf7e8a79e81f0ace9bacd9edb5e1fd64a4e9de38739df2b13cb",
+  "aggregatorHash": "0xfa14a84a1f1041bd3ebcdf843f583ef8eb8b39ae1f8069ce6167f5270b02f2d3",
   "name": "SOL-USDT",
-  "address": "22",
+  "address": "",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,
-  "adapterHash": "0x6de578980052d37436cdbc5b478691bb5b8237302d058fa3f69b1d3a7639bfe2"
+  "adapterHash": "0x796035c254439e6aa8176843fabd36dd2b1d7d37052e76d7b19c9993d1b8ad0c"
 }
