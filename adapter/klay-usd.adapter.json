@@ -7,22 +7,12 @@
       "name": "Coingecko-KLAY-USD",
       "definition": {
         "url": "https://api.coingecko.com/api/v3/simple/price?ids=klay-token&vs_currencies=usd",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["klay-token", "usd"]
-          },
-          {
-            "function": "POW10",
-            "args": "8"
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["klay-token", "usd"] },
+          { "function": "POW10", "args": "8" },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -30,22 +20,12 @@
       "name": "Coinbase-KLAY-USD",
       "definition": {
         "url": "https://api.coinbase.com/v2/exchange-rates?currency=KLAY",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["data", "rates", "USD"]
-          },
-          {
-            "function": "POW10",
-            "args": "8"
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["data", "rates", "USD"] },
+          { "function": "POW10", "args": "8" },
+          { "function": "ROUND" }
         ]
       }
     }

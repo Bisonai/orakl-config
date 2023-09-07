@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0xa3b6e7f11973e29f456a88db41f3f4597709287a53b205e9d103dbe6138db7df",
+  "adapterHash": "0x881ea816054c7dd747a2d5bf722ed50e8361efb1719cc6a26ff7795afe9e551c",
   "name": "ATOM-USDT",
   "decimals": 8,
   "feeds": [
@@ -7,30 +7,14 @@
       "name": "Bybit-ATOM-USDT",
       "definition": {
         "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=ATOMUSDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["result", "list"]
-          },
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["lastPrice"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["result", "list"] },
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["lastPrice"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -38,22 +22,12 @@
       "name": "Binance-ATOM-USDT",
       "definition": {
         "url": "https://api.binance.com/api/v3/avgPrice?symbol=ATOMUSDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["price"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["price"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -61,22 +35,12 @@
       "name": "Kucoin-ATOM-USDT",
       "definition": {
         "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ATOM-USDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["data", "price"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["data", "price"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -84,30 +48,14 @@
       "name": "Crypto-ATOM-USDT",
       "definition": {
         "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=ATOM_USDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["result", "data"]
-          },
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["a"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["result", "data"] },
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["a"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -115,26 +63,13 @@
       "name": "Btse-ATOM-USDT",
       "definition": {
         "url": "https://api.btse.com/spot/api/v3.2/price?symbol=ATOM-USDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["indexPrice"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["indexPrice"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -142,22 +77,12 @@
       "name": "Coinbase-ATOM-USDT",
       "definition": {
         "url": "https://api.coinbase.com/v2/exchange-rates?currency=ATOM",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["data", "rates", "USDT"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["data", "rates", "USDT"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -165,57 +90,13 @@
       "name": "Gateio-ATOM-USDT",
       "definition": {
         "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=ATOM_USDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["last"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Lbkex-ATOM-USDT",
-      "definition": {
-        "url": "https://api.lbkex.com/v2/ticker/24hr.do?symbol=atom_usdt",
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["data"]
-          },
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["ticker", "latest"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["last"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -223,22 +104,12 @@
       "name": "Coinex-ATOM-USDT",
       "definition": {
         "url": "https://api.coinex.com/v1/market/ticker?market=ATOMUSDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["data", "ticker", "last"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["data", "ticker", "last"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     }

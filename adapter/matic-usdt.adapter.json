@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0x42fb5c5f2ee4712d9b4665bc87bf8147960cfc919e1716faaa2b5b7262a3915a",
+  "adapterHash": "0xd4f00e74265c3c0253c68d87313c02e5de2d438059c2251650a0e60d54e9a311",
   "name": "MATIC-USDT",
   "decimals": 8,
   "feeds": [
@@ -7,30 +7,14 @@
       "name": "Bybit-MATIC-USDT",
       "definition": {
         "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=MATICUSDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["result", "list"]
-          },
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["lastPrice"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["result", "list"] },
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["lastPrice"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -38,22 +22,12 @@
       "name": "Binance-MATIC-USDT",
       "definition": {
         "url": "https://api.binance.com/api/v3/avgPrice?symbol=MATICUSDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["price"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["price"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -61,22 +35,12 @@
       "name": "Kucoin-MATIC-USDT",
       "definition": {
         "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=MATIC-USDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["data", "price"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["data", "price"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -84,30 +48,14 @@
       "name": "Crypto-MATIC-USDT",
       "definition": {
         "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=MATIC_USDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["result", "data"]
-          },
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["a"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["result", "data"] },
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["a"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -115,26 +63,13 @@
       "name": "Btse-MATIC-USDT",
       "definition": {
         "url": "https://api.btse.com/spot/api/v3.2/price?symbol=MATIC-USDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["indexPrice"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["indexPrice"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -142,57 +77,13 @@
       "name": "Gateio-MATIC-USDT",
       "definition": {
         "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=MATIC_USDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["last"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Lbkex-MATIC-USDT",
-      "definition": {
-        "url": "https://api.lbkex.com/v2/ticker/24hr.do?symbol=matic_usdt",
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["data"]
-          },
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["ticker", "latest"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["last"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -200,22 +91,12 @@
       "name": "Coinex-MATIC-USDT",
       "definition": {
         "url": "https://api.coinex.com/v1/market/ticker?market=MATICUSDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["data", "ticker", "last"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["data", "ticker", "last"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     }
