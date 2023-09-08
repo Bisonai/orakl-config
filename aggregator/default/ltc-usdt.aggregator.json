@@ -1,9 +1,9 @@
 {
-  "aggregatorHash": "0x7c43bc0d99ccb5205e73840339a12a1211060acdf98da8144fe7ea46728eae4c",
+  "aggregatorHash": "0xa81b035534b6e84cf8410423de0d43aa2b3b05fec865d4eb827977a855046b05",
   "name": "LTC-USDT",
-  "address": "9",
+  "address": "",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,
-  "adapterHash": "0xbf751ea93246f30d17f41e51bb833d82367f6020788dbe9cf99db2bfaa99d063"
+  "adapterHash": "0x2a1d2a4a8bb5d40c2763a0e2e112424bf89738cd8e16f7848bd2ad66abeb297d"
 }

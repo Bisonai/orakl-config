@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0x65c601a931e65d7708d7e69e25615eeec2fcc6c7a1b5de095370efc2948edaa1",
+  "adapterHash": "0x8d0dbe7fc5e6e6468506dbf7ccf1ba70bb260fb6820dad67933fa73a2498b5d2",
   "name": "ETH-USDT",
   "decimals": 8,
   "feeds": [
@@ -7,30 +7,14 @@
       "name": "Bybit-ETH-USDT",
       "definition": {
         "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=ETHUSDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["result", "list"]
-          },
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["lastPrice"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["result", "list"] },
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["lastPrice"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -38,22 +22,12 @@
       "name": "Binance-ETH-USDT",
       "definition": {
         "url": "https://api.binance.com/api/v3/avgPrice?symbol=ETHUSDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["price"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["price"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -61,22 +35,12 @@
       "name": "Kucoin-ETH-USDT",
       "definition": {
         "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ETH-USDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["data", "price"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["data", "price"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -84,30 +48,14 @@
       "name": "Crypto-ETH-USDT",
       "definition": {
         "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=ETH_USDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["result", "data"]
-          },
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["a"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["result", "data"] },
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["a"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -115,26 +63,13 @@
       "name": "Btse-ETH-USDT",
       "definition": {
         "url": "https://api.btse.com/spot/api/v3.2/price?symbol=ETH-USDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["indexPrice"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["indexPrice"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -142,22 +77,12 @@
       "name": "Coinbase-ETH-USDT",
       "definition": {
         "url": "https://api.coinbase.com/v2/exchange-rates?currency=ETH",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["data", "rates", "USDT"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["data", "rates", "USDT"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -165,57 +90,13 @@
       "name": "Gateio-ETH-USDT",
       "definition": {
         "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=ETH_USDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["last"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Lbkex-ETH-USDT",
-      "definition": {
-        "url": "https://api.lbkex.com/v2/ticker/24hr.do?symbol=eth_usdt",
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["data"]
-          },
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["ticker", "latest"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["last"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -223,22 +104,12 @@
       "name": "Coinex-ETH-USDT",
       "definition": {
         "url": "https://api.coinex.com/v1/market/ticker?market=ETHUSDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["data", "ticker", "last"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["data", "ticker", "last"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     }

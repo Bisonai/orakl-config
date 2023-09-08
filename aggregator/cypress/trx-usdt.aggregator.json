@@ -1,9 +1,9 @@
 {
-  "aggregatorHash": "0x5c7e2bfe50cc780ede1769dd166a8e1840dca5c971bf4f3b659ff0eaa6eae7e6",
+  "aggregatorHash": "0xd05a4e984a2a2122a1dd9bcb06538c49e5f539beff680dc9c859b8abbfd02999",
   "name": "TRX-USDT",
   "address": "0x035A27A2797106Dc68606cA054dA5429750F0d86",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,
-  "adapterHash": "0xa18dbcc041ad0373929711bc3570e7da99659a370db1665699092a5b231dd8fe"
+  "adapterHash": "0x5a5303f18ca8a2d168bb4ae15b6fff96664b3dd0a6b70efab343cc1cc15b7aa9"
 }

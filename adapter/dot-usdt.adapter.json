@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0x9c7a66a871649601bdccbd3a477e1f62f22856a745b86fa14ffde22e3a72151b",
+  "adapterHash": "0xb9c0cead8c197295b81f5eaf73ffa6254245d7f14a206e7ad5c8026195718716",
   "name": "DOT-USDT",
   "decimals": 8,
   "feeds": [
@@ -7,30 +7,14 @@
       "name": "Bybit-DOT-USDT",
       "definition": {
         "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=DOTUSDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["result", "list"]
-          },
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["lastPrice"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["result", "list"] },
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["lastPrice"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -38,22 +22,12 @@
       "name": "Binance-DOT-USDT",
       "definition": {
         "url": "https://api.binance.com/api/v3/avgPrice?symbol=DOTUSDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["price"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["price"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -61,22 +35,12 @@
       "name": "Kucoin-DOT-USDT",
       "definition": {
         "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=DOT-USDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["data", "price"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["data", "price"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -84,30 +48,14 @@
       "name": "Crypto-DOT-USDT",
       "definition": {
         "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=DOT_USDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["result", "data"]
-          },
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["a"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["result", "data"] },
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["a"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -115,26 +63,13 @@
       "name": "Btse-DOT-USDT",
       "definition": {
         "url": "https://api.btse.com/spot/api/v3.2/price?symbol=DOT-USDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["indexPrice"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["indexPrice"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -142,57 +77,13 @@
       "name": "Gateio-DOT-USDT",
       "definition": {
         "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=DOT_USDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["last"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Lbkex-DOT-USDT",
-      "definition": {
-        "url": "https://api.lbkex.com/v2/ticker/24hr.do?symbol=dot_usdt",
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["data"]
-          },
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["ticker", "latest"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["last"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -200,22 +91,12 @@
       "name": "Coinex-DOT-USDT",
       "definition": {
         "url": "https://api.coinex.com/v1/market/ticker?market=DOTUSDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["data", "ticker", "last"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["data", "ticker", "last"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     }

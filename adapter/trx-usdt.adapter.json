@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0xa18dbcc041ad0373929711bc3570e7da99659a370db1665699092a5b231dd8fe",
+  "adapterHash": "0x5a5303f18ca8a2d168bb4ae15b6fff96664b3dd0a6b70efab343cc1cc15b7aa9",
   "name": "TRX-USDT",
   "decimals": 8,
   "feeds": [
@@ -7,30 +7,14 @@
       "name": "Bybit-TRX-USDT",
       "definition": {
         "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=TRXUSDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["result", "list"]
-          },
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["lastPrice"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["result", "list"] },
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["lastPrice"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -38,22 +22,12 @@
       "name": "Binance-TRX-USDT",
       "definition": {
         "url": "https://api.binance.com/api/v3/avgPrice?symbol=TRXUSDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["price"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["price"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -61,22 +35,12 @@
       "name": "Kucoin-TRX-USDT",
       "definition": {
         "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=TRX-USDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["data", "price"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["data", "price"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -84,26 +48,13 @@
       "name": "Btse-TRX-USDT",
       "definition": {
         "url": "https://api.btse.com/spot/api/v3.2/price?symbol=TRX-USDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["indexPrice"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["indexPrice"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -111,57 +62,13 @@
       "name": "Gateio-TRX-USDT",
       "definition": {
         "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=TRX_USDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["last"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Lbkex-TRX-USDT",
-      "definition": {
-        "url": "https://api.lbkex.com/v2/ticker/24hr.do?symbol=trx_usdt",
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["data"]
-          },
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["ticker", "latest"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["last"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     },
@@ -169,22 +76,12 @@
       "name": "Coinex-TRX-USDT",
       "definition": {
         "url": "https://api.coinex.com/v1/market/ticker?market=TRXUSDT",
-        "headers": {
-          "Content-Type": "application/json"
-        },
+        "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["data", "ticker", "last"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
+          { "function": "PARSE", "args": ["data", "ticker", "last"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     }

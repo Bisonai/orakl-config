@@ -1,9 +1,9 @@
 {
-  "aggregatorHash": "0xe993a0d5c77a74ba3ba59e7a5a3fd70605e58afc065e0ff9e08b9770ab2e6c39",
+  "aggregatorHash": "0x043be21507a8b2facb2227ad0ec2f42c37b1d45244c2a134c23df8f8ee963f29",
   "name": "DOGE-USDT",
-  "address": "3",
+  "address": "",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,
-  "adapterHash": "0x4ec5aa686e27c152457bfe8256741316eebb100cb62eb8a1a93590e058b045a0"
+  "adapterHash": "0x31ca064c00770b85793d14eebbc62c1f3e9f35c41b6d34ab8e861101f98df3bf"
 }

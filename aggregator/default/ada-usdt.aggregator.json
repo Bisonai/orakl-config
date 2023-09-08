@@ -1,9 +1,9 @@
 {
-  "aggregatorHash": "0xe82cd96540adcf638ae55e34d4b61f6c4e78f1624b390e9c9722302977f96ec7",
+  "aggregatorHash": "0x9f09b00a7525c29679a8121f1a73f54dcfece55b3b8d9f9e80db8cd32d037b2d",
   "name": "ADA-USDT",
-  "address": "1",
+  "address": "",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,
-  "adapterHash": "0x3687675a0761d814147ac24366bb558b991397e5cabc6ed31498ba11b6125489"
+  "adapterHash": "0xf15e595e641f1447b5ad1c128007574b329e00937e6db3857aff1487345ed5f6"
 }

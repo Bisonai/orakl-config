@@ -1,0 +1,9 @@
+{
+  "aggregatorHash": "0xe6e6626ce31e48451f954f5e926ce3d2c1b72f69db48283d66bce7c3e4441f01",
+  "name": "UNI-USDT",
+  "address": "0x82aC2966dD5843e718D0EaeC7108bb4778eeF66B",
+  "heartbeat": 15000,
+  "threshold": 0.05,
+  "absoluteThreshold": 0.1,
+  "adapterHash": "0xdc726751898a7ed7f3ab8ff5a6972a4e90018d823f04aa6f80842346f655cc5f"
+}

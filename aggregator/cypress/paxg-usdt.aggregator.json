@@ -1,0 +1,9 @@
+{
+  "aggregatorHash": "0x182187a5ff6bdc485074f4eb9afc23f898afca5e4e89a9a4b99115307d0aa880",
+  "name": "PAXG-USDT",
+  "address": "0x384C4A7ee7B8Ef8D6a46E2f262581632EF06E313",
+  "heartbeat": 15000,
+  "threshold": 0.05,
+  "absoluteThreshold": 0.1,
+  "adapterHash": "0xfadb661c5e7d9c838f8ca72c968e1c7ae49efd53c76412dd85bcb433e9910c0a"
+}

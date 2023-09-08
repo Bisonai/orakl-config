@@ -1,9 +1,9 @@
 {
-  "aggregatorHash": "0x25ad582ead0126a7045cf1ce35f65a7c6ae140cb40ce1bd3166b44b83119e1c4",
+  "aggregatorHash": "0xfd587ff17278dfe37771aa386f67e5397098cc9946bd7472e802c73edb118d07",
   "name": "XRP-USDT",
-  "address": "12",
+  "address": "",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,
-  "adapterHash": "0x8fc3bf663dcfd380be2e9941dcc163cff1f14ef1d4b7f4140ed2fce34961c4cd"
+  "adapterHash": "0xfb2a6b3fb7dd347da0813360fd977eba476e6ab2dd1d0a49a847a41c33981cc5"
 }
