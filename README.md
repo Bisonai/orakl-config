@@ -1,4 +1,3 @@
-
 ## Adapter
 
 | name                                          | adapterHash                                                        | decimals | feeds |
@@ -9,7 +8,7 @@
 | [BNB-USDT](adapter/bnb-usdt.adapter.json)     | 0x7919f74d334363a913731a20de5926171c80ca1e1efbdc4cd4911074e2db1f03 | 8        | 7     |
 | [BTC-USD](adapter/btc-usd.adapter.json)       | 0xfb03ebf457def32f2d28944ec58af6796ec87e0aad6e01760bc7037d6ac71ea3 | 8        | 5     |
 | [BTC-USDT](adapter/btc-usdt.adapter.json)     | 0xb721dc56f629e3bfa76ff4690b2d776e7dbd58e4e2d801e6d527a9efc86aa8fa | 8        | 8     |
-| [BUSD-USDT](adapter/busd-usdt.adapter.json)   | 0x7a89348823d260d2df89ec858bd5117bbc0fff7e28ac92788bba2d46241c7a62 | 8        | 5     |
+| [BUSD-USDT](adapter/busd-usdt.adapter.json)   | 0xfda0a5403c86a95e52feb713be897f24b4c7cd8e79ad6a06df19aaf81c522413 | 8        | 4     |
 | [DAI-USDT](adapter/dai-usdt.adapter.json)     | 0xd12cf490593da8d1657c29339d78849fdc027722c23c29e7a3b52c99807c45ef | 8        | 5     |
 | [DOGE-USDT](adapter/doge-usdt.adapter.json)   | 0x31ca064c00770b85793d14eebbc62c1f3e9f35c41b6d34ab8e861101f98df3bf | 8        | 8     |
 | [DOT-USDT](adapter/dot-usdt.adapter.json)     | 0xb9c0cead8c197295b81f5eaf73ffa6254245d7f14a206e7ad5c8026195718716 | 8        | 7     |
@@ -38,7 +37,7 @@
 | [AVAX-USDT](aggregator/cypress/avax-usdt.aggregator.json)   | 0x2b24c2a17154b457d756cf326aa0fd8c1307b4ab3cfb5c1864c629e8c7b5b4b6 | 0x700d467Ff6727D99409cBE13e1D3b24A4F8981Df | 15000     | 0.05      | 0.1               | 0x4a69bb6e5be1335415c7d479a41849465fc4b30dcd7c54ec33ff4e6be7cc5d18 |
 | [BNB-USDT](aggregator/cypress/bnb-usdt.aggregator.json)     | 0x6177f04ef0f050a804cbb571af110ba08ffce0987b3ad117c33e72d5210ed8d2 | 0x47c63Bca3Fa9D3eA7F9Bc7C48C14f691d50FB872 | 15000     | 0.05      | 0.1               | 0x7919f74d334363a913731a20de5926171c80ca1e1efbdc4cd4911074e2db1f03 |
 | [BTC-USDT](aggregator/cypress/btc-usdt.aggregator.json)     | 0x716318bfa8b5456339d210ec2be8988b9992d34cec59b94d64da579b9f33bd37 | 0x21df0fDC25cd276FAec7a081159788a2Ec52e040 | 15000     | 0.05      | 0.1               | 0xb721dc56f629e3bfa76ff4690b2d776e7dbd58e4e2d801e6d527a9efc86aa8fa |
-| [BUSD-USDT](aggregator/cypress/busd-usdt.aggregator.json)   | 0x36c539c4889911fe6d2dbd8c9f5f9d3e307aa34ff1d366a08705d4c5df1cd684 | 0x0655f5196Bd589632a1fd7f15d73382537ACCEe5 | 15000     | 0.05      | 0.1               | 0x7a89348823d260d2df89ec858bd5117bbc0fff7e28ac92788bba2d46241c7a62 |
+| [BUSD-USDT](aggregator/cypress/busd-usdt.aggregator.json)   | 0x08ffb07054a28d250fda373e2db775a8c404211774cf68d46c24d934cd5b7b1d | 0x0655f5196Bd589632a1fd7f15d73382537ACCEe5 | 15000     | 0.05      | 0.1               | 0xfda0a5403c86a95e52feb713be897f24b4c7cd8e79ad6a06df19aaf81c522413 |
 | [DAI-USDT](aggregator/cypress/dai-usdt.aggregator.json)     | 0x6eab991f7916132bf528e1887571c7549656ff665dde74fed8507767e6bad39c | 0xc20fA4a7Ba95Ec7E4CbB9458403365210EFa09B5 | 15000     | 0.05      | 0.1               | 0xd12cf490593da8d1657c29339d78849fdc027722c23c29e7a3b52c99807c45ef |
 | [DOGE-USDT](aggregator/cypress/doge-usdt.aggregator.json)   | 0x043be21507a8b2facb2227ad0ec2f42c37b1d45244c2a134c23df8f8ee963f29 | 0x92d6e3893B8853184D167780c7eB0D784F0ebe91 | 15000     | 0.05      | 0.1               | 0x31ca064c00770b85793d14eebbc62c1f3e9f35c41b6d34ab8e861101f98df3bf |
 | [DOT-USDT](aggregator/cypress/dot-usdt.aggregator.json)     | 0xca2d6e15f6604aaa0dc7df0b3d8461b1c0b88ac1ba9584eb0c1af3f758ca79fb | 0x38362F1a2d7c223a132018505A35a87A63f7840A | 15000     | 0.05      | 0.1               | 0xb9c0cead8c197295b81f5eaf73ffa6254245d7f14a206e7ad5c8026195718716 |
@@ -65,7 +64,7 @@
 | [AVAX-USDT](aggregator/baobab/avax-usdt.aggregator.json)   | 0x2b24c2a17154b457d756cf326aa0fd8c1307b4ab3cfb5c1864c629e8c7b5b4b6 | 0xf467B6cF8ED8c3E49c2ED5154b0Bf471c6911529 | 15000     | 0.05      | 0.1               | 0x4a69bb6e5be1335415c7d479a41849465fc4b30dcd7c54ec33ff4e6be7cc5d18 |
 | [BNB-USDT](aggregator/baobab/bnb-usdt.aggregator.json)     | 0x6177f04ef0f050a804cbb571af110ba08ffce0987b3ad117c33e72d5210ed8d2 | 0x731A5AFB6e021579138Ea469B25C2ab46ff44199 | 15000     | 0.05      | 0.1               | 0x7919f74d334363a913731a20de5926171c80ca1e1efbdc4cd4911074e2db1f03 |
 | [BTC-USDT](aggregator/baobab/btc-usdt.aggregator.json)     | 0x716318bfa8b5456339d210ec2be8988b9992d34cec59b94d64da579b9f33bd37 | 0xE747418f2fe0F5794c5105f718b59b283E1B5e07 | 15000     | 0.05      | 0.1               | 0xb721dc56f629e3bfa76ff4690b2d776e7dbd58e4e2d801e6d527a9efc86aa8fa |
-| [BUSD-USDT](aggregator/baobab/busd-usdt.aggregator.json)   | 0x36c539c4889911fe6d2dbd8c9f5f9d3e307aa34ff1d366a08705d4c5df1cd684 | 0xc820F6E9ab1A9321d22720A0986088A9298563ed | 15000     | 0.05      | 0.1               | 0x7a89348823d260d2df89ec858bd5117bbc0fff7e28ac92788bba2d46241c7a62 |
+| [BUSD-USDT](aggregator/baobab/busd-usdt.aggregator.json)   | 0x08ffb07054a28d250fda373e2db775a8c404211774cf68d46c24d934cd5b7b1d | 0xc820F6E9ab1A9321d22720A0986088A9298563ed | 15000     | 0.05      | 0.1               | 0xfda0a5403c86a95e52feb713be897f24b4c7cd8e79ad6a06df19aaf81c522413 |
 | [DAI-USDT](aggregator/baobab/dai-usdt.aggregator.json)     | 0x6eab991f7916132bf528e1887571c7549656ff665dde74fed8507767e6bad39c | 0x219BAD3A896964A2B28Ef4dE6Ae6E6D72B646745 | 15000     | 0.05      | 0.1               | 0xd12cf490593da8d1657c29339d78849fdc027722c23c29e7a3b52c99807c45ef |
 | [DOGE-USDT](aggregator/baobab/doge-usdt.aggregator.json)   | 0x043be21507a8b2facb2227ad0ec2f42c37b1d45244c2a134c23df8f8ee963f29 | 0x98F4BC9fE125c725423deda5418681aB7c8F2CF3 | 15000     | 0.05      | 0.1               | 0x31ca064c00770b85793d14eebbc62c1f3e9f35c41b6d34ab8e861101f98df3bf |
 | [DOT-USDT](aggregator/baobab/dot-usdt.aggregator.json)     | 0xca2d6e15f6604aaa0dc7df0b3d8461b1c0b88ac1ba9584eb0c1af3f758ca79fb | 0x2b062807C6B3F8Ca5C366545d50aA19c114E9d7b | 15000     | 0.05      | 0.1               | 0xb9c0cead8c197295b81f5eaf73ffa6254245d7f14a206e7ad5c8026195718716 |
@@ -93,7 +92,7 @@
 | [BNB-USDT](aggregator/default/bnb-usdt.aggregator.json)     | 0x6177f04ef0f050a804cbb571af110ba08ffce0987b3ad117c33e72d5210ed8d2 | -       | 15000     | 0.05      | 0.1               | 0x7919f74d334363a913731a20de5926171c80ca1e1efbdc4cd4911074e2db1f03 |
 | [BTC-USD](aggregator/default/btc-usd.aggregator.json)       | 0x016bee83072e35bf8d8e559fbc437f1818f8ff86705e2ad2d67ad75ce21bf8f0 | -       | 15000     | 0.05      | 0.1               | 0xfb03ebf457def32f2d28944ec58af6796ec87e0aad6e01760bc7037d6ac71ea3 |
 | [BTC-USDT](aggregator/default/btc-usdt.aggregator.json)     | 0x716318bfa8b5456339d210ec2be8988b9992d34cec59b94d64da579b9f33bd37 | -       | 15000     | 0.05      | 0.1               | 0xb721dc56f629e3bfa76ff4690b2d776e7dbd58e4e2d801e6d527a9efc86aa8fa |
-| [BUSD-USDT](aggregator/default/busd-usdt.aggregator.json)   | 0x36c539c4889911fe6d2dbd8c9f5f9d3e307aa34ff1d366a08705d4c5df1cd684 | -       | 15000     | 0.05      | 0.1               | 0x7a89348823d260d2df89ec858bd5117bbc0fff7e28ac92788bba2d46241c7a62 |
+| [BUSD-USDT](aggregator/default/busd-usdt.aggregator.json)   | 0x08ffb07054a28d250fda373e2db775a8c404211774cf68d46c24d934cd5b7b1d | -       | 15000     | 0.05      | 0.1               | 0xfda0a5403c86a95e52feb713be897f24b4c7cd8e79ad6a06df19aaf81c522413 |
 | [DAI-USDT](aggregator/default/dai-usdt.aggregator.json)     | 0x6eab991f7916132bf528e1887571c7549656ff665dde74fed8507767e6bad39c | -       | 15000     | 0.05      | 0.1               | 0xd12cf490593da8d1657c29339d78849fdc027722c23c29e7a3b52c99807c45ef |
 | [DOGE-USDT](aggregator/default/doge-usdt.aggregator.json)   | 0x043be21507a8b2facb2227ad0ec2f42c37b1d45244c2a134c23df8f8ee963f29 | -       | 15000     | 0.05      | 0.1               | 0x31ca064c00770b85793d14eebbc62c1f3e9f35c41b6d34ab8e861101f98df3bf |
 | [DOT-USDT](aggregator/default/dot-usdt.aggregator.json)     | 0xca2d6e15f6604aaa0dc7df0b3d8461b1c0b88ac1ba9584eb0c1af3f758ca79fb | -       | 15000     | 0.05      | 0.1               | 0xb9c0cead8c197295b81f5eaf73ffa6254245d7f14a206e7ad5c8026195718716 |
