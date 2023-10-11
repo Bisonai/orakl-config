@@ -1,9 +1,9 @@
 {
-  "aggregatorHash": "0x36c539c4889911fe6d2dbd8c9f5f9d3e307aa34ff1d366a08705d4c5df1cd684",
+  "aggregatorHash": "0x08ffb07054a28d250fda373e2db775a8c404211774cf68d46c24d934cd5b7b1d",
   "name": "BUSD-USDT",
   "address": "0x0655f5196Bd589632a1fd7f15d73382537ACCEe5",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,
-  "adapterHash": "0x7a89348823d260d2df89ec858bd5117bbc0fff7e28ac92788bba2d46241c7a62"
+  "adapterHash": "0xfda0a5403c86a95e52feb713be897f24b4c7cd8e79ad6a06df19aaf81c522413"
 }
