@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0x7a89348823d260d2df89ec858bd5117bbc0fff7e28ac92788bba2d46241c7a62",
+  "adapterHash": "0xfda0a5403c86a95e52feb713be897f24b4c7cd8e79ad6a06df19aaf81c522413",
   "name": "BUSD-USDT",
   "decimals": 8,
   "feeds": [
@@ -52,19 +52,6 @@
         "method": "GET",
         "reducers": [
           { "function": "PARSE", "args": ["data", "rates", "USDT"] },
-          { "function": "POW10", "args": 8 },
-          { "function": "ROUND" }
-        ]
-      }
-    },
-    {
-      "name": "Coinex-BUSD-USDT",
-      "definition": {
-        "url": "https://api.coinex.com/v1/market/ticker?market=BUSDUSDT",
-        "headers": { "Content-Type": "application/json" },
-        "method": "GET",
-        "reducers": [
-          { "function": "PARSE", "args": ["data", "ticker", "last"] },
           { "function": "POW10", "args": 8 },
           { "function": "ROUND" }
         ]
