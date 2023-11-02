@@ -1,0 +1,10 @@
+{
+    "aggregatorHash": "0xe87c49db104f27110170d10b10505220f0436fcdeb98754c076848903943fa89",
+    "name": "WEMIX-USDT",
+    "address": "0xBD647a9Bd234BBE8974084b10C34f4556bC32420",
+    "heartbeat": 15000,
+    "threshold": 0.05,
+    "absoluteThreshold": 0.1,
+    "adapterHash": "0x64fa89f33bdaa0a908aad6218e7eeff04b9229533c176e8e9cf68eeae0ff2869"
+  }
+  

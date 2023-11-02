@@ -1,0 +1,10 @@
+{
+    "aggregatorHash": "0x1d1cb1d532040bdf40f8d9e1818f4781646b79adbeef9ed328490a778a822ba6",
+    "name": "BORA-KRW",
+    "address": "0x171E1001F74568100fBA86b98856759d73730459",
+    "heartbeat": 15000,
+    "threshold": 0.05,
+    "absoluteThreshold": 0.1,
+    "adapterHash": "0xf6c3a6a1f072e5e32ea26bf7f588522d6f39ed16dfd1e7830b1828452a0c43f0"
+  }
+  
