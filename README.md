@@ -132,6 +132,7 @@
 | [USDC-USDT](aggregator/default/usdc-usdt.aggregator.json) | 0xc9a52c16deca41145513da4519996b37408374551a7a341c2a88f56c2174115a | - | 15000 | 0.05 | 0.1 | 0x02f451e791fc9273a0e74c1c2f02bda9a02f4819f3d733d30a6b8d8cf4bb3625 |
 | [WEMIX-USDT](aggregator/default/wemix-usdt.aggregator.json) | 0xe87c49db104f27110170d10b10505220f0436fcdeb98754c076848903943fa89 | - | 15000 | 0.05 | 0.1 | 0x64fa89f33bdaa0a908aad6218e7eeff04b9229533c176e8e9cf68eeae0ff2869 |
 | [XRP-USDT](aggregator/default/xrp-usdt.aggregator.json) | 0xfd587ff17278dfe37771aa386f67e5397098cc9946bd7472e802c73edb118d07 | - | 15000 | 0.05 | 0.1 | 0xfb2a6b3fb7dd347da0813360fd977eba476e6ab2dd1d0a49a847a41c33981cc5 |
+
 ## Log history
 
 History of Adapter and Aggregator - [Link to page](HISTORY.md)

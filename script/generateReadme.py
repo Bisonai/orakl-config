@@ -108,5 +108,5 @@ generateAggregatorList(aggregatorBaobabPath, aggregatorsBaobab)
 print('\n## Aggregator Default\n')
 generateAggregatorList(aggregatorDefaultPath, aggregatorsDefault)
 
-print("## Log history\n")
+print("\n## Log history\n")
 print("History of Adapter and Aggregator - [Link to page](HISTORY.md)")
