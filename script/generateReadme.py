@@ -20,13 +20,13 @@ def makeLine(words):
             print('| {} '.format(word), end='')
         else:
             print('| [{}]({}) '.format(word['value'], word['url']), end='')
-    print(' |')
+    print('|')
 
 
 def makeEmptyLine(words):
     for i in range(len(words)):
-        print('| ', '---', end=' ')
-    print(' |')
+        print('|', '---', end=' ')
+    print('|')
 
 
 def loadJsonFromPath(filePath):
