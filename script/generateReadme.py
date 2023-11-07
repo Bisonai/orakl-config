@@ -20,13 +20,13 @@ def makeLine(words):
             print('| {} '.format(word), end='')
         else:
             print('| [{}]({}) '.format(word['value'], word['url']), end='')
-    print(' |')
+    print('|')
 
 
 def makeEmptyLine(words):
     for i in range(len(words)):
-        print('| ', '---', end=' ')
-    print(' |')
+        print('|', '---', end=' ')
+    print('|')
 
 
 def loadJsonFromPath(filePath):
@@ -108,5 +108,5 @@ generateAggregatorList(aggregatorBaobabPath, aggregatorsBaobab)
 print('\n## Aggregator Default\n')
 generateAggregatorList(aggregatorDefaultPath, aggregatorsDefault)
 
-print("## Log history\n")
+print("\n## Log history\n")
 print("History of Adapter and Aggregator - [Link to page](HISTORY.md)")
