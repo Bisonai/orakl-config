@@ -48,7 +48,6 @@ def getUrlList(filePath):
     command = 'git log --branches master --pretty=format:"%H" {}'.format(filePath)
     process = Popen(command, stdout=PIPE, stderr=None, shell=True)
     commitList = process.communicate()[0].decode("utf-8").splitlines()
-    
 
     oraklConfigPath = 'https://github.com/Bisonai/orakl-config/blob/'
     urlList = []
