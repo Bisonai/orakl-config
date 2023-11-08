@@ -52,7 +52,7 @@ def getUrlList(filePath):
     oraklConfigPath = 'https://github.com/Bisonai/orakl-config/blob/'
     urlList = []
 
-    for index, commit in enumerate(commitList):
+    for index, commit in (enumerate(reversed(commitList))):
         url = '{}{}/{}'.format(oraklConfigPath, commit, filePath)
         version = 'v' + str(index + 1)
         urlList.append({'url': url, 'value': version})
