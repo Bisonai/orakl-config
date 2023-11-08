@@ -48,13 +48,14 @@ def getUrlList(filePath):
     command = 'git log --branches master --pretty=format:"%H" {}'.format(filePath)
     process = Popen(command, stdout=PIPE, stderr=None, shell=True)
     commitList = process.communicate()[0].decode("utf-8").splitlines()
+    
 
     oraklConfigPath = 'https://github.com/Bisonai/orakl-config/blob/'
     urlList = []
 
-    for index, commit in enumerate(commitList):
+    for index, commit in reversed(list(enumerate(commitList))):
         url = '{}{}/{}'.format(oraklConfigPath, commit, filePath)
-        version = 'v' + str(index + 1)
+        version = 'v' + str(len(commitList) - index)
         urlList.append({'url': url, 'value': version})
     return urlList
 
