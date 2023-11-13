@@ -1,0 +1,9 @@
+{
+    "aggregatorHash": "",
+    "name": "KRW-USD",
+    "address": "",
+    "heartbeat": 15000,
+    "threshold": 0.05,
+    "absoluteThreshold": 0.1,
+    "adapterHash": "0x0fb2222d8fc27dd7d25611054bbb43d1ba913ac218e1089724b7b0ab150f905a"
+  }
