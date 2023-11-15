@@ -1,0 +1,9 @@
+{
+  "aggregatorHash": "0xd9c2748cb30ac566d6cc7d8c8fca8130eb395aa00a50e21e732224806c0e4e03",
+  "name": "EUR-USD",
+  "address": "0x191EFEc4693437428c8C62d9d60E4c83ABFCADfE",
+  "heartbeat": 15000,
+  "threshold": 0.05,
+  "absoluteThreshold": 0.1,
+  "adapterHash": "0x15ad01562af106a2e72a6f32636d479f7d56ba35dce686aef2572f20f8aae5cf"
+}

@@ -1,0 +1,9 @@
+{
+  "aggregatorHash": "0xdf3243a49ebb6caaa4794aaf8b9d1ed1e51ea88c58a39a1ce9afd5a92929df53",
+  "name": "JPY-USD",
+  "address": "0x0a08359bd058e6666bFf7aFA3409AbC144Fb447F",
+  "heartbeat": 15000,
+  "threshold": 0.05,
+  "absoluteThreshold": 0.1,
+  "adapterHash": "0xdd85da072783e70ce89f00582cabbe0011aa6511fca04b67dc12e1b439a1486d"
+}
