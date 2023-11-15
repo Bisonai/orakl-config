@@ -1,0 +1,19 @@
+{
+  "adapterHash": "0xb38421cb04ad0b8ca4a684a39d2fc98b1b5d1b69fadec4d04f90bb01b9b1dd13",
+  "name": "PEG-POR",
+  "decimals": 4,
+  "feeds": [
+    {
+      "name": "Pennygold-PEG-POR",
+      "definition": {
+        "url": "https://tmc-nft.pennygold.kr/api/v2/balance/getTotalNftAmount",
+        "headers": { "Content-Type": "application/json" },
+        "method": "GET",
+        "reducers": [
+          { "function": "PARSE", "args": ["data", "PEG", "amount"] }
+        ]
+      }
+    }
+  ]
+}
+
