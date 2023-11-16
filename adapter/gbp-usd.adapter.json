@@ -40,6 +40,7 @@
       "name": "Daum-GBP-USD",
       "definition": {
         "url": "https://finance.daum.net/api/exchanges/FRX.GBPUSD",
+        "location": "kr",
         "headers": {
           "Content-Type": "application/json",
           "referer": "https://finance.daum.net/exchanges/FRX.GBPUSD",
