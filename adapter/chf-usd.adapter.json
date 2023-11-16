@@ -35,7 +35,7 @@
       }
     },
     {
-      "name": "Daum-GBP-USD",
+      "name": "Daum-CHF-USD",
       "definition": {
         "url": "https://finance.daum.net/api/exchanges/FRX.CHFUSD",
         "location": "kr",
