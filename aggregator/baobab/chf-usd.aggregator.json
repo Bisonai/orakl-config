@@ -1,9 +1,9 @@
 {
-  "aggregatorHash": "0x1a377860250174b8fe997dd3e5564cb39971d58b9e7a5375238fe2510006c440",
+  "aggregatorHash": "0x0367adcd5586867a82aa7c6acf1db19ba0718a82eef313602b93735f737d1624",
   "name": "CHF-USD",
   "address": "0x3De93EB2891656884E6029D69E905170Bfe906cb",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,
-  "adapterHash": "0x5e382854924ecf3a192d62acc40933400803a15fb41cb4e3e05996d7cab85d41"
+  "adapterHash": "0xafd03c2aaac107c16b43c72c706603fc540d5665d7bb914ec5c00803a859f3b9"
 }
