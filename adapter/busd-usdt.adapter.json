@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0xfda0a5403c86a95e52feb713be897f24b4c7cd8e79ad6a06df19aaf81c522413",
+  "adapterHash": "",
   "name": "BUSD-USDT",
   "decimals": 8,
   "feeds": [
@@ -32,19 +32,6 @@
       }
     },
     {
-      "name": "Kucoin-BUSD-USDT",
-      "definition": {
-        "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BUSD-USDT",
-        "headers": { "Content-Type": "application/json" },
-        "method": "GET",
-        "reducers": [
-          { "function": "PARSE", "args": ["data", "price"] },
-          { "function": "POW10", "args": 8 },
-          { "function": "ROUND" }
-        ]
-      }
-    },
-    {
       "name": "Coinbase-BUSD-USDT",
       "definition": {
         "url": "https://api.coinbase.com/v2/exchange-rates?currency=BUSD",
@@ -52,6 +39,35 @@
         "method": "GET",
         "reducers": [
           { "function": "PARSE", "args": ["data", "rates", "USDT"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
+        ]
+      }
+    },
+    {
+      "name": "Crypto-BUSD-USDT",
+      "definition": {
+        "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=BUSD_USDT",
+        "headers": { "Content-Type": "application/json" },
+        "method": "GET",
+        "reducers": [
+          { "function": "PARSE", "args": ["result", "data"] },
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["a"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
+        ]
+      }
+    },
+    {
+      "name": "Gateio-BUSD-USDT",
+      "definition": {
+        "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=BUSD_USDT",
+        "headers": { "Content-Type": "application/json" },
+        "method": "GET",
+        "reducers": [
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["last"] },
           { "function": "POW10", "args": 8 },
           { "function": "ROUND" }
         ]
