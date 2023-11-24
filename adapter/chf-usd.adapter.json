@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0x5e382854924ecf3a192d62acc40933400803a15fb41cb4e3e05996d7cab85d41",
+  "adapterHash": "0xafd03c2aaac107c16b43c72c706603fc540d5665d7bb914ec5c00803a859f3b9",
   "name": "CHF-USD",
   "decimals": 8,
   "feeds": [
@@ -35,9 +35,10 @@
       }
     },
     {
-      "name": "Daum-GBP-USD",
+      "name": "Daum-CHF-USD",
       "definition": {
         "url": "https://finance.daum.net/api/exchanges/FRX.CHFUSD",
+        "location": "kr",
         "headers": {
           "Content-Type": "application/json",
           "referer": "https://finance.daum.net/exchanges/FRX.CHFUSD",

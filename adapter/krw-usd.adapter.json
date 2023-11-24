@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0x0fb2222d8fc27dd7d25611054bbb43d1ba913ac218e1089724b7b0ab150f905a",
+  "adapterHash": "0xdbe621ecb5bad0e1fca858f101d17c8e7d314c60587e7592453370d5cc36784a",
   "name": "KRW-USD",
   "decimals": 8,
   "feeds": [
@@ -56,6 +56,7 @@
       "name": "Daum-KRW-USD",
       "definition": {
         "url": "https://finance.daum.net/api/exchanges/FRX.KRWUSD",
+        "location": "kr",
         "headers": {
           "Content-Type": "application/json",
           "referer": "https://finance.daum.net/exchanges/FRX.KRWUSD",

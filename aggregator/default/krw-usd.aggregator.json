@@ -1,9 +1,9 @@
 {
-    "aggregatorHash": "0x77c0ec39adf4701f8b7a22d516a04e2672793d7847a3bbba135710404e270385",
-    "name": "KRW-USD",
-    "address": "",
-    "heartbeat": 15000,
-    "threshold": 0.05,
-    "absoluteThreshold": 0.1,
-    "adapterHash": "0x0fb2222d8fc27dd7d25611054bbb43d1ba913ac218e1089724b7b0ab150f905a"
-  }
+  "aggregatorHash": "0x8cb0d2a4f3713187a0260fefe1fe05692f5d4ea7618d1f950eee0981a359c195",
+  "name": "KRW-USD",
+  "address": "",
+  "heartbeat": 15000,
+  "threshold": 0.05,
+  "absoluteThreshold": 0.1,
+  "adapterHash": "0xdbe621ecb5bad0e1fca858f101d17c8e7d314c60587e7592453370d5cc36784a"
+}

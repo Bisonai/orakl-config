@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0x15ad01562af106a2e72a6f32636d479f7d56ba35dce686aef2572f20f8aae5cf",
+  "adapterHash": "0xd53a6edbfd84120d72cd38f2ecf484254f5f5cacb2c45344f1c6a10be36167df",
   "name": "EUR-USD",
   "decimals": 8,
   "feeds": [
@@ -37,9 +37,10 @@
       }
     },
     {
-      "name": "Daum-GBP-USD",
+      "name": "Daum-EUR-USD",
       "definition": {
         "url": "https://finance.daum.net/api/exchanges/FRX.EURUSD",
+        "location": "kr",
         "headers": {
           "Content-Type": "application/json",
           "referer": "https://finance.daum.net/exchanges/FRX.EURUSD",
