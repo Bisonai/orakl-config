@@ -1,23 +1,8 @@
 {
-  "adapterHash": "0xc83c9b6ea235845dc2adfac2df11a320a3dc34c25e1517741a6f9d7cbd3cb9d5",
+  "adapterHash": "0x83866521aed2c0fba355db9411b90a0f294b73229db4c6b2e4b0537526d65e8a",
   "name": "BUSD-USDT",
   "decimals": 8,
   "feeds": [
-    {
-      "name": "Bybit-BUSD-USDT",
-      "definition": {
-        "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=BUSDUSDT",
-        "headers": { "Content-Type": "application/json" },
-        "method": "GET",
-        "reducers": [
-          { "function": "PARSE", "args": ["result", "list"] },
-          { "function": "INDEX", "args": 0 },
-          { "function": "PARSE", "args": ["lastPrice"] },
-          { "function": "POW10", "args": 8 },
-          { "function": "ROUND" }
-        ]
-      }
-    },
     {
       "name": "Binance-BUSD-USDT",
       "definition": {
@@ -54,20 +39,6 @@
           { "function": "PARSE", "args": ["result", "data"] },
           { "function": "INDEX", "args": 0 },
           { "function": "PARSE", "args": ["a"] },
-          { "function": "POW10", "args": 8 },
-          { "function": "ROUND" }
-        ]
-      }
-    },
-    {
-      "name": "Gateio-BUSD-USDT",
-      "definition": {
-        "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=BUSD_USDT",
-        "headers": { "Content-Type": "application/json" },
-        "method": "GET",
-        "reducers": [
-          { "function": "INDEX", "args": 0 },
-          { "function": "PARSE", "args": ["last"] },
           { "function": "POW10", "args": 8 },
           { "function": "ROUND" }
         ]
