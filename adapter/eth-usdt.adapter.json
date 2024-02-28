@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0x8d0dbe7fc5e6e6468506dbf7ccf1ba70bb260fb6820dad67933fa73a2498b5d2",
+  "adapterHash": "0x6b40fba934458e1f85092e9488f52c055424224c90d7d6b4e1811df82d99b2ef",
   "name": "ETH-USDT",
   "decimals": 8,
   "feeds": [
@@ -111,6 +111,16 @@
           { "function": "POW10", "args": 8 },
           { "function": "ROUND" }
         ]
+      }
+    },
+    {
+      "name": "KlaySwap-ETH-USDT",
+      "definition": {
+        "chainId": "8217",
+        "address": "0x6b0177e96c3623b6f6940da18378d52f78cea12d",
+        "type": "UniswapPool",
+        "token0Decimals": 18,
+        "token1Decimals": 6
       }
     }
   ]
