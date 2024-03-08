@@ -17,7 +17,7 @@ def collectJsonFiles(fileList):
             filePath = os.path.join(adapterPath, file)
             data = loadJsonFromPath(filePath)
             result.append(data)
-    with open("collection.json", "w") as f:
+    with open("adapters.json", "w") as f:
         json.dump({"adapters": result}, f)
 
 collectJsonFiles(adapters)
