@@ -13,7 +13,7 @@ def loadJsonFromPath(filePath):
 def collectJsonFiles(fileList):
     result = []
     for file in fileList:
-        if 'PEG-POR' not in file:
+        if 'por.json' not in file:
             filePath = os.path.join(adapterPath, file)
             data = loadJsonFromPath(filePath)
             result.append(data)
