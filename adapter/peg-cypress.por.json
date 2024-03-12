@@ -6,7 +6,7 @@
     {
       "name": "Pennygold-PEG-POR",
       "definition": {
-        "url": "https://tmc-nft.pennygold.kr/api/v2/balance/getTotalNftAmount",
+        "url": "https://public-nft.pennygold.kr/api/v2/balance/getTotalNftAmount",
         "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
