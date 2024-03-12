@@ -1,10 +1,9 @@
 {
-  "aggregatorHash": "0x4a4f59a3cc46b134755831fc93da7e3ce133b98d358afe87e5d16e72c823b4a9",
+  "aggregatorHash": "0xa979b36407ec5f47087a0b0f172ebd35790eb3b7d81d06f2dc8238bd32ec7d87",
   "name": "PEG-POR",
   "address": "0xb5e91e5CE0B8e6fc3029b4E9ce057675a2c96dd1",
   "heartbeat": 3600000,
   "threshold": 0.0001,
   "absoluteThreshold": 0.1,
-  "adapterHash": "0xb38421cb04ad0b8ca4a684a39d2fc98b1b5d1b69fadec4d04f90bb01b9b1dd13"
+  "adapterHash": "0x8524f8859d78c9f5d185f6e72ef89910328cd7d539ea654e543c70720c3ecdde"
 }
-  
