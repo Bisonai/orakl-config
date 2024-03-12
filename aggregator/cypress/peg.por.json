@@ -5,6 +5,5 @@
   "heartbeat": 3600000,
   "threshold": 0.0001,
   "absoluteThreshold": 0.1,
-  "adapterHash": "0xb38421cb04ad0b8ca4a684a39d2fc98b1b5d1b69fadec4d04f90bb01b9b1dd13"
+  "adapterHash": "0x8524f8859d78c9f5d185f6e72ef89910328cd7d539ea654e543c70720c3ecdde"
 }
-  
