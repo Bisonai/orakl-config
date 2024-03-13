@@ -39,8 +39,8 @@ def collect_adapter_hashes(directory: Path):
     return data
 
 
-def generate_adapter_list(adapter_path: Path):
-    adapters = sorted(adapter_path.glob("*.json"))
+def generate_adapter_list(adapter_dir: Path):
+    adapters = sorted(adapter_dir.glob("*.json"))
     keys = ['name', 'adapterHash', 'decimals', 'feeds']
     make_line(keys)
     make_empty_line(keys)
@@ -57,8 +57,8 @@ def generate_adapter_list(adapter_path: Path):
         make_line(values)
 
 
-def generate_aggregator_list(aggregator_path: Path):
-    aggregators = sorted(aggregator_path.glob("*.json"))
+def generate_aggregator_list(aggregator_dir: Path):
+    aggregators = sorted(aggregator_dir.glob("*.json"))
     keys = ['name', 'aggregatorHash', 'address', 'heartbeat', 'threshold', 'absoluteThreshold', 'adapterHash']
     make_line(keys)
     make_empty_line(keys)
@@ -88,10 +88,17 @@ def check_hash_match(adapter_dir: Path, aggregator_dir: Path):
 
 
 if __name__ == "__main__":
-    adapter_baobab_dir = Path('adapter/baobab')
-    adapter_cypress_dir = Path('adapter/cypress')
-    aggregator_baobab_dir = Path('aggregator/baobab/')
-    aggregator_cypress_dir = Path('aggregator/cypress/')
+    adapter_dir = Path('adapter')
+    aggregator_dir = Path('aggregator')
+    baobab = "baobab"
+    cypress = "cypress"
+
+    adapter_baobab_dir = adapter_dir / baobab
+    adapter_cypress_dir = adapter_dir / cypress
+
+    aggregator_baobab_dir = aggregator_dir / baobab
+    aggregator_cypress_dir = aggregator_dir / cypress
+
     check_hash_match(adapter_baobab_dir, aggregator_baobab_dir)
     check_hash_match(adapter_cypress_dir, aggregator_cypress_dir)
 
