@@ -99,6 +99,16 @@
           { "function": "ROUND" }
         ]
       }
+    },
+    {
+      "name": "KlaySwap-oMATIC-oUSDT",
+      "definition": {
+        "chainId": "8217",
+        "address": "0x6adfb19be8948ad2d1f6f1a754006723c2a491fc",
+        "type": "UniswapPool",
+        "token0Decimals": 18,
+        "token1Decimals": 6
+      }
     }
   ]
 }

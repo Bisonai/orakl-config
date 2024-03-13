@@ -97,6 +97,16 @@
           { "function": "ROUND" }
         ]
       }
+    },
+    {
+      "name": "KlaySwap-oBNB-oUSDT",
+      "definition": {
+        "chainId": "8217",
+        "address": "0x14afeda13bc2028cef34d3f45d1b4e3f44747b9",
+        "type": "UniswapPool",
+        "token0Decimals": 18,
+        "token1Decimals": 6
+      }
     }
   ]
 }
