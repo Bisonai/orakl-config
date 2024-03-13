@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0x840c0e0fae000a9af55f6d841ea6862c2c31a1e5e61e14c94cdb361f8f2892eb",
+  "adapterHash": "0x8e663b20c6e6be22294af4aa53603101f104a759ae9c47133ffb032560c37929",
   "name": "BNB-USDT",
   "decimals": 8,
   "feeds": [
@@ -102,7 +102,7 @@
       "name": "KlaySwap-oBNB-oUSDT",
       "definition": {
         "chainId": "8217",
-        "address": "0x14afeda13bc2028cef34d3f45d1b4e3f44747b9",
+        "address": "0x14afeda13bc2028cef34d3f45d1b4e3f44747b9a",
         "type": "UniswapPool",
         "token0Decimals": 18,
         "token1Decimals": 6
