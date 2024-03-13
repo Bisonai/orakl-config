@@ -19,3 +19,13 @@ Execute from root directory of this repository.
 ```
 python script/generate-readme.py > README.m
 ```
+
+## Generate HISTORY.md
+
+The `generate-history.py` script fetches all previous version of adapters and aggregators, and prints out them in markdown format to standard output.
+
+Execute from root directory of this repository.
+
+```
+python script/generate-history.py > HISTORY.md
+```
