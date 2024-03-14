@@ -1,12 +1,12 @@
 {
-  "adapterHash": "0x6b40fba934458e1f85092e9488f52c055424224c90d7d6b4e1811df82d99b2ef",
-  "name": "ETH-USDT",
+  "adapterHash": "0x730ce9beea74f5e22354890eb38f06e839e0f45d606bd96537dfb27ea42b9f87",
+  "name": "MATIC-USDT",
   "decimals": 8,
   "feeds": [
     {
-      "name": "Bybit-ETH-USDT",
+      "name": "Bybit-MATIC-USDT",
       "definition": {
-        "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=ETHUSDT",
+        "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=MATICUSDT",
         "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
@@ -19,9 +19,9 @@
       }
     },
     {
-      "name": "Binance-ETH-USDT",
+      "name": "Binance-MATIC-USDT",
       "definition": {
-        "url": "https://api.binance.com/api/v3/avgPrice?symbol=ETHUSDT",
+        "url": "https://api.binance.com/api/v3/avgPrice?symbol=MATICUSDT",
         "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
@@ -32,9 +32,9 @@
       }
     },
     {
-      "name": "Kucoin-ETH-USDT",
+      "name": "Kucoin-MATIC-USDT",
       "definition": {
-        "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ETH-USDT",
+        "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=MATIC-USDT",
         "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
@@ -45,9 +45,9 @@
       }
     },
     {
-      "name": "Crypto-ETH-USDT",
+      "name": "Crypto-MATIC-USDT",
       "definition": {
-        "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=ETH_USDT",
+        "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=MATIC_USDT",
         "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
@@ -60,9 +60,9 @@
       }
     },
     {
-      "name": "Btse-ETH-USDT",
+      "name": "Btse-MATIC-USDT",
       "definition": {
-        "url": "https://api.btse.com/spot/api/v3.2/price?symbol=ETH-USDT",
+        "url": "https://api.btse.com/spot/api/v3.2/price?symbol=MATIC-USDT",
         "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
@@ -74,22 +74,9 @@
       }
     },
     {
-      "name": "Coinbase-ETH-USDT",
+      "name": "Gateio-MATIC-USDT",
       "definition": {
-        "url": "https://api.coinbase.com/v2/exchange-rates?currency=ETH",
-        "headers": { "Content-Type": "application/json" },
-        "method": "GET",
-        "reducers": [
-          { "function": "PARSE", "args": ["data", "rates", "USDT"] },
-          { "function": "POW10", "args": 8 },
-          { "function": "ROUND" }
-        ]
-      }
-    },
-    {
-      "name": "Gateio-ETH-USDT",
-      "definition": {
-        "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=ETH_USDT",
+        "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=MATIC_USDT",
         "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
@@ -101,9 +88,9 @@
       }
     },
     {
-      "name": "Coinex-ETH-USDT",
+      "name": "Coinex-MATIC-USDT",
       "definition": {
-        "url": "https://api.coinex.com/v1/market/ticker?market=ETHUSDT",
+        "url": "https://api.coinex.com/v1/market/ticker?market=MATICUSDT",
         "headers": { "Content-Type": "application/json" },
         "method": "GET",
         "reducers": [
@@ -114,10 +101,10 @@
       }
     },
     {
-      "name": "KlaySwap-ETH-USDT",
+      "name": "KlaySwap-oMATIC-oUSDT",
       "definition": {
         "chainId": "8217",
-        "address": "0x6b0177e96c3623b6f6940da18378d52f78cea12d",
+        "address": "0x6adfb19be8948ad2d1f6f1a754006723c2a491fc",
         "type": "UniswapPool",
         "token0Decimals": 18,
         "token1Decimals": 6
