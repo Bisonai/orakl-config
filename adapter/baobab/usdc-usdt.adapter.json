@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0x02f451e791fc9273a0e74c1c2f02bda9a02f4819f3d733d30a6b8d8cf4bb3625",
+  "adapterHash": "0x8b0a6fda875a3e6ed088baa14fe48e714438feb743dbf118bf18124e224285f0",
   "name": "USDC-USDT",
   "decimals": 8,
   "feeds": [
@@ -82,6 +82,16 @@
           { "function": "POW10", "args": 8 },
           { "function": "ROUND" }
         ]
+      }
+    },
+    {
+      "name": "UniswapV3-0.01-USDC-USDT",
+      "definition": {
+        "chainId": "1",
+        "address": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+        "type": "UniswapPool",
+        "token0Decimals": 6,
+        "token1Decimals": 6
       }
     }
   ]
