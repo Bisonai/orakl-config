@@ -1208,7 +1208,7 @@
             ]
         },
         {
-            "adapterHash": "0xb721dc56f629e3bfa76ff4690b2d776e7dbd58e4e2d801e6d527a9efc86aa8fa",
+            "adapterHash": "0xd18f6885ba66c44550c73b4b8a16702bf70e654d9f17d80b4451f80ec616bc60",
             "name": "BTC-USDT",
             "decimals": 8,
             "feeds": [
@@ -1445,6 +1445,16 @@
                                 "function": "ROUND"
                             }
                         ]
+                    }
+                },
+                {
+                    "name": "UniswapV3-0.3-WBTC-USDT",
+                    "definition": {
+                        "chainId": "1",
+                        "address": "0x9db9e0e53058c89e5b94e29621a205198648425b",
+                        "type": "UniswapPool",
+                        "token0Decimals": 8,
+                        "token1Decimals": 6
                     }
                 }
             ]
@@ -2312,7 +2322,7 @@
             ]
         },
         {
-            "adapterHash": "0x6b40fba934458e1f85092e9488f52c055424224c90d7d6b4e1811df82d99b2ef",
+            "adapterHash": "0x0b754850b753b9eca61724dc780c02d5f9a62a08c8853b80a213a03d85e35729",
             "name": "ETH-USDT",
             "decimals": 8,
             "feeds": [
@@ -2556,6 +2566,16 @@
                     "definition": {
                         "chainId": "8217",
                         "address": "0x6b0177e96c3623b6f6940da18378d52f78cea12d",
+                        "type": "UniswapPool",
+                        "token0Decimals": 18,
+                        "token1Decimals": 6
+                    }
+                },
+                {
+                    "name": "UniswapV3-0.3-ETH-USDT",
+                    "definition": {
+                        "chainId": "1",
+                        "address": "0x4e68ccd3e89f51c3074ca5072bbac773960dfa36",
                         "type": "UniswapPool",
                         "token0Decimals": 18,
                         "token1Decimals": 6
@@ -5279,7 +5299,7 @@
             ]
         },
         {
-            "adapterHash": "0x02f451e791fc9273a0e74c1c2f02bda9a02f4819f3d733d30a6b8d8cf4bb3625",
+            "adapterHash": "0x8b0a6fda875a3e6ed088baa14fe48e714438feb743dbf118bf18124e224285f0",
             "name": "USDC-USDT",
             "decimals": 8,
             "feeds": [
@@ -5451,6 +5471,16 @@
                                 "function": "ROUND"
                             }
                         ]
+                    }
+                },
+                {
+                    "name": "UniswapV3-0.01-USDC-USDT",
+                    "definition": {
+                        "chainId": "1",
+                        "address": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+                        "type": "UniswapPool",
+                        "token0Decimals": 6,
+                        "token1Decimals": 6
                     }
                 }
             ]
