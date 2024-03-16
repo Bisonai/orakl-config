@@ -2322,7 +2322,7 @@
             ]
         },
         {
-            "adapterHash": "0x0b754850b753b9eca61724dc780c02d5f9a62a08c8853b80a213a03d85e35729",
+            "adapterHash": "0x945aae480e1ffd2242c94d1c7d3a5067d2d87f63d9660fcdae1d89b5710007dc",
             "name": "ETH-USDT",
             "decimals": 8,
             "feeds": [

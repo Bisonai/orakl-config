@@ -15,7 +15,7 @@
 | [DOGE-USDT](adapter/baobab/doge-usdt.adapter.json) | 0x31ca064c00770b85793d14eebbc62c1f3e9f35c41b6d34ab8e861101f98df3bf | 8 | 8 |
 | [DOT-USDT](adapter/baobab/dot-usdt.adapter.json) | 0xb9c0cead8c197295b81f5eaf73ffa6254245d7f14a206e7ad5c8026195718716 | 8 | 7 |
 | [ETH-USD](adapter/baobab/eth-usd.adapter.json) | 0x0b754850b753b9eca61724dc780c02d5f9a62a08c8853b80a213a03d85e35729 | 8 | 5 |
-| [ETH-USDT](adapter/baobab/eth-usdt.adapter.json) | 0x0b754850b753b9eca61724dc780c02d5f9a62a08c8853b80a213a03d85e35729 | 8 | 10 |
+| [ETH-USDT](adapter/baobab/eth-usdt.adapter.json) | 0x945aae480e1ffd2242c94d1c7d3a5067d2d87f63d9660fcdae1d89b5710007dc | 8 | 10 |
 | [EUR-USD](adapter/baobab/eur-usd.adapter.json) | 0xd53a6edbfd84120d72cd38f2ecf484254f5f5cacb2c45344f1c6a10be36167df | 8 | 3 |
 | [FTM-USDT](adapter/baobab/ftm-usdt.adapter.json) | 0x6106a99e2c06e2efbbd41f82bb163f3b5043e0aa97613dea158e57aeccef3c7a | 8 | 7 |
 | [GBP-USD](adapter/baobab/gbp-usd.adapter.json) | 0x3c3440344e9537f2155fa7414b065229331ec8f77b6f9dfb9e3e4538aefe7a2e | 8 | 3 |
@@ -93,7 +93,7 @@
 | [DAI-USDT](aggregator/baobab/dai-usdt.aggregator.json) | 0x6eab991f7916132bf528e1887571c7549656ff665dde74fed8507767e6bad39c | 0x219BAD3A896964A2B28Ef4dE6Ae6E6D72B646745 | 15000 | 0.05 | 0.1 | 0xd12cf490593da8d1657c29339d78849fdc027722c23c29e7a3b52c99807c45ef |
 | [DOGE-USDT](aggregator/baobab/doge-usdt.aggregator.json) | 0x043be21507a8b2facb2227ad0ec2f42c37b1d45244c2a134c23df8f8ee963f29 | 0x98F4BC9fE125c725423deda5418681aB7c8F2CF3 | 15000 | 0.05 | 0.1 | 0x31ca064c00770b85793d14eebbc62c1f3e9f35c41b6d34ab8e861101f98df3bf |
 | [DOT-USDT](aggregator/baobab/dot-usdt.aggregator.json) | 0xca2d6e15f6604aaa0dc7df0b3d8461b1c0b88ac1ba9584eb0c1af3f758ca79fb | 0x2b062807C6B3F8Ca5C366545d50aA19c114E9d7b | 15000 | 0.05 | 0.1 | 0xb9c0cead8c197295b81f5eaf73ffa6254245d7f14a206e7ad5c8026195718716 |
-| [ETH-USDT](aggregator/baobab/eth-usdt.aggregator.json) | 0xf4fa4c70128484e2da3f29c8a1ee5980100e1559b155d3d4c4cf093a933d0b06 | 0xf1AF997ffA9b43CcA41078d74C3F897DB998e9bd | 15000 | 0.05 | 0.1 | 0x0b754850b753b9eca61724dc780c02d5f9a62a08c8853b80a213a03d85e35729 |
+| [ETH-USDT](aggregator/baobab/eth-usdt.aggregator.json) | 0x04aec49f944559b3fc43389988a316b3a89e63cf7dcfef2acb5f439ccf3083d9 | 0xf1AF997ffA9b43CcA41078d74C3F897DB998e9bd | 15000 | 0.05 | 0.1 | 0x945aae480e1ffd2242c94d1c7d3a5067d2d87f63d9660fcdae1d89b5710007dc |
 | [EUR-USD](aggregator/baobab/eur-usd.aggregator.json) | 0xfbf339f574c56ab47aad956d503b3c24b6e8169293fe35c4ce60df243c0be1c7 | 0x2EbB9f5F0878b1A06Fb09B39565b74e39da474A8 | 15000 | 0.05 | 0.1 | 0xd53a6edbfd84120d72cd38f2ecf484254f5f5cacb2c45344f1c6a10be36167df |
 | [FTM-USDT](aggregator/baobab/ftm-usdt.aggregator.json) | 0xab0d74b251ae5751ac691fc3f08789661fe0a9f0b73610cebad5916e903e673f | 0x88E3CD567754A0f5068aa4053F9887e97539F764 | 15000 | 0.05 | 0.1 | 0x6106a99e2c06e2efbbd41f82bb163f3b5043e0aa97613dea158e57aeccef3c7a |
 | [GBP-USD](aggregator/baobab/gbp-usd.aggregator.json) | 0x43adf9ab628723599f31189962e62248cc3b475176a9967cdf81d985df98fc67 | 0x8Eb732F35e7182CDF658C2992DFCA2E66B58049C | 15000 | 0.05 | 0.1 | 0x3c3440344e9537f2155fa7414b065229331ec8f77b6f9dfb9e3e4538aefe7a2e |
