@@ -7,11 +7,11 @@ def load_json_from_path(file_path: Path):
         return json.load(json_file)
 
 
-def collect_json_files(adapter_dir: Path, output_file_path: str):
-    adapter_files = sorted(adapter_dir.glob("*.json"))
+def collect_json_files(directory: Path, output_file_path: str):
+    files = sorted(directory.glob("*.json"))
 
     result = []
-    for file in adapter_files:
+    for file in files:
         if "por.json" not in file.name and "por-fast.json" not in file.name:
             result.append(load_json_from_path(file))
 
