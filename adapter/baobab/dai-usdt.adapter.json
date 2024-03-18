@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0x1df6e3504541fc5838975eebbccdfad440c465802fa652245dc1d61dab85d2e8",
+  "adapterHash": "0xe7c32b05629473ed4f0f2f654aebeb2abf980b22ead3c6324c1ebccc33c36b33",
   "name": "DAI-USDT",
   "decimals": 8,
   "feeds": [
@@ -72,7 +72,7 @@
       }
     },
     {
-      "name": "UniswapV3:DAI-USDT",
+      "name": "UniswapV3-DAI-USDT",
       "definition": {
         "chainId": "1",
         "address": "0x48da0965ab2d2cbf1c17c09cfb5cbe67ad5b1406",
