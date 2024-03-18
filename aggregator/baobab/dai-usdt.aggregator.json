@@ -1,9 +1,9 @@
 {
-  "aggregatorHash": "0x6eab991f7916132bf528e1887571c7549656ff665dde74fed8507767e6bad39c",
+  "aggregatorHash": "0xa456ea3cde5ce541f1ab720af33859162f72595d6080448cb36e5c2d2932dd26",
   "name": "DAI-USDT",
   "address": "0x219BAD3A896964A2B28Ef4dE6Ae6E6D72B646745",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,
-  "adapterHash": "0xd12cf490593da8d1657c29339d78849fdc027722c23c29e7a3b52c99807c45ef"
+  "adapterHash": "0xe7c32b05629473ed4f0f2f654aebeb2abf980b22ead3c6324c1ebccc33c36b33"
 }

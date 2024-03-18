@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0x945aae480e1ffd2242c94d1c7d3a5067d2d87f63d9660fcdae1d89b5710007dc",
+  "adapterHash": "0xe92a7e074925d84efcfdd8ef654d9dac6521e1f5e699f3cba97498fa17e68e45",
   "name": "ETH-USDT",
   "decimals": 8,
   "feeds": [
@@ -124,10 +124,20 @@
       }
     },
     {
-      "name": "UniswapV3-0.3-ETH-USDT",
+      "name": "UniswapV3:0.3-ETH-USDT",
       "definition": {
         "chainId": "1",
         "address": "0x4e68ccd3e89f51c3074ca5072bbac773960dfa36",
+        "type": "UniswapPool",
+        "token0Decimals": 18,
+        "token1Decimals": 6
+      }
+    },
+    {
+      "name": "UniswapV3:0.05-ETH-USDT",
+      "definition": {
+        "chainId": "1",
+        "address": "0x11b815efb8f581194ae79006d24e0d814b7697f6",
         "type": "UniswapPool",
         "token0Decimals": 18,
         "token1Decimals": 6
