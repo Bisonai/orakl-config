@@ -1,13 +1,12 @@
 # Scripts
 
-## Collect All Adapter Files
+## Collect Files
 
-The following script will gather all adapter configurations for baobab and cypress, and generate a single JSON file for for each network (`baobab_adapters.json` and `cypress_adapters.json` respectively).
-
+The following script will gather all adapter & aggregator configurations for baobab and cypress, and generate JSON files for for each network
 Execute from root directory of this repository.
 
 ```
-python script/collect-adapter-files.py
+python script/collect-files.py
 ```
 
 ## Generate README.md
