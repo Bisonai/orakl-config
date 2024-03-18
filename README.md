@@ -11,11 +11,11 @@
 | [BTC-USD](adapter/baobab/btc-usd.adapter.json) | 0xfb03ebf457def32f2d28944ec58af6796ec87e0aad6e01760bc7037d6ac71ea3 | 8 | 5 |
 | [BTC-USDT](adapter/baobab/btc-usdt.adapter.json) | 0xd18f6885ba66c44550c73b4b8a16702bf70e654d9f17d80b4451f80ec616bc60 | 8 | 9 |
 | [CHF-USD](adapter/baobab/chf-usd.adapter.json) | 0xafd03c2aaac107c16b43c72c706603fc540d5665d7bb914ec5c00803a859f3b9 | 8 | 3 |
-| [DAI-USDT](adapter/baobab/dai-usdt.adapter.json) | 0xd12cf490593da8d1657c29339d78849fdc027722c23c29e7a3b52c99807c45ef | 8 | 5 |
+| [DAI-USDT](adapter/baobab/dai-usdt.adapter.json) | 0xe7c32b05629473ed4f0f2f654aebeb2abf980b22ead3c6324c1ebccc33c36b33 | 8 | 6 |
 | [DOGE-USDT](adapter/baobab/doge-usdt.adapter.json) | 0x31ca064c00770b85793d14eebbc62c1f3e9f35c41b6d34ab8e861101f98df3bf | 8 | 8 |
 | [DOT-USDT](adapter/baobab/dot-usdt.adapter.json) | 0xb9c0cead8c197295b81f5eaf73ffa6254245d7f14a206e7ad5c8026195718716 | 8 | 7 |
 | [ETH-USD](adapter/baobab/eth-usd.adapter.json) | 0x0b754850b753b9eca61724dc780c02d5f9a62a08c8853b80a213a03d85e35729 | 8 | 5 |
-| [ETH-USDT](adapter/baobab/eth-usdt.adapter.json) | 0x945aae480e1ffd2242c94d1c7d3a5067d2d87f63d9660fcdae1d89b5710007dc | 8 | 10 |
+| [ETH-USDT](adapter/baobab/eth-usdt.adapter.json) | 0xe92a7e074925d84efcfdd8ef654d9dac6521e1f5e699f3cba97498fa17e68e45 | 8 | 11 |
 | [EUR-USD](adapter/baobab/eur-usd.adapter.json) | 0xd53a6edbfd84120d72cd38f2ecf484254f5f5cacb2c45344f1c6a10be36167df | 8 | 3 |
 | [FTM-USDT](adapter/baobab/ftm-usdt.adapter.json) | 0x6106a99e2c06e2efbbd41f82bb163f3b5043e0aa97613dea158e57aeccef3c7a | 8 | 7 |
 | [GBP-USD](adapter/baobab/gbp-usd.adapter.json) | 0x3c3440344e9537f2155fa7414b065229331ec8f77b6f9dfb9e3e4538aefe7a2e | 8 | 3 |
@@ -34,7 +34,7 @@
 | [SHIB-USDT](adapter/baobab/shib-usdt.adapter.json) | 0xf07201f9be1821676d5d0fcbbfc1e8e55e744b5b262dc92e33e9f7915567528c | 8 | 7 |
 | [SOL-USDT](adapter/baobab/sol-usdt.adapter.json) | 0x796035c254439e6aa8176843fabd36dd2b1d7d37052e76d7b19c9993d1b8ad0c | 8 | 8 |
 | [TRX-USDT](adapter/baobab/trx-usdt.adapter.json) | 0x5a5303f18ca8a2d168bb4ae15b6fff96664b3dd0a6b70efab343cc1cc15b7aa9 | 8 | 6 |
-| [UNI-USDT](adapter/baobab/uni-usdt.adapter.json) | 0xdc726751898a7ed7f3ab8ff5a6972a4e90018d823f04aa6f80842346f655cc5f | 8 | 8 |
+| [UNI-USDT](adapter/baobab/uni-usdt.adapter.json) | 0x8b3b0d2c88cc190f4d47b3903274b30a74a3594871310639fb5174568e482634 | 8 | 9 |
 | [USDC-USDT](adapter/baobab/usdc-usdt.adapter.json) | 0x8b0a6fda875a3e6ed088baa14fe48e714438feb743dbf118bf18124e224285f0 | 8 | 7 |
 | [WEMIX-USDT](adapter/baobab/wemix-usdt.adapter.json) | 0xb4a2d742f66ff90a2e8ede75ee5ab9484112deaa14edc265e5fe281b02d1cc05 | 8 | 7 |
 | [XRP-USDT](adapter/baobab/xrp-usdt.adapter.json) | 0xfb2a6b3fb7dd347da0813360fd977eba476e6ab2dd1d0a49a847a41c33981cc5 | 8 | 8 |
@@ -90,10 +90,10 @@
 | [BORA-KRW](aggregator/baobab/bora-krw.aggregator.json) | 0x1d1cb1d532040bdf40f8d9e1818f4781646b79adbeef9ed328490a778a822ba6 | 0x171E1001F74568100fBA86b98856759d73730459 | 15000 | 0.05 | 0.1 | 0xf6c3a6a1f072e5e32ea26bf7f588522d6f39ed16dfd1e7830b1828452a0c43f0 |
 | [BTC-USDT](aggregator/baobab/btc-usdt.aggregator.json) | 0x1e1527bed9c502c27cd51b24350a3e4308b55d44598635f731264b3d579d7e5e | 0xE747418f2fe0F5794c5105f718b59b283E1B5e07 | 15000 | 0.05 | 0.1 | 0xd18f6885ba66c44550c73b4b8a16702bf70e654d9f17d80b4451f80ec616bc60 |
 | [CHF-USD](aggregator/baobab/chf-usd.aggregator.json) | 0x0367adcd5586867a82aa7c6acf1db19ba0718a82eef313602b93735f737d1624 | 0x3De93EB2891656884E6029D69E905170Bfe906cb | 15000 | 0.05 | 0.1 | 0xafd03c2aaac107c16b43c72c706603fc540d5665d7bb914ec5c00803a859f3b9 |
-| [DAI-USDT](aggregator/baobab/dai-usdt.aggregator.json) | 0x6eab991f7916132bf528e1887571c7549656ff665dde74fed8507767e6bad39c | 0x219BAD3A896964A2B28Ef4dE6Ae6E6D72B646745 | 15000 | 0.05 | 0.1 | 0xd12cf490593da8d1657c29339d78849fdc027722c23c29e7a3b52c99807c45ef |
+| [DAI-USDT](aggregator/baobab/dai-usdt.aggregator.json) | 0xa456ea3cde5ce541f1ab720af33859162f72595d6080448cb36e5c2d2932dd26 | 0x219BAD3A896964A2B28Ef4dE6Ae6E6D72B646745 | 15000 | 0.05 | 0.1 | 0xe7c32b05629473ed4f0f2f654aebeb2abf980b22ead3c6324c1ebccc33c36b33 |
 | [DOGE-USDT](aggregator/baobab/doge-usdt.aggregator.json) | 0x043be21507a8b2facb2227ad0ec2f42c37b1d45244c2a134c23df8f8ee963f29 | 0x98F4BC9fE125c725423deda5418681aB7c8F2CF3 | 15000 | 0.05 | 0.1 | 0x31ca064c00770b85793d14eebbc62c1f3e9f35c41b6d34ab8e861101f98df3bf |
 | [DOT-USDT](aggregator/baobab/dot-usdt.aggregator.json) | 0xca2d6e15f6604aaa0dc7df0b3d8461b1c0b88ac1ba9584eb0c1af3f758ca79fb | 0x2b062807C6B3F8Ca5C366545d50aA19c114E9d7b | 15000 | 0.05 | 0.1 | 0xb9c0cead8c197295b81f5eaf73ffa6254245d7f14a206e7ad5c8026195718716 |
-| [ETH-USDT](aggregator/baobab/eth-usdt.aggregator.json) | 0x04aec49f944559b3fc43389988a316b3a89e63cf7dcfef2acb5f439ccf3083d9 | 0xf1AF997ffA9b43CcA41078d74C3F897DB998e9bd | 15000 | 0.05 | 0.1 | 0x945aae480e1ffd2242c94d1c7d3a5067d2d87f63d9660fcdae1d89b5710007dc |
+| [ETH-USDT](aggregator/baobab/eth-usdt.aggregator.json) | 0x1ccb44c437f73e821df1c577cab5939321e24979384b1d000bd4f8c080d77c2c | 0xf1AF997ffA9b43CcA41078d74C3F897DB998e9bd | 15000 | 0.05 | 0.1 | 0xe92a7e074925d84efcfdd8ef654d9dac6521e1f5e699f3cba97498fa17e68e45 |
 | [EUR-USD](aggregator/baobab/eur-usd.aggregator.json) | 0xfbf339f574c56ab47aad956d503b3c24b6e8169293fe35c4ce60df243c0be1c7 | 0x2EbB9f5F0878b1A06Fb09B39565b74e39da474A8 | 15000 | 0.05 | 0.1 | 0xd53a6edbfd84120d72cd38f2ecf484254f5f5cacb2c45344f1c6a10be36167df |
 | [FTM-USDT](aggregator/baobab/ftm-usdt.aggregator.json) | 0xab0d74b251ae5751ac691fc3f08789661fe0a9f0b73610cebad5916e903e673f | 0x88E3CD567754A0f5068aa4053F9887e97539F764 | 15000 | 0.05 | 0.1 | 0x6106a99e2c06e2efbbd41f82bb163f3b5043e0aa97613dea158e57aeccef3c7a |
 | [GBP-USD](aggregator/baobab/gbp-usd.aggregator.json) | 0x43adf9ab628723599f31189962e62248cc3b475176a9967cdf81d985df98fc67 | 0x8Eb732F35e7182CDF658C2992DFCA2E66B58049C | 15000 | 0.05 | 0.1 | 0x3c3440344e9537f2155fa7414b065229331ec8f77b6f9dfb9e3e4538aefe7a2e |
@@ -112,7 +112,7 @@
 | [SHIB-USDT](aggregator/baobab/shib-usdt.aggregator.json) | 0x069add9633f159f56cf1638cc4249ef109d2403b878cdca478d15409986fd035 | 0xA317038414a275365ED4a085B786E83E761d20a5 | 15000 | 0.05 | 0.1 | 0xf07201f9be1821676d5d0fcbbfc1e8e55e744b5b262dc92e33e9f7915567528c |
 | [SOL-USDT](aggregator/baobab/sol-usdt.aggregator.json) | 0xfa14a84a1f1041bd3ebcdf843f583ef8eb8b39ae1f8069ce6167f5270b02f2d3 | 0xBd01EdC16597f68E03607ba4b941596729ec78f7 | 15000 | 0.05 | 0.1 | 0x796035c254439e6aa8176843fabd36dd2b1d7d37052e76d7b19c9993d1b8ad0c |
 | [TRX-USDT](aggregator/baobab/trx-usdt.aggregator.json) | 0xd05a4e984a2a2122a1dd9bcb06538c49e5f539beff680dc9c859b8abbfd02999 | 0xb4de9C81eaA329E1E7161E9a235D795E29eec60D | 15000 | 0.05 | 0.1 | 0x5a5303f18ca8a2d168bb4ae15b6fff96664b3dd0a6b70efab343cc1cc15b7aa9 |
-| [UNI-USDT](aggregator/baobab/uni-usdt.aggregator.json) | 0xe6e6626ce31e48451f954f5e926ce3d2c1b72f69db48283d66bce7c3e4441f01 | 0x82aC2966dD5843e718D0EaeC7108bb4778eeF66B | 15000 | 0.05 | 0.1 | 0xdc726751898a7ed7f3ab8ff5a6972a4e90018d823f04aa6f80842346f655cc5f |
+| [UNI-USDT](aggregator/baobab/uni-usdt.aggregator.json) | 0x168eb131b28ecb676d92575d8d407ce58ca9a79b61f617d8b11b29ebdcc0dcd0 | 0x82aC2966dD5843e718D0EaeC7108bb4778eeF66B | 15000 | 0.05 | 0.1 | 0x8b3b0d2c88cc190f4d47b3903274b30a74a3594871310639fb5174568e482634 |
 | [USDC-USDT](aggregator/baobab/usdc-usdt.aggregator.json) | 0x1d946e2087e9c54828271bd808e4bda3ef198f4beee33ccc6400a5bb127bcc2b | 0x49e47b1149149CAEc5384427E41A387Bbc17698c | 15000 | 0.05 | 0.1 | 0x8b0a6fda875a3e6ed088baa14fe48e714438feb743dbf118bf18124e224285f0 |
 | [WEMIX-USDT](aggregator/baobab/wemix-usdt.aggregator.json) | 0xaf1166ea13bc80c9adae73e8002108f10f0e42c06adc892a18680c51ad8c4008 | 0x38555B4D36904538387334f1DC090825D0B36c4D | 15000 | 0.05 | 0.1 | 0xb4a2d742f66ff90a2e8ede75ee5ab9484112deaa14edc265e5fe281b02d1cc05 |
 | [XRP-USDT](aggregator/baobab/xrp-usdt.aggregator.json) | 0xfd587ff17278dfe37771aa386f67e5397098cc9946bd7472e802c73edb118d07 | 0x92dD2d62513bC4811666C4EF27248E902e41f18c | 15000 | 0.05 | 0.1 | 0xfb2a6b3fb7dd347da0813360fd977eba476e6ab2dd1d0a49a847a41c33981cc5 |
