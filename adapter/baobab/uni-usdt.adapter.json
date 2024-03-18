@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0x4deea9b22ca68c65470b7315c82a16d0d45bf025ebcc87bb26d8a3bf4bdf9a30",
+  "adapterHash": "0x8b3b0d2c88cc190f4d47b3903274b30a74a3594871310639fb5174568e482634",
   "name": "UNI-USDT",
   "decimals": 8,
   "feeds": [
@@ -114,7 +114,7 @@
       }
     },
     {
-      "name": "UniswapV3:UNI-USDT",
+      "name": "UniswapV3-UNI-USDT",
       "definition": {
         "chainId": "1",
         "address": "0x3470447f3cecffac709d3e783a307790b0208d60",
