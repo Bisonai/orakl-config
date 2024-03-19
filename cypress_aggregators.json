@@ -46,13 +46,13 @@
             "adapterHash": "0xf6c3a6a1f072e5e32ea26bf7f588522d6f39ed16dfd1e7830b1828452a0c43f0"
         },
         {
-            "aggregatorHash": "0x716318bfa8b5456339d210ec2be8988b9992d34cec59b94d64da579b9f33bd37",
+            "aggregatorHash": "0x1e1527bed9c502c27cd51b24350a3e4308b55d44598635f731264b3d579d7e5e",
             "name": "BTC-USDT",
             "address": "0x21df0fDC25cd276FAec7a081159788a2Ec52e040",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
-            "adapterHash": "0xb721dc56f629e3bfa76ff4690b2d776e7dbd58e4e2d801e6d527a9efc86aa8fa"
+            "adapterHash": "0xd18f6885ba66c44550c73b4b8a16702bf70e654d9f17d80b4451f80ec616bc60"
         },
         {
             "aggregatorHash": "0x0367adcd5586867a82aa7c6acf1db19ba0718a82eef313602b93735f737d1624",
@@ -64,13 +64,13 @@
             "adapterHash": "0xafd03c2aaac107c16b43c72c706603fc540d5665d7bb914ec5c00803a859f3b9"
         },
         {
-            "aggregatorHash": "0x6eab991f7916132bf528e1887571c7549656ff665dde74fed8507767e6bad39c",
+            "aggregatorHash": "0xa456ea3cde5ce541f1ab720af33859162f72595d6080448cb36e5c2d2932dd26",
             "name": "DAI-USDT",
             "address": "0xc20fA4a7Ba95Ec7E4CbB9458403365210EFa09B5",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
-            "adapterHash": "0xd12cf490593da8d1657c29339d78849fdc027722c23c29e7a3b52c99807c45ef"
+            "adapterHash": "0xe7c32b05629473ed4f0f2f654aebeb2abf980b22ead3c6324c1ebccc33c36b33"
         },
         {
             "aggregatorHash": "0x043be21507a8b2facb2227ad0ec2f42c37b1d45244c2a134c23df8f8ee963f29",
@@ -91,13 +91,13 @@
             "adapterHash": "0xb9c0cead8c197295b81f5eaf73ffa6254245d7f14a206e7ad5c8026195718716"
         },
         {
-            "aggregatorHash": "0x737eea668ae7f1c7f8d35e9e16941c4e76028038473f7646a40ca91264f52755",
+            "aggregatorHash": "0x763cf3de25093c3020b6aa32f3a10aaedd8046b9b7aad8491410696f31f8b2c9",
             "name": "ETH-USDT",
             "address": "0x0ee317740EA515D02587393AA32CbB6686110CAE",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
-            "adapterHash": "0x8d0dbe7fc5e6e6468506dbf7ccf1ba70bb260fb6820dad67933fa73a2498b5d2"
+            "adapterHash": "0x544c39c4f6a929cbd84ddf224f6404e01f6d57c49d450785eac72fe8d8509ce6"
         },
         {
             "aggregatorHash": "0xfbf339f574c56ab47aad956d503b3c24b6e8169293fe35c4ce60df243c0be1c7",
@@ -244,22 +244,22 @@
             "adapterHash": "0x5a5303f18ca8a2d168bb4ae15b6fff96664b3dd0a6b70efab343cc1cc15b7aa9"
         },
         {
-            "aggregatorHash": "0xe6e6626ce31e48451f954f5e926ce3d2c1b72f69db48283d66bce7c3e4441f01",
+            "aggregatorHash": "0x168eb131b28ecb676d92575d8d407ce58ca9a79b61f617d8b11b29ebdcc0dcd0",
             "name": "UNI-USDT",
             "address": "0x58B40391BC5bF647EB8Aa2CEF426950fC644d6BC",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
-            "adapterHash": "0xdc726751898a7ed7f3ab8ff5a6972a4e90018d823f04aa6f80842346f655cc5f"
+            "adapterHash": "0x8b3b0d2c88cc190f4d47b3903274b30a74a3594871310639fb5174568e482634"
         },
         {
-            "aggregatorHash": "0xc9a52c16deca41145513da4519996b37408374551a7a341c2a88f56c2174115a",
+            "aggregatorHash": "0x1d946e2087e9c54828271bd808e4bda3ef198f4beee33ccc6400a5bb127bcc2b",
             "name": "USDC-USDT",
             "address": "0x138eAA152f9702076cEA9CB420Fa763049d44251",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
-            "adapterHash": "0x02f451e791fc9273a0e74c1c2f02bda9a02f4819f3d733d30a6b8d8cf4bb3625"
+            "adapterHash": "0x8b0a6fda875a3e6ed088baa14fe48e714438feb743dbf118bf18124e224285f0"
         },
         {
             "aggregatorHash": "0xe87c49db104f27110170d10b10505220f0436fcdeb98754c076848903943fa89",
