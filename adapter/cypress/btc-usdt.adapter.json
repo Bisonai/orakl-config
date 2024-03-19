@@ -1,5 +1,5 @@
 {
-  "adapterHash": "0xb721dc56f629e3bfa76ff4690b2d776e7dbd58e4e2d801e6d527a9efc86aa8fa",
+  "adapterHash": "0xd18f6885ba66c44550c73b4b8a16702bf70e654d9f17d80b4451f80ec616bc60",
   "name": "BTC-USDT",
   "decimals": 8,
   "feeds": [
@@ -111,6 +111,16 @@
           { "function": "POW10", "args": 8 },
           { "function": "ROUND" }
         ]
+      }
+    },
+    {
+      "name": "UniswapV3-0.3-WBTC-USDT",
+      "definition": {
+        "chainId": "1",
+        "address": "0x9db9e0e53058c89e5b94e29621a205198648425b",
+        "type": "UniswapPool",
+        "token0Decimals": 8,
+        "token1Decimals": 6
       }
     }
   ]
