@@ -2,6 +2,7 @@ import json
 import os
 from pathlib import Path
 
+
 def load_json_from_path(file_path: Path):
     with open(file_path) as json_file:
         return json.load(json_file)
@@ -22,5 +23,7 @@ def collect_json_files(directory: Path, output_file_path: str):
 if __name__ == "__main__":
     collect_json_files(Path("adapter/baobab"), "baobab_adapters.json")
     collect_json_files(Path("adapter/cypress"), "cypress_adapters.json")
+    collect_json_files(Path("adapter/test"), "test_adapters.json")
     collect_json_files(Path("aggregator/baobab"), "baobab_aggregators.json")
     collect_json_files(Path("aggregator/cypress"), "cypress_aggregators.json")
+    collect_json_files(Path("aggregator/test"), "test_aggregators.json")

@@ -1,0 +1,22 @@
+{
+    "result": [
+        {
+            "aggregatorHash": "0x1e1527bed9c502c27cd51b24350a3e4308b55d44598635f731264b3d579d7e5e",
+            "name": "BTC-USDT",
+            "address": "0xE2ee36BcE3e3bf052F7C4DE6bF43f1341f7afc8F",
+            "heartbeat": 15000,
+            "threshold": 0.05,
+            "absoluteThreshold": 0.1,
+            "adapterHash": "0xd18f6885ba66c44550c73b4b8a16702bf70e654d9f17d80b4451f80ec616bc60"
+        },
+        {
+            "aggregatorHash": "0x763cf3de25093c3020b6aa32f3a10aaedd8046b9b7aad8491410696f31f8b2c9",
+            "name": "ETH-USDT",
+            "address": "0xeAca882F1c0413fFe2c200288bCd42E2BFb342f2",
+            "heartbeat": 15000,
+            "threshold": 0.05,
+            "absoluteThreshold": 0.1,
+            "adapterHash": "0x544c39c4f6a929cbd84ddf224f6404e01f6d57c49d450785eac72fe8d8509ce6"
+        }
+    ]
+}
