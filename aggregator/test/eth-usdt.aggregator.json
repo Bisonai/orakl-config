@@ -1,9 +1,9 @@
 {
-  "aggregatorHash": "0x763cf3de25093c3020b6aa32f3a10aaedd8046b9b7aad8491410696f31f8b2c9",
+  "aggregatorHash": "0x1ccb44c437f73e821df1c577cab5939321e24979384b1d000bd4f8c080d77c2c",
   "name": "ETH-USDT",
-  "address": "0x884343ABA9beDB0e7A5101C6A169C7aa842A5E00",
+  "address": "0x389A8725Bf08B2D309bD954ec9c385471C61C860",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,
-  "adapterHash": "0x544c39c4f6a929cbd84ddf224f6404e01f6d57c49d450785eac72fe8d8509ce6"
+  "adapterHash": "0xe92a7e074925d84efcfdd8ef654d9dac6521e1f5e699f3cba97498fa17e68e45"
 }
