@@ -1,0 +1,21 @@
+{
+    "adapterHash": "0x2706c1f4d9efd8dcb4ef51c4d89f0b1dd81fe6bbbd721de20d853a1679ce852f",
+    "name": "MBX-KRW",
+    "decimals": 8,
+    "feeds": [
+        {
+            "name": "Bithumb-MBX-KRW",
+            "definition": {
+                "url": "https://api.bithumb.com/public/ticker/MBX_KRW",
+                "headers": { "Content-Type": "application/json" },
+                "method": "GET",
+                "reducers": [
+                    { "function": "PARSE", "args": ["data", "closing_price"]},
+                    { "function": "POW10", "args": 8 },
+                    { "function": "ROUND" }
+                ]
+            }
+          }
+    ]
+  }
+  

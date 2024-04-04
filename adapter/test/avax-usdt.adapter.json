@@ -1,0 +1,117 @@
+{
+  "adapterHash": "0x4a69bb6e5be1335415c7d479a41849465fc4b30dcd7c54ec33ff4e6be7cc5d18",
+  "name": "AVAX-USDT",
+  "decimals": 8,
+  "feeds": [
+    {
+      "name": "Bybit-AVAX-USDT",
+      "definition": {
+        "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=AVAXUSDT",
+        "headers": { "Content-Type": "application/json" },
+        "method": "GET",
+        "reducers": [
+          { "function": "PARSE", "args": ["result", "list"] },
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["lastPrice"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
+        ]
+      }
+    },
+    {
+      "name": "Binance-AVAX-USDT",
+      "definition": {
+        "url": "https://api.binance.com/api/v3/avgPrice?symbol=AVAXUSDT",
+        "headers": { "Content-Type": "application/json" },
+        "method": "GET",
+        "reducers": [
+          { "function": "PARSE", "args": ["price"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
+        ]
+      }
+    },
+    {
+      "name": "Kucoin-AVAX-USDT",
+      "definition": {
+        "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=AVAX-USDT",
+        "headers": { "Content-Type": "application/json" },
+        "method": "GET",
+        "reducers": [
+          { "function": "PARSE", "args": ["data", "price"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
+        ]
+      }
+    },
+    {
+      "name": "Crypto-AVAX-USDT",
+      "definition": {
+        "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=AVAX_USDT",
+        "headers": { "Content-Type": "application/json" },
+        "method": "GET",
+        "reducers": [
+          { "function": "PARSE", "args": ["result", "data"] },
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["a"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
+        ]
+      }
+    },
+    {
+      "name": "Btse-AVAX-USDT",
+      "definition": {
+        "url": "https://api.btse.com/spot/api/v3.2/price?symbol=AVAX-USDT",
+        "headers": { "Content-Type": "application/json" },
+        "method": "GET",
+        "reducers": [
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["indexPrice"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
+        ]
+      }
+    },
+    {
+      "name": "Coinbase-AVAX-USDT",
+      "definition": {
+        "url": "https://api.coinbase.com/v2/exchange-rates?currency=AVAX",
+        "headers": { "Content-Type": "application/json" },
+        "method": "GET",
+        "reducers": [
+          { "function": "PARSE", "args": ["data", "rates", "USDT"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
+        ]
+      }
+    },
+    {
+      "name": "Gateio-AVAX-USDT",
+      "definition": {
+        "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=AVAX_USDT",
+        "headers": { "Content-Type": "application/json" },
+        "method": "GET",
+        "reducers": [
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["last"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
+        ]
+      }
+    },
+    {
+      "name": "Coinex-AVAX-USDT",
+      "definition": {
+        "url": "https://api.coinex.com/v1/market/ticker?market=AVAXUSDT",
+        "headers": { "Content-Type": "application/json" },
+        "method": "GET",
+        "reducers": [
+          { "function": "PARSE", "args": ["data", "ticker", "last"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
+        ]
+      }
+    }
+  ]
+}
