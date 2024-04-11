@@ -72,6 +72,7 @@
 | [MNR-KRW](adapter/cypress/mnr-krw.adapter.json) | 0x343d0b550e7e286aa9f966a738d48877a550fa52521196b31f3f314809253cf6 | 8 | 1 |
 | [PAXG-USDT](adapter/cypress/paxg-usdt.adapter.json) | 0xfadb661c5e7d9c838f8ca72c968e1c7ae49efd53c76412dd85bcb433e9910c0a | 8 | 5 |
 | [PEG-POR](adapter/cypress/peg-cypress.por.json) | 0x8524f8859d78c9f5d185f6e72ef89910328cd7d539ea654e543c70720c3ecdde | 4 | 1 |
+| [PER-KLAY](adapter/cypress/per-klay.adapter.json) | 0xcabdece4874d2a5e02c07056d57e8feb1b5f15710497da75539c326c6fc1b395 | 8 | 1 |
 | [SHIB-USDT](adapter/cypress/shib-usdt.adapter.json) | 0xf07201f9be1821676d5d0fcbbfc1e8e55e744b5b262dc92e33e9f7915567528c | 8 | 7 |
 | [SOL-USDT](adapter/cypress/sol-usdt.adapter.json) | 0x796035c254439e6aa8176843fabd36dd2b1d7d37052e76d7b19c9993d1b8ad0c | 8 | 8 |
 | [TRX-USDT](adapter/cypress/trx-usdt.adapter.json) | 0x5a5303f18ca8a2d168bb4ae15b6fff96664b3dd0a6b70efab343cc1cc15b7aa9 | 8 | 6 |
@@ -148,6 +149,7 @@
 | [MNR-KRW](aggregator/cypress/mnr-krw.aggregator.json) | 0x4f864798f40a3ad4163400b31d493cf9cf03aa4dd9ce1153b9bda5e47cf6ecaa | 0xfccB3925817e0dCFEE28343769Bbe203D8443a98 | 15000 | 0.05 | 0.1 | 0x343d0b550e7e286aa9f966a738d48877a550fa52521196b31f3f314809253cf6 |
 | [PAXG-USDT](aggregator/cypress/paxg-usdt.aggregator.json) | 0x182187a5ff6bdc485074f4eb9afc23f898afca5e4e89a9a4b99115307d0aa880 | 0x384C4A7ee7B8Ef8D6a46E2f262581632EF06E313 | 15000 | 0.05 | 0.1 | 0xfadb661c5e7d9c838f8ca72c968e1c7ae49efd53c76412dd85bcb433e9910c0a |
 | [PEG-POR](aggregator/cypress/peg.por.json) | 0xa979b36407ec5f47087a0b0f172ebd35790eb3b7d81d06f2dc8238bd32ec7d87 | 0xb5e91e5CE0B8e6fc3029b4E9ce057675a2c96dd1 | 3600000 | 0.0001 | 0.1 | 0x8524f8859d78c9f5d185f6e72ef89910328cd7d539ea654e543c70720c3ecdde |
+| [PER-KLAY](aggregator/cypress/per-klay.aggregator.json) | 0x9e3ae0a676766b0902a09fe36b9b9c09dc1863b40791da549b3ff93a7f60276a | 0xA1a5291e67E103AD580988d8A388a9E022793A67 | 15000 | 0.05 | 0.1 | 0xcabdece4874d2a5e02c07056d57e8feb1b5f15710497da75539c326c6fc1b395 |
 | [SHIB-USDT](aggregator/cypress/shib-usdt.aggregator.json) | 0x069add9633f159f56cf1638cc4249ef109d2403b878cdca478d15409986fd035 | 0x528bb9cc2dCfDd98F712A60B54120fa4F63aAf0F | 15000 | 0.05 | 0.1 | 0xf07201f9be1821676d5d0fcbbfc1e8e55e744b5b262dc92e33e9f7915567528c |
 | [SOL-USDT](aggregator/cypress/sol-usdt.aggregator.json) | 0xfa14a84a1f1041bd3ebcdf843f583ef8eb8b39ae1f8069ce6167f5270b02f2d3 | 0x7ec03AC011101eC050df4eEB9e3383608D81fcC1 | 15000 | 0.05 | 0.1 | 0x796035c254439e6aa8176843fabd36dd2b1d7d37052e76d7b19c9993d1b8ad0c |
 | [TRX-USDT](aggregator/cypress/trx-usdt.aggregator.json) | 0xd05a4e984a2a2122a1dd9bcb06538c49e5f539beff680dc9c859b8abbfd02999 | 0x035A27A2797106Dc68606cA054dA5429750F0d86 | 15000 | 0.05 | 0.1 | 0x5a5303f18ca8a2d168bb4ae15b6fff96664b3dd0a6b70efab343cc1cc15b7aa9 |
