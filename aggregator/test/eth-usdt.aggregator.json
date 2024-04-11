@@ -1,7 +1,7 @@
 {
   "aggregatorHash": "0x1ccb44c437f73e821df1c577cab5939321e24979384b1d000bd4f8c080d77c2c",
   "name": "ETH-USDT",
-  "address": "0x389A8725Bf08B2D309bD954ec9c385471C61C860",
+  "address": "0x03C4DC968E660c3dc5a345b5A885Ba7f19fDB6F6",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,

@@ -1,7 +1,7 @@
 {
   "aggregatorHash": "0xfd587ff17278dfe37771aa386f67e5397098cc9946bd7472e802c73edb118d07",
   "name": "XRP-USDT",
-  "address": "0x8B82766FeA04FD9D8262BbcB8fbCb4bA4B5E530d",
+  "address": "0x6BE18AC88700da1A82794c3905F94C2CD4Ac439d",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,

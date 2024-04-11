@@ -1,7 +1,7 @@
 {
   "aggregatorHash": "0x43adf9ab628723599f31189962e62248cc3b475176a9967cdf81d985df98fc67",
   "name": "GBP-USD",
-  "address": "0xE22376a5D099EA78fF4CA16d30657c1DE8fc04A0",
+  "address": "0x46651BC13DBd309aEB148Df647390015440Cc50c",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,

@@ -1,7 +1,7 @@
 {
   "aggregatorHash": "0xab0d74b251ae5751ac691fc3f08789661fe0a9f0b73610cebad5916e903e673f",
   "name": "FTM-USDT",
-  "address": "0xd6e59C18a44D8e473B60fd724A7F93219771123C",
+  "address": "0x59a489087296760548aabe4bF28c55F059b68b23",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,
