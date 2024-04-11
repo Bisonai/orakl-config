@@ -1,7 +1,7 @@
 {
   "aggregatorHash": "0x8cb93e0160fac5af570b9c8f4ae218126de506233895ef9535ad0fb00f5ba6e2",
   "name": "JOY-USDT",
-  "address": "0x017f8Ef7314C7FC9CAe7694A98516E9a48Ea5927",
+  "address": "0xDCC3B8134d6AdD01D82c4A2BCb377Ca7a1bC814b",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,

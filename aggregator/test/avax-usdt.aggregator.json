@@ -1,7 +1,7 @@
 {
   "aggregatorHash": "0x2b24c2a17154b457d756cf326aa0fd8c1307b4ab3cfb5c1864c629e8c7b5b4b6",
   "name": "AVAX-USDT",
-  "address": "0xD0a01F145BcB6eC6f9AeA9c6C39Fd53A9200B74C",
+  "address": "0xAe65EB7484B36730C7D0803d046B72E658369209",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,

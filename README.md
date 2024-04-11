@@ -31,6 +31,7 @@
 | [MNR-KRW](adapter/baobab/mnr-krw.adapter.json) | 0x343d0b550e7e286aa9f966a738d48877a550fa52521196b31f3f314809253cf6 | 8 | 1 |
 | [PAXG-USDT](adapter/baobab/paxg-usdt.adapter.json) | 0xfadb661c5e7d9c838f8ca72c968e1c7ae49efd53c76412dd85bcb433e9910c0a | 8 | 5 |
 | [PEG-POR](adapter/baobab/peg-baobab.por.json) | 0xb208c8a40f643fed96107fa0697bf640badd2ebea84438a3ee5044a3a1ae6060 | 4 | 1 |
+| [PER-KLAY](adapter/baobab/per-klay.adapter.json) | 0xcabdece4874d2a5e02c07056d57e8feb1b5f15710497da75539c326c6fc1b395 | 8 | 1 |
 | [SHIB-USDT](adapter/baobab/shib-usdt.adapter.json) | 0xf07201f9be1821676d5d0fcbbfc1e8e55e744b5b262dc92e33e9f7915567528c | 8 | 7 |
 | [SOL-USDT](adapter/baobab/sol-usdt.adapter.json) | 0x796035c254439e6aa8176843fabd36dd2b1d7d37052e76d7b19c9993d1b8ad0c | 8 | 8 |
 | [TRX-USDT](adapter/baobab/trx-usdt.adapter.json) | 0x5a5303f18ca8a2d168bb4ae15b6fff96664b3dd0a6b70efab343cc1cc15b7aa9 | 8 | 6 |
@@ -109,6 +110,7 @@
 | [PAXG-USDT](aggregator/baobab/paxg-usdt.aggregator.json) | 0x182187a5ff6bdc485074f4eb9afc23f898afca5e4e89a9a4b99115307d0aa880 | 0xbD07592c082A40e25a78Fd6a3d9C075B2d36BF5D | 15000 | 0.05 | 0.1 | 0xfadb661c5e7d9c838f8ca72c968e1c7ae49efd53c76412dd85bcb433e9910c0a |
 | [PEG-POR](aggregator/baobab/peg.por-fast.json) | 0x952f883b8d2fd47a790307cb569118a215ea45eb861cefd4ed3b83ae7550f8e8 | 0x58798D6Ca40480DF2FAd1b69939C3D29d91b60d3 | 120000 | 0.0001 | 0.1 | 0xb208c8a40f643fed96107fa0697bf640badd2ebea84438a3ee5044a3a1ae6060 |
 | [PEG-POR](aggregator/baobab/peg.por.json) | 0xdfc65be0daca54cfd5c081bb325d855e71b1a9cd6d2c5e44fcc1d7d0756f7811 | 0x58798D6Ca40480DF2FAd1b69939C3D29d91b60d3 | 3600000 | 0.0001 | 0.1 | 0xb208c8a40f643fed96107fa0697bf640badd2ebea84438a3ee5044a3a1ae6060 |
+| [PER-KLAY](aggregator/baobab/per-klay.aggregator.json) | 0x9e3ae0a676766b0902a09fe36b9b9c09dc1863b40791da549b3ff93a7f60276a | 0x457718C2Cc8F8E6DF0b19125a9012E016fEd3fB4 | 15000 | 0.05 | 0.1 | 0xcabdece4874d2a5e02c07056d57e8feb1b5f15710497da75539c326c6fc1b395 |
 | [SHIB-USDT](aggregator/baobab/shib-usdt.aggregator.json) | 0x069add9633f159f56cf1638cc4249ef109d2403b878cdca478d15409986fd035 | 0xA317038414a275365ED4a085B786E83E761d20a5 | 15000 | 0.05 | 0.1 | 0xf07201f9be1821676d5d0fcbbfc1e8e55e744b5b262dc92e33e9f7915567528c |
 | [SOL-USDT](aggregator/baobab/sol-usdt.aggregator.json) | 0xfa14a84a1f1041bd3ebcdf843f583ef8eb8b39ae1f8069ce6167f5270b02f2d3 | 0xBd01EdC16597f68E03607ba4b941596729ec78f7 | 15000 | 0.05 | 0.1 | 0x796035c254439e6aa8176843fabd36dd2b1d7d37052e76d7b19c9993d1b8ad0c |
 | [TRX-USDT](aggregator/baobab/trx-usdt.aggregator.json) | 0xd05a4e984a2a2122a1dd9bcb06538c49e5f539beff680dc9c859b8abbfd02999 | 0xb4de9C81eaA329E1E7161E9a235D795E29eec60D | 15000 | 0.05 | 0.1 | 0x5a5303f18ca8a2d168bb4ae15b6fff96664b3dd0a6b70efab343cc1cc15b7aa9 |
