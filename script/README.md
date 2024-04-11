@@ -16,7 +16,7 @@ The `generate-readme.py` script will check whether all connections between aggre
 Execute from root directory of this repository.
 
 ```
-python script/generate-readme.py > README.m
+python script/generate-readme.py > README.md
 ```
 
 ## Generate HISTORY.md
