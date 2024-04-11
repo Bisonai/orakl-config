@@ -1,0 +1,18 @@
+{
+  "adapterHash": "0xcabdece4874d2a5e02c07056d57e8feb1b5f15710497da75539c326c6fc1b395",
+  "name": "PER-KLAY",
+  "decimals": 8,
+  "feeds": [
+    {
+      "name": "KlaySwap-PER-KLAY",
+      "definition": {
+        "chainId": "8217",
+        "address": "0x45ccd8a73053ab94efb7a9d4fd48da888c2977f3",
+        "type": "UniswapPool",
+        "reciprocal": true,
+        "token0Decimals": 18,
+        "token1Decimals": 18
+      }
+    }
+  ]
+}
