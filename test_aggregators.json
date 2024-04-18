@@ -3,7 +3,7 @@
         {
             "aggregatorHash": "0x9f09b00a7525c29679a8121f1a73f54dcfece55b3b8d9f9e80db8cd32d037b2d",
             "name": "ADA-USDT",
-            "address": "0xc222E0A38a94f2A59F158F42Ab672feb8a1Ad33e",
+            "address": "0x23c95F4842AC01A6Eca3381005C5749f575eA801",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -12,7 +12,7 @@
         {
             "aggregatorHash": "0x6513850de3a036576ef41daa191a5ce8c1995abc2b1df78f2600cff2fe99bfda",
             "name": "ATOM-USDT",
-            "address": "0xCfF2427375Db33172069Cb15329742Bce5a158d2",
+            "address": "0x097dD2cBcB60B6Bc77D53DA86B6D6EB276BdFBc0",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -21,7 +21,7 @@
         {
             "aggregatorHash": "0x2b24c2a17154b457d756cf326aa0fd8c1307b4ab3cfb5c1864c629e8c7b5b4b6",
             "name": "AVAX-USDT",
-            "address": "0xAe65EB7484B36730C7D0803d046B72E658369209",
+            "address": "0x38d0f2A1D9f497583eCbe9881B9B10b329dDA93e",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -30,7 +30,7 @@
         {
             "aggregatorHash": "0x8dc9c3226c47e5f9af465de667264676471ba720015ff6201544637ef1510fd9",
             "name": "BNB-USDT",
-            "address": "0xc19A9F3F2997935CBD9e8eB9dC56dcFeB3A6bfC8",
+            "address": "0x63606c0B4b330338a99abf2EBC61DBA10489E9E1",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -39,7 +39,7 @@
         {
             "aggregatorHash": "0x1d1cb1d532040bdf40f8d9e1818f4781646b79adbeef9ed328490a778a822ba6",
             "name": "BORA-KRW",
-            "address": "0xf644fe0cddFA406b743f90Bf9F9Eade8E2776d10",
+            "address": "0x3830560e3F58146b0A151dF8FBB4fFAD792c72FA",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -48,7 +48,7 @@
         {
             "aggregatorHash": "0x1e1527bed9c502c27cd51b24350a3e4308b55d44598635f731264b3d579d7e5e",
             "name": "BTC-USDT",
-            "address": "0xc9280CDc7b55a5878076BcE8B61986c81110d9b7",
+            "address": "0x55faF24D49026be2bE81286783bD4605E0574bBd",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -57,7 +57,7 @@
         {
             "aggregatorHash": "0x0367adcd5586867a82aa7c6acf1db19ba0718a82eef313602b93735f737d1624",
             "name": "CHF-USD",
-            "address": "0x7138209923a20208117418177B10E765e3E83Fa3",
+            "address": "0xD8445E69de89B6c5A70eF54336BCE306531Bcc1c",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -66,7 +66,7 @@
         {
             "aggregatorHash": "0xa456ea3cde5ce541f1ab720af33859162f72595d6080448cb36e5c2d2932dd26",
             "name": "DAI-USDT",
-            "address": "0x5adD9e31813C5Dec607C82feDcC1BE17600F90b4",
+            "address": "0xc22Cd928deFce14292986aCE75a1BE1bcF100697",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -75,7 +75,7 @@
         {
             "aggregatorHash": "0x043be21507a8b2facb2227ad0ec2f42c37b1d45244c2a134c23df8f8ee963f29",
             "name": "DOGE-USDT",
-            "address": "0xFE9f41FEaeaa3029e4fB6818b5ccb610c2453b36",
+            "address": "0x4470866FE5265841a56795AA28842d0e9f04E770",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -84,7 +84,7 @@
         {
             "aggregatorHash": "0xca2d6e15f6604aaa0dc7df0b3d8461b1c0b88ac1ba9584eb0c1af3f758ca79fb",
             "name": "DOT-USDT",
-            "address": "0xB9917d12a3393e4160c1FBd00D7F897825Ca9Dd3",
+            "address": "0x8cd9A106CAAFA3bFD2da9a0CB22A206E342E3488",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -93,7 +93,7 @@
         {
             "aggregatorHash": "0x1ccb44c437f73e821df1c577cab5939321e24979384b1d000bd4f8c080d77c2c",
             "name": "ETH-USDT",
-            "address": "0x03C4DC968E660c3dc5a345b5A885Ba7f19fDB6F6",
+            "address": "0xB9048ca2b573A36E0Dd627d626dc772607a6922f",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -102,7 +102,7 @@
         {
             "aggregatorHash": "0xfbf339f574c56ab47aad956d503b3c24b6e8169293fe35c4ce60df243c0be1c7",
             "name": "EUR-USD",
-            "address": "0x4Df38bfbe519948A05Cb3d53fB2Baf654B630b65",
+            "address": "0x5018dfF84b02Ed9c399daaC9ee6da97e74b8DedF",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -111,7 +111,7 @@
         {
             "aggregatorHash": "0xab0d74b251ae5751ac691fc3f08789661fe0a9f0b73610cebad5916e903e673f",
             "name": "FTM-USDT",
-            "address": "0x59a489087296760548aabe4bF28c55F059b68b23",
+            "address": "0x98087cb55f5b5Cb686aBA262C9727307438F71f1",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -120,7 +120,7 @@
         {
             "aggregatorHash": "0x43adf9ab628723599f31189962e62248cc3b475176a9967cdf81d985df98fc67",
             "name": "GBP-USD",
-            "address": "0x46651BC13DBd309aEB148Df647390015440Cc50c",
+            "address": "0xc5646e63c1301F926084572A32afECe89d52E2D4",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -129,7 +129,7 @@
         {
             "aggregatorHash": "0x8cb93e0160fac5af570b9c8f4ae218126de506233895ef9535ad0fb00f5ba6e2",
             "name": "JOY-USDT",
-            "address": "0xDCC3B8134d6AdD01D82c4A2BCb377Ca7a1bC814b",
+            "address": "0x10616d461033442395407CE7f0122E1C8ba432F1",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -138,7 +138,7 @@
         {
             "aggregatorHash": "0xb2b38fa4d2a197ffa11d67d38ca0c4258e1adafd4502bd375d0d8ce45b5f8a42",
             "name": "JPY-USD",
-            "address": "0x1941927a429f762eBDbc003C84cA64683A78C0bF",
+            "address": "0x4E5e0906eadDD310D885eBa48E2728a93EB6Fd77",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -147,7 +147,7 @@
         {
             "aggregatorHash": "0x5c9965e8d07d667ffe8678fad85140c18faabfbd1ecf51e4dc375ada22600959",
             "name": "KLAY-USDT",
-            "address": "0x2Dca18366738192346c4A464d18cEB17Dd66c7Ff",
+            "address": "0x1CE805c8714cf74a6b92Cc3940b40De6d680EA71",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -156,7 +156,7 @@
         {
             "aggregatorHash": "0x8cb0d2a4f3713187a0260fefe1fe05692f5d4ea7618d1f950eee0981a359c195",
             "name": "KRW-USD",
-            "address": "0x08f11281392c5Cc7374A7bfac6e164b72ca985cf",
+            "address": "0xf83d263a028b1cf087975096E697851631Cae7a4",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -165,7 +165,7 @@
         {
             "aggregatorHash": "0x19a8f696329f3ad8265e8d90fa51527f506dc734afa70e28713683186f102249",
             "name": "KSP-KRW",
-            "address": "0xcb6c6aD0Aac7A0F7eD07cfCAf0676CC43Cc20c7d",
+            "address": "0x24d45f4037551dc2688D7ff071bd4CdB432EB9eF",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -174,7 +174,7 @@
         {
             "aggregatorHash": "0xa81b035534b6e84cf8410423de0d43aa2b3b05fec865d4eb827977a855046b05",
             "name": "LTC-USDT",
-            "address": "0x2A00CF9eC58E6cD9d4AF020A8dDc915968bC18CF",
+            "address": "0xb5313C2ca09C349F94871447c2e90d3DA2F02347",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -183,7 +183,7 @@
         {
             "aggregatorHash": "0x66fcc2a1e7ba046ba592a4f91f8ed333561db3e081867693f9c003efe2287af0",
             "name": "MATIC-USDT",
-            "address": "0x5286AB52dc76636515157861C967D220f2545ada",
+            "address": "0x1BA7385Fa4a0FF460edF433701b29565f0F02D79",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -192,7 +192,7 @@
         {
             "aggregatorHash": "0x2a8edc7872c6e5b0b1f8c79d5606d1d286f7b05dc29bbf1dfd5333d2258e6f6f",
             "name": "MBX-KRW",
-            "address": "0xA0C5d9B690d4567189b7706f5517e2e52d934d9c",
+            "address": "0xf29Dd42Be0C2b2B12275704846b1337ec23b4684",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -201,7 +201,7 @@
         {
             "aggregatorHash": "0x4f864798f40a3ad4163400b31d493cf9cf03aa4dd9ce1153b9bda5e47cf6ecaa",
             "name": "MNR-KRW",
-            "address": "0x2C068bBBA1b41b84fc614F70B7ab0165d9a241ab",
+            "address": "0x8A6e92c4975f9F356a2a1a150F479F25bEB42B5e",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -210,16 +210,25 @@
         {
             "aggregatorHash": "0x182187a5ff6bdc485074f4eb9afc23f898afca5e4e89a9a4b99115307d0aa880",
             "name": "PAXG-USDT",
-            "address": "0x110b869eAA3877b4D5BdacBE15226C7613e1373c",
+            "address": "0xAD3C7697075AD6256AA8Be04866b503feE7Ce365",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
             "adapterHash": "0xfadb661c5e7d9c838f8ca72c968e1c7ae49efd53c76412dd85bcb433e9910c0a"
         },
         {
+            "aggregatorHash": "0x9e3ae0a676766b0902a09fe36b9b9c09dc1863b40791da549b3ff93a7f60276a",
+            "name": "PER-KLAY",
+            "address": "0x8Fac04786dCB20FBbCB7Fab50FB10d68EB2B5C6C",
+            "heartbeat": 15000,
+            "threshold": 0.05,
+            "absoluteThreshold": 0.1,
+            "adapterHash": "0xcabdece4874d2a5e02c07056d57e8feb1b5f15710497da75539c326c6fc1b395"
+        },
+        {
             "aggregatorHash": "0x069add9633f159f56cf1638cc4249ef109d2403b878cdca478d15409986fd035",
             "name": "SHIB-USDT",
-            "address": "0xB8AD4AfBea1C28BFb760AF6459798d5A8730f542",
+            "address": "0x4c002d4B6596D6Ec4C0D430605c95Cb52932DE4F",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -228,7 +237,7 @@
         {
             "aggregatorHash": "0xfa14a84a1f1041bd3ebcdf843f583ef8eb8b39ae1f8069ce6167f5270b02f2d3",
             "name": "SOL-USDT",
-            "address": "0xB8AD4AfBea1C28BFb760AF6459798d5A8730f542",
+            "address": "0x6B816501CEa5D6D491554663507fA3e1878BF524",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -237,7 +246,7 @@
         {
             "aggregatorHash": "0xd05a4e984a2a2122a1dd9bcb06538c49e5f539beff680dc9c859b8abbfd02999",
             "name": "TRX-USDT",
-            "address": "0x207B246EB176451ca6BB4cE6853cDC08678B4DA0",
+            "address": "0x74866B7B114385F147c72D5A78C9C1a99D8C68a5",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -246,7 +255,7 @@
         {
             "aggregatorHash": "0x168eb131b28ecb676d92575d8d407ce58ca9a79b61f617d8b11b29ebdcc0dcd0",
             "name": "UNI-USDT",
-            "address": "0xba1dcadaEB775bD5E71654B1E53a614a6f2fbdf8",
+            "address": "0x7B7E3f80bA7F93f0a21D0ca3a44e8F2C0E22D9fe",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -255,7 +264,7 @@
         {
             "aggregatorHash": "0x1d946e2087e9c54828271bd808e4bda3ef198f4beee33ccc6400a5bb127bcc2b",
             "name": "USDC-USDT",
-            "address": "0xf0a104F59bbFec82413ceb33874f61Db6114C22D",
+            "address": "0xc65478cef5f9200f56fB0cd9307BF6d1AD2BaEB1",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -264,7 +273,7 @@
         {
             "aggregatorHash": "0xaf1166ea13bc80c9adae73e8002108f10f0e42c06adc892a18680c51ad8c4008",
             "name": "WEMIX-USDT",
-            "address": "0x379F062B73Cd065579eB9bfE4E8a4ecd3806f22a",
+            "address": "0x863401dBb12238d33A24B1BbBFA607441F395722",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,
@@ -273,7 +282,7 @@
         {
             "aggregatorHash": "0xfd587ff17278dfe37771aa386f67e5397098cc9946bd7472e802c73edb118d07",
             "name": "XRP-USDT",
-            "address": "0x6BE18AC88700da1A82794c3905F94C2CD4Ac439d",
+            "address": "0x3125751E281301215E0839fF50Fa84cAAE82Cd33",
             "heartbeat": 15000,
             "threshold": 0.05,
             "absoluteThreshold": 0.1,

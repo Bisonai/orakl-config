@@ -1,7 +1,7 @@
 {
   "aggregatorHash": "0x2a8edc7872c6e5b0b1f8c79d5606d1d286f7b05dc29bbf1dfd5333d2258e6f6f",
   "name": "MBX-KRW",
-  "address": "0xA0C5d9B690d4567189b7706f5517e2e52d934d9c",
+  "address": "0xf29Dd42Be0C2b2B12275704846b1337ec23b4684",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,

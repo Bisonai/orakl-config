@@ -1,7 +1,7 @@
 {
   "aggregatorHash": "0x19a8f696329f3ad8265e8d90fa51527f506dc734afa70e28713683186f102249",
   "name": "KSP-KRW",
-  "address": "0xcb6c6aD0Aac7A0F7eD07cfCAf0676CC43Cc20c7d",
+  "address": "0x24d45f4037551dc2688D7ff071bd4CdB432EB9eF",
   "heartbeat": 15000,
   "threshold": 0.05,
   "absoluteThreshold": 0.1,
