@@ -27,6 +27,8 @@ def filter_invalid_configs(configs: list):
     for config in configs:
         if "address" not in config or config["address"] == "":
             continue
+        if "feeds" not in config or len(config["feeds"]) == 0:
+            continue
         result.append(config)
     return result
 
