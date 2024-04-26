@@ -49,7 +49,7 @@ def generate_config_file(adapter_path: Path, aggregator_path: Path, output_file_
             temp_result[aggregator["name"]] = {}
         temp_result[aggregator["name"]]["address"] = aggregator["address"]
         temp_result[aggregator["name"]]["aggregateInterval"] = aggregator["aggregateHeartbeat"] if "aggregateHeartbeat" in aggregator else 5000
-        temp_result[aggregator["name"]]["submitInterval"] = aggregator["heartbeaet"] if "heartbeaet" in aggregator else 15000
+        temp_result[aggregator["name"]]["submitInterval"] = aggregator["heartbeat"] if "heartbeat" in aggregator else 15000
 
     valid_configs = filter_invalid_configs(list(temp_result.values()))
 
