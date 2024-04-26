@@ -11,20 +11,17 @@
 | AVAX-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/baobab/avax-usdt.adapter.json) |
 | BNB-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/baobab/bnb-usdt.adapter.json) |
 | BORA-KRW | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/baobab/bora-krw.adapter.json) |
-| BTC-USD | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/baobab/btc-usd.adapter.json) |
 | BTC-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/baobab/btc-usdt.adapter.json), [v2](https://github.com/Bisonai/orakl-config/blob/265ae2c8296401795ac865b4eaf6999d86d89cb3/adapter/baobab/btc-usdt.adapter.json) |
 | CHF-USD | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/baobab/chf-usd.adapter.json) |
 | DAI-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/baobab/dai-usdt.adapter.json), [v2](https://github.com/Bisonai/orakl-config/blob/2d5639edf2713bd5a42ccecb4a879327b423acdb/adapter/baobab/dai-usdt.adapter.json) |
 | DOGE-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/baobab/doge-usdt.adapter.json) |
 | DOT-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/baobab/dot-usdt.adapter.json) |
-| ETH-USD | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/baobab/eth-usd.adapter.json) |
 | ETH-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/baobab/eth-usdt.adapter.json), [v2](https://github.com/Bisonai/orakl-config/blob/265ae2c8296401795ac865b4eaf6999d86d89cb3/adapter/baobab/eth-usdt.adapter.json), [v3](https://github.com/Bisonai/orakl-config/blob/2d5639edf2713bd5a42ccecb4a879327b423acdb/adapter/baobab/eth-usdt.adapter.json) |
 | EUR-USD | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/baobab/eur-usd.adapter.json) |
 | FTM-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/baobab/ftm-usdt.adapter.json) |
 | GBP-USD | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/baobab/gbp-usd.adapter.json) |
 | JOY-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/baobab/joy-usdt.adapter.json) |
 | JPY-USD | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/baobab/jpy-usd.adapter.json) |
-| KLAY-USD | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/baobab/klay-usd.adapter.json) |
 | KLAY-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/baobab/klay-usdt.adapter.json) |
 | KRW-USD | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/baobab/krw-usd.adapter.json) |
 | KSP-KRW | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/baobab/ksp-krw.adapter.json) |
@@ -52,20 +49,17 @@
 | AVAX-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/cypress/avax-usdt.adapter.json) |
 | BNB-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/cypress/bnb-usdt.adapter.json) |
 | BORA-KRW | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/cypress/bora-krw.adapter.json) |
-| BTC-USD | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/cypress/btc-usd.adapter.json) |
 | BTC-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/cypress/btc-usdt.adapter.json), [v2](https://github.com/Bisonai/orakl-config/blob/5c7441796c2b9b6bbf0ed5bb4428d81ef4cf38b3/adapter/cypress/btc-usdt.adapter.json) |
 | CHF-USD | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/cypress/chf-usd.adapter.json) |
 | DAI-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/cypress/dai-usdt.adapter.json), [v2](https://github.com/Bisonai/orakl-config/blob/5c7441796c2b9b6bbf0ed5bb4428d81ef4cf38b3/adapter/cypress/dai-usdt.adapter.json) |
 | DOGE-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/cypress/doge-usdt.adapter.json) |
 | DOT-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/cypress/dot-usdt.adapter.json) |
-| ETH-USD | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/cypress/eth-usd.adapter.json) |
 | ETH-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/cypress/eth-usdt.adapter.json), [v2](https://github.com/Bisonai/orakl-config/blob/5c7441796c2b9b6bbf0ed5bb4428d81ef4cf38b3/adapter/cypress/eth-usdt.adapter.json) |
 | EUR-USD | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/cypress/eur-usd.adapter.json) |
 | FTM-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/cypress/ftm-usdt.adapter.json) |
 | GBP-USD | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/cypress/gbp-usd.adapter.json) |
 | JOY-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/cypress/joy-usdt.adapter.json) |
 | JPY-USD | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/cypress/jpy-usd.adapter.json) |
-| KLAY-USD | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/cypress/klay-usd.adapter.json) |
 | KLAY-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/cypress/klay-usdt.adapter.json) |
 | KRW-USD | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/cypress/krw-usd.adapter.json) |
 | KSP-KRW | [v1](https://github.com/Bisonai/orakl-config/blob/a4014006e64ebebd35f494da11c5a648fc7a8d02/adapter/cypress/ksp-krw.adapter.json) |
@@ -112,7 +106,7 @@
 | MBX-KRW | [v1](https://github.com/Bisonai/orakl-config/blob/8953f94afd72e543a00060d8081b72758ee0ecdb/aggregator/baobab/mbx-krw.aggregator.json) |
 | MNR-KRW | [v1](https://github.com/Bisonai/orakl-config/blob/ed8cf7d6071e13a0fad2b0ef1b9a1f499b99b514/aggregator/baobab/mnr-krw.aggregator.json), [v2](https://github.com/Bisonai/orakl-config/blob/71562716c9a4a9be8ebfee28909d6475031496f2/aggregator/baobab/mnr-krw.aggregator.json), [v3](https://github.com/Bisonai/orakl-config/blob/c05252b5079a297113360f3e27fb0ca2def99db2/aggregator/baobab/mnr-krw.aggregator.json), [v4](https://github.com/Bisonai/orakl-config/blob/5a71bd506f91d0e329f042fe71b3cc76a2eb001e/aggregator/baobab/mnr-krw.aggregator.json), [v5](https://github.com/Bisonai/orakl-config/blob/b8def73def48aaa413583dedae86f879648eebca/aggregator/baobab/mnr-krw.aggregator.json) |
 | PAXG-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/6dcb1885377c3d510cc52c70fed0aa95084fa2ad/aggregator/baobab/paxg-usdt.aggregator.json) |
-| PEG-POR | [v1](https://github.com/Bisonai/orakl-config/blob/3026ca30c75c029dd08e894b8e1fe8cc7f7bd181/aggregator/baobab/peg.por.json) |
+| PEG-POR | [v1](https://github.com/Bisonai/orakl-config/blob/3026ca30c75c029dd08e894b8e1fe8cc7f7bd181/aggregator/baobab/peg.por.json), [v2](https://github.com/Bisonai/orakl-config/blob/e8a10802271f0e06ab8719b0ff44934e82fca2e6/aggregator/baobab/peg.por.json) |
 | PER-KLAY | [v1](https://github.com/Bisonai/orakl-config/blob/6e199c5a21fbab56385c4eb66d11c9a0ca00d200/aggregator/baobab/per-klay.aggregator.json), [v2](https://github.com/Bisonai/orakl-config/blob/f3342bd0b243934fea4ffaac15511f9fd157d439/aggregator/baobab/per-klay.aggregator.json) |
 | SHIB-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/b8def73def48aaa413583dedae86f879648eebca/aggregator/baobab/shib-usdt.aggregator.json) |
 | SOL-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/613a11799ec664aa391503030e7b7f57acb0c64e/aggregator/baobab/sol-usdt.aggregator.json), [v2](https://github.com/Bisonai/orakl-config/blob/0f8118ff6513b6c14c868c881696b8a05ddb7086/aggregator/baobab/sol-usdt.aggregator.json), [v3](https://github.com/Bisonai/orakl-config/blob/3c184a9f05e947758d5769e56312f93fb3f2734b/aggregator/baobab/sol-usdt.aggregator.json), [v4](https://github.com/Bisonai/orakl-config/blob/c05252b5079a297113360f3e27fb0ca2def99db2/aggregator/baobab/sol-usdt.aggregator.json), [v5](https://github.com/Bisonai/orakl-config/blob/b8def73def48aaa413583dedae86f879648eebca/aggregator/baobab/sol-usdt.aggregator.json) |
