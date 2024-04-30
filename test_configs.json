@@ -238,10 +238,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x23c95F4842AC01A6Eca3381005C5749f575eA801",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "ATOM-USDT",
@@ -482,10 +482,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x097dD2cBcB60B6Bc77D53DA86B6D6EB276BdFBc0",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "AVAX-USDT",
@@ -726,10 +726,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x38d0f2A1D9f497583eCbe9881B9B10b329dDA93e",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "BNB-USDT",
@@ -944,10 +944,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x63606c0B4b330338a99abf2EBC61DBA10489E9E1",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "BORA-KRW",
@@ -1068,10 +1068,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x3830560e3F58146b0A151dF8FBB4fFAD792c72FA",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "BTC-USDT",
@@ -1312,10 +1312,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x55faF24D49026be2bE81286783bD4605E0574bBd",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "CHF-USD",
@@ -1425,10 +1425,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0xD8445E69de89B6c5A70eF54336BCE306531Bcc1c",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "DAI-USDT",
@@ -1588,10 +1588,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0xc22Cd928deFce14292986aCE75a1BE1bcF100697",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "DOGE-USDT",
@@ -1832,10 +1832,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x4470866FE5265841a56795AA28842d0e9f04E770",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "DOT-USDT",
@@ -2049,10 +2049,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x8cd9A106CAAFA3bFD2da9a0CB22A206E342E3488",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "ETH-USDT",
@@ -2293,10 +2293,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0xB9048ca2b573A36E0Dd627d626dc772607a6922f",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "EUR-USD",
@@ -2406,10 +2406,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x5018dfF84b02Ed9c399daaC9ee6da97e74b8DedF",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "FTM-USDT",
@@ -2623,10 +2623,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x98087cb55f5b5Cb686aBA262C9727307438F71f1",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "GBP-USD",
@@ -2736,10 +2736,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0xc5646e63c1301F926084572A32afECe89d52E2D4",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "JOY-USDT",
@@ -2834,10 +2834,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x10616d461033442395407CE7f0122E1C8ba432F1",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "JPY-USD",
@@ -2955,10 +2955,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x4E5e0906eadDD310D885eBa48E2728a93EB6Fd77",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "KLAY-USDT",
@@ -3199,10 +3199,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x1CE805c8714cf74a6b92Cc3940b40De6d680EA71",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "KRW-USD",
@@ -3354,10 +3354,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0xf83d263a028b1cf087975096E697851631Cae7a4",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "KSP-KRW",
@@ -3423,10 +3423,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x24d45f4037551dc2688D7ff071bd4CdB432EB9eF",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "LTC-USDT",
@@ -3640,10 +3640,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0xb5313C2ca09C349F94871447c2e90d3DA2F02347",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "MATIC-USDT",
@@ -3867,10 +3867,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x1BA7385Fa4a0FF460edF433701b29565f0F02D79",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "MBX-KRW",
@@ -3902,10 +3902,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0xf29Dd42Be0C2b2B12275704846b1337ec23b4684",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "MNR-KRW",
@@ -3946,10 +3946,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x8A6e92c4975f9F356a2a1a150F479F25bEB42B5e",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "PAXG-USDT",
@@ -4105,10 +4105,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0xAD3C7697075AD6256AA8Be04866b503feE7Ce365",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "PER-KLAY",
@@ -4125,10 +4125,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x8Fac04786dCB20FBbCB7Fab50FB10d68EB2B5C6C",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "SHIB-USDT",
@@ -4333,10 +4333,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x4c002d4B6596D6Ec4C0D430605c95Cb52932DE4F",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "SOL-USDT",
@@ -4577,10 +4577,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x6B816501CEa5D6D491554663507fA3e1878BF524",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "TRX-USDT",
@@ -4758,10 +4758,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x74866B7B114385F147c72D5A78C9C1a99D8C68a5",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "UNI-USDT",
@@ -5012,10 +5012,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x7B7E3f80bA7F93f0a21D0ca3a44e8F2C0E22D9fe",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "USDC-USDT",
@@ -5201,10 +5201,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0xc65478cef5f9200f56fB0cd9307BF6d1AD2BaEB1",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "WEMIX-USDT",
@@ -5401,10 +5401,10 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x863401dBb12238d33A24B1BbBFA607441F395722",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     },
     {
         "name": "XRP-USDT",
@@ -5645,9 +5645,9 @@
                 }
             }
         ],
-        "fetchInterval": 1000,
+        "fetchInterval": 2000,
         "address": "0x3125751E281301215E0839fF50Fa84cAAE82Cd33",
-        "aggregateInterval": 1500,
-        "submitInterval": 2000
+        "aggregateInterval": 5000,
+        "submitInterval": 15000
     }
 ]
