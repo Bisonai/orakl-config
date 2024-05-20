@@ -25,8 +25,6 @@ def collect_json_files(directory: Path, output_file_path: str):
 def filter_invalid_configs(configs: list):
     result = []
     for config in configs:
-        if "address" not in config or config["address"] == "":
-            continue
         if "feeds" not in config or len(config["feeds"]) == 0:
             continue
         result.append(config)
@@ -47,7 +45,7 @@ def generate_config_file(adapter_path: Path, aggregator_path: Path, output_file_
     for aggregator in aggregators:
         if aggregator["name"] not in temp_result:
             temp_result[aggregator["name"]] = {}
-        temp_result[aggregator["name"]]["address"] = aggregator["address"]
+
         temp_result[aggregator["name"]]["aggregateInterval"] = aggregator["aggregateHeartbeat"] if "aggregateHeartbeat" in aggregator else 5000
         temp_result[aggregator["name"]]["submitInterval"] = aggregator["heartbeat"] if "heartbeat" in aggregator else 15000
 
