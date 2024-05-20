@@ -64,3 +64,5 @@ if __name__ == "__main__":
     collect_json_files(Path("aggregator/test"), "test_aggregators.json")
 
     generate_config_file(Path("adapter/test"), Path("aggregator/test"), "test_configs.json")
+    generate_config_file(Path("adapter/baobab"), Path("aggregator/baobab"), "baobab_configs.json")
+    generate_config_file(Path("adapter/cypress"), Path("aggregator/cypress"), "cypress_configs.json")
