@@ -929,16 +929,6 @@
                             }
                         ]
                     }
-                },
-                {
-                    "name": "KlaySwap-oBNB-oUSDT",
-                    "definition": {
-                        "chainId": "8217",
-                        "address": "0x14afeda13bc2028cef34d3f45d1b4e3f44747b9a",
-                        "type": "UniswapPool",
-                        "token0Decimals": 18,
-                        "token1Decimals": 6
-                    }
                 }
             ]
         },
@@ -2283,16 +2273,6 @@
                                 "function": "ROUND"
                             }
                         ]
-                    }
-                },
-                {
-                    "name": "KlaySwap-oETH-oUSDT",
-                    "definition": {
-                        "chainId": "8217",
-                        "address": "0x6b0177e96c3623b6f6940da18378d52f78cea12d",
-                        "type": "UniswapPool",
-                        "token0Decimals": 18,
-                        "token1Decimals": 6
                     }
                 },
                 {
@@ -3858,16 +3838,6 @@
                             }
                         ]
                     }
-                },
-                {
-                    "name": "KlaySwap-oMATIC-oUSDT",
-                    "definition": {
-                        "chainId": "8217",
-                        "address": "0x6adfb19be8948ad2d1f6f1a754006723c2a491fc",
-                        "type": "UniswapPool",
-                        "token0Decimals": 18,
-                        "token1Decimals": 6
-                    }
                 }
             ]
         },
@@ -5371,16 +5341,6 @@
                                 "function": "ROUND"
                             }
                         ]
-                    }
-                },
-                {
-                    "name": "KlaySwap-oWEMIX-oUSDT",
-                    "definition": {
-                        "chainId": "8217",
-                        "address": "0xd01e0c5f2f8037da5d612ec5989b1a1ffd28a72b",
-                        "type": "UniswapPool",
-                        "token0Decimals": 18,
-                        "token1Decimals": 6
                     }
                 }
             ]
