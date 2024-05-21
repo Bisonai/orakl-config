@@ -85,16 +85,6 @@
           { "function": "ROUND" }
         ]
       }
-    },
-    {
-      "name": "KlaySwap-oWEMIX-oUSDT",
-      "definition": {
-        "chainId": "8217",
-        "address": "0xd01e0c5f2f8037da5d612ec5989b1a1ffd28a72b",
-        "type": "UniswapPool",
-        "token0Decimals": 18,
-        "token1Decimals": 6
-      }
     }
   ]
 }

@@ -114,16 +114,6 @@
       }
     },
     {
-      "name": "KlaySwap-oETH-oUSDT",
-      "definition": {
-        "chainId": "8217",
-        "address": "0x6b0177e96c3623b6f6940da18378d52f78cea12d",
-        "type": "UniswapPool",
-        "token0Decimals": 18,
-        "token1Decimals": 6
-      }
-    },
-    {
       "name": "UniswapV3:0.3-ETH-USDT",
       "definition": {
         "chainId": "1",
