@@ -37,9 +37,18 @@ def generate_config_file(adapter_path: Path, aggregator_path: Path, output_file_
     aggregators = load_json_files(aggregator_path)
 
     for adapter in adapters:
+        for feed in adapter["feeds"]:
+            for ws in ["binance", "coinbase", "coinone", "korbit"]:
+                if ws in feed["name"].lower():
+                    feed["name"] = ws + "-wss-" + adapter["name"]
+                    feed["definition"] = {}
+                    feed["definition"]["type"] = "wss"
+
         temp_result[adapter["name"]] = {}
         temp_result[adapter["name"]]["name"] = adapter["name"]
         temp_result[adapter["name"]]["feeds"] = adapter["feeds"]
+
+
         temp_result[adapter["name"]]["fetchInterval"] = adapter["interval"] if "interval" in adapter else 2000
 
     for aggregator in aggregators:
@@ -54,7 +63,6 @@ def generate_config_file(adapter_path: Path, aggregator_path: Path, output_file_
     with open(output_file_path, "w") as f:
         json.dump(valid_configs, f, indent=4)
 
-
 if __name__ == "__main__":
     collect_json_files(Path("adapter/baobab"), "baobab_adapters.json")
     collect_json_files(Path("adapter/cypress"), "cypress_adapters.json")
@@ -64,5 +72,5 @@ if __name__ == "__main__":
     collect_json_files(Path("aggregator/test"), "test_aggregators.json")
 
     generate_config_file(Path("adapter/test"), Path("aggregator/test"), "test_configs.json")
-    generate_config_file(Path("adapter/baobab"), Path("aggregator/baobab"), "baobab_configs.json")
-    generate_config_file(Path("adapter/cypress"), Path("aggregator/cypress"), "cypress_configs.json")
+    # generate_config_file(Path("adapter/baobab"), Path("aggregator/baobab"), "baobab_configs.json")
+    # generate_config_file(Path("adapter/cypress"), Path("aggregator/cypress"), "cypress_configs.json")
