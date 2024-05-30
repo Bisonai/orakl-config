@@ -40,6 +40,15 @@
                     }
                 },
                 {
+                    "name": "binance-wss-Binance-ADA-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "binance",
+                        "base": "ADA",
+                        "quote": "USDT"
+                    }
+                },
+                {
                     "name": "Kucoin-ADA-USDT",
                     "definition": {
                         "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ADA-USDT",
@@ -131,6 +140,15 @@
                     }
                 },
                 {
+                    "name": "coinbase-wss-Coinbase-ADA-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "coinbase",
+                        "base": "ADA",
+                        "quote": "USDT"
+                    }
+                },
+                {
                     "name": "Gateio-ADA-USDT",
                     "definition": {
                         "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=ADA_USDT",
@@ -187,26 +205,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [
-                {
-                    "name": "binance-wss-Binance-ADA-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "binance",
-                        "base": "ADA",
-                        "quote": "USDT"
-                    }
-                },
-                {
-                    "name": "coinbase-wss-Coinbase-ADA-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "coinbase",
-                        "base": "ADA",
-                        "quote": "USDT"
-                    }
-                }
-            ],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -248,6 +246,15 @@
                                 "function": "ROUND"
                             }
                         ]
+                    }
+                },
+                {
+                    "name": "binance-wss-Binance-ATOM-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "binance",
+                        "base": "ATOM",
+                        "quote": "USDT"
                     }
                 },
                 {
@@ -342,6 +349,15 @@
                     }
                 },
                 {
+                    "name": "coinbase-wss-Coinbase-ATOM-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "coinbase",
+                        "base": "ATOM",
+                        "quote": "USDT"
+                    }
+                },
+                {
                     "name": "Gateio-ATOM-USDT",
                     "definition": {
                         "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=ATOM_USDT",
@@ -398,26 +414,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [
-                {
-                    "name": "binance-wss-Binance-ATOM-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "binance",
-                        "base": "ATOM",
-                        "quote": "USDT"
-                    }
-                },
-                {
-                    "name": "coinbase-wss-Coinbase-ATOM-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "coinbase",
-                        "base": "ATOM",
-                        "quote": "USDT"
-                    }
-                }
-            ],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -459,6 +455,15 @@
                                 "function": "ROUND"
                             }
                         ]
+                    }
+                },
+                {
+                    "name": "binance-wss-Binance-AVAX-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "binance",
+                        "base": "AVAX",
+                        "quote": "USDT"
                     }
                 },
                 {
@@ -553,6 +558,15 @@
                     }
                 },
                 {
+                    "name": "coinbase-wss-Coinbase-AVAX-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "coinbase",
+                        "base": "AVAX",
+                        "quote": "USDT"
+                    }
+                },
+                {
                     "name": "Gateio-AVAX-USDT",
                     "definition": {
                         "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=AVAX_USDT",
@@ -609,26 +623,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [
-                {
-                    "name": "binance-wss-Binance-AVAX-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "binance",
-                        "base": "AVAX",
-                        "quote": "USDT"
-                    }
-                },
-                {
-                    "name": "coinbase-wss-Coinbase-AVAX-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "coinbase",
-                        "base": "AVAX",
-                        "quote": "USDT"
-                    }
-                }
-            ],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -670,6 +664,24 @@
                                 "function": "ROUND"
                             }
                         ]
+                    }
+                },
+                {
+                    "name": "binance-wss-Binance-BNB-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "binance",
+                        "base": "BNB",
+                        "quote": "USDT"
+                    }
+                },
+                {
+                    "name": "coinbase-wss-Coinbase-BNB-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "coinbase",
+                        "base": "BNB",
+                        "quote": "USDT"
                     }
                 },
                 {
@@ -784,26 +796,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [
-                {
-                    "name": "binance-wss-Binance-BNB-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "binance",
-                        "base": "BNB",
-                        "quote": "USDT"
-                    }
-                },
-                {
-                    "name": "coinbase-wss-Coinbase-BNB-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "coinbase",
-                        "base": "BNB",
-                        "quote": "USDT"
-                    }
-                }
-            ],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -811,6 +803,15 @@
         {
             "name": "BORA-KRW",
             "feeds": [
+                {
+                    "name": "coinone-wss-Coinone-BORA-KRW",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "coinone",
+                        "base": "BORA",
+                        "quote": "KRW"
+                    }
+                },
                 {
                     "name": "Bithumb-BORA-KRW",
                     "definition": {
@@ -865,17 +866,6 @@
                             }
                         ]
                     }
-                }
-            ],
-            "websocketFeeds": [
-                {
-                    "name": "coinone-wss-Coinone-BORA-KRW",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "coinone",
-                        "base": "BORA",
-                        "quote": "KRW"
-                    }
                 },
                 {
                     "name": "korbit-wss-Korbit-BORA-KRW",
@@ -928,6 +918,24 @@
                                 "function": "ROUND"
                             }
                         ]
+                    }
+                },
+                {
+                    "name": "binance-wss-Binance-BTC-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "binance",
+                        "base": "BTC",
+                        "quote": "USDT"
+                    }
+                },
+                {
+                    "name": "coinbase-wss-Coinbase-BTC-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "coinbase",
+                        "base": "BTC",
+                        "quote": "USDT"
                     }
                 },
                 {
@@ -1088,26 +1096,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [
-                {
-                    "name": "binance-wss-Binance-BTC-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "binance",
-                        "base": "BTC",
-                        "quote": "USDT"
-                    }
-                },
-                {
-                    "name": "coinbase-wss-Coinbase-BTC-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "coinbase",
-                        "base": "BTC",
-                        "quote": "USDT"
-                    }
-                }
-            ],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -1220,7 +1208,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -1228,6 +1215,15 @@
         {
             "name": "DAI-USDT",
             "feeds": [
+                {
+                    "name": "binance-wss-Binance-DAI-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "binance",
+                        "base": "DAI",
+                        "quote": "USDT"
+                    }
+                },
                 {
                     "name": "Crypto-DAI-USDT",
                     "definition": {
@@ -1262,6 +1258,15 @@
                                 "function": "ROUND"
                             }
                         ]
+                    }
+                },
+                {
+                    "name": "coinbase-wss-Coinbase-DAI-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "coinbase",
+                        "base": "DAI",
+                        "quote": "USDT"
                     }
                 },
                 {
@@ -1331,26 +1336,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [
-                {
-                    "name": "binance-wss-Binance-DAI-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "binance",
-                        "base": "DAI",
-                        "quote": "USDT"
-                    }
-                },
-                {
-                    "name": "coinbase-wss-Coinbase-DAI-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "coinbase",
-                        "base": "DAI",
-                        "quote": "USDT"
-                    }
-                }
-            ],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -1392,6 +1377,15 @@
                                 "function": "ROUND"
                             }
                         ]
+                    }
+                },
+                {
+                    "name": "binance-wss-Binance-DOGE-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "binance",
+                        "base": "DOGE",
+                        "quote": "USDT"
                     }
                 },
                 {
@@ -1486,6 +1480,15 @@
                     }
                 },
                 {
+                    "name": "coinbase-wss-Coinbase-DOGE-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "coinbase",
+                        "base": "DOGE",
+                        "quote": "USDT"
+                    }
+                },
+                {
                     "name": "Gateio-DOGE-USDT",
                     "definition": {
                         "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=DOGE_USDT",
@@ -1542,26 +1545,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [
-                {
-                    "name": "binance-wss-Binance-DOGE-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "binance",
-                        "base": "DOGE",
-                        "quote": "USDT"
-                    }
-                },
-                {
-                    "name": "coinbase-wss-Coinbase-DOGE-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "coinbase",
-                        "base": "DOGE",
-                        "quote": "USDT"
-                    }
-                }
-            ],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -1603,6 +1586,15 @@
                                 "function": "ROUND"
                             }
                         ]
+                    }
+                },
+                {
+                    "name": "binance-wss-Binance-DOT-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "binance",
+                        "base": "DOT",
+                        "quote": "USDT"
                     }
                 },
                 {
@@ -1753,17 +1745,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [
-                {
-                    "name": "binance-wss-Binance-DOT-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "binance",
-                        "base": "DOT",
-                        "quote": "USDT"
-                    }
-                }
-            ],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -1805,6 +1786,15 @@
                                 "function": "ROUND"
                             }
                         ]
+                    }
+                },
+                {
+                    "name": "binance-wss-Binance-ETH-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "binance",
+                        "base": "ETH",
+                        "quote": "USDT"
                     }
                 },
                 {
@@ -1899,6 +1889,15 @@
                     }
                 },
                 {
+                    "name": "coinbase-wss-Coinbase-ETH-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "coinbase",
+                        "base": "ETH",
+                        "quote": "USDT"
+                    }
+                },
+                {
                     "name": "Gateio-ETH-USDT",
                     "definition": {
                         "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=ETH_USDT",
@@ -1972,26 +1971,6 @@
                         "type": "UniswapPool",
                         "token0Decimals": 18,
                         "token1Decimals": 6
-                    }
-                }
-            ],
-            "websocketFeeds": [
-                {
-                    "name": "binance-wss-Binance-ETH-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "binance",
-                        "base": "ETH",
-                        "quote": "USDT"
-                    }
-                },
-                {
-                    "name": "coinbase-wss-Coinbase-ETH-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "coinbase",
-                        "base": "ETH",
-                        "quote": "USDT"
                     }
                 }
             ],
@@ -2107,7 +2086,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -2149,6 +2127,15 @@
                                 "function": "ROUND"
                             }
                         ]
+                    }
+                },
+                {
+                    "name": "binance-wss-Binance-FTM-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "binance",
+                        "base": "FTM",
+                        "quote": "USDT"
                     }
                 },
                 {
@@ -2299,17 +2286,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [
-                {
-                    "name": "binance-wss-Binance-FTM-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "binance",
-                        "base": "FTM",
-                        "quote": "USDT"
-                    }
-                }
-            ],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -2422,7 +2398,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -2520,7 +2495,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -2641,7 +2615,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -2683,6 +2656,15 @@
                                 "function": "ROUND"
                             }
                         ]
+                    }
+                },
+                {
+                    "name": "binance-wss-Binance-KLAY-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "binance",
+                        "base": "KLAY",
+                        "quote": "USDT"
                     }
                 },
                 {
@@ -2777,6 +2759,15 @@
                     }
                 },
                 {
+                    "name": "coinbase-wss-Coinbase-KLAY-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "coinbase",
+                        "base": "KLAY",
+                        "quote": "USDT"
+                    }
+                },
+                {
                     "name": "Gateio-KLAY-USDT",
                     "definition": {
                         "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=KLAY_USDT",
@@ -2830,26 +2821,6 @@
                                 "function": "ROUND"
                             }
                         ]
-                    }
-                }
-            ],
-            "websocketFeeds": [
-                {
-                    "name": "binance-wss-Binance-KLAY-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "binance",
-                        "base": "KLAY",
-                        "quote": "USDT"
-                    }
-                },
-                {
-                    "name": "coinbase-wss-Coinbase-KLAY-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "coinbase",
-                        "base": "KLAY",
-                        "quote": "USDT"
                     }
                 }
             ],
@@ -3007,15 +2978,13 @@
                     }
                 }
             ],
-            "websocketFeeds": [],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
         },
         {
             "name": "KSP-KRW",
-            "feeds": [],
-            "websocketFeeds": [
+            "feeds": [
                 {
                     "name": "coinone-wss-Coinone-KSP-KRW",
                     "definition": {
@@ -3076,6 +3045,15 @@
                                 "function": "ROUND"
                             }
                         ]
+                    }
+                },
+                {
+                    "name": "binance-wss-Binance-LTC-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "binance",
+                        "base": "LTC",
+                        "quote": "USDT"
                     }
                 },
                 {
@@ -3226,17 +3204,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [
-                {
-                    "name": "binance-wss-Binance-LTC-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "binance",
-                        "base": "LTC",
-                        "quote": "USDT"
-                    }
-                }
-            ],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -3278,6 +3245,15 @@
                                 "function": "ROUND"
                             }
                         ]
+                    }
+                },
+                {
+                    "name": "binance-wss-Binance-MATIC-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "binance",
+                        "base": "MATIC",
+                        "quote": "USDT"
                     }
                 },
                 {
@@ -3428,17 +3404,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [
-                {
-                    "name": "binance-wss-Binance-MATIC-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "binance",
-                        "base": "MATIC",
-                        "quote": "USDT"
-                    }
-                }
-            ],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -3473,15 +3438,13 @@
                     }
                 }
             ],
-            "websocketFeeds": [],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
         },
         {
             "name": "MNR-KRW",
-            "feeds": [],
-            "websocketFeeds": [
+            "feeds": [
                 {
                     "name": "coinone-wss-Coinone-MNR-KRW",
                     "definition": {
@@ -3533,6 +3496,15 @@
                                 "function": "ROUND"
                             }
                         ]
+                    }
+                },
+                {
+                    "name": "binance-wss-Binance-PAXG-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "binance",
+                        "base": "PAXG",
+                        "quote": "USDT"
                     }
                 },
                 {
@@ -3625,17 +3597,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [
-                {
-                    "name": "binance-wss-Binance-PAXG-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "binance",
-                        "base": "PAXG",
-                        "quote": "USDT"
-                    }
-                }
-            ],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -3655,7 +3616,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -3663,6 +3623,15 @@
         {
             "name": "SHIB-USDT",
             "feeds": [
+                {
+                    "name": "binance-wss-Binance-SHIB-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "binance",
+                        "base": "SHIB",
+                        "quote": "USDT"
+                    }
+                },
                 {
                     "name": "Kucoin-SHIB-USDT",
                     "definition": {
@@ -3755,6 +3724,15 @@
                     }
                 },
                 {
+                    "name": "coinbase-wss-Coinbase-SHIB-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "coinbase",
+                        "base": "SHIB",
+                        "quote": "USDT"
+                    }
+                },
+                {
                     "name": "Gateio-SHIB-USDT",
                     "definition": {
                         "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=SHIB_USDT",
@@ -3811,26 +3789,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [
-                {
-                    "name": "binance-wss-Binance-SHIB-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "binance",
-                        "base": "SHIB",
-                        "quote": "USDT"
-                    }
-                },
-                {
-                    "name": "coinbase-wss-Coinbase-SHIB-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "coinbase",
-                        "base": "SHIB",
-                        "quote": "USDT"
-                    }
-                }
-            ],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -3872,6 +3830,15 @@
                                 "function": "ROUND"
                             }
                         ]
+                    }
+                },
+                {
+                    "name": "binance-wss-Binance-SOL-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "binance",
+                        "base": "SOL",
+                        "quote": "USDT"
                     }
                 },
                 {
@@ -3966,6 +3933,15 @@
                     }
                 },
                 {
+                    "name": "coinbase-wss-Coinbase-SOL-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "coinbase",
+                        "base": "SOL",
+                        "quote": "USDT"
+                    }
+                },
+                {
                     "name": "Gateio-SOL-USDT",
                     "definition": {
                         "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=SOL_USDT",
@@ -4022,26 +3998,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [
-                {
-                    "name": "binance-wss-Binance-SOL-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "binance",
-                        "base": "SOL",
-                        "quote": "USDT"
-                    }
-                },
-                {
-                    "name": "coinbase-wss-Coinbase-SOL-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "coinbase",
-                        "base": "SOL",
-                        "quote": "USDT"
-                    }
-                }
-            ],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -4083,6 +4039,15 @@
                                 "function": "ROUND"
                             }
                         ]
+                    }
+                },
+                {
+                    "name": "binance-wss-Binance-TRX-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "binance",
+                        "base": "TRX",
+                        "quote": "USDT"
                     }
                 },
                 {
@@ -4197,17 +4162,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [
-                {
-                    "name": "binance-wss-Binance-TRX-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "binance",
-                        "base": "TRX",
-                        "quote": "USDT"
-                    }
-                }
-            ],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -4249,6 +4203,15 @@
                                 "function": "ROUND"
                             }
                         ]
+                    }
+                },
+                {
+                    "name": "binance-wss-Binance-UNI-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "binance",
+                        "base": "UNI",
+                        "quote": "USDT"
                     }
                 },
                 {
@@ -4343,6 +4306,15 @@
                     }
                 },
                 {
+                    "name": "coinbase-wss-Coinbase-UNI-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "coinbase",
+                        "base": "UNI",
+                        "quote": "USDT"
+                    }
+                },
+                {
                     "name": "Gateio-UNI-USDT",
                     "definition": {
                         "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=UNI_USDT",
@@ -4409,26 +4381,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [
-                {
-                    "name": "binance-wss-Binance-UNI-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "binance",
-                        "base": "UNI",
-                        "quote": "USDT"
-                    }
-                },
-                {
-                    "name": "coinbase-wss-Coinbase-UNI-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "coinbase",
-                        "base": "UNI",
-                        "quote": "USDT"
-                    }
-                }
-            ],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -4473,6 +4425,15 @@
                     }
                 },
                 {
+                    "name": "binance-wss-Binance-USDC-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "binance",
+                        "base": "USDC",
+                        "quote": "USDT"
+                    }
+                },
+                {
                     "name": "Kucoin-USDC-USDT",
                     "definition": {
                         "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=USDC-USDT",
@@ -4496,6 +4457,15 @@
                                 "function": "ROUND"
                             }
                         ]
+                    }
+                },
+                {
+                    "name": "coinbase-wss-Coinbase-USDC-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "coinbase",
+                        "base": "USDC",
+                        "quote": "USDT"
                     }
                 },
                 {
@@ -4562,26 +4532,6 @@
                         "type": "UniswapPool",
                         "token0Decimals": 6,
                         "token1Decimals": 6
-                    }
-                }
-            ],
-            "websocketFeeds": [
-                {
-                    "name": "binance-wss-Binance-USDC-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "binance",
-                        "base": "USDC",
-                        "quote": "USDT"
-                    }
-                },
-                {
-                    "name": "coinbase-wss-Coinbase-USDC-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "coinbase",
-                        "base": "USDC",
-                        "quote": "USDT"
                     }
                 }
             ],
@@ -4691,6 +4641,15 @@
                     }
                 },
                 {
+                    "name": "coinbase-wss-Coinbase-WEMIX-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "coinbase",
+                        "base": "WEMIX",
+                        "quote": "USDT"
+                    }
+                },
+                {
                     "name": "Coinex-WEMIX-USDT",
                     "definition": {
                         "url": "https://api.coinex.com/v1/market/ticker?market=WEMIXUSDT",
@@ -4747,17 +4706,6 @@
                     }
                 }
             ],
-            "websocketFeeds": [
-                {
-                    "name": "coinbase-wss-Coinbase-WEMIX-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "coinbase",
-                        "base": "WEMIX",
-                        "quote": "USDT"
-                    }
-                }
-            ],
             "fetchInterval": 2000,
             "aggregateInterval": 5000,
             "submitInterval": 15000
@@ -4799,6 +4747,15 @@
                                 "function": "ROUND"
                             }
                         ]
+                    }
+                },
+                {
+                    "name": "binance-wss-Binance-XRP-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "binance",
+                        "base": "XRP",
+                        "quote": "USDT"
                     }
                 },
                 {
@@ -4893,6 +4850,15 @@
                     }
                 },
                 {
+                    "name": "coinbase-wss-Coinbase-XRP-USDT",
+                    "definition": {
+                        "type": "wss",
+                        "provider": "coinbase",
+                        "base": "XRP",
+                        "quote": "USDT"
+                    }
+                },
+                {
                     "name": "Gateio-XRP-USDT",
                     "definition": {
                         "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=XRP_USDT",
@@ -4946,26 +4912,6 @@
                                 "function": "ROUND"
                             }
                         ]
-                    }
-                }
-            ],
-            "websocketFeeds": [
-                {
-                    "name": "binance-wss-Binance-XRP-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "binance",
-                        "base": "XRP",
-                        "quote": "USDT"
-                    }
-                },
-                {
-                    "name": "coinbase-wss-Coinbase-XRP-USDT",
-                    "definition": {
-                        "type": "wss",
-                        "provider": "coinbase",
-                        "base": "XRP",
-                        "quote": "USDT"
                     }
                 }
             ],

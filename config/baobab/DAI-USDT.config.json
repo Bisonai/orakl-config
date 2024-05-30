@@ -2,6 +2,15 @@
     "name": "DAI-USDT",
     "feeds": [
         {
+            "name": "binance-wss-Binance-DAI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "DAI",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "Crypto-DAI-USDT",
             "definition": {
                 "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=DAI_USDT",
@@ -35,6 +44,15 @@
                         "function": "ROUND"
                     }
                 ]
+            }
+        },
+        {
+            "name": "coinbase-wss-Coinbase-DAI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "DAI",
+                "quote": "USDT"
             }
         },
         {
@@ -101,26 +119,6 @@
                 "type": "UniswapPool",
                 "token0Decimals": 18,
                 "token1Decimals": 6
-            }
-        }
-    ],
-    "websocketFeeds": [
-        {
-            "name": "binance-wss-Binance-DAI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "DAI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-Coinbase-DAI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "DAI",
-                "quote": "USDT"
             }
         }
     ],

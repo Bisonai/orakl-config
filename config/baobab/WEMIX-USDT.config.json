@@ -100,6 +100,15 @@
             }
         },
         {
+            "name": "coinbase-wss-Coinbase-WEMIX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "WEMIX",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "Coinex-WEMIX-USDT",
             "definition": {
                 "url": "https://api.coinex.com/v1/market/ticker?market=WEMIXUSDT",
@@ -153,17 +162,6 @@
                         "function": "ROUND"
                     }
                 ]
-            }
-        }
-    ],
-    "websocketFeeds": [
-        {
-            "name": "coinbase-wss-Coinbase-WEMIX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "WEMIX",
-                "quote": "USDT"
             }
         }
     ],

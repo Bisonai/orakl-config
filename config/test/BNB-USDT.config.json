@@ -38,6 +38,24 @@
             }
         },
         {
+            "name": "binance-wss-Binance-BNB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "BNB",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinbase-wss-Coinbase-BNB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "BNB",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "Kucoin-BNB-USDT",
             "definition": {
                 "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BNB-USDT",
@@ -146,26 +164,6 @@
                         "function": "ROUND"
                     }
                 ]
-            }
-        }
-    ],
-    "websocketFeeds": [
-        {
-            "name": "binance-wss-Binance-BNB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "BNB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-Coinbase-BNB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "BNB",
-                "quote": "USDT"
             }
         }
     ],

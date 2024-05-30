@@ -54,11 +54,11 @@ def generate_config_files(adapter_path: Path, aggregator_path: Path, output_fold
         config = {}
         config["name"] = adapter["name"]
         config["feeds"] = []
-        config["websocketFeeds"] = []
+
         for feed in adapter["feeds"]:
             wsFeed = define_websocket_feed(feed["name"])
             if wsFeed != {}:
-                config["websocketFeeds"].append(wsFeed)
+                config["feeds"].append(wsFeed)
             else:
                 config["feeds"].append(feed)
         config["fetchInterval"] = 2000

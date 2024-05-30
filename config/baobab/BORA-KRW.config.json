@@ -2,6 +2,15 @@
     "name": "BORA-KRW",
     "feeds": [
         {
+            "name": "coinone-wss-Coinone-BORA-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "BORA",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "Bithumb-BORA-KRW",
             "definition": {
                 "url": "https://api.bithumb.com/public/ticker/BORA_KRW",
@@ -54,17 +63,6 @@
                         "function": "ROUND"
                     }
                 ]
-            }
-        }
-    ],
-    "websocketFeeds": [
-        {
-            "name": "coinone-wss-Coinone-BORA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "BORA",
-                "quote": "KRW"
             }
         },
         {

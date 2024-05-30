@@ -38,6 +38,15 @@
             }
         },
         {
+            "name": "binance-wss-Binance-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "Kucoin-AVAX-USDT",
             "definition": {
                 "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=AVAX-USDT",
@@ -129,6 +138,15 @@
             }
         },
         {
+            "name": "coinbase-wss-Coinbase-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "Gateio-AVAX-USDT",
             "definition": {
                 "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=AVAX_USDT",
@@ -182,26 +200,6 @@
                         "function": "ROUND"
                     }
                 ]
-            }
-        }
-    ],
-    "websocketFeeds": [
-        {
-            "name": "binance-wss-Binance-AVAX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "AVAX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-Coinbase-AVAX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "AVAX",
-                "quote": "USDT"
             }
         }
     ],

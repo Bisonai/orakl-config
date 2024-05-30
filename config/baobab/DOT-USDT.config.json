@@ -38,6 +38,15 @@
             }
         },
         {
+            "name": "binance-wss-Binance-DOT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "DOT",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "Kucoin-DOT-USDT",
             "definition": {
                 "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=DOT-USDT",
@@ -182,17 +191,6 @@
                         "function": "ROUND"
                     }
                 ]
-            }
-        }
-    ],
-    "websocketFeeds": [
-        {
-            "name": "binance-wss-Binance-DOT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "DOT",
-                "quote": "USDT"
             }
         }
     ],

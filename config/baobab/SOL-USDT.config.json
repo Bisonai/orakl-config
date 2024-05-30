@@ -38,6 +38,15 @@
             }
         },
         {
+            "name": "binance-wss-Binance-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "Kucoin-SOL-USDT",
             "definition": {
                 "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SOL-USDT",
@@ -129,6 +138,15 @@
             }
         },
         {
+            "name": "coinbase-wss-Coinbase-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "Gateio-SOL-USDT",
             "definition": {
                 "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=SOL_USDT",
@@ -182,26 +200,6 @@
                         "function": "ROUND"
                     }
                 ]
-            }
-        }
-    ],
-    "websocketFeeds": [
-        {
-            "name": "binance-wss-Binance-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-Coinbase-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "SOL",
-                "quote": "USDT"
             }
         }
     ],

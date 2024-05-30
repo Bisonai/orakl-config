@@ -38,6 +38,15 @@
             }
         },
         {
+            "name": "binance-wss-Binance-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "ADA",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "Kucoin-ADA-USDT",
             "definition": {
                 "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ADA-USDT",
@@ -129,6 +138,15 @@
             }
         },
         {
+            "name": "coinbase-wss-Coinbase-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "ADA",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "Gateio-ADA-USDT",
             "definition": {
                 "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=ADA_USDT",
@@ -182,26 +200,6 @@
                         "function": "ROUND"
                     }
                 ]
-            }
-        }
-    ],
-    "websocketFeeds": [
-        {
-            "name": "binance-wss-Binance-ADA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "ADA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-Coinbase-ADA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "ADA",
-                "quote": "USDT"
             }
         }
     ],

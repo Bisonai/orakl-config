@@ -1,7 +1,6 @@
 {
     "name": "KSP-KRW",
-    "feeds": [],
-    "websocketFeeds": [
+    "feeds": [
         {
             "name": "coinone-wss-Coinone-KSP-KRW",
             "definition": {

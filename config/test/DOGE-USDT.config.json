@@ -38,6 +38,15 @@
             }
         },
         {
+            "name": "binance-wss-Binance-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "Kucoin-DOGE-USDT",
             "definition": {
                 "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=DOGE-USDT",
@@ -129,6 +138,15 @@
             }
         },
         {
+            "name": "coinbase-wss-Coinbase-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "Gateio-DOGE-USDT",
             "definition": {
                 "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=DOGE_USDT",
@@ -182,26 +200,6 @@
                         "function": "ROUND"
                     }
                 ]
-            }
-        }
-    ],
-    "websocketFeeds": [
-        {
-            "name": "binance-wss-Binance-DOGE-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "DOGE",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-Coinbase-DOGE-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "DOGE",
-                "quote": "USDT"
             }
         }
     ],

@@ -38,6 +38,15 @@
             }
         },
         {
+            "name": "binance-wss-Binance-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "ETH",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "Kucoin-ETH-USDT",
             "definition": {
                 "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ETH-USDT",
@@ -129,6 +138,15 @@
             }
         },
         {
+            "name": "coinbase-wss-Coinbase-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "ETH",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "Gateio-ETH-USDT",
             "definition": {
                 "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=ETH_USDT",
@@ -202,26 +220,6 @@
                 "type": "UniswapPool",
                 "token0Decimals": 18,
                 "token1Decimals": 6
-            }
-        }
-    ],
-    "websocketFeeds": [
-        {
-            "name": "binance-wss-Binance-ETH-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "ETH",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-Coinbase-ETH-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "ETH",
-                "quote": "USDT"
             }
         }
     ],

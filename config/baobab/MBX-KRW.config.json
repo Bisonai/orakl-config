@@ -28,7 +28,6 @@
             }
         }
     ],
-    "websocketFeeds": [],
     "fetchInterval": 2000,
     "aggregateInterval": 5000,
     "submitInterval": 15000

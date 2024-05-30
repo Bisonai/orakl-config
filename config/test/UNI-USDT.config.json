@@ -38,6 +38,15 @@
             }
         },
         {
+            "name": "binance-wss-Binance-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "Kucoin-UNI-USDT",
             "definition": {
                 "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=UNI-USDT",
@@ -129,6 +138,15 @@
             }
         },
         {
+            "name": "coinbase-wss-Coinbase-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "Gateio-UNI-USDT",
             "definition": {
                 "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=UNI_USDT",
@@ -192,26 +210,6 @@
                 "type": "UniswapPool",
                 "token0Decimals": 18,
                 "token1Decimals": 6
-            }
-        }
-    ],
-    "websocketFeeds": [
-        {
-            "name": "binance-wss-Binance-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-Coinbase-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "UNI",
-                "quote": "USDT"
             }
         }
     ],

@@ -1,7 +1,6 @@
 {
     "name": "MNR-KRW",
-    "feeds": [],
-    "websocketFeeds": [
+    "feeds": [
         {
             "name": "coinone-wss-Coinone-MNR-KRW",
             "definition": {

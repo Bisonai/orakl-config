@@ -38,6 +38,15 @@
             }
         },
         {
+            "name": "binance-wss-Binance-USDC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "USDC",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "Kucoin-USDC-USDT",
             "definition": {
                 "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=USDC-USDT",
@@ -61,6 +70,15 @@
                         "function": "ROUND"
                     }
                 ]
+            }
+        },
+        {
+            "name": "coinbase-wss-Coinbase-USDC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "USDC",
+                "quote": "USDT"
             }
         },
         {
@@ -127,26 +145,6 @@
                 "type": "UniswapPool",
                 "token0Decimals": 6,
                 "token1Decimals": 6
-            }
-        }
-    ],
-    "websocketFeeds": [
-        {
-            "name": "binance-wss-Binance-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-Coinbase-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "USDC",
-                "quote": "USDT"
             }
         }
     ],

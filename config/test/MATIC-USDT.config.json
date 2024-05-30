@@ -38,6 +38,15 @@
             }
         },
         {
+            "name": "binance-wss-Binance-MATIC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "MATIC",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "Kucoin-MATIC-USDT",
             "definition": {
                 "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=MATIC-USDT",
@@ -182,17 +191,6 @@
                         "function": "ROUND"
                     }
                 ]
-            }
-        }
-    ],
-    "websocketFeeds": [
-        {
-            "name": "binance-wss-Binance-MATIC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "MATIC",
-                "quote": "USDT"
             }
         }
     ],

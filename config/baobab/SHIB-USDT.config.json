@@ -2,6 +2,15 @@
     "name": "SHIB-USDT",
     "feeds": [
         {
+            "name": "binance-wss-Binance-SHIB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "SHIB",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "Kucoin-SHIB-USDT",
             "definition": {
                 "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SHIB-USDT",
@@ -93,6 +102,15 @@
             }
         },
         {
+            "name": "coinbase-wss-Coinbase-SHIB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "SHIB",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "Gateio-SHIB-USDT",
             "definition": {
                 "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=SHIB_USDT",
@@ -146,26 +164,6 @@
                         "function": "ROUND"
                     }
                 ]
-            }
-        }
-    ],
-    "websocketFeeds": [
-        {
-            "name": "binance-wss-Binance-SHIB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "SHIB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-Coinbase-SHIB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "SHIB",
-                "quote": "USDT"
             }
         }
     ],
