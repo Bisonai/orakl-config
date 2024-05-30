@@ -1,0 +1,81 @@
+{
+    "name": "BORA-KRW",
+    "feeds": [
+        {
+            "name": "coinone-wss-Coinone-BORA-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "BORA",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "Bithumb-BORA-KRW",
+            "definition": {
+                "url": "https://api.bithumb.com/public/ticker/BORA_KRW",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "data",
+                            "closing_price"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Upbit-BORA-KRW",
+            "definition": {
+                "url": "https://api.upbit.com/v1/ticker?markets=KRW-BORA",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "trade_price"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "korbit-wss-Korbit-BORA-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "BORA",
+                "quote": "KRW"
+            }
+        }
+    ],
+    "fetchInterval": 2000,
+    "aggregateInterval": 5000,
+    "submitInterval": 15000
+}

@@ -1,0 +1,209 @@
+{
+    "name": "SOL-USDT",
+    "feeds": [
+        {
+            "name": "Bybit-SOL-USDT",
+            "definition": {
+                "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=SOLUSDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "result",
+                            "list"
+                        ]
+                    },
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "lastPrice"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "binance-wss-Binance-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "Kucoin-SOL-USDT",
+            "definition": {
+                "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SOL-USDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "data",
+                            "price"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Crypto-SOL-USDT",
+            "definition": {
+                "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=SOL_USDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "result",
+                            "data"
+                        ]
+                    },
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "a"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Btse-SOL-USDT",
+            "definition": {
+                "url": "https://api.btse.com/spot/api/v3.2/price?symbol=SOL-USDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "indexPrice"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "coinbase-wss-Coinbase-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "Gateio-SOL-USDT",
+            "definition": {
+                "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=SOL_USDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "last"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Coinex-SOL-USDT",
+            "definition": {
+                "url": "https://api.coinex.com/v1/market/ticker?market=SOLUSDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "data",
+                            "ticker",
+                            "last"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        }
+    ],
+    "fetchInterval": 2000,
+    "aggregateInterval": 5000,
+    "submitInterval": 15000
+}

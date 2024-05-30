@@ -1,0 +1,17 @@
+{
+    "name": "MNR-KRW",
+    "feeds": [
+        {
+            "name": "coinone-wss-Coinone-MNR-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "MNR",
+                "quote": "KRW"
+            }
+        }
+    ],
+    "fetchInterval": 2000,
+    "aggregateInterval": 5000,
+    "submitInterval": 15000
+}

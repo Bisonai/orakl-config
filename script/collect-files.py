@@ -32,6 +32,59 @@ def filter_invalid_configs(configs: list):
         result.append(config)
     return result
 
+def define_websocket_feed(feed_name):
+    wsFeed = {}
+    for ws in wsfetchers:
+        if ws in feed_name.lower():
+            wsFeed["name"] = ws + "-wss-" + feed_name
+            wsFeed["definition"] = {}
+            wsFeed["definition"]["type"] = "wss"
+            wsFeed["definition"]["provider"] = ws
+            wsFeed["definition"]["base"] = feed_name.split("-")[-2]
+            wsFeed["definition"]["quote"] = feed_name.split("-")[-1]
+            break
+    return wsFeed
+
+def update_config_file_websocket(config_path: Path):
+    configs = load_json_files(config_path)
+    for config in configs:
+        for feed in config["feeds"]:
+            wsFeed = define_websocket_feed(feed["name"])
+            if wsFeed != {}:
+                feed["name"] = wsFeed["name"]
+        with open(f"{config_path}/{config['name']}.config.json", "w") as f:
+            json.dump(config, f, indent=4)
+
+def generate_config_files(adapter_path: Path, aggregator_path: Path, output_folder_path: str):
+    adapters = load_json_files(adapter_path)
+    aggregators = load_json_files(aggregator_path)
+    configs = {}
+
+    for adapter in adapters:
+        config = {}
+        config["name"] = adapter["name"]
+        config["feeds"] = []
+
+        for feed in adapter["feeds"]:
+            wsFeed = define_websocket_feed(feed["name"])
+            if wsFeed != {}:
+                config["feeds"].append(wsFeed)
+            else:
+                config["feeds"].append(feed)
+        config["fetchInterval"] = 2000
+
+        configs[adapter["name"]] = config
+
+    for aggregator in aggregators:
+        if aggregator["name"] not in configs:
+            continue
+        configs[aggregator["name"]]["aggregateInterval"] = aggregator["aggregateHeartbeat"] if "aggregateHeartbeat" in aggregator else 5000
+        configs[aggregator["name"]]["submitInterval"] = aggregator["heartbeat"] if "heartbeat" in aggregator else 15000
+
+    for key, value in configs.items():
+        with open(f"{output_folder_path}/{key}.config.json", "w") as f:
+            json.dump(value, f, indent=4)
+
 def generate_config_file(adapter_path: Path, aggregator_path: Path, output_file_path: str):
     temp_result = {}
 
@@ -72,7 +125,6 @@ if __name__ == "__main__":
     collect_json_files(Path("aggregator/baobab"), "baobab_aggregators.json")
     collect_json_files(Path("aggregator/cypress"), "cypress_aggregators.json")
     collect_json_files(Path("aggregator/test"), "test_aggregators.json")
-
-    generate_config_file(Path("adapter/test"), Path("aggregator/test"), "test_configs.json")
-    generate_config_file(Path("adapter/baobab"), Path("aggregator/baobab"), "baobab_configs.json")
-    generate_config_file(Path("adapter/cypress"), Path("aggregator/cypress"), "cypress_configs.json")
+    collect_json_files(Path("config/baobab"), "baobab_configs.json")
+    collect_json_files(Path("config/cypress"), "cypress_configs.json")
+    collect_json_files(Path("config/test"), "test_configs.json")

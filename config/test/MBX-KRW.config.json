@@ -1,0 +1,34 @@
+{
+    "name": "MBX-KRW",
+    "feeds": [
+        {
+            "name": "Bithumb-MBX-KRW",
+            "definition": {
+                "url": "https://api.bithumb.com/public/ticker/MBX_KRW",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "data",
+                            "closing_price"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        }
+    ],
+    "fetchInterval": 2000,
+    "aggregateInterval": 5000,
+    "submitInterval": 15000
+}
