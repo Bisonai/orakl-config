@@ -39,28 +39,9 @@
                 }
             },
             {
-                "name": "Binance-ADA-USDT",
+                "name": "binance-wss-ADA-USDT",
                 "definition": {
-                    "url": "https://api.binance.com/api/v3/avgPrice?symbol=ADAUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -155,30 +136,9 @@
                 }
             },
             {
-                "name": "Coinbase-ADA-USDT",
+                "name": "coinbase-wss-ADA-USDT",
                 "definition": {
-                    "url": "https://api.coinbase.com/v2/exchange-rates?currency=ADA",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "rates",
-                                "USDT"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -282,28 +242,9 @@
                 }
             },
             {
-                "name": "Binance-ATOM-USDT",
+                "name": "binance-wss-ATOM-USDT",
                 "definition": {
-                    "url": "https://api.binance.com/api/v3/avgPrice?symbol=ATOMUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -398,30 +339,9 @@
                 }
             },
             {
-                "name": "Coinbase-ATOM-USDT",
+                "name": "coinbase-wss-ATOM-USDT",
                 "definition": {
-                    "url": "https://api.coinbase.com/v2/exchange-rates?currency=ATOM",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "rates",
-                                "USDT"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -525,28 +445,9 @@
                 }
             },
             {
-                "name": "Binance-AVAX-USDT",
+                "name": "binance-wss-AVAX-USDT",
                 "definition": {
-                    "url": "https://api.binance.com/api/v3/avgPrice?symbol=AVAXUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -641,30 +542,9 @@
                 }
             },
             {
-                "name": "Coinbase-AVAX-USDT",
+                "name": "coinbase-wss-AVAX-USDT",
                 "definition": {
-                    "url": "https://api.coinbase.com/v2/exchange-rates?currency=AVAX",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "rates",
-                                "USDT"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -768,55 +648,15 @@
                 }
             },
             {
-                "name": "Binance-BNB-USDT",
+                "name": "binance-wss-BNB-USDT",
                 "definition": {
-                    "url": "https://api.binance.com/api/v3/avgPrice?symbol=BNBUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
-                "name": "Coinbase-BNB-USDT",
+                "name": "coinbase-wss-BNB-USDT",
                 "definition": {
-                    "url": "https://api.coinbase.com/v2/exchange-rates?currency=BNB",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "rates",
-                                "USDT"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -939,38 +779,9 @@
         "name": "BORA-KRW",
         "feeds": [
             {
-                "name": "Coinone-BORA-KRW",
+                "name": "coinone-wss-BORA-KRW",
                 "definition": {
-                    "url": "https://api.coinone.co.kr/public/v2/ticker_new/KRW/BORA",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "tickers"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -1029,28 +840,9 @@
                 }
             },
             {
-                "name": "Korbit-BORA-KRW",
+                "name": "korbit-wss-BORA-KRW",
                 "definition": {
-                    "url": "https://api.korbit.co.kr/v1/ticker/detailed?currency_pair=bora_krw",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             }
         ],
@@ -1098,55 +890,15 @@
                 }
             },
             {
-                "name": "Binance-BTC-USDT",
+                "name": "binance-wss-BTC-USDT",
                 "definition": {
-                    "url": "https://api.binance.com/api/v3/avgPrice?symbol=BTCUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
-                "name": "Coinbase-BTC-USDT",
+                "name": "coinbase-wss-BTC-USDT",
                 "definition": {
-                    "url": "https://api.coinbase.com/v2/exchange-rates?currency=BTC",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "rates",
-                                "USDT"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -1427,28 +1179,9 @@
         "name": "DAI-USDT",
         "feeds": [
             {
-                "name": "Binance-DAI-USDT",
+                "name": "binance-wss-DAI-USDT",
                 "definition": {
-                    "url": "https://api.binance.com/api/v3/avgPrice?symbol=DAIUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -1488,30 +1221,9 @@
                 }
             },
             {
-                "name": "Coinbase-DAI-USDT",
+                "name": "coinbase-wss-DAI-USDT",
                 "definition": {
-                    "url": "https://api.coinbase.com/v2/exchange-rates?currency=DAI",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "rates",
-                                "USDT"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -1625,28 +1337,9 @@
                 }
             },
             {
-                "name": "Binance-DOGE-USDT",
+                "name": "binance-wss-DOGE-USDT",
                 "definition": {
-                    "url": "https://api.binance.com/api/v3/avgPrice?symbol=DOGEUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -1741,30 +1434,9 @@
                 }
             },
             {
-                "name": "Coinbase-DOGE-USDT",
+                "name": "coinbase-wss-DOGE-USDT",
                 "definition": {
-                    "url": "https://api.coinbase.com/v2/exchange-rates?currency=DOGE",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "rates",
-                                "USDT"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -1868,28 +1540,9 @@
                 }
             },
             {
-                "name": "Binance-DOT-USDT",
+                "name": "binance-wss-DOT-USDT",
                 "definition": {
-                    "url": "https://api.binance.com/api/v3/avgPrice?symbol=DOTUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -2084,28 +1737,9 @@
                 }
             },
             {
-                "name": "Binance-ETH-USDT",
+                "name": "binance-wss-ETH-USDT",
                 "definition": {
-                    "url": "https://api.binance.com/api/v3/avgPrice?symbol=ETHUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -2200,30 +1834,9 @@
                 }
             },
             {
-                "name": "Coinbase-ETH-USDT",
+                "name": "coinbase-wss-ETH-USDT",
                 "definition": {
-                    "url": "https://api.coinbase.com/v2/exchange-rates?currency=ETH",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "rates",
-                                "USDT"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -2459,28 +2072,9 @@
                 }
             },
             {
-                "name": "Binance-FTM-USDT",
+                "name": "binance-wss-FTM-USDT",
                 "definition": {
-                    "url": "https://api.binance.com/api/v3/avgPrice?symbol=FTMUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -3004,28 +2598,9 @@
                 }
             },
             {
-                "name": "Binance-KLAY-USDT",
+                "name": "binance-wss-KLAY-USDT",
                 "definition": {
-                    "url": "https://api.binance.com/api/v3/avgPrice?symbol=KLAYUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -3120,30 +2695,9 @@
                 }
             },
             {
-                "name": "Coinbase-KLAY-USDT",
+                "name": "coinbase-wss-KLAY-USDT",
                 "definition": {
-                    "url": "https://api.coinbase.com/v2/exchange-rates?currency=KLAY",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "rates",
-                                "USDT"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -3365,63 +2919,15 @@
         "name": "KSP-KRW",
         "feeds": [
             {
-                "name": "Coinone-KSP-KRW",
+                "name": "coinone-wss-KSP-KRW",
                 "definition": {
-                    "url": "https://api.coinone.co.kr/public/v2/ticker_new/KRW/KSP",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "tickers"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
-                "name": "Korbit-KSP-KRW",
+                "name": "korbit-wss-KSP-KRW",
                 "definition": {
-                    "url": "https://api.korbit.co.kr/v1/ticker/detailed?currency_pair=ksp_krw",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             }
         ],
@@ -3469,28 +2975,9 @@
                 }
             },
             {
-                "name": "Binance-LTC-USDT",
+                "name": "binance-wss-LTC-USDT",
                 "definition": {
-                    "url": "https://api.binance.com/api/v3/avgPrice?symbol=LTCUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -3685,28 +3172,9 @@
                 }
             },
             {
-                "name": "Binance-MATIC-USDT",
+                "name": "binance-wss-MATIC-USDT",
                 "definition": {
-                    "url": "https://api.binance.com/api/v3/avgPrice?symbol=MATICUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -3899,38 +3367,9 @@
         "name": "MNR-KRW",
         "feeds": [
             {
-                "name": "Coinone-MNR-KRW",
+                "name": "coinone-wss-MNR-KRW",
                 "definition": {
-                    "url": "https://api.coinone.co.kr/public/v2/ticker_new/KRW/MNR",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "tickers"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             }
         ],
@@ -3978,28 +3417,9 @@
                 }
             },
             {
-                "name": "Binance-PAXG-USDT",
+                "name": "binance-wss-PAXG-USDT",
                 "definition": {
-                    "url": "https://api.binance.com/api/v3/avgPrice?symbol=PAXGUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -4119,28 +3539,9 @@
         "name": "SHIB-USDT",
         "feeds": [
             {
-                "name": "Binance-SHIB-USDT",
+                "name": "binance-wss-SHIB-USDT",
                 "definition": {
-                    "url": "https://api.binance.com/api/v3/avgPrice?symbol=SHIBUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -4235,30 +3636,9 @@
                 }
             },
             {
-                "name": "Coinbase-SHIB-USDT",
+                "name": "coinbase-wss-SHIB-USDT",
                 "definition": {
-                    "url": "https://api.coinbase.com/v2/exchange-rates?currency=SHIB",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "rates",
-                                "USDT"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -4362,28 +3742,9 @@
                 }
             },
             {
-                "name": "Binance-SOL-USDT",
+                "name": "binance-wss-SOL-USDT",
                 "definition": {
-                    "url": "https://api.binance.com/api/v3/avgPrice?symbol=SOLUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -4478,30 +3839,9 @@
                 }
             },
             {
-                "name": "Coinbase-SOL-USDT",
+                "name": "coinbase-wss-SOL-USDT",
                 "definition": {
-                    "url": "https://api.coinbase.com/v2/exchange-rates?currency=SOL",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "rates",
-                                "USDT"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -4605,28 +3945,9 @@
                 }
             },
             {
-                "name": "Binance-TRX-USDT",
+                "name": "binance-wss-TRX-USDT",
                 "definition": {
-                    "url": "https://api.binance.com/api/v3/avgPrice?symbol=TRXUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -4785,28 +4106,9 @@
                 }
             },
             {
-                "name": "Binance-UNI-USDT",
+                "name": "binance-wss-UNI-USDT",
                 "definition": {
-                    "url": "https://api.binance.com/api/v3/avgPrice?symbol=UNIUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -4901,30 +4203,9 @@
                 }
             },
             {
-                "name": "Coinbase-UNI-USDT",
+                "name": "coinbase-wss-UNI-USDT",
                 "definition": {
-                    "url": "https://api.coinbase.com/v2/exchange-rates?currency=UNI",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "rates",
-                                "USDT"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -5038,28 +4319,9 @@
                 }
             },
             {
-                "name": "Binance-USDC-USDT",
+                "name": "binance-wss-USDC-USDT",
                 "definition": {
-                    "url": "https://api.binance.com/api/v3/avgPrice?symbol=USDCUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -5089,30 +4351,9 @@
                 }
             },
             {
-                "name": "Coinbase-USDC-USDT",
+                "name": "coinbase-wss-USDC-USDT",
                 "definition": {
-                    "url": "https://api.coinbase.com/v2/exchange-rates?currency=USDC",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "rates",
-                                "USDT"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -5288,30 +4529,9 @@
                 }
             },
             {
-                "name": "Coinbase-WEMIX-USDT",
+                "name": "coinbase-wss-WEMIX-USDT",
                 "definition": {
-                    "url": "https://api.coinbase.com/v2/exchange-rates?currency=WEMIX",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "rates",
-                                "USDT"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -5415,28 +4635,9 @@
                 }
             },
             {
-                "name": "Binance-XRP-USDT",
+                "name": "binance-wss-XRP-USDT",
                 "definition": {
-                    "url": "https://api.binance.com/api/v3/avgPrice?symbol=XRPUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
@@ -5531,30 +4732,9 @@
                 }
             },
             {
-                "name": "Coinbase-XRP-USDT",
+                "name": "coinbase-wss-XRP-USDT",
                 "definition": {
-                    "url": "https://api.coinbase.com/v2/exchange-rates?currency=XRP",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "rates",
-                                "USDT"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss"
                 }
             },
             {
