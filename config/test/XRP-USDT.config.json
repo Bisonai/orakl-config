@@ -1,0 +1,211 @@
+{
+    "name": "XRP-USDT",
+    "feeds": [
+        {
+            "name": "Bybit-XRP-USDT",
+            "definition": {
+                "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=XRPUSDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "result",
+                            "list"
+                        ]
+                    },
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "lastPrice"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Kucoin-XRP-USDT",
+            "definition": {
+                "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=XRP-USDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "data",
+                            "price"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Crypto-XRP-USDT",
+            "definition": {
+                "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=XRP_USDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "result",
+                            "data"
+                        ]
+                    },
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "a"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Btse-XRP-USDT",
+            "definition": {
+                "url": "https://api.btse.com/spot/api/v3.2/price?symbol=XRP-USDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "indexPrice"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Gateio-XRP-USDT",
+            "definition": {
+                "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=XRP_USDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "last"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Coinex-XRP-USDT",
+            "definition": {
+                "url": "https://api.coinex.com/v1/market/ticker?market=XRPUSDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "data",
+                            "ticker",
+                            "last"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        }
+    ],
+    "websocketFeeds": [
+        {
+            "name": "binance-wss-Binance-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinbase-wss-Coinbase-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        }
+    ],
+    "fetchInterval": 2000,
+    "aggregateInterval": 5000,
+    "submitInterval": 15000
+}

@@ -1,0 +1,27 @@
+{
+    "name": "KSP-KRW",
+    "feeds": [],
+    "websocketFeeds": [
+        {
+            "name": "coinone-wss-Coinone-KSP-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "KSP",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-Korbit-KSP-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "KSP",
+                "quote": "KRW"
+            }
+        }
+    ],
+    "fetchInterval": 2000,
+    "aggregateInterval": 5000,
+    "submitInterval": 15000
+}

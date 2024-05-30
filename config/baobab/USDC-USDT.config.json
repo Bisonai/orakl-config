@@ -1,0 +1,156 @@
+{
+    "name": "USDC-USDT",
+    "feeds": [
+        {
+            "name": "Bybit-USDC-USDT",
+            "definition": {
+                "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=USDCUSDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "result",
+                            "list"
+                        ]
+                    },
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "lastPrice"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Kucoin-USDC-USDT",
+            "definition": {
+                "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=USDC-USDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "data",
+                            "price"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Gateio-USDC-USDT",
+            "definition": {
+                "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=USDC_USDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "last"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Coinex-USDC-USDT",
+            "definition": {
+                "url": "https://api.coinex.com/v1/market/ticker?market=USDCUSDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "data",
+                            "ticker",
+                            "last"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "UniswapV3-0.01-USDC-USDT",
+            "definition": {
+                "chainId": "1",
+                "address": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+                "type": "UniswapPool",
+                "token0Decimals": 6,
+                "token1Decimals": 6
+            }
+        }
+    ],
+    "websocketFeeds": [
+        {
+            "name": "binance-wss-Binance-USDC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "USDC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinbase-wss-Coinbase-USDC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "USDC",
+                "quote": "USDT"
+            }
+        }
+    ],
+    "fetchInterval": 2000,
+    "aggregateInterval": 5000,
+    "submitInterval": 15000
+}

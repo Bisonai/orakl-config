@@ -32,6 +32,52 @@ def filter_invalid_configs(configs: list):
         result.append(config)
     return result
 
+def define_websocket_feed(feed_name):
+    wsFeed = {}
+    for ws in wsfetchers:
+        if ws in feed_name.lower():
+            wsFeed["name"] = ws + "-wss-" + feed_name
+            wsFeed["definition"] = {}
+            wsFeed["definition"]["type"] = "wss"
+            wsFeed["definition"]["provider"] = ws
+            wsFeed["definition"]["base"] = feed_name.split("-")[-2]
+            wsFeed["definition"]["quote"] = feed_name.split("-")[-1]
+            break
+    return wsFeed
+
+def generate_config_files(adapter_path: Path, aggregator_path: Path, output_folder_path: str):
+    adapters = load_json_files(adapter_path)
+    aggregators = load_json_files(aggregator_path)
+    configs = {}
+
+    for adapter in adapters:
+        config = {}
+        config["name"] = adapter["name"]
+        config["feeds"] = []
+        config["websocketFeeds"] = []
+        for feed in adapter["feeds"]:
+            wsFeed = define_websocket_feed(feed["name"])
+            if wsFeed != {}:
+                config["websocketFeeds"].append(wsFeed)
+            else:
+                config["feeds"].append(feed)
+        config["fetchInterval"] = 2000
+
+        configs[adapter["name"]] = config
+
+    for aggregator in aggregators:
+        if aggregator["name"] not in configs:
+            continue
+        configs[aggregator["name"]]["aggregateInterval"] = aggregator["aggregateHeartbeat"] if "aggregateHeartbeat" in aggregator else 5000
+        configs[aggregator["name"]]["submitInterval"] = aggregator["heartbeat"] if "heartbeat" in aggregator else 15000
+
+    for key, value in configs.items():
+        with open(f"{output_folder_path}/{key}.config.json", "w") as f:
+            json.dump(value, f, indent=4)
+
+
+
+
 def generate_config_file(adapter_path: Path, aggregator_path: Path, output_file_path: str):
     temp_result = {}
 
@@ -66,13 +112,15 @@ def generate_config_file(adapter_path: Path, aggregator_path: Path, output_file_
         json.dump(valid_configs, f, indent=4)
 
 if __name__ == "__main__":
+    # generate_config_files(Path("adapter/test"), Path("aggregator/test"), "config/test")
+    # generate_config_files(Path("adapter/baobab"), Path("aggregator/baobab"), "config/baobab")
+    # generate_config_files(Path("adapter/cypress"), Path("aggregator/cypress"), "config/cypress")
     collect_json_files(Path("adapter/baobab"), "baobab_adapters.json")
     collect_json_files(Path("adapter/cypress"), "cypress_adapters.json")
     collect_json_files(Path("adapter/test"), "test_adapters.json")
     collect_json_files(Path("aggregator/baobab"), "baobab_aggregators.json")
     collect_json_files(Path("aggregator/cypress"), "cypress_aggregators.json")
     collect_json_files(Path("aggregator/test"), "test_aggregators.json")
-
-    generate_config_file(Path("adapter/test"), Path("aggregator/test"), "test_configs.json")
-    generate_config_file(Path("adapter/baobab"), Path("aggregator/baobab"), "baobab_configs.json")
-    generate_config_file(Path("adapter/cypress"), Path("aggregator/cypress"), "cypress_configs.json")
+    collect_json_files(Path("config/baobab"), "baobab_configs.json")
+    collect_json_files(Path("config/cypress"), "cypress_configs.json")
+    collect_json_files(Path("config/test"), "test_configs.json")

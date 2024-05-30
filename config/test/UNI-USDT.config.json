@@ -1,0 +1,221 @@
+{
+    "name": "UNI-USDT",
+    "feeds": [
+        {
+            "name": "Bybit-UNI-USDT",
+            "definition": {
+                "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=UNIUSDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "result",
+                            "list"
+                        ]
+                    },
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "lastPrice"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Kucoin-UNI-USDT",
+            "definition": {
+                "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=UNI-USDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "data",
+                            "price"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Crypto-UNI-USDT",
+            "definition": {
+                "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=UNI_USDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "result",
+                            "data"
+                        ]
+                    },
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "a"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Btse-UNI-USDT",
+            "definition": {
+                "url": "https://api.btse.com/spot/api/v3.2/price?symbol=UNI-USDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "indexPrice"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Gateio-UNI-USDT",
+            "definition": {
+                "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=UNI_USDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "last"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Coinex-UNI-USDT",
+            "definition": {
+                "url": "https://api.coinex.com/v1/market/ticker?market=UNIUSDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "data",
+                            "ticker",
+                            "last"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "UniswapV3-UNI-USDT",
+            "definition": {
+                "chainId": "1",
+                "address": "0x3470447f3cecffac709d3e783a307790b0208d60",
+                "type": "UniswapPool",
+                "token0Decimals": 18,
+                "token1Decimals": 6
+            }
+        }
+    ],
+    "websocketFeeds": [
+        {
+            "name": "binance-wss-Binance-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinbase-wss-Coinbase-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        }
+    ],
+    "fetchInterval": 2000,
+    "aggregateInterval": 5000,
+    "submitInterval": 15000
+}

@@ -1,0 +1,202 @@
+{
+    "name": "MATIC-USDT",
+    "feeds": [
+        {
+            "name": "Bybit-MATIC-USDT",
+            "definition": {
+                "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=MATICUSDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "result",
+                            "list"
+                        ]
+                    },
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "lastPrice"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Kucoin-MATIC-USDT",
+            "definition": {
+                "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=MATIC-USDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "data",
+                            "price"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Crypto-MATIC-USDT",
+            "definition": {
+                "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=MATIC_USDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "result",
+                            "data"
+                        ]
+                    },
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "a"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Btse-MATIC-USDT",
+            "definition": {
+                "url": "https://api.btse.com/spot/api/v3.2/price?symbol=MATIC-USDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "indexPrice"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Gateio-MATIC-USDT",
+            "definition": {
+                "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=MATIC_USDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "last"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Coinex-MATIC-USDT",
+            "definition": {
+                "url": "https://api.coinex.com/v1/market/ticker?market=MATICUSDT",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "data",
+                            "ticker",
+                            "last"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
+        }
+    ],
+    "websocketFeeds": [
+        {
+            "name": "binance-wss-Binance-MATIC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "MATIC",
+                "quote": "USDT"
+            }
+        }
+    ],
+    "fetchInterval": 2000,
+    "aggregateInterval": 5000,
+    "submitInterval": 15000
+}
