@@ -45,6 +45,16 @@ def define_websocket_feed(feed_name):
             break
     return wsFeed
 
+def update_config_file_websocket(config_path: Path):
+    configs = load_json_files(config_path)
+    for config in configs:
+        for feed in config["feeds"]:
+            wsFeed = define_websocket_feed(feed["name"])
+            if wsFeed != {}:
+                feed["name"] = wsFeed["name"]
+        with open(f"{config_path}/{config['name']}.config.json", "w") as f:
+            json.dump(config, f, indent=4)
+
 def generate_config_files(adapter_path: Path, aggregator_path: Path, output_folder_path: str):
     adapters = load_json_files(adapter_path)
     aggregators = load_json_files(aggregator_path)
@@ -74,9 +84,6 @@ def generate_config_files(adapter_path: Path, aggregator_path: Path, output_fold
     for key, value in configs.items():
         with open(f"{output_folder_path}/{key}.config.json", "w") as f:
             json.dump(value, f, indent=4)
-
-
-
 
 def generate_config_file(adapter_path: Path, aggregator_path: Path, output_file_path: str):
     temp_result = {}
@@ -112,9 +119,6 @@ def generate_config_file(adapter_path: Path, aggregator_path: Path, output_file_
         json.dump(valid_configs, f, indent=4)
 
 if __name__ == "__main__":
-    # generate_config_files(Path("adapter/test"), Path("aggregator/test"), "config/test")
-    # generate_config_files(Path("adapter/baobab"), Path("aggregator/baobab"), "config/baobab")
-    # generate_config_files(Path("adapter/cypress"), Path("aggregator/cypress"), "config/cypress")
     collect_json_files(Path("adapter/baobab"), "baobab_adapters.json")
     collect_json_files(Path("adapter/cypress"), "cypress_adapters.json")
     collect_json_files(Path("adapter/test"), "test_adapters.json")
