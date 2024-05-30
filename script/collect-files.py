@@ -2,6 +2,8 @@ import json
 import os
 from pathlib import Path
 
+wsfetchers = ["binance", "coinbase", "coinone", "korbit"]
+
 def load_json_from_path(file_path: Path):
     with open(file_path) as json_file:
         return json.load(json_file)
@@ -38,7 +40,7 @@ def generate_config_file(adapter_path: Path, aggregator_path: Path, output_file_
 
     for adapter in adapters:
         for feed in adapter["feeds"]:
-            for ws in ["binance", "coinbase", "coinone", "korbit"]:
+            for ws in wsfetchers:
                 if ws in feed["name"].lower():
                     feed["name"] = ws + "-wss-" + adapter["name"]
                     feed["definition"] = {}
