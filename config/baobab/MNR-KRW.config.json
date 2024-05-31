@@ -2,7 +2,7 @@
     "name": "MNR-KRW",
     "feeds": [
         {
-            "name": "coinone-wss-Coinone-MNR-KRW",
+            "name": "coinone-wss-MNR-KRW",
             "definition": {
                 "type": "wss",
                 "provider": "coinone",

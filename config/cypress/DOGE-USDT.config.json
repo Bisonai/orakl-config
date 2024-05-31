@@ -38,7 +38,7 @@
             }
         },
         {
-            "name": "binance-wss-Binance-DOGE-USDT",
+            "name": "binance-wss-DOGE-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",
@@ -138,7 +138,7 @@
             }
         },
         {
-            "name": "coinbase-wss-Coinbase-DOGE-USDT",
+            "name": "coinbase-wss-DOGE-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "coinbase",

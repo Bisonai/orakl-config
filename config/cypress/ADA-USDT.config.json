@@ -38,7 +38,7 @@
             }
         },
         {
-            "name": "binance-wss-Binance-ADA-USDT",
+            "name": "binance-wss-ADA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",
@@ -138,7 +138,7 @@
             }
         },
         {
-            "name": "coinbase-wss-Coinbase-ADA-USDT",
+            "name": "coinbase-wss-ADA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "coinbase",

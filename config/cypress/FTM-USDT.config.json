@@ -38,7 +38,7 @@
             }
         },
         {
-            "name": "binance-wss-Binance-FTM-USDT",
+            "name": "binance-wss-FTM-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",

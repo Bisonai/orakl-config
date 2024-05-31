@@ -2,7 +2,7 @@
     "name": "DAI-USDT",
     "feeds": [
         {
-            "name": "binance-wss-Binance-DAI-USDT",
+            "name": "binance-wss-DAI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",
@@ -47,7 +47,7 @@
             }
         },
         {
-            "name": "coinbase-wss-Coinbase-DAI-USDT",
+            "name": "coinbase-wss-DAI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "coinbase",

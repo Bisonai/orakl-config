@@ -32,11 +32,11 @@ def filter_invalid_configs(configs: list):
         result.append(config)
     return result
 
-def define_websocket_feed(feed_name):
+def define_websocket_feed(feed_name, adapter_name):
     wsFeed = {}
     for ws in wsfetchers:
         if ws in feed_name.lower():
-            wsFeed["name"] = ws + "-wss-" + feed_name
+            wsFeed["name"] = ws + "-wss-" + adapter_name
             wsFeed["definition"] = {}
             wsFeed["definition"]["type"] = "wss"
             wsFeed["definition"]["provider"] = ws
@@ -49,7 +49,7 @@ def update_config_file_websocket(config_path: Path):
     configs = load_json_files(config_path)
     for config in configs:
         for feed in config["feeds"]:
-            wsFeed = define_websocket_feed(feed["name"])
+            wsFeed = define_websocket_feed(feed["name"], config["name"])
             if wsFeed != {}:
                 feed["name"] = wsFeed["name"]
         with open(f"{config_path}/{config['name']}.config.json", "w") as f:
@@ -66,7 +66,7 @@ def generate_config_files(adapter_path: Path, aggregator_path: Path, output_fold
         config["feeds"] = []
 
         for feed in adapter["feeds"]:
-            wsFeed = define_websocket_feed(feed["name"])
+            wsFeed = define_websocket_feed(feed["name"], adapter["name"])
             if wsFeed != {}:
                 config["feeds"].append(wsFeed)
             else:

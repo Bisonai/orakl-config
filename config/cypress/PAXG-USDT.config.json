@@ -38,7 +38,7 @@
             }
         },
         {
-            "name": "binance-wss-Binance-PAXG-USDT",
+            "name": "binance-wss-PAXG-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",

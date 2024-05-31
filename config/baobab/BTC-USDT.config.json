@@ -38,7 +38,7 @@
             }
         },
         {
-            "name": "binance-wss-Binance-BTC-USDT",
+            "name": "binance-wss-BTC-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",
@@ -47,7 +47,7 @@
             }
         },
         {
-            "name": "coinbase-wss-Coinbase-BTC-USDT",
+            "name": "coinbase-wss-BTC-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "coinbase",

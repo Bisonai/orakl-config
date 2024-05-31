@@ -2,7 +2,7 @@
     "name": "SHIB-USDT",
     "feeds": [
         {
-            "name": "binance-wss-Binance-SHIB-USDT",
+            "name": "binance-wss-SHIB-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",
@@ -102,7 +102,7 @@
             }
         },
         {
-            "name": "coinbase-wss-Coinbase-SHIB-USDT",
+            "name": "coinbase-wss-SHIB-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "coinbase",

@@ -38,7 +38,7 @@
             }
         },
         {
-            "name": "binance-wss-Binance-MATIC-USDT",
+            "name": "binance-wss-MATIC-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",
