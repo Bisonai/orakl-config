@@ -38,7 +38,7 @@
             }
         },
         {
-            "name": "binance-wss-Binance-DOT-USDT",
+            "name": "binance-wss-DOT-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",

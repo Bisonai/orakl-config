@@ -2,7 +2,7 @@
     "name": "KSP-KRW",
     "feeds": [
         {
-            "name": "coinone-wss-Coinone-KSP-KRW",
+            "name": "coinone-wss-KSP-KRW",
             "definition": {
                 "type": "wss",
                 "provider": "coinone",
@@ -11,7 +11,7 @@
             }
         },
         {
-            "name": "korbit-wss-Korbit-KSP-KRW",
+            "name": "korbit-wss-KSP-KRW",
             "definition": {
                 "type": "wss",
                 "provider": "korbit",

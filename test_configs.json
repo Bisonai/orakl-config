@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "name": "binance-wss-Binance-ADA-USDT",
+                    "name": "binance-wss-ADA-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "binance",
@@ -140,7 +140,7 @@
                     }
                 },
                 {
-                    "name": "coinbase-wss-Coinbase-ADA-USDT",
+                    "name": "coinbase-wss-ADA-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "coinbase",
@@ -249,7 +249,7 @@
                     }
                 },
                 {
-                    "name": "binance-wss-Binance-ATOM-USDT",
+                    "name": "binance-wss-ATOM-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "binance",
@@ -349,7 +349,7 @@
                     }
                 },
                 {
-                    "name": "coinbase-wss-Coinbase-ATOM-USDT",
+                    "name": "coinbase-wss-ATOM-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "coinbase",
@@ -458,7 +458,7 @@
                     }
                 },
                 {
-                    "name": "binance-wss-Binance-AVAX-USDT",
+                    "name": "binance-wss-AVAX-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "binance",
@@ -558,7 +558,7 @@
                     }
                 },
                 {
-                    "name": "coinbase-wss-Coinbase-AVAX-USDT",
+                    "name": "coinbase-wss-AVAX-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "coinbase",
@@ -667,7 +667,7 @@
                     }
                 },
                 {
-                    "name": "binance-wss-Binance-BNB-USDT",
+                    "name": "binance-wss-BNB-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "binance",
@@ -676,7 +676,7 @@
                     }
                 },
                 {
-                    "name": "coinbase-wss-Coinbase-BNB-USDT",
+                    "name": "coinbase-wss-BNB-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "coinbase",
@@ -804,7 +804,7 @@
             "name": "BORA-KRW",
             "feeds": [
                 {
-                    "name": "coinone-wss-Coinone-BORA-KRW",
+                    "name": "coinone-wss-BORA-KRW",
                     "definition": {
                         "type": "wss",
                         "provider": "coinone",
@@ -868,7 +868,7 @@
                     }
                 },
                 {
-                    "name": "korbit-wss-Korbit-BORA-KRW",
+                    "name": "korbit-wss-BORA-KRW",
                     "definition": {
                         "type": "wss",
                         "provider": "korbit",
@@ -921,7 +921,7 @@
                     }
                 },
                 {
-                    "name": "binance-wss-Binance-BTC-USDT",
+                    "name": "binance-wss-BTC-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "binance",
@@ -930,7 +930,7 @@
                     }
                 },
                 {
-                    "name": "coinbase-wss-Coinbase-BTC-USDT",
+                    "name": "coinbase-wss-BTC-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "coinbase",
@@ -1206,7 +1206,7 @@
             "name": "DAI-USDT",
             "feeds": [
                 {
-                    "name": "binance-wss-Binance-DAI-USDT",
+                    "name": "binance-wss-DAI-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "binance",
@@ -1251,7 +1251,7 @@
                     }
                 },
                 {
-                    "name": "coinbase-wss-Coinbase-DAI-USDT",
+                    "name": "coinbase-wss-DAI-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "coinbase",
@@ -1370,7 +1370,7 @@
                     }
                 },
                 {
-                    "name": "binance-wss-Binance-DOGE-USDT",
+                    "name": "binance-wss-DOGE-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "binance",
@@ -1470,7 +1470,7 @@
                     }
                 },
                 {
-                    "name": "coinbase-wss-Coinbase-DOGE-USDT",
+                    "name": "coinbase-wss-DOGE-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "coinbase",
@@ -1579,7 +1579,7 @@
                     }
                 },
                 {
-                    "name": "binance-wss-Binance-DOT-USDT",
+                    "name": "binance-wss-DOT-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "binance",
@@ -1779,7 +1779,7 @@
                     }
                 },
                 {
-                    "name": "binance-wss-Binance-ETH-USDT",
+                    "name": "binance-wss-ETH-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "binance",
@@ -1879,7 +1879,7 @@
                     }
                 },
                 {
-                    "name": "coinbase-wss-Coinbase-ETH-USDT",
+                    "name": "coinbase-wss-ETH-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "coinbase",
@@ -2100,7 +2100,7 @@
                     }
                 },
                 {
-                    "name": "binance-wss-Binance-FTM-USDT",
+                    "name": "binance-wss-FTM-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "binance",
@@ -2629,7 +2629,7 @@
                     }
                 },
                 {
-                    "name": "binance-wss-Binance-KLAY-USDT",
+                    "name": "binance-wss-KLAY-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "binance",
@@ -2729,7 +2729,7 @@
                     }
                 },
                 {
-                    "name": "coinbase-wss-Coinbase-KLAY-USDT",
+                    "name": "coinbase-wss-KLAY-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "coinbase",
@@ -2956,7 +2956,7 @@
             "name": "KSP-KRW",
             "feeds": [
                 {
-                    "name": "coinone-wss-Coinone-KSP-KRW",
+                    "name": "coinone-wss-KSP-KRW",
                     "definition": {
                         "type": "wss",
                         "provider": "coinone",
@@ -2965,7 +2965,7 @@
                     }
                 },
                 {
-                    "name": "korbit-wss-Korbit-KSP-KRW",
+                    "name": "korbit-wss-KSP-KRW",
                     "definition": {
                         "type": "wss",
                         "provider": "korbit",
@@ -3018,7 +3018,7 @@
                     }
                 },
                 {
-                    "name": "binance-wss-Binance-LTC-USDT",
+                    "name": "binance-wss-LTC-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "binance",
@@ -3218,7 +3218,7 @@
                     }
                 },
                 {
-                    "name": "binance-wss-Binance-MATIC-USDT",
+                    "name": "binance-wss-MATIC-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "binance",
@@ -3416,7 +3416,7 @@
             "name": "MNR-KRW",
             "feeds": [
                 {
-                    "name": "coinone-wss-Coinone-MNR-KRW",
+                    "name": "coinone-wss-MNR-KRW",
                     "definition": {
                         "type": "wss",
                         "provider": "coinone",
@@ -3469,7 +3469,7 @@
                     }
                 },
                 {
-                    "name": "binance-wss-Binance-PAXG-USDT",
+                    "name": "binance-wss-PAXG-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "binance",
@@ -3594,7 +3594,7 @@
             "name": "SHIB-USDT",
             "feeds": [
                 {
-                    "name": "binance-wss-Binance-SHIB-USDT",
+                    "name": "binance-wss-SHIB-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "binance",
@@ -3694,7 +3694,7 @@
                     }
                 },
                 {
-                    "name": "coinbase-wss-Coinbase-SHIB-USDT",
+                    "name": "coinbase-wss-SHIB-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "coinbase",
@@ -3803,7 +3803,7 @@
                     }
                 },
                 {
-                    "name": "binance-wss-Binance-SOL-USDT",
+                    "name": "binance-wss-SOL-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "binance",
@@ -3903,7 +3903,7 @@
                     }
                 },
                 {
-                    "name": "coinbase-wss-Coinbase-SOL-USDT",
+                    "name": "coinbase-wss-SOL-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "coinbase",
@@ -4012,7 +4012,7 @@
                     }
                 },
                 {
-                    "name": "binance-wss-Binance-TRX-USDT",
+                    "name": "binance-wss-TRX-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "binance",
@@ -4176,7 +4176,7 @@
                     }
                 },
                 {
-                    "name": "binance-wss-Binance-UNI-USDT",
+                    "name": "binance-wss-UNI-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "binance",
@@ -4276,7 +4276,7 @@
                     }
                 },
                 {
-                    "name": "coinbase-wss-Coinbase-UNI-USDT",
+                    "name": "coinbase-wss-UNI-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "coinbase",
@@ -4395,7 +4395,7 @@
                     }
                 },
                 {
-                    "name": "binance-wss-Binance-USDC-USDT",
+                    "name": "binance-wss-USDC-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "binance",
@@ -4430,7 +4430,7 @@
                     }
                 },
                 {
-                    "name": "coinbase-wss-Coinbase-USDC-USDT",
+                    "name": "coinbase-wss-USDC-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "coinbase",
@@ -4611,7 +4611,7 @@
                     }
                 },
                 {
-                    "name": "coinbase-wss-Coinbase-WEMIX-USDT",
+                    "name": "coinbase-wss-WEMIX-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "coinbase",
@@ -4720,7 +4720,7 @@
                     }
                 },
                 {
-                    "name": "binance-wss-Binance-XRP-USDT",
+                    "name": "binance-wss-XRP-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "binance",
@@ -4820,7 +4820,7 @@
                     }
                 },
                 {
-                    "name": "coinbase-wss-Coinbase-XRP-USDT",
+                    "name": "coinbase-wss-XRP-USDT",
                     "definition": {
                         "type": "wss",
                         "provider": "coinbase",

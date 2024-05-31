@@ -100,7 +100,7 @@
             }
         },
         {
-            "name": "coinbase-wss-Coinbase-WEMIX-USDT",
+            "name": "coinbase-wss-WEMIX-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "coinbase",

@@ -38,7 +38,7 @@
             }
         },
         {
-            "name": "binance-wss-Binance-XRP-USDT",
+            "name": "binance-wss-XRP-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",
@@ -138,7 +138,7 @@
             }
         },
         {
-            "name": "coinbase-wss-Coinbase-XRP-USDT",
+            "name": "coinbase-wss-XRP-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "coinbase",

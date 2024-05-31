@@ -38,7 +38,7 @@
             }
         },
         {
-            "name": "binance-wss-Binance-TRX-USDT",
+            "name": "binance-wss-TRX-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",

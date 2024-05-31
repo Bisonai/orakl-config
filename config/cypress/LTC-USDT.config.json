@@ -38,7 +38,7 @@
             }
         },
         {
-            "name": "binance-wss-Binance-LTC-USDT",
+            "name": "binance-wss-LTC-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",
