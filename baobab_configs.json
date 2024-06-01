@@ -3,39 +3,12 @@
         "name": "ADA-USDT",
         "feeds": [
             {
-                "name": "Bybit-ADA-USDT",
+                "name": "bybit-wss-ADA-USDT",
                 "definition": {
-                    "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=ADAUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "list"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "lastPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "ADA",
+                    "quote": "USDT"
                 }
             },
             {
@@ -48,94 +21,30 @@
                 }
             },
             {
-                "name": "Kucoin-ADA-USDT",
+                "name": "kucoin-wss-ADA-USDT",
                 "definition": {
-                    "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ADA-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "ADA",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Crypto-ADA-USDT",
+                "name": "crypto-wss-ADA-USDT",
                 "definition": {
-                    "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=ADA_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "data"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "a"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "crypto",
+                    "base": "ADA",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Btse-ADA-USDT",
+                "name": "btse-wss-ADA-USDT",
                 "definition": {
-                    "url": "https://api.btse.com/spot/api/v3.2/price?symbol=ADA-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "indexPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "btse",
+                    "base": "ADA",
+                    "quote": "USDT"
                 }
             },
             {
@@ -148,59 +57,21 @@
                 }
             },
             {
-                "name": "Gateio-ADA-USDT",
+                "name": "gateio-wss-ADA-USDT",
                 "definition": {
-                    "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=ADA_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "ADA",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Coinex-ADA-USDT",
+                "name": "coinex-wss-ADA-USDT",
                 "definition": {
-                    "url": "https://api.coinex.com/v1/market/ticker?market=ADAUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "ticker",
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "ADA",
+                    "quote": "USDT"
                 }
             }
         ],
@@ -212,39 +83,12 @@
         "name": "ATOM-USDT",
         "feeds": [
             {
-                "name": "Bybit-ATOM-USDT",
+                "name": "bybit-wss-ATOM-USDT",
                 "definition": {
-                    "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=ATOMUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "list"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "lastPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "ATOM",
+                    "quote": "USDT"
                 }
             },
             {
@@ -257,94 +101,30 @@
                 }
             },
             {
-                "name": "Kucoin-ATOM-USDT",
+                "name": "kucoin-wss-ATOM-USDT",
                 "definition": {
-                    "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ATOM-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "ATOM",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Crypto-ATOM-USDT",
+                "name": "crypto-wss-ATOM-USDT",
                 "definition": {
-                    "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=ATOM_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "data"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "a"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "crypto",
+                    "base": "ATOM",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Btse-ATOM-USDT",
+                "name": "btse-wss-ATOM-USDT",
                 "definition": {
-                    "url": "https://api.btse.com/spot/api/v3.2/price?symbol=ATOM-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "indexPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "btse",
+                    "base": "ATOM",
+                    "quote": "USDT"
                 }
             },
             {
@@ -357,59 +137,21 @@
                 }
             },
             {
-                "name": "Gateio-ATOM-USDT",
+                "name": "gateio-wss-ATOM-USDT",
                 "definition": {
-                    "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=ATOM_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "ATOM",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Coinex-ATOM-USDT",
+                "name": "coinex-wss-ATOM-USDT",
                 "definition": {
-                    "url": "https://api.coinex.com/v1/market/ticker?market=ATOMUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "ticker",
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "ATOM",
+                    "quote": "USDT"
                 }
             }
         ],
@@ -421,39 +163,12 @@
         "name": "AVAX-USDT",
         "feeds": [
             {
-                "name": "Bybit-AVAX-USDT",
+                "name": "bybit-wss-AVAX-USDT",
                 "definition": {
-                    "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=AVAXUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "list"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "lastPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "AVAX",
+                    "quote": "USDT"
                 }
             },
             {
@@ -466,94 +181,30 @@
                 }
             },
             {
-                "name": "Kucoin-AVAX-USDT",
+                "name": "kucoin-wss-AVAX-USDT",
                 "definition": {
-                    "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=AVAX-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "AVAX",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Crypto-AVAX-USDT",
+                "name": "crypto-wss-AVAX-USDT",
                 "definition": {
-                    "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=AVAX_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "data"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "a"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "crypto",
+                    "base": "AVAX",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Btse-AVAX-USDT",
+                "name": "btse-wss-AVAX-USDT",
                 "definition": {
-                    "url": "https://api.btse.com/spot/api/v3.2/price?symbol=AVAX-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "indexPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "btse",
+                    "base": "AVAX",
+                    "quote": "USDT"
                 }
             },
             {
@@ -566,59 +217,21 @@
                 }
             },
             {
-                "name": "Gateio-AVAX-USDT",
+                "name": "gateio-wss-AVAX-USDT",
                 "definition": {
-                    "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=AVAX_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "AVAX",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Coinex-AVAX-USDT",
+                "name": "coinex-wss-AVAX-USDT",
                 "definition": {
-                    "url": "https://api.coinex.com/v1/market/ticker?market=AVAXUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "ticker",
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "AVAX",
+                    "quote": "USDT"
                 }
             }
         ],
@@ -630,39 +243,12 @@
         "name": "BNB-USDT",
         "feeds": [
             {
-                "name": "Bybit-BNB-USDT",
+                "name": "bybit-wss-BNB-USDT",
                 "definition": {
-                    "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=BNBUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "list"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "lastPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "BNB",
+                    "quote": "USDT"
                 }
             },
             {
@@ -684,114 +270,39 @@
                 }
             },
             {
-                "name": "Kucoin-BNB-USDT",
+                "name": "kucoin-wss-BNB-USDT",
                 "definition": {
-                    "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BNB-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "BNB",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Btse-BNB-USDT",
+                "name": "btse-wss-BNB-USDT",
                 "definition": {
-                    "url": "https://api.btse.com/spot/api/v3.2/price?symbol=BNB-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "indexPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "btse",
+                    "base": "BNB",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Gateio-BNB-USDT",
+                "name": "gateio-wss-BNB-USDT",
                 "definition": {
-                    "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=BNB_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "BNB",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Coinex-BNB-USDT",
+                "name": "coinex-wss-BNB-USDT",
                 "definition": {
-                    "url": "https://api.coinex.com/v1/market/ticker?market=BNBUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "ticker",
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "BNB",
+                    "quote": "USDT"
                 }
             }
         ],
@@ -812,58 +323,21 @@
                 }
             },
             {
-                "name": "Bithumb-BORA-KRW",
+                "name": "bithumb-wss-BORA-KRW",
                 "definition": {
-                    "url": "https://api.bithumb.com/public/ticker/BORA_KRW",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "closing_price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "bithumb",
+                    "base": "BORA",
+                    "quote": "KRW"
                 }
             },
             {
-                "name": "Upbit-BORA-KRW",
+                "name": "upbit-wss-BORA-KRW",
                 "definition": {
-                    "url": "https://api.upbit.com/v1/ticker?markets=KRW-BORA",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "trade_price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "upbit",
+                    "base": "BORA",
+                    "quote": "KRW"
                 }
             },
             {
@@ -884,39 +358,12 @@
         "name": "BTC-USDT",
         "feeds": [
             {
-                "name": "Bybit-BTC-USDT",
+                "name": "bybit-wss-BTC-USDT",
                 "definition": {
-                    "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=BTCUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "list"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "lastPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "BTC",
+                    "quote": "USDT"
                 }
             },
             {
@@ -938,150 +385,48 @@
                 }
             },
             {
-                "name": "Kucoin-BTC-USDT",
+                "name": "kucoin-wss-BTC-USDT",
                 "definition": {
-                    "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BTC-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "BTC",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Crypto-BTC-USDT",
+                "name": "crypto-wss-BTC-USDT",
                 "definition": {
-                    "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=BTC_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "data"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "a"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "crypto",
+                    "base": "BTC",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Btse-BTC-USDT",
+                "name": "btse-wss-BTC-USDT",
                 "definition": {
-                    "url": "https://api.btse.com/spot/api/v3.2/price?symbol=BTC-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "indexPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "btse",
+                    "base": "BTC",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Gateio-BTC-USDT",
+                "name": "gateio-wss-BTC-USDT",
                 "definition": {
-                    "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=BTC_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "BTC",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Coinex-BTC-USDT",
+                "name": "coinex-wss-BTC-USDT",
                 "definition": {
-                    "url": "https://api.coinex.com/v1/market/ticker?market=BTCUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "ticker",
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "BTC",
+                    "quote": "USDT"
                 }
             },
             {
@@ -1224,39 +569,12 @@
                 }
             },
             {
-                "name": "Crypto-DAI-USDT",
+                "name": "crypto-wss-DAI-USDT",
                 "definition": {
-                    "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=DAI_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "data"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "a"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "crypto",
+                    "base": "DAI",
+                    "quote": "USDT"
                 }
             },
             {
@@ -1269,59 +587,21 @@
                 }
             },
             {
-                "name": "Gateio-DAI-USDT",
+                "name": "gateio-wss-DAI-USDT",
                 "definition": {
-                    "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=DAI_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "DAI",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Coinex-DAI-USDT",
+                "name": "coinex-wss-DAI-USDT",
                 "definition": {
-                    "url": "https://api.coinex.com/v1/market/ticker?market=DAIUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "ticker",
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "DAI",
+                    "quote": "USDT"
                 }
             },
             {
@@ -1343,39 +623,12 @@
         "name": "DOGE-USDT",
         "feeds": [
             {
-                "name": "Bybit-DOGE-USDT",
+                "name": "bybit-wss-DOGE-USDT",
                 "definition": {
-                    "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=DOGEUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "list"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "lastPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "DOGE",
+                    "quote": "USDT"
                 }
             },
             {
@@ -1388,94 +641,30 @@
                 }
             },
             {
-                "name": "Kucoin-DOGE-USDT",
+                "name": "kucoin-wss-DOGE-USDT",
                 "definition": {
-                    "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=DOGE-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "DOGE",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Crypto-DOGE-USDT",
+                "name": "crypto-wss-DOGE-USDT",
                 "definition": {
-                    "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=DOGE_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "data"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "a"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "crypto",
+                    "base": "DOGE",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Btse-DOGE-USDT",
+                "name": "btse-wss-DOGE-USDT",
                 "definition": {
-                    "url": "https://api.btse.com/spot/api/v3.2/price?symbol=DOGE-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "indexPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "btse",
+                    "base": "DOGE",
+                    "quote": "USDT"
                 }
             },
             {
@@ -1488,59 +677,21 @@
                 }
             },
             {
-                "name": "Gateio-DOGE-USDT",
+                "name": "gateio-wss-DOGE-USDT",
                 "definition": {
-                    "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=DOGE_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "DOGE",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Coinex-DOGE-USDT",
+                "name": "coinex-wss-DOGE-USDT",
                 "definition": {
-                    "url": "https://api.coinex.com/v1/market/ticker?market=DOGEUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "ticker",
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "DOGE",
+                    "quote": "USDT"
                 }
             }
         ],
@@ -1552,39 +703,12 @@
         "name": "DOT-USDT",
         "feeds": [
             {
-                "name": "Bybit-DOT-USDT",
+                "name": "bybit-wss-DOT-USDT",
                 "definition": {
-                    "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=DOTUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "list"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "lastPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "DOT",
+                    "quote": "USDT"
                 }
             },
             {
@@ -1597,150 +721,48 @@
                 }
             },
             {
-                "name": "Kucoin-DOT-USDT",
+                "name": "kucoin-wss-DOT-USDT",
                 "definition": {
-                    "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=DOT-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "DOT",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Crypto-DOT-USDT",
+                "name": "crypto-wss-DOT-USDT",
                 "definition": {
-                    "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=DOT_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "data"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "a"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "crypto",
+                    "base": "DOT",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Btse-DOT-USDT",
+                "name": "btse-wss-DOT-USDT",
                 "definition": {
-                    "url": "https://api.btse.com/spot/api/v3.2/price?symbol=DOT-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "indexPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "btse",
+                    "base": "DOT",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Gateio-DOT-USDT",
+                "name": "gateio-wss-DOT-USDT",
                 "definition": {
-                    "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=DOT_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "DOT",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Coinex-DOT-USDT",
+                "name": "coinex-wss-DOT-USDT",
                 "definition": {
-                    "url": "https://api.coinex.com/v1/market/ticker?market=DOTUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "ticker",
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "DOT",
+                    "quote": "USDT"
                 }
             }
         ],
@@ -1752,39 +774,12 @@
         "name": "ETH-USDT",
         "feeds": [
             {
-                "name": "Bybit-ETH-USDT",
+                "name": "bybit-wss-ETH-USDT",
                 "definition": {
-                    "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=ETHUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "list"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "lastPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "ETH",
+                    "quote": "USDT"
                 }
             },
             {
@@ -1797,94 +792,30 @@
                 }
             },
             {
-                "name": "Kucoin-ETH-USDT",
+                "name": "kucoin-wss-ETH-USDT",
                 "definition": {
-                    "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ETH-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "ETH",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Crypto-ETH-USDT",
+                "name": "crypto-wss-ETH-USDT",
                 "definition": {
-                    "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=ETH_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "data"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "a"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "crypto",
+                    "base": "ETH",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Btse-ETH-USDT",
+                "name": "btse-wss-ETH-USDT",
                 "definition": {
-                    "url": "https://api.btse.com/spot/api/v3.2/price?symbol=ETH-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "indexPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "btse",
+                    "base": "ETH",
+                    "quote": "USDT"
                 }
             },
             {
@@ -1897,59 +828,21 @@
                 }
             },
             {
-                "name": "Gateio-ETH-USDT",
+                "name": "gateio-wss-ETH-USDT",
                 "definition": {
-                    "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=ETH_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "ETH",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Coinex-ETH-USDT",
+                "name": "coinex-wss-ETH-USDT",
                 "definition": {
-                    "url": "https://api.coinex.com/v1/market/ticker?market=ETHUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "ticker",
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "ETH",
+                    "quote": "USDT"
                 }
             },
             {
@@ -2093,39 +986,12 @@
         "name": "FTM-USDT",
         "feeds": [
             {
-                "name": "Bybit-FTM-USDT",
+                "name": "bybit-wss-FTM-USDT",
                 "definition": {
-                    "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=FTMUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "list"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "lastPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "FTM",
+                    "quote": "USDT"
                 }
             },
             {
@@ -2138,150 +1004,48 @@
                 }
             },
             {
-                "name": "Kucoin-FTM-USDT",
+                "name": "kucoin-wss-FTM-USDT",
                 "definition": {
-                    "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=FTM-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "FTM",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Crypto-FTM-USDT",
+                "name": "crypto-wss-FTM-USDT",
                 "definition": {
-                    "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=FTM_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "data"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "a"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "crypto",
+                    "base": "FTM",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Btse-FTM-USDT",
+                "name": "btse-wss-FTM-USDT",
                 "definition": {
-                    "url": "https://api.btse.com/spot/api/v3.2/price?symbol=FTM-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "indexPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "btse",
+                    "base": "FTM",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Gateio-FTM-USDT",
+                "name": "gateio-wss-FTM-USDT",
                 "definition": {
-                    "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=FTM_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "FTM",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Coinex-FTM-USDT",
+                "name": "coinex-wss-FTM-USDT",
                 "definition": {
-                    "url": "https://api.coinex.com/v1/market/ticker?market=FTMUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "ticker",
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "FTM",
+                    "quote": "USDT"
                 }
             }
         ],
@@ -2465,32 +1229,12 @@
                 }
             },
             {
-                "name": "Gateio-JOY-USDT",
+                "name": "gateio-wss-JOY-USDT",
                 "definition": {
-                    "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=JOY_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "JOY",
+                    "quote": "USDT"
                 }
             }
         ],
@@ -2622,39 +1366,12 @@
         "name": "KLAY-USDT",
         "feeds": [
             {
-                "name": "Bybit-KLAY-USDT",
+                "name": "bybit-wss-KLAY-USDT",
                 "definition": {
-                    "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=KLAYUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "list"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "lastPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "KLAY",
+                    "quote": "USDT"
                 }
             },
             {
@@ -2667,94 +1384,30 @@
                 }
             },
             {
-                "name": "Kucoin-KLAY-USDT",
+                "name": "kucoin-wss-KLAY-USDT",
                 "definition": {
-                    "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=KLAY-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "KLAY",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Crypto-KLAY-USDT",
+                "name": "crypto-wss-KLAY-USDT",
                 "definition": {
-                    "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=KLAY_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "data"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "a"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "crypto",
+                    "base": "KLAY",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Btse-KLAY-USDT",
+                "name": "btse-wss-KLAY-USDT",
                 "definition": {
-                    "url": "https://api.btse.com/spot/api/v3.2/price?symbol=KLAY-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "indexPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "btse",
+                    "base": "KLAY",
+                    "quote": "USDT"
                 }
             },
             {
@@ -2767,59 +1420,21 @@
                 }
             },
             {
-                "name": "Gateio-KLAY-USDT",
+                "name": "gateio-wss-KLAY-USDT",
                 "definition": {
-                    "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=KLAY_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "KLAY",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Coinex-KLAY-USDT",
+                "name": "coinex-wss-KLAY-USDT",
                 "definition": {
-                    "url": "https://api.coinex.com/v1/market/ticker?market=KLAYUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "ticker",
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "KLAY",
+                    "quote": "USDT"
                 }
             }
         ],
@@ -3011,39 +1626,12 @@
         "name": "LTC-USDT",
         "feeds": [
             {
-                "name": "Bybit-LTC-USDT",
+                "name": "bybit-wss-LTC-USDT",
                 "definition": {
-                    "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=LTCUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "list"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "lastPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "LTC",
+                    "quote": "USDT"
                 }
             },
             {
@@ -3056,150 +1644,48 @@
                 }
             },
             {
-                "name": "Kucoin-LTC-USDT",
+                "name": "kucoin-wss-LTC-USDT",
                 "definition": {
-                    "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=LTC-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "LTC",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Crypto-LTC-USDT",
+                "name": "crypto-wss-LTC-USDT",
                 "definition": {
-                    "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=LTC_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "data"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "a"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "crypto",
+                    "base": "LTC",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Btse-LTC-USDT",
+                "name": "btse-wss-LTC-USDT",
                 "definition": {
-                    "url": "https://api.btse.com/spot/api/v3.2/price?symbol=LTC-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "indexPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "btse",
+                    "base": "LTC",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Gateio-LTC-USDT",
+                "name": "gateio-wss-LTC-USDT",
                 "definition": {
-                    "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=LTC_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "LTC",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Coinex-LTC-USDT",
+                "name": "coinex-wss-LTC-USDT",
                 "definition": {
-                    "url": "https://api.coinex.com/v1/market/ticker?market=LTCUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "ticker",
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "LTC",
+                    "quote": "USDT"
                 }
             }
         ],
@@ -3211,39 +1697,12 @@
         "name": "MATIC-USDT",
         "feeds": [
             {
-                "name": "Bybit-MATIC-USDT",
+                "name": "bybit-wss-MATIC-USDT",
                 "definition": {
-                    "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=MATICUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "list"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "lastPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "MATIC",
+                    "quote": "USDT"
                 }
             },
             {
@@ -3256,150 +1715,48 @@
                 }
             },
             {
-                "name": "Kucoin-MATIC-USDT",
+                "name": "kucoin-wss-MATIC-USDT",
                 "definition": {
-                    "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=MATIC-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "MATIC",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Crypto-MATIC-USDT",
+                "name": "crypto-wss-MATIC-USDT",
                 "definition": {
-                    "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=MATIC_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "data"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "a"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "crypto",
+                    "base": "MATIC",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Btse-MATIC-USDT",
+                "name": "btse-wss-MATIC-USDT",
                 "definition": {
-                    "url": "https://api.btse.com/spot/api/v3.2/price?symbol=MATIC-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "indexPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "btse",
+                    "base": "MATIC",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Gateio-MATIC-USDT",
+                "name": "gateio-wss-MATIC-USDT",
                 "definition": {
-                    "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=MATIC_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "MATIC",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Coinex-MATIC-USDT",
+                "name": "coinex-wss-MATIC-USDT",
                 "definition": {
-                    "url": "https://api.coinex.com/v1/market/ticker?market=MATICUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "ticker",
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "MATIC",
+                    "quote": "USDT"
                 }
             }
         ],
@@ -3411,29 +1768,12 @@
         "name": "MBX-KRW",
         "feeds": [
             {
-                "name": "Bithumb-MBX-KRW",
+                "name": "bithumb-wss-MBX-KRW",
                 "definition": {
-                    "url": "https://api.bithumb.com/public/ticker/MBX_KRW",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "closing_price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "bithumb",
+                    "base": "MBX",
+                    "quote": "KRW"
                 }
             }
         ],
@@ -3462,39 +1802,12 @@
         "name": "PAXG-USDT",
         "feeds": [
             {
-                "name": "Bybit-PAXG-USDT",
+                "name": "bybit-wss-PAXG-USDT",
                 "definition": {
-                    "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=PAXGUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "list"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "lastPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "PAXG",
+                    "quote": "USDT"
                 }
             },
             {
@@ -3507,92 +1820,30 @@
                 }
             },
             {
-                "name": "Kucoin-PAXG-USDT",
+                "name": "kucoin-wss-PAXG-USDT",
                 "definition": {
-                    "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=PAXG-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "PAXG",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Crypto-PAXG-USDT",
+                "name": "crypto-wss-PAXG-USDT",
                 "definition": {
-                    "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=PAXG_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "data"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "a"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "crypto",
+                    "base": "PAXG",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Coinex-PAXG-USDT",
+                "name": "coinex-wss-PAXG-USDT",
                 "definition": {
-                    "url": "https://api.coinex.com/v1/market/ticker?market=PAXGUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "ticker",
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "PAXG",
+                    "quote": "USDT"
                 }
             }
         ],
@@ -3632,94 +1883,30 @@
                 }
             },
             {
-                "name": "Kucoin-SHIB-USDT",
+                "name": "kucoin-wss-SHIB-USDT",
                 "definition": {
-                    "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SHIB-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "SHIB",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Crypto-SHIB-USDT",
+                "name": "crypto-wss-SHIB-USDT",
                 "definition": {
-                    "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=SHIB_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "data"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "a"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "crypto",
+                    "base": "SHIB",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Btse-SHIB-USDT",
+                "name": "btse-wss-SHIB-USDT",
                 "definition": {
-                    "url": "https://api.btse.com/spot/api/v3.2/price?symbol=SHIB-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "indexPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "btse",
+                    "base": "SHIB",
+                    "quote": "USDT"
                 }
             },
             {
@@ -3732,59 +1919,21 @@
                 }
             },
             {
-                "name": "Gateio-SHIB-USDT",
+                "name": "gateio-wss-SHIB-USDT",
                 "definition": {
-                    "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=SHIB_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "SHIB",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Coinex-SHIB-USDT",
+                "name": "coinex-wss-SHIB-USDT",
                 "definition": {
-                    "url": "https://api.coinex.com/v1/market/ticker?market=SHIBUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "ticker",
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "SHIB",
+                    "quote": "USDT"
                 }
             }
         ],
@@ -3796,39 +1945,12 @@
         "name": "SOL-USDT",
         "feeds": [
             {
-                "name": "Bybit-SOL-USDT",
+                "name": "bybit-wss-SOL-USDT",
                 "definition": {
-                    "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=SOLUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "list"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "lastPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "SOL",
+                    "quote": "USDT"
                 }
             },
             {
@@ -3841,94 +1963,30 @@
                 }
             },
             {
-                "name": "Kucoin-SOL-USDT",
+                "name": "kucoin-wss-SOL-USDT",
                 "definition": {
-                    "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SOL-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "SOL",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Crypto-SOL-USDT",
+                "name": "crypto-wss-SOL-USDT",
                 "definition": {
-                    "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=SOL_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "data"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "a"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "crypto",
+                    "base": "SOL",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Btse-SOL-USDT",
+                "name": "btse-wss-SOL-USDT",
                 "definition": {
-                    "url": "https://api.btse.com/spot/api/v3.2/price?symbol=SOL-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "indexPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "btse",
+                    "base": "SOL",
+                    "quote": "USDT"
                 }
             },
             {
@@ -3941,59 +1999,21 @@
                 }
             },
             {
-                "name": "Gateio-SOL-USDT",
+                "name": "gateio-wss-SOL-USDT",
                 "definition": {
-                    "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=SOL_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "SOL",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Coinex-SOL-USDT",
+                "name": "coinex-wss-SOL-USDT",
                 "definition": {
-                    "url": "https://api.coinex.com/v1/market/ticker?market=SOLUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "ticker",
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "SOL",
+                    "quote": "USDT"
                 }
             }
         ],
@@ -4005,39 +2025,12 @@
         "name": "TRX-USDT",
         "feeds": [
             {
-                "name": "Bybit-TRX-USDT",
+                "name": "bybit-wss-TRX-USDT",
                 "definition": {
-                    "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=TRXUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "list"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "lastPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "TRX",
+                    "quote": "USDT"
                 }
             },
             {
@@ -4050,114 +2043,39 @@
                 }
             },
             {
-                "name": "Kucoin-TRX-USDT",
+                "name": "kucoin-wss-TRX-USDT",
                 "definition": {
-                    "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=TRX-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "TRX",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Btse-TRX-USDT",
+                "name": "btse-wss-TRX-USDT",
                 "definition": {
-                    "url": "https://api.btse.com/spot/api/v3.2/price?symbol=TRX-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "indexPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "btse",
+                    "base": "TRX",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Gateio-TRX-USDT",
+                "name": "gateio-wss-TRX-USDT",
                 "definition": {
-                    "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=TRX_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "TRX",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Coinex-TRX-USDT",
+                "name": "coinex-wss-TRX-USDT",
                 "definition": {
-                    "url": "https://api.coinex.com/v1/market/ticker?market=TRXUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "ticker",
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "TRX",
+                    "quote": "USDT"
                 }
             }
         ],
@@ -4169,39 +2087,12 @@
         "name": "UNI-USDT",
         "feeds": [
             {
-                "name": "Bybit-UNI-USDT",
+                "name": "bybit-wss-UNI-USDT",
                 "definition": {
-                    "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=UNIUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "list"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "lastPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "UNI",
+                    "quote": "USDT"
                 }
             },
             {
@@ -4214,94 +2105,30 @@
                 }
             },
             {
-                "name": "Kucoin-UNI-USDT",
+                "name": "kucoin-wss-UNI-USDT",
                 "definition": {
-                    "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=UNI-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "UNI",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Crypto-UNI-USDT",
+                "name": "crypto-wss-UNI-USDT",
                 "definition": {
-                    "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=UNI_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "data"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "a"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "crypto",
+                    "base": "UNI",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Btse-UNI-USDT",
+                "name": "btse-wss-UNI-USDT",
                 "definition": {
-                    "url": "https://api.btse.com/spot/api/v3.2/price?symbol=UNI-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "indexPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "btse",
+                    "base": "UNI",
+                    "quote": "USDT"
                 }
             },
             {
@@ -4314,59 +2141,21 @@
                 }
             },
             {
-                "name": "Gateio-UNI-USDT",
+                "name": "gateio-wss-UNI-USDT",
                 "definition": {
-                    "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=UNI_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "UNI",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Coinex-UNI-USDT",
+                "name": "coinex-wss-UNI-USDT",
                 "definition": {
-                    "url": "https://api.coinex.com/v1/market/ticker?market=UNIUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "ticker",
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "UNI",
+                    "quote": "USDT"
                 }
             },
             {
@@ -4388,39 +2177,12 @@
         "name": "USDC-USDT",
         "feeds": [
             {
-                "name": "Bybit-USDC-USDT",
+                "name": "bybit-wss-USDC-USDT",
                 "definition": {
-                    "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=USDCUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "list"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "lastPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "USDC",
+                    "quote": "USDT"
                 }
             },
             {
@@ -4433,29 +2195,12 @@
                 }
             },
             {
-                "name": "Kucoin-USDC-USDT",
+                "name": "kucoin-wss-USDC-USDT",
                 "definition": {
-                    "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=USDC-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "USDC",
+                    "quote": "USDT"
                 }
             },
             {
@@ -4468,59 +2213,21 @@
                 }
             },
             {
-                "name": "Gateio-USDC-USDT",
+                "name": "gateio-wss-USDC-USDT",
                 "definition": {
-                    "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=USDC_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "USDC",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Coinex-USDC-USDT",
+                "name": "coinex-wss-USDC-USDT",
                 "definition": {
-                    "url": "https://api.coinex.com/v1/market/ticker?market=USDCUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "ticker",
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "USDC",
+                    "quote": "USDT"
                 }
             },
             {
@@ -4542,101 +2249,30 @@
         "name": "WEMIX-USDT",
         "feeds": [
             {
-                "name": "Bybit-WEMIX-USDT",
+                "name": "bybit-wss-WEMIX-USDT",
                 "definition": {
-                    "url": "https://api.bybit.com/v5/market/tickers?category=spot&symbol=WEMIXUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "list"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "lastPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "WEMIX",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Kucoin-WEMIX-USDT",
+                "name": "kucoin-wss-WEMIX-USDT",
                 "definition": {
-                    "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=WEMIX-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "WEMIX",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Crypto-WEMIX-USDT",
+                "name": "crypto-wss-WEMIX-USDT",
                 "definition": {
-                    "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=WEMIX_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "data"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "a"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "crypto",
+                    "base": "WEMIX",
+                    "quote": "USDT"
                 }
             },
             {
@@ -4649,59 +2285,21 @@
                 }
             },
             {
-                "name": "Coinex-WEMIX-USDT",
+                "name": "coinex-wss-WEMIX-USDT",
                 "definition": {
-                    "url": "https://api.coinex.com/v1/market/ticker?market=WEMIXUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "ticker",
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "WEMIX",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Gateio-WEMIX-USDT",
+                "name": "gateio-wss-WEMIX-USDT",
                 "definition": {
-                    "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=WEMIX_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "WEMIX",
+                    "quote": "USDT"
                 }
             }
         ],
@@ -4713,39 +2311,12 @@
         "name": "XRP-USDT",
         "feeds": [
             {
-                "name": "Bybit-XRP-USDT",
+                "name": "bybit-wss-XRP-USDT",
                 "definition": {
-                    "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=XRPUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "list"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "lastPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "XRP",
+                    "quote": "USDT"
                 }
             },
             {
@@ -4758,94 +2329,30 @@
                 }
             },
             {
-                "name": "Kucoin-XRP-USDT",
+                "name": "kucoin-wss-XRP-USDT",
                 "definition": {
-                    "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=XRP-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "price"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "XRP",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Crypto-XRP-USDT",
+                "name": "crypto-wss-XRP-USDT",
                 "definition": {
-                    "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=XRP_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "result",
-                                "data"
-                            ]
-                        },
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "a"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "crypto",
+                    "base": "XRP",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Btse-XRP-USDT",
+                "name": "btse-wss-XRP-USDT",
                 "definition": {
-                    "url": "https://api.btse.com/spot/api/v3.2/price?symbol=XRP-USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "indexPrice"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "btse",
+                    "base": "XRP",
+                    "quote": "USDT"
                 }
             },
             {
@@ -4858,59 +2365,21 @@
                 }
             },
             {
-                "name": "Gateio-XRP-USDT",
+                "name": "gateio-wss-XRP-USDT",
                 "definition": {
-                    "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=XRP_USDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "XRP",
+                    "quote": "USDT"
                 }
             },
             {
-                "name": "Coinex-XRP-USDT",
+                "name": "coinex-wss-XRP-USDT",
                 "definition": {
-                    "url": "https://api.coinex.com/v1/market/ticker?market=XRPUSDT",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "ticker",
-                                "last"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "XRP",
+                    "quote": "USDT"
                 }
             }
         ],

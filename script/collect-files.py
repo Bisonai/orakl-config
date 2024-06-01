@@ -2,7 +2,7 @@ import json
 import os
 from pathlib import Path
 
-wsfetchers = ["binance", "coinbase", "coinone", "korbit"]
+wsfetchers = ["binance", "coinbase", "coinone", "korbit", "kucoin", "bybit", "upbit", "crypto", "btse", "bithumb", "gateio", "coinex"]
 
 def load_json_from_path(file_path: Path):
     with open(file_path) as json_file:
@@ -19,10 +19,13 @@ def load_json_files(directory: Path):
 
     return result
 
-def collect_json_files(directory: Path, output_file_path: str):
+def collect_json_files(directory: Path, output_file_path: str, wrap=True):
     result = load_json_files(directory)
     with open(output_file_path, "w") as f:
-        json.dump({"result": result}, f, indent=4)
+        if wrap:
+            json.dump({"result": result}, f, indent=4)
+        else:
+            json.dump(result, f, indent=4)
 
 def filter_invalid_configs(configs: list):
     result = []
@@ -51,7 +54,11 @@ def update_config_file_websocket(config_path: Path):
         for feed in config["feeds"]:
             wsFeed = define_websocket_feed(feed["name"], config["name"])
             if wsFeed != {}:
+                print("update feed", feed["name"], "to", wsFeed["name"])
                 feed["name"] = wsFeed["name"]
+                feed["definition"] = wsFeed["definition"]
+
+
         with open(f"{config_path}/{config['name']}.config.json", "w") as f:
             json.dump(config, f, indent=4)
 
@@ -125,6 +132,6 @@ if __name__ == "__main__":
     collect_json_files(Path("aggregator/baobab"), "baobab_aggregators.json")
     collect_json_files(Path("aggregator/cypress"), "cypress_aggregators.json")
     collect_json_files(Path("aggregator/test"), "test_aggregators.json")
-    collect_json_files(Path("config/baobab"), "baobab_configs.json")
-    collect_json_files(Path("config/cypress"), "cypress_configs.json")
-    collect_json_files(Path("config/test"), "test_configs.json")
+    collect_json_files(Path("config/baobab"), "baobab_configs.json", False)
+    collect_json_files(Path("config/cypress"), "cypress_configs.json", False)
+    collect_json_files(Path("config/test"), "test_configs.json", False)

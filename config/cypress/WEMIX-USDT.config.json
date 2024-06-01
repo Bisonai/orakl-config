@@ -2,101 +2,30 @@
     "name": "WEMIX-USDT",
     "feeds": [
         {
-            "name": "Bybit-WEMIX-USDT",
+            "name": "bybit-wss-WEMIX-USDT",
             "definition": {
-                "url": "https://api.bybit.com/v5/market/tickers?category=spot&symbol=WEMIXUSDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "result",
-                            "list"
-                        ]
-                    },
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "lastPrice"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "bybit",
+                "base": "WEMIX",
+                "quote": "USDT"
             }
         },
         {
-            "name": "Kucoin-WEMIX-USDT",
+            "name": "kucoin-wss-WEMIX-USDT",
             "definition": {
-                "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=WEMIX-USDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "data",
-                            "price"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "WEMIX",
+                "quote": "USDT"
             }
         },
         {
-            "name": "Crypto-WEMIX-USDT",
+            "name": "crypto-wss-WEMIX-USDT",
             "definition": {
-                "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=WEMIX_USDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "result",
-                            "data"
-                        ]
-                    },
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "a"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "crypto",
+                "base": "WEMIX",
+                "quote": "USDT"
             }
         },
         {
@@ -109,59 +38,21 @@
             }
         },
         {
-            "name": "Coinex-WEMIX-USDT",
+            "name": "coinex-wss-WEMIX-USDT",
             "definition": {
-                "url": "https://api.coinex.com/v1/market/ticker?market=WEMIXUSDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "data",
-                            "ticker",
-                            "last"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "coinex",
+                "base": "WEMIX",
+                "quote": "USDT"
             }
         },
         {
-            "name": "Gateio-WEMIX-USDT",
+            "name": "gateio-wss-WEMIX-USDT",
             "definition": {
-                "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=WEMIX_USDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "last"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "gateio",
+                "base": "WEMIX",
+                "quote": "USDT"
             }
         }
     ],

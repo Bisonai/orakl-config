@@ -11,94 +11,30 @@
             }
         },
         {
-            "name": "Kucoin-SHIB-USDT",
+            "name": "kucoin-wss-SHIB-USDT",
             "definition": {
-                "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SHIB-USDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "data",
-                            "price"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "SHIB",
+                "quote": "USDT"
             }
         },
         {
-            "name": "Crypto-SHIB-USDT",
+            "name": "crypto-wss-SHIB-USDT",
             "definition": {
-                "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=SHIB_USDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "result",
-                            "data"
-                        ]
-                    },
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "a"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "crypto",
+                "base": "SHIB",
+                "quote": "USDT"
             }
         },
         {
-            "name": "Btse-SHIB-USDT",
+            "name": "btse-wss-SHIB-USDT",
             "definition": {
-                "url": "https://api.btse.com/spot/api/v3.2/price?symbol=SHIB-USDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "indexPrice"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "btse",
+                "base": "SHIB",
+                "quote": "USDT"
             }
         },
         {
@@ -111,59 +47,21 @@
             }
         },
         {
-            "name": "Gateio-SHIB-USDT",
+            "name": "gateio-wss-SHIB-USDT",
             "definition": {
-                "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=SHIB_USDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "last"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "gateio",
+                "base": "SHIB",
+                "quote": "USDT"
             }
         },
         {
-            "name": "Coinex-SHIB-USDT",
+            "name": "coinex-wss-SHIB-USDT",
             "definition": {
-                "url": "https://api.coinex.com/v1/market/ticker?market=SHIBUSDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "data",
-                            "ticker",
-                            "last"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "coinex",
+                "base": "SHIB",
+                "quote": "USDT"
             }
         }
     ],

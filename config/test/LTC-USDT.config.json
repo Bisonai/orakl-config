@@ -2,39 +2,12 @@
     "name": "LTC-USDT",
     "feeds": [
         {
-            "name": "Bybit-LTC-USDT",
+            "name": "bybit-wss-LTC-USDT",
             "definition": {
-                "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=LTCUSDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "result",
-                            "list"
-                        ]
-                    },
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "lastPrice"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "bybit",
+                "base": "LTC",
+                "quote": "USDT"
             }
         },
         {
@@ -47,150 +20,48 @@
             }
         },
         {
-            "name": "Kucoin-LTC-USDT",
+            "name": "kucoin-wss-LTC-USDT",
             "definition": {
-                "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=LTC-USDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "data",
-                            "price"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "LTC",
+                "quote": "USDT"
             }
         },
         {
-            "name": "Crypto-LTC-USDT",
+            "name": "crypto-wss-LTC-USDT",
             "definition": {
-                "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=LTC_USDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "result",
-                            "data"
-                        ]
-                    },
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "a"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "crypto",
+                "base": "LTC",
+                "quote": "USDT"
             }
         },
         {
-            "name": "Btse-LTC-USDT",
+            "name": "btse-wss-LTC-USDT",
             "definition": {
-                "url": "https://api.btse.com/spot/api/v3.2/price?symbol=LTC-USDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "indexPrice"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "btse",
+                "base": "LTC",
+                "quote": "USDT"
             }
         },
         {
-            "name": "Gateio-LTC-USDT",
+            "name": "gateio-wss-LTC-USDT",
             "definition": {
-                "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=LTC_USDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "last"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "gateio",
+                "base": "LTC",
+                "quote": "USDT"
             }
         },
         {
-            "name": "Coinex-LTC-USDT",
+            "name": "coinex-wss-LTC-USDT",
             "definition": {
-                "url": "https://api.coinex.com/v1/market/ticker?market=LTCUSDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "data",
-                            "ticker",
-                            "last"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "coinex",
+                "base": "LTC",
+                "quote": "USDT"
             }
         }
     ],
