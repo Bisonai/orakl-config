@@ -2,39 +2,12 @@
     "name": "ETH-USDT",
     "feeds": [
         {
-            "name": "Bybit-ETH-USDT",
+            "name": "bybit-wss-ETH-USDT",
             "definition": {
-                "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=ETHUSDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "result",
-                            "list"
-                        ]
-                    },
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "lastPrice"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "bybit",
+                "base": "ETH",
+                "quote": "USDT"
             }
         },
         {
@@ -47,94 +20,30 @@
             }
         },
         {
-            "name": "Kucoin-ETH-USDT",
+            "name": "kucoin-wss-ETH-USDT",
             "definition": {
-                "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ETH-USDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "data",
-                            "price"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "ETH",
+                "quote": "USDT"
             }
         },
         {
-            "name": "Crypto-ETH-USDT",
+            "name": "crypto-wss-ETH-USDT",
             "definition": {
-                "url": "https://api.crypto.com/v2/public/get-ticker?instrument_name=ETH_USDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "result",
-                            "data"
-                        ]
-                    },
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "a"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "crypto",
+                "base": "ETH",
+                "quote": "USDT"
             }
         },
         {
-            "name": "Btse-ETH-USDT",
+            "name": "btse-wss-ETH-USDT",
             "definition": {
-                "url": "https://api.btse.com/spot/api/v3.2/price?symbol=ETH-USDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "indexPrice"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "btse",
+                "base": "ETH",
+                "quote": "USDT"
             }
         },
         {
@@ -147,59 +56,21 @@
             }
         },
         {
-            "name": "Gateio-ETH-USDT",
+            "name": "gateio-wss-ETH-USDT",
             "definition": {
-                "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=ETH_USDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "last"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "gateio",
+                "base": "ETH",
+                "quote": "USDT"
             }
         },
         {
-            "name": "Coinex-ETH-USDT",
+            "name": "coinex-wss-ETH-USDT",
             "definition": {
-                "url": "https://api.coinex.com/v1/market/ticker?market=ETHUSDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "data",
-                            "ticker",
-                            "last"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "coinex",
+                "base": "ETH",
+                "quote": "USDT"
             }
         },
         {

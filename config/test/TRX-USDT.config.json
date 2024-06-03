@@ -2,39 +2,12 @@
     "name": "TRX-USDT",
     "feeds": [
         {
-            "name": "Bybit-TRX-USDT",
+            "name": "bybit-wss-TRX-USDT",
             "definition": {
-                "url": "https://api.bybit.com/derivatives/v3/public/tickers?symbol=TRXUSDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "result",
-                            "list"
-                        ]
-                    },
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "lastPrice"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "bybit",
+                "base": "TRX",
+                "quote": "USDT"
             }
         },
         {
@@ -47,114 +20,39 @@
             }
         },
         {
-            "name": "Kucoin-TRX-USDT",
+            "name": "kucoin-wss-TRX-USDT",
             "definition": {
-                "url": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=TRX-USDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "data",
-                            "price"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "TRX",
+                "quote": "USDT"
             }
         },
         {
-            "name": "Btse-TRX-USDT",
+            "name": "btse-wss-TRX-USDT",
             "definition": {
-                "url": "https://api.btse.com/spot/api/v3.2/price?symbol=TRX-USDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "indexPrice"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "btse",
+                "base": "TRX",
+                "quote": "USDT"
             }
         },
         {
-            "name": "Gateio-TRX-USDT",
+            "name": "gateio-wss-TRX-USDT",
             "definition": {
-                "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=TRX_USDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "last"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "gateio",
+                "base": "TRX",
+                "quote": "USDT"
             }
         },
         {
-            "name": "Coinex-TRX-USDT",
+            "name": "coinex-wss-TRX-USDT",
             "definition": {
-                "url": "https://api.coinex.com/v1/market/ticker?market=TRXUSDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "data",
-                            "ticker",
-                            "last"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "coinex",
+                "base": "TRX",
+                "quote": "USDT"
             }
         }
     ],
