@@ -2,7 +2,7 @@ import json
 import os
 from pathlib import Path
 
-wsfetchers = ["binance", "coinbase", "coinone", "korbit", "kucoin", "bybit", "upbit", "crypto", "btse", "bithumb", "gateio", "coinex"]
+wsfetchers = ["binance", "coinbase", "coinone", "korbit", "kucoin", "bybit", "upbit", "crypto", "btse", "bithumb", "gateio", "coinex", "huobi", "mexc"]
 
 def load_json_from_path(file_path: Path):
     with open(file_path) as json_file:
