@@ -1,0 +1,20 @@
+{
+  "binance": "https://api.binance.com/api/v3/exchangeInfo",
+  "coinbase": "https://api.exchange.coinbase.com/products",
+  "kucoin": "https://api.kucoin.com/api/v2/symbols",
+  "bybit": "https://api-testnet.bybit.com/spot/v3/public/symbols",
+  "bitstamp": "https://www.bitstamp.net/api/v2/ticker/",
+  "gemini": "https://api.gemini.com/v1/symbols",
+  "upbit": "https://api.upbit.com/v1/market/all?isDetails=true",
+  "korbit": "https://api.korbit.co.kr/v1/constants",
+  "crypto": "https://api.crypto.com/exchange/v1/public/get-instruments",
+  "btse": "https://api.btse.com/spot/api/v3.2/market_summary",
+  "bithumb": "https://api.bithumb.com/public/ticker/ALL_KRW",
+  "gateio": "https://api.gateio.ws/api/v4/spot/currency_pairs",
+  "lbank": "https://api.lbkex.com/v2/currencyPairs.do",
+  "coinex": "https://api.coinex.com/v1/market/list",
+  "bitget": "https://api.bitget.com/api/v2/spot/public/symbols",
+  "coinone": "https://api.coinone.co.kr/public/v2/markets/KRW",
+  "huobi": "https://api.huobi.pro/v1/settings/common/symbols",
+  "mexc": "https://api.mexc.com/api/v3/defaultSymbols"
+}

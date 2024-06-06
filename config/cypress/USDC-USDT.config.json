@@ -64,6 +64,51 @@
                 "token0Decimals": 6,
                 "token1Decimals": 6
             }
+        },
+        {
+            "name": "bitstamp-wss-USDC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitstamp",
+                "base": "USDC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-USDC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "USDC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-USDC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "USDC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-USDC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "USDC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-USDC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "USDC",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

@@ -63,6 +63,24 @@
                 "base": "LTC",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "lbank-wss-LTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "LTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-LTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "LTC",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

@@ -45,6 +45,24 @@
                 "base": "PAXG",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "lbank-wss-PAXG-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "PAXG",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-PAXG-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "PAXG",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

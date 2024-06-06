@@ -63,6 +63,33 @@
                 "base": "BNB",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "lbank-wss-BNB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "BNB",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-BNB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "BNB",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-BNB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "BNB",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

@@ -54,6 +54,42 @@
                 "base": "TRX",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "upbit-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "TRX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "TRX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "TRX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "TRX",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

@@ -104,6 +104,15 @@
                     }
                 ]
             }
+        },
+        {
+            "name": "bitstamp-wss-EUR-USD",
+            "definition": {
+                "type": "wss",
+                "provider": "bitstamp",
+                "base": "EUR",
+                "quote": "USD"
+            }
         }
     ],
     "fetchInterval": 2000,

@@ -72,6 +72,51 @@
                 "base": "XRP",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "bitstamp-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitstamp",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "XRP",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

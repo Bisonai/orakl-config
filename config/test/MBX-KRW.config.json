@@ -9,6 +9,24 @@
                 "base": "MBX",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "korbit-wss-MBX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "MBX",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-MBX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "MBX",
+                "quote": "KRW"
+            }
         }
     ],
     "fetchInterval": 2000,

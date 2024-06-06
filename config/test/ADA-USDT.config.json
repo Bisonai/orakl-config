@@ -72,6 +72,42 @@
                 "base": "ADA",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "upbit-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "ADA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "ADA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "ADA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "ADA",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

@@ -72,6 +72,42 @@
                 "base": "DOGE",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "upbit-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

@@ -72,6 +72,33 @@
                 "base": "KLAY",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "lbank-wss-KLAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "KLAY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-KLAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "KLAY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-KLAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "KLAY",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

@@ -92,6 +92,60 @@
                 "token0Decimals": 18,
                 "token1Decimals": 6
             }
+        },
+        {
+            "name": "bitstamp-wss-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitstamp",
+                "base": "ETH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gemini-wss-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gemini",
+                "base": "ETH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "ETH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "ETH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "ETH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "ETH",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,
