@@ -80,3 +80,9 @@ if __name__ == "__main__":
 
     print("\n## Aggregator Cypress\n")
     generate_history(aggregator_dir / "cypress")
+
+    print("\n## Config Baobab\n")
+    generate_history(Path("config") / "baobab")
+
+    print("\n## Config Cypress\n")
+    generate_history(Path("config") / "cypress")
