@@ -2,63 +2,21 @@
     "name": "JOY-USDT",
     "feeds": [
         {
-            "name": "Hubio-Joy-USDT",
+            "name": "huobi-wss-JOY-USDT",
             "definition": {
-                "url": "https://api.huobi.pro/market/history/kline?period=1min&size=1&symbol=joyusdt",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "data"
-                        ]
-                    },
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "close"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "huobi",
+                "base": "Joy",
+                "quote": "USDT"
             }
         },
         {
-            "name": "Mexc-Joy-USDT",
+            "name": "mexc-wss-JOY-USDT",
             "definition": {
-                "url": "https://api.mexc.com/api/v3/ticker/price?symbol=JOYUSDT",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "price"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
+                "type": "wss",
+                "provider": "mexc",
+                "base": "Joy",
+                "quote": "USDT"
             }
         },
         {
