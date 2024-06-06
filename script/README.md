@@ -28,3 +28,17 @@ Execute from root directory of this repository.
 ```
 python script/generate-history.py > HISTORY.md
 ```
+
+## Generate Config Files
+
+Automatically generates `configs.json` files based on supported WebSocket APIs.
+
+### Parameters
+
+- network: Designate network, defaults to `baobab`.
+- refresh: true or false, defaults to false. Reload possible supported symbols from APIs if true.
+- symbols: Pass symbols to generate besides pre-existing price pairs in the `configs/{network}/` path. If not given, it will only update existing config files.
+
+```
+python3 script/generate-configs.py --network cypress --refresh true --symbols "NOT-USDT", "PEOPLE-USDT"
+```
