@@ -73,6 +73,42 @@
                     "base": "ADA",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "upbit-wss-ADA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "upbit",
+                    "base": "ADA",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "lbank-wss-ADA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "ADA",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-ADA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "ADA",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-ADA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
+                    "base": "ADA",
+                    "quote": "USDT"
+                }
             }
         ],
         "fetchInterval": 2000,
@@ -150,6 +186,33 @@
                 "definition": {
                     "type": "wss",
                     "provider": "coinex",
+                    "base": "ATOM",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "lbank-wss-ATOM-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "ATOM",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-ATOM-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "ATOM",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-ATOM-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
                     "base": "ATOM",
                     "quote": "USDT"
                 }
@@ -233,6 +296,33 @@
                     "base": "AVAX",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "lbank-wss-AVAX-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "AVAX",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-AVAX-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "AVAX",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-AVAX-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
+                    "base": "AVAX",
+                    "quote": "USDT"
+                }
             }
         ],
         "fetchInterval": 2000,
@@ -301,6 +391,33 @@
                 "definition": {
                     "type": "wss",
                     "provider": "coinex",
+                    "base": "BNB",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "lbank-wss-BNB-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "BNB",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-BNB-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "BNB",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-BNB-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
                     "base": "BNB",
                     "quote": "USDT"
                 }
@@ -425,6 +542,60 @@
                 "definition": {
                     "type": "wss",
                     "provider": "coinex",
+                    "base": "BTC",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitstamp-wss-BTC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitstamp",
+                    "base": "BTC",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "gemini-wss-BTC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "gemini",
+                    "base": "BTC",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "upbit-wss-BTC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "upbit",
+                    "base": "BTC",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "lbank-wss-BTC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "BTC",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-BTC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "BTC",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-BTC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
                     "base": "BTC",
                     "quote": "USDT"
                 }
@@ -603,6 +774,51 @@
                     "token0Decimals": 18,
                     "token1Decimals": 6
                 }
+            },
+            {
+                "name": "bybit-wss-DAI-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "DAI",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "lbank-wss-DAI-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "DAI",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-DAI-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "DAI",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-DAI-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
+                    "base": "DAI",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "mexc-wss-DAI-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
+                    "base": "DAI",
+                    "quote": "USDT"
+                }
             }
         ],
         "fetchInterval": 2000,
@@ -683,6 +899,42 @@
                     "base": "DOGE",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "upbit-wss-DOGE-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "upbit",
+                    "base": "DOGE",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "lbank-wss-DOGE-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "DOGE",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-DOGE-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "DOGE",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-DOGE-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
+                    "base": "DOGE",
+                    "quote": "USDT"
+                }
             }
         ],
         "fetchInterval": 2000,
@@ -751,6 +1003,42 @@
                 "definition": {
                     "type": "wss",
                     "provider": "coinex",
+                    "base": "DOT",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "coinbase-wss-DOT-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "coinbase",
+                    "base": "DOT",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "lbank-wss-DOT-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "DOT",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-DOT-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "DOT",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-DOT-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
                     "base": "DOT",
                     "quote": "USDT"
                 }
@@ -831,6 +1119,60 @@
                 "definition": {
                     "type": "wss",
                     "provider": "coinex",
+                    "base": "ETH",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitstamp-wss-ETH-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitstamp",
+                    "base": "ETH",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "gemini-wss-ETH-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "gemini",
+                    "base": "ETH",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "upbit-wss-ETH-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "upbit",
+                    "base": "ETH",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "lbank-wss-ETH-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "ETH",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-ETH-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "ETH",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-ETH-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
                     "base": "ETH",
                     "quote": "USDT"
                 }
@@ -946,6 +1288,15 @@
                         }
                     ]
                 }
+            },
+            {
+                "name": "bitstamp-wss-EUR-USD",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitstamp",
+                    "base": "EUR",
+                    "quote": "USD"
+                }
             }
         ],
         "fetchInterval": 2000,
@@ -1014,6 +1365,33 @@
                 "definition": {
                     "type": "wss",
                     "provider": "coinex",
+                    "base": "FTM",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "lbank-wss-FTM-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "FTM",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-FTM-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "FTM",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-FTM-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
                     "base": "FTM",
                     "quote": "USDT"
                 }
@@ -1129,6 +1507,15 @@
                         }
                     ]
                 }
+            },
+            {
+                "name": "bitstamp-wss-GBP-USD",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitstamp",
+                    "base": "GBP",
+                    "quote": "USD"
+                }
             }
         ],
         "fetchInterval": 2000,
@@ -1161,6 +1548,42 @@
                 "definition": {
                     "type": "wss",
                     "provider": "gateio",
+                    "base": "JOY",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "coinex-wss-JOY-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "JOY",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-JOY-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "JOY",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-JOY-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
+                    "base": "JOY",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "mexc-wss-JOY-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
                     "base": "JOY",
                     "quote": "USDT"
                 }
@@ -1361,6 +1784,33 @@
                 "definition": {
                     "type": "wss",
                     "provider": "coinex",
+                    "base": "KLAY",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "lbank-wss-KLAY-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "KLAY",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-KLAY-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "KLAY",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-KLAY-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
                     "base": "KLAY",
                     "quote": "USDT"
                 }
@@ -1615,6 +2065,24 @@
                     "base": "LTC",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "lbank-wss-LTC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "LTC",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-LTC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "LTC",
+                    "quote": "USDT"
+                }
             }
         ],
         "fetchInterval": 2000,
@@ -1686,6 +2154,42 @@
                     "base": "MATIC",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "coinbase-wss-MATIC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "coinbase",
+                    "base": "MATIC",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "lbank-wss-MATIC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "MATIC",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-MATIC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "MATIC",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-MATIC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
+                    "base": "MATIC",
+                    "quote": "USDT"
+                }
             }
         ],
         "fetchInterval": 2000,
@@ -1700,6 +2204,24 @@
                 "definition": {
                     "type": "wss",
                     "provider": "bithumb",
+                    "base": "MBX",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "korbit-wss-MBX-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "korbit",
+                    "base": "MBX",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "coinone-wss-MBX-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "coinone",
                     "base": "MBX",
                     "quote": "KRW"
                 }
@@ -1770,6 +2292,24 @@
                 "definition": {
                     "type": "wss",
                     "provider": "coinex",
+                    "base": "PAXG",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "lbank-wss-PAXG-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "PAXG",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-PAXG-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
                     "base": "PAXG",
                     "quote": "USDT"
                 }
@@ -1863,6 +2403,42 @@
                     "base": "SHIB",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "bybit-wss-SHIB-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "SHIB",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "lbank-wss-SHIB-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "SHIB",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-SHIB-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "SHIB",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-SHIB-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
+                    "base": "SHIB",
+                    "quote": "USDT"
+                }
             }
         ],
         "fetchInterval": 2000,
@@ -1943,6 +2519,33 @@
                     "base": "SOL",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "lbank-wss-SOL-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "SOL",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-SOL-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "SOL",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-SOL-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
+                    "base": "SOL",
+                    "quote": "USDT"
+                }
             }
         ],
         "fetchInterval": 2000,
@@ -2002,6 +2605,42 @@
                 "definition": {
                     "type": "wss",
                     "provider": "coinex",
+                    "base": "TRX",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "upbit-wss-TRX-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "upbit",
+                    "base": "TRX",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "lbank-wss-TRX-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "TRX",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-TRX-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "TRX",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-TRX-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
                     "base": "TRX",
                     "quote": "USDT"
                 }
@@ -2095,6 +2734,33 @@
                     "token0Decimals": 18,
                     "token1Decimals": 6
                 }
+            },
+            {
+                "name": "lbank-wss-UNI-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "UNI",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-UNI-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "UNI",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-UNI-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
+                    "base": "UNI",
+                    "quote": "USDT"
+                }
             }
         ],
         "fetchInterval": 2000,
@@ -2167,6 +2833,51 @@
                     "token0Decimals": 6,
                     "token1Decimals": 6
                 }
+            },
+            {
+                "name": "bitstamp-wss-USDC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitstamp",
+                    "base": "USDC",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "lbank-wss-USDC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "USDC",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-USDC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "USDC",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-USDC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
+                    "base": "USDC",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "mexc-wss-USDC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
+                    "base": "USDC",
+                    "quote": "USDT"
+                }
             }
         ],
         "fetchInterval": 2000,
@@ -2226,6 +2937,33 @@
                 "definition": {
                     "type": "wss",
                     "provider": "gateio",
+                    "base": "WEMIX",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-WEMIX-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "WEMIX",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-WEMIX-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
+                    "base": "WEMIX",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "mexc-wss-WEMIX-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
                     "base": "WEMIX",
                     "quote": "USDT"
                 }
@@ -2306,6 +3044,51 @@
                 "definition": {
                     "type": "wss",
                     "provider": "coinex",
+                    "base": "XRP",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitstamp-wss-XRP-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitstamp",
+                    "base": "XRP",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "upbit-wss-XRP-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "upbit",
+                    "base": "XRP",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "lbank-wss-XRP-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "XRP",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-XRP-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "XRP",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-XRP-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
                     "base": "XRP",
                     "quote": "USDT"
                 }
