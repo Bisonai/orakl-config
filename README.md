@@ -6,14 +6,14 @@
 | [ADA-USDT](adapter/baobab/ada-usdt.adapter.json) | 0xf15e595e641f1447b5ad1c128007574b329e00937e6db3857aff1487345ed5f6 | 8 | 8 |
 | [ATOM-USDT](adapter/baobab/atom-usdt.adapter.json) | 0x881ea816054c7dd747a2d5bf722ed50e8361efb1719cc6a26ff7795afe9e551c | 8 | 8 |
 | [AVAX-USDT](adapter/baobab/avax-usdt.adapter.json) | 0x4a69bb6e5be1335415c7d479a41849465fc4b30dcd7c54ec33ff4e6be7cc5d18 | 8 | 8 |
-| [BNB-USDT](adapter/baobab/bnb-usdt.adapter.json) | 0x8e663b20c6e6be22294af4aa53603101f104a759ae9c47133ffb032560c37929 | 8 | 8 |
+| [BNB-USDT](adapter/baobab/bnb-usdt.adapter.json) | 0x8e663b20c6e6be22294af4aa53603101f104a759ae9c47133ffb032560c37929 | 8 | 7 |
 | [BORA-KRW](adapter/baobab/bora-krw.adapter.json) | 0xf6c3a6a1f072e5e32ea26bf7f588522d6f39ed16dfd1e7830b1828452a0c43f0 | 8 | 4 |
 | [BTC-USDT](adapter/baobab/btc-usdt.adapter.json) | 0xd18f6885ba66c44550c73b4b8a16702bf70e654d9f17d80b4451f80ec616bc60 | 8 | 9 |
 | [CHF-USD](adapter/baobab/chf-usd.adapter.json) | 0xafd03c2aaac107c16b43c72c706603fc540d5665d7bb914ec5c00803a859f3b9 | 8 | 3 |
 | [DAI-USDT](adapter/baobab/dai-usdt.adapter.json) | 0xe7c32b05629473ed4f0f2f654aebeb2abf980b22ead3c6324c1ebccc33c36b33 | 8 | 6 |
 | [DOGE-USDT](adapter/baobab/doge-usdt.adapter.json) | 0x31ca064c00770b85793d14eebbc62c1f3e9f35c41b6d34ab8e861101f98df3bf | 8 | 8 |
 | [DOT-USDT](adapter/baobab/dot-usdt.adapter.json) | 0xb9c0cead8c197295b81f5eaf73ffa6254245d7f14a206e7ad5c8026195718716 | 8 | 7 |
-| [ETH-USDT](adapter/baobab/eth-usdt.adapter.json) | 0xe92a7e074925d84efcfdd8ef654d9dac6521e1f5e699f3cba97498fa17e68e45 | 8 | 11 |
+| [ETH-USDT](adapter/baobab/eth-usdt.adapter.json) | 0xe92a7e074925d84efcfdd8ef654d9dac6521e1f5e699f3cba97498fa17e68e45 | 8 | 10 |
 | [EUR-USD](adapter/baobab/eur-usd.adapter.json) | 0xd53a6edbfd84120d72cd38f2ecf484254f5f5cacb2c45344f1c6a10be36167df | 8 | 3 |
 | [FTM-USDT](adapter/baobab/ftm-usdt.adapter.json) | 0x6106a99e2c06e2efbbd41f82bb163f3b5043e0aa97613dea158e57aeccef3c7a | 8 | 7 |
 | [GBP-USD](adapter/baobab/gbp-usd.adapter.json) | 0x3c3440344e9537f2155fa7414b065229331ec8f77b6f9dfb9e3e4538aefe7a2e | 8 | 3 |
@@ -23,7 +23,7 @@
 | [KRW-USD](adapter/baobab/krw-usd.adapter.json) | 0xdbe621ecb5bad0e1fca858f101d17c8e7d314c60587e7592453370d5cc36784a | 8 | 4 |
 | [KSP-KRW](adapter/baobab/ksp-krw.adapter.json) | 0xbc6e5d9102a9e78e8ff1b9c0b1ba77b4eff3a1f01f06603839af973d3af81072 | 8 | 2 |
 | [LTC-USDT](adapter/baobab/ltc-usdt.adapter.json) | 0x2a1d2a4a8bb5d40c2763a0e2e112424bf89738cd8e16f7848bd2ad66abeb297d | 8 | 7 |
-| [MATIC-USDT](adapter/baobab/matic-usdt.adapter.json) | 0x730ce9beea74f5e22354890eb38f06e839e0f45d606bd96537dfb27ea42b9f87 | 8 | 8 |
+| [MATIC-USDT](adapter/baobab/matic-usdt.adapter.json) | 0x730ce9beea74f5e22354890eb38f06e839e0f45d606bd96537dfb27ea42b9f87 | 8 | 7 |
 | [MBX-KRW](adapter/baobab/mbx-krw.adapter.json) | 0x2706c1f4d9efd8dcb4ef51c4d89f0b1dd81fe6bbbd721de20d853a1679ce852f | 8 | 1 |
 | [MNR-KRW](adapter/baobab/mnr-krw.adapter.json) | 0x343d0b550e7e286aa9f966a738d48877a550fa52521196b31f3f314809253cf6 | 8 | 1 |
 | [PAXG-USDT](adapter/baobab/paxg-usdt.adapter.json) | 0xfadb661c5e7d9c838f8ca72c968e1c7ae49efd53c76412dd85bcb433e9910c0a | 8 | 5 |
@@ -34,7 +34,7 @@
 | [TRX-USDT](adapter/baobab/trx-usdt.adapter.json) | 0x5a5303f18ca8a2d168bb4ae15b6fff96664b3dd0a6b70efab343cc1cc15b7aa9 | 8 | 6 |
 | [UNI-USDT](adapter/baobab/uni-usdt.adapter.json) | 0x8b3b0d2c88cc190f4d47b3903274b30a74a3594871310639fb5174568e482634 | 8 | 9 |
 | [USDC-USDT](adapter/baobab/usdc-usdt.adapter.json) | 0x8b0a6fda875a3e6ed088baa14fe48e714438feb743dbf118bf18124e224285f0 | 8 | 7 |
-| [WEMIX-USDT](adapter/baobab/wemix-usdt.adapter.json) | 0xb4a2d742f66ff90a2e8ede75ee5ab9484112deaa14edc265e5fe281b02d1cc05 | 8 | 7 |
+| [WEMIX-USDT](adapter/baobab/wemix-usdt.adapter.json) | 0xb4a2d742f66ff90a2e8ede75ee5ab9484112deaa14edc265e5fe281b02d1cc05 | 8 | 6 |
 | [XRP-USDT](adapter/baobab/xrp-usdt.adapter.json) | 0xfb2a6b3fb7dd347da0813360fd977eba476e6ab2dd1d0a49a847a41c33981cc5 | 8 | 8 |
 
 ## Adapter Cypress
@@ -150,6 +150,80 @@
 | [USDC-USDT](aggregator/cypress/usdc-usdt.aggregator.json) | 0x1d946e2087e9c54828271bd808e4bda3ef198f4beee33ccc6400a5bb127bcc2b | 0x138eAA152f9702076cEA9CB420Fa763049d44251 | 15000 | 0.05 | 0.1 | 0x8b0a6fda875a3e6ed088baa14fe48e714438feb743dbf118bf18124e224285f0 |
 | [WEMIX-USDT](aggregator/cypress/wemix-usdt.aggregator.json) | 0xe87c49db104f27110170d10b10505220f0436fcdeb98754c076848903943fa89 | 0xBD647a9Bd234BBE8974084b10C34f4556bC32420 | 15000 | 0.05 | 0.1 | 0x64fa89f33bdaa0a908aad6218e7eeff04b9229533c176e8e9cf68eeae0ff2869 |
 | [XRP-USDT](aggregator/cypress/xrp-usdt.aggregator.json) | 0xfd587ff17278dfe37771aa386f67e5397098cc9946bd7472e802c73edb118d07 | 0xe2e2D78eF5ec2158AFf05472C8C65fdB994AC8E4 | 15000 | 0.05 | 0.1 | 0xfb2a6b3fb7dd347da0813360fd977eba476e6ab2dd1d0a49a847a41c33981cc5 |
+
+## Config Baobab
+
+| name | fetchInterval | aggregateInterval | submitInterval | feeds |
+| --- | --- | --- | --- | --- |
+| [ADA-USDT](config/baobab/ADA-USDT.config.json) | 2000 | 5000 | 15000 | 12 |
+| [ATOM-USDT](config/baobab/ATOM-USDT.config.json) | 2000 | 5000 | 15000 | 11 |
+| [AVAX-USDT](config/baobab/AVAX-USDT.config.json) | 2000 | 5000 | 15000 | 11 |
+| [BNB-USDT](config/baobab/BNB-USDT.config.json) | 2000 | 5000 | 15000 | 10 |
+| [BORA-KRW](config/baobab/BORA-KRW.config.json) | 2000 | 5000 | 15000 | 4 |
+| [BTC-USDT](config/baobab/BTC-USDT.config.json) | 2000 | 5000 | 15000 | 15 |
+| [CHF-USD](config/baobab/CHF-USD.config.json) | 2000 | 5000 | 15000 | 3 |
+| [DAI-USDT](config/baobab/DAI-USDT.config.json) | 2000 | 5000 | 15000 | 11 |
+| [DOGE-USDT](config/baobab/DOGE-USDT.config.json) | 2000 | 5000 | 15000 | 12 |
+| [DOT-USDT](config/baobab/DOT-USDT.config.json) | 2000 | 5000 | 15000 | 11 |
+| [ETH-USDT](config/baobab/ETH-USDT.config.json) | 2000 | 5000 | 15000 | 16 |
+| [EUR-USD](config/baobab/EUR-USD.config.json) | 2000 | 5000 | 15000 | 4 |
+| [FTM-USDT](config/baobab/FTM-USDT.config.json) | 2000 | 5000 | 15000 | 10 |
+| [GBP-USD](config/baobab/GBP-USD.config.json) | 2000 | 5000 | 15000 | 4 |
+| [JOY-USDT](config/baobab/JOY-USDT.config.json) | 2000 | 5000 | 15000 | 5 |
+| [JPY-USD](config/baobab/JPY-USD.config.json) | 2000 | 5000 | 15000 | 3 |
+| [KLAY-USDT](config/baobab/KLAY-USDT.config.json) | 2000 | 5000 | 15000 | 11 |
+| [KRW-USD](config/baobab/KRW-USD.config.json) | 2000 | 5000 | 15000 | 4 |
+| [KSP-KRW](config/baobab/KSP-KRW.config.json) | 2000 | 5000 | 15000 | 2 |
+| [LTC-USDT](config/baobab/LTC-USDT.config.json) | 2000 | 5000 | 15000 | 9 |
+| [MATIC-USDT](config/baobab/MATIC-USDT.config.json) | 2000 | 5000 | 15000 | 11 |
+| [MBX-KRW](config/baobab/MBX-KRW.config.json) | 2000 | 5000 | 15000 | 3 |
+| [MNR-KRW](config/baobab/MNR-KRW.config.json) | 2000 | 5000 | 15000 | 1 |
+| [PAXG-USDT](config/baobab/PAXG-USDT.config.json) | 2000 | 5000 | 15000 | 7 |
+| [PER-KLAY](config/baobab/PER-KLAY.config.json) | 2000 | 5000 | 15000 | 1 |
+| [SHIB-USDT](config/baobab/SHIB-USDT.config.json) | 2000 | 5000 | 15000 | 11 |
+| [SOL-USDT](config/baobab/SOL-USDT.config.json) | 2000 | 5000 | 15000 | 11 |
+| [TRX-USDT](config/baobab/TRX-USDT.config.json) | 2000 | 5000 | 15000 | 10 |
+| [UNI-USDT](config/baobab/UNI-USDT.config.json) | 2000 | 5000 | 15000 | 12 |
+| [USDC-USDT](config/baobab/USDC-USDT.config.json) | 2000 | 5000 | 15000 | 12 |
+| [WEMIX-USDT](config/baobab/WEMIX-USDT.config.json) | 2000 | 5000 | 15000 | 9 |
+| [XRP-USDT](config/baobab/XRP-USDT.config.json) | 2000 | 5000 | 15000 | 13 |
+
+## Config Cypress
+
+| name | fetchInterval | aggregateInterval | submitInterval | feeds |
+| --- | --- | --- | --- | --- |
+| [ADA-USDT](config/cypress/ADA-USDT.config.json) | 2000 | 5000 | 15000 | 12 |
+| [ATOM-USDT](config/cypress/ATOM-USDT.config.json) | 2000 | 5000 | 15000 | 11 |
+| [AVAX-USDT](config/cypress/AVAX-USDT.config.json) | 2000 | 5000 | 15000 | 11 |
+| [BNB-USDT](config/cypress/BNB-USDT.config.json) | 2000 | 5000 | 15000 | 10 |
+| [BORA-KRW](config/cypress/BORA-KRW.config.json) | 2000 | 5000 | 15000 | 4 |
+| [BTC-USDT](config/cypress/BTC-USDT.config.json) | 2000 | 5000 | 15000 | 15 |
+| [CHF-USD](config/cypress/CHF-USD.config.json) | 2000 | 5000 | 15000 | 3 |
+| [DAI-USDT](config/cypress/DAI-USDT.config.json) | 2000 | 5000 | 15000 | 11 |
+| [DOGE-USDT](config/cypress/DOGE-USDT.config.json) | 2000 | 5000 | 15000 | 12 |
+| [DOT-USDT](config/cypress/DOT-USDT.config.json) | 2000 | 5000 | 15000 | 11 |
+| [ETH-USDT](config/cypress/ETH-USDT.config.json) | 2000 | 5000 | 15000 | 16 |
+| [EUR-USD](config/cypress/EUR-USD.config.json) | 2000 | 5000 | 15000 | 4 |
+| [FTM-USDT](config/cypress/FTM-USDT.config.json) | 2000 | 5000 | 15000 | 10 |
+| [GBP-USD](config/cypress/GBP-USD.config.json) | 2000 | 5000 | 15000 | 4 |
+| [JOY-USDT](config/cypress/JOY-USDT.config.json) | 2000 | 5000 | 15000 | 5 |
+| [JPY-USD](config/cypress/JPY-USD.config.json) | 2000 | 5000 | 15000 | 3 |
+| [KLAY-USDT](config/cypress/KLAY-USDT.config.json) | 2000 | 5000 | 15000 | 11 |
+| [KRW-USD](config/cypress/KRW-USD.config.json) | 2000 | 5000 | 15000 | 4 |
+| [KSP-KRW](config/cypress/KSP-KRW.config.json) | 2000 | 5000 | 15000 | 2 |
+| [LTC-USDT](config/cypress/LTC-USDT.config.json) | 2000 | 5000 | 15000 | 9 |
+| [MATIC-USDT](config/cypress/MATIC-USDT.config.json) | 2000 | 5000 | 15000 | 11 |
+| [MBX-KRW](config/cypress/MBX-KRW.config.json) | 2000 | 5000 | 15000 | 3 |
+| [MNR-KRW](config/cypress/MNR-KRW.config.json) | 2000 | 5000 | 15000 | 1 |
+| [PAXG-USDT](config/cypress/PAXG-USDT.config.json) | 2000 | 5000 | 15000 | 7 |
+| [PER-KLAY](config/cypress/PER-KLAY.config.json) | 2000 | 5000 | 15000 | 1 |
+| [SHIB-USDT](config/cypress/SHIB-USDT.config.json) | 2000 | 5000 | 15000 | 11 |
+| [SOL-USDT](config/cypress/SOL-USDT.config.json) | 2000 | 5000 | 15000 | 11 |
+| [TRX-USDT](config/cypress/TRX-USDT.config.json) | 2000 | 5000 | 15000 | 10 |
+| [UNI-USDT](config/cypress/UNI-USDT.config.json) | 2000 | 5000 | 15000 | 12 |
+| [USDC-USDT](config/cypress/USDC-USDT.config.json) | 2000 | 5000 | 15000 | 12 |
+| [WEMIX-USDT](config/cypress/WEMIX-USDT.config.json) | 2000 | 5000 | 15000 | 9 |
+| [XRP-USDT](config/cypress/XRP-USDT.config.json) | 2000 | 5000 | 15000 | 13 |
 
 ## Log history
 

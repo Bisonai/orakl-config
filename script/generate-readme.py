@@ -75,6 +75,22 @@ def generate_aggregator_list(aggregator_dir: Path):
                 values.append(data[key])
         make_line(values)
 
+def generate_config_list(config_dir: Path):
+    configs = sorted(config_dir.glob("*.json"))
+    keys = ['name', 'fetchInterval', 'aggregateInterval', 'submitInterval', 'feeds']
+    make_line(keys)
+    make_empty_line(keys)
+    for config in configs:
+        data = load_json_from_path(config)
+        values = []
+        for key in keys:
+            if key == 'feeds':
+                values.append(len(data[key]))
+            elif key == 'name':
+                values.append({'url': config, 'value': data[key]})
+            else:
+                values.append(data[key])
+        make_line(values)
 
 def check_hash_match(adapter_dir: Path, aggregator_dir: Path):
     adapters = collect_adapter_hashes(adapter_dir)
@@ -113,6 +129,12 @@ if __name__ == "__main__":
 
     print('\n## Aggregator Cypress\n')
     generate_aggregator_list(aggregator_cypress_dir)
+
+    print('\n## Config Baobab\n')
+    generate_config_list(Path('config') / baobab)
+
+    print('\n## Config Cypress\n')
+    generate_config_list(Path('config') / cypress)
 
     print("\n## Log history\n")
     print("[History of Adapter and Aggregator](HISTORY.md)")
