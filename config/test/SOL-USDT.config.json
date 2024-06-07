@@ -72,6 +72,33 @@
                 "base": "SOL",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "lbank-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "SOL",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

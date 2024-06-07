@@ -63,6 +63,33 @@
                 "base": "FTM",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "lbank-wss-FTM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "FTM",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-FTM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "FTM",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-FTM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "FTM",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

@@ -72,6 +72,33 @@
                 "base": "AVAX",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "lbank-wss-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

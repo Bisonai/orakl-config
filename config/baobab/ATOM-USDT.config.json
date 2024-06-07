@@ -72,6 +72,33 @@
                 "base": "ATOM",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "lbank-wss-ATOM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "ATOM",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-ATOM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "ATOM",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-ATOM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "ATOM",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

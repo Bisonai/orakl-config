@@ -54,6 +54,33 @@
                 "base": "WEMIX",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "bitget-wss-WEMIX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "WEMIX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-WEMIX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "WEMIX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-WEMIX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "WEMIX",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

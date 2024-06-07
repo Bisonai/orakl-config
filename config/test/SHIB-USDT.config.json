@@ -63,6 +63,42 @@
                 "base": "SHIB",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "bybit-wss-SHIB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "SHIB",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-SHIB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "SHIB",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-SHIB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "SHIB",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-SHIB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "SHIB",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

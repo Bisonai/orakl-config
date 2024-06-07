@@ -82,6 +82,33 @@
                 "token0Decimals": 18,
                 "token1Decimals": 6
             }
+        },
+        {
+            "name": "lbank-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "UNI",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

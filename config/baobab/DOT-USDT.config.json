@@ -63,6 +63,42 @@
                 "base": "DOT",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "coinbase-wss-DOT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "DOT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-DOT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "DOT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-DOT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "DOT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-DOT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "DOT",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

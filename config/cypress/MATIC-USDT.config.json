@@ -63,6 +63,42 @@
                 "base": "MATIC",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "coinbase-wss-MATIC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "MATIC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-MATIC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "MATIC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-MATIC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "MATIC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-MATIC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "MATIC",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

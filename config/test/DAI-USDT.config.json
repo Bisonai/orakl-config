@@ -55,6 +55,51 @@
                 "token0Decimals": 18,
                 "token1Decimals": 6
             }
+        },
+        {
+            "name": "bybit-wss-DAI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "DAI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-DAI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "DAI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-DAI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "DAI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-DAI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "DAI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-DAI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "DAI",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,
