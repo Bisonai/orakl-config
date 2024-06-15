@@ -146,6 +146,15 @@
                 "base": "ETH",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "ETH",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

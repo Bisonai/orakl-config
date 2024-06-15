@@ -156,10 +156,12 @@ def get_huobi_symbols(url):
     return result
 
 def get_mexc_symbols(url):
-    result = []
+    unwritten_pairs = ["btcusdt", "ethusdt"]
+    result = [*unwritten_pairs]
     json_data = load_json_from_url(url)
     for entry in json_data["data"]:
         result.append(entry.lower())
+
     return result
 
 def store_symbols(urls_path, symbols_path):
