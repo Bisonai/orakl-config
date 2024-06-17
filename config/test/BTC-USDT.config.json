@@ -126,9 +126,18 @@
                 "base": "BTC",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-BTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "BTC",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,
-    "aggregateInterval": 5000,
+    "aggregateInterval": 3000,
     "submitInterval": 15000
 }
