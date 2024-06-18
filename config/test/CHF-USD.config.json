@@ -1,112 +1,100 @@
 {
-    "name": "CHF-USD",
-    "feeds": [
-        {
-            "name": "Dunamu-CHF-USD",
-            "definition": {
-                "url": "https://quotation-api-cdn.dunamu.com/v1/forex/recent?codes=FRX.CHFUSD",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "usDollarRate"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
-            }
+  "name": "CHF-USD",
+  "feeds": [
+    {
+      "name": "Dunamu-CHF-USD",
+      "definition": {
+        "url": "https://quotation-api-cdn.dunamu.com/v1/forex/recent?codes=FRX.CHFUSD",
+        "headers": {
+          "Content-Type": "application/json"
         },
-        {
-            "name": "Yahoo-CHF-USD",
-            "definition": {
-                "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=CHFUSD%3DX",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "spark",
-                            "result"
-                        ]
-                    },
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "response"
-                        ]
-                    },
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "meta",
-                            "regularMarketPrice"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
-            }
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": ["usDollarRate"]
+          },
+          {
+            "function": "POW10",
+            "args": 8
+          },
+          {
+            "function": "ROUND"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Yahoo-CHF-USD",
+      "definition": {
+        "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=CHFUSD%3DX",
+        "headers": {
+          "Content-Type": "application/json"
         },
-        {
-            "name": "Daum-CHF-USD",
-            "definition": {
-                "url": "https://finance.daum.net/api/exchanges/FRX.CHFUSD",
-                "location": "kr",
-                "headers": {
-                    "Content-Type": "application/json",
-                    "referer": "https://finance.daum.net/exchanges/FRX.CHFUSD",
-                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "usDollarRate"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
-            }
-        }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 5000,
-    "submitInterval": 15000
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": ["spark", "result"]
+          },
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": ["response"]
+          },
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": ["meta", "regularMarketPrice"]
+          },
+          {
+            "function": "POW10",
+            "args": 8
+          },
+          {
+            "function": "ROUND"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Daum-CHF-USD",
+      "definition": {
+        "url": "https://finance.daum.net/api/exchanges/FRX.CHFUSD",
+        "location": "kr",
+        "headers": {
+          "Content-Type": "application/json",
+          "referer": "https://finance.daum.net/exchanges/FRX.CHFUSD",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": ["usDollarRate"]
+          },
+          {
+            "function": "POW10",
+            "args": 8
+          },
+          {
+            "function": "ROUND"
+          }
+        ]
+      }
+    }
+  ],
+  "fetchInterval": 2000,
+  "aggregateInterval": 3000,
+  "submitInterval": 15000
 }
