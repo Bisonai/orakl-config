@@ -11,6 +11,8 @@ DEFAULT_FETCH_INTERVAL = 2000
 DEFAULT_AGGREGATE_INTERVAL = 5000
 DEFAULT_SUBMIT_INTERVAL = 15000
 
+FXSymbols = ["USD", "KRW", "JPY", "EUR", "GBP", "CHF"]
+
 def load_json_from_url(url):
     response = requests.get(url)
     json_data = response.json()
@@ -246,6 +248,7 @@ def feed_exists(feeds, name):
 
 def update_or_make_config_file(config_folder_path, symbol, feeds):
     result = {}
+
     if not os.path.exists(config_folder_path+"/"+symbol+".config.json"):
         result["name"] = symbol
         result["fetchInterval"] = DEFAULT_FETCH_INTERVAL
@@ -262,6 +265,10 @@ def update_or_make_config_file(config_folder_path, symbol, feeds):
     for feed in feeds:
         if not feed_exists(result["feeds"], feed["name"]):
             result["feeds"].append(feed)
+
+    symbols = symbol.split("-")
+    if symbols[0] in FXSymbols and symbols[1] in FXSymbols:
+        result["isFx"] = True
 
     with open(f"{config_folder_path}/{symbol}.config.json", "w") as f:
         json.dump(result, f, indent=4)
@@ -292,8 +299,7 @@ if __name__ == "__main__":
         base = symbol.split("-")[0]
         quote = symbol.split("-")[1]
         providers = get_all_supported_providers(possible_symbols, base, quote)
-        if len(providers) == 0:
-            continue
+
         wsFeeds = []
         for provider in providers:
             wsFeed = make_wss_object(provider, base, quote)
@@ -301,6 +307,7 @@ if __name__ == "__main__":
 
         if len(wsFeeds) > 0:
             result[symbol] = wsFeeds
-
+        else:
+            result[symbol] = {}
     for symbol, feeds in result.items():
         update_or_make_config_file(f"config/{network}", symbol, feeds)
