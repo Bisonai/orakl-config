@@ -99,6 +99,51 @@
                 "base": "SHIB",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "okx-wss-SHIB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "SHIB",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kraken-wss-SHIB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "SHIB",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-SHIB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "SHIB",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-SHIB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "SHIB",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-SHIB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "SHIB",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

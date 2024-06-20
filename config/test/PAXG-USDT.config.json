@@ -63,6 +63,15 @@
                 "base": "PAXG",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "bingx-wss-PAXG-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "PAXG",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

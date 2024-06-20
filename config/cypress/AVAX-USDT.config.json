@@ -99,6 +99,51 @@
                 "base": "AVAX",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "okx-wss-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kraken-wss-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

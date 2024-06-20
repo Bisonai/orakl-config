@@ -109,6 +109,51 @@
                 "base": "USDC",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "okx-wss-USDC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "USDC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kraken-wss-USDC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "USDC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-USDC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "USDC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-USDC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "USDC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-USDC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "USDC",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

@@ -145,6 +145,42 @@
                 "base": "BTC",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "okx-wss-BTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "BTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-BTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "BTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-BTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "BTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-BTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "BTC",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

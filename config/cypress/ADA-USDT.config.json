@@ -108,6 +108,51 @@
                 "base": "ADA",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "okx-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "ADA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kraken-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "ADA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "ADA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "ADA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "ADA",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

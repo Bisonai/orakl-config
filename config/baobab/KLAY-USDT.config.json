@@ -99,6 +99,42 @@
                 "base": "KLAY",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "okx-wss-KLAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "KLAY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-KLAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "KLAY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-KLAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "KLAY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-KLAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "KLAY",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

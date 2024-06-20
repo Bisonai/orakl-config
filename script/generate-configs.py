@@ -162,6 +162,49 @@ def get_mexc_symbols(url):
         result.append(entry.lower())
     return result
 
+def get_okx_symbols(url):
+    result = []
+    json_data = load_json_from_url(url)
+    for entry in json_data["data"]:
+        if entry["instType"] != "SPOT":
+            continue
+        result.append(entry["baseCcy"].lower() + entry["quoteCcy"].lower())
+    return result
+
+def get_kraken_symbols(url):
+    result = []
+    json_data = load_json_from_url(url)
+    for key, value in json_data["result"].items():
+        if value["status"] != "online":
+            continue
+        result.append(key.lower())
+    return result
+
+def get_bingx_symbols(url):
+    result = []
+    json_data = load_json_from_url(url)
+    for entry in json_data["data"]["symbols"]:
+        if not entry["apiStateSell"] or not entry["apiStateBuy"]:
+            continue
+        result.append(entry["symbol"].replace("-","").lower())
+    return result
+
+def get_bitmart_symbols(url):
+    result = []
+    json_data = load_json_from_url(url)
+    for entry in json_data["data"]["symbols"]:
+        result.append(entry.replace("_","").lower())
+    return result
+
+def get_xt_symbols(url):
+    result = []
+    json_data = load_json_from_url(url)
+    for entry in json_data["result"]["symbols"]:
+        if not entry["tradingEnabled"] or not entry["openapiEnabled"]:
+            continue
+        result.append(entry["symbol"].replace("_","").lower())
+    return result
+
 def store_symbols(urls_path, symbols_path):
     store_directory = os.path.dirname(symbols_path)
     if not os.path.exists(store_directory):
@@ -188,6 +231,11 @@ def store_symbols(urls_path, symbols_path):
     result["coinone"] = get_coinone_symbols(urls["coinone"])
     result["huobi"] = get_huobi_symbols(urls["huobi"])
     result["mexc"] = get_mexc_symbols(urls["mexc"])
+    result["okx"] = get_okx_symbols(urls["okx"])
+    result["kraken"] = get_kraken_symbols(urls["kraken"])
+    result["bingx"] = get_bingx_symbols(urls["bingx"])
+    result["bitmart"] = get_bitmart_symbols(urls["bitmart"])
+    result["xt"] = get_xt_symbols(urls["xt"])
 
     with open(symbols_path, "w") as f:
         json.dump(result, f, indent=4)

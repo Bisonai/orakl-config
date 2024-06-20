@@ -81,6 +81,51 @@
                 "base": "LTC",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "okx-wss-LTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "LTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kraken-wss-LTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "LTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-LTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "LTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-LTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "LTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-LTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "LTC",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

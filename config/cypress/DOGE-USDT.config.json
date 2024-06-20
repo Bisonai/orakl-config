@@ -108,6 +108,42 @@
                 "base": "DOGE",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "okx-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,
