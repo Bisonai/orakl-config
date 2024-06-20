@@ -100,6 +100,51 @@
                 "base": "DAI",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "okx-wss-DAI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "DAI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kraken-wss-DAI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "DAI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-DAI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "DAI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-DAI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "DAI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-DAI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "DAI",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

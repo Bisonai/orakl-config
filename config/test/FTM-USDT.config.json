@@ -90,6 +90,42 @@
                 "base": "FTM",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "okx-wss-FTM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "FTM",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-FTM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "FTM",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-FTM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "FTM",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-FTM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "FTM",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

@@ -90,6 +90,42 @@
                 "base": "TRX",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "okx-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "TRX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "TRX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "TRX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "TRX",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

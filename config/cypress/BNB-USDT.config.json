@@ -90,6 +90,42 @@
                 "base": "BNB",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "okx-wss-BNB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "BNB",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-BNB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "BNB",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-BNB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "BNB",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-BNB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "BNB",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

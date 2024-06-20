@@ -45,6 +45,15 @@
                 "base": "JOY",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "bitmart-wss-JOY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "JOY",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

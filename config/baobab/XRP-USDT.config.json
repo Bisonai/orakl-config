@@ -117,6 +117,51 @@
                 "base": "XRP",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "okx-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kraken-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "XRP",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

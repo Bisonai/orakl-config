@@ -16,5 +16,10 @@
   "bitget": "https://api.bitget.com/api/v2/spot/public/symbols",
   "coinone": "https://api.coinone.co.kr/public/v2/markets/KRW",
   "huobi": "https://api.huobi.pro/v1/settings/common/symbols",
-  "mexc": "https://api.mexc.com/api/v3/defaultSymbols"
+  "mexc": "https://api.mexc.com/api/v3/defaultSymbols",
+  "okx": "https://www.okx.com/api/v5/public/instruments?instType=SPOT",
+  "kraken": "https://api.kraken.com/0/public/AssetPairs",
+  "bingx": "https://open-api.bingx.com/openApi/spot/v1/common/symbols",
+  "bitmart": "https://api-cloud.bitmart.com/spot/v1/symbols",
+  "xt": "https://sapi.xt.com/v4/public/symbol"
 }

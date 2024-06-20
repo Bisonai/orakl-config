@@ -99,6 +99,51 @@
                 "base": "DOT",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "okx-wss-DOT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "DOT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kraken-wss-DOT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "DOT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-DOT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "DOT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-DOT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "DOT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-DOT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "DOT",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

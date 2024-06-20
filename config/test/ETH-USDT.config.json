@@ -135,6 +135,51 @@
                 "base": "ETH",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "okx-wss-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "ETH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kraken-wss-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "ETH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "ETH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "ETH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "ETH",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

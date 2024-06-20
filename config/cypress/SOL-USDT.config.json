@@ -99,6 +99,60 @@
                 "base": "SOL",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "upbit-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kraken-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "SOL",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

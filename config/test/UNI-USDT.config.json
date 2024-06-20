@@ -109,6 +109,42 @@
                 "base": "UNI",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "okx-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "UNI",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,
