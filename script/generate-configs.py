@@ -8,7 +8,7 @@ URLS_PATH = Path("script/urls.json")
 SYMBOLS_PATH = Path("tmp/symbols.json")
 
 DEFAULT_FETCH_INTERVAL = 2000
-DEFAULT_AGGREGATE_INTERVAL = 5000
+DEFAULT_AGGREGATE_INTERVAL = 2000
 DEFAULT_SUBMIT_INTERVAL = 15000
 
 def load_json_from_url(url):
@@ -307,6 +307,7 @@ def update_or_make_config_file(config_folder_path, symbol, feeds):
     with open(f"{config_folder_path}/{symbol}.config.json", "r") as f:
         result = json.load(f)
 
+    result["aggregateInterval"] = DEFAULT_AGGREGATE_INTERVAL
     for feed in feeds:
         if not feed_exists(result["feeds"], feed["name"]):
             result["feeds"].append(feed)
@@ -340,15 +341,15 @@ if __name__ == "__main__":
         base = symbol.split("-")[0]
         quote = symbol.split("-")[1]
         providers = get_all_supported_providers(possible_symbols, base, quote)
-        if len(providers) == 0:
-            continue
+
         wsFeeds = []
         for provider in providers:
             wsFeed = make_wss_object(provider, base, quote)
             wsFeeds.append(wsFeed)
 
-        if len(wsFeeds) > 0:
-            result[symbol] = wsFeeds
+        result[symbol] = wsFeeds
+
+
 
     for symbol, feeds in result.items():
         update_or_make_config_file(f"config/{network}", symbol, feeds)
