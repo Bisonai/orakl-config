@@ -8,7 +8,7 @@ URLS_PATH = Path("script/urls.json")
 SYMBOLS_PATH = Path("tmp/symbols.json")
 
 DEFAULT_FETCH_INTERVAL = 2000
-DEFAULT_AGGREGATE_INTERVAL = 500
+DEFAULT_AGGREGATE_INTERVAL = 1000
 DEFAULT_SUBMIT_INTERVAL = 15000
 
 def load_json_from_url(url):
