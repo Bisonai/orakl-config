@@ -1,19 +1,19 @@
 {
-  "name": "PER-KLAY",
-  "feeds": [
-    {
-      "name": "KlaySwap-PER-KLAY",
-      "definition": {
-        "chainId": "8217",
-        "address": "0x45ccd8a73053ab94efb7a9d4fd48da888c2977f3",
-        "type": "UniswapPool",
-        "reciprocal": true,
-        "token0Decimals": 18,
-        "token1Decimals": 18
-      }
-    }
-  ],
-  "fetchInterval": 2000,
-  "aggregateInterval": 3000,
-  "submitInterval": 15000
+    "name": "PER-KLAY",
+    "feeds": [
+        {
+            "name": "KlaySwap-PER-KLAY",
+            "definition": {
+                "chainId": "8217",
+                "address": "0x45ccd8a73053ab94efb7a9d4fd48da888c2977f3",
+                "type": "UniswapPool",
+                "reciprocal": true,
+                "token0Decimals": 18,
+                "token1Decimals": 18
+            }
+        }
+    ],
+    "fetchInterval": 2000,
+    "aggregateInterval": 500,
+    "submitInterval": 15000
 }

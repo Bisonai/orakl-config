@@ -156,6 +156,6 @@
         }
     ],
     "fetchInterval": 2000,
-    "aggregateInterval": 2000,
+    "aggregateInterval": 500,
     "submitInterval": 15000
 }
