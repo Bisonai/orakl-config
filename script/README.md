@@ -45,7 +45,7 @@ The `generate-readme.py` script will check whether all connections between aggre
 Execute from root directory of this repository.
 
 ```
-python script/generate-readme.py > README.md
+python script/generate-readme.py >! README.md
 ```
 
 ## Generate HISTORY.md
@@ -55,5 +55,5 @@ The `generate-history.py` script fetches all previous version of adapters and ag
 Execute from root directory of this repository.
 
 ```
-python script/generate-history.py > HISTORY.md
+python script/generate-history.py >! HISTORY.md
 ```
