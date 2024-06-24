@@ -75,6 +75,6 @@
         }
     ],
     "fetchInterval": 2000,
-    "aggregateInterval": 1000,
+    "aggregateInterval": 500,
     "submitInterval": 15000
 }
