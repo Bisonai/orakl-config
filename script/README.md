@@ -13,6 +13,8 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+Simply run `deactivate` for deactivating the venv.
+
 ## Generate Config Files
 
 Automatically generates `configs.json` files based on supported WebSocket APIs.
