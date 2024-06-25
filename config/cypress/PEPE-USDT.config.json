@@ -1,0 +1,125 @@
+{
+    "name": "PEPE-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 500,
+    "submitInterval": 15000,
+    "feeds": [
+        {
+            "name": "binance-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        }
+    ]
+}
