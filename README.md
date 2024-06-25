@@ -179,6 +179,7 @@
 | [MBX-KRW](config/baobab/MBX-KRW.config.json) | 2000 | 2000 | 15000 | 3 |
 | [MNR-KRW](config/baobab/MNR-KRW.config.json) | 2000 | 2000 | 15000 | 1 |
 | [PAXG-USDT](config/baobab/PAXG-USDT.config.json) | 2000 | 2000 | 15000 | 8 |
+| [PEPE-USDT](config/baobab/PEPE-USDT.config.json) | 2000 | 2000 | 15000 | 13 |
 | [PER-KLAY](config/baobab/PER-KLAY.config.json) | 2000 | 2000 | 15000 | 1 |
 | [SHIB-USDT](config/baobab/SHIB-USDT.config.json) | 2000 | 2000 | 15000 | 16 |
 | [SOL-USDT](config/baobab/SOL-USDT.config.json) | 2000 | 2000 | 15000 | 17 |
