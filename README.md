@@ -216,6 +216,7 @@
 | [MBX-KRW](config/cypress/MBX-KRW.config.json)       | 2000          | 500               | 15000          | 3     |
 | [MNR-KRW](config/cypress/MNR-KRW.config.json)       | 2000          | 500               | 15000          | 1     |
 | [PAXG-USDT](config/cypress/PAXG-USDT.config.json)   | 2000          | 500               | 15000          | 8     |
+| [PEPE-USDT](config/cypress/PEPE-USDT.config.json)   | 2000          | 500               | 15000          | 13    |
 | [PER-KLAY](config/cypress/PER-KLAY.config.json)     | 2000          | 500               | 15000          | 1     |
 | [SHIB-USDT](config/cypress/SHIB-USDT.config.json)   | 2000          | 500               | 15000          | 16    |
 | [SOL-USDT](config/cypress/SOL-USDT.config.json)     | 2000          | 500               | 15000          | 17    |
