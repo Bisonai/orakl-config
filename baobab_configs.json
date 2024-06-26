@@ -157,7 +157,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -309,7 +309,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -461,7 +461,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -595,7 +595,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -639,7 +639,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -828,7 +828,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -940,7 +940,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -1093,7 +1093,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -1245,7 +1245,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -1397,7 +1397,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -1605,7 +1605,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -1726,7 +1726,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -1860,7 +1860,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -1981,7 +1981,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -2043,7 +2043,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -2163,7 +2163,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -2306,7 +2306,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -2460,7 +2460,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -2486,7 +2486,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -2620,7 +2620,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -2772,7 +2772,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -2807,7 +2807,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -2824,7 +2824,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -2904,13 +2904,13 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
         "name": "PEPE-USDT",
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000,
         "feeds": [
             {
@@ -3048,7 +3048,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -3200,7 +3200,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -3361,7 +3361,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -3495,7 +3495,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -3648,7 +3648,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -3810,7 +3810,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -3926,7 +3926,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -4096,7 +4096,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     }
 ]
