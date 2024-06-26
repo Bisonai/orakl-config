@@ -157,7 +157,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -309,7 +309,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -461,7 +461,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -595,7 +595,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -639,7 +639,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -828,41 +828,12 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
         "name": "CHF-USD",
         "feeds": [
-            {
-                "name": "Dunamu-CHF-USD",
-                "definition": {
-                    "url": "https://quotation-api-cdn.dunamu.com/v1/forex/recent?codes=FRX.CHFUSD",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "usDollarRate"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
-                }
-            },
             {
                 "name": "Yahoo-CHF-USD",
                 "definition": {
@@ -940,7 +911,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -1093,7 +1064,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -1245,7 +1216,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -1397,7 +1368,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -1605,41 +1576,12 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
         "name": "EUR-USD",
         "feeds": [
-            {
-                "name": "Dunamu-EUR-USD",
-                "definition": {
-                    "url": "https://quotation-api-cdn.dunamu.com/v1/forex/recent?codes=FRX.EURUSD",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "usDollarRate"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
-                }
-            },
             {
                 "name": "Yahoo-EUR-USD",
                 "definition": {
@@ -1726,7 +1668,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -1860,41 +1802,12 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
         "name": "GBP-USD",
         "feeds": [
-            {
-                "name": "Dunamu-GBP-USD",
-                "definition": {
-                    "url": "https://quotation-api-cdn.dunamu.com/v1/forex/recent?codes=FRX.GBPUSD",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "usDollarRate"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
-                }
-            },
             {
                 "name": "Yahoo-GBP-USD",
                 "definition": {
@@ -1981,7 +1894,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -2043,45 +1956,12 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
         "name": "JPY-USD",
         "feeds": [
-            {
-                "name": "Dunamu-JPY-USD",
-                "definition": {
-                    "url": "https://quotation-api-cdn.dunamu.com/v1/forex/recent?codes=FRX.JPYUSD",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "basePrice"
-                            ]
-                        },
-                        {
-                            "function": "DIVFROM",
-                            "args": 1
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
-                }
-            },
             {
                 "name": "Yahoo-JPY-USD",
                 "definition": {
@@ -2163,7 +2043,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -2306,45 +2186,12 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
         "name": "KRW-USD",
         "feeds": [
-            {
-                "name": "Dunamu-KRW-USD",
-                "definition": {
-                    "url": "https://quotation-api-cdn.dunamu.com/v1/forex/recent?codes=FRX.KRWUSD",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "basePrice"
-                            ]
-                        },
-                        {
-                            "function": "DIVFROM",
-                            "args": 1
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
-                }
-            },
             {
                 "name": "Yahoo-KRW-USD",
                 "definition": {
@@ -2460,7 +2307,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -2486,7 +2333,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -2620,7 +2467,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -2772,7 +2619,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -2807,7 +2654,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -2824,7 +2671,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -2904,13 +2751,13 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
         "name": "PEPE-USDT",
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000,
         "feeds": [
             {
@@ -3048,7 +2895,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -3200,7 +3047,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -3361,7 +3208,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -3495,7 +3342,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -3648,7 +3495,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -3810,7 +3657,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -3926,7 +3773,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     },
     {
@@ -4096,7 +3943,7 @@
             }
         ],
         "fetchInterval": 2000,
-        "aggregateInterval": 500,
+        "aggregateInterval": 400,
         "submitInterval": 15000
     }
 ]
