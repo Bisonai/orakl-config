@@ -835,35 +835,6 @@
         "name": "CHF-USD",
         "feeds": [
             {
-                "name": "Dunamu-CHF-USD",
-                "definition": {
-                    "url": "https://quotation-api-cdn.dunamu.com/v1/forex/recent?codes=FRX.CHFUSD",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "usDollarRate"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
-                }
-            },
-            {
                 "name": "Yahoo-CHF-USD",
                 "definition": {
                     "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=CHFUSD%3DX",
@@ -1612,35 +1583,6 @@
         "name": "EUR-USD",
         "feeds": [
             {
-                "name": "Dunamu-EUR-USD",
-                "definition": {
-                    "url": "https://quotation-api-cdn.dunamu.com/v1/forex/recent?codes=FRX.EURUSD",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "usDollarRate"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
-                }
-            },
-            {
                 "name": "Yahoo-EUR-USD",
                 "definition": {
                     "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=EURUSD%3DX",
@@ -1867,35 +1809,6 @@
         "name": "GBP-USD",
         "feeds": [
             {
-                "name": "Dunamu-GBP-USD",
-                "definition": {
-                    "url": "https://quotation-api-cdn.dunamu.com/v1/forex/recent?codes=FRX.GBPUSD",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "usDollarRate"
-                            ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
-                }
-            },
-            {
                 "name": "Yahoo-GBP-USD",
                 "definition": {
                     "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=GBPUSD%3DX",
@@ -2049,39 +1962,6 @@
     {
         "name": "JPY-USD",
         "feeds": [
-            {
-                "name": "Dunamu-JPY-USD",
-                "definition": {
-                    "url": "https://quotation-api-cdn.dunamu.com/v1/forex/recent?codes=FRX.JPYUSD",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "basePrice"
-                            ]
-                        },
-                        {
-                            "function": "DIVFROM",
-                            "args": 1
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
-                }
-            },
             {
                 "name": "Yahoo-JPY-USD",
                 "definition": {
@@ -2312,39 +2192,6 @@
     {
         "name": "KRW-USD",
         "feeds": [
-            {
-                "name": "Dunamu-KRW-USD",
-                "definition": {
-                    "url": "https://quotation-api-cdn.dunamu.com/v1/forex/recent?codes=FRX.KRWUSD",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "INDEX",
-                            "args": 0
-                        },
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "basePrice"
-                            ]
-                        },
-                        {
-                            "function": "DIVFROM",
-                            "args": 1
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
-                            "function": "ROUND"
-                        }
-                    ]
-                }
-            },
             {
                 "name": "Yahoo-KRW-USD",
                 "definition": {
