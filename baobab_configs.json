@@ -164,7 +164,7 @@
         "name": "AKT-KRW",
         "fetchInterval": 2000,
         "aggregateInterval": 400,
-        "submitInterval": 15000,
+        "submitInterval": 3600000,
         "feeds": [
             {
                 "name": "upbit-wss-AKT-KRW",
@@ -503,7 +503,7 @@
         "name": "BLAST-KRW",
         "fetchInterval": 2000,
         "aggregateInterval": 400,
-        "submitInterval": 15000,
+        "submitInterval": 3600000,
         "feeds": [
             {
                 "name": "upbit-wss-BLAST-KRW",
@@ -716,7 +716,7 @@
         "name": "BTC-KRW",
         "fetchInterval": 2000,
         "aggregateInterval": 400,
-        "submitInterval": 15000,
+        "submitInterval": 3600000,
         "feeds": [
             {
                 "name": "upbit-wss-BTC-KRW",
@@ -1489,7 +1489,7 @@
         "name": "ETH-KRW",
         "fetchInterval": 2000,
         "aggregateInterval": 400,
-        "submitInterval": 15000,
+        "submitInterval": 3600000,
         "feeds": [
             {
                 "name": "upbit-wss-ETH-KRW",
@@ -2836,7 +2836,7 @@
         "name": "ONDO-KRW",
         "fetchInterval": 2000,
         "aggregateInterval": 400,
-        "submitInterval": 15000,
+        "submitInterval": 3600000,
         "feeds": [
             {
                 "name": "upbit-wss-ONDO-KRW",
@@ -3256,7 +3256,7 @@
         "name": "SOL-KRW",
         "fetchInterval": 2000,
         "aggregateInterval": 400,
-        "submitInterval": 15000,
+        "submitInterval": 3600000,
         "feeds": [
             {
                 "name": "upbit-wss-SOL-KRW",
@@ -3910,7 +3910,7 @@
         "name": "USDT-KRW",
         "fetchInterval": 2000,
         "aggregateInterval": 400,
-        "submitInterval": 15000,
+        "submitInterval": 3600000,
         "feeds": [
             {
                 "name": "upbit-wss-USDT-KRW",
@@ -3954,7 +3954,7 @@
         "name": "WAVES-KRW",
         "fetchInterval": 2000,
         "aggregateInterval": 400,
-        "submitInterval": 15000,
+        "submitInterval": 3600000,
         "feeds": [
             {
                 "name": "upbit-wss-WAVES-KRW",
@@ -4105,7 +4105,7 @@
         "name": "XRP-KRW",
         "fetchInterval": 2000,
         "aggregateInterval": 400,
-        "submitInterval": 15000,
+        "submitInterval": 3600000,
         "feeds": [
             {
                 "name": "upbit-wss-XRP-KRW",
@@ -4319,7 +4319,7 @@
         "name": "ZRO-KRW",
         "fetchInterval": 2000,
         "aggregateInterval": 400,
-        "submitInterval": 15000,
+        "submitInterval": 3600000,
         "feeds": [
             {
                 "name": "upbit-wss-ZRO-KRW",
