@@ -1,44 +1,44 @@
 {
-    "name": "BTC-KRW",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000,
-    "feeds": [
-        {
-            "name": "upbit-wss-BTC-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "BTC",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "korbit-wss-BTC-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "BTC",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "bithumb-wss-BTC-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "BTC",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-BTC-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "BTC",
-                "quote": "KRW"
-            }
-        }
-    ]
+  "name": "BTC-KRW",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 3600000,
+  "feeds": [
+    {
+      "name": "upbit-wss-BTC-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "upbit",
+        "base": "BTC",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "korbit-wss-BTC-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "korbit",
+        "base": "BTC",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "bithumb-wss-BTC-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "bithumb",
+        "base": "BTC",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "coinone-wss-BTC-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "coinone",
+        "base": "BTC",
+        "quote": "KRW"
+      }
+    }
+  ]
 }
