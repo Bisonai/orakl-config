@@ -26,7 +26,7 @@ Automatically generates `configs.json` files based on supported WebSocket APIs.
 - symbols: Pass symbols to generate besides pre-existing price pairs in the `configs/{network}/` path. If not given, it will only update existing config files.
 
 ```
-python3 script/generate-configs.py --network cypress --refresh true --symbols "NOT-USDT", "PEOPLE-USDT"
+python3 script/generate-configs.py --network cypress --refresh true --symbols "NOT-USDT, PEOPLE-USDT"
 ```
 
 ## Collect Files

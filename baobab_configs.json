@@ -161,6 +161,41 @@
         "submitInterval": 15000
     },
     {
+        "name": "AKT-KRW",
+        "fetchInterval": 2000,
+        "aggregateInterval": 400,
+        "submitInterval": 15000,
+        "feeds": [
+            {
+                "name": "upbit-wss-AKT-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "upbit",
+                    "base": "AKT",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "korbit-wss-AKT-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "korbit",
+                    "base": "AKT",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "bithumb-wss-AKT-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bithumb",
+                    "base": "AKT",
+                    "quote": "KRW"
+                }
+            }
+        ]
+    },
+    {
         "name": "ATOM-USDT",
         "feeds": [
             {
@@ -465,6 +500,41 @@
         "submitInterval": 15000
     },
     {
+        "name": "BLAST-KRW",
+        "fetchInterval": 2000,
+        "aggregateInterval": 400,
+        "submitInterval": 15000,
+        "feeds": [
+            {
+                "name": "upbit-wss-BLAST-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "upbit",
+                    "base": "BLAST",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "bithumb-wss-BLAST-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bithumb",
+                    "base": "BLAST",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "coinone-wss-BLAST-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "coinone",
+                    "base": "BLAST",
+                    "quote": "KRW"
+                }
+            }
+        ]
+    },
+    {
         "name": "BNB-USDT",
         "feeds": [
             {
@@ -641,6 +711,50 @@
         "fetchInterval": 2000,
         "aggregateInterval": 400,
         "submitInterval": 15000
+    },
+    {
+        "name": "BTC-KRW",
+        "fetchInterval": 2000,
+        "aggregateInterval": 400,
+        "submitInterval": 15000,
+        "feeds": [
+            {
+                "name": "upbit-wss-BTC-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "upbit",
+                    "base": "BTC",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "korbit-wss-BTC-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "korbit",
+                    "base": "BTC",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "bithumb-wss-BTC-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bithumb",
+                    "base": "BTC",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "coinone-wss-BTC-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "coinone",
+                    "base": "BTC",
+                    "quote": "KRW"
+                }
+            }
+        ]
     },
     {
         "name": "BTC-USDT",
@@ -1370,6 +1484,50 @@
         "fetchInterval": 2000,
         "aggregateInterval": 400,
         "submitInterval": 15000
+    },
+    {
+        "name": "ETH-KRW",
+        "fetchInterval": 2000,
+        "aggregateInterval": 400,
+        "submitInterval": 15000,
+        "feeds": [
+            {
+                "name": "upbit-wss-ETH-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "upbit",
+                    "base": "ETH",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "korbit-wss-ETH-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "korbit",
+                    "base": "ETH",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "bithumb-wss-ETH-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bithumb",
+                    "base": "ETH",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "coinone-wss-ETH-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "coinone",
+                    "base": "ETH",
+                    "quote": "KRW"
+                }
+            }
+        ]
     },
     {
         "name": "ETH-USDT",
@@ -2675,6 +2833,50 @@
         "submitInterval": 15000
     },
     {
+        "name": "ONDO-KRW",
+        "fetchInterval": 2000,
+        "aggregateInterval": 400,
+        "submitInterval": 15000,
+        "feeds": [
+            {
+                "name": "upbit-wss-ONDO-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "upbit",
+                    "base": "ONDO",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "korbit-wss-ONDO-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "korbit",
+                    "base": "ONDO",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "bithumb-wss-ONDO-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bithumb",
+                    "base": "ONDO",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "coinone-wss-ONDO-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "coinone",
+                    "base": "ONDO",
+                    "quote": "KRW"
+                }
+            }
+        ]
+    },
+    {
         "name": "PAXG-USDT",
         "feeds": [
             {
@@ -3049,6 +3251,50 @@
         "fetchInterval": 2000,
         "aggregateInterval": 400,
         "submitInterval": 15000
+    },
+    {
+        "name": "SOL-KRW",
+        "fetchInterval": 2000,
+        "aggregateInterval": 400,
+        "submitInterval": 15000,
+        "feeds": [
+            {
+                "name": "upbit-wss-SOL-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "upbit",
+                    "base": "SOL",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "korbit-wss-SOL-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "korbit",
+                    "base": "SOL",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "bithumb-wss-SOL-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bithumb",
+                    "base": "SOL",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "coinone-wss-SOL-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "coinone",
+                    "base": "SOL",
+                    "quote": "KRW"
+                }
+            }
+        ]
     },
     {
         "name": "SOL-USDT",
@@ -3661,6 +3907,85 @@
         "submitInterval": 15000
     },
     {
+        "name": "USDT-KRW",
+        "fetchInterval": 2000,
+        "aggregateInterval": 400,
+        "submitInterval": 15000,
+        "feeds": [
+            {
+                "name": "upbit-wss-USDT-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "upbit",
+                    "base": "USDT",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "korbit-wss-USDT-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "korbit",
+                    "base": "USDT",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "bithumb-wss-USDT-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bithumb",
+                    "base": "USDT",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "coinone-wss-USDT-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "coinone",
+                    "base": "USDT",
+                    "quote": "KRW"
+                }
+            }
+        ]
+    },
+    {
+        "name": "WAVES-KRW",
+        "fetchInterval": 2000,
+        "aggregateInterval": 400,
+        "submitInterval": 15000,
+        "feeds": [
+            {
+                "name": "upbit-wss-WAVES-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "upbit",
+                    "base": "WAVES",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "bithumb-wss-WAVES-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bithumb",
+                    "base": "WAVES",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "coinone-wss-WAVES-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "coinone",
+                    "base": "WAVES",
+                    "quote": "KRW"
+                }
+            }
+        ]
+    },
+    {
         "name": "WEMIX-USDT",
         "feeds": [
             {
@@ -3775,6 +4100,50 @@
         "fetchInterval": 2000,
         "aggregateInterval": 400,
         "submitInterval": 15000
+    },
+    {
+        "name": "XRP-KRW",
+        "fetchInterval": 2000,
+        "aggregateInterval": 400,
+        "submitInterval": 15000,
+        "feeds": [
+            {
+                "name": "upbit-wss-XRP-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "upbit",
+                    "base": "XRP",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "korbit-wss-XRP-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "korbit",
+                    "base": "XRP",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "bithumb-wss-XRP-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bithumb",
+                    "base": "XRP",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "coinone-wss-XRP-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "coinone",
+                    "base": "XRP",
+                    "quote": "KRW"
+                }
+            }
+        ]
     },
     {
         "name": "XRP-USDT",
@@ -3945,5 +4314,40 @@
         "fetchInterval": 2000,
         "aggregateInterval": 400,
         "submitInterval": 15000
+    },
+    {
+        "name": "ZRO-KRW",
+        "fetchInterval": 2000,
+        "aggregateInterval": 400,
+        "submitInterval": 15000,
+        "feeds": [
+            {
+                "name": "upbit-wss-ZRO-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "upbit",
+                    "base": "ZRO",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "korbit-wss-ZRO-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "korbit",
+                    "base": "ZRO",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "bithumb-wss-ZRO-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bithumb",
+                    "base": "ZRO",
+                    "quote": "KRW"
+                }
+            }
+        ]
     }
 ]
