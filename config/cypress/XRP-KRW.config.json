@@ -1,0 +1,44 @@
+{
+    "name": "XRP-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "upbit-wss-XRP-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "XRP",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-XRP-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "XRP",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-XRP-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "XRP",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-XRP-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "XRP",
+                "quote": "KRW"
+            }
+        }
+    ]
+}

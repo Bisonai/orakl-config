@@ -1,0 +1,35 @@
+{
+    "name": "WAVES-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "upbit-wss-WAVES-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "WAVES",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-WAVES-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "WAVES",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-WAVES-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "WAVES",
+                "quote": "KRW"
+            }
+        }
+    ]
+}
