@@ -156,19 +156,19 @@
 | name | fetchInterval | aggregateInterval | submitInterval | feeds |
 | --- | --- | --- | --- | --- |
 | [ADA-USDT](config/baobab/ADA-USDT.config.json) | 2000 | 400 | 15000 | 17 |
-| [AKT-KRW](config/baobab/AKT-KRW.config.json) | 2000 | 400 | 15000 | 3 |
+| [AKT-KRW](config/baobab/AKT-KRW.config.json) | 2000 | 400 | 3600000 | 3 |
 | [ATOM-USDT](config/baobab/ATOM-USDT.config.json) | 2000 | 400 | 15000 | 16 |
 | [AVAX-USDT](config/baobab/AVAX-USDT.config.json) | 2000 | 400 | 15000 | 16 |
-| [BLAST-KRW](config/baobab/BLAST-KRW.config.json) | 2000 | 400 | 15000 | 3 |
+| [BLAST-KRW](config/baobab/BLAST-KRW.config.json) | 2000 | 400 | 3600000 | 3 |
 | [BNB-USDT](config/baobab/BNB-USDT.config.json) | 2000 | 400 | 15000 | 14 |
 | [BORA-KRW](config/baobab/BORA-KRW.config.json) | 2000 | 400 | 15000 | 4 |
-| [BTC-KRW](config/baobab/BTC-KRW.config.json) | 2000 | 400 | 15000 | 4 |
+| [BTC-KRW](config/baobab/BTC-KRW.config.json) | 2000 | 400 | 3600000 | 4 |
 | [BTC-USDT](config/baobab/BTC-USDT.config.json) | 2000 | 400 | 15000 | 20 |
 | [CHF-USD](config/baobab/CHF-USD.config.json) | 2000 | 400 | 15000 | 2 |
 | [DAI-USDT](config/baobab/DAI-USDT.config.json) | 2000 | 400 | 15000 | 16 |
 | [DOGE-USDT](config/baobab/DOGE-USDT.config.json) | 2000 | 400 | 15000 | 16 |
 | [DOT-USDT](config/baobab/DOT-USDT.config.json) | 2000 | 400 | 15000 | 16 |
-| [ETH-KRW](config/baobab/ETH-KRW.config.json) | 2000 | 400 | 15000 | 4 |
+| [ETH-KRW](config/baobab/ETH-KRW.config.json) | 2000 | 400 | 3600000 | 4 |
 | [ETH-USDT](config/baobab/ETH-USDT.config.json) | 2000 | 400 | 15000 | 22 |
 | [EUR-USD](config/baobab/EUR-USD.config.json) | 2000 | 400 | 15000 | 3 |
 | [FTM-USDT](config/baobab/FTM-USDT.config.json) | 2000 | 400 | 15000 | 14 |
@@ -182,37 +182,41 @@
 | [MATIC-USDT](config/baobab/MATIC-USDT.config.json) | 2000 | 400 | 15000 | 16 |
 | [MBX-KRW](config/baobab/MBX-KRW.config.json) | 2000 | 400 | 15000 | 3 |
 | [MNR-KRW](config/baobab/MNR-KRW.config.json) | 2000 | 400 | 15000 | 1 |
-| [ONDO-KRW](config/baobab/ONDO-KRW.config.json) | 2000 | 400 | 15000 | 4 |
+| [ONDO-KRW](config/baobab/ONDO-KRW.config.json) | 2000 | 400 | 3600000 | 4 |
 | [PAXG-USDT](config/baobab/PAXG-USDT.config.json) | 2000 | 400 | 15000 | 8 |
 | [PEPE-USDT](config/baobab/PEPE-USDT.config.json) | 2000 | 400 | 15000 | 13 |
 | [PER-KLAY](config/baobab/PER-KLAY.config.json) | 2000 | 400 | 15000 | 1 |
 | [SHIB-USDT](config/baobab/SHIB-USDT.config.json) | 2000 | 400 | 15000 | 16 |
-| [SOL-KRW](config/baobab/SOL-KRW.config.json) | 2000 | 400 | 15000 | 4 |
+| [SOL-KRW](config/baobab/SOL-KRW.config.json) | 2000 | 400 | 3600000 | 4 |
 | [SOL-USDT](config/baobab/SOL-USDT.config.json) | 2000 | 400 | 15000 | 17 |
 | [TRX-USDT](config/baobab/TRX-USDT.config.json) | 2000 | 400 | 15000 | 14 |
 | [UNI-USDT](config/baobab/UNI-USDT.config.json) | 2000 | 400 | 15000 | 16 |
 | [USDC-USDT](config/baobab/USDC-USDT.config.json) | 2000 | 400 | 15000 | 17 |
-| [USDT-KRW](config/baobab/USDT-KRW.config.json) | 2000 | 400 | 15000 | 4 |
-| [WAVES-KRW](config/baobab/WAVES-KRW.config.json) | 2000 | 400 | 15000 | 3 |
+| [USDT-KRW](config/baobab/USDT-KRW.config.json) | 2000 | 400 | 3600000 | 4 |
+| [WAVES-KRW](config/baobab/WAVES-KRW.config.json) | 2000 | 400 | 3600000 | 3 |
 | [WEMIX-USDT](config/baobab/WEMIX-USDT.config.json) | 2000 | 400 | 15000 | 12 |
-| [XRP-KRW](config/baobab/XRP-KRW.config.json) | 2000 | 400 | 15000 | 4 |
+| [XRP-KRW](config/baobab/XRP-KRW.config.json) | 2000 | 400 | 3600000 | 4 |
 | [XRP-USDT](config/baobab/XRP-USDT.config.json) | 2000 | 400 | 15000 | 18 |
-| [ZRO-KRW](config/baobab/ZRO-KRW.config.json) | 2000 | 400 | 15000 | 3 |
+| [ZRO-KRW](config/baobab/ZRO-KRW.config.json) | 2000 | 400 | 3600000 | 3 |
 
 ## Config Cypress
 
 | name | fetchInterval | aggregateInterval | submitInterval | feeds |
 | --- | --- | --- | --- | --- |
 | [ADA-USDT](config/cypress/ADA-USDT.config.json) | 2000 | 400 | 15000 | 17 |
+| [AKT-KRW](config/cypress/AKT-KRW.config.json) | 2000 | 400 | 3600000 | 3 |
 | [ATOM-USDT](config/cypress/ATOM-USDT.config.json) | 2000 | 400 | 15000 | 16 |
 | [AVAX-USDT](config/cypress/AVAX-USDT.config.json) | 2000 | 400 | 15000 | 16 |
+| [BLAST-KRW](config/cypress/BLAST-KRW.config.json) | 2000 | 400 | 3600000 | 3 |
 | [BNB-USDT](config/cypress/BNB-USDT.config.json) | 2000 | 400 | 15000 | 14 |
 | [BORA-KRW](config/cypress/BORA-KRW.config.json) | 2000 | 400 | 15000 | 4 |
+| [BTC-KRW](config/cypress/BTC-KRW.config.json) | 2000 | 400 | 3600000 | 4 |
 | [BTC-USDT](config/cypress/BTC-USDT.config.json) | 2000 | 400 | 15000 | 20 |
 | [CHF-USD](config/cypress/CHF-USD.config.json) | 2000 | 400 | 15000 | 2 |
 | [DAI-USDT](config/cypress/DAI-USDT.config.json) | 2000 | 400 | 15000 | 16 |
 | [DOGE-USDT](config/cypress/DOGE-USDT.config.json) | 2000 | 400 | 15000 | 16 |
 | [DOT-USDT](config/cypress/DOT-USDT.config.json) | 2000 | 400 | 15000 | 16 |
+| [ETH-KRW](config/cypress/ETH-KRW.config.json) | 2000 | 400 | 3600000 | 4 |
 | [ETH-USDT](config/cypress/ETH-USDT.config.json) | 2000 | 400 | 15000 | 22 |
 | [EUR-USD](config/cypress/EUR-USD.config.json) | 2000 | 400 | 15000 | 3 |
 | [FTM-USDT](config/cypress/FTM-USDT.config.json) | 2000 | 400 | 15000 | 14 |
@@ -226,16 +230,22 @@
 | [MATIC-USDT](config/cypress/MATIC-USDT.config.json) | 2000 | 400 | 15000 | 16 |
 | [MBX-KRW](config/cypress/MBX-KRW.config.json) | 2000 | 400 | 15000 | 3 |
 | [MNR-KRW](config/cypress/MNR-KRW.config.json) | 2000 | 400 | 15000 | 1 |
+| [ONDO-KRW](config/cypress/ONDO-KRW.config.json) | 2000 | 400 | 3600000 | 4 |
 | [PAXG-USDT](config/cypress/PAXG-USDT.config.json) | 2000 | 400 | 15000 | 8 |
 | [PEPE-USDT](config/cypress/PEPE-USDT.config.json) | 2000 | 400 | 15000 | 13 |
 | [PER-KLAY](config/cypress/PER-KLAY.config.json) | 2000 | 400 | 15000 | 1 |
 | [SHIB-USDT](config/cypress/SHIB-USDT.config.json) | 2000 | 400 | 15000 | 16 |
+| [SOL-KRW](config/cypress/SOL-KRW.config.json) | 2000 | 400 | 3600000 | 4 |
 | [SOL-USDT](config/cypress/SOL-USDT.config.json) | 2000 | 400 | 15000 | 17 |
 | [TRX-USDT](config/cypress/TRX-USDT.config.json) | 2000 | 400 | 15000 | 14 |
 | [UNI-USDT](config/cypress/UNI-USDT.config.json) | 2000 | 400 | 15000 | 16 |
 | [USDC-USDT](config/cypress/USDC-USDT.config.json) | 2000 | 400 | 15000 | 17 |
+| [USDT-KRW](config/cypress/USDT-KRW.config.json) | 2000 | 400 | 3600000 | 4 |
+| [WAVES-KRW](config/cypress/WAVES-KRW.config.json) | 2000 | 400 | 3600000 | 3 |
 | [WEMIX-USDT](config/cypress/WEMIX-USDT.config.json) | 2000 | 400 | 15000 | 12 |
+| [XRP-KRW](config/cypress/XRP-KRW.config.json) | 2000 | 400 | 3600000 | 4 |
 | [XRP-USDT](config/cypress/XRP-USDT.config.json) | 2000 | 400 | 15000 | 18 |
+| [ZRO-KRW](config/cypress/ZRO-KRW.config.json) | 2000 | 400 | 3600000 | 3 |
 
 ## Log history
 

@@ -1,0 +1,35 @@
+{
+    "name": "ZRO-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "upbit-wss-ZRO-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "ZRO",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-ZRO-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "ZRO",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-ZRO-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "ZRO",
+                "quote": "KRW"
+            }
+        }
+    ]
+}

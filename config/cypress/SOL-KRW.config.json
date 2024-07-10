@@ -1,0 +1,44 @@
+{
+    "name": "SOL-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "upbit-wss-SOL-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "SOL",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-SOL-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "SOL",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-SOL-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "SOL",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-SOL-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "SOL",
+                "quote": "KRW"
+            }
+        }
+    ]
+}
