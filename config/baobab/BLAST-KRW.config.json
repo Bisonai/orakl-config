@@ -1,35 +1,35 @@
 {
-  "name": "BLAST-KRW",
-  "fetchInterval": 2000,
-  "aggregateInterval": 400,
-  "submitInterval": 3600000,
-  "feeds": [
-    {
-      "name": "upbit-wss-BLAST-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "BLAST",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "bithumb-wss-BLAST-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "bithumb",
-        "base": "BLAST",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "coinone-wss-BLAST-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "BLAST",
-        "quote": "KRW"
-      }
-    }
-  ]
+    "name": "BLAST-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "upbit-wss-BLAST-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "BLAST",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-BLAST-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "BLAST",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-BLAST-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "BLAST",
+                "quote": "KRW"
+            }
+        }
+    ]
 }

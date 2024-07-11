@@ -1,42 +1,42 @@
 {
-    "name": "ONDO-KRW",
+    "name": "DOGE-KRW",
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 3600000,
     "feeds": [
         {
-            "name": "upbit-wss-ONDO-KRW",
+            "name": "upbit-wss-DOGE-KRW",
             "definition": {
                 "type": "wss",
                 "provider": "upbit",
-                "base": "ONDO",
+                "base": "DOGE",
                 "quote": "KRW"
             }
         },
         {
-            "name": "korbit-wss-ONDO-KRW",
+            "name": "korbit-wss-DOGE-KRW",
             "definition": {
                 "type": "wss",
                 "provider": "korbit",
-                "base": "ONDO",
+                "base": "DOGE",
                 "quote": "KRW"
             }
         },
         {
-            "name": "bithumb-wss-ONDO-KRW",
+            "name": "bithumb-wss-DOGE-KRW",
             "definition": {
                 "type": "wss",
                 "provider": "bithumb",
-                "base": "ONDO",
+                "base": "DOGE",
                 "quote": "KRW"
             }
         },
         {
-            "name": "coinone-wss-ONDO-KRW",
+            "name": "coinone-wss-DOGE-KRW",
             "definition": {
                 "type": "wss",
                 "provider": "coinone",
-                "base": "ONDO",
+                "base": "DOGE",
                 "quote": "KRW"
             }
         }
