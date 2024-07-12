@@ -1,87 +1,47 @@
 {
-    "name": "JPY-USD",
-    "feeds": [
-        {
-            "name": "Yahoo-JPY-USD",
-            "definition": {
-                "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=JPYUSD%3DX",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "spark",
-                            "result"
-                        ]
-                    },
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "response"
-                        ]
-                    },
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "meta",
-                            "regularMarketPrice"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
-            }
+  "name": "JPY-USD",
+  "feeds": [
+    {
+      "name": "Yahoo-JPY-USD",
+      "definition": {
+        "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=JPYUSD%3DX",
+        "headers": {
+          "Content-Type": "application/json"
         },
-        {
-            "name": "Daum-JPY-USD",
-            "definition": {
-                "url": "https://finance.daum.net/api/exchanges/FRX.JPYUSD",
-                "location": "kr",
-                "headers": {
-                    "Content-Type": "application/json",
-                    "referer": "https://finance.daum.net/exchanges/FRX.JPYUSD",
-                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "basePrice"
-                        ]
-                    },
-                    {
-                        "function": "DIVFROM",
-                        "args": 1
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
-            }
-        }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": ["spark", "result"]
+          },
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": ["response"]
+          },
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": ["meta", "regularMarketPrice"]
+          },
+          {
+            "function": "POW10",
+            "args": 8
+          },
+          {
+            "function": "ROUND"
+          }
+        ]
+      }
+    }
+  ],
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 15000
 }
