@@ -39,6 +39,54 @@
           }
         ]
       }
+    },
+    {
+      "name": "naver-JPY-USD",
+      "definition": {
+        "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDJPY",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": ["result", "closePrice"]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
+          },
+          {
+            "function": "POW10",
+            "args": 8
+          },
+          {
+            "function": "ROUND"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWJPY",
+      "headers": {
+        "Content-Type": "application/json",
+        "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWJPY"
+      },
+      "method": "GET",
+      "reducers": [
+        {
+          "function": "PARSE",
+          "args": ["usDollarRate"]
+        },
+        {
+          "function": "POW10",
+          "args": 8
+        },
+        {
+          "function": "ROUND"
+        }
+      ]
     }
   ],
   "fetchInterval": 2000,
