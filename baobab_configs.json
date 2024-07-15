@@ -2686,7 +2686,7 @@
                         },
                         {
                             "function": "POW10",
-                            "args": 8
+                            "args": 6
                         },
                         {
                             "function": "ROUND"
