@@ -1,92 +1,104 @@
 {
-    "name": "GBP-USD",
-    "feeds": [
+  "name": "GBP-USD",
+  "feeds": [
+    {
+      "name": "Yahoo-GBP-USD",
+      "definition": {
+        "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=GBPUSD%3DX",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": ["spark", "result"]
+          },
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": ["response"]
+          },
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": ["meta", "regularMarketPrice"]
+          },
+          {
+            "function": "POW10",
+            "args": 8
+          },
+          {
+            "function": "ROUND"
+          }
+        ]
+      }
+    },
+    {
+      "name": "naver-GBP-USD",
+      "definition": {
+        "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDGBP",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": ["result", "closePrice"]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
+          },
+          {
+            "function": "POW10",
+            "args": 8
+          },
+          {
+            "function": "ROUND"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWGBP",
+      "headers": {
+        "Content-Type": "application/json",
+        "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWGBP"
+      },
+      "method": "GET",
+      "reducers": [
         {
-            "name": "Yahoo-GBP-USD",
-            "definition": {
-                "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=GBPUSD%3DX",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "spark",
-                            "result"
-                        ]
-                    },
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "response"
-                        ]
-                    },
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "meta",
-                            "regularMarketPrice"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
-            }
+          "function": "PARSE",
+          "args": ["usDollarRate"]
         },
         {
-            "name": "Daum-GBP-USD",
-            "definition": {
-                "url": "https://finance.daum.net/api/exchanges/FRX.GBPUSD",
-                "location": "kr",
-                "headers": {
-                    "Content-Type": "application/json",
-                    "referer": "https://finance.daum.net/exchanges/FRX.GBPUSD",
-                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "usDollarRate"
-                        ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
-                    {
-                        "function": "ROUND"
-                    }
-                ]
-            }
+          "function": "POW10",
+          "args": 8
         },
         {
-            "name": "bitstamp-wss-GBP-USD",
-            "definition": {
-                "type": "wss",
-                "provider": "bitstamp",
-                "base": "GBP",
-                "quote": "USD"
-            }
+          "function": "ROUND"
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+      ]
+    },
+    {
+      "name": "bitstamp-wss-GBP-USD",
+      "definition": {
+        "type": "wss",
+        "provider": "bitstamp",
+        "base": "GBP",
+        "quote": "USD"
+      }
+    }
+  ],
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 15000
 }

@@ -1207,22 +1207,24 @@
                 }
             },
             {
-                "name": "Daum-CHF-USD",
+                "name": "naver-CHF-USD",
                 "definition": {
-                    "url": "https://finance.daum.net/api/exchanges/FRX.CHFUSD",
-                    "location": "kr",
+                    "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDCHF",
                     "headers": {
-                        "Content-Type": "application/json",
-                        "referer": "https://finance.daum.net/exchanges/FRX.CHFUSD",
-                        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+                        "Content-Type": "application/json"
                     },
                     "method": "GET",
                     "reducers": [
                         {
                             "function": "PARSE",
                             "args": [
-                                "usDollarRate"
+                                "result",
+                                "closePrice"
                             ]
+                        },
+                        {
+                            "function": "DIVFROM",
+                            "args": 1
                         },
                         {
                             "function": "POW10",
@@ -1233,6 +1235,29 @@
                         }
                     ]
                 }
+            },
+            {
+                "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWCHF",
+                "headers": {
+                    "Content-Type": "application/json",
+                    "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWCHF"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "usDollarRate"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
             }
         ],
         "fetchInterval": 2000,
@@ -2131,22 +2156,24 @@
                 }
             },
             {
-                "name": "Daum-EUR-USD",
+                "name": "naver-EUR-USD",
                 "definition": {
-                    "url": "https://finance.daum.net/api/exchanges/FRX.EURUSD",
-                    "location": "kr",
+                    "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDEUR",
                     "headers": {
-                        "Content-Type": "application/json",
-                        "referer": "https://finance.daum.net/exchanges/FRX.EURUSD",
-                        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+                        "Content-Type": "application/json"
                     },
                     "method": "GET",
                     "reducers": [
                         {
                             "function": "PARSE",
                             "args": [
-                                "usDollarRate"
+                                "result",
+                                "closePrice"
                             ]
+                        },
+                        {
+                            "function": "DIVFROM",
+                            "args": 1
                         },
                         {
                             "function": "POW10",
@@ -2157,6 +2184,29 @@
                         }
                     ]
                 }
+            },
+            {
+                "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWEUR",
+                "headers": {
+                    "Content-Type": "application/json",
+                    "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWEUR"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "usDollarRate"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
             },
             {
                 "name": "bitstamp-wss-EUR-USD",
@@ -2357,22 +2407,24 @@
                 }
             },
             {
-                "name": "Daum-GBP-USD",
+                "name": "naver-GBP-USD",
                 "definition": {
-                    "url": "https://finance.daum.net/api/exchanges/FRX.GBPUSD",
-                    "location": "kr",
+                    "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDGBP",
                     "headers": {
-                        "Content-Type": "application/json",
-                        "referer": "https://finance.daum.net/exchanges/FRX.GBPUSD",
-                        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+                        "Content-Type": "application/json"
                     },
                     "method": "GET",
                     "reducers": [
                         {
                             "function": "PARSE",
                             "args": [
-                                "usDollarRate"
+                                "result",
+                                "closePrice"
                             ]
+                        },
+                        {
+                            "function": "DIVFROM",
+                            "args": 1
                         },
                         {
                             "function": "POW10",
@@ -2383,6 +2435,29 @@
                         }
                     ]
                 }
+            },
+            {
+                "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWGBP",
+                "headers": {
+                    "Content-Type": "application/json",
+                    "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWGBP"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "usDollarRate"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
             },
             {
                 "name": "bitstamp-wss-GBP-USD",
@@ -2555,21 +2630,19 @@
                 }
             },
             {
-                "name": "Daum-JPY-USD",
+                "name": "naver-JPY-USD",
                 "definition": {
-                    "url": "https://finance.daum.net/api/exchanges/FRX.JPYUSD",
-                    "location": "kr",
+                    "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDJPY",
                     "headers": {
-                        "Content-Type": "application/json",
-                        "referer": "https://finance.daum.net/exchanges/FRX.JPYUSD",
-                        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+                        "Content-Type": "application/json"
                     },
                     "method": "GET",
                     "reducers": [
                         {
                             "function": "PARSE",
                             "args": [
-                                "basePrice"
+                                "result",
+                                "closePrice"
                             ]
                         },
                         {
@@ -2585,6 +2658,29 @@
                         }
                     ]
                 }
+            },
+            {
+                "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWJPY",
+                "headers": {
+                    "Content-Type": "application/json",
+                    "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWJPY"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "usDollarRate"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
             }
         ],
         "fetchInterval": 2000,
@@ -2789,19 +2885,21 @@
                 }
             },
             {
-                "name": "Naver-KRW-USD",
+                "name": "Daum-KRW-USD",
                 "definition": {
-                    "url": "https://m.stock.naver.com/front-api/v1/marketIndex/productDetail?category=exchange&reutersCode=FX_USDKRW",
+                    "url": "https://finance.daum.net/api/exchanges/FRX.KRWUSD",
+                    "location": "kr",
                     "headers": {
-                        "Content-Type": "application/json"
+                        "Content-Type": "application/json",
+                        "referer": "https://finance.daum.net/exchanges/FRX.KRWUSD",
+                        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
                     },
                     "method": "GET",
                     "reducers": [
                         {
                             "function": "PARSE",
                             "args": [
-                                "result",
-                                "calcPrice"
+                                "basePrice"
                             ]
                         },
                         {
@@ -2819,21 +2917,19 @@
                 }
             },
             {
-                "name": "Daum-KRW-USD",
+                "name": "naver-KRW-USD",
                 "definition": {
-                    "url": "https://finance.daum.net/api/exchanges/FRX.KRWUSD",
-                    "location": "kr",
+                    "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchange&reutersCode=FX_USDKRW",
                     "headers": {
-                        "Content-Type": "application/json",
-                        "referer": "https://finance.daum.net/exchanges/FRX.KRWUSD",
-                        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+                        "Content-Type": "application/json"
                     },
                     "method": "GET",
                     "reducers": [
                         {
                             "function": "PARSE",
                             "args": [
-                                "basePrice"
+                                "result",
+                                "closePrice"
                             ]
                         },
                         {
