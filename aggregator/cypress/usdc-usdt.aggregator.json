@@ -1,9 +1,0 @@
-{
-  "aggregatorHash": "0x1d946e2087e9c54828271bd808e4bda3ef198f4beee33ccc6400a5bb127bcc2b",
-  "name": "USDC-USDT",
-  "address": "0x138eAA152f9702076cEA9CB420Fa763049d44251",
-  "heartbeat": 15000,
-  "threshold": 0.05,
-  "absoluteThreshold": 0.1,
-  "adapterHash": "0x8b0a6fda875a3e6ed088baa14fe48e714438feb743dbf118bf18124e224285f0"
-}

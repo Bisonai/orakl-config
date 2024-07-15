@@ -1,9 +1,0 @@
-{
-  "aggregatorHash": "0x6177f04ef0f050a804cbb571af110ba08ffce0987b3ad117c33e72d5210ed8d2",
-  "name": "BNB-USDT",
-  "address": "",
-  "heartbeat": 15000,
-  "threshold": 0.05,
-  "absoluteThreshold": 0.1,
-  "adapterHash": "0x7919f74d334363a913731a20de5926171c80ca1e1efbdc4cd4911074e2db1f03"
-}

@@ -1,9 +1,0 @@
-{
-  "aggregatorHash": "0x9e3ae0a676766b0902a09fe36b9b9c09dc1863b40791da549b3ff93a7f60276a",
-  "name": "PER-KLAY",
-  "address": "0x8Fac04786dCB20FBbCB7Fab50FB10d68EB2B5C6C",
-  "heartbeat": 15000,
-  "threshold": 0.05,
-  "absoluteThreshold": 0.1,
-  "adapterHash": "0xcabdece4874d2a5e02c07056d57e8feb1b5f15710497da75539c326c6fc1b395"
-}

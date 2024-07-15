@@ -1,9 +1,0 @@
-{
-  "aggregatorHash": "0x4f864798f40a3ad4163400b31d493cf9cf03aa4dd9ce1153b9bda5e47cf6ecaa",
-  "name": "MNR-KRW",
-  "address": "0x22ddDb9749cB5941DdEc5fD50B12CfDdB8E259c9",
-  "heartbeat": 15000,
-  "threshold": 0.05,
-  "absoluteThreshold": 0.1,
-  "adapterHash": "0x343d0b550e7e286aa9f966a738d48877a550fa52521196b31f3f314809253cf6"
-}

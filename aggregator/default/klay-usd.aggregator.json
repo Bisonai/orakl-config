@@ -1,9 +1,0 @@
-{
-  "aggregatorHash": "0x6f6a491003ae2eb539c22ab3c94cd1790bd25c6bbdb1d0f18f5c0e8b9fe6594e",
-  "name": "KLAY-USD",
-  "address": "",
-  "heartbeat": 15000,
-  "threshold": 0.05,
-  "absoluteThreshold": 0.1,
-  "adapterHash": "0x1b10dfeeca6f424fb08dbff9d0c019c368594ce3c671fa8721733e803c773a2e"
-}

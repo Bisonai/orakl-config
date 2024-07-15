@@ -64,22 +64,7 @@ def generate_history(directory: Path):
         make_line([filename, url_list])
 
 if __name__ == "__main__":
-    adapter_dir = Path("adapter")
-    aggregator_dir = Path("aggregator")
-
     print("\n# History\n")
-
-    print("\n## Adapter Baobab\n")
-    generate_history(adapter_dir / "baobab")
-
-    print("\n## Adapter Cypress\n")
-    generate_history(adapter_dir / "cypress")
-
-    print("\n## Aggregator Baobab\n")
-    generate_history(aggregator_dir / "baobab")
-
-    print("\n## Aggregator Cypress\n")
-    generate_history(aggregator_dir / "cypress")
 
     print("\n## Config Baobab\n")
     generate_history(Path("config") / "baobab")

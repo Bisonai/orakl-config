@@ -126,12 +126,6 @@ def generate_config_file(adapter_path: Path, aggregator_path: Path, output_file_
         json.dump(valid_configs, f, indent=4)
 
 if __name__ == "__main__":
-    collect_json_files(Path("adapter/baobab"), "baobab_adapters.json")
-    collect_json_files(Path("adapter/cypress"), "cypress_adapters.json")
-    collect_json_files(Path("adapter/test"), "test_adapters.json")
-    collect_json_files(Path("aggregator/baobab"), "baobab_aggregators.json")
-    collect_json_files(Path("aggregator/cypress"), "cypress_aggregators.json")
-    collect_json_files(Path("aggregator/test"), "test_aggregators.json")
     collect_json_files(Path("config/baobab"), "baobab_configs.json", False)
     collect_json_files(Path("config/cypress"), "cypress_configs.json", False)
     collect_json_files(Path("config/test"), "test_configs.json", False)
