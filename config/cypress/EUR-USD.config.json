@@ -68,25 +68,28 @@
       }
     },
     {
-      "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWEUR",
-      "headers": {
-        "Content-Type": "application/json",
-        "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWEUR"
-      },
-      "method": "GET",
-      "reducers": [
-        {
-          "function": "PARSE",
-          "args": ["usDollarRate"]
+      "name": "daum-EUR-USD",
+      "definition": {
+        "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWEUR",
+        "headers": {
+          "Content-Type": "application/json",
+          "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWEUR"
         },
-        {
-          "function": "POW10",
-          "args": 8
-        },
-        {
-          "function": "ROUND"
-        }
-      ]
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": ["usDollarRate"]
+          },
+          {
+            "function": "POW10",
+            "args": 8
+          },
+          {
+            "function": "ROUND"
+          }
+        ]
+      }
     },
     {
       "name": "bitstamp-wss-EUR-USD",

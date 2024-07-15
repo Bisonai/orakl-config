@@ -68,25 +68,28 @@
       }
     },
     {
-      "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWJPY",
-      "headers": {
-        "Content-Type": "application/json",
-        "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWJPY"
-      },
-      "method": "GET",
-      "reducers": [
-        {
-          "function": "PARSE",
-          "args": ["usDollarRate"]
+      "name": "daum-JPY-USD",
+      "definition": {
+        "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWJPY",
+        "headers": {
+          "Content-Type": "application/json",
+          "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWJPY"
         },
-        {
-          "function": "POW10",
-          "args": 8
-        },
-        {
-          "function": "ROUND"
-        }
-      ]
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": ["usDollarRate"]
+          },
+          {
+            "function": "POW10",
+            "args": 8
+          },
+          {
+            "function": "ROUND"
+          }
+        ]
+      }
     }
   ],
   "fetchInterval": 2000,
