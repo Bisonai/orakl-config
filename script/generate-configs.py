@@ -205,6 +205,13 @@ def get_xt_symbols(url):
         result.append(entry["symbol"].replace("_","").lower())
     return result
 
+def get_gopax_symbols(url):
+    result = []
+    json_data = load_json_from_url(url)
+    for entry in json_data:
+        result.append(entry["name"].replace("-","").lower())
+    return result
+
 def store_symbols(urls_path, symbols_path):
     store_directory = os.path.dirname(symbols_path)
     if not os.path.exists(store_directory):
@@ -236,6 +243,7 @@ def store_symbols(urls_path, symbols_path):
     result["bingx"] = get_bingx_symbols(urls["bingx"])
     result["bitmart"] = get_bitmart_symbols(urls["bitmart"])
     result["xt"] = get_xt_symbols(urls["xt"])
+    result["gopax"] = get_gopax_symbols(urls["gopax"])
 
     with open(symbols_path, "w") as f:
         json.dump(result, f, indent=4)
@@ -278,6 +286,7 @@ def load_existing_symbols(folder_path):
 def load_args():
     parser = argparse.ArgumentParser(description="Generate config files, it'll try to update existing config files, generate config file if not exist")
 
+    parser.add_argument("--onlysymbols", type=bool, default=False, help="Will only reload symbols from each exchanges")
     parser.add_argument("--refresh", type=bool, default=False, help="Refresh supported symbols from apis, true or false")
     parser.add_argument("--symbols", type=str, default="", required=False, help="configs to create, separated by comma, ex) btc-usdt, eth-usdt...")
     parser.add_argument("--network", type=str, default="baobab", required=False, help="network to generate, defaults to baobab")
@@ -318,12 +327,17 @@ def update_or_make_config_file(config_folder_path, symbol, feeds):
 
 if __name__ == "__main__":
     args = load_args()
+
+    symbols_only = args.onlysymbols
     refresh = args.refresh
     input_symbols = args.symbols.split(",")
     network = args.network
 
-    if not os.path.exists(SYMBOLS_PATH) or refresh:
+    if not os.path.exists(SYMBOLS_PATH) or refresh or symbols_only:
         store_symbols(URLS_PATH, SYMBOLS_PATH)
+
+    if symbols_only:
+        exit(0)
 
     possible_symbols = load_json_from_path(SYMBOLS_PATH)
 

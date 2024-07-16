@@ -21,5 +21,6 @@
   "kraken": "https://api.kraken.com/0/public/AssetPairs",
   "bingx": "https://open-api.bingx.com/openApi/spot/v1/common/symbols",
   "bitmart": "https://api-cloud.bitmart.com/spot/v1/symbols",
-  "xt": "https://sapi.xt.com/v4/public/symbol"
+  "xt": "https://sapi.xt.com/v4/public/symbol",
+  "gopax": "https://api.gopax.co.kr/trading-pairs"
 }
