@@ -1,0 +1,44 @@
+{
+    "name": "LINK-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "upbit-wss-LINK-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "LINK",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-LINK-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "LINK",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-LINK-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "LINK",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-LINK-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "LINK",
+                "quote": "KRW"
+            }
+        }
+    ]
+}

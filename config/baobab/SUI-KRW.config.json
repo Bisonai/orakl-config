@@ -1,0 +1,44 @@
+{
+    "name": "SUI-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "upbit-wss-SUI-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "SUI",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-SUI-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "SUI",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-SUI-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "SUI",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-SUI-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "SUI",
+                "quote": "KRW"
+            }
+        }
+    ]
+}
