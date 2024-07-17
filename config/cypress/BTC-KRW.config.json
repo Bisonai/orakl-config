@@ -39,6 +39,15 @@
                 "base": "BTC",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "gopax-wss-BTC-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "BTC",
+                "quote": "KRW"
+            }
         }
     ]
 }

@@ -39,6 +39,15 @@
                 "base": "SEI",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "gopax-wss-SEI-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "SEI",
+                "quote": "KRW"
+            }
         }
     ]
 }

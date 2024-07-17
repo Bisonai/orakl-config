@@ -39,6 +39,15 @@
                 "base": "DOGE",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "gopax-wss-DOGE-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "DOGE",
+                "quote": "KRW"
+            }
         }
     ]
 }

@@ -753,6 +753,15 @@
                     "base": "BTC",
                     "quote": "KRW"
                 }
+            },
+            {
+                "name": "gopax-wss-BTC-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "gopax",
+                    "base": "BTC",
+                    "quote": "KRW"
+                }
             }
         ]
     },
@@ -1551,6 +1560,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "coinone",
+                    "base": "ETH",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "gopax-wss-ETH-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "gopax",
                     "base": "ETH",
                     "quote": "KRW"
                 }
@@ -3401,6 +3419,15 @@
                     "base": "SOL",
                     "quote": "KRW"
                 }
+            },
+            {
+                "name": "gopax-wss-SOL-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "gopax",
+                    "base": "SOL",
+                    "quote": "KRW"
+                }
             }
         ]
     },
@@ -4055,6 +4082,15 @@
                     "base": "USDT",
                     "quote": "KRW"
                 }
+            },
+            {
+                "name": "gopax-wss-USDT-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "gopax",
+                    "base": "USDT",
+                    "quote": "KRW"
+                }
             }
         ]
     },
@@ -4247,6 +4283,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "coinone",
+                    "base": "XRP",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "gopax-wss-XRP-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "gopax",
                     "base": "XRP",
                     "quote": "KRW"
                 }
