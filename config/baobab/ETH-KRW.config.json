@@ -39,6 +39,15 @@
                 "base": "ETH",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "gopax-wss-ETH-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "ETH",
+                "quote": "KRW"
+            }
         }
     ]
 }

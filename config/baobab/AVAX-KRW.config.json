@@ -39,6 +39,15 @@
                 "base": "AVAX",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "gopax-wss-AVAX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "AVAX",
+                "quote": "KRW"
+            }
         }
     ]
 }

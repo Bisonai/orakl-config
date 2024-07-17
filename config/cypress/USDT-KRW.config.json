@@ -39,6 +39,15 @@
                 "base": "USDT",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "gopax-wss-USDT-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "USDT",
+                "quote": "KRW"
+            }
         }
     ]
 }
