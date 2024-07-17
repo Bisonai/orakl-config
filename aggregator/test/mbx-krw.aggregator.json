@@ -1,9 +1,0 @@
-{
-  "aggregatorHash": "0x2a8edc7872c6e5b0b1f8c79d5606d1d286f7b05dc29bbf1dfd5333d2258e6f6f",
-  "name": "MBX-KRW",
-  "address": "0xf29Dd42Be0C2b2B12275704846b1337ec23b4684",
-  "heartbeat": 15000,
-  "threshold": 0.05,
-  "absoluteThreshold": 0.1,
-  "adapterHash": "0x2706c1f4d9efd8dcb4ef51c4d89f0b1dd81fe6bbbd721de20d853a1679ce852f"
-}

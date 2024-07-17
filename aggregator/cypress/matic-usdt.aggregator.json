@@ -1,9 +1,0 @@
-{
-  "aggregatorHash": "0x31a89df428a8464d2c1b92e7513000bed4b7e0ea0cf822c4436a9cb8a4e31c91",
-  "name": "MATIC-USDT",
-  "address": "0x40E97db6E366eF067020A0d98FB3E427299397ba",
-  "heartbeat": 15000,
-  "threshold": 0.05,
-  "absoluteThreshold": 0.1,
-  "adapterHash": "0xd4f00e74265c3c0253c68d87313c02e5de2d438059c2251650a0e60d54e9a311"
-}

@@ -1,9 +1,0 @@
-{
-  "aggregatorHash": "0x5c9965e8d07d667ffe8678fad85140c18faabfbd1ecf51e4dc375ada22600959",
-  "name": "KLAY-USDT",
-  "address": "0x1CE805c8714cf74a6b92Cc3940b40De6d680EA71",
-  "heartbeat": 15000,
-  "threshold": 0.05,
-  "absoluteThreshold": 0.1,
-  "adapterHash": "0x04478864e5d125ba722d0c47565c3e3228394dde139e82f460b4754a843aabb8"
-}
