@@ -1,0 +1,35 @@
+{
+    "name": "ZK-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "korbit-wss-ZK-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "ZK",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-ZK-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "ZK",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-ZK-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "ZK",
+                "quote": "KRW"
+            }
+        }
+    ]
+}
