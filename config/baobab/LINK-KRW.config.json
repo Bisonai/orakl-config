@@ -39,6 +39,15 @@
                 "base": "LINK",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "gopax-wss-LINK-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "LINK",
+                "quote": "KRW"
+            }
         }
     ]
 }

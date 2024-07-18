@@ -30,6 +30,15 @@
                 "base": "GLM",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "gopax-wss-GLM-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "GLM",
+                "quote": "KRW"
+            }
         }
     ]
 }

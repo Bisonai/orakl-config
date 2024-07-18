@@ -30,6 +30,15 @@
                 "base": "KNC",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "gopax-wss-KNC-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "KNC",
+                "quote": "KRW"
+            }
         }
     ]
 }

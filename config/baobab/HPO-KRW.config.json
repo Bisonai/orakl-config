@@ -30,6 +30,15 @@
                 "base": "HPO",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "gopax-wss-HPO-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "HPO",
+                "quote": "KRW"
+            }
         }
     ]
 }

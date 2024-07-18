@@ -39,6 +39,15 @@
                 "base": "APT",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "gopax-wss-APT-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "APT",
+                "quote": "KRW"
+            }
         }
     ]
 }

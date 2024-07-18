@@ -39,6 +39,15 @@
                 "base": "ADA",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "gopax-wss-ADA-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "ADA",
+                "quote": "KRW"
+            }
         }
     ]
 }

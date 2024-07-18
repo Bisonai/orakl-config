@@ -30,6 +30,15 @@
                 "base": "SNT",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "gopax-wss-SNT-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "SNT",
+                "quote": "KRW"
+            }
         }
     ]
 }

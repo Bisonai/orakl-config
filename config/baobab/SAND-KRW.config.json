@@ -39,6 +39,15 @@
                 "base": "SAND",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "gopax-wss-SAND-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "SAND",
+                "quote": "KRW"
+            }
         }
     ]
 }

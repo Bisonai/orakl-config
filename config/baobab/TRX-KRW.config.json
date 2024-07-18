@@ -39,6 +39,15 @@
                 "base": "TRX",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "gopax-wss-TRX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "TRX",
+                "quote": "KRW"
+            }
         }
     ]
 }

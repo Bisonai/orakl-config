@@ -39,6 +39,15 @@
                 "base": "XLM",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "gopax-wss-XLM-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "XLM",
+                "quote": "KRW"
+            }
         }
     ]
 }
