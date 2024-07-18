@@ -1,0 +1,53 @@
+{
+    "name": "EOS-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "upbit-wss-EOS-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "EOS",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-EOS-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "EOS",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-EOS-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "EOS",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-EOS-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "EOS",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "gopax-wss-EOS-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "EOS",
+                "quote": "KRW"
+            }
+        }
+    ]
+}

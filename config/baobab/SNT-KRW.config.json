@@ -1,0 +1,44 @@
+{
+    "name": "SNT-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "upbit-wss-SNT-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "SNT",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-SNT-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "SNT",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-SNT-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "SNT",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "gopax-wss-SNT-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "SNT",
+                "quote": "KRW"
+            }
+        }
+    ]
+}

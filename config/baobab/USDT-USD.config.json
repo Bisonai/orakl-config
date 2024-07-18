@@ -1,0 +1,62 @@
+{
+    "name": "USDT-USD",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "coinbase-wss-USDT-USD",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "USDT",
+                "quote": "USD"
+            }
+        },
+        {
+            "name": "bitstamp-wss-USDT-USD",
+            "definition": {
+                "type": "wss",
+                "provider": "bitstamp",
+                "base": "USDT",
+                "quote": "USD"
+            }
+        },
+        {
+            "name": "gemini-wss-USDT-USD",
+            "definition": {
+                "type": "wss",
+                "provider": "gemini",
+                "base": "USDT",
+                "quote": "USD"
+            }
+        },
+        {
+            "name": "crypto-wss-USDT-USD",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "USDT",
+                "quote": "USD"
+            }
+        },
+        {
+            "name": "btse-wss-USDT-USD",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "USDT",
+                "quote": "USD"
+            }
+        },
+        {
+            "name": "gateio-wss-USDT-USD",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "USDT",
+                "quote": "USD"
+            }
+        }
+    ]
+}
