@@ -1,0 +1,35 @@
+{
+    "name": "PEPE-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "korbit-wss-PEPE-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "PEPE",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-PEPE-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "PEPE",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-PEPE-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "PEPE",
+                "quote": "KRW"
+            }
+        }
+    ]
+}

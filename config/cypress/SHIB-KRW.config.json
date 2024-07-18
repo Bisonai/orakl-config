@@ -1,0 +1,44 @@
+{
+    "name": "SHIB-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "upbit-wss-SHIB-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "SHIB",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-SHIB-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "SHIB",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-SHIB-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "SHIB",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-SHIB-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "SHIB",
+                "quote": "KRW"
+            }
+        }
+    ]
+}

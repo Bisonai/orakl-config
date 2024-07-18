@@ -1,0 +1,35 @@
+{
+    "name": "AUCTION-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "upbit-wss-AUCTION-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "AUCTION",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-AUCTION-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "AUCTION",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-AUCTION-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "AUCTION",
+                "quote": "KRW"
+            }
+        }
+    ]
+}

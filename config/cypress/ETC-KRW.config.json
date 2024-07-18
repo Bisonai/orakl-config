@@ -1,0 +1,44 @@
+{
+    "name": "ETC-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "upbit-wss-ETC-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "ETC",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-ETC-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "ETC",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-ETC-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "ETC",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-ETC-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "ETC",
+                "quote": "KRW"
+            }
+        }
+    ]
+}

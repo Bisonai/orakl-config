@@ -24,6 +24,7 @@ Automatically generates `configs.json` files based on supported WebSocket APIs.
 - network: Designate network, defaults to `baobab`.
 - refresh: true or false, defaults to false. Reload possible supported symbols from APIs if true.
 - symbols: Pass symbols to generate besides pre-existing price pairs in the `configs/{network}/` path. If not given, it will only update existing config files.
+- onlysymbols: defaults to false, only reload supported symbols if true without generating configs
 
 ```
 python3 script/generate-configs.py --network cypress --refresh true --symbols "NOT-USDT, PEOPLE-USDT"

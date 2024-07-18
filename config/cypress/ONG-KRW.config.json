@@ -1,0 +1,35 @@
+{
+    "name": "ONG-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "upbit-wss-ONG-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "ONG",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-ONG-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "ONG",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-ONG-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "ONG",
+                "quote": "KRW"
+            }
+        }
+    ]
+}
