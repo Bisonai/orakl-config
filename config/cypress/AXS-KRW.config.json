@@ -1,0 +1,44 @@
+{
+    "name": "AXS-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "upbit-wss-AXS-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "AXS",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-AXS-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "AXS",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-AXS-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "AXS",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-AXS-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "AXS",
+                "quote": "KRW"
+            }
+        }
+    ]
+}

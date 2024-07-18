@@ -1,0 +1,53 @@
+{
+    "name": "TRX-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "upbit-wss-TRX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "TRX",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-TRX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "TRX",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-TRX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "TRX",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-TRX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "TRX",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "gopax-wss-TRX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "TRX",
+                "quote": "KRW"
+            }
+        }
+    ]
+}

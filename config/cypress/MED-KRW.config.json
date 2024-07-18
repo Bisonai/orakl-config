@@ -1,0 +1,35 @@
+{
+    "name": "MED-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "upbit-wss-MED-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "MED",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-MED-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "MED",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-MED-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "MED",
+                "quote": "KRW"
+            }
+        }
+    ]
+}

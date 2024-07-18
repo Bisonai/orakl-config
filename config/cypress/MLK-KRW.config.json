@@ -1,0 +1,35 @@
+{
+    "name": "MLK-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "upbit-wss-MLK-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "MLK",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-MLK-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "MLK",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-MLK-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "MLK",
+                "quote": "KRW"
+            }
+        }
+    ]
+}
