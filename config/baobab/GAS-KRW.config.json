@@ -1,35 +1,35 @@
 {
-    "name": "GAS-KRW",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 3600000,
-    "feeds": [
-        {
-            "name": "upbit-wss-GAS-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "GAS",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "bithumb-wss-GAS-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "GAS",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-GAS-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "GAS",
-                "quote": "KRW"
-            }
-        }
-    ]
+  "name": "GAS-KRW",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feeds": [
+    {
+      "name": "upbit-wss-GAS-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "upbit",
+        "base": "GAS",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "bithumb-wss-GAS-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "bithumb",
+        "base": "GAS",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "coinone-wss-GAS-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "coinone",
+        "base": "GAS",
+        "quote": "KRW"
+      }
+    }
+  ]
 }

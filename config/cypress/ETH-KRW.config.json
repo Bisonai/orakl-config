@@ -1,53 +1,53 @@
 {
-    "name": "ETH-KRW",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 3600000,
-    "feeds": [
-        {
-            "name": "upbit-wss-ETH-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "ETH",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "korbit-wss-ETH-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "ETH",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "bithumb-wss-ETH-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "ETH",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-ETH-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "ETH",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "gopax-wss-ETH-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "gopax",
-                "base": "ETH",
-                "quote": "KRW"
-            }
-        }
-    ]
+  "name": "ETH-KRW",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feeds": [
+    {
+      "name": "upbit-wss-ETH-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "upbit",
+        "base": "ETH",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "korbit-wss-ETH-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "korbit",
+        "base": "ETH",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "bithumb-wss-ETH-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "bithumb",
+        "base": "ETH",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "coinone-wss-ETH-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "coinone",
+        "base": "ETH",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "gopax-wss-ETH-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "gopax",
+        "base": "ETH",
+        "quote": "KRW"
+      }
+    }
+  ]
 }

@@ -1,53 +1,53 @@
 {
-    "name": "ADA-KRW",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 3600000,
-    "feeds": [
-        {
-            "name": "upbit-wss-ADA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "ADA",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "korbit-wss-ADA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "ADA",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "bithumb-wss-ADA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "ADA",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-ADA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "ADA",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "gopax-wss-ADA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "gopax",
-                "base": "ADA",
-                "quote": "KRW"
-            }
-        }
-    ]
+  "name": "ADA-KRW",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feeds": [
+    {
+      "name": "upbit-wss-ADA-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "upbit",
+        "base": "ADA",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "korbit-wss-ADA-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "korbit",
+        "base": "ADA",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "bithumb-wss-ADA-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "bithumb",
+        "base": "ADA",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "coinone-wss-ADA-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "coinone",
+        "base": "ADA",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "gopax-wss-ADA-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "gopax",
+        "base": "ADA",
+        "quote": "KRW"
+      }
+    }
+  ]
 }

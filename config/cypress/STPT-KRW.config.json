@@ -1,35 +1,35 @@
 {
-    "name": "STPT-KRW",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 3600000,
-    "feeds": [
-        {
-            "name": "upbit-wss-STPT-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "STPT",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "bithumb-wss-STPT-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "STPT",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-STPT-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "STPT",
-                "quote": "KRW"
-            }
-        }
-    ]
+  "name": "STPT-KRW",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feeds": [
+    {
+      "name": "upbit-wss-STPT-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "upbit",
+        "base": "STPT",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "bithumb-wss-STPT-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "bithumb",
+        "base": "STPT",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "coinone-wss-STPT-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "coinone",
+        "base": "STPT",
+        "quote": "KRW"
+      }
+    }
+  ]
 }
