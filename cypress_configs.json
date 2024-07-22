@@ -164,7 +164,7 @@
             },
             {
                 "name": "gateio-wss-ADA-USDT",
-                "definitio60000
+                "definition": {
                     "type": "wss",
                     "provider": "gateio",
                     "base": "ADA",
@@ -199,7 +199,7 @@
                 }
             },
             {
-                "name": "b60000ss-ADA-USDT",
+                "name": "bitget-wss-ADA-USDT",
                 "definition": {
                     "type": "wss",
                     "provider": "bitget",
@@ -395,7 +395,7 @@
                     "base": "ARB",
                     "quote": "KRW"
                 }
-            }60000
+            }
         ]
     },
     {
@@ -430,7 +430,7 @@
                     "base": "ASTR",
                     "quote": "KRW"
                 }
-            },60000
+            },
             {
                 "name": "coinone-wss-ASTR-KRW",
                 "definition": {
@@ -635,7 +635,7 @@
         "aggregateInterval": 400,
         "submitInterval": 60000,
         "feeds": [
-            {60000
+            {
                 "name": "upbit-wss-AVAX-KRW",
                 "definition": {
                     "type": "wss",
@@ -688,7 +688,7 @@
             {
                 "name": "bybit-wss-AVAX-USDT",
                 "definition": {
-                    "type"60000,
+                    "type": "wss",
                     "provider": "bybit",
                     "base": "AVAX",
                     "quote": "USDT"
@@ -723,7 +723,7 @@
             },
             {
                 "name": "btse-wss-AVAX-USDT",
-                "definitio60000
+                "definition": {
                     "type": "wss",
                     "provider": "btse",
                     "base": "AVAX",
@@ -945,7 +945,7 @@
                     "base": "BLAST",
                     "quote": "KRW"
                 }
-            },60000
+            },
             {
                 "name": "bithumb-wss-BLAST-KRW",
                 "definition": {
@@ -1451,7 +1451,7 @@
                 }
             },
             {
-                "name": "h60000s-BTC-USDT",
+                "name": "huobi-wss-BTC-USDT",
                 "definition": {
                     "type": "wss",
                     "provider": "huobi",
@@ -1808,7 +1808,7 @@
                     "quote": "USDT"
                 }
             },
-            {60000
+            {
                 "name": "coinbase-wss-DAI-USDT",
                 "definition": {
                     "type": "wss",
@@ -1852,7 +1852,7 @@
                     "provider": "bybit",
                     "base": "DAI",
                     "quote": "USDT"
-                }60000
+                }
             },
             {
                 "name": "lbank-wss-DAI-USDT",
@@ -1896,7 +1896,7 @@
                     "type": "wss",
                     "provider": "okx",
                     "base": "DAI",
-                    "quote60000T"
+                    "quote": "USDT"
                 }
             },
             {
@@ -2531,7 +2531,7 @@
                     "provider": "gopax",
                     "base": "ETH",
                     "quote": "KRW"
-                }60000
+                }
             }
         ]
     },
@@ -3324,7 +3324,7 @@
         "fetchInterval": 2000,
         "aggregateInterval": 400,
         "submitInterval": 60000,
-        "feeds": [60000
+        "feeds": [
             {
                 "name": "upbit-wss-HBAR-KRW",
                 "definition": {
@@ -3446,7 +3446,7 @@
                     "type": "wss",
                     "provider": "coinone",
                     "base": "IMX",
-                    "quote60000"
+                    "quote": "KRW"
                 }
             }
         ]
@@ -3490,7 +3490,7 @@
         "name": "JOY-USDT",
         "feeds": [
             {
-                "name": "h60000s-JOY-USDT",
+                "name": "huobi-wss-JOY-USDT",
                 "definition": {
                     "type": "wss",
                     "provider": "huobi",
@@ -3534,7 +3534,7 @@
                     "quote": "USDT"
                 }
             },
-            {60000
+            {
                 "name": "bitmart-wss-JOY-USDT",
                 "definition": {
                     "type": "wss",
@@ -3649,7 +3649,7 @@
                             "args": 6
                         },
                         {
-                          60000tion": "ROUND"
+                            "function": "ROUND"
                         }
                     ]
                 }
@@ -3828,7 +3828,7 @@
                 "definition": {
                     "type": "wss",
                     "provider": "bitmart",
-                    "base"60000",
+                    "base": "KLAY",
                     "quote": "USDT"
                 }
             },
@@ -3881,7 +3881,7 @@
             },
             {
                 "name": "gopax-wss-KNC-KRW",
-                "definitio60000
+                "definition": {
                     "type": "wss",
                     "provider": "gopax",
                     "base": "KNC",
@@ -4077,7 +4077,7 @@
                     "provider": "coinone",
                     "base": "LINK",
                     "quote": "KRW"
-                }60000
+                }
             },
             {
                 "name": "gopax-wss-LINK-KRW",
@@ -4291,7 +4291,7 @@
             },
             {
                 "name": "binance-wss-MATIC-USDT",
-                "definitio60000
+                "definition": {
                     "type": "wss",
                     "provider": "binance",
                     "base": "MATIC",
@@ -4335,7 +4335,7 @@
                 }
             },
             {
-                "name": "c60000ss-MATIC-USDT",
+                "name": "coinex-wss-MATIC-USDT",
                 "definition": {
                     "type": "wss",
                     "provider": "coinex",
@@ -4828,7 +4828,7 @@
                 }
             },
             {
-                "name": "c60000ss-PAXG-USDT",
+                "name": "coinex-wss-PAXG-USDT",
                 "definition": {
                     "type": "wss",
                     "provider": "coinex",
@@ -4881,7 +4881,7 @@
                     "provider": "korbit",
                     "base": "PEPE",
                     "quote": "KRW"
-                }60000
+                }
             },
             {
                 "name": "bithumb-wss-PEPE-KRW",
@@ -5032,7 +5032,7 @@
         "name": "PER-KLAY",
         "feeds": [
             {
-                "name": "K60000-PER-KLAY",
+                "name": "KlaySwap-PER-KLAY",
                 "definition": {
                     "chainId": "8217",
                     "address": "0x45ccd8a73053ab94efb7a9d4fd48da888c2977f3",
@@ -5067,7 +5067,7 @@
                 "definition": {
                     "type": "wss",
                     "provider": "korbit",
-                    "base"60000",
+                    "base": "PYTH",
                     "quote": "KRW"
                 }
             },
@@ -5290,7 +5290,7 @@
                 }
             },
             {
-                "name": "g60000ss-SHIB-USDT",
+                "name": "gateio-wss-SHIB-USDT",
                 "definition": {
                     "type": "wss",
                     "provider": "gateio",
@@ -5325,7 +5325,7 @@
                     "quote": "USDT"
                 }
             },
-            {60000
+            {
                 "name": "bitget-wss-SHIB-USDT",
                 "definition": {
                     "type": "wss",
