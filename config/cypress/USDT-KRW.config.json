@@ -1,53 +1,53 @@
 {
-    "name": "USDT-KRW",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 3600000,
-    "feeds": [
-        {
-            "name": "upbit-wss-USDT-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "USDT",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "korbit-wss-USDT-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "USDT",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "bithumb-wss-USDT-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "USDT",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-USDT-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "USDT",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "gopax-wss-USDT-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "gopax",
-                "base": "USDT",
-                "quote": "KRW"
-            }
-        }
-    ]
+  "name": "USDT-KRW",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feeds": [
+    {
+      "name": "upbit-wss-USDT-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "upbit",
+        "base": "USDT",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "korbit-wss-USDT-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "korbit",
+        "base": "USDT",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "bithumb-wss-USDT-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "bithumb",
+        "base": "USDT",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "coinone-wss-USDT-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "coinone",
+        "base": "USDT",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "gopax-wss-USDT-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "gopax",
+        "base": "USDT",
+        "quote": "KRW"
+      }
+    }
+  ]
 }

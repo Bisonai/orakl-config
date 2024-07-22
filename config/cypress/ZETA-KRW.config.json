@@ -1,35 +1,35 @@
 {
-    "name": "ZETA-KRW",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 3600000,
-    "feeds": [
-        {
-            "name": "upbit-wss-ZETA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "ZETA",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "bithumb-wss-ZETA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "ZETA",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-ZETA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "ZETA",
-                "quote": "KRW"
-            }
-        }
-    ]
+  "name": "ZETA-KRW",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feeds": [
+    {
+      "name": "upbit-wss-ZETA-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "upbit",
+        "base": "ZETA",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "bithumb-wss-ZETA-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "bithumb",
+        "base": "ZETA",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "coinone-wss-ZETA-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "coinone",
+        "base": "ZETA",
+        "quote": "KRW"
+      }
+    }
+  ]
 }

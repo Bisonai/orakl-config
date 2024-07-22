@@ -1,44 +1,44 @@
 {
-    "name": "ENS-KRW",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 3600000,
-    "feeds": [
-        {
-            "name": "upbit-wss-ENS-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "ENS",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "korbit-wss-ENS-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "ENS",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "bithumb-wss-ENS-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "ENS",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-ENS-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "ENS",
-                "quote": "KRW"
-            }
-        }
-    ]
+  "name": "ENS-KRW",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feeds": [
+    {
+      "name": "upbit-wss-ENS-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "upbit",
+        "base": "ENS",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "korbit-wss-ENS-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "korbit",
+        "base": "ENS",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "bithumb-wss-ENS-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "bithumb",
+        "base": "ENS",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "coinone-wss-ENS-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "coinone",
+        "base": "ENS",
+        "quote": "KRW"
+      }
+    }
+  ]
 }

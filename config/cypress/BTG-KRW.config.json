@@ -1,35 +1,35 @@
 {
-    "name": "BTG-KRW",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 3600000,
-    "feeds": [
-        {
-            "name": "upbit-wss-BTG-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "BTG",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "bithumb-wss-BTG-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "BTG",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-BTG-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "BTG",
-                "quote": "KRW"
-            }
-        }
-    ]
+  "name": "BTG-KRW",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feeds": [
+    {
+      "name": "upbit-wss-BTG-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "upbit",
+        "base": "BTG",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "bithumb-wss-BTG-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "bithumb",
+        "base": "BTG",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "coinone-wss-BTG-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "coinone",
+        "base": "BTG",
+        "quote": "KRW"
+      }
+    }
+  ]
 }
