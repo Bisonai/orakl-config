@@ -1,0 +1,44 @@
+{
+    "name": "WEMIX-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "korbit-wss-WEMIX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "WEMIX",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-WEMIX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "WEMIX",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-WEMIX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "WEMIX",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "gopax-wss-WEMIX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "WEMIX",
+                "quote": "KRW"
+            }
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "name": "XLM-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 3600000,
+    "feeds": [
+        {
+            "name": "upbit-wss-XLM-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "XLM",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-XLM-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "XLM",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-XLM-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "XLM",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-XLM-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "XLM",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "gopax-wss-XLM-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "XLM",
+                "quote": "KRW"
+            }
+        }
+    ]
+}
