@@ -6580,15 +6580,6 @@
                 }
             },
             {
-                "name": "crypto-wss-WEMIX-USDT",
-                "definition": {
-                    "type": "wss",
-                    "provider": "crypto",
-                    "base": "WEMIX",
-                    "quote": "USDT"
-                }
-            },
-            {
                 "name": "coinbase-wss-WEMIX-USDT",
                 "definition": {
                     "type": "wss",
