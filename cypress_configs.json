@@ -4225,59 +4225,6 @@
         "submitInterval": 15000
     },
     {
-        "name": "MATIC-KRW",
-        "fetchInterval": 2000,
-        "aggregateInterval": 400,
-        "submitInterval": 60000,
-        "feeds": [
-            {
-                "name": "upbit-wss-MATIC-KRW",
-                "definition": {
-                    "type": "wss",
-                    "provider": "upbit",
-                    "base": "MATIC",
-                    "quote": "KRW"
-                }
-            },
-            {
-                "name": "korbit-wss-MATIC-KRW",
-                "definition": {
-                    "type": "wss",
-                    "provider": "korbit",
-                    "base": "MATIC",
-                    "quote": "KRW"
-                }
-            },
-            {
-                "name": "bithumb-wss-MATIC-KRW",
-                "definition": {
-                    "type": "wss",
-                    "provider": "bithumb",
-                    "base": "MATIC",
-                    "quote": "KRW"
-                }
-            },
-            {
-                "name": "coinone-wss-MATIC-KRW",
-                "definition": {
-                    "type": "wss",
-                    "provider": "coinone",
-                    "base": "MATIC",
-                    "quote": "KRW"
-                }
-            },
-            {
-                "name": "gopax-wss-MATIC-KRW",
-                "definition": {
-                    "type": "wss",
-                    "provider": "gopax",
-                    "base": "MATIC",
-                    "quote": "KRW"
-                }
-            }
-        ]
-    },
-    {
         "name": "MATIC-USDT",
         "feeds": [
             {
