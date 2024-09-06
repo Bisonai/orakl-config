@@ -60,7 +60,6 @@
 | [KSP-KRW](config/baobab/KSP-KRW.config.json) | 2000 | 400 | 15000 | 2 |
 | [LINK-KRW](config/baobab/LINK-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [LTC-USDT](config/baobab/LTC-USDT.config.json) | 2000 | 400 | 15000 | 14 |
-| [MATIC-KRW](config/baobab/MATIC-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [MATIC-USDT](config/baobab/MATIC-USDT.config.json) | 2000 | 400 | 15000 | 16 |
 | [MBL-KRW](config/baobab/MBL-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [MBX-KRW](config/baobab/MBX-KRW.config.json) | 2000 | 400 | 15000 | 3 |
@@ -168,7 +167,6 @@
 | [KSP-KRW](config/cypress/KSP-KRW.config.json) | 2000 | 400 | 15000 | 2 |
 | [LINK-KRW](config/cypress/LINK-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [LTC-USDT](config/cypress/LTC-USDT.config.json) | 2000 | 400 | 15000 | 14 |
-| [MATIC-KRW](config/cypress/MATIC-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [MATIC-USDT](config/cypress/MATIC-USDT.config.json) | 2000 | 400 | 15000 | 16 |
 | [MBL-KRW](config/cypress/MBL-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [MBX-KRW](config/cypress/MBX-KRW.config.json) | 2000 | 400 | 15000 | 3 |
@@ -205,7 +203,7 @@
 | [USDT-USD](config/cypress/USDT-USD.config.json) | 2000 | 400 | 60000 | 6 |
 | [WAVES-KRW](config/cypress/WAVES-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [WEMIX-KRW](config/cypress/WEMIX-KRW.config.json) | 2000 | 400 | 60000 | 4 |
-| [WEMIX-USDT](config/cypress/WEMIX-USDT.config.json) | 2000 | 400 | 15000 | 12 |
+| [WEMIX-USDT](config/cypress/WEMIX-USDT.config.json) | 2000 | 400 | 15000 | 11 |
 | [WLD-KRW](config/cypress/WLD-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [XEC-KRW](config/cypress/XEC-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [XLM-KRW](config/cypress/XLM-KRW.config.json) | 2000 | 400 | 60000 | 5 |
