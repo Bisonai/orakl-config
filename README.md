@@ -60,7 +60,6 @@
 | [KSP-KRW](config/baobab/KSP-KRW.config.json) | 2000 | 400 | 15000 | 2 |
 | [LINK-KRW](config/baobab/LINK-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [LTC-USDT](config/baobab/LTC-USDT.config.json) | 2000 | 400 | 15000 | 14 |
-| [MATIC-USDT](config/baobab/MATIC-USDT.config.json) | 2000 | 400 | 15000 | 16 |
 | [MBL-KRW](config/baobab/MBL-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [MBX-KRW](config/baobab/MBX-KRW.config.json) | 2000 | 400 | 15000 | 3 |
 | [MED-KRW](config/baobab/MED-KRW.config.json) | 2000 | 400 | 60000 | 3 |
@@ -76,6 +75,7 @@
 | [PEPE-USDT](config/baobab/PEPE-USDT.config.json) | 2000 | 400 | 15000 | 14 |
 | [PER-KLAY](config/baobab/PER-KLAY.config.json) | 2000 | 400 | 15000 | 1 |
 | [POL-KRW](config/baobab/POL-KRW.config.json) | 2000 | 400 | 60000 | 5 |
+| [POL-USDT](config/baobab/POL-USDT.config.json) | 2000 | 400 | 60000 | 8 |
 | [PYTH-KRW](config/baobab/PYTH-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [SAND-KRW](config/baobab/SAND-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [SEI-KRW](config/baobab/SEI-KRW.config.json) | 2000 | 400 | 60000 | 5 |
@@ -168,7 +168,6 @@
 | [KSP-KRW](config/cypress/KSP-KRW.config.json) | 2000 | 400 | 15000 | 2 |
 | [LINK-KRW](config/cypress/LINK-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [LTC-USDT](config/cypress/LTC-USDT.config.json) | 2000 | 400 | 15000 | 14 |
-| [MATIC-USDT](config/cypress/MATIC-USDT.config.json) | 2000 | 400 | 15000 | 16 |
 | [MBL-KRW](config/cypress/MBL-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [MBX-KRW](config/cypress/MBX-KRW.config.json) | 2000 | 400 | 15000 | 3 |
 | [MED-KRW](config/cypress/MED-KRW.config.json) | 2000 | 400 | 60000 | 3 |
@@ -184,6 +183,7 @@
 | [PEPE-USDT](config/cypress/PEPE-USDT.config.json) | 2000 | 400 | 15000 | 14 |
 | [PER-KLAY](config/cypress/PER-KLAY.config.json) | 2000 | 400 | 15000 | 1 |
 | [POL-KRW](config/cypress/POL-KRW.config.json) | 2000 | 400 | 60000 | 5 |
+| [POL-USDT](config/cypress/POL-USDT.config.json) | 2000 | 400 | 60000 | 8 |
 | [PYTH-KRW](config/cypress/PYTH-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [SAND-KRW](config/cypress/SAND-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [SEI-KRW](config/cypress/SEI-KRW.config.json) | 2000 | 400 | 60000 | 5 |
