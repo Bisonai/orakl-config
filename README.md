@@ -76,6 +76,7 @@
 | [PEPE-USDT](config/baobab/PEPE-USDT.config.json) | 2000 | 400 | 15000 | 14 |
 | [PER-KLAY](config/baobab/PER-KLAY.config.json) | 2000 | 400 | 15000 | 1 |
 | [POL-KRW](config/baobab/POL-KRW.config.json) | 2000 | 400 | 60000 | 5 |
+| [POL-USDT](config/baobab/POL-USDT.config.json) | 2000 | 400 | 60000 | 8 |
 | [PYTH-KRW](config/baobab/PYTH-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [SAND-KRW](config/baobab/SAND-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [SEI-KRW](config/baobab/SEI-KRW.config.json) | 2000 | 400 | 60000 | 5 |
@@ -184,6 +185,7 @@
 | [PEPE-USDT](config/cypress/PEPE-USDT.config.json) | 2000 | 400 | 15000 | 14 |
 | [PER-KLAY](config/cypress/PER-KLAY.config.json) | 2000 | 400 | 15000 | 1 |
 | [POL-KRW](config/cypress/POL-KRW.config.json) | 2000 | 400 | 60000 | 5 |
+| [POL-USDT](config/cypress/POL-USDT.config.json) | 2000 | 400 | 60000 | 8 |
 | [PYTH-KRW](config/cypress/PYTH-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [SAND-KRW](config/cypress/SAND-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [SEI-KRW](config/cypress/SEI-KRW.config.json) | 2000 | 400 | 60000 | 5 |
