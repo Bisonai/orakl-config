@@ -9,7 +9,7 @@ SYMBOLS_PATH = Path("tmp/symbols.json")
 
 DEFAULT_FETCH_INTERVAL = 2000
 DEFAULT_AGGREGATE_INTERVAL = 400
-DEFAULT_SUBMIT_INTERVAL = 3_600_000 # 1 hour
+DEFAULT_SUBMIT_INTERVAL = 60000 # 1 minute
 
 def load_json_from_url(url):
     response = requests.get(url)
