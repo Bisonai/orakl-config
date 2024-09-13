@@ -1,35 +1,44 @@
 {
-  "name": "ZRO-KRW",
-  "fetchInterval": 2000,
-  "aggregateInterval": 400,
-  "submitInterval": 60000,
-  "feeds": [
-    {
-      "name": "upbit-wss-ZRO-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "ZRO",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "korbit-wss-ZRO-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "ZRO",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "bithumb-wss-ZRO-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "bithumb",
-        "base": "ZRO",
-        "quote": "KRW"
-      }
-    }
-  ]
+    "name": "ZRO-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "upbit-wss-ZRO-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "ZRO",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-ZRO-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "ZRO",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-ZRO-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "ZRO",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-ZRO-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "ZRO",
+                "quote": "KRW"
+            }
+        }
+    ]
 }
