@@ -1,42 +1,51 @@
 {
-    "name": "ZRO-KRW",
+    "name": "POL-KRW",
     "fetchInterval": 2000,
     "aggregateInterval": 400,
-    "submitInterval": 60000,
+    "submitInterval": 3600000,
     "feeds": [
         {
-            "name": "upbit-wss-ZRO-KRW",
+            "name": "upbit-wss-POL-KRW",
             "definition": {
                 "type": "wss",
                 "provider": "upbit",
-                "base": "ZRO",
+                "base": "POL",
                 "quote": "KRW"
             }
         },
         {
-            "name": "korbit-wss-ZRO-KRW",
+            "name": "korbit-wss-POL-KRW",
             "definition": {
                 "type": "wss",
                 "provider": "korbit",
-                "base": "ZRO",
+                "base": "POL",
                 "quote": "KRW"
             }
         },
         {
-            "name": "bithumb-wss-ZRO-KRW",
+            "name": "bithumb-wss-POL-KRW",
             "definition": {
                 "type": "wss",
                 "provider": "bithumb",
-                "base": "ZRO",
+                "base": "POL",
                 "quote": "KRW"
             }
         },
         {
-            "name": "coinone-wss-ZRO-KRW",
+            "name": "coinone-wss-POL-KRW",
             "definition": {
                 "type": "wss",
                 "provider": "coinone",
-                "base": "ZRO",
+                "base": "POL",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "gopax-wss-POL-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "POL",
                 "quote": "KRW"
             }
         }

@@ -120,6 +120,15 @@
                 "base": "PEPE",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "upbit-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
         }
     ]
 }

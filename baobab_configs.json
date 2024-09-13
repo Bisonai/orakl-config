@@ -4972,6 +4972,15 @@
                     "base": "PEPE",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "upbit-wss-PEPE-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "upbit",
+                    "base": "PEPE",
+                    "quote": "USDT"
+                }
             }
         ]
     },
@@ -4993,6 +5002,59 @@
         "fetchInterval": 2000,
         "aggregateInterval": 400,
         "submitInterval": 15000
+    },
+    {
+        "name": "POL-KRW",
+        "fetchInterval": 2000,
+        "aggregateInterval": 400,
+        "submitInterval": 3600000,
+        "feeds": [
+            {
+                "name": "upbit-wss-POL-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "upbit",
+                    "base": "POL",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "korbit-wss-POL-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "korbit",
+                    "base": "POL",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "bithumb-wss-POL-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bithumb",
+                    "base": "POL",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "coinone-wss-POL-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "coinone",
+                    "base": "POL",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "gopax-wss-POL-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "gopax",
+                    "base": "POL",
+                    "quote": "KRW"
+                }
+            }
+        ]
     },
     {
         "name": "PYTH-KRW",
@@ -6305,6 +6367,15 @@
                     "base": "USDC",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "upbit-wss-USDC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "upbit",
+                    "base": "USDC",
+                    "quote": "USDT"
+                }
             }
         ],
         "fetchInterval": 2000,
@@ -7075,6 +7146,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "bithumb",
+                    "base": "ZRO",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "coinone-wss-ZRO-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "coinone",
                     "base": "ZRO",
                     "quote": "KRW"
                 }
