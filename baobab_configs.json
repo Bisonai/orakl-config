@@ -260,6 +260,15 @@
                     "base": "ADA",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "orangex-wss-ADA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "orangex",
+                    "base": "ADA",
+                    "quote": "USDT"
+                }
             }
         ],
         "fetchInterval": 2000,
@@ -588,6 +597,15 @@
                     "base": "ATOM",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "orangex-wss-ATOM-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "orangex",
+                    "base": "ATOM",
+                    "quote": "USDT"
+                }
             }
         ],
         "fetchInterval": 2000,
@@ -825,6 +843,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "xt",
+                    "base": "AVAX",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "orangex-wss-AVAX-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "orangex",
                     "base": "AVAX",
                     "quote": "USDT"
                 }
@@ -1135,6 +1162,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "xt",
+                    "base": "BNB",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "orangex-wss-BNB-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "orangex",
                     "base": "BNB",
                     "quote": "USDT"
                 }
@@ -1500,6 +1536,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "xt",
+                    "base": "BTC",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "orangex-wss-BTC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "orangex",
                     "base": "BTC",
                     "quote": "USDT"
                 }
@@ -2139,6 +2184,15 @@
                     "base": "DOGE",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "orangex-wss-DOGE-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "orangex",
+                    "base": "DOGE",
+                    "quote": "USDT"
+                }
             }
         ],
         "fetchInterval": 2000,
@@ -2737,6 +2791,15 @@
                     "base": "ETH",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "orangex-wss-ETH-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "orangex",
+                    "base": "ETH",
+                    "quote": "USDT"
+                }
             }
         ],
         "fetchInterval": 2000,
@@ -3067,6 +3130,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "xt",
+                    "base": "FTM",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "orangex-wss-FTM-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "orangex",
                     "base": "FTM",
                     "quote": "USDT"
                 }
@@ -3840,6 +3912,15 @@
                     "base": "KLAY",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "orangex-wss-KLAY-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "orangex",
+                    "base": "KLAY",
+                    "quote": "USDT"
+                }
             }
         ],
         "fetchInterval": 2000,
@@ -4215,6 +4296,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "xt",
+                    "base": "LTC",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "orangex-wss-LTC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "orangex",
                     "base": "LTC",
                     "quote": "USDT"
                 }
@@ -4829,6 +4919,15 @@
                     "base": "PEPE",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "orangex-wss-PEPE-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "orangex",
+                    "base": "PEPE",
+                    "quote": "USDT"
+                }
             }
         ]
     },
@@ -4978,6 +5077,60 @@
                 "definition": {
                     "type": "wss",
                     "provider": "bitmart",
+                    "base": "POL",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "binance-wss-POL-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "binance",
+                    "base": "POL",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "crypto-wss-POL-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "crypto",
+                    "base": "POL",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "btse-wss-POL-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "btse",
+                    "base": "POL",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "lbank-wss-POL-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "POL",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "xt-wss-POL-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "xt",
+                    "base": "POL",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "orangex-wss-POL-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "orangex",
                     "base": "POL",
                     "quote": "USDT"
                 }
@@ -5324,6 +5477,15 @@
                     "base": "SHIB",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "orangex-wss-SHIB-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "orangex",
+                    "base": "SHIB",
+                    "quote": "USDT"
+                }
             }
         ],
         "fetchInterval": 2000,
@@ -5579,6 +5741,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "xt",
+                    "base": "SOL",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "orangex-wss-SOL-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "orangex",
                     "base": "SOL",
                     "quote": "USDT"
                 }
@@ -5980,6 +6151,15 @@
                     "base": "TRX",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "orangex-wss-TRX-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "orangex",
+                    "base": "TRX",
+                    "quote": "USDT"
+                }
             }
         ],
         "fetchInterval": 2000,
@@ -6130,6 +6310,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "xt",
+                    "base": "UNI",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "orangex-wss-UNI-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "orangex",
                     "base": "UNI",
                     "quote": "USDT"
                 }
@@ -6301,6 +6490,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "upbit",
+                    "base": "USDC",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "orangex-wss-USDC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "orangex",
                     "base": "USDC",
                     "quote": "USDT"
                 }
@@ -6611,6 +6809,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "xt",
+                    "base": "WEMIX",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "orangex-wss-WEMIX-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "orangex",
                     "base": "WEMIX",
                     "quote": "USDT"
                 }
@@ -6966,6 +7173,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "xt",
+                    "base": "XRP",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "orangex-wss-XRP-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "orangex",
                     "base": "XRP",
                     "quote": "USDT"
                 }
