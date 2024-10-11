@@ -126,6 +126,15 @@
                 "base": "BNB",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-BNB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "BNB",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

@@ -1,35 +1,35 @@
 {
-  "name": "BONK-KRW",
-  "fetchInterval": 2000,
-  "aggregateInterval": 400,
-  "submitInterval": 60000,
-  "feeds": [
-    {
-      "name": "korbit-wss-BONK-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "BONK",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "bithumb-wss-BONK-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "bithumb",
-        "base": "BONK",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "coinone-wss-BONK-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "BONK",
-        "quote": "KRW"
-      }
-    }
-  ]
+    "name": "BONK-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "korbit-wss-BONK-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "BONK",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-BONK-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "BONK",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-BONK-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "BONK",
+                "quote": "KRW"
+            }
+        }
+    ]
 }

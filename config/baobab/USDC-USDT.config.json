@@ -163,6 +163,15 @@
                 "base": "USDC",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-USDC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "USDC",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

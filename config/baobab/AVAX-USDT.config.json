@@ -144,6 +144,15 @@
                 "base": "AVAX",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

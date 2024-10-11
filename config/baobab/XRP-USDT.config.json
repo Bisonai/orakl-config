@@ -162,6 +162,15 @@
                 "base": "XRP",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "XRP",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,
