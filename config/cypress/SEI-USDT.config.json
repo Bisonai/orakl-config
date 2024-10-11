@@ -1,152 +1,125 @@
 {
-    "name": "KLAY-USDT",
+    "name": "SEI-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
     "feeds": [
         {
-            "name": "bybit-wss-KLAY-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "KLAY",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "binance-wss-KLAY-USDT",
+            "name": "binance-wss-SEI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",
-                "base": "KLAY",
+                "base": "SEI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "kucoin-wss-KLAY-USDT",
+            "name": "kucoin-wss-SEI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
-                "base": "KLAY",
+                "base": "SEI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "crypto-wss-KLAY-USDT",
+            "name": "bybit-wss-SEI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "SEI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-SEI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "crypto",
-                "base": "KLAY",
+                "base": "SEI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "btse-wss-KLAY-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
-                "base": "KLAY",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-KLAY-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "KLAY",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-KLAY-USDT",
+            "name": "gateio-wss-SEI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "gateio",
-                "base": "KLAY",
+                "base": "SEI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "coinex-wss-KLAY-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "KLAY",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-KLAY-USDT",
+            "name": "lbank-wss-SEI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "lbank",
-                "base": "KLAY",
+                "base": "SEI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bitget-wss-KLAY-USDT",
+            "name": "coinex-wss-SEI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "SEI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-SEI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bitget",
-                "base": "KLAY",
+                "base": "SEI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "huobi-wss-KLAY-USDT",
+            "name": "huobi-wss-SEI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "huobi",
-                "base": "KLAY",
+                "base": "SEI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "okx-wss-KLAY-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "KLAY",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-KLAY-USDT",
+            "name": "bingx-wss-SEI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bingx",
-                "base": "KLAY",
+                "base": "SEI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bitmart-wss-KLAY-USDT",
+            "name": "bitmart-wss-SEI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bitmart",
-                "base": "KLAY",
+                "base": "SEI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "xt-wss-KLAY-USDT",
+            "name": "xt-wss-SEI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "xt",
-                "base": "KLAY",
+                "base": "SEI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "orangex-wss-KLAY-USDT",
+            "name": "orangex-wss-SEI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "orangex",
-                "base": "KLAY",
+                "base": "SEI",
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

@@ -153,6 +153,15 @@
                 "base": "ADA",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "ADA",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

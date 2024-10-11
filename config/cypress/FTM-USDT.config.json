@@ -126,6 +126,15 @@
                 "base": "FTM",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-FTM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "FTM",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

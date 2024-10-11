@@ -1,35 +1,35 @@
 {
-  "name": "IQ-KRW",
-  "fetchInterval": 2000,
-  "aggregateInterval": 400,
-  "submitInterval": 60000,
-  "feeds": [
-    {
-      "name": "upbit-wss-IQ-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "IQ",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "bithumb-wss-IQ-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "bithumb",
-        "base": "IQ",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "coinone-wss-IQ-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "IQ",
-        "quote": "KRW"
-      }
-    }
-  ]
+    "name": "IQ-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "upbit-wss-IQ-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "IQ",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-IQ-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "IQ",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-IQ-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "IQ",
+                "quote": "KRW"
+            }
+        }
+    ]
 }

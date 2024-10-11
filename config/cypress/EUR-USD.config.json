@@ -1,107 +1,120 @@
 {
-  "name": "EUR-USD",
-  "feeds": [
-    {
-      "name": "Yahoo-EUR-USD",
-      "definition": {
-        "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=EURUSD%3DX",
-        "headers": {
-          "Content-Type": "application/json"
+    "name": "EUR-USD",
+    "feeds": [
+        {
+            "name": "Yahoo-EUR-USD",
+            "definition": {
+                "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=EURUSD%3DX",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "spark",
+                            "result"
+                        ]
+                    },
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "response"
+                        ]
+                    },
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "meta",
+                            "regularMarketPrice"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
         },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["spark", "result"]
-          },
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["response"]
-          },
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": ["meta", "regularMarketPrice"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
-        ]
-      }
-    },
-    {
-      "name": "naver-EUR-USD",
-      "definition": {
-        "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDEUR",
-        "headers": {
-          "Content-Type": "application/json"
+        {
+            "name": "naver-EUR-USD",
+            "definition": {
+                "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDEUR",
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "result",
+                            "closePrice"
+                        ]
+                    },
+                    {
+                        "function": "DIVFROM",
+                        "args": 1
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
         },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["result", "closePrice"]
-          },
-          {
-            "function": "DIVFROM",
-            "args": 1
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
-        ]
-      }
-    },
-    {
-      "name": "daum-EUR-USD",
-      "definition": {
-        "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWEUR",
-        "headers": {
-          "Content-Type": "application/json",
-          "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWEUR"
+        {
+            "name": "daum-EUR-USD",
+            "definition": {
+                "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWEUR",
+                "headers": {
+                    "Content-Type": "application/json",
+                    "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWEUR"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "usDollarRate"
+                        ]
+                    },
+                    {
+                        "function": "POW10",
+                        "args": 8
+                    },
+                    {
+                        "function": "ROUND"
+                    }
+                ]
+            }
         },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": ["usDollarRate"]
-          },
-          {
-            "function": "POW10",
-            "args": 8
-          },
-          {
-            "function": "ROUND"
-          }
-        ]
-      }
-    },
-    {
-      "name": "bitstamp-wss-EUR-USD",
-      "definition": {
-        "type": "wss",
-        "provider": "bitstamp",
-        "base": "EUR",
-        "quote": "USD"
-      }
-    }
-  ],
-  "fetchInterval": 2000,
-  "aggregateInterval": 400,
-  "submitInterval": 15000
+        {
+            "name": "bitstamp-wss-EUR-USD",
+            "definition": {
+                "type": "wss",
+                "provider": "bitstamp",
+                "base": "EUR",
+                "quote": "USD"
+            }
+        }
+    ],
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000
 }

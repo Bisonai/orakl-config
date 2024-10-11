@@ -1,35 +1,35 @@
 {
-  "name": "MTL-KRW",
-  "fetchInterval": 2000,
-  "aggregateInterval": 400,
-  "submitInterval": 60000,
-  "feeds": [
-    {
-      "name": "upbit-wss-MTL-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "MTL",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "bithumb-wss-MTL-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "bithumb",
-        "base": "MTL",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "coinone-wss-MTL-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "MTL",
-        "quote": "KRW"
-      }
-    }
-  ]
+    "name": "MTL-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "upbit-wss-MTL-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "MTL",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-MTL-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "MTL",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-MTL-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "MTL",
+                "quote": "KRW"
+            }
+        }
+    ]
 }

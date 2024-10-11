@@ -145,6 +145,15 @@
                 "base": "UNI",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "UNI",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

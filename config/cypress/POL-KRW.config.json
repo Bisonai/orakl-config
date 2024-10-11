@@ -1,53 +1,53 @@
 {
-  "name": "POL-KRW",
-  "fetchInterval": 2000,
-  "aggregateInterval": 400,
-  "submitInterval": 60000,
-  "feeds": [
-    {
-      "name": "upbit-wss-POL-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "POL",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "korbit-wss-POL-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "POL",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "bithumb-wss-POL-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "bithumb",
-        "base": "POL",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "coinone-wss-POL-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "POL",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "gopax-wss-POL-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "gopax",
-        "base": "POL",
-        "quote": "KRW"
-      }
-    }
-  ]
+    "name": "POL-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "upbit-wss-POL-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "POL",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-POL-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "POL",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-POL-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "POL",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-POL-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "POL",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "gopax-wss-POL-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "POL",
+                "quote": "KRW"
+            }
+        }
+    ]
 }

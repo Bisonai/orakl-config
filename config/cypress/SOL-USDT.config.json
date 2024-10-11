@@ -153,6 +153,15 @@
                 "base": "SOL",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "SOL",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

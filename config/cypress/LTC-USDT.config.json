@@ -126,6 +126,15 @@
                 "base": "LTC",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-LTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "LTC",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

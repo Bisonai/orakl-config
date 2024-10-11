@@ -1,44 +1,44 @@
 {
-  "name": "MINA-KRW",
-  "fetchInterval": 2000,
-  "aggregateInterval": 400,
-  "submitInterval": 60000,
-  "feeds": [
-    {
-      "name": "upbit-wss-MINA-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "MINA",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "korbit-wss-MINA-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "MINA",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "bithumb-wss-MINA-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "bithumb",
-        "base": "MINA",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "coinone-wss-MINA-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "MINA",
-        "quote": "KRW"
-      }
-    }
-  ]
+    "name": "MINA-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "upbit-wss-MINA-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "MINA",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-MINA-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "MINA",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-MINA-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "MINA",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-MINA-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "MINA",
+                "quote": "KRW"
+            }
+        }
+    ]
 }
