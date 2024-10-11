@@ -1,44 +1,44 @@
 {
-  "name": "KLAY-KRW",
-  "fetchInterval": 2000,
-  "aggregateInterval": 400,
-  "submitInterval": 60000,
-  "feeds": [
-    {
-      "name": "korbit-wss-KLAY-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "KLAY",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "bithumb-wss-KLAY-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "bithumb",
-        "base": "KLAY",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "coinone-wss-KLAY-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "KLAY",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "gopax-wss-KLAY-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "gopax",
-        "base": "KLAY",
-        "quote": "KRW"
-      }
-    }
-  ]
+    "name": "KLAY-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "korbit-wss-KLAY-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "KLAY",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-KLAY-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "KLAY",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-KLAY-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "KLAY",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "gopax-wss-KLAY-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "KLAY",
+                "quote": "KRW"
+            }
+        }
+    ]
 }

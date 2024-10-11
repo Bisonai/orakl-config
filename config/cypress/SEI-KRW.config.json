@@ -1,53 +1,53 @@
 {
-  "name": "SEI-KRW",
-  "fetchInterval": 2000,
-  "aggregateInterval": 400,
-  "submitInterval": 60000,
-  "feeds": [
-    {
-      "name": "upbit-wss-SEI-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "SEI",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "korbit-wss-SEI-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "SEI",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "bithumb-wss-SEI-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "bithumb",
-        "base": "SEI",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "coinone-wss-SEI-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "SEI",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "gopax-wss-SEI-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "gopax",
-        "base": "SEI",
-        "quote": "KRW"
-      }
-    }
-  ]
+    "name": "SEI-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "upbit-wss-SEI-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "SEI",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-SEI-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "SEI",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-SEI-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "SEI",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-SEI-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "SEI",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "gopax-wss-SEI-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "SEI",
+                "quote": "KRW"
+            }
+        }
+    ]
 }

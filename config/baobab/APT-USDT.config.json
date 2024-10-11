@@ -1,161 +1,143 @@
 {
-    "name": "ATOM-USDT",
+    "name": "APT-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
     "feeds": [
         {
-            "name": "bybit-wss-ATOM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "ATOM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "binance-wss-ATOM-USDT",
+            "name": "binance-wss-APT-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",
-                "base": "ATOM",
+                "base": "APT",
                 "quote": "USDT"
             }
         },
         {
-            "name": "kucoin-wss-ATOM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "ATOM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-ATOM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "ATOM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-ATOM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
-                "base": "ATOM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-ATOM-USDT",
+            "name": "coinbase-wss-APT-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "coinbase",
-                "base": "ATOM",
+                "base": "APT",
                 "quote": "USDT"
             }
         },
         {
-            "name": "gateio-wss-ATOM-USDT",
+            "name": "kucoin-wss-APT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "APT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-APT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "APT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-APT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "APT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-APT-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "gateio",
-                "base": "ATOM",
+                "base": "APT",
                 "quote": "USDT"
             }
         },
         {
-            "name": "coinex-wss-ATOM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "ATOM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-ATOM-USDT",
+            "name": "lbank-wss-APT-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "lbank",
-                "base": "ATOM",
+                "base": "APT",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bitget-wss-ATOM-USDT",
+            "name": "coinex-wss-APT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "APT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-APT-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bitget",
-                "base": "ATOM",
+                "base": "APT",
                 "quote": "USDT"
             }
         },
         {
-            "name": "huobi-wss-ATOM-USDT",
+            "name": "huobi-wss-APT-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "huobi",
-                "base": "ATOM",
+                "base": "APT",
                 "quote": "USDT"
             }
         },
         {
-            "name": "okx-wss-ATOM-USDT",
+            "name": "okx-wss-APT-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "okx",
-                "base": "ATOM",
+                "base": "APT",
                 "quote": "USDT"
             }
         },
         {
-            "name": "kraken-wss-ATOM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kraken",
-                "base": "ATOM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-ATOM-USDT",
+            "name": "bingx-wss-APT-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bingx",
-                "base": "ATOM",
+                "base": "APT",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bitmart-wss-ATOM-USDT",
+            "name": "bitmart-wss-APT-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bitmart",
-                "base": "ATOM",
+                "base": "APT",
                 "quote": "USDT"
             }
         },
         {
-            "name": "xt-wss-ATOM-USDT",
+            "name": "xt-wss-APT-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "xt",
-                "base": "ATOM",
+                "base": "APT",
                 "quote": "USDT"
             }
         },
         {
-            "name": "orangex-wss-ATOM-USDT",
+            "name": "orangex-wss-APT-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "orangex",
-                "base": "ATOM",
+                "base": "APT",
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

@@ -1,0 +1,26 @@
+{
+    "name": "GRND-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "gateio-wss-GRND-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "GRND",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-GRND-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "GRND",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

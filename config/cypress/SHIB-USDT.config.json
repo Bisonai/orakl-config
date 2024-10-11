@@ -144,6 +144,15 @@
                 "base": "SHIB",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-SHIB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "SHIB",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

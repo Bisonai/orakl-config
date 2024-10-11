@@ -1,107 +1,116 @@
 {
-  "name": "WEMIX-USDT",
-  "feeds": [
-    {
-      "name": "bybit-wss-WEMIX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bybit",
-        "base": "WEMIX",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "kucoin-wss-WEMIX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "kucoin",
-        "base": "WEMIX",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "coinbase-wss-WEMIX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinbase",
-        "base": "WEMIX",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "coinex-wss-WEMIX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "WEMIX",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "gateio-wss-WEMIX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "gateio",
-        "base": "WEMIX",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "bitget-wss-WEMIX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitget",
-        "base": "WEMIX",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "huobi-wss-WEMIX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "huobi",
-        "base": "WEMIX",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "mexc-wss-WEMIX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "mexc",
-        "base": "WEMIX",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "bingx-wss-WEMIX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bingx",
-        "base": "WEMIX",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "bitmart-wss-WEMIX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "WEMIX",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "xt-wss-WEMIX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "xt",
-        "base": "WEMIX",
-        "quote": "USDT"
-      }
-    }
-  ],
-  "fetchInterval": 2000,
-  "aggregateInterval": 400,
-  "submitInterval": 15000
+    "name": "WEMIX-USDT",
+    "feeds": [
+        {
+            "name": "bybit-wss-WEMIX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "WEMIX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-WEMIX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "WEMIX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinbase-wss-WEMIX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "WEMIX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-WEMIX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "WEMIX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-WEMIX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "WEMIX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-WEMIX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "WEMIX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-WEMIX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "WEMIX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-WEMIX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "WEMIX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-WEMIX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "WEMIX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-WEMIX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "WEMIX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-WEMIX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "WEMIX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-WEMIX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "WEMIX",
+                "quote": "USDT"
+            }
+        }
+    ],
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000
 }

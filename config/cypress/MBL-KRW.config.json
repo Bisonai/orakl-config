@@ -1,35 +1,35 @@
 {
-  "name": "MBL-KRW",
-  "fetchInterval": 2000,
-  "aggregateInterval": 400,
-  "submitInterval": 60000,
-  "feeds": [
-    {
-      "name": "upbit-wss-MBL-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "MBL",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "bithumb-wss-MBL-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "bithumb",
-        "base": "MBL",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "coinone-wss-MBL-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "MBL",
-        "quote": "KRW"
-      }
-    }
-  ]
+    "name": "MBL-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "upbit-wss-MBL-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "MBL",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-MBL-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "MBL",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-MBL-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "MBL",
+                "quote": "KRW"
+            }
+        }
+    ]
 }

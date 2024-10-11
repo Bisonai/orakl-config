@@ -1,44 +1,44 @@
 {
-  "name": "PYTH-KRW",
-  "fetchInterval": 2000,
-  "aggregateInterval": 400,
-  "submitInterval": 60000,
-  "feeds": [
-    {
-      "name": "upbit-wss-PYTH-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "PYTH",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "korbit-wss-PYTH-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "PYTH",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "bithumb-wss-PYTH-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "bithumb",
-        "base": "PYTH",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "coinone-wss-PYTH-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "PYTH",
-        "quote": "KRW"
-      }
-    }
-  ]
+    "name": "PYTH-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "upbit-wss-PYTH-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "PYTH",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-PYTH-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "PYTH",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-PYTH-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "PYTH",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-PYTH-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "PYTH",
+                "quote": "KRW"
+            }
+        }
+    ]
 }

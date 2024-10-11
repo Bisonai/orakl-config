@@ -1,44 +1,44 @@
 {
-  "name": "CTC-KRW",
-  "fetchInterval": 2000,
-  "aggregateInterval": 400,
-  "submitInterval": 60000,
-  "feeds": [
-    {
-      "name": "upbit-wss-CTC-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "CTC",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "korbit-wss-CTC-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "CTC",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "bithumb-wss-CTC-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "bithumb",
-        "base": "CTC",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "gopax-wss-CTC-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "gopax",
-        "base": "CTC",
-        "quote": "KRW"
-      }
-    }
-  ]
+    "name": "CTC-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "upbit-wss-CTC-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "CTC",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-CTC-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "CTC",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-CTC-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "CTC",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "gopax-wss-CTC-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "CTC",
+                "quote": "KRW"
+            }
+        }
+    ]
 }

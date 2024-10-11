@@ -75,6 +75,60 @@
                 "base": "POL",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "binance-wss-POL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "POL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-POL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "POL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-POL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "POL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-POL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "POL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-POL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "POL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-POL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "POL",
+                "quote": "USDT"
+            }
         }
     ]
 }

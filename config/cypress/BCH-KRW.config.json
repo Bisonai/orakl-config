@@ -1,53 +1,53 @@
 {
-  "name": "BCH-KRW",
-  "fetchInterval": 2000,
-  "aggregateInterval": 400,
-  "submitInterval": 60000,
-  "feeds": [
-    {
-      "name": "upbit-wss-BCH-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "BCH",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "korbit-wss-BCH-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "BCH",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "bithumb-wss-BCH-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "bithumb",
-        "base": "BCH",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "coinone-wss-BCH-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "BCH",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "gopax-wss-BCH-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "gopax",
-        "base": "BCH",
-        "quote": "KRW"
-      }
-    }
-  ]
+    "name": "BCH-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "upbit-wss-BCH-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "BCH",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-BCH-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "BCH",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-BCH-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "BCH",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-BCH-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "BCH",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "gopax-wss-BCH-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "BCH",
+                "quote": "KRW"
+            }
+        }
+    ]
 }

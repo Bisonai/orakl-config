@@ -1,44 +1,44 @@
 {
-  "name": "KNC-KRW",
-  "fetchInterval": 2000,
-  "aggregateInterval": 400,
-  "submitInterval": 60000,
-  "feeds": [
-    {
-      "name": "upbit-wss-KNC-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "KNC",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "bithumb-wss-KNC-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "bithumb",
-        "base": "KNC",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "coinone-wss-KNC-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "KNC",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "gopax-wss-KNC-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "gopax",
-        "base": "KNC",
-        "quote": "KRW"
-      }
-    }
-  ]
+    "name": "KNC-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "upbit-wss-KNC-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "KNC",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-KNC-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "KNC",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-KNC-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "KNC",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "gopax-wss-KNC-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "KNC",
+                "quote": "KRW"
+            }
+        }
+    ]
 }

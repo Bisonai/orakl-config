@@ -144,6 +144,15 @@
                 "base": "DOGE",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

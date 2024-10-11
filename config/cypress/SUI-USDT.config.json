@@ -1,161 +1,143 @@
 {
-    "name": "ATOM-USDT",
+    "name": "SUI-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
     "feeds": [
         {
-            "name": "bybit-wss-ATOM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "ATOM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "binance-wss-ATOM-USDT",
+            "name": "binance-wss-SUI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",
-                "base": "ATOM",
+                "base": "SUI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "kucoin-wss-ATOM-USDT",
+            "name": "kucoin-wss-SUI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
-                "base": "ATOM",
+                "base": "SUI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "crypto-wss-ATOM-USDT",
+            "name": "bybit-wss-SUI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "SUI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-SUI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "crypto",
-                "base": "ATOM",
+                "base": "SUI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "btse-wss-ATOM-USDT",
+            "name": "btse-wss-SUI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "btse",
-                "base": "ATOM",
+                "base": "SUI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "coinbase-wss-ATOM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "ATOM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-ATOM-USDT",
+            "name": "gateio-wss-SUI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "gateio",
-                "base": "ATOM",
+                "base": "SUI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "coinex-wss-ATOM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "ATOM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-ATOM-USDT",
+            "name": "lbank-wss-SUI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "lbank",
-                "base": "ATOM",
+                "base": "SUI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bitget-wss-ATOM-USDT",
+            "name": "coinex-wss-SUI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "SUI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-SUI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bitget",
-                "base": "ATOM",
+                "base": "SUI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "huobi-wss-ATOM-USDT",
+            "name": "huobi-wss-SUI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "huobi",
-                "base": "ATOM",
+                "base": "SUI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "okx-wss-ATOM-USDT",
+            "name": "mexc-wss-SUI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "SUI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-SUI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "okx",
-                "base": "ATOM",
+                "base": "SUI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "kraken-wss-ATOM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kraken",
-                "base": "ATOM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-ATOM-USDT",
+            "name": "bingx-wss-SUI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bingx",
-                "base": "ATOM",
+                "base": "SUI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bitmart-wss-ATOM-USDT",
+            "name": "bitmart-wss-SUI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bitmart",
-                "base": "ATOM",
+                "base": "SUI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "xt-wss-ATOM-USDT",
+            "name": "xt-wss-SUI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "xt",
-                "base": "ATOM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "orangex-wss-ATOM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "orangex",
-                "base": "ATOM",
+                "base": "SUI",
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

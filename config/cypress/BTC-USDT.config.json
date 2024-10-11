@@ -181,6 +181,15 @@
                 "base": "BTC",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-BTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "BTC",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,
