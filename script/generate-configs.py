@@ -212,6 +212,16 @@ def get_gopax_symbols(url):
         result.append(entry["name"].replace("-","").lower())
     return result
 
+def get_orangex_symbols(url):
+    result = []
+    json_data = load_json_from_url(url)
+
+    for entry in json_data["result"]:
+        if not entry["is_active"]:
+            continue
+        result.append(entry["show_name"].replace("/","").lower())
+    return result
+
 def store_symbols(urls_path, symbols_path):
     store_directory = os.path.dirname(symbols_path)
     if not os.path.exists(store_directory):
@@ -244,6 +254,7 @@ def store_symbols(urls_path, symbols_path):
     result["bitmart"] = get_bitmart_symbols(urls["bitmart"])
     result["xt"] = get_xt_symbols(urls["xt"])
     result["gopax"] = get_gopax_symbols(urls["gopax"])
+    result["orangex"] = get_orangex_symbols(urls["orangex"])
 
     with open(symbols_path, "w") as f:
         json.dump(result, f, indent=4)

@@ -1,53 +1,53 @@
 {
-  "name": "APT-KRW",
-  "fetchInterval": 2000,
-  "aggregateInterval": 400,
-  "submitInterval": 60000,
-  "feeds": [
-    {
-      "name": "upbit-wss-APT-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "APT",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "korbit-wss-APT-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "APT",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "bithumb-wss-APT-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "bithumb",
-        "base": "APT",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "coinone-wss-APT-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "APT",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "gopax-wss-APT-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "gopax",
-        "base": "APT",
-        "quote": "KRW"
-      }
-    }
-  ]
+    "name": "APT-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "upbit-wss-APT-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "APT",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-APT-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "APT",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-APT-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "APT",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-APT-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "APT",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "gopax-wss-APT-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "APT",
+                "quote": "KRW"
+            }
+        }
+    ]
 }

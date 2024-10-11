@@ -126,6 +126,15 @@
                 "base": "TRX",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "TRX",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

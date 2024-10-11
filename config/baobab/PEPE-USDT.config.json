@@ -129,6 +129,15 @@
                 "base": "PEPE",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
         }
     ]
 }

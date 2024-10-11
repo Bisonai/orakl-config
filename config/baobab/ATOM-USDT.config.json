@@ -144,6 +144,15 @@
                 "base": "ATOM",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-ATOM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "ATOM",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

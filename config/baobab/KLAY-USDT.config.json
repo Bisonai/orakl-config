@@ -135,6 +135,15 @@
                 "base": "KLAY",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-KLAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "KLAY",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,

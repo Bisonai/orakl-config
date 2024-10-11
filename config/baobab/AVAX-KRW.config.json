@@ -1,53 +1,53 @@
 {
-  "name": "AVAX-KRW",
-  "fetchInterval": 2000,
-  "aggregateInterval": 400,
-  "submitInterval": 60000,
-  "feeds": [
-    {
-      "name": "upbit-wss-AVAX-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "AVAX",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "korbit-wss-AVAX-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "AVAX",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "bithumb-wss-AVAX-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "bithumb",
-        "base": "AVAX",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "coinone-wss-AVAX-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "AVAX",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "gopax-wss-AVAX-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "gopax",
-        "base": "AVAX",
-        "quote": "KRW"
-      }
-    }
-  ]
+    "name": "AVAX-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "upbit-wss-AVAX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "AVAX",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "korbit-wss-AVAX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "AVAX",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-AVAX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "AVAX",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-AVAX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "AVAX",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "gopax-wss-AVAX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "AVAX",
+                "quote": "KRW"
+            }
+        }
+    ]
 }

@@ -108,6 +108,15 @@
                 "base": "WEMIX",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-WEMIX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "WEMIX",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,
