@@ -11,15 +11,6 @@
             }
         },
         {
-            "name": "binance-wss-KLAY-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "KLAY",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "kucoin-wss-KLAY-USDT",
             "definition": {
                 "type": "wss",
