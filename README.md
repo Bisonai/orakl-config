@@ -12,7 +12,7 @@
 | [ARB-KRW](config/baobab/ARB-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [ASTR-KRW](config/baobab/ASTR-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [ATOM-USDT](config/baobab/ATOM-USDT.config.json) | 2000 | 400 | 15000 | 17 |
-| [AUCTION-KRW](config/baobab/AUCTION-KRW.config.json) | 2000 | 400 | 60000 | 3 |
+| [AUCTION-KRW](config/baobab/AUCTION-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [AVAX-KRW](config/baobab/AVAX-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [AVAX-USDT](config/baobab/AVAX-USDT.config.json) | 2000 | 400 | 15000 | 17 |
 | [AXS-KRW](config/baobab/AXS-KRW.config.json) | 2000 | 400 | 60000 | 4 |
@@ -57,7 +57,7 @@
 | [JOY-USDT](config/baobab/JOY-USDT.config.json) | 2000 | 400 | 15000 | 6 |
 | [JPY-USD](config/baobab/JPY-USD.config.json) | 2000 | 400 | 15000 | 3 |
 | [KLAY-KRW](config/baobab/KLAY-KRW.config.json) | 2000 | 400 | 60000 | 4 |
-| [KLAY-USDT](config/baobab/KLAY-USDT.config.json) | 2000 | 400 | 15000 | 15 |
+| [KLAY-USDT](config/baobab/KLAY-USDT.config.json) | 2000 | 400 | 60000 | 4 |
 | [KNC-KRW](config/baobab/KNC-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [KRW-USD](config/baobab/KRW-USD.config.json) | 2000 | 400 | 15000 | 3 |
 | [KSP-KRW](config/baobab/KSP-KRW.config.json) | 2000 | 400 | 15000 | 2 |
@@ -73,7 +73,7 @@
 | [NEAR-KRW](config/baobab/NEAR-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [ONDO-KRW](config/baobab/ONDO-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [ONG-KRW](config/baobab/ONG-KRW.config.json) | 2000 | 400 | 60000 | 3 |
-| [PAXG-USDT](config/baobab/PAXG-USDT.config.json) | 2000 | 400 | 15000 | 8 |
+| [PAXG-USDT](config/baobab/PAXG-USDT.config.json) | 2000 | 400 | 15000 | 9 |
 | [PEPE-KRW](config/baobab/PEPE-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [PEPE-USDT](config/baobab/PEPE-USDT.config.json) | 2000 | 400 | 15000 | 15 |
 | [PER-KLAY](config/baobab/PER-KLAY.config.json) | 2000 | 400 | 15000 | 1 |
@@ -96,7 +96,7 @@
 | [SUI-USDT](config/baobab/SUI-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [TRX-KRW](config/baobab/TRX-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [TRX-USDT](config/baobab/TRX-USDT.config.json) | 2000 | 400 | 15000 | 15 |
-| [UNI-USDT](config/baobab/UNI-USDT.config.json) | 2000 | 400 | 15000 | 17 |
+| [UNI-USDT](config/baobab/UNI-USDT.config.json) | 2000 | 400 | 15000 | 18 |
 | [USDC-USDT](config/baobab/USDC-USDT.config.json) | 2000 | 400 | 15000 | 19 |
 | [USDT-KRW](config/baobab/USDT-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [USDT-USD](config/baobab/USDT-USD.config.json) | 2000 | 400 | 60000 | 6 |

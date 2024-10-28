@@ -1,51 +1,9 @@
 {
     "name": "KLAY-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "bybit-wss-KLAY-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "KLAY",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kucoin-wss-KLAY-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "KLAY",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-KLAY-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "KLAY",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-KLAY-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
-                "base": "KLAY",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-KLAY-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "KLAY",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "gateio-wss-KLAY-USDT",
             "definition": {
@@ -60,33 +18,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "coinex",
-                "base": "KLAY",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-KLAY-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "KLAY",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-KLAY-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "KLAY",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-KLAY-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
                 "base": "KLAY",
                 "quote": "USDT"
             }
@@ -108,36 +39,6 @@
                 "base": "KLAY",
                 "quote": "USDT"
             }
-        },
-        {
-            "name": "bitmart-wss-KLAY-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "KLAY",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-KLAY-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "KLAY",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "orangex-wss-KLAY-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "orangex",
-                "base": "KLAY",
-                "quote": "USDT"
-            }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }
