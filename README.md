@@ -57,7 +57,7 @@
 | [JOY-USDT](config/baobab/JOY-USDT.config.json) | 2000 | 400 | 15000 | 6 |
 | [JPY-USD](config/baobab/JPY-USD.config.json) | 2000 | 400 | 15000 | 3 |
 | [KLAY-KRW](config/baobab/KLAY-KRW.config.json) | 2000 | 400 | 60000 | 4 |
-| [KLAY-USDT](config/baobab/KLAY-USDT.config.json) | 2000 | 400 | 15000 | 16 |
+| [KLAY-USDT](config/baobab/KLAY-USDT.config.json) | 2000 | 400 | 15000 | 15 |
 | [KNC-KRW](config/baobab/KNC-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [KRW-USD](config/baobab/KRW-USD.config.json) | 2000 | 400 | 15000 | 3 |
 | [KSP-KRW](config/baobab/KSP-KRW.config.json) | 2000 | 400 | 15000 | 2 |
@@ -170,7 +170,7 @@
 | [JOY-USDT](config/cypress/JOY-USDT.config.json) | 2000 | 400 | 15000 | 6 |
 | [JPY-USD](config/cypress/JPY-USD.config.json) | 2000 | 400 | 15000 | 3 |
 | [KLAY-KRW](config/cypress/KLAY-KRW.config.json) | 2000 | 400 | 60000 | 4 |
-| [KLAY-USDT](config/cypress/KLAY-USDT.config.json) | 2000 | 400 | 15000 | 16 |
+| [KLAY-USDT](config/cypress/KLAY-USDT.config.json) | 2000 | 400 | 15000 | 15 |
 | [KNC-KRW](config/cypress/KNC-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [KRW-USD](config/cypress/KRW-USD.config.json) | 2000 | 400 | 15000 | 3 |
 | [KSP-KRW](config/cypress/KSP-KRW.config.json) | 2000 | 400 | 15000 | 2 |
