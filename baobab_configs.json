@@ -3986,19 +3986,10 @@
         "submitInterval": 15000,
         "feeds": [
             {
-                "name": "coinex-wss-KLAY-USDT",
+                "name": "lbank-wss-KLAY-USDT",
                 "definition": {
                     "type": "wss",
-                    "provider": "coinex",
-                    "base": "KLAY",
-                    "quote": "USDT"
-                }
-            },
-            {
-                "name": "okx-wss-KLAY-USDT",
-                "definition": {
-                    "type": "wss",
-                    "provider": "okx",
+                    "provider": "lbank",
                     "base": "KLAY",
                     "quote": "USDT"
                 }
@@ -4035,6 +4026,42 @@
                 "definition": {
                     "type": "wss",
                     "provider": "bitget",
+                    "base": "KAIA",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-KAIA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
+                    "base": "KAIA",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "okx-wss-KAIA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "okx",
+                    "base": "KAIA",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "xt-wss-KAIA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "xt",
+                    "base": "KAIA",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "binance-wss-KAIA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "binance",
                     "base": "KAIA",
                     "quote": "USDT"
                 }
