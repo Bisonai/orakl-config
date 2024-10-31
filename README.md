@@ -57,7 +57,7 @@
 | [JOY-USDT](config/baobab/JOY-USDT.config.json) | 2000 | 400 | 15000 | 6 |
 | [JPY-USD](config/baobab/JPY-USD.config.json) | 2000 | 400 | 15000 | 3 |
 | [KLAY-KRW](config/baobab/KLAY-KRW.config.json) | 2000 | 400 | 60000 | 4 |
-| [KLAY-USDT](config/baobab/KLAY-USDT.config.json) | 2000 | 400 | 15000 | 6 |
+| [KLAY-USDT](config/baobab/KLAY-USDT.config.json) | 2000 | 400 | 15000 | 9 |
 | [KNC-KRW](config/baobab/KNC-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [KRW-USD](config/baobab/KRW-USD.config.json) | 2000 | 400 | 15000 | 3 |
 | [KSP-KRW](config/baobab/KSP-KRW.config.json) | 2000 | 400 | 15000 | 2 |
