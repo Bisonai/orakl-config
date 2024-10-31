@@ -3986,11 +3986,11 @@
         "submitInterval": 15000,
         "feeds": [
             {
-                "name": "lbank-wss-KLAY-USDT",
+                "name": "lbank-wss-KAIA-USDT",
                 "definition": {
                     "type": "wss",
                     "provider": "lbank",
-                    "base": "KLAY",
+                    "base": "KAIA",
                     "quote": "USDT"
                 }
             },
