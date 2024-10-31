@@ -5,15 +5,6 @@
     "submitInterval": 15000,
     "feeds": [
         {
-            "name": "gateio-wss-KLAY-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "KLAY",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "coinex-wss-KLAY-USDT",
             "definition": {
                 "type": "wss",
@@ -37,6 +28,33 @@
                 "type": "wss",
                 "provider": "bingx",
                 "base": "KLAY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-KAIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "KAIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-KAIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "KAIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-KAIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "KAIA",
                 "quote": "USDT"
             }
         }
