@@ -72,6 +72,15 @@
                 "base": "PAXG",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "xt-wss-PAXG-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "PAXG",
+                "quote": "USDT"
+            }
         }
     ],
     "fetchInterval": 2000,
