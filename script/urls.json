@@ -2,7 +2,7 @@
   "binance": "https://api.binance.com/api/v3/exchangeInfo",
   "coinbase": "https://api.exchange.coinbase.com/products",
   "kucoin": "https://api.kucoin.com/api/v2/symbols",
-  "bybit": "https://api-testnet.bybit.com/spot/v3/public/symbols",
+  "bybit": "https://bybit.com/spot/v3/public/symbols",
   "bitstamp": "https://www.bitstamp.net/api/v2/ticker/",
   "gemini": "https://api.gemini.com/v1/symbols",
   "upbit": "https://api.upbit.com/v1/market/all?isDetails=true",
