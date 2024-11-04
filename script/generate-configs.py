@@ -231,30 +231,80 @@ def store_symbols(urls_path, symbols_path):
     urls = load_json_from_path(urls_path)
 
     result["binance"] = get_binance_symbols(urls["binance"])
+    print("binance symbol loaded")
+
     result["coinbase"] = get_coinbase_symbols(urls["coinbase"])
+    print("coinbase symbol loaded")
+
     result["kucoin"] = get_kucoin_symbols(urls["kucoin"])
+    print("kucoin symbol loaded")
+
     result["bybit"] = get_bybit_symbols(urls["bybit"])
+    print("bybit symbol loaded")
+
     result["bitstamp"] = get_bistamp_symbols(urls["bitstamp"])
+    print("bitstamp symbol loaded")
+
     result["gemini"] = get_gemini_symbols(urls["gemini"])
+    print("gemini symbol loaded")
+
     result["upbit"] = get_upbit_symbols(urls["upbit"])
+    print("upbit symbol loaded")
+
     result["korbit"] = get_korbit_symbols(urls["korbit"])
+    print("korbit symbol loaded")
+
     result["crypto"] = get_crypto_symbols(urls["crypto"])
+    print("crypto symbol loaded")
+
     result["btse"] = get_btse_symbols(urls["btse"])
+    print("btse symbol loaded")
+
     result["bithumb"] = get_bithumb_symbols(urls["bithumb"])
+    print("bithumb symbol loaded")
+
     result["gateio"] = get_gateio_symbols(urls["gateio"])
+    print("gateio symbol loaded")
+
     result["lbank"] = get_lbank_symbols(urls["lbank"])
+    print("lbank symbol loaded")
+
     result["coinex"] = get_coinex_symbols(urls["coinex"])
+    print("coinex symbol loaded")
+
     result["bitget"] = get_bitget_symbols(urls["bitget"])
+    print("coinex symbol loaded")
+
     result["coinone"] = get_coinone_symbols(urls["coinone"])
+    print("coinex symbol loaded")
+
     result["huobi"] = get_huobi_symbols(urls["huobi"])
+    print("coinex symbol loaded")
+
     result["mexc"] = get_mexc_symbols(urls["mexc"])
+    print("coinex symbol loaded")
+
     result["okx"] = get_okx_symbols(urls["okx"])
+    print("coinex symbol loaded")
+
     result["kraken"] = get_kraken_symbols(urls["kraken"])
+    print("coinex symbol loaded")
+
     result["bingx"] = get_bingx_symbols(urls["bingx"])
+    print("coinex symbol loaded")
+
     result["bitmart"] = get_bitmart_symbols(urls["bitmart"])
+    print("coinex symbol loaded")
+
     result["xt"] = get_xt_symbols(urls["xt"])
+    print("coinex symbol loaded")
+
     result["gopax"] = get_gopax_symbols(urls["gopax"])
+    print("coinex symbol loaded")
+
     result["orangex"] = get_orangex_symbols(urls["orangex"])
+    print("coinex symbol loaded")
+
 
     with open(symbols_path, "w") as f:
         json.dump(result, f, indent=4)
@@ -341,7 +391,7 @@ if __name__ == "__main__":
 
     symbols_only = args.onlysymbols
     refresh = args.refresh
-    input_symbols = args.symbols.split(",")
+    input_symbols = args.symbols.replace(" ","").split(",")
     network = args.network
 
     if not os.path.exists(SYMBOLS_PATH) or refresh or symbols_only:
