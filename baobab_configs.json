@@ -3942,24 +3942,6 @@
         "submitInterval": 60000,
         "feeds": [
             {
-                "name": "korbit-wss-KLAY-KRW",
-                "definition": {
-                    "type": "wss",
-                    "provider": "korbit",
-                    "base": "KLAY",
-                    "quote": "KRW"
-                }
-            },
-            {
-                "name": "coinone-wss-KLAY-KRW",
-                "definition": {
-                    "type": "wss",
-                    "provider": "coinone",
-                    "base": "KLAY",
-                    "quote": "KRW"
-                }
-            },
-            {
                 "name": "gopax-wss-KLAY-KRW",
                 "definition": {
                     "type": "wss",
@@ -3969,10 +3951,28 @@
                 }
             },
             {
+                "name": "korbit-wss-KAIA-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "korbit",
+                    "base": "KAIA",
+                    "quote": "KRW"
+                }
+            },
+            {
                 "name": "bithumb-wss-KAIA-KRW",
                 "definition": {
                     "type": "wss",
                     "provider": "bithumb",
+                    "base": "KAIA",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "coinone-wss-KAIA-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "coinone",
                     "base": "KAIA",
                     "quote": "KRW"
                 }
