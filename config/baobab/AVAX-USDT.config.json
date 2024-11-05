@@ -2,10 +2,73 @@
     "name": "AVAX-USDT",
     "feeds": [
         {
-            "name": "bybit-wss-AVAX-USDT",
+            "name": "binance-wss-AVAX-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "bybit",
+                "provider": "binance",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinbase-wss-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
                 "base": "AVAX",
                 "quote": "USDT"
             }
@@ -20,10 +83,28 @@
             }
         },
         {
+            "name": "coinbase-wss-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "kucoin-wss-AVAX-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
                 "base": "AVAX",
                 "quote": "USDT"
             }
@@ -47,15 +128,6 @@
             }
         },
         {
-            "name": "coinbase-wss-AVAX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "AVAX",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "gateio-wss-AVAX-USDT",
             "definition": {
                 "type": "wss",
@@ -65,19 +137,19 @@
             }
         },
         {
-            "name": "coinex-wss-AVAX-USDT",
+            "name": "lbank-wss-AVAX-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "coinex",
+                "provider": "lbank",
                 "base": "AVAX",
                 "quote": "USDT"
             }
         },
         {
-            "name": "lbank-wss-AVAX-USDT",
+            "name": "coinex-wss-AVAX-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "lbank",
+                "provider": "coinex",
                 "base": "AVAX",
                 "quote": "USDT"
             }

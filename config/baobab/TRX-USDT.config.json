@@ -2,10 +2,64 @@
     "name": "TRX-USDT",
     "feeds": [
         {
-            "name": "bybit-wss-TRX-USDT",
+            "name": "binance-wss-TRX-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "bybit",
+                "provider": "binance",
+                "base": "TRX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "TRX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "TRX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "TRX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "TRX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "TRX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
                 "base": "TRX",
                 "quote": "USDT"
             }
@@ -29,6 +83,24 @@
             }
         },
         {
+            "name": "bybit-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "TRX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "TRX",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "btse-wss-TRX-USDT",
             "definition": {
                 "type": "wss",
@@ -47,28 +119,19 @@
             }
         },
         {
-            "name": "coinex-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "upbit-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "lbank-wss-TRX-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "lbank",
+                "base": "TRX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
                 "base": "TRX",
                 "quote": "USDT"
             }

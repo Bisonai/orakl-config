@@ -5,6 +5,24 @@
     "submitInterval": 60000,
     "feeds": [
         {
+            "name": "korbit-wss-PYTH-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "PYTH",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-PYTH-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "PYTH",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "upbit-wss-PYTH-KRW",
             "definition": {
                 "type": "wss",

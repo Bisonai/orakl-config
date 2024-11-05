@@ -5,6 +5,24 @@
     "submitInterval": 60000,
     "feeds": [
         {
+            "name": "bithumb-wss-SNT-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "SNT",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "gopax-wss-SNT-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "SNT",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "upbit-wss-SNT-KRW",
             "definition": {
                 "type": "wss",

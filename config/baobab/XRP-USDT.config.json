@@ -2,28 +2,10 @@
     "name": "XRP-USDT",
     "feeds": [
         {
-            "name": "bybit-wss-XRP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "XRP",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "binance-wss-XRP-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",
-                "base": "XRP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kucoin-wss-XRP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
                 "base": "XRP",
                 "quote": "USDT"
             }
@@ -38,10 +20,73 @@
             }
         },
         {
-            "name": "btse-wss-XRP-USDT",
+            "name": "coinbase-wss-XRP-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "btse",
+                "provider": "coinbase",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "binance-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
                 "base": "XRP",
                 "quote": "USDT"
             }
@@ -56,19 +101,19 @@
             }
         },
         {
-            "name": "gateio-wss-XRP-USDT",
+            "name": "kucoin-wss-XRP-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "gateio",
+                "provider": "kucoin",
                 "base": "XRP",
                 "quote": "USDT"
             }
         },
         {
-            "name": "coinex-wss-XRP-USDT",
+            "name": "bybit-wss-XRP-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "coinex",
+                "provider": "bybit",
                 "base": "XRP",
                 "quote": "USDT"
             }
@@ -92,10 +137,46 @@
             }
         },
         {
+            "name": "crypto-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "lbank-wss-XRP-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "lbank",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
                 "base": "XRP",
                 "quote": "USDT"
             }

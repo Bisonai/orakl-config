@@ -5,6 +5,15 @@
     "submitInterval": 60000,
     "feeds": [
         {
+            "name": "bithumb-wss-MBL-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "MBL",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "upbit-wss-MBL-KRW",
             "definition": {
                 "type": "wss",

@@ -2,10 +2,73 @@
     "name": "ATOM-USDT",
     "feeds": [
         {
-            "name": "bybit-wss-ATOM-USDT",
+            "name": "binance-wss-ATOM-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "bybit",
+                "provider": "binance",
+                "base": "ATOM",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-ATOM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "ATOM",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinbase-wss-ATOM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "ATOM",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-ATOM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "ATOM",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-ATOM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "ATOM",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-ATOM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "ATOM",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-ATOM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "ATOM",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-ATOM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
                 "base": "ATOM",
                 "quote": "USDT"
             }
@@ -20,10 +83,28 @@
             }
         },
         {
+            "name": "coinbase-wss-ATOM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "ATOM",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "kucoin-wss-ATOM-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
+                "base": "ATOM",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-ATOM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
                 "base": "ATOM",
                 "quote": "USDT"
             }
@@ -47,15 +128,6 @@
             }
         },
         {
-            "name": "coinbase-wss-ATOM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "ATOM",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "gateio-wss-ATOM-USDT",
             "definition": {
                 "type": "wss",
@@ -65,19 +137,19 @@
             }
         },
         {
-            "name": "coinex-wss-ATOM-USDT",
+            "name": "lbank-wss-ATOM-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "coinex",
+                "provider": "lbank",
                 "base": "ATOM",
                 "quote": "USDT"
             }
         },
         {
-            "name": "lbank-wss-ATOM-USDT",
+            "name": "coinex-wss-ATOM-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "lbank",
+                "provider": "coinex",
                 "base": "ATOM",
                 "quote": "USDT"
             }

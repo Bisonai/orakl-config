@@ -5,6 +5,15 @@
     "submitInterval": 60000,
     "feeds": [
         {
+            "name": "bithumb-wss-STRK-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "STRK",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "korbit-wss-STRK-KRW",
             "definition": {
                 "type": "wss",

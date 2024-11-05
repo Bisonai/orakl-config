@@ -5,6 +5,24 @@
     "submitInterval": 60000,
     "feeds": [
         {
+            "name": "korbit-wss-ARB-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "ARB",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-ARB-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "ARB",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "upbit-wss-ARB-KRW",
             "definition": {
                 "type": "wss",

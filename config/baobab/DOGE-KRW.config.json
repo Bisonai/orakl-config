@@ -5,6 +5,24 @@
     "submitInterval": 60000,
     "feeds": [
         {
+            "name": "korbit-wss-DOGE-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "DOGE",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-DOGE-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "DOGE",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "upbit-wss-DOGE-KRW",
             "definition": {
                 "type": "wss",

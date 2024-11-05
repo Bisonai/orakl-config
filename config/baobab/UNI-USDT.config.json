@@ -2,28 +2,10 @@
     "name": "UNI-USDT",
     "feeds": [
         {
-            "name": "bybit-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "binance-wss-UNI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kucoin-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
                 "base": "UNI",
                 "quote": "USDT"
             }
@@ -38,28 +20,10 @@
             }
         },
         {
-            "name": "btse-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "coinbase-wss-UNI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "coinbase",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
                 "base": "UNI",
                 "quote": "USDT"
             }
@@ -84,10 +48,118 @@
             }
         },
         {
+            "name": "bitget-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "binance-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "lbank-wss-UNI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "lbank",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
                 "base": "UNI",
                 "quote": "USDT"
             }
@@ -151,15 +223,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "orangex",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "upbit-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
                 "base": "UNI",
                 "quote": "USDT"
             }

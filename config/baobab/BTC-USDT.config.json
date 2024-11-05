@@ -2,10 +2,101 @@
     "name": "BTC-USDT",
     "feeds": [
         {
-            "name": "bybit-wss-BTC-USDT",
+            "name": "binance-wss-BTC-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "bybit",
+                "provider": "binance",
+                "base": "BTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-BTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "BTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-BTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "BTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-BTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "BTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "UniswapV3-0.3-WBTC-USDT",
+            "definition": {
+                "chainId": "1",
+                "address": "0x9db9e0e53058c89e5b94e29621a205198648425b",
+                "type": "UniswapPool",
+                "token0Decimals": 8,
+                "token1Decimals": 6
+            }
+        },
+        {
+            "name": "gemini-wss-BTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gemini",
+                "base": "BTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-BTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "BTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-BTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "BTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-BTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "BTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-BTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "BTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-BTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
                 "base": "BTC",
                 "quote": "USDT"
             }
@@ -38,49 +129,12 @@
             }
         },
         {
-            "name": "crypto-wss-BTC-USDT",
+            "name": "bybit-wss-BTC-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "crypto",
+                "provider": "bybit",
                 "base": "BTC",
                 "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-BTC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
-                "base": "BTC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-BTC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "BTC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-BTC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "BTC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "UniswapV3-0.3-WBTC-USDT",
-            "definition": {
-                "chainId": "1",
-                "address": "0x9db9e0e53058c89e5b94e29621a205198648425b",
-                "type": "UniswapPool",
-                "token0Decimals": 8,
-                "token1Decimals": 6
             }
         },
         {
@@ -111,10 +165,46 @@
             }
         },
         {
+            "name": "crypto-wss-BTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "BTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-BTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "BTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-BTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "BTC",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "lbank-wss-BTC-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "lbank",
+                "base": "BTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-BTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
                 "base": "BTC",
                 "quote": "USDT"
             }
@@ -133,15 +223,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "huobi",
-                "base": "BTC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-BTC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
                 "base": "BTC",
                 "quote": "USDT"
             }

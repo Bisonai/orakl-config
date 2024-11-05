@@ -5,6 +5,24 @@
     "submitInterval": 60000,
     "feeds": [
         {
+            "name": "korbit-wss-MINA-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "MINA",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-MINA-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "MINA",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "upbit-wss-MINA-KRW",
             "definition": {
                 "type": "wss",

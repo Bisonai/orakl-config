@@ -2,10 +2,82 @@
     "name": "SOL-USDT",
     "feeds": [
         {
-            "name": "bybit-wss-SOL-USDT",
+            "name": "binance-wss-SOL-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "bybit",
+                "provider": "binance",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinbase-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kraken-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
                 "base": "SOL",
                 "quote": "USDT"
             }
@@ -20,10 +92,37 @@
             }
         },
         {
+            "name": "coinbase-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "kucoin-wss-SOL-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
                 "base": "SOL",
                 "quote": "USDT"
             }
@@ -47,15 +146,6 @@
             }
         },
         {
-            "name": "coinbase-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "gateio-wss-SOL-USDT",
             "definition": {
                 "type": "wss",
@@ -65,19 +155,19 @@
             }
         },
         {
-            "name": "coinex-wss-SOL-USDT",
+            "name": "lbank-wss-SOL-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "coinex",
+                "provider": "lbank",
                 "base": "SOL",
                 "quote": "USDT"
             }
         },
         {
-            "name": "lbank-wss-SOL-USDT",
+            "name": "coinex-wss-SOL-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "lbank",
+                "provider": "coinex",
                 "base": "SOL",
                 "quote": "USDT"
             }
@@ -96,15 +186,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "huobi",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "upbit-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
                 "base": "SOL",
                 "quote": "USDT"
             }
