@@ -2,10 +2,64 @@
     "name": "LTC-USDT",
     "feeds": [
         {
-            "name": "bybit-wss-LTC-USDT",
+            "name": "binance-wss-LTC-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "bybit",
+                "provider": "binance",
+                "base": "LTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-LTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "LTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-LTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "LTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-LTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "LTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-LTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "LTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-LTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "LTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-LTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
                 "base": "LTC",
                 "quote": "USDT"
             }
@@ -24,6 +78,15 @@
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
+                "base": "LTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-LTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
                 "base": "LTC",
                 "quote": "USDT"
             }
@@ -56,19 +119,19 @@
             }
         },
         {
-            "name": "coinex-wss-LTC-USDT",
+            "name": "lbank-wss-LTC-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "coinex",
+                "provider": "lbank",
                 "base": "LTC",
                 "quote": "USDT"
             }
         },
         {
-            "name": "lbank-wss-LTC-USDT",
+            "name": "coinex-wss-LTC-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "lbank",
+                "provider": "coinex",
                 "base": "LTC",
                 "quote": "USDT"
             }

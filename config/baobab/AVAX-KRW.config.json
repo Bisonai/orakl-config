@@ -5,6 +5,24 @@
     "submitInterval": 60000,
     "feeds": [
         {
+            "name": "korbit-wss-AVAX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "AVAX",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-AVAX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "AVAX",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "upbit-wss-AVAX-KRW",
             "definition": {
                 "type": "wss",

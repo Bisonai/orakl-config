@@ -5,6 +5,15 @@
     "submitInterval": 60000,
     "feeds": [
         {
+            "name": "bithumb-wss-ZETA-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "ZETA",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "upbit-wss-ZETA-KRW",
             "definition": {
                 "type": "wss",

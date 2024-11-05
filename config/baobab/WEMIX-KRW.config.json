@@ -5,6 +5,24 @@
     "submitInterval": 60000,
     "feeds": [
         {
+            "name": "bithumb-wss-WEMIX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "WEMIX",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "gopax-wss-WEMIX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "WEMIX",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "korbit-wss-WEMIX-KRW",
             "definition": {
                 "type": "wss",

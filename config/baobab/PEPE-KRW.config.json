@@ -5,6 +5,15 @@
     "submitInterval": 60000,
     "feeds": [
         {
+            "name": "bithumb-wss-PEPE-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "PEPE",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "korbit-wss-PEPE-KRW",
             "definition": {
                 "type": "wss",

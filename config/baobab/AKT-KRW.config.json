@@ -5,6 +5,15 @@
     "submitInterval": 60000,
     "feeds": [
         {
+            "name": "korbit-wss-AKT-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "AKT",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "upbit-wss-AKT-KRW",
             "definition": {
                 "type": "wss",

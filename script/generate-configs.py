@@ -12,7 +12,7 @@ DEFAULT_AGGREGATE_INTERVAL = 400
 DEFAULT_SUBMIT_INTERVAL = 60000 # 1 minute
 
 def load_json_from_url(url):
-    response = requests.get(url)
+    response = requests.get(url=url, headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"})
     json_data = response.json()
     return json_data
 
@@ -51,7 +51,9 @@ def get_kucoin_symbols(url):
 def get_bybit_symbols(url):
     result = []
     json_data = load_json_from_url(url)
+    print("loaded bybit json data")
     for entry in json_data["result"]["list"]:
+        print("checking symbol: " + entry["name"])
         if entry["showStatus"] != "1":
             continue
         result.append(entry["name"].lower())
@@ -273,37 +275,37 @@ def store_symbols(urls_path, symbols_path):
     print("coinex symbol loaded")
 
     result["bitget"] = get_bitget_symbols(urls["bitget"])
-    print("coinex symbol loaded")
+    print("bitget symbol loaded")
 
     result["coinone"] = get_coinone_symbols(urls["coinone"])
-    print("coinex symbol loaded")
+    print("coinone symbol loaded")
 
     result["huobi"] = get_huobi_symbols(urls["huobi"])
-    print("coinex symbol loaded")
+    print("huobi symbol loaded")
 
     result["mexc"] = get_mexc_symbols(urls["mexc"])
-    print("coinex symbol loaded")
+    print("mexc symbol loaded")
 
     result["okx"] = get_okx_symbols(urls["okx"])
-    print("coinex symbol loaded")
+    print("okx symbol loaded")
 
     result["kraken"] = get_kraken_symbols(urls["kraken"])
-    print("coinex symbol loaded")
+    print("kraken symbol loaded")
 
     result["bingx"] = get_bingx_symbols(urls["bingx"])
-    print("coinex symbol loaded")
+    print("bingx symbol loaded")
 
     result["bitmart"] = get_bitmart_symbols(urls["bitmart"])
-    print("coinex symbol loaded")
+    print("bitmart symbol loaded")
 
     result["xt"] = get_xt_symbols(urls["xt"])
-    print("coinex symbol loaded")
+    print("xt symbol loaded")
 
     result["gopax"] = get_gopax_symbols(urls["gopax"])
-    print("coinex symbol loaded")
+    print("gopax symbol loaded")
 
     result["orangex"] = get_orangex_symbols(urls["orangex"])
-    print("coinex symbol loaded")
+    print("orangex symbol loaded")
 
 
     with open(symbols_path, "w") as f:
@@ -351,6 +353,7 @@ def load_args():
     parser.add_argument("--refresh", type=bool, default=False, help="Refresh supported symbols from apis, true or false")
     parser.add_argument("--symbols", type=str, default="", required=False, help="configs to create, separated by comma, ex) btc-usdt, eth-usdt...")
     parser.add_argument("--network", type=str, default="baobab", required=False, help="network to generate, defaults to baobab")
+    parser.add_argument("--replace", type=bool, default=False, required=False, help="remove old ws sources and add new ones")
 
     args = parser.parse_args()
 
@@ -385,6 +388,32 @@ def update_or_make_config_file(config_folder_path, symbol, feeds):
     with open(f"{config_folder_path}/{symbol}.config.json", "w") as f:
         json.dump(result, f, indent=4)
 
+def replace_config_file(config_folder_path, symbol, feeds):
+    # removes all ws feeds from previous file, and replace with new one
+    result = {}
+    if not os.path.exists(config_folder_path+"/"+symbol+".config.json"):
+        result["name"] = symbol
+        result["fetchInterval"] = DEFAULT_FETCH_INTERVAL
+        result["aggregateInterval"] = DEFAULT_AGGREGATE_INTERVAL
+        result["submitInterval"] = DEFAULT_SUBMIT_INTERVAL
+        result["feeds"] = feeds
+        with open(f"{config_folder_path}/{symbol}.config.json", "w") as f:
+            json.dump(result, f, indent=4)
+        return
+
+    with open(f"{config_folder_path}/{symbol}.config.json", "r") as f:
+        result = json.load(f)
+
+    for i, feed in enumerate(result["feeds"]):
+        if "-wss-" in feed["name"]:
+            del result["feeds"][i]
+
+    for feed in feeds:
+        result["feeds"].append(feed)
+
+    with open(f"{config_folder_path}/{symbol}.config.json", "w") as f:
+        json.dump(result, f, indent=4)
+
 
 if __name__ == "__main__":
     args = load_args()
@@ -393,6 +422,7 @@ if __name__ == "__main__":
     refresh = args.refresh
     input_symbols = args.symbols.replace(" ","").split(",")
     network = args.network
+    is_replace = args.replace
 
     if not os.path.exists(SYMBOLS_PATH) or refresh or symbols_only:
         store_symbols(URLS_PATH, SYMBOLS_PATH)
@@ -427,4 +457,7 @@ if __name__ == "__main__":
 
 
     for symbol, feeds in result.items():
-        update_or_make_config_file(f"config/{network}", symbol, feeds)
+        if is_replace:
+            replace_config_file(f"config/{network}", symbol, feeds)
+        else:
+            update_or_make_config_file(f"config/{network}", symbol, feeds)

@@ -5,6 +5,24 @@
     "submitInterval": 60000,
     "feeds": [
         {
+            "name": "korbit-wss-CTC-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "CTC",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "gopax-wss-CTC-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "CTC",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "upbit-wss-CTC-KRW",
             "definition": {
                 "type": "wss",

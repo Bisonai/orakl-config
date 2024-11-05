@@ -5,6 +5,24 @@
     "submitInterval": 60000,
     "feeds": [
         {
+            "name": "korbit-wss-FLOW-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "FLOW",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-FLOW-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "FLOW",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "upbit-wss-FLOW-KRW",
             "definition": {
                 "type": "wss",
