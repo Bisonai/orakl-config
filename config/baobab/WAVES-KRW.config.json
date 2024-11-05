@@ -5,15 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "bithumb-wss-WAVES-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "WAVES",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "upbit-wss-WAVES-KRW",
             "definition": {
                 "type": "wss",

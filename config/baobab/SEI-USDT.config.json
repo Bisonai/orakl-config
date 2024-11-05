@@ -5,60 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "kucoin-wss-SEI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "SEI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-SEI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "SEI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-SEI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "SEI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-SEI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "SEI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-SEI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "SEI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-SEI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "SEI",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "binance-wss-SEI-USDT",
             "definition": {
                 "type": "wss",

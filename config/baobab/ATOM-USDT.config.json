@@ -1,78 +1,9 @@
 {
     "name": "ATOM-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "binance-wss-ATOM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "ATOM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-ATOM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "ATOM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-ATOM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "ATOM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-ATOM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "ATOM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-ATOM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "ATOM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-ATOM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "ATOM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-ATOM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "ATOM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-ATOM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "ATOM",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "binance-wss-ATOM-USDT",
             "definition": {
@@ -226,8 +157,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

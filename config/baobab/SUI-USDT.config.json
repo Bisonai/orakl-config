@@ -5,69 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "kucoin-wss-SUI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "SUI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-SUI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "SUI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-SUI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "SUI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-SUI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "SUI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-SUI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "SUI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-SUI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "SUI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-SUI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "SUI",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "binance-wss-SUI-USDT",
             "definition": {
                 "type": "wss",

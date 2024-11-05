@@ -5,15 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "orangex-wss-GRND-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "orangex",
-                "base": "GRND",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "gateio-wss-GRND-USDT",
             "definition": {
                 "type": "wss",

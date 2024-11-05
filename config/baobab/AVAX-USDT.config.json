@@ -1,78 +1,9 @@
 {
     "name": "AVAX-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "binance-wss-AVAX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "AVAX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-AVAX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "AVAX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-AVAX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "AVAX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-AVAX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "AVAX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-AVAX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "AVAX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-AVAX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "AVAX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-AVAX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "AVAX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-AVAX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "AVAX",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "binance-wss-AVAX-USDT",
             "definition": {
@@ -226,8 +157,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

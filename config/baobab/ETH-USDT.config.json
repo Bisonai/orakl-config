@@ -1,42 +1,9 @@
 {
     "name": "ETH-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "binance-wss-ETH-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "ETH",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-ETH-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "ETH",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-ETH-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "ETH",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-ETH-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "ETH",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "UniswapV3:0.3-ETH-USDT",
             "definition": {
@@ -55,60 +22,6 @@
                 "type": "UniswapPool",
                 "token0Decimals": 18,
                 "token1Decimals": 6
-            }
-        },
-        {
-            "name": "gemini-wss-ETH-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gemini",
-                "base": "ETH",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-ETH-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "ETH",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-ETH-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "ETH",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-ETH-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "ETH",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-ETH-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "ETH",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-ETH-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "ETH",
-                "quote": "USDT"
             }
         },
         {
@@ -291,8 +204,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

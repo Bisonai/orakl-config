@@ -5,15 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "coinone-wss-GRND-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "GRND",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "bithumb-wss-GRND-KRW",
             "definition": {
                 "type": "wss",

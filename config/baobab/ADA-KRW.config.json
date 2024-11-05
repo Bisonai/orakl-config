@@ -5,24 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "korbit-wss-ADA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "ADA",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-ADA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "ADA",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "upbit-wss-ADA-KRW",
             "definition": {
                 "type": "wss",

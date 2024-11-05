@@ -5,24 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "korbit-wss-AAVE-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "AAVE",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-AAVE-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "AAVE",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "upbit-wss-AAVE-KRW",
             "definition": {
                 "type": "wss",

@@ -1,42 +1,9 @@
 {
     "name": "UNI-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "binance-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "UniswapV3-UNI-USDT",
             "definition": {
@@ -45,42 +12,6 @@
                 "type": "UniswapPool",
                 "token0Decimals": 18,
                 "token1Decimals": 6
-            }
-        },
-        {
-            "name": "bitget-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "orangex-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "orangex",
-                "base": "UNI",
-                "quote": "USDT"
             }
         },
         {
@@ -227,8 +158,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

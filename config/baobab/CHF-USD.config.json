@@ -1,5 +1,8 @@
 {
     "name": "CHF-USD",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
         {
             "name": "Yahoo-CHF-USD",
@@ -104,8 +107,5 @@
                 ]
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

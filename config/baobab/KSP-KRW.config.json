@@ -1,15 +1,9 @@
 {
     "name": "KSP-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "korbit-wss-KSP-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "KSP",
-                "quote": "KRW"
-            }
-        },
         {
             "name": "korbit-wss-KSP-KRW",
             "definition": {
@@ -28,8 +22,5 @@
                 "quote": "KRW"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

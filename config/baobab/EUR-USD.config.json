@@ -1,5 +1,8 @@
 {
     "name": "EUR-USD",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
         {
             "name": "Yahoo-EUR-USD",
@@ -113,8 +116,5 @@
                 "quote": "USD"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

@@ -402,14 +402,21 @@ def replace_config_file(config_folder_path, symbol, feeds):
         return
 
     with open(f"{config_folder_path}/{symbol}.config.json", "r") as f:
-        result = json.load(f)
+        prev = json.load(f)
 
-    for i, feed in enumerate(result["feeds"]):
-        if "-wss-" in feed["name"]:
-            del result["feeds"][i]
+    result["name"] = symbol
+    result["fetchInterval"] = prev["fetchInterval"]
+    result["aggregateInterval"] = prev["aggregateInterval"]
+    result["submitInterval"] = prev["submitInterval"]
+    result["feeds"] = []
+    for feed in prev["feeds"]:
+        if "-wss-" not in feed["name"]:
+            result["feeds"].append(feed)
 
     for feed in feeds:
         result["feeds"].append(feed)
+
+
 
     with open(f"{config_folder_path}/{symbol}.config.json", "w") as f:
         json.dump(result, f, indent=4)

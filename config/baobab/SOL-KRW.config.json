@@ -5,24 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "korbit-wss-SOL-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "SOL",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-SOL-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "SOL",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "upbit-wss-SOL-KRW",
             "definition": {
                 "type": "wss",

@@ -5,24 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "korbit-wss-HPO-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "HPO",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "gopax-wss-HPO-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "gopax",
-                "base": "HPO",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "upbit-wss-HPO-KRW",
             "definition": {
                 "type": "wss",

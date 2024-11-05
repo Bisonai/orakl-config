@@ -1,5 +1,8 @@
 {
     "name": "JPY-USD",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
         {
             "name": "Yahoo-JPY-USD",
@@ -104,8 +107,5 @@
                 ]
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

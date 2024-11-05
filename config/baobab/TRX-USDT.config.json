@@ -1,69 +1,9 @@
 {
     "name": "TRX-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "binance-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "binance-wss-TRX-USDT",
             "definition": {
@@ -199,8 +139,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

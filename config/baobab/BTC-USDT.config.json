@@ -1,42 +1,9 @@
 {
     "name": "BTC-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "binance-wss-BTC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "BTC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kucoin-wss-BTC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "BTC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-BTC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
-                "base": "BTC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-BTC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "BTC",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "UniswapV3-0.3-WBTC-USDT",
             "definition": {
@@ -45,60 +12,6 @@
                 "type": "UniswapPool",
                 "token0Decimals": 8,
                 "token1Decimals": 6
-            }
-        },
-        {
-            "name": "gemini-wss-BTC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gemini",
-                "base": "BTC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-BTC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "BTC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-BTC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "BTC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-BTC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "BTC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-BTC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "BTC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "orangex-wss-BTC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "orangex",
-                "base": "BTC",
-                "quote": "USDT"
             }
         },
         {
@@ -272,8 +185,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

@@ -5,15 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "korbit-wss-MED-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "MED",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "upbit-wss-MED-KRW",
             "definition": {
                 "type": "wss",

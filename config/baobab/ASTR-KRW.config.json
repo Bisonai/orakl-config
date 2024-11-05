@@ -5,24 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "korbit-wss-ASTR-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "ASTR",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-ASTR-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "ASTR",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "upbit-wss-ASTR-KRW",
             "definition": {
                 "type": "wss",

@@ -1,87 +1,9 @@
 {
     "name": "XRP-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "binance-wss-XRP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "XRP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-XRP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "XRP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-XRP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "XRP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-XRP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "XRP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "upbit-wss-XRP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "XRP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-XRP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "XRP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-XRP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "XRP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-XRP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "XRP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-XRP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "XRP",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "binance-wss-XRP-USDT",
             "definition": {
@@ -253,8 +175,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

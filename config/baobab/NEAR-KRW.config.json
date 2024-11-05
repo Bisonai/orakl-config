@@ -5,24 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "korbit-wss-NEAR-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "NEAR",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-NEAR-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "NEAR",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "upbit-wss-NEAR-KRW",
             "definition": {
                 "type": "wss",

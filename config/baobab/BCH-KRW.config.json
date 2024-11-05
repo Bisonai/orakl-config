@@ -5,24 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "korbit-wss-BCH-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "BCH",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-BCH-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "BCH",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "upbit-wss-BCH-KRW",
             "definition": {
                 "type": "wss",

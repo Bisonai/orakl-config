@@ -5,15 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "bithumb-wss-IQ-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "IQ",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "upbit-wss-IQ-KRW",
             "definition": {
                 "type": "wss",
