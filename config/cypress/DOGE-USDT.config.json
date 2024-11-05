@@ -2,10 +2,73 @@
     "name": "DOGE-USDT",
     "feeds": [
         {
-            "name": "bybit-wss-DOGE-USDT",
+            "name": "binance-wss-DOGE-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "bybit",
+                "provider": "binance",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinbase-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
                 "base": "DOGE",
                 "quote": "USDT"
             }
@@ -20,10 +83,37 @@
             }
         },
         {
+            "name": "coinbase-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "kucoin-wss-DOGE-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
                 "base": "DOGE",
                 "quote": "USDT"
             }
@@ -47,15 +137,6 @@
             }
         },
         {
-            "name": "coinbase-wss-DOGE-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "DOGE",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "gateio-wss-DOGE-USDT",
             "definition": {
                 "type": "wss",
@@ -65,28 +146,19 @@
             }
         },
         {
-            "name": "coinex-wss-DOGE-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "DOGE",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "upbit-wss-DOGE-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "DOGE",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "lbank-wss-DOGE-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "lbank",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
                 "base": "DOGE",
                 "quote": "USDT"
             }

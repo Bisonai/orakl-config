@@ -2,10 +2,64 @@
     "name": "BNB-USDT",
     "feeds": [
         {
-            "name": "bybit-wss-BNB-USDT",
+            "name": "binance-wss-BNB-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "bybit",
+                "provider": "binance",
+                "base": "BNB",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-BNB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "BNB",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-BNB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "BNB",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-BNB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "BNB",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-BNB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "BNB",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-BNB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "BNB",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-BNB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
                 "base": "BNB",
                 "quote": "USDT"
             }
@@ -20,19 +74,19 @@
             }
         },
         {
-            "name": "coinbase-wss-BNB-USDT",
+            "name": "kucoin-wss-BNB-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "coinbase",
+                "provider": "kucoin",
                 "base": "BNB",
                 "quote": "USDT"
             }
         },
         {
-            "name": "kucoin-wss-BNB-USDT",
+            "name": "bybit-wss-BNB-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "kucoin",
+                "provider": "bybit",
                 "base": "BNB",
                 "quote": "USDT"
             }
@@ -56,19 +110,19 @@
             }
         },
         {
-            "name": "coinex-wss-BNB-USDT",
+            "name": "lbank-wss-BNB-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "coinex",
+                "provider": "lbank",
                 "base": "BNB",
                 "quote": "USDT"
             }
         },
         {
-            "name": "lbank-wss-BNB-USDT",
+            "name": "coinex-wss-BNB-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "lbank",
+                "provider": "coinex",
                 "base": "BNB",
                 "quote": "USDT"
             }

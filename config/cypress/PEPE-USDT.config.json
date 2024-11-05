@@ -5,6 +5,78 @@
     "submitInterval": 15000,
     "feeds": [
         {
+            "name": "kucoin-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "binance-wss-PEPE-USDT",
             "definition": {
                 "type": "wss",
@@ -18,6 +90,24 @@
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
                 "base": "PEPE",
                 "quote": "USDT"
             }
@@ -117,15 +207,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "xt",
-                "base": "PEPE",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "upbit-wss-PEPE-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
                 "base": "PEPE",
                 "quote": "USDT"
             }

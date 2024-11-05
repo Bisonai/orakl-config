@@ -5,6 +5,24 @@
     "submitInterval": 60000,
     "feeds": [
         {
+            "name": "bithumb-wss-GLM-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "GLM",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "gopax-wss-GLM-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "GLM",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "upbit-wss-GLM-KRW",
             "definition": {
                 "type": "wss",

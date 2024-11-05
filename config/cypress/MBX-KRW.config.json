@@ -2,10 +2,10 @@
     "name": "MBX-KRW",
     "feeds": [
         {
-            "name": "bithumb-wss-MBX-KRW",
+            "name": "korbit-wss-MBX-KRW",
             "definition": {
                 "type": "wss",
-                "provider": "bithumb",
+                "provider": "korbit",
                 "base": "MBX",
                 "quote": "KRW"
             }
@@ -15,6 +15,15 @@
             "definition": {
                 "type": "wss",
                 "provider": "korbit",
+                "base": "MBX",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-MBX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
                 "base": "MBX",
                 "quote": "KRW"
             }

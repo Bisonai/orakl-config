@@ -5,6 +5,15 @@
     "submitInterval": 60000,
     "feeds": [
         {
+            "name": "bithumb-wss-FET-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "FET",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "korbit-wss-FET-KRW",
             "definition": {
                 "type": "wss",

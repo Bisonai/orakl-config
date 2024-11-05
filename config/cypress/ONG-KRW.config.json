@@ -5,6 +5,15 @@
     "submitInterval": 60000,
     "feeds": [
         {
+            "name": "bithumb-wss-ONG-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "ONG",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "upbit-wss-ONG-KRW",
             "definition": {
                 "type": "wss",

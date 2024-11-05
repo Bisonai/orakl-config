@@ -5,6 +5,24 @@
     "submitInterval": 60000,
     "feeds": [
         {
+            "name": "korbit-wss-IMX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "IMX",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-IMX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "IMX",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "upbit-wss-IMX-KRW",
             "definition": {
                 "type": "wss",

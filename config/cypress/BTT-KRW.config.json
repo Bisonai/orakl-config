@@ -5,6 +5,24 @@
     "submitInterval": 60000,
     "feeds": [
         {
+            "name": "korbit-wss-BTT-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "BTT",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-BTT-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "BTT",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "upbit-wss-BTT-KRW",
             "definition": {
                 "type": "wss",

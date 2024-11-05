@@ -5,6 +5,24 @@
     "submitInterval": 60000,
     "feeds": [
         {
+            "name": "korbit-wss-ZRO-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "ZRO",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "coinone-wss-ZRO-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "ZRO",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "upbit-wss-ZRO-KRW",
             "definition": {
                 "type": "wss",

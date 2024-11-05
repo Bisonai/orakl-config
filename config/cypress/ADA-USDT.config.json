@@ -2,10 +2,82 @@
     "name": "ADA-USDT",
     "feeds": [
         {
-            "name": "bybit-wss-ADA-USDT",
+            "name": "binance-wss-ADA-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "bybit",
+                "provider": "binance",
+                "base": "ADA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "ADA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinbase-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "ADA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "ADA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "ADA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "ADA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kraken-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "ADA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "ADA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
                 "base": "ADA",
                 "quote": "USDT"
             }
@@ -20,10 +92,37 @@
             }
         },
         {
+            "name": "coinbase-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "ADA",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "kucoin-wss-ADA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
+                "base": "ADA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "ADA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
                 "base": "ADA",
                 "quote": "USDT"
             }
@@ -47,15 +146,6 @@
             }
         },
         {
-            "name": "coinbase-wss-ADA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "ADA",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "gateio-wss-ADA-USDT",
             "definition": {
                 "type": "wss",
@@ -65,28 +155,19 @@
             }
         },
         {
-            "name": "coinex-wss-ADA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "ADA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "upbit-wss-ADA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "ADA",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "lbank-wss-ADA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "lbank",
+                "base": "ADA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
                 "base": "ADA",
                 "quote": "USDT"
             }
