@@ -5,7 +5,7 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "gopax-wss-KLAY-KRW",
+            "name": "gopax-wss-KLAY-KRW-additional",
             "definition": {
                 "type": "wss",
                 "provider": "gopax",

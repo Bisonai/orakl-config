@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "korbit-wss-KAIA-KRW",
+            "name": "korbit-wss-KAIA-KRW-additional",
             "definition": {
                 "type": "wss",
                 "provider": "korbit",
@@ -23,7 +23,7 @@
             }
         },
         {
-            "name": "coinone-wss-KAIA-KRW",
+            "name": "coinone-wss-KAIA-KRW-additional",
             "definition": {
                 "type": "wss",
                 "provider": "coinone",
@@ -32,7 +32,7 @@
             }
         },
         {
-            "name": "korbit-wss-KAIA-KRW",
+            "name": "korbit-wss-KAIA-KRW-additional",
             "definition": {
                 "type": "wss",
                 "provider": "korbit",
@@ -41,7 +41,7 @@
             }
         },
         {
-            "name": "bithumb-wss-KAIA-KRW",
+            "name": "bithumb-wss-KAIA-KRW-additional",
             "definition": {
                 "type": "wss",
                 "provider": "bithumb",
@@ -50,7 +50,7 @@
             }
         },
         {
-            "name": "coinone-wss-KAIA-KRW",
+            "name": "coinone-wss-KAIA-KRW-additional",
             "definition": {
                 "type": "wss",
                 "provider": "coinone",

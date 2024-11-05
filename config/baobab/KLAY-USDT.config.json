@@ -5,7 +5,7 @@
     "submitInterval": 15000,
     "feeds": [
         {
-            "name": "kucoin-wss-KAIA-USDT",
+            "name": "kucoin-wss-KAIA-USDT-additional",
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "crypto-wss-KAIA-USDT",
+            "name": "crypto-wss-KAIA-USDT-additional",
             "definition": {
                 "type": "wss",
                 "provider": "crypto",
@@ -23,7 +23,7 @@
             }
         },
         {
-            "name": "lbank-wss-KAIA-USDT",
+            "name": "lbank-wss-KAIA-USDT-additional",
             "definition": {
                 "type": "wss",
                 "provider": "lbank",
@@ -32,7 +32,7 @@
             }
         },
         {
-            "name": "bitget-wss-KAIA-USDT",
+            "name": "bitget-wss-KAIA-USDT-additional",
             "definition": {
                 "type": "wss",
                 "provider": "bitget",
@@ -41,7 +41,7 @@
             }
         },
         {
-            "name": "okx-wss-KAIA-USDT",
+            "name": "okx-wss-KAIA-USDT-additional",
             "definition": {
                 "type": "wss",
                 "provider": "okx",
@@ -50,7 +50,7 @@
             }
         },
         {
-            "name": "xt-wss-KAIA-USDT",
+            "name": "xt-wss-KAIA-USDT-additional",
             "definition": {
                 "type": "wss",
                 "provider": "xt",
@@ -59,7 +59,7 @@
             }
         },
         {
-            "name": "binance-wss-KAIA-USDT",
+            "name": "binance-wss-KAIA-USDT-additional",
             "definition": {
                 "type": "wss",
                 "provider": "binance",
@@ -68,7 +68,7 @@
             }
         },
         {
-            "name": "kucoin-wss-KAIA-USDT",
+            "name": "kucoin-wss-KAIA-USDT-additional",
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
@@ -77,7 +77,7 @@
             }
         },
         {
-            "name": "bybit-wss-KAIA-USDT",
+            "name": "bybit-wss-KAIA-USDT-additional",
             "definition": {
                 "type": "wss",
                 "provider": "bybit",
@@ -86,7 +86,7 @@
             }
         },
         {
-            "name": "crypto-wss-KAIA-USDT",
+            "name": "crypto-wss-KAIA-USDT-additional",
             "definition": {
                 "type": "wss",
                 "provider": "crypto",
@@ -95,7 +95,7 @@
             }
         },
         {
-            "name": "gateio-wss-KAIA-USDT",
+            "name": "gateio-wss-KAIA-USDT-additional",
             "definition": {
                 "type": "wss",
                 "provider": "gateio",
@@ -104,7 +104,7 @@
             }
         },
         {
-            "name": "lbank-wss-KAIA-USDT",
+            "name": "lbank-wss-KAIA-USDT-additional",
             "definition": {
                 "type": "wss",
                 "provider": "lbank",
@@ -113,7 +113,7 @@
             }
         },
         {
-            "name": "coinex-wss-KAIA-USDT",
+            "name": "coinex-wss-KAIA-USDT-additional",
             "definition": {
                 "type": "wss",
                 "provider": "coinex",
@@ -122,7 +122,7 @@
             }
         },
         {
-            "name": "bitget-wss-KAIA-USDT",
+            "name": "bitget-wss-KAIA-USDT-additional",
             "definition": {
                 "type": "wss",
                 "provider": "bitget",
@@ -131,7 +131,7 @@
             }
         },
         {
-            "name": "huobi-wss-KAIA-USDT",
+            "name": "huobi-wss-KAIA-USDT-additional",
             "definition": {
                 "type": "wss",
                 "provider": "huobi",
@@ -140,7 +140,7 @@
             }
         },
         {
-            "name": "okx-wss-KAIA-USDT",
+            "name": "okx-wss-KAIA-USDT-additional",
             "definition": {
                 "type": "wss",
                 "provider": "okx",
@@ -149,7 +149,7 @@
             }
         },
         {
-            "name": "bingx-wss-KAIA-USDT",
+            "name": "bingx-wss-KAIA-USDT-additional",
             "definition": {
                 "type": "wss",
                 "provider": "bingx",
@@ -158,7 +158,7 @@
             }
         },
         {
-            "name": "xt-wss-KAIA-USDT",
+            "name": "xt-wss-KAIA-USDT-additional",
             "definition": {
                 "type": "wss",
                 "provider": "xt",
@@ -167,7 +167,7 @@
             }
         },
         {
-            "name": "orangex-wss-KAIA-USDT",
+            "name": "orangex-wss-KAIA-USDT-additional",
             "definition": {
                 "type": "wss",
                 "provider": "orangex",
