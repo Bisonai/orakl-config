@@ -1,78 +1,9 @@
 {
     "name": "DOGE-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "binance-wss-DOGE-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "DOGE",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-DOGE-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "DOGE",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-DOGE-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "DOGE",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-DOGE-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "DOGE",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-DOGE-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "DOGE",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-DOGE-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "DOGE",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-DOGE-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "DOGE",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-DOGE-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "DOGE",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "binance-wss-DOGE-USDT",
             "definition": {
@@ -226,8 +157,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

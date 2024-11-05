@@ -5,24 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "korbit-wss-XRP-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "XRP",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-XRP-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "XRP",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "upbit-wss-XRP-KRW",
             "definition": {
                 "type": "wss",

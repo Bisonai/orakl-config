@@ -1,42 +1,9 @@
 {
     "name": "PAXG-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "binance-wss-PAXG-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "PAXG",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-PAXG-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "PAXG",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-PAXG-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "PAXG",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-PAXG-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "PAXG",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "binance-wss-PAXG-USDT",
             "definition": {
@@ -118,8 +85,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

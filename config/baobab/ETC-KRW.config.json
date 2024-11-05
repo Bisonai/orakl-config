@@ -5,24 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "korbit-wss-ETC-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "ETC",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-ETC-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "ETC",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "upbit-wss-ETC-KRW",
             "definition": {
                 "type": "wss",

@@ -5,15 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "bithumb-wss-BTG-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "BTG",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "upbit-wss-BTG-KRW",
             "definition": {
                 "type": "wss",

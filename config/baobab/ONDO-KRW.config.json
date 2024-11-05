@@ -5,24 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "korbit-wss-ONDO-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "ONDO",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-ONDO-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "ONDO",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "upbit-wss-ONDO-KRW",
             "definition": {
                 "type": "wss",

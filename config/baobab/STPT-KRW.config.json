@@ -5,15 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "bithumb-wss-STPT-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "STPT",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "upbit-wss-STPT-KRW",
             "definition": {
                 "type": "wss",

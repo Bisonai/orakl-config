@@ -1,87 +1,9 @@
 {
     "name": "SOL-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "binance-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "upbit-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kraken-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kraken",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "orangex-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "orangex",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "binance-wss-SOL-USDT",
             "definition": {
@@ -244,8 +166,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

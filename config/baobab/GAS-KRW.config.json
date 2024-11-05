@@ -5,15 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "bithumb-wss-GAS-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "GAS",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "upbit-wss-GAS-KRW",
             "definition": {
                 "type": "wss",

@@ -5,24 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "korbit-wss-TRX-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "TRX",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-TRX-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "TRX",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "upbit-wss-TRX-KRW",
             "definition": {
                 "type": "wss",

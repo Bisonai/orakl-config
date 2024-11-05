@@ -1,87 +1,9 @@
 {
     "name": "ADA-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "binance-wss-ADA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "ADA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-ADA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "ADA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-ADA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "ADA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-ADA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "ADA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-ADA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "ADA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-ADA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "ADA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kraken-wss-ADA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kraken",
-                "base": "ADA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-ADA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "ADA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "orangex-wss-ADA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "orangex",
-                "base": "ADA",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "binance-wss-ADA-USDT",
             "definition": {
@@ -244,8 +166,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

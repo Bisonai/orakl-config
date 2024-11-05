@@ -5,33 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "gopax-wss-KLAY-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "gopax",
-                "base": "KLAY",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "korbit-wss-KAIA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "KAIA",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-KAIA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "KAIA",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "korbit-wss-KAIA-KRW",
             "definition": {
                 "type": "wss",

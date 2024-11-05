@@ -1,24 +1,9 @@
 {
     "name": "BORA-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "bithumb-wss-BORA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "BORA",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "korbit-wss-BORA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "BORA",
-                "quote": "KRW"
-            }
-        },
         {
             "name": "upbit-wss-BORA-KRW",
             "definition": {
@@ -55,8 +40,5 @@
                 "quote": "KRW"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

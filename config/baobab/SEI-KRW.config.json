@@ -5,24 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "korbit-wss-SEI-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "SEI",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-SEI-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "SEI",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "upbit-wss-SEI-KRW",
             "definition": {
                 "type": "wss",

@@ -5,24 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "korbit-wss-XLM-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "XLM",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-XLM-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "XLM",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "upbit-wss-XLM-KRW",
             "definition": {
                 "type": "wss",

@@ -1,5 +1,8 @@
 {
     "name": "KRW-USD",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
         {
             "name": "Yahoo-KRW-USD",
@@ -114,8 +117,5 @@
                 ]
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

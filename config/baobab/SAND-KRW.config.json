@@ -5,24 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "korbit-wss-SAND-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "SAND",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-SAND-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "SAND",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "upbit-wss-SAND-KRW",
             "definition": {
                 "type": "wss",

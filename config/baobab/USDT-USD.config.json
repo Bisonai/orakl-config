@@ -5,33 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "bitstamp-wss-USDT-USD",
-            "definition": {
-                "type": "wss",
-                "provider": "bitstamp",
-                "base": "USDT",
-                "quote": "USD"
-            }
-        },
-        {
-            "name": "crypto-wss-USDT-USD",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "USDT",
-                "quote": "USD"
-            }
-        },
-        {
-            "name": "gateio-wss-USDT-USD",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "USDT",
-                "quote": "USD"
-            }
-        },
-        {
             "name": "coinbase-wss-USDT-USD",
             "definition": {
                 "type": "wss",

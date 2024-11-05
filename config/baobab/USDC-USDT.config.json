@@ -1,33 +1,9 @@
 {
     "name": "USDC-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "binance-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "UniswapV3-0.01-USDC-USDT",
             "definition": {
@@ -36,60 +12,6 @@
                 "type": "UniswapPool",
                 "token0Decimals": 6,
                 "token1Decimals": 6
-            }
-        },
-        {
-            "name": "lbank-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "orangex-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "orangex",
-                "base": "USDC",
-                "quote": "USDT"
             }
         },
         {
@@ -245,8 +167,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

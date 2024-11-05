@@ -5,60 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "kucoin-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "binance-wss-KAIA-USDT",
             "definition": {
                 "type": "wss",

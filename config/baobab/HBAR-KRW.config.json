@@ -5,24 +5,6 @@
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "korbit-wss-HBAR-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "HBAR",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-HBAR-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "HBAR",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "upbit-wss-HBAR-KRW",
             "definition": {
                 "type": "wss",
