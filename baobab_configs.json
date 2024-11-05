@@ -3931,6 +3931,15 @@
                     "base": "KAIA",
                     "quote": "KRW"
                 }
+            },
+            {
+                "name": "gopax-wss-KLAY-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "gopax",
+                    "base": "KLAY",
+                    "quote": "KRW"
+                }
             }
         ]
     },
@@ -4073,6 +4082,33 @@
                     "base": "KLAY",
                     "quote": "KRW"
                 }
+            },
+            {
+                "name": "korbit-wss-KAIA-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "korbit",
+                    "base": "KAIA",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "bithumb-wss-KAIA-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bithumb",
+                    "base": "KAIA",
+                    "quote": "KRW"
+                }
+            },
+            {
+                "name": "coinone-wss-KAIA-KRW",
+                "definition": {
+                    "type": "wss",
+                    "provider": "coinone",
+                    "base": "KAIA",
+                    "quote": "KRW"
+                }
             }
         ]
     },
@@ -4083,20 +4119,119 @@
         "submitInterval": 15000,
         "feeds": [
             {
-                "name": "lbank-wss-KLAY-USDT",
+                "name": "binance-wss-KAIA-USDT",
                 "definition": {
                     "type": "wss",
-                    "provider": "lbank",
-                    "base": "KLAY",
+                    "provider": "binance",
+                    "base": "KAIA",
                     "quote": "USDT"
                 }
             },
             {
-                "name": "bingx-wss-KLAY-USDT",
+                "name": "kucoin-wss-KAIA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "KAIA",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bybit-wss-KAIA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "KAIA",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "crypto-wss-KAIA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "crypto",
+                    "base": "KAIA",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "gateio-wss-KAIA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "KAIA",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "lbank-wss-KAIA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "KAIA",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "coinex-wss-KAIA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "KAIA",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-KAIA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "KAIA",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-KAIA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
+                    "base": "KAIA",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "okx-wss-KAIA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "okx",
+                    "base": "KAIA",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bingx-wss-KAIA-USDT",
                 "definition": {
                     "type": "wss",
                     "provider": "bingx",
-                    "base": "KLAY",
+                    "base": "KAIA",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "xt-wss-KAIA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "xt",
+                    "base": "KAIA",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "orangex-wss-KAIA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "orangex",
+                    "base": "KAIA",
                     "quote": "USDT"
                 }
             }
