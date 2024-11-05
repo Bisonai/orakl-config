@@ -1,15 +1,9 @@
 {
     "name": "TRX-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "bybit-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "binance-wss-TRX-USDT",
             "definition": {
@@ -24,6 +18,24 @@
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
+                "base": "TRX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "TRX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
                 "base": "TRX",
                 "quote": "USDT"
             }
@@ -47,28 +59,19 @@
             }
         },
         {
-            "name": "coinex-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "upbit-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "lbank-wss-TRX-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "lbank",
+                "base": "TRX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
                 "base": "TRX",
                 "quote": "USDT"
             }
@@ -136,8 +139,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

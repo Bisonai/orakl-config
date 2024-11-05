@@ -23,19 +23,19 @@
             }
         },
         {
-            "name": "coinone-wss-AUCTION-KRW",
+            "name": "bithumb-wss-AUCTION-KRW",
             "definition": {
                 "type": "wss",
-                "provider": "coinone",
+                "provider": "bithumb",
                 "base": "AUCTION",
                 "quote": "KRW"
             }
         },
         {
-            "name": "bithumb-wss-AUCTION-KRW",
+            "name": "coinone-wss-AUCTION-KRW",
             "definition": {
                 "type": "wss",
-                "provider": "bithumb",
+                "provider": "coinone",
                 "base": "AUCTION",
                 "quote": "KRW"
             }

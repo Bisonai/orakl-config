@@ -1,15 +1,9 @@
 {
     "name": "FTM-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "bybit-wss-FTM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "FTM",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "binance-wss-FTM-USDT",
             "definition": {
@@ -24,6 +18,15 @@
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
+                "base": "FTM",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-FTM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
                 "base": "FTM",
                 "quote": "USDT"
             }
@@ -56,19 +59,19 @@
             }
         },
         {
-            "name": "coinex-wss-FTM-USDT",
+            "name": "lbank-wss-FTM-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "coinex",
+                "provider": "lbank",
                 "base": "FTM",
                 "quote": "USDT"
             }
         },
         {
-            "name": "lbank-wss-FTM-USDT",
+            "name": "coinex-wss-FTM-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "lbank",
+                "provider": "coinex",
                 "base": "FTM",
                 "quote": "USDT"
             }
@@ -136,8 +139,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

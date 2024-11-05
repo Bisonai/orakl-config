@@ -23,6 +23,24 @@
             }
         },
         {
+            "name": "bybit-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "crypto-wss-PEPE-USDT",
             "definition": {
                 "type": "wss",
@@ -117,15 +135,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "xt",
-                "base": "PEPE",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "upbit-wss-PEPE-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
                 "base": "PEPE",
                 "quote": "USDT"
             }

@@ -1,47 +1,14 @@
 {
     "name": "XRP-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "bybit-wss-XRP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "XRP",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "binance-wss-XRP-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",
-                "base": "XRP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kucoin-wss-XRP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "XRP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-XRP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "XRP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-XRP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
                 "base": "XRP",
                 "quote": "USDT"
             }
@@ -56,19 +23,19 @@
             }
         },
         {
-            "name": "gateio-wss-XRP-USDT",
+            "name": "kucoin-wss-XRP-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "gateio",
+                "provider": "kucoin",
                 "base": "XRP",
                 "quote": "USDT"
             }
         },
         {
-            "name": "coinex-wss-XRP-USDT",
+            "name": "bybit-wss-XRP-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "coinex",
+                "provider": "bybit",
                 "base": "XRP",
                 "quote": "USDT"
             }
@@ -92,10 +59,46 @@
             }
         },
         {
+            "name": "crypto-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "lbank-wss-XRP-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "lbank",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
                 "base": "XRP",
                 "quote": "USDT"
             }
@@ -172,8 +175,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

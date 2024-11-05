@@ -1,20 +1,23 @@
 {
     "name": "MBX-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "bithumb-wss-MBX-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "MBX",
-                "quote": "KRW"
-            }
-        },
         {
             "name": "korbit-wss-MBX-KRW",
             "definition": {
                 "type": "wss",
                 "provider": "korbit",
+                "base": "MBX",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "bithumb-wss-MBX-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
                 "base": "MBX",
                 "quote": "KRW"
             }
@@ -28,8 +31,5 @@
                 "quote": "KRW"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

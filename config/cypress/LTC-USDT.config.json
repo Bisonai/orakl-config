@@ -1,15 +1,9 @@
 {
     "name": "LTC-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "bybit-wss-LTC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "LTC",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "binance-wss-LTC-USDT",
             "definition": {
@@ -24,6 +18,15 @@
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
+                "base": "LTC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-LTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
                 "base": "LTC",
                 "quote": "USDT"
             }
@@ -56,19 +59,19 @@
             }
         },
         {
-            "name": "coinex-wss-LTC-USDT",
+            "name": "lbank-wss-LTC-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "coinex",
+                "provider": "lbank",
                 "base": "LTC",
                 "quote": "USDT"
             }
         },
         {
-            "name": "lbank-wss-LTC-USDT",
+            "name": "coinex-wss-LTC-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "lbank",
+                "provider": "coinex",
                 "base": "LTC",
                 "quote": "USDT"
             }
@@ -136,8 +139,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

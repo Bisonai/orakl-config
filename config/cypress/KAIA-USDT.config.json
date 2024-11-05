@@ -1,150 +1,123 @@
 {
-    "name": "APT-USDT",
+    "name": "KAIA-USDT",
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "binance-wss-APT-USDT",
+            "name": "binance-wss-KAIA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",
-                "base": "APT",
+                "base": "KAIA",
                 "quote": "USDT"
             }
         },
         {
-            "name": "coinbase-wss-APT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "APT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kucoin-wss-APT-USDT",
+            "name": "kucoin-wss-KAIA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
-                "base": "APT",
+                "base": "KAIA",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bybit-wss-APT-USDT",
+            "name": "bybit-wss-KAIA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bybit",
-                "base": "APT",
+                "base": "KAIA",
                 "quote": "USDT"
             }
         },
         {
-            "name": "crypto-wss-APT-USDT",
+            "name": "crypto-wss-KAIA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "crypto",
-                "base": "APT",
+                "base": "KAIA",
                 "quote": "USDT"
             }
         },
         {
-            "name": "btse-wss-APT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
-                "base": "APT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-APT-USDT",
+            "name": "gateio-wss-KAIA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "gateio",
-                "base": "APT",
+                "base": "KAIA",
                 "quote": "USDT"
             }
         },
         {
-            "name": "lbank-wss-APT-USDT",
+            "name": "lbank-wss-KAIA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "lbank",
-                "base": "APT",
+                "base": "KAIA",
                 "quote": "USDT"
             }
         },
         {
-            "name": "coinex-wss-APT-USDT",
+            "name": "coinex-wss-KAIA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "coinex",
-                "base": "APT",
+                "base": "KAIA",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bitget-wss-APT-USDT",
+            "name": "bitget-wss-KAIA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bitget",
-                "base": "APT",
+                "base": "KAIA",
                 "quote": "USDT"
             }
         },
         {
-            "name": "huobi-wss-APT-USDT",
+            "name": "huobi-wss-KAIA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "huobi",
-                "base": "APT",
+                "base": "KAIA",
                 "quote": "USDT"
             }
         },
         {
-            "name": "okx-wss-APT-USDT",
+            "name": "okx-wss-KAIA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "okx",
-                "base": "APT",
+                "base": "KAIA",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bingx-wss-APT-USDT",
+            "name": "bingx-wss-KAIA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bingx",
-                "base": "APT",
+                "base": "KAIA",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bitmart-wss-APT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "APT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-APT-USDT",
+            "name": "xt-wss-KAIA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "xt",
-                "base": "APT",
+                "base": "KAIA",
                 "quote": "USDT"
             }
         },
         {
-            "name": "orangex-wss-APT-USDT",
+            "name": "orangex-wss-KAIA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "orangex",
-                "base": "APT",
+                "base": "KAIA",
                 "quote": "USDT"
             }
         }

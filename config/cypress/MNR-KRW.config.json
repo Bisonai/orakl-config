@@ -1,5 +1,8 @@
 {
     "name": "MNR-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
         {
             "name": "coinone-wss-MNR-KRW",
@@ -10,8 +13,5 @@
                 "quote": "KRW"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }
