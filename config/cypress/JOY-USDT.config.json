@@ -1,24 +1,9 @@
 {
     "name": "JOY-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "huobi-wss-JOY-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "Joy",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-JOY-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
-                "base": "Joy",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "gateio-wss-JOY-USDT",
             "definition": {
@@ -47,6 +32,24 @@
             }
         },
         {
+            "name": "huobi-wss-JOY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "JOY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-JOY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "JOY",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "bitmart-wss-JOY-USDT",
             "definition": {
                 "type": "wss",
@@ -55,8 +58,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

@@ -1,42 +1,42 @@
 {
-    "name": "BORA-KRW",
+    "name": "KAIA-KRW",
     "fetchInterval": 2000,
     "aggregateInterval": 400,
-    "submitInterval": 15000,
+    "submitInterval": 60000,
     "feeds": [
         {
-            "name": "upbit-wss-BORA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "BORA",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "korbit-wss-BORA-KRW",
+            "name": "korbit-wss-KAIA-KRW",
             "definition": {
                 "type": "wss",
                 "provider": "korbit",
-                "base": "BORA",
+                "base": "KAIA",
                 "quote": "KRW"
             }
         },
         {
-            "name": "bithumb-wss-BORA-KRW",
+            "name": "bithumb-wss-KAIA-KRW",
             "definition": {
                 "type": "wss",
                 "provider": "bithumb",
-                "base": "BORA",
+                "base": "KAIA",
                 "quote": "KRW"
             }
         },
         {
-            "name": "coinone-wss-BORA-KRW",
+            "name": "coinone-wss-KAIA-KRW",
             "definition": {
                 "type": "wss",
                 "provider": "coinone",
-                "base": "BORA",
+                "base": "KAIA",
+                "quote": "KRW"
+            }
+        },
+        {
+            "name": "gopax-wss-KLAY-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "KLAY",
                 "quote": "KRW"
             }
         }

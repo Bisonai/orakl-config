@@ -1,15 +1,9 @@
 {
     "name": "KSP-KRW",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "coinone-wss-KSP-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "KSP",
-                "quote": "KRW"
-            }
-        },
         {
             "name": "korbit-wss-KSP-KRW",
             "definition": {
@@ -18,9 +12,15 @@
                 "base": "KSP",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "coinone-wss-KSP-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "KSP",
+                "quote": "KRW"
+            }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

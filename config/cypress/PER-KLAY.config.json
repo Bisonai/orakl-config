@@ -1,5 +1,8 @@
 {
     "name": "PER-KLAY",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
         {
             "name": "KlaySwap-PER-KLAY",
@@ -12,8 +15,5 @@
                 "token1Decimals": 18
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

@@ -1,78 +1,9 @@
 {
     "name": "ETH-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "bybit-wss-ETH-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "ETH",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "binance-wss-ETH-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "ETH",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kucoin-wss-ETH-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "ETH",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-ETH-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "ETH",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-ETH-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
-                "base": "ETH",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-ETH-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "ETH",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-ETH-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "ETH",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-ETH-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "ETH",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "UniswapV3:0.3-ETH-USDT",
             "definition": {
@@ -91,6 +22,42 @@
                 "type": "UniswapPool",
                 "token0Decimals": 18,
                 "token1Decimals": 6
+            }
+        },
+        {
+            "name": "binance-wss-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "ETH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinbase-wss-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "ETH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "ETH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "ETH",
+                "quote": "USDT"
             }
         },
         {
@@ -121,10 +88,46 @@
             }
         },
         {
+            "name": "crypto-wss-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "ETH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "ETH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "ETH",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "lbank-wss-ETH-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "lbank",
+                "base": "ETH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-ETH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
                 "base": "ETH",
                 "quote": "USDT"
             }
@@ -143,15 +146,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "huobi",
-                "base": "ETH",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-ETH-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
                 "base": "ETH",
                 "quote": "USDT"
             }
@@ -210,8 +204,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

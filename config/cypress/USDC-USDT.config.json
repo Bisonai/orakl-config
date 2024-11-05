@@ -1,13 +1,17 @@
 {
     "name": "USDC-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
         {
-            "name": "bybit-wss-USDC-USDT",
+            "name": "UniswapV3-0.01-USDC-USDT",
             "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "USDC",
-                "quote": "USDT"
+                "chainId": "1",
+                "address": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+                "type": "UniswapPool",
+                "token0Decimals": 6,
+                "token1Decimals": 6
             }
         },
         {
@@ -29,10 +33,28 @@
             }
         },
         {
-            "name": "coinbase-wss-USDC-USDT",
+            "name": "bybit-wss-USDC-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "coinbase",
+                "provider": "bybit",
+                "base": "USDC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitstamp-wss-USDC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitstamp",
+                "base": "USDC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-USDC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
                 "base": "USDC",
                 "quote": "USDT"
             }
@@ -47,38 +69,19 @@
             }
         },
         {
-            "name": "coinex-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "UniswapV3-0.01-USDC-USDT",
-            "definition": {
-                "chainId": "1",
-                "address": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
-                "type": "UniswapPool",
-                "token0Decimals": 6,
-                "token1Decimals": 6
-            }
-        },
-        {
-            "name": "bitstamp-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitstamp",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "lbank-wss-USDC-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "lbank",
+                "base": "USDC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-USDC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
                 "base": "USDC",
                 "quote": "USDT"
             }
@@ -156,15 +159,6 @@
             }
         },
         {
-            "name": "upbit-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "orangex-wss-USDC-USDT",
             "definition": {
                 "type": "wss",
@@ -173,8 +167,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

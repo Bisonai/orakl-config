@@ -1,13 +1,17 @@
 {
     "name": "UNI-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
         {
-            "name": "bybit-wss-UNI-USDT",
+            "name": "UniswapV3-UNI-USDT",
             "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "UNI",
-                "quote": "USDT"
+                "chainId": "1",
+                "address": "0x3470447f3cecffac709d3e783a307790b0208d60",
+                "type": "UniswapPool",
+                "token0Decimals": 18,
+                "token1Decimals": 6
             }
         },
         {
@@ -24,6 +28,24 @@
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
                 "base": "UNI",
                 "quote": "USDT"
             }
@@ -47,15 +69,6 @@
             }
         },
         {
-            "name": "coinbase-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "gateio-wss-UNI-USDT",
             "definition": {
                 "type": "wss",
@@ -65,29 +78,19 @@
             }
         },
         {
-            "name": "coinex-wss-UNI-USDT",
+            "name": "lbank-wss-UNI-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "coinex",
+                "provider": "lbank",
                 "base": "UNI",
                 "quote": "USDT"
             }
         },
         {
-            "name": "UniswapV3-UNI-USDT",
-            "definition": {
-                "chainId": "1",
-                "address": "0x3470447f3cecffac709d3e783a307790b0208d60",
-                "type": "UniswapPool",
-                "token0Decimals": 18,
-                "token1Decimals": 6
-            }
-        },
-        {
-            "name": "lbank-wss-UNI-USDT",
+            "name": "coinex-wss-UNI-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "lbank",
+                "provider": "coinex",
                 "base": "UNI",
                 "quote": "USDT"
             }
@@ -154,18 +157,6 @@
                 "base": "UNI",
                 "quote": "USDT"
             }
-        },
-        {
-            "name": "upbit-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "UNI",
-                "quote": "USDT"
-            }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

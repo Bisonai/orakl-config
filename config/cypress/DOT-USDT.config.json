@@ -1,15 +1,9 @@
 {
     "name": "DOT-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "bybit-wss-DOT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "DOT",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "binance-wss-DOT-USDT",
             "definition": {
@@ -20,10 +14,28 @@
             }
         },
         {
+            "name": "coinbase-wss-DOT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "DOT",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "kucoin-wss-DOT-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
+                "base": "DOT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-DOT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
                 "base": "DOT",
                 "quote": "USDT"
             }
@@ -56,28 +68,19 @@
             }
         },
         {
-            "name": "coinex-wss-DOT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "DOT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-DOT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "DOT",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "lbank-wss-DOT-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "lbank",
+                "base": "DOT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-DOT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
                 "base": "DOT",
                 "quote": "USDT"
             }
@@ -145,8 +148,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

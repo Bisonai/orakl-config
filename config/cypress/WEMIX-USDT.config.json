@@ -1,15 +1,9 @@
 {
     "name": "WEMIX-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "bybit-wss-WEMIX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "WEMIX",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "kucoin-wss-WEMIX-USDT",
             "definition": {
@@ -20,19 +14,10 @@
             }
         },
         {
-            "name": "coinbase-wss-WEMIX-USDT",
+            "name": "bybit-wss-WEMIX-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "coinbase",
-                "base": "WEMIX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-WEMIX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
+                "provider": "bybit",
                 "base": "WEMIX",
                 "quote": "USDT"
             }
@@ -42,6 +27,15 @@
             "definition": {
                 "type": "wss",
                 "provider": "gateio",
+                "base": "WEMIX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-WEMIX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
                 "base": "WEMIX",
                 "quote": "USDT"
             }
@@ -109,8 +103,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

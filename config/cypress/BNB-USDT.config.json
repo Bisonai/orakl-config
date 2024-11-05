@@ -1,15 +1,9 @@
 {
     "name": "BNB-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "bybit-wss-BNB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "BNB",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "binance-wss-BNB-USDT",
             "definition": {
@@ -20,19 +14,19 @@
             }
         },
         {
-            "name": "coinbase-wss-BNB-USDT",
+            "name": "kucoin-wss-BNB-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "coinbase",
+                "provider": "kucoin",
                 "base": "BNB",
                 "quote": "USDT"
             }
         },
         {
-            "name": "kucoin-wss-BNB-USDT",
+            "name": "bybit-wss-BNB-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "kucoin",
+                "provider": "bybit",
                 "base": "BNB",
                 "quote": "USDT"
             }
@@ -56,19 +50,19 @@
             }
         },
         {
-            "name": "coinex-wss-BNB-USDT",
+            "name": "lbank-wss-BNB-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "coinex",
+                "provider": "lbank",
                 "base": "BNB",
                 "quote": "USDT"
             }
         },
         {
-            "name": "lbank-wss-BNB-USDT",
+            "name": "coinex-wss-BNB-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "lbank",
+                "provider": "coinex",
                 "base": "BNB",
                 "quote": "USDT"
             }
@@ -136,8 +130,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

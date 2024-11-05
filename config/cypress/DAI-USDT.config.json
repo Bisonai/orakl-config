@@ -1,51 +1,9 @@
 {
     "name": "DAI-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "binance-wss-DAI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "DAI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-DAI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "DAI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-DAI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "DAI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-DAI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "DAI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-DAI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "DAI",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "UniswapV3-DAI-USDT",
             "definition": {
@@ -66,10 +24,37 @@
             }
         },
         {
+            "name": "crypto-wss-DAI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "DAI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-DAI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "DAI",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "lbank-wss-DAI-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "lbank",
+                "base": "DAI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-DAI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
                 "base": "DAI",
                 "quote": "USDT"
             }
@@ -146,8 +131,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }

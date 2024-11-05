@@ -1,15 +1,9 @@
 {
     "name": "AVAX-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
     "feeds": [
-        {
-            "name": "bybit-wss-AVAX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "AVAX",
-                "quote": "USDT"
-            }
-        },
         {
             "name": "binance-wss-AVAX-USDT",
             "definition": {
@@ -20,10 +14,28 @@
             }
         },
         {
+            "name": "coinbase-wss-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "kucoin-wss-AVAX-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
                 "base": "AVAX",
                 "quote": "USDT"
             }
@@ -47,15 +59,6 @@
             }
         },
         {
-            "name": "coinbase-wss-AVAX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "AVAX",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "gateio-wss-AVAX-USDT",
             "definition": {
                 "type": "wss",
@@ -65,19 +68,19 @@
             }
         },
         {
-            "name": "coinex-wss-AVAX-USDT",
+            "name": "lbank-wss-AVAX-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "coinex",
+                "provider": "lbank",
                 "base": "AVAX",
                 "quote": "USDT"
             }
         },
         {
-            "name": "lbank-wss-AVAX-USDT",
+            "name": "coinex-wss-AVAX-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "lbank",
+                "provider": "coinex",
                 "base": "AVAX",
                 "quote": "USDT"
             }
@@ -154,8 +157,5 @@
                 "quote": "USDT"
             }
         }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000
+    ]
 }
