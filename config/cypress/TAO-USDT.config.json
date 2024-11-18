@@ -1,0 +1,98 @@
+{
+    "name": "TAO-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-TAO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "TAO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-TAO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "TAO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-TAO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "TAO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-TAO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "TAO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-TAO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "TAO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-TAO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "TAO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-TAO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "TAO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-TAO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "TAO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-TAO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "TAO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-TAO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "TAO",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

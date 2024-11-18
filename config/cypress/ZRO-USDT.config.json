@@ -1,0 +1,152 @@
+{
+    "name": "ZRO-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-ZRO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "ZRO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-ZRO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "ZRO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-ZRO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "ZRO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-ZRO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "ZRO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-ZRO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "ZRO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-ZRO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "ZRO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-ZRO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "ZRO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-ZRO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "ZRO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-ZRO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "ZRO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-ZRO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "ZRO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-ZRO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "ZRO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-ZRO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "ZRO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-ZRO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "ZRO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-ZRO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "ZRO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-ZRO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "ZRO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-ZRO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "ZRO",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

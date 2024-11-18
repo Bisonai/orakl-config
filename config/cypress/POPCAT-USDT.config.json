@@ -1,0 +1,107 @@
+{
+    "name": "POPCAT-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "kucoin-wss-POPCAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "POPCAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-POPCAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "POPCAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-POPCAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "POPCAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-POPCAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "POPCAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-POPCAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "POPCAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-POPCAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "POPCAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-POPCAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "POPCAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-POPCAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "POPCAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-POPCAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "POPCAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-POPCAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "POPCAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-POPCAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "POPCAT",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

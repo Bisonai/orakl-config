@@ -1,0 +1,134 @@
+{
+    "name": "ONDO-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "kucoin-wss-ONDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "ONDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-ONDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "ONDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-ONDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "ONDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-ONDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "ONDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-ONDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "ONDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-ONDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "ONDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-ONDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "ONDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-ONDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "ONDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-ONDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "ONDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-ONDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "ONDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-ONDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "ONDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-ONDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "ONDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-ONDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "ONDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-ONDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "ONDO",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

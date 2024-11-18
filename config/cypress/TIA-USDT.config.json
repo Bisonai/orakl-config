@@ -1,0 +1,143 @@
+{
+    "name": "TIA-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-TIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "TIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-TIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "TIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-TIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "TIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-TIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "TIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-TIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "TIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-TIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "TIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-TIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "TIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-TIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "TIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-TIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "TIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-TIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "TIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-TIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "TIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-TIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "TIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-TIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "TIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-TIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "TIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-TIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "TIA",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

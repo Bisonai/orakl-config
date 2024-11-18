@@ -1,0 +1,152 @@
+{
+    "name": "BONK-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-BONK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "BONK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-BONK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "BONK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-BONK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "BONK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-BONK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "BONK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-BONK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "BONK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-BONK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "BONK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-BONK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "BONK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-BONK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "BONK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-BONK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "BONK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-BONK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "BONK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-BONK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "BONK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-BONK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "BONK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-BONK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "BONK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-BONK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "BONK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-BONK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "BONK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-BONK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "BONK",
+                "quote": "USDT"
+            }
+        }
+    ]
+}
