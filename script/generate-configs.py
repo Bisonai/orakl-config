@@ -53,7 +53,6 @@ def get_bybit_symbols(url):
     json_data = load_json_from_url(url)
     print("loaded bybit json data")
     for entry in json_data["result"]["list"]:
-        print("checking symbol: " + entry["name"])
         if entry["showStatus"] != "1":
             continue
         result.append(entry["name"].lower())

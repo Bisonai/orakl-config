@@ -120,6 +120,24 @@
                 "base": "KAIA",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "lbank-wss-KLAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "KLAY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-KLAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "KLAY",
+                "quote": "USDT"
+            }
         }
     ]
 }

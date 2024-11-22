@@ -1,96 +1,96 @@
 {
-    "name": "PAXG-USDT",
+    "name": "TAO-USDT",
     "fetchInterval": 2000,
     "aggregateInterval": 400,
-    "submitInterval": 15000,
+    "submitInterval": 60000,
     "feeds": [
         {
-            "name": "binance-wss-PAXG-USDT",
+            "name": "binance-wss-TAO-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",
-                "base": "PAXG",
+                "base": "TAO",
                 "quote": "USDT"
             }
         },
         {
-            "name": "kucoin-wss-PAXG-USDT",
+            "name": "kucoin-wss-TAO-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
-                "base": "PAXG",
+                "base": "TAO",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bybit-wss-PAXG-USDT",
+            "name": "gateio-wss-TAO-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "bybit",
-                "base": "PAXG",
+                "provider": "gateio",
+                "base": "TAO",
                 "quote": "USDT"
             }
         },
         {
-            "name": "crypto-wss-PAXG-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "PAXG",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-PAXG-USDT",
+            "name": "lbank-wss-TAO-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "lbank",
-                "base": "PAXG",
+                "base": "TAO",
                 "quote": "USDT"
             }
         },
         {
-            "name": "coinex-wss-PAXG-USDT",
+            "name": "coinex-wss-TAO-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "coinex",
-                "base": "PAXG",
+                "base": "TAO",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bitget-wss-PAXG-USDT",
+            "name": "bitget-wss-TAO-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bitget",
-                "base": "PAXG",
+                "base": "TAO",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bingx-wss-PAXG-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "PAXG",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-PAXG-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "PAXG",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-PAXG-USDT",
+            "name": "mexc-wss-TAO-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "mexc",
-                "base": "PAXG",
+                "base": "TAO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-TAO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "TAO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-TAO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "TAO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-TAO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "TAO",
                 "quote": "USDT"
             }
         }
