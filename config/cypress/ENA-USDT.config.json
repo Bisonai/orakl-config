@@ -1,141 +1,141 @@
 {
-    "name": "KAIA-USDT",
+    "name": "ENA-USDT",
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "binance-wss-KAIA-USDT",
+            "name": "binance-wss-ENA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",
-                "base": "KAIA",
+                "base": "ENA",
                 "quote": "USDT"
             }
         },
         {
-            "name": "kucoin-wss-KAIA-USDT",
+            "name": "kucoin-wss-ENA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
-                "base": "KAIA",
+                "base": "ENA",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bybit-wss-KAIA-USDT",
+            "name": "bybit-wss-ENA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bybit",
-                "base": "KAIA",
+                "base": "ENA",
                 "quote": "USDT"
             }
         },
         {
-            "name": "crypto-wss-KAIA-USDT",
+            "name": "crypto-wss-ENA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "crypto",
-                "base": "KAIA",
+                "base": "ENA",
                 "quote": "USDT"
             }
         },
         {
-            "name": "gateio-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "orangex-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "orangex",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-KAIA-USDT",
+            "name": "btse-wss-ENA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "btse",
-                "base": "KAIA",
+                "base": "ENA",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bitmart-wss-KAIA-USDT",
+            "name": "gateio-wss-ENA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "ENA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-ENA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "ENA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-ENA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "ENA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-ENA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "ENA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-ENA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "ENA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-ENA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "ENA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-ENA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "ENA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-ENA-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bitmart",
-                "base": "KAIA",
+                "base": "ENA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-ENA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "ENA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-ENA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "ENA",
                 "quote": "USDT"
             }
         }

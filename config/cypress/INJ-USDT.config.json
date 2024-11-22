@@ -1,141 +1,141 @@
 {
-    "name": "KAIA-USDT",
+    "name": "INJ-USDT",
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "binance-wss-KAIA-USDT",
+            "name": "binance-wss-INJ-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",
-                "base": "KAIA",
+                "base": "INJ",
                 "quote": "USDT"
             }
         },
         {
-            "name": "kucoin-wss-KAIA-USDT",
+            "name": "kucoin-wss-INJ-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
-                "base": "KAIA",
+                "base": "INJ",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bybit-wss-KAIA-USDT",
+            "name": "bybit-wss-INJ-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bybit",
-                "base": "KAIA",
+                "base": "INJ",
                 "quote": "USDT"
             }
         },
         {
-            "name": "crypto-wss-KAIA-USDT",
+            "name": "upbit-wss-INJ-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "INJ",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-INJ-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "crypto",
-                "base": "KAIA",
+                "base": "INJ",
                 "quote": "USDT"
             }
         },
         {
-            "name": "gateio-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "orangex-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "orangex",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-KAIA-USDT",
+            "name": "btse-wss-INJ-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "btse",
-                "base": "KAIA",
+                "base": "INJ",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bitmart-wss-KAIA-USDT",
+            "name": "gateio-wss-INJ-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "INJ",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-INJ-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "INJ",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-INJ-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "INJ",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-INJ-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "INJ",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-INJ-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "INJ",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-INJ-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "INJ",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-INJ-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "INJ",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-INJ-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bitmart",
-                "base": "KAIA",
+                "base": "INJ",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-INJ-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "INJ",
                 "quote": "USDT"
             }
         }

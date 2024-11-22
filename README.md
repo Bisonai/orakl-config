@@ -148,7 +148,8 @@
 | [BLAST-KRW](config/cypress/BLAST-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [BLUR-KRW](config/cypress/BLUR-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [BNB-USDT](config/cypress/BNB-USDT.config.json) | 2000 | 400 | 15000 | 14 |
-| [BONK-KRW](config/cypress/BONK-KRW.config.json) | 2000 | 400 | 60000 | 3 |
+| [BONK-KRW](config/cypress/BONK-KRW.config.json) | 2000 | 400 | 60000 | 4 |
+| [BONK-USDT](config/cypress/BONK-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [BORA-KRW](config/cypress/BORA-KRW.config.json) | 2000 | 400 | 15000 | 4 |
 | [BSV-KRW](config/cypress/BSV-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [BTC-KRW](config/cypress/BTC-KRW.config.json) | 2000 | 400 | 60000 | 5 |
@@ -163,6 +164,7 @@
 | [DOGE-USDT](config/cypress/DOGE-USDT.config.json) | 2000 | 400 | 15000 | 17 |
 | [DOT-KRW](config/cypress/DOT-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [DOT-USDT](config/cypress/DOT-USDT.config.json) | 2000 | 400 | 15000 | 16 |
+| [ENA-USDT](config/cypress/ENA-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [ENS-KRW](config/cypress/ENS-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [EOS-KRW](config/cypress/EOS-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [ETC-KRW](config/cypress/ETC-KRW.config.json) | 2000 | 400 | 60000 | 4 |
@@ -181,13 +183,14 @@
 | [HBAR-KRW](config/cypress/HBAR-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [HPO-KRW](config/cypress/HPO-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [IMX-KRW](config/cypress/IMX-KRW.config.json) | 2000 | 400 | 60000 | 4 |
+| [INJ-USDT](config/cypress/INJ-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [IQ-KRW](config/cypress/IQ-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [JOY-USDT](config/cypress/JOY-USDT.config.json) | 2000 | 400 | 15000 | 6 |
 | [JPY-USD](config/cypress/JPY-USD.config.json) | 2000 | 400 | 15000 | 3 |
-| [KAIA-KRW](config/cypress/KAIA-KRW.config.json) | 2000 | 400 | 60000 | 4 |
-| [KAIA-USDT](config/cypress/KAIA-USDT.config.json) | 2000 | 400 | 60000 | 13 |
+| [KAIA-KRW](config/cypress/KAIA-KRW.config.json) | 2000 | 400 | 60000 | 5 |
+| [KAIA-USDT](config/cypress/KAIA-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [KLAY-KRW](config/cypress/KLAY-KRW.config.json) | 2000 | 400 | 60000 | 4 |
-| [KLAY-USDT](config/cypress/KLAY-USDT.config.json) | 2000 | 400 | 15000 | 13 |
+| [KLAY-USDT](config/cypress/KLAY-USDT.config.json) | 2000 | 400 | 15000 | 15 |
 | [KNC-KRW](config/cypress/KNC-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [KRW-USD](config/cypress/KRW-USD.config.json) | 2000 | 400 | 15000 | 3 |
 | [KSP-KRW](config/cypress/KSP-KRW.config.json) | 2000 | 400 | 15000 | 2 |
@@ -202,13 +205,17 @@
 | [MTL-KRW](config/cypress/MTL-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [NEAR-KRW](config/cypress/NEAR-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [ONDO-KRW](config/cypress/ONDO-KRW.config.json) | 2000 | 400 | 60000 | 4 |
+| [ONDO-USDT](config/cypress/ONDO-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [ONG-KRW](config/cypress/ONG-KRW.config.json) | 2000 | 400 | 60000 | 3 |
-| [PAXG-USDT](config/cypress/PAXG-USDT.config.json) | 2000 | 400 | 15000 | 9 |
-| [PEPE-KRW](config/cypress/PEPE-KRW.config.json) | 2000 | 400 | 60000 | 3 |
+| [PAXG-USDT](config/cypress/PAXG-USDT.config.json) | 2000 | 400 | 15000 | 10 |
+| [PENDLE-USDT](config/cypress/PENDLE-USDT.config.json) | 2000 | 400 | 60000 | 15 |
+| [PEPE-KRW](config/cypress/PEPE-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [PEPE-USDT](config/cypress/PEPE-USDT.config.json) | 2000 | 400 | 15000 | 16 |
 | [PER-KLAY](config/cypress/PER-KLAY.config.json) | 2000 | 400 | 15000 | 1 |
+| [PNUT-USDT](config/cypress/PNUT-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [POL-KRW](config/cypress/POL-KRW.config.json) | 2000 | 400 | 60000 | 5 |
-| [POL-USDT](config/cypress/POL-USDT.config.json) | 2000 | 400 | 60000 | 15 |
+| [POL-USDT](config/cypress/POL-USDT.config.json) | 2000 | 400 | 60000 | 16 |
+| [POPCAT-USDT](config/cypress/POPCAT-USDT.config.json) | 2000 | 400 | 60000 | 12 |
 | [PYTH-KRW](config/cypress/PYTH-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [SAND-KRW](config/cypress/SAND-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [SEI-KRW](config/cypress/SEI-KRW.config.json) | 2000 | 400 | 60000 | 5 |
@@ -224,6 +231,9 @@
 | [STX-KRW](config/cypress/STX-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [SUI-KRW](config/cypress/SUI-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [SUI-USDT](config/cypress/SUI-USDT.config.json) | 2000 | 400 | 60000 | 15 |
+| [TAO-USDT](config/cypress/TAO-USDT.config.json) | 2000 | 400 | 60000 | 10 |
+| [TIA-USDT](config/cypress/TIA-USDT.config.json) | 2000 | 400 | 60000 | 15 |
+| [TON-USDT](config/cypress/TON-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [TRX-KRW](config/cypress/TRX-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [TRX-USDT](config/cypress/TRX-USDT.config.json) | 2000 | 400 | 15000 | 15 |
 | [UNI-USDT](config/cypress/UNI-USDT.config.json) | 2000 | 400 | 15000 | 17 |
@@ -233,14 +243,17 @@
 | [WAVES-KRW](config/cypress/WAVES-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [WEMIX-KRW](config/cypress/WEMIX-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [WEMIX-USDT](config/cypress/WEMIX-USDT.config.json) | 2000 | 400 | 15000 | 11 |
+| [WIF-USDT](config/cypress/WIF-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [WLD-KRW](config/cypress/WLD-KRW.config.json) | 2000 | 400 | 60000 | 3 |
+| [WLD-USDT](config/cypress/WLD-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [XEC-KRW](config/cypress/XEC-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [XLM-KRW](config/cypress/XLM-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [XRP-KRW](config/cypress/XRP-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [XRP-USDT](config/cypress/XRP-USDT.config.json) | 2000 | 400 | 15000 | 19 |
-| [ZETA-KRW](config/cypress/ZETA-KRW.config.json) | 2000 | 400 | 60000 | 3 |
+| [ZETA-KRW](config/cypress/ZETA-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [ZK-KRW](config/cypress/ZK-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [ZRO-KRW](config/cypress/ZRO-KRW.config.json) | 2000 | 400 | 60000 | 4 |
+| [ZRO-USDT](config/cypress/ZRO-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 
 ## Log history
 
