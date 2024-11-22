@@ -30,6 +30,15 @@
                 "base": "ZETA",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "korbit-wss-ZETA-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "ZETA",
+                "quote": "KRW"
+            }
         }
     ]
 }

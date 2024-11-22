@@ -138,6 +138,15 @@
                 "base": "POL",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-POL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "POL",
+                "quote": "USDT"
+            }
         }
     ]
 }

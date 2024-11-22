@@ -30,6 +30,15 @@
                 "base": "PEPE",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "upbit-wss-PEPE-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "PEPE",
+                "quote": "KRW"
+            }
         }
     ]
 }

@@ -30,6 +30,15 @@
                 "base": "BONK",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "upbit-wss-BONK-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "BONK",
+                "quote": "KRW"
+            }
         }
     ]
 }
