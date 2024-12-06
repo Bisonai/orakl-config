@@ -129,6 +129,15 @@
                 "base": "WLD",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-WLD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "WLD",
+                "quote": "USDT"
+            }
         }
     ]
 }

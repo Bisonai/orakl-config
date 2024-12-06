@@ -147,6 +147,15 @@
                 "base": "APT",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-APT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "APT",
+                "quote": "USDT"
+            }
         }
     ]
 }

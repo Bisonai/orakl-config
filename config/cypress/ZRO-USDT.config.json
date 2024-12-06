@@ -147,6 +147,15 @@
                 "base": "ZRO",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-ZRO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "ZRO",
+                "quote": "USDT"
+            }
         }
     ]
 }

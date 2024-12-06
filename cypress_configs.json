@@ -272,6 +272,15 @@
                     "base": "ADA",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "mexc-wss-ADA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
+                    "base": "ADA",
+                    "quote": "USDT"
+                }
             }
         ]
     },
@@ -509,6 +518,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "orangex",
+                    "base": "APT",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "mexc-wss-APT-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
                     "base": "APT",
                     "quote": "USDT"
                 }
@@ -758,6 +776,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "orangex",
+                    "base": "ATOM",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "mexc-wss-ATOM-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
                     "base": "ATOM",
                     "quote": "USDT"
                 }
@@ -1016,6 +1043,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "orangex",
+                    "base": "AVAX",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "mexc-wss-AVAX-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
                     "base": "AVAX",
                     "quote": "USDT"
                 }
@@ -1329,6 +1365,15 @@
                     "base": "BNB",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "mexc-wss-BNB-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
+                    "base": "BNB",
+                    "quote": "USDT"
+                }
             }
         ]
     },
@@ -1525,6 +1570,15 @@
                     "base": "BONK",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "mexc-wss-BONK-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
+                    "base": "BONK",
+                    "quote": "USDT"
+                }
             }
         ]
     },
@@ -1568,6 +1622,50 @@
                     "provider": "coinone",
                     "base": "BORA",
                     "quote": "KRW"
+                }
+            }
+        ]
+    },
+    {
+        "name": "BORA-USDT",
+        "fetchInterval": 2000,
+        "aggregateInterval": 400,
+        "submitInterval": 60000,
+        "feeds": [
+            {
+                "name": "gateio-wss-BORA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "gateio",
+                    "base": "BORA",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-BORA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "BORA",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "okx-wss-BORA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "okx",
+                    "base": "BORA",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bingx-wss-BORA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bingx",
+                    "base": "BORA",
+                    "quote": "USDT"
                 }
             }
         ]
@@ -2482,6 +2580,15 @@
                     "base": "DOGE",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "mexc-wss-DOGE-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
+                    "base": "DOGE",
+                    "quote": "USDT"
+                }
             }
         ]
     },
@@ -2675,6 +2782,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "xt",
+                    "base": "DOT",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "mexc-wss-DOT-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
                     "base": "DOT",
                     "quote": "USDT"
                 }
@@ -3565,6 +3681,15 @@
                     "base": "FTM",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "mexc-wss-FTM-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
+                    "base": "FTM",
+                    "quote": "USDT"
+                }
             }
         ]
     },
@@ -3813,6 +3938,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "orangex",
+                    "base": "GRND",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "lbank-wss-GRND-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
                     "base": "GRND",
                     "quote": "USDT"
                 }
@@ -4132,6 +4266,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "xt",
+                    "base": "INJ",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "mexc-wss-INJ-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
                     "base": "INJ",
                     "quote": "USDT"
                 }
@@ -5113,6 +5256,15 @@
                     "base": "LTC",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "mexc-wss-LTC-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
+                    "base": "LTC",
+                    "quote": "USDT"
+                }
             }
         ]
     },
@@ -5856,6 +6008,15 @@
                     "base": "PENDLE",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "mexc-wss-PENDLE-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
+                    "base": "PENDLE",
+                    "quote": "USDT"
+                }
             }
         ]
     },
@@ -6052,6 +6213,15 @@
                     "base": "PEPE",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "mexc-wss-PEPE-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
+                    "base": "PEPE",
+                    "quote": "USDT"
+                }
             }
         ]
     },
@@ -6202,6 +6372,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "xt",
+                    "base": "PNUT",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bybit-wss-PNUT-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bybit",
                     "base": "PNUT",
                     "quote": "USDT"
                 }
@@ -6801,6 +6980,15 @@
                     "base": "SEI",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "mexc-wss-SEI-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
+                    "base": "SEI",
+                    "quote": "USDT"
+                }
             }
         ]
     },
@@ -7003,6 +7191,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "orangex",
+                    "base": "SHIB",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "mexc-wss-SHIB-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
                     "base": "SHIB",
                     "quote": "USDT"
                 }
@@ -7270,6 +7467,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "orangex",
+                    "base": "SOL",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "mexc-wss-SOL-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
                     "base": "SOL",
                     "quote": "USDT"
                 }
@@ -7868,6 +8074,15 @@
                     "base": "TIA",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "mexc-wss-TIA-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
+                    "base": "TIA",
+                    "quote": "USDT"
+                }
             }
         ]
     },
@@ -7999,6 +8214,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "orangex",
+                    "base": "TON",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "mexc-wss-TON-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
                     "base": "TON",
                     "quote": "USDT"
                 }
@@ -8198,6 +8422,15 @@
                     "base": "TRX",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "mexc-wss-TRX-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
+                    "base": "TRX",
+                    "quote": "USDT"
+                }
             }
         ]
     },
@@ -8357,6 +8590,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "orangex",
+                    "base": "UNI",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "mexc-wss-UNI-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
                     "base": "UNI",
                     "quote": "USDT"
                 }
@@ -8643,6 +8885,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "gateio",
+                    "base": "USDT",
+                    "quote": "USD"
+                }
+            },
+            {
+                "name": "okx-wss-USDT-USD",
+                "definition": {
+                    "type": "wss",
+                    "provider": "okx",
                     "base": "USDT",
                     "quote": "USD"
                 }
@@ -8975,6 +9226,15 @@
                     "base": "WIF",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "mexc-wss-WIF-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
+                    "base": "WIF",
+                    "quote": "USDT"
+                }
             }
         ]
     },
@@ -9141,6 +9401,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "xt",
+                    "base": "WLD",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "mexc-wss-WLD-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
                     "base": "WLD",
                     "quote": "USDT"
                 }
@@ -9473,6 +9742,15 @@
                     "base": "XRP",
                     "quote": "USDT"
                 }
+            },
+            {
+                "name": "mexc-wss-XRP-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
+                    "base": "XRP",
+                    "quote": "USDT"
+                }
             }
         ]
     },
@@ -9745,6 +10023,15 @@
                 "definition": {
                     "type": "wss",
                     "provider": "orangex",
+                    "base": "ZRO",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "mexc-wss-ZRO-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
                     "base": "ZRO",
                     "quote": "USDT"
                 }

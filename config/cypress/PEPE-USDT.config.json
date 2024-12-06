@@ -147,6 +147,15 @@
                 "base": "PEPE",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
         }
     ]
 }
