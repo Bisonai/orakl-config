@@ -138,6 +138,15 @@
                 "base": "FTM",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-FTM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "FTM",
+                "quote": "USDT"
+            }
         }
     ]
 }

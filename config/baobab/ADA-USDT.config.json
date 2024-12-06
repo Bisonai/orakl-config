@@ -165,6 +165,15 @@
                 "base": "ADA",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-ADA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "ADA",
+                "quote": "USDT"
+            }
         }
     ]
 }

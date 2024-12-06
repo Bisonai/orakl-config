@@ -157,6 +157,15 @@
                 "base": "UNI",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "UNI",
+                "quote": "USDT"
+            }
         }
     ]
 }

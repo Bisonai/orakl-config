@@ -138,6 +138,15 @@
                 "base": "LTC",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-LTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "LTC",
+                "quote": "USDT"
+            }
         }
     ]
 }

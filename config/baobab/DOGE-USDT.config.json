@@ -156,6 +156,15 @@
                 "base": "DOGE",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
         }
     ]
 }

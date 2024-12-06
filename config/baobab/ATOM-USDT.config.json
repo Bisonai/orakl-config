@@ -156,6 +156,15 @@
                 "base": "ATOM",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-ATOM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "ATOM",
+                "quote": "USDT"
+            }
         }
     ]
 }

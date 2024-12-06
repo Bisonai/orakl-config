@@ -138,6 +138,15 @@
                 "base": "WIF",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-WIF-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "WIF",
+                "quote": "USDT"
+            }
         }
     ]
 }

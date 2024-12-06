@@ -156,6 +156,15 @@
                 "base": "SHIB",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-SHIB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "SHIB",
+                "quote": "USDT"
+            }
         }
     ]
 }
