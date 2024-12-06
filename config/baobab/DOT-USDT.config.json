@@ -147,6 +147,15 @@
                 "base": "DOT",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-DOT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "DOT",
+                "quote": "USDT"
+            }
         }
     ]
 }

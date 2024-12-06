@@ -147,6 +147,15 @@
                 "base": "BONK",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-BONK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "BONK",
+                "quote": "USDT"
+            }
         }
     ]
 }

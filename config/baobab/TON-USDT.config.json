@@ -129,6 +129,15 @@
                 "base": "TON",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-TON-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "TON",
+                "quote": "USDT"
+            }
         }
     ]
 }

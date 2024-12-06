@@ -138,6 +138,15 @@
                 "base": "TIA",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-TIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "TIA",
+                "quote": "USDT"
+            }
         }
     ]
 }

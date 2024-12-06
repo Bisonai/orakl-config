@@ -129,6 +129,15 @@
                 "base": "BNB",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-BNB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "BNB",
+                "quote": "USDT"
+            }
         }
     ]
 }
