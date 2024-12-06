@@ -57,6 +57,15 @@
                 "base": "USDT",
                 "quote": "USD"
             }
+        },
+        {
+            "name": "okx-wss-USDT-USD",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "USDT",
+                "quote": "USD"
+            }
         }
     ]
 }

@@ -165,6 +165,15 @@
                 "base": "SOL",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "SOL",
+                "quote": "USDT"
+            }
         }
     ]
 }

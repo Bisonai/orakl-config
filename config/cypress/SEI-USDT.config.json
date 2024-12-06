@@ -120,6 +120,15 @@
                 "base": "SEI",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-SEI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "SEI",
+                "quote": "USDT"
+            }
         }
     ]
 }
