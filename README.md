@@ -74,7 +74,6 @@
 | [MED-KRW](config/baobab/MED-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [MINA-KRW](config/baobab/MINA-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [MLK-KRW](config/baobab/MLK-KRW.config.json) | 2000 | 400 | 60000 | 3 |
-| [MNR-KRW](config/baobab/MNR-KRW.config.json) | 2000 | 400 | 15000 | 1 |
 | [MTL-KRW](config/baobab/MTL-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [NEAR-KRW](config/baobab/NEAR-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [ONDO-KRW](config/baobab/ONDO-KRW.config.json) | 2000 | 400 | 60000 | 4 |
@@ -203,7 +202,6 @@
 | [MED-KRW](config/cypress/MED-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [MINA-KRW](config/cypress/MINA-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [MLK-KRW](config/cypress/MLK-KRW.config.json) | 2000 | 400 | 60000 | 3 |
-| [MNR-KRW](config/cypress/MNR-KRW.config.json) | 2000 | 400 | 15000 | 1 |
 | [MTL-KRW](config/cypress/MTL-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [NEAR-KRW](config/cypress/NEAR-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [ONDO-KRW](config/cypress/ONDO-KRW.config.json) | 2000 | 400 | 60000 | 4 |

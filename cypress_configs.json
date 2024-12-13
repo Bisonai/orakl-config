@@ -5453,23 +5453,6 @@
         ]
     },
     {
-        "name": "MNR-KRW",
-        "fetchInterval": 2000,
-        "aggregateInterval": 400,
-        "submitInterval": 15000,
-        "feeds": [
-            {
-                "name": "coinone-wss-MNR-KRW",
-                "definition": {
-                    "type": "wss",
-                    "provider": "coinone",
-                    "base": "MNR",
-                    "quote": "KRW"
-                }
-            }
-        ]
-    },
-    {
         "name": "MTL-KRW",
         "fetchInterval": 2000,
         "aggregateInterval": 400,
