@@ -4332,46 +4332,10 @@
                 }
             },
             {
-                "name": "coinex-wss-JOY-USDT",
-                "definition": {
-                    "type": "wss",
-                    "provider": "coinex",
-                    "base": "JOY",
-                    "quote": "USDT"
-                }
-            },
-            {
-                "name": "bitget-wss-JOY-USDT",
-                "definition": {
-                    "type": "wss",
-                    "provider": "bitget",
-                    "base": "JOY",
-                    "quote": "USDT"
-                }
-            },
-            {
-                "name": "huobi-wss-JOY-USDT",
-                "definition": {
-                    "type": "wss",
-                    "provider": "huobi",
-                    "base": "JOY",
-                    "quote": "USDT"
-                }
-            },
-            {
                 "name": "mexc-wss-JOY-USDT",
                 "definition": {
                     "type": "wss",
                     "provider": "mexc",
-                    "base": "JOY",
-                    "quote": "USDT"
-                }
-            },
-            {
-                "name": "bitmart-wss-JOY-USDT",
-                "definition": {
-                    "type": "wss",
-                    "provider": "bitmart",
                     "base": "JOY",
                     "quote": "USDT"
                 }
