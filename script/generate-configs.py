@@ -11,6 +11,13 @@ DEFAULT_FETCH_INTERVAL = 2000
 DEFAULT_AGGREGATE_INTERVAL = 400
 DEFAULT_SUBMIT_INTERVAL = 60000 # 1 minute
 
+filter_outs = {
+    "bitmart": ["joyusdt"],
+    "coinex": ["joyusdt"],
+    "bitget": ["joyusdt"],
+    "huobi": ["joyusdt"]
+}
+
 def load_json_from_url(url):
     response = requests.get(url=url, headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"})
     json_data = response.json()
@@ -321,6 +328,7 @@ def make_wss_object(provider, base, quote):
     return wsFeed
 
 def is_supported(symbol_list, base, quote):
+
     for symbol in symbol_list:
         if symbol == f"{base}{quote}".lower():
             return True
@@ -329,6 +337,8 @@ def is_supported(symbol_list, base, quote):
 def get_all_supported_providers(possible_symbols, base, quote):
     supported_providers = []
     for key, value in possible_symbols.items():
+        if filter_outs.get(key) is not None and f"{base}{quote}".lower() in filter_outs.get(key):
+            continue
         if is_supported(value, base, quote):
             supported_providers.append(key)
     return supported_providers
@@ -455,6 +465,7 @@ if __name__ == "__main__":
 
         wsFeeds = []
         for provider in providers:
+
             wsFeed = make_wss_object(provider, base, quote)
             wsFeeds.append(wsFeed)
 
