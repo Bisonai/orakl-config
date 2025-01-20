@@ -54,7 +54,7 @@
 | [GRND-USDT](config/baobab/GRND-USDT.config.json) | 2000 | 400 | 60000 | 3 |
 | [GRT-KRW](config/baobab/GRT-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [HBAR-KRW](config/baobab/HBAR-KRW.config.json) | 2000 | 400 | 60000 | 4 |
-| [HPO-KRW](config/baobab/HPO-KRW.config.json) | 2000 | 400 | 60000 | 4 |
+| [HPO-KRW](config/baobab/HPO-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [IMX-KRW](config/baobab/IMX-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [INJ-USDT](config/baobab/INJ-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [IQ-KRW](config/baobab/IQ-KRW.config.json) | 2000 | 400 | 60000 | 3 |
@@ -106,6 +106,7 @@
 | [TAO-USDT](config/baobab/TAO-USDT.config.json) | 2000 | 400 | 60000 | 10 |
 | [TIA-USDT](config/baobab/TIA-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [TON-USDT](config/baobab/TON-USDT.config.json) | 2000 | 400 | 60000 | 15 |
+| [TRUMP-USDT](config/baobab/TRUMP-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [TRX-KRW](config/baobab/TRX-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [TRX-USDT](config/baobab/TRX-USDT.config.json) | 2000 | 400 | 15000 | 16 |
 | [UNI-USDT](config/baobab/UNI-USDT.config.json) | 2000 | 400 | 15000 | 18 |
@@ -182,7 +183,7 @@
 | [GRND-USDT](config/cypress/GRND-USDT.config.json) | 2000 | 400 | 60000 | 3 |
 | [GRT-KRW](config/cypress/GRT-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [HBAR-KRW](config/cypress/HBAR-KRW.config.json) | 2000 | 400 | 60000 | 4 |
-| [HPO-KRW](config/cypress/HPO-KRW.config.json) | 2000 | 400 | 60000 | 4 |
+| [HPO-KRW](config/cypress/HPO-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [IMX-KRW](config/cypress/IMX-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [INJ-USDT](config/cypress/INJ-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [IQ-KRW](config/cypress/IQ-KRW.config.json) | 2000 | 400 | 60000 | 3 |
@@ -234,6 +235,7 @@
 | [TAO-USDT](config/cypress/TAO-USDT.config.json) | 2000 | 400 | 60000 | 10 |
 | [TIA-USDT](config/cypress/TIA-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [TON-USDT](config/cypress/TON-USDT.config.json) | 2000 | 400 | 60000 | 15 |
+| [TRUMP-USDT](config/cypress/TRUMP-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [TRX-KRW](config/cypress/TRX-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [TRX-USDT](config/cypress/TRX-USDT.config.json) | 2000 | 400 | 15000 | 16 |
 | [UNI-USDT](config/cypress/UNI-USDT.config.json) | 2000 | 400 | 15000 | 18 |
