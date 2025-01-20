@@ -39,6 +39,15 @@
                 "base": "HPO",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "bithumb-wss-HPO-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "bithumb",
+                "base": "HPO",
+                "quote": "KRW"
+            }
         }
     ]
 }
