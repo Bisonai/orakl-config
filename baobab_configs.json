@@ -4326,32 +4326,6 @@
         ]
     },
     {
-        "name": "JOY-USDT",
-        "fetchInterval": 2000,
-        "aggregateInterval": 400,
-        "submitInterval": 15000,
-        "feeds": [
-            {
-                "name": "gateio-wss-JOY-USDT",
-                "definition": {
-                    "type": "wss",
-                    "provider": "gateio",
-                    "base": "JOY",
-                    "quote": "USDT"
-                }
-            },
-            {
-                "name": "mexc-wss-JOY-USDT",
-                "definition": {
-                    "type": "wss",
-                    "provider": "mexc",
-                    "base": "JOY",
-                    "quote": "USDT"
-                }
-            }
-        ]
-    },
-    {
         "name": "JPY-USD",
         "fetchInterval": 2000,
         "aggregateInterval": 400,
