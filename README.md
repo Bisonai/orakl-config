@@ -27,7 +27,7 @@
 | [BSV-KRW](config/baobab/BSV-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [BTC-KRW](config/baobab/BTC-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [BTC-USDT](config/baobab/BTC-USDT.config.json) | 2000 | 400 | 15000 | 20 |
-| [BTG-KRW](config/baobab/BTG-KRW.config.json) | 2000 | 400 | 60000 | 3 |
+| [BTG-KRW](config/baobab/BTG-KRW.config.json) | 2000 | 400 | 60000 | 2 |
 | [BTT-KRW](config/baobab/BTT-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [CHF-USD](config/baobab/CHF-USD.config.json) | 2000 | 400 | 15000 | 3 |
 | [CHZ-KRW](config/baobab/CHZ-KRW.config.json) | 2000 | 400 | 60000 | 4 |
@@ -155,7 +155,7 @@
 | [BSV-KRW](config/cypress/BSV-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [BTC-KRW](config/cypress/BTC-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [BTC-USDT](config/cypress/BTC-USDT.config.json) | 2000 | 400 | 15000 | 20 |
-| [BTG-KRW](config/cypress/BTG-KRW.config.json) | 2000 | 400 | 60000 | 3 |
+| [BTG-KRW](config/cypress/BTG-KRW.config.json) | 2000 | 400 | 60000 | 2 |
 | [BTT-KRW](config/cypress/BTT-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [CHF-USD](config/cypress/CHF-USD.config.json) | 2000 | 400 | 15000 | 3 |
 | [CHZ-KRW](config/cypress/CHZ-KRW.config.json) | 2000 | 400 | 60000 | 4 |
