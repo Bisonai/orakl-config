@@ -1963,15 +1963,6 @@
         "submitInterval": 60000,
         "feeds": [
             {
-                "name": "upbit-wss-BTG-KRW",
-                "definition": {
-                    "type": "wss",
-                    "provider": "upbit",
-                    "base": "BTG",
-                    "quote": "KRW"
-                }
-            },
-            {
                 "name": "bithumb-wss-BTG-KRW",
                 "definition": {
                     "type": "wss",
