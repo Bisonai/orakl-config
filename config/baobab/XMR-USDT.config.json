@@ -1,0 +1,80 @@
+{
+    "name": "XMR-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "kucoin-wss-XMR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "XMR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-XMR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "XMR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-XMR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "XMR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-XMR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "XMR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kraken-wss-XMR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "XMR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-XMR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "XMR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-XMR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "XMR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-XMR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "XMR",
+                "quote": "USDT"
+            }
+        }
+    ]
+}
