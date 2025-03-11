@@ -1,159 +1,150 @@
 {
-    "name": "TRUMP-USDT",
+    "name": "LDO-USDT",
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "binance-wss-TRUMP-USDT",
+            "name": "binance-wss-LDO-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",
-                "base": "TRUMP",
+                "base": "LDO",
                 "quote": "USDT"
             }
         },
         {
-            "name": "kucoin-wss-TRUMP-USDT",
+            "name": "kucoin-wss-LDO-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
-                "base": "TRUMP",
+                "base": "LDO",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bybit-wss-TRUMP-USDT",
+            "name": "bybit-wss-LDO-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bybit",
-                "base": "TRUMP",
+                "base": "LDO",
                 "quote": "USDT"
             }
         },
         {
-            "name": "crypto-wss-TRUMP-USDT",
+            "name": "crypto-wss-LDO-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "crypto",
-                "base": "TRUMP",
+                "base": "LDO",
                 "quote": "USDT"
             }
         },
         {
-            "name": "gateio-wss-TRUMP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "TRUMP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-TRUMP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "TRUMP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-TRUMP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "TRUMP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-TRUMP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "TRUMP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-TRUMP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
-                "base": "TRUMP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-TRUMP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "TRUMP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kraken-wss-TRUMP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kraken",
-                "base": "TRUMP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-TRUMP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "TRUMP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-TRUMP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "TRUMP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "orangex-wss-TRUMP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "orangex",
-                "base": "TRUMP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "upbit-wss-TRUMP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "TRUMP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-TRUMP-USDT",
+            "name": "btse-wss-LDO-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "btse",
-                "base": "TRUMP",
+                "base": "LDO",
                 "quote": "USDT"
             }
         },
         {
-            "name": "xt-wss-TRUMP-USDT",
+            "name": "gateio-wss-LDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "LDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-LDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "LDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-LDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "LDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-LDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "LDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-LDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "LDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-LDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "LDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-LDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "LDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-LDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "LDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-LDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "LDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-LDO-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "xt",
-                "base": "TRUMP",
+                "base": "LDO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-LDO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "LDO",
                 "quote": "USDT"
             }
         }

@@ -1,0 +1,80 @@
+{
+    "name": "DEXE-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-DEXE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "DEXE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-DEXE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "DEXE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-DEXE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "DEXE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-DEXE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "DEXE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-DEXE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "DEXE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-DEXE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "DEXE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-DEXE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "DEXE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-DEXE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "DEXE",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

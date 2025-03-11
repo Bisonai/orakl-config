@@ -1,0 +1,35 @@
+{
+    "name": "GT-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "gateio-wss-GT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "GT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-GT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "GT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-GT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "GT",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

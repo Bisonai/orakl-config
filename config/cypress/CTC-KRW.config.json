@@ -39,6 +39,15 @@
                 "base": "CTC",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "coinone-wss-CTC-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "CTC",
+                "quote": "KRW"
+            }
         }
     ]
 }

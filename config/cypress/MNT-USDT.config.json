@@ -1,0 +1,107 @@
+{
+    "name": "MNT-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "kucoin-wss-MNT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "MNT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-MNT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "MNT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-MNT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "MNT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-MNT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "MNT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-MNT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "MNT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-MNT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "MNT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-MNT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "MNT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-MNT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "MNT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-MNT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "MNT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-MNT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "MNT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-MNT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "MNT",
+                "quote": "USDT"
+            }
+        }
+    ]
+}
