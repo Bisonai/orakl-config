@@ -1,0 +1,71 @@
+{
+    "name": "PI-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "gateio-wss-PI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "PI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-PI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "PI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-PI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "PI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-PI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "PI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-PI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "PI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-PI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "PI",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-PI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "PI",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

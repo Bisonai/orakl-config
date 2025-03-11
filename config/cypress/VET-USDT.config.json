@@ -1,0 +1,116 @@
+{
+    "name": "VET-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-VET-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "VET",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-VET-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "VET",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-VET-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "VET",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-VET-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "VET",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-VET-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "VET",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-VET-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "VET",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-VET-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "VET",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-VET-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "VET",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-VET-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "VET",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-VET-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "VET",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-VET-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "VET",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-VET-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "VET",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

@@ -1,150 +1,132 @@
 {
-    "name": "TON-USDT",
+    "name": "MKR-USDT",
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "binance-wss-TON-USDT",
+            "name": "binance-wss-MKR-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "binance",
-                "base": "TON",
+                "base": "MKR",
                 "quote": "USDT"
             }
         },
         {
-            "name": "kucoin-wss-TON-USDT",
+            "name": "kucoin-wss-MKR-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
-                "base": "TON",
+                "base": "MKR",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bybit-wss-TON-USDT",
+            "name": "bybit-wss-MKR-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bybit",
-                "base": "TON",
+                "base": "MKR",
                 "quote": "USDT"
             }
         },
         {
-            "name": "crypto-wss-TON-USDT",
+            "name": "crypto-wss-MKR-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "crypto",
-                "base": "TON",
+                "base": "MKR",
                 "quote": "USDT"
             }
         },
         {
-            "name": "btse-wss-TON-USDT",
+            "name": "btse-wss-MKR-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "btse",
-                "base": "TON",
+                "base": "MKR",
                 "quote": "USDT"
             }
         },
         {
-            "name": "gateio-wss-TON-USDT",
+            "name": "gateio-wss-MKR-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "gateio",
-                "base": "TON",
+                "base": "MKR",
                 "quote": "USDT"
             }
         },
         {
-            "name": "lbank-wss-TON-USDT",
+            "name": "lbank-wss-MKR-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "lbank",
-                "base": "TON",
+                "base": "MKR",
                 "quote": "USDT"
             }
         },
         {
-            "name": "coinex-wss-TON-USDT",
+            "name": "coinex-wss-MKR-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "coinex",
-                "base": "TON",
+                "base": "MKR",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bitget-wss-TON-USDT",
+            "name": "bitget-wss-MKR-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bitget",
-                "base": "TON",
+                "base": "MKR",
                 "quote": "USDT"
             }
         },
         {
-            "name": "huobi-wss-TON-USDT",
+            "name": "huobi-wss-MKR-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "huobi",
-                "base": "TON",
+                "base": "MKR",
                 "quote": "USDT"
             }
         },
         {
-            "name": "okx-wss-TON-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "TON",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-TON-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "TON",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-TON-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "TON",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "orangex-wss-TON-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "orangex",
-                "base": "TON",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-TON-USDT",
+            "name": "mexc-wss-MKR-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "mexc",
-                "base": "TON",
+                "base": "MKR",
                 "quote": "USDT"
             }
         },
         {
-            "name": "kraken-wss-TON-USDT",
+            "name": "okx-wss-MKR-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "kraken",
-                "base": "TON",
+                "provider": "okx",
+                "base": "MKR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-MKR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "MKR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-MKR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "MKR",
                 "quote": "USDT"
             }
         }
