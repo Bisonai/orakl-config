@@ -1,0 +1,107 @@
+{
+    "name": "IP-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "kucoin-wss-IP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "IP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-IP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "IP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-IP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "IP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-IP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "IP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-IP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "IP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-IP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "IP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-IP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "IP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-IP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "IP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-IP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "IP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-IP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "IP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-IP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "IP",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

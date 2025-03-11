@@ -1,0 +1,107 @@
+{
+    "name": "FLR-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "kucoin-wss-FLR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "FLR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-FLR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "FLR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-FLR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "FLR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-FLR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "FLR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-FLR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "FLR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-FLR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "FLR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-FLR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "FLR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-FLR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "FLR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-FLR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "FLR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-FLR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "FLR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-FLR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "FLR",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "name": "FDUSD-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-FDUSD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "FDUSD",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-FDUSD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "FDUSD",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-FDUSD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "FDUSD",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-FDUSD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "FDUSD",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-FDUSD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "FDUSD",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

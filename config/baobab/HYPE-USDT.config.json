@@ -1,0 +1,71 @@
+{
+    "name": "HYPE-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "kucoin-wss-HYPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "HYPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-HYPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "HYPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-HYPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "HYPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-HYPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "HYPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-HYPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "HYPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-HYPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "HYPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-HYPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "HYPE",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

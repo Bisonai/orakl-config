@@ -1,0 +1,26 @@
+{
+    "name": "BGB-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "bitget-wss-BGB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "BGB",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-BGB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "BGB",
+                "quote": "USDT"
+            }
+        }
+    ]
+}
