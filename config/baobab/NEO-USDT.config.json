@@ -1,0 +1,134 @@
+{
+    "name": "NEO-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-NEO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "NEO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-NEO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "NEO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-NEO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "NEO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-NEO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "NEO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-NEO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "NEO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-NEO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "NEO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-NEO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "NEO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-NEO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "NEO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-NEO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "NEO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-NEO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "NEO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-NEO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "NEO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-NEO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "NEO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-NEO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "NEO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-NEO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "NEO",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

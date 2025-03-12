@@ -1,0 +1,134 @@
+{
+    "name": "CAKE-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-CAKE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "CAKE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-CAKE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "CAKE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-CAKE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "CAKE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-CAKE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "CAKE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-CAKE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "CAKE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-CAKE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "CAKE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-CAKE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "CAKE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-CAKE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "CAKE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-CAKE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "CAKE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-CAKE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "CAKE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-CAKE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "CAKE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-CAKE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "CAKE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-CAKE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "CAKE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-CAKE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "CAKE",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "name": "THETA-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-THETA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "THETA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-THETA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "THETA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-THETA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "THETA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-THETA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "THETA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-THETA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "THETA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-THETA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "THETA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-THETA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "THETA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-THETA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "THETA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-THETA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "THETA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-THETA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "THETA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-THETA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "THETA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-THETA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "THETA",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

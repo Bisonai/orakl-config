@@ -1,0 +1,125 @@
+{
+    "name": "RAY-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-RAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "RAY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-RAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "RAY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-RAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "RAY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-RAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "RAY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-RAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "RAY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-RAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "RAY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-RAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "RAY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-RAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "RAY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-RAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "RAY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-RAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "RAY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-RAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "RAY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-RAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "RAY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-RAY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "RAY",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

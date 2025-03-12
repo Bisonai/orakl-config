@@ -1,0 +1,143 @@
+{
+    "name": "CRV-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-CRV-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "CRV",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-CRV-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "CRV",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-CRV-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "CRV",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-CRV-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "CRV",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-CRV-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "CRV",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-CRV-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "CRV",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-CRV-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "CRV",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-CRV-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "CRV",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-CRV-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "CRV",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-CRV-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "CRV",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-CRV-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "CRV",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-CRV-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "CRV",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-CRV-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "CRV",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-CRV-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "CRV",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-CRV-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "CRV",
+                "quote": "USDT"
+            }
+        }
+    ]
+}
