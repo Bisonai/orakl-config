@@ -1,0 +1,98 @@
+{
+    "name": "NEXO-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-NEXO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "NEXO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-NEXO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "NEXO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-NEXO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "NEXO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-NEXO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "NEXO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-NEXO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "NEXO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-NEXO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "NEXO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-NEXO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "NEXO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-NEXO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "NEXO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-NEXO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "NEXO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-NEXO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "NEXO",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "name": "BERA-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-BERA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "BERA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-BERA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "BERA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-BERA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "BERA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-BERA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "BERA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-BERA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "BERA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-BERA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "BERA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-BERA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "BERA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-BERA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "BERA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-BERA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "BERA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-BERA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "BERA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-BERA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "BERA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kraken-wss-BERA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "BERA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-BERA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "BERA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-BERA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "BERA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-BERA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "BERA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-BERA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "BERA",
+                "quote": "USDT"
+            }
+        }
+    ]
+}
