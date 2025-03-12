@@ -1,0 +1,80 @@
+{
+    "name": "RON-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "gateio-wss-RON-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "RON",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-RON-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "RON",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-RON-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "RON",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-RON-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "RON",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-RON-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "RON",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-RON-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "RON",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-RON-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "RON",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-RON-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "RON",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

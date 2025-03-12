@@ -1,0 +1,98 @@
+{
+    "name": "AERO-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "kucoin-wss-AERO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "AERO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-AERO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "AERO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-AERO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "AERO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-AERO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "AERO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-AERO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "AERO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-AERO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "AERO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-AERO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "AERO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-AERO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "AERO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-AERO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "AERO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-AERO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "AERO",
+                "quote": "USDT"
+            }
+        }
+    ]
+}
