@@ -1,0 +1,143 @@
+{
+    "name": "GALA-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-GALA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "GALA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-GALA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "GALA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-GALA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "GALA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-GALA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "GALA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-GALA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "GALA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-GALA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "GALA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-GALA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "GALA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-GALA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "GALA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-GALA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "GALA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-GALA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "GALA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-GALA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "GALA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-GALA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "GALA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-GALA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "GALA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-GALA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "GALA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-GALA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "GALA",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

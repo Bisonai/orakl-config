@@ -1,0 +1,89 @@
+{
+    "name": "PYUSD-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "kucoin-wss-PYUSD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "PYUSD",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-PYUSD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "PYUSD",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-PYUSD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "PYUSD",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-PYUSD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "PYUSD",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-PYUSD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "PYUSD",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-PYUSD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "PYUSD",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-PYUSD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "PYUSD",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-PYUSD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "PYUSD",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-PYUSD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "PYUSD",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

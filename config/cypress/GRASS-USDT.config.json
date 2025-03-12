@@ -1,0 +1,89 @@
+{
+    "name": "GRASS-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "kucoin-wss-GRASS-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "GRASS",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-GRASS-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "GRASS",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-GRASS-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "GRASS",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-GRASS-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "GRASS",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-GRASS-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "GRASS",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-GRASS-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "GRASS",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-GRASS-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "GRASS",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-GRASS-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "GRASS",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-GRASS-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "GRASS",
+                "quote": "USDT"
+            }
+        }
+    ]
+}
