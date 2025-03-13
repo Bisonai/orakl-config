@@ -1,0 +1,80 @@
+{
+    "name": "XCN-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "kucoin-wss-XCN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "XCN",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-XCN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "XCN",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-XCN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "XCN",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-XCN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "XCN",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-XCN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "XCN",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-XCN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "XCN",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-XCN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "XCN",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-XCN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "XCN",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

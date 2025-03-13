@@ -1,0 +1,152 @@
+{
+    "name": "1INCH-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-1INCH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "1INCH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-1INCH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "1INCH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-1INCH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "1INCH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-1INCH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "1INCH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-1INCH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "1INCH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-1INCH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "1INCH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-1INCH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "1INCH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-1INCH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "1INCH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-1INCH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "1INCH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-1INCH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "1INCH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-1INCH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "1INCH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-1INCH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "1INCH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-1INCH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "1INCH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-1INCH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "1INCH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-1INCH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "1INCH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-1INCH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "1INCH",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

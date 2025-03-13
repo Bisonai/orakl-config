@@ -1,0 +1,116 @@
+{
+    "name": "CFX-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-CFX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "CFX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-CFX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "CFX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-CFX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "CFX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-CFX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "CFX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-CFX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "CFX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-CFX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "CFX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-CFX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "CFX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-CFX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "CFX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-CFX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "CFX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-CFX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "CFX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-CFX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "CFX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-CFX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "CFX",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

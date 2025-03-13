@@ -1,0 +1,134 @@
+{
+    "name": "RSR-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-RSR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "RSR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-RSR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "RSR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-RSR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "RSR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-RSR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "RSR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-RSR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "RSR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-RSR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "RSR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-RSR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "RSR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-RSR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "RSR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-RSR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "RSR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-RSR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "RSR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-RSR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "RSR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-RSR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "RSR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-RSR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "RSR",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-RSR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "RSR",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

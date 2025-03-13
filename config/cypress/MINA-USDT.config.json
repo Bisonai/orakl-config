@@ -1,0 +1,152 @@
+{
+    "name": "MINA-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-MINA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "MINA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinbase-wss-MINA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "MINA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-MINA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "MINA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-MINA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "MINA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-MINA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "MINA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-MINA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "MINA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-MINA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "MINA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-MINA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "MINA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-MINA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "MINA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-MINA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "MINA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-MINA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "MINA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-MINA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "MINA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-MINA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "MINA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-MINA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "MINA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-MINA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "MINA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-MINA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "MINA",
+                "quote": "USDT"
+            }
+        }
+    ]
+}
