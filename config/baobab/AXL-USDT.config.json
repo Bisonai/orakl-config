@@ -1,0 +1,71 @@
+{
+    "name": "AXL-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-AXL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "AXL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-AXL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "AXL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-AXL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "AXL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-AXL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "AXL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-AXL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "AXL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-AXL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "AXL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-AXL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "AXL",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

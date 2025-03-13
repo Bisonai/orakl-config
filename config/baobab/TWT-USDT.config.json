@@ -1,0 +1,107 @@
+{
+    "name": "TWT-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-TWT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "TWT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-TWT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "TWT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-TWT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "TWT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-TWT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "TWT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-TWT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "TWT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-TWT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "TWT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-TWT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "TWT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-TWT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "TWT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-TWT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "TWT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-TWT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "TWT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-TWT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "TWT",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

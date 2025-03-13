@@ -1,0 +1,125 @@
+{
+    "name": "MELANIA-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "kucoin-wss-MELANIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "MELANIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-MELANIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "MELANIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-MELANIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "MELANIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-MELANIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "MELANIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-MELANIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "MELANIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-MELANIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "MELANIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-MELANIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "MELANIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-MELANIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "MELANIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kraken-wss-MELANIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "MELANIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-MELANIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "MELANIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-MELANIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "MELANIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-MELANIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "MELANIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-MELANIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "MELANIA",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

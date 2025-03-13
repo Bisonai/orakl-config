@@ -1,0 +1,89 @@
+{
+    "name": "GNO-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-GNO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "GNO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-GNO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "GNO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-GNO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "GNO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-GNO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "GNO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-GNO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "GNO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-GNO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "GNO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-GNO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "GNO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-GNO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "GNO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-GNO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "GNO",
+                "quote": "USDT"
+            }
+        }
+    ]
+}
