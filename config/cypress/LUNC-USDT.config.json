@@ -1,0 +1,152 @@
+{
+    "name": "LUNC-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-LUNC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "LUNC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-LUNC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "LUNC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-LUNC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "LUNC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-LUNC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "LUNC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-LUNC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "LUNC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-LUNC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "LUNC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-LUNC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "LUNC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-LUNC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "LUNC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-LUNC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "LUNC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-LUNC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "LUNC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-LUNC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "LUNC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-LUNC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "LUNC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-LUNC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "LUNC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-LUNC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "LUNC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-LUNC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "LUNC",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-LUNC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "LUNC",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

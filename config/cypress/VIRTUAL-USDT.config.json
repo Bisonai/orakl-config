@@ -1,0 +1,134 @@
+{
+    "name": "VIRTUAL-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "kucoin-wss-VIRTUAL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "VIRTUAL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-VIRTUAL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "VIRTUAL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-VIRTUAL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "VIRTUAL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-VIRTUAL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "VIRTUAL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-VIRTUAL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "VIRTUAL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-VIRTUAL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "VIRTUAL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-VIRTUAL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "VIRTUAL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-VIRTUAL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "VIRTUAL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-VIRTUAL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "VIRTUAL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-VIRTUAL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "VIRTUAL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kraken-wss-VIRTUAL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "VIRTUAL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-VIRTUAL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "VIRTUAL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-VIRTUAL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "VIRTUAL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-VIRTUAL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "VIRTUAL",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

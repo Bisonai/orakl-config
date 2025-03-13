@@ -1,0 +1,98 @@
+{
+    "name": "SPX-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "kucoin-wss-SPX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "SPX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-SPX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "SPX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-SPX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "SPX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-SPX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "SPX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-SPX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "SPX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-SPX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "SPX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-SPX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "SPX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-SPX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "SPX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-SPX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "SPX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-SPX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "SPX",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

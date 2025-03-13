@@ -1,0 +1,107 @@
+{
+    "name": "CORE-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "bybit-wss-CORE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "CORE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-CORE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "CORE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-CORE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "CORE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-CORE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "CORE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-CORE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "CORE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-CORE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "CORE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-CORE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "CORE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-CORE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "CORE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-CORE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "CORE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-CORE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "CORE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-CORE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "CORE",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

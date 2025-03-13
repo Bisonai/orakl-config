@@ -1,0 +1,116 @@
+{
+    "name": "JST-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-JST-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "JST",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-JST-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "JST",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-JST-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "JST",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-JST-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "JST",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-JST-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "JST",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-JST-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "JST",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-JST-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "JST",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-JST-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "JST",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-JST-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "JST",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-JST-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "JST",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-JST-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "JST",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-JST-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "JST",
+                "quote": "USDT"
+            }
+        }
+    ]
+}
