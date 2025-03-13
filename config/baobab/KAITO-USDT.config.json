@@ -1,0 +1,134 @@
+{
+    "name": "KAITO-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-KAITO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "KAITO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-KAITO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "KAITO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-KAITO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "KAITO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-KAITO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "KAITO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-KAITO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "KAITO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-KAITO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "KAITO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-KAITO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "KAITO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-KAITO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "KAITO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-KAITO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "KAITO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-KAITO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "KAITO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-KAITO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "KAITO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-KAITO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "KAITO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-KAITO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "KAITO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-KAITO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "KAITO",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

@@ -1,0 +1,161 @@
+{
+    "name": "PENGU-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-PENGU-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "PENGU",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-PENGU-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "PENGU",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-PENGU-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "PENGU",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-PENGU-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "PENGU",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-PENGU-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "PENGU",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-PENGU-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "PENGU",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-PENGU-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "PENGU",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-PENGU-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "PENGU",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-PENGU-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "PENGU",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-PENGU-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "PENGU",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-PENGU-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "PENGU",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-PENGU-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "PENGU",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kraken-wss-PENGU-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "PENGU",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-PENGU-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "PENGU",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-PENGU-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "PENGU",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-PENGU-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "PENGU",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-PENGU-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "PENGU",
+                "quote": "USDT"
+            }
+        }
+    ]
+}
