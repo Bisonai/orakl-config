@@ -1,0 +1,125 @@
+{
+    "name": "CVX-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-CVX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "CVX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-CVX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "CVX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-CVX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "CVX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-CVX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "CVX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-CVX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "CVX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-CVX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "CVX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-CVX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "CVX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-CVX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "CVX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-CVX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "CVX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-CVX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "CVX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-CVX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "CVX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-CVX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "CVX",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-CVX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "CVX",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

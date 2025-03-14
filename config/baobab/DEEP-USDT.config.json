@@ -1,0 +1,71 @@
+{
+    "name": "DEEP-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "kucoin-wss-DEEP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "DEEP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-DEEP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "DEEP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-DEEP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "DEEP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-DEEP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "DEEP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-DEEP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "DEEP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-DEEP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "DEEP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-DEEP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "DEEP",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

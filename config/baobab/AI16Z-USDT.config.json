@@ -1,0 +1,125 @@
+{
+    "name": "AI16Z-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "kucoin-wss-AI16Z-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "AI16Z",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-AI16Z-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "AI16Z",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-AI16Z-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "AI16Z",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-AI16Z-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "AI16Z",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-AI16Z-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "AI16Z",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-AI16Z-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "AI16Z",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-AI16Z-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "AI16Z",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-AI16Z-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "AI16Z",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-AI16Z-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "AI16Z",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kraken-wss-AI16Z-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "AI16Z",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-AI16Z-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "AI16Z",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-AI16Z-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "AI16Z",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-AI16Z-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "AI16Z",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

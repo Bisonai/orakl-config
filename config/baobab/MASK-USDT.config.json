@@ -1,0 +1,161 @@
+{
+    "name": "MASK-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-MASK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "MASK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinbase-wss-MASK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "MASK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-MASK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "MASK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-MASK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "MASK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-MASK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "MASK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-MASK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "MASK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-MASK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "MASK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-MASK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "MASK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-MASK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "MASK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-MASK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "MASK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-MASK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "MASK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-MASK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "MASK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-MASK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "MASK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-MASK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "MASK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-MASK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "MASK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-MASK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "MASK",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-MASK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "MASK",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "name": "TFUEL-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-TFUEL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "TFUEL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-TFUEL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "TFUEL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-TFUEL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "TFUEL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-TFUEL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "TFUEL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-TFUEL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "TFUEL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-TFUEL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "TFUEL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-TFUEL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "TFUEL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-TFUEL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "TFUEL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-TFUEL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "TFUEL",
+                "quote": "USDT"
+            }
+        }
+    ]
+}
