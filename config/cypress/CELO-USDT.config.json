@@ -1,0 +1,116 @@
+{
+    "name": "CELO-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-CELO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "CELO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-CELO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "CELO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-CELO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "CELO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-CELO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "CELO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-CELO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "CELO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-CELO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "CELO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-CELO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "CELO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-CELO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "CELO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-CELO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "CELO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-CELO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "CELO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-CELO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "CELO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-CELO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "CELO",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

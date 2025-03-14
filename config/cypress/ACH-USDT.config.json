@@ -1,0 +1,134 @@
+{
+    "name": "ACH-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-ACH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "ACH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-ACH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "ACH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-ACH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "ACH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-ACH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "ACH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-ACH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "ACH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-ACH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "ACH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-ACH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "ACH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-ACH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "ACH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-ACH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "ACH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-ACH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "ACH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-ACH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "ACH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-ACH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "ACH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-ACH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "ACH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-ACH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "ACH",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

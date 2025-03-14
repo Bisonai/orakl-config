@@ -1,0 +1,98 @@
+{
+    "name": "ZKJ-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "kucoin-wss-ZKJ-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "ZKJ",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-ZKJ-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "ZKJ",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-ZKJ-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "ZKJ",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-ZKJ-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "ZKJ",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-ZKJ-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "ZKJ",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-ZKJ-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "ZKJ",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-ZKJ-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "ZKJ",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-ZKJ-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "ZKJ",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-ZKJ-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "ZKJ",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-ZKJ-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "ZKJ",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

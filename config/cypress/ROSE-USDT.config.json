@@ -1,0 +1,107 @@
+{
+    "name": "ROSE-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-ROSE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "ROSE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinbase-wss-ROSE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinbase",
+                "base": "ROSE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-ROSE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "ROSE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-ROSE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "ROSE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-ROSE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "ROSE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-ROSE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "ROSE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-ROSE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "ROSE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-ROSE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "ROSE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-ROSE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "ROSE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-ROSE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "ROSE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-ROSE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "ROSE",
+                "quote": "USDT"
+            }
+        }
+    ]
+}
