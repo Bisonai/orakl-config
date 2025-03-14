@@ -242,9 +242,11 @@
 | --- | --- | --- | --- | --- |
 | [1INCH-USDT](config/cypress/1INCH-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [AAVE-KRW](config/cypress/AAVE-KRW.config.json) | 2000 | 400 | 60000 | 5 |
+| [ACH-USDT](config/cypress/ACH-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [ADA-KRW](config/cypress/ADA-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [ADA-USDT](config/cypress/ADA-USDT.config.json) | 2000 | 400 | 15000 | 19 |
 | [AERO-USDT](config/cypress/AERO-USDT.config.json) | 2000 | 400 | 60000 | 10 |
+| [AI16Z-USDT](config/cypress/AI16Z-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [AIOZ-USDT](config/cypress/AIOZ-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [AKT-KRW](config/cypress/AKT-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [ALGO-USDT](config/cypress/ALGO-USDT.config.json) | 2000 | 400 | 60000 | 16 |
@@ -253,12 +255,16 @@
 | [AR-USDT](config/cypress/AR-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [ARB-KRW](config/cypress/ARB-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [ASTR-KRW](config/cypress/ASTR-KRW.config.json) | 2000 | 400 | 60000 | 4 |
+| [ATH-USDT](config/cypress/ATH-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [ATOM-USDT](config/cypress/ATOM-USDT.config.json) | 2000 | 400 | 15000 | 18 |
 | [AUCTION-KRW](config/cypress/AUCTION-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [AVAX-KRW](config/cypress/AVAX-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [AVAX-USDT](config/cypress/AVAX-USDT.config.json) | 2000 | 400 | 15000 | 18 |
+| [AVL-USDT](config/cypress/AVL-USDT.config.json) | 2000 | 400 | 60000 | 9 |
 | [AXL-USDT](config/cypress/AXL-USDT.config.json) | 2000 | 400 | 60000 | 7 |
 | [AXS-KRW](config/cypress/AXS-KRW.config.json) | 2000 | 400 | 60000 | 4 |
+| [BABYDOGE-USDT](config/cypress/BABYDOGE-USDT.config.json) | 2000 | 400 | 60000 | 11 |
+| [BAT-USDT](config/cypress/BAT-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [BCH-KRW](config/cypress/BCH-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [BEAM-USDT](config/cypress/BEAM-USDT.config.json) | 2000 | 400 | 60000 | 9 |
 | [BERA-USDT](config/cypress/BERA-USDT.config.json) | 2000 | 400 | 60000 | 16 |
@@ -278,16 +284,20 @@
 | [BTG-KRW](config/cypress/BTG-KRW.config.json) | 2000 | 400 | 60000 | 2 |
 | [BTT-KRW](config/cypress/BTT-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [CAKE-USDT](config/cypress/CAKE-USDT.config.json) | 2000 | 400 | 60000 | 14 |
+| [CELO-USDT](config/cypress/CELO-USDT.config.json) | 2000 | 400 | 60000 | 12 |
 | [CFX-USDT](config/cypress/CFX-USDT.config.json) | 2000 | 400 | 60000 | 12 |
 | [CHF-USD](config/cypress/CHF-USD.config.json) | 2000 | 400 | 15000 | 3 |
 | [CHZ-KRW](config/cypress/CHZ-KRW.config.json) | 2000 | 400 | 60000 | 4 |
+| [CKB-USDT](config/cypress/CKB-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [COMP-USDT](config/cypress/COMP-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [CORE-USDT](config/cypress/CORE-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [CRO-USDT](config/cypress/CRO-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [CRV-USDT](config/cypress/CRV-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [CTC-KRW](config/cypress/CTC-KRW.config.json) | 2000 | 400 | 60000 | 5 |
+| [CVX-USDT](config/cypress/CVX-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [DAI-USDT](config/cypress/DAI-USDT.config.json) | 2000 | 400 | 15000 | 14 |
 | [DASH-USDT](config/cypress/DASH-USDT.config.json) | 2000 | 400 | 60000 | 7 |
+| [DEEP-USDT](config/cypress/DEEP-USDT.config.json) | 2000 | 400 | 60000 | 7 |
 | [DEXE-USDT](config/cypress/DEXE-USDT.config.json) | 2000 | 400 | 60000 | 8 |
 | [DOGE-KRW](config/cypress/DOGE-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [DOGE-USDT](config/cypress/DOGE-USDT.config.json) | 2000 | 400 | 15000 | 18 |
@@ -303,6 +313,7 @@
 | [ETH-KRW](config/cypress/ETH-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [ETH-USDT](config/cypress/ETH-USDT.config.json) | 2000 | 400 | 15000 | 22 |
 | [EUR-USD](config/cypress/EUR-USD.config.json) | 2000 | 400 | 15000 | 4 |
+| [FARTCOIN-USDT](config/cypress/FARTCOIN-USDT.config.json) | 2000 | 400 | 60000 | 12 |
 | [FDUSD-USDT](config/cypress/FDUSD-USDT.config.json) | 2000 | 400 | 60000 | 5 |
 | [FET-KRW](config/cypress/FET-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [FIL-USDT](config/cypress/FIL-USDT.config.json) | 2000 | 400 | 60000 | 17 |
@@ -323,6 +334,7 @@
 | [GT-USDT](config/cypress/GT-USDT.config.json) | 2000 | 400 | 60000 | 3 |
 | [HBAR-KRW](config/cypress/HBAR-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [HNT-USDT](config/cypress/HNT-USDT.config.json) | 2000 | 400 | 60000 | 10 |
+| [HOT-USDT](config/cypress/HOT-USDT.config.json) | 2000 | 400 | 60000 | 12 |
 | [HPO-KRW](config/cypress/HPO-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [HYPE-USDT](config/cypress/HYPE-USDT.config.json) | 2000 | 400 | 60000 | 7 |
 | [IMX-KRW](config/cypress/IMX-KRW.config.json) | 2000 | 400 | 60000 | 4 |
@@ -348,9 +360,11 @@
 | [KSP-KRW](config/cypress/KSP-KRW.config.json) | 2000 | 400 | 15000 | 2 |
 | [LDO-USDT](config/cypress/LDO-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [LINK-KRW](config/cypress/LINK-KRW.config.json) | 2000 | 400 | 60000 | 5 |
+| [LPT-USDT](config/cypress/LPT-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [LTC-USDT](config/cypress/LTC-USDT.config.json) | 2000 | 400 | 15000 | 16 |
 | [LUNC-USDT](config/cypress/LUNC-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [MANA-USDT](config/cypress/MANA-USDT.config.json) | 2000 | 400 | 60000 | 17 |
+| [MASK-USDT](config/cypress/MASK-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [MBL-KRW](config/cypress/MBL-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [MBX-KRW](config/cypress/MBX-KRW.config.json) | 2000 | 400 | 15000 | 3 |
 | [MED-KRW](config/cypress/MED-KRW.config.json) | 2000 | 400 | 60000 | 3 |
@@ -367,10 +381,12 @@
 | [NEO-USDT](config/cypress/NEO-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [NEXO-USDT](config/cypress/NEXO-USDT.config.json) | 2000 | 400 | 60000 | 10 |
 | [NFT-USDT](config/cypress/NFT-USDT.config.json) | 2000 | 400 | 60000 | 10 |
+| [NOT-USDT](config/cypress/NOT-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [OKB-USDT](config/cypress/OKB-USDT.config.json) | 2000 | 400 | 60000 | 8 |
 | [ONDO-KRW](config/cypress/ONDO-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [ONDO-USDT](config/cypress/ONDO-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [ONG-KRW](config/cypress/ONG-KRW.config.json) | 2000 | 400 | 60000 | 3 |
+| [OSMO-USDT](config/cypress/OSMO-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [PAXG-USDT](config/cypress/PAXG-USDT.config.json) | 2000 | 400 | 15000 | 10 |
 | [PENDLE-USDT](config/cypress/PENDLE-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [PENGU-USDT](config/cypress/PENGU-USDT.config.json) | 2000 | 400 | 60000 | 17 |
@@ -385,13 +401,17 @@
 | [PYTH-KRW](config/cypress/PYTH-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [PYUSD-USDT](config/cypress/PYUSD-USDT.config.json) | 2000 | 400 | 60000 | 9 |
 | [QNT-USDT](config/cypress/QNT-USDT.config.json) | 2000 | 400 | 60000 | 13 |
+| [QTUM-USDT](config/cypress/QTUM-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [RAY-USDT](config/cypress/RAY-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [RNDR-USDT](config/cypress/RNDR-USDT.config.json) | 2000 | 400 | 60000 | 2 |
 | [RON-USDT](config/cypress/RON-USDT.config.json) | 2000 | 400 | 60000 | 8 |
+| [ROSE-USDT](config/cypress/ROSE-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [RSR-USDT](config/cypress/RSR-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [RUNE-USDT](config/cypress/RUNE-USDT.config.json) | 2000 | 400 | 60000 | 12 |
+| [SAFE-USDT](config/cypress/SAFE-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [SAND-KRW](config/cypress/SAND-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [SAND-USDT](config/cypress/SAND-USDT.config.json) | 2000 | 400 | 60000 | 17 |
+| [SATS-USDT](config/cypress/SATS-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [SEI-KRW](config/cypress/SEI-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [SEI-USDT](config/cypress/SEI-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [SFP-USDT](config/cypress/SFP-USDT.config.json) | 2000 | 400 | 60000 | 9 |
@@ -409,7 +429,9 @@
 | [STX-KRW](config/cypress/STX-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [SUI-KRW](config/cypress/SUI-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [SUI-USDT](config/cypress/SUI-USDT.config.json) | 2000 | 400 | 60000 | 15 |
+| [SUPER-USDT](config/cypress/SUPER-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [TAO-USDT](config/cypress/TAO-USDT.config.json) | 2000 | 400 | 60000 | 10 |
+| [TFUEL-USDT](config/cypress/TFUEL-USDT.config.json) | 2000 | 400 | 60000 | 9 |
 | [THETA-USDT](config/cypress/THETA-USDT.config.json) | 2000 | 400 | 60000 | 12 |
 | [TIA-USDT](config/cypress/TIA-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [TON-USDT](config/cypress/TON-USDT.config.json) | 2000 | 400 | 60000 | 16 |
@@ -425,6 +447,8 @@
 | [USDT-USD](config/cypress/USDT-USD.config.json) | 2000 | 400 | 60000 | 7 |
 | [VET-USDT](config/cypress/VET-USDT.config.json) | 2000 | 400 | 60000 | 12 |
 | [VIRTUAL-USDT](config/cypress/VIRTUAL-USDT.config.json) | 2000 | 400 | 60000 | 14 |
+| [VTHO-USDT](config/cypress/VTHO-USDT.config.json) | 2000 | 400 | 60000 | 9 |
+| [W-USDT](config/cypress/W-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [WAVES-KRW](config/cypress/WAVES-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [WEMIX-KRW](config/cypress/WEMIX-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [WEMIX-USDT](config/cypress/WEMIX-USDT.config.json) | 2000 | 400 | 15000 | 11 |
@@ -432,6 +456,7 @@
 | [WLD-KRW](config/cypress/WLD-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [WLD-USDT](config/cypress/WLD-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [XAUT-USDT](config/cypress/XAUT-USDT.config.json) | 2000 | 400 | 60000 | 12 |
+| [XCH-USDT](config/cypress/XCH-USDT.config.json) | 2000 | 400 | 60000 | 9 |
 | [XCN-USDT](config/cypress/XCN-USDT.config.json) | 2000 | 400 | 60000 | 8 |
 | [XEC-KRW](config/cypress/XEC-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [XLM-KRW](config/cypress/XLM-KRW.config.json) | 2000 | 400 | 60000 | 5 |
@@ -440,9 +465,13 @@
 | [XRP-USDT](config/cypress/XRP-USDT.config.json) | 2000 | 400 | 15000 | 20 |
 | [XTZ-USDT](config/cypress/XTZ-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [ZETA-KRW](config/cypress/ZETA-KRW.config.json) | 2000 | 400 | 60000 | 4 |
+| [ZIL-USDT](config/cypress/ZIL-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [ZK-KRW](config/cypress/ZK-KRW.config.json) | 2000 | 400 | 60000 | 3 |
+| [ZK-USDT](config/cypress/ZK-USDT.config.json) | 2000 | 400 | 60000 | 16 |
+| [ZKJ-USDT](config/cypress/ZKJ-USDT.config.json) | 2000 | 400 | 60000 | 10 |
 | [ZRO-KRW](config/cypress/ZRO-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [ZRO-USDT](config/cypress/ZRO-USDT.config.json) | 2000 | 400 | 60000 | 17 |
+| [ZRX-USDT](config/cypress/ZRX-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 
 ## Log history
 

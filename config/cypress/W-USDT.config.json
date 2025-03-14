@@ -1,0 +1,161 @@
+{
+    "name": "W-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-W-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "W",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-W-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "W",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-W-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "W",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-W-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "W",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-W-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "W",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-W-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "W",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-W-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "W",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-W-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "W",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-W-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "W",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-W-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "W",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-W-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "W",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-W-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "W",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-W-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "W",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-W-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "W",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-W-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "W",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-W-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "W",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-W-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "W",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

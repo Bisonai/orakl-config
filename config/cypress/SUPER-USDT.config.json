@@ -1,0 +1,107 @@
+{
+    "name": "SUPER-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-SUPER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "SUPER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-SUPER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "SUPER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-SUPER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "SUPER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-SUPER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "SUPER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-SUPER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "SUPER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-SUPER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "SUPER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-SUPER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "SUPER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-SUPER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "SUPER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-SUPER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "SUPER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-SUPER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "SUPER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-SUPER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "SUPER",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

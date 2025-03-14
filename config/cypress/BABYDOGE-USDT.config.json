@@ -1,0 +1,107 @@
+{
+    "name": "BABYDOGE-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "kucoin-wss-BABYDOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "BABYDOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-BABYDOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "BABYDOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-BABYDOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "BABYDOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-BABYDOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "BABYDOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-BABYDOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "BABYDOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-BABYDOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "BABYDOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-BABYDOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "BABYDOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-BABYDOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "BABYDOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-BABYDOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "BABYDOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-BABYDOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "BABYDOGE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-BABYDOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "BABYDOGE",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

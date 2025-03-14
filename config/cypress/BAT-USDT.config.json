@@ -1,0 +1,143 @@
+{
+    "name": "BAT-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-BAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "BAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-BAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "BAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-BAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "BAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-BAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "BAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-BAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "BAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-BAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "BAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-BAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "BAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-BAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "BAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-BAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "BAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-BAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "BAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-BAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "BAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-BAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "BAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-BAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "BAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-BAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "BAT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-BAT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "BAT",
+                "quote": "USDT"
+            }
+        }
+    ]
+}
