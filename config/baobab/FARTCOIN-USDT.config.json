@@ -1,0 +1,116 @@
+{
+    "name": "FARTCOIN-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "kucoin-wss-FARTCOIN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "FARTCOIN",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-FARTCOIN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "FARTCOIN",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-FARTCOIN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "FARTCOIN",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-FARTCOIN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "FARTCOIN",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-FARTCOIN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "FARTCOIN",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-FARTCOIN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "FARTCOIN",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-FARTCOIN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "FARTCOIN",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-FARTCOIN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "FARTCOIN",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kraken-wss-FARTCOIN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "FARTCOIN",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-FARTCOIN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "FARTCOIN",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-FARTCOIN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "FARTCOIN",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-FARTCOIN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "FARTCOIN",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "name": "AVL-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "bybit-wss-AVL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "AVL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-AVL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "AVL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-AVL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "AVL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-AVL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "AVL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-AVL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "AVL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-AVL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "AVL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-AVL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "AVL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-AVL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "AVL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-AVL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "AVL",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

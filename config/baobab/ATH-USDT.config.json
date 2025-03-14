@@ -1,0 +1,125 @@
+{
+    "name": "ATH-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "kucoin-wss-ATH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "ATH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-ATH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "ATH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-ATH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "ATH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-ATH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "ATH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-ATH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "ATH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-ATH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "ATH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-ATH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "ATH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-ATH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "ATH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-ATH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "ATH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-ATH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "ATH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-ATH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "ATH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-ATH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "ATH",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-ATH-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "ATH",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

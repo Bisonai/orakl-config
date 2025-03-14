@@ -1,0 +1,107 @@
+{
+    "name": "OSMO-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-OSMO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "OSMO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-OSMO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "OSMO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-OSMO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "OSMO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-OSMO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "OSMO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-OSMO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "OSMO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-OSMO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "OSMO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-OSMO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "OSMO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-OSMO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "OSMO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-OSMO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "OSMO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-OSMO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "OSMO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-OSMO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "OSMO",
+                "quote": "USDT"
+            }
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "name": "ZIL-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-ZIL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "ZIL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-ZIL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "ZIL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-ZIL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "ZIL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-ZIL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "ZIL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-ZIL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "ZIL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-ZIL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "ZIL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-ZIL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "ZIL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-ZIL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "ZIL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-ZIL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "ZIL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-ZIL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "ZIL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-ZIL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "ZIL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-ZIL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "ZIL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-ZIL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "ZIL",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-ZIL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "ZIL",
+                "quote": "USDT"
+            }
+        }
+    ]
+}
