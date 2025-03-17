@@ -119,6 +119,7 @@
 | [KLAY-USDT](config/baobab/KLAY-USDT.config.json) | 2000 | 400 | 15000 | 15 |
 | [KNC-KRW](config/baobab/KNC-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [KRW-USD](config/baobab/KRW-USD.config.json) | 2000 | 400 | 15000 | 3 |
+| [KRWO-USDT](config/baobab/KRWO-USDT.config.json) | 2000 | 400 | 15000 | 1 |
 | [KSM-USDT](config/baobab/KSM-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [KSP-KRW](config/baobab/KSP-KRW.config.json) | 2000 | 400 | 15000 | 2 |
 | [LDO-USDT](config/baobab/LDO-USDT.config.json) | 2000 | 400 | 60000 | 16 |
