@@ -357,6 +357,7 @@
 | [KLAY-USDT](config/cypress/KLAY-USDT.config.json) | 2000 | 400 | 15000 | 15 |
 | [KNC-KRW](config/cypress/KNC-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [KRW-USD](config/cypress/KRW-USD.config.json) | 2000 | 400 | 15000 | 3 |
+| [KRWO-USDT](config/cypress/KRWO-USDT.config.json) | 2000 | 400 | 60000 | 1 |
 | [KSM-USDT](config/cypress/KSM-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [KSP-KRW](config/cypress/KSP-KRW.config.json) | 2000 | 400 | 15000 | 2 |
 | [LDO-USDT](config/cypress/LDO-USDT.config.json) | 2000 | 400 | 60000 | 16 |
