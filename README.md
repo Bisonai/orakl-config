@@ -44,7 +44,6 @@
 | [BSV-KRW](config/baobab/BSV-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [BTC-KRW](config/baobab/BTC-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [BTC-USDT](config/baobab/BTC-USDT.config.json) | 2000 | 400 | 15000 | 20 |
-| [BTG-KRW](config/baobab/BTG-KRW.config.json) | 2000 | 400 | 60000 | 2 |
 | [BTT-KRW](config/baobab/BTT-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [CAKE-USDT](config/baobab/CAKE-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [CELO-USDT](config/baobab/CELO-USDT.config.json) | 2000 | 400 | 60000 | 12 |
@@ -282,7 +281,6 @@
 | [BSV-KRW](config/cypress/BSV-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [BTC-KRW](config/cypress/BTC-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [BTC-USDT](config/cypress/BTC-USDT.config.json) | 2000 | 400 | 15000 | 20 |
-| [BTG-KRW](config/cypress/BTG-KRW.config.json) | 2000 | 400 | 60000 | 2 |
 | [BTT-KRW](config/cypress/BTT-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [CAKE-USDT](config/cypress/CAKE-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [CELO-USDT](config/cypress/CELO-USDT.config.json) | 2000 | 400 | 60000 | 12 |
