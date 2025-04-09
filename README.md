@@ -318,7 +318,7 @@
 | [FLOKI-USDT](config/cypress/FLOKI-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [FLOW-KRW](config/cypress/FLOW-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [FLR-USDT](config/cypress/FLR-USDT.config.json) | 2000 | 400 | 60000 | 11 |
-| [FROM-USDT](config/cypress/FROM-USDT.config.json) | 2000 | 400 | 60000 | 0 |
+| [FORM-USDT](config/cypress/FORM-USDT.config.json) | 2000 | 400 | 60000 | 9 |
 | [FTT-USDT](config/cypress/FTT-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [GALA-USDT](config/cypress/GALA-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [GAS-KRW](config/cypress/GAS-KRW.config.json) | 2000 | 400 | 60000 | 3 |

@@ -1,7 +1,0 @@
-{
-    "name": "FROM-USDT",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 60000,
-    "feeds": []
-}
