@@ -14,6 +14,15 @@
             }
         },
         {
+            "name": "korbit-wss-ZETA-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "ZETA",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "bithumb-wss-ZETA-KRW",
             "definition": {
                 "type": "wss",
@@ -27,15 +36,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "coinone",
-                "base": "ZETA",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "korbit-wss-ZETA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
                 "base": "ZETA",
                 "quote": "KRW"
             }

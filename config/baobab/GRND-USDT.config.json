@@ -14,19 +14,19 @@
             }
         },
         {
-            "name": "orangex-wss-GRND-USDT",
+            "name": "lbank-wss-GRND-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "orangex",
+                "provider": "lbank",
                 "base": "GRND",
                 "quote": "USDT"
             }
         },
         {
-            "name": "lbank-wss-GRND-USDT",
+            "name": "orangex-wss-GRND-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "lbank",
+                "provider": "orangex",
                 "base": "GRND",
                 "quote": "USDT"
             }

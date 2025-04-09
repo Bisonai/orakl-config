@@ -68,15 +68,6 @@
             }
         },
         {
-            "name": "xt-wss-AVL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "AVL",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "orangex-wss-AVL-USDT",
             "definition": {
                 "type": "wss",

@@ -14,15 +14,6 @@
             }
         },
         {
-            "name": "bitget-wss-BORA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "BORA",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "okx-wss-BORA-USDT",
             "definition": {
                 "type": "wss",

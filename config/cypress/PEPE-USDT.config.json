@@ -104,6 +104,15 @@
             }
         },
         {
+            "name": "mexc-wss-PEPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "PEPE",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "okx-wss-PEPE-USDT",
             "definition": {
                 "type": "wss",
@@ -144,15 +153,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "orangex",
-                "base": "PEPE",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-PEPE-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
                 "base": "PEPE",
                 "quote": "USDT"
             }

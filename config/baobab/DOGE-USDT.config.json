@@ -113,6 +113,15 @@
             }
         },
         {
+            "name": "mexc-wss-DOGE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "DOGE",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "okx-wss-DOGE-USDT",
             "definition": {
                 "type": "wss",
@@ -153,15 +162,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "orangex",
-                "base": "DOGE",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-DOGE-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
                 "base": "DOGE",
                 "quote": "USDT"
             }

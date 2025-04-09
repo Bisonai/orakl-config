@@ -68,6 +68,15 @@
             }
         },
         {
+            "name": "huobi-wss-IP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "IP",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "mexc-wss-IP-USDT",
             "definition": {
                 "type": "wss",
