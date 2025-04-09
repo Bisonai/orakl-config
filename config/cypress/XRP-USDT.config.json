@@ -122,6 +122,15 @@
             }
         },
         {
+            "name": "mexc-wss-XRP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "XRP",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "okx-wss-XRP-USDT",
             "definition": {
                 "type": "wss",
@@ -171,15 +180,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "orangex",
-                "base": "XRP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-XRP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
                 "base": "XRP",
                 "quote": "USDT"
             }

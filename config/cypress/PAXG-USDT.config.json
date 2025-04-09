@@ -23,19 +23,19 @@
             }
         },
         {
-            "name": "bybit-wss-PAXG-USDT",
+            "name": "crypto-wss-PAXG-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "bybit",
+                "provider": "crypto",
                 "base": "PAXG",
                 "quote": "USDT"
             }
         },
         {
-            "name": "crypto-wss-PAXG-USDT",
+            "name": "gateio-wss-PAXG-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "crypto",
+                "provider": "gateio",
                 "base": "PAXG",
                 "quote": "USDT"
             }
@@ -68,6 +68,15 @@
             }
         },
         {
+            "name": "mexc-wss-PAXG-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "PAXG",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "bingx-wss-PAXG-USDT",
             "definition": {
                 "type": "wss",
@@ -77,19 +86,19 @@
             }
         },
         {
-            "name": "xt-wss-PAXG-USDT",
+            "name": "bitmart-wss-PAXG-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "xt",
+                "provider": "bitmart",
                 "base": "PAXG",
                 "quote": "USDT"
             }
         },
         {
-            "name": "mexc-wss-PAXG-USDT",
+            "name": "xt-wss-PAXG-USDT",
             "definition": {
                 "type": "wss",
-                "provider": "mexc",
+                "provider": "xt",
                 "base": "PAXG",
                 "quote": "USDT"
             }

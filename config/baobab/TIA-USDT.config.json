@@ -95,6 +95,15 @@
             }
         },
         {
+            "name": "mexc-wss-TIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "TIA",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "okx-wss-TIA-USDT",
             "definition": {
                 "type": "wss",
@@ -135,15 +144,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "orangex",
-                "base": "TIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-TIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
                 "base": "TIA",
                 "quote": "USDT"
             }

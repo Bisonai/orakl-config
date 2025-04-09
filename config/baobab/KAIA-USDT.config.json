@@ -41,6 +41,15 @@
             }
         },
         {
+            "name": "btse-wss-KAIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "KAIA",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "gateio-wss-KAIA-USDT",
             "definition": {
                 "type": "wss",
@@ -104,6 +113,15 @@
             }
         },
         {
+            "name": "bitmart-wss-KAIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "KAIA",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "xt-wss-KAIA-USDT",
             "definition": {
                 "type": "wss",
@@ -117,24 +135,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "orangex",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
-                "base": "KAIA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-KAIA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
                 "base": "KAIA",
                 "quote": "USDT"
             }

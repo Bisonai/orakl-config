@@ -23,15 +23,6 @@
             }
         },
         {
-            "name": "bitget-wss-FDUSD-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "FDUSD",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "mexc-wss-FDUSD-USDT",
             "definition": {
                 "type": "wss",

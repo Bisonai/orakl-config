@@ -86,6 +86,15 @@
             }
         },
         {
+            "name": "mexc-wss-LTC-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "LTC",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "okx-wss-LTC-USDT",
             "definition": {
                 "type": "wss",
@@ -135,15 +144,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "orangex",
-                "base": "LTC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-LTC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
                 "base": "LTC",
                 "quote": "USDT"
             }

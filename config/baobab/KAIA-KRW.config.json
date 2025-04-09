@@ -32,15 +32,6 @@
             }
         },
         {
-            "name": "gopax-wss-KLAY-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "gopax",
-                "base": "KLAY",
-                "quote": "KRW"
-            }
-        },
-        {
             "name": "gopax-wss-KAIA-KRW",
             "definition": {
                 "type": "wss",

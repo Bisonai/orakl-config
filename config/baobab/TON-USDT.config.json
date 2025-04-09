@@ -95,10 +95,28 @@
             }
         },
         {
+            "name": "mexc-wss-TON-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "TON",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "okx-wss-TON-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "okx",
+                "base": "TON",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kraken-wss-TON-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
                 "base": "TON",
                 "quote": "USDT"
             }
@@ -126,24 +144,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "orangex",
-                "base": "TON",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-TON-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
-                "base": "TON",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kraken-wss-TON-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kraken",
                 "base": "TON",
                 "quote": "USDT"
             }

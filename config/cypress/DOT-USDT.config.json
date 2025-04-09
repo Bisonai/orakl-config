@@ -104,6 +104,15 @@
             }
         },
         {
+            "name": "mexc-wss-DOT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "DOT",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "okx-wss-DOT-USDT",
             "definition": {
                 "type": "wss",
@@ -144,15 +153,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "xt",
-                "base": "DOT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-DOT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
                 "base": "DOT",
                 "quote": "USDT"
             }

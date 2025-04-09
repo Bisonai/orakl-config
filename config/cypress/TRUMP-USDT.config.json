@@ -32,10 +32,28 @@
             }
         },
         {
+            "name": "upbit-wss-TRUMP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "TRUMP",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "crypto-wss-TRUMP-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "crypto",
+                "base": "TRUMP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-TRUMP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
                 "base": "TRUMP",
                 "quote": "USDT"
             }
@@ -122,37 +140,19 @@
             }
         },
         {
-            "name": "orangex-wss-TRUMP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "orangex",
-                "base": "TRUMP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "upbit-wss-TRUMP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "TRUMP",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-TRUMP-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
-                "base": "TRUMP",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "xt-wss-TRUMP-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "xt",
+                "base": "TRUMP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-TRUMP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
                 "base": "TRUMP",
                 "quote": "USDT"
             }

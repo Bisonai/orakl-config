@@ -122,6 +122,15 @@
             }
         },
         {
+            "name": "bitmart-wss-EGLD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "EGLD",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "xt-wss-EGLD-USDT",
             "definition": {
                 "type": "wss",

@@ -86,6 +86,15 @@
             }
         },
         {
+            "name": "mexc-wss-BNB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "BNB",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "okx-wss-BNB-USDT",
             "definition": {
                 "type": "wss",
@@ -126,15 +135,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "orangex",
-                "base": "BNB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-BNB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
                 "base": "BNB",
                 "quote": "USDT"
             }

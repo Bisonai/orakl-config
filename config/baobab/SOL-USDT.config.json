@@ -113,6 +113,15 @@
             }
         },
         {
+            "name": "mexc-wss-SOL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "SOL",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "okx-wss-SOL-USDT",
             "definition": {
                 "type": "wss",
@@ -162,15 +171,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "orangex",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
                 "base": "SOL",
                 "quote": "USDT"
             }

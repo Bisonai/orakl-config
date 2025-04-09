@@ -84,6 +84,15 @@
                 "base": "GRASS",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "bitmart-wss-GRASS-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "GRASS",
+                "quote": "USDT"
+            }
         }
     ]
 }

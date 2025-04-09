@@ -114,6 +114,15 @@
             }
         },
         {
+            "name": "mexc-wss-UNI-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "UNI",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "okx-wss-UNI-USDT",
             "definition": {
                 "type": "wss",
@@ -154,15 +163,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "orangex",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
                 "base": "UNI",
                 "quote": "USDT"
             }

@@ -5,6 +5,15 @@
     "submitInterval": 60000,
     "feeds": [
         {
+            "name": "upbit-wss-PEPE-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "PEPE",
+                "quote": "KRW"
+            }
+        },
+        {
             "name": "korbit-wss-PEPE-KRW",
             "definition": {
                 "type": "wss",
@@ -27,15 +36,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "coinone",
-                "base": "PEPE",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "upbit-wss-PEPE-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
                 "base": "PEPE",
                 "quote": "KRW"
             }

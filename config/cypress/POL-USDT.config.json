@@ -95,6 +95,15 @@
             }
         },
         {
+            "name": "mexc-wss-POL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "POL",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "okx-wss-POL-USDT",
             "definition": {
                 "type": "wss",
@@ -135,15 +144,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "orangex",
-                "base": "POL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-POL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
                 "base": "POL",
                 "quote": "USDT"
             }

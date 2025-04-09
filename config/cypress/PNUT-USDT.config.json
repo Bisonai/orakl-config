@@ -23,6 +23,15 @@
             }
         },
         {
+            "name": "bybit-wss-PNUT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "PNUT",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "crypto-wss-PNUT-USDT",
             "definition": {
                 "type": "wss",
@@ -113,28 +122,10 @@
             }
         },
         {
-            "name": "bitmart-wss-PNUT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "PNUT",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "xt-wss-PNUT-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "xt",
-                "base": "PNUT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bybit-wss-PNUT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
                 "base": "PNUT",
                 "quote": "USDT"
             }

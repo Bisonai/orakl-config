@@ -95,6 +95,15 @@
             }
         },
         {
+            "name": "mexc-wss-TRX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "TRX",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "okx-wss-TRX-USDT",
             "definition": {
                 "type": "wss",
@@ -135,15 +144,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "orangex",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
                 "base": "TRX",
                 "quote": "USDT"
             }

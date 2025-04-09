@@ -104,6 +104,15 @@
             }
         },
         {
+            "name": "mexc-wss-AVAX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "AVAX",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "okx-wss-AVAX-USDT",
             "definition": {
                 "type": "wss",
@@ -153,15 +162,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "orangex",
-                "base": "AVAX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-AVAX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
                 "base": "AVAX",
                 "quote": "USDT"
             }

@@ -104,6 +104,15 @@
             }
         },
         {
+            "name": "mexc-wss-INJ-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "INJ",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "okx-wss-INJ-USDT",
             "definition": {
                 "type": "wss",
@@ -135,15 +144,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "xt",
-                "base": "INJ",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-INJ-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
                 "base": "INJ",
                 "quote": "USDT"
             }

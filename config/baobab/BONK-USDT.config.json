@@ -104,6 +104,15 @@
             }
         },
         {
+            "name": "mexc-wss-BONK-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "BONK",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "okx-wss-BONK-USDT",
             "definition": {
                 "type": "wss",
@@ -144,15 +153,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "orangex",
-                "base": "BONK",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-BONK-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
                 "base": "BONK",
                 "quote": "USDT"
             }

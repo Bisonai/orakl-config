@@ -24,15 +24,6 @@
             }
         },
         {
-            "name": "crypto-wss-DAI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "DAI",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "gateio-wss-DAI-USDT",
             "definition": {
                 "type": "wss",

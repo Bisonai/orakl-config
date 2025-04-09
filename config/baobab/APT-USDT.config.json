@@ -104,6 +104,15 @@
             }
         },
         {
+            "name": "mexc-wss-APT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "APT",
+                "quote": "USDT"
+            }
+        },
+        {
             "name": "okx-wss-APT-USDT",
             "definition": {
                 "type": "wss",
@@ -144,15 +153,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "orangex",
-                "base": "APT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-APT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
                 "base": "APT",
                 "quote": "USDT"
             }

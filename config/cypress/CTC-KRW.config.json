@@ -32,19 +32,19 @@
             }
         },
         {
-            "name": "gopax-wss-CTC-KRW",
+            "name": "coinone-wss-CTC-KRW",
             "definition": {
                 "type": "wss",
-                "provider": "gopax",
+                "provider": "coinone",
                 "base": "CTC",
                 "quote": "KRW"
             }
         },
         {
-            "name": "coinone-wss-CTC-KRW",
+            "name": "gopax-wss-CTC-KRW",
             "definition": {
                 "type": "wss",
-                "provider": "coinone",
+                "provider": "gopax",
                 "base": "CTC",
                 "quote": "KRW"
             }

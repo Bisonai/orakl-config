@@ -59,15 +59,6 @@
             }
         },
         {
-            "name": "lbank-wss-WLD-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "WLD",
-                "quote": "USDT"
-            }
-        },
-        {
             "name": "coinex-wss-WLD-USDT",
             "definition": {
                 "type": "wss",
@@ -90,6 +81,15 @@
             "definition": {
                 "type": "wss",
                 "provider": "huobi",
+                "base": "WLD",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-WLD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
                 "base": "WLD",
                 "quote": "USDT"
             }
@@ -126,15 +126,6 @@
             "definition": {
                 "type": "wss",
                 "provider": "xt",
-                "base": "WLD",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-WLD-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
                 "base": "WLD",
                 "quote": "USDT"
             }
