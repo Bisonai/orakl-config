@@ -19172,15 +19172,6 @@
                 }
             },
             {
-                "name": "bingx-wss-TRUMP-USDT",
-                "definition": {
-                    "type": "wss",
-                    "provider": "bingx",
-                    "base": "TRUMP",
-                    "quote": "USDT"
-                }
-            },
-            {
                 "name": "bitmart-wss-TRUMP-USDT",
                 "definition": {
                     "type": "wss",
