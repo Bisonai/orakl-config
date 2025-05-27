@@ -109,7 +109,7 @@
 | [JTO-USDT](config/baobab/JTO-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [JUP-USDT](config/baobab/JUP-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [KAIA-KRW](config/baobab/KAIA-KRW.config.json) | 2000 | 400 | 60000 | 4 |
-| [KAIA-USDT](config/baobab/KAIA-USDT.config.json) | 2000 | 400 | 60000 | 15 |
+| [KAIA-USDT](config/baobab/KAIA-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [KAITO-USDT](config/baobab/KAITO-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [KAS-USDT](config/baobab/KAS-USDT.config.json) | 2000 | 400 | 60000 | 12 |
 | [KAVA-USDT](config/baobab/KAVA-USDT.config.json) | 2000 | 400 | 60000 | 13 |
@@ -117,7 +117,7 @@
 | [KLAY-USDT](config/baobab/KLAY-USDT.config.json) | 2000 | 400 | 15000 | 15 |
 | [KNC-KRW](config/baobab/KNC-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [KRW-USD](config/baobab/KRW-USD.config.json) | 2000 | 400 | 15000 | 3 |
-| [KRWO-USDT](config/baobab/KRWO-USDT.config.json) | 2000 | 400 | 15000 | 1 |
+| [KRWO-USDT](config/baobab/KRWO-USDT.config.json) | 2000 | 400 | 15000 | 2 |
 | [KSM-USDT](config/baobab/KSM-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [KSP-KRW](config/baobab/KSP-KRW.config.json) | 2000 | 400 | 15000 | 2 |
 | [LDO-USDT](config/baobab/LDO-USDT.config.json) | 2000 | 400 | 60000 | 16 |
@@ -212,6 +212,7 @@
 | [VIRTUAL-USDT](config/baobab/VIRTUAL-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [VTHO-USDT](config/baobab/VTHO-USDT.config.json) | 2000 | 400 | 60000 | 9 |
 | [W-USDT](config/baobab/W-USDT.config.json) | 2000 | 400 | 60000 | 17 |
+| [WALK-USDT](config/baobab/WALK-USDT.config.json) | 2000 | 400 | 60000 | 1 |
 | [WAVES-KRW](config/baobab/WAVES-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [WEMIX-KRW](config/baobab/WEMIX-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [WEMIX-USDT](config/baobab/WEMIX-USDT.config.json) | 2000 | 400 | 15000 | 11 |
