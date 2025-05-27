@@ -347,7 +347,7 @@
 | [JTO-USDT](config/cypress/JTO-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [JUP-USDT](config/cypress/JUP-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [KAIA-KRW](config/cypress/KAIA-KRW.config.json) | 2000 | 400 | 60000 | 4 |
-| [KAIA-USDT](config/cypress/KAIA-USDT.config.json) | 2000 | 400 | 60000 | 15 |
+| [KAIA-USDT](config/cypress/KAIA-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [KAITO-USDT](config/cypress/KAITO-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [KAS-USDT](config/cypress/KAS-USDT.config.json) | 2000 | 400 | 60000 | 12 |
 | [KAVA-USDT](config/cypress/KAVA-USDT.config.json) | 2000 | 400 | 60000 | 13 |
@@ -355,7 +355,7 @@
 | [KLAY-USDT](config/cypress/KLAY-USDT.config.json) | 2000 | 400 | 15000 | 15 |
 | [KNC-KRW](config/cypress/KNC-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [KRW-USD](config/cypress/KRW-USD.config.json) | 2000 | 400 | 15000 | 3 |
-| [KRWO-USDT](config/cypress/KRWO-USDT.config.json) | 2000 | 400 | 60000 | 1 |
+| [KRWO-USDT](config/cypress/KRWO-USDT.config.json) | 2000 | 400 | 60000 | 2 |
 | [KSM-USDT](config/cypress/KSM-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [KSP-KRW](config/cypress/KSP-KRW.config.json) | 2000 | 400 | 15000 | 2 |
 | [LDO-USDT](config/cypress/LDO-USDT.config.json) | 2000 | 400 | 60000 | 16 |
@@ -450,6 +450,7 @@
 | [VIRTUAL-USDT](config/cypress/VIRTUAL-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [VTHO-USDT](config/cypress/VTHO-USDT.config.json) | 2000 | 400 | 60000 | 9 |
 | [W-USDT](config/cypress/W-USDT.config.json) | 2000 | 400 | 60000 | 17 |
+| [WALK-USDT](config/cypress/WALK-USDT.config.json) | 2000 | 400 | 60000 | 1 |
 | [WAVES-KRW](config/cypress/WAVES-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [WEMIX-KRW](config/cypress/WEMIX-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [WEMIX-USDT](config/cypress/WEMIX-USDT.config.json) | 2000 | 400 | 15000 | 11 |
