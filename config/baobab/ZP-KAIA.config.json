@@ -1,0 +1,19 @@
+{
+  "name": "ZP-KAIA",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 15000,
+  "feeds": [
+    {
+      "name": "Dragonswap-ZP-KAIA",
+      "definition": {
+        "chainId": "8217",
+        "address": "0xb1bcb17975407f2e9dbae748366b95e12f163a03",
+        "type": "UniswapPool",
+        "reciprocal": true,
+        "token0Decimals": 18,
+        "token1Decimals": 18
+      }
+    }
+  ]
+}
