@@ -233,6 +233,7 @@
 | [ZK-KRW](config/baobab/ZK-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [ZK-USDT](config/baobab/ZK-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [ZKJ-USDT](config/baobab/ZKJ-USDT.config.json) | 2000 | 400 | 60000 | 10 |
+| [ZP-KAIA](config/baobab/ZP-KAIA.config.json) | 2000 | 400 | 15000 | 1 |
 | [ZRO-KRW](config/baobab/ZRO-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [ZRO-USDT](config/baobab/ZRO-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [ZRX-USDT](config/baobab/ZRX-USDT.config.json) | 2000 | 400 | 60000 | 15 |
@@ -471,6 +472,7 @@
 | [ZK-KRW](config/cypress/ZK-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [ZK-USDT](config/cypress/ZK-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [ZKJ-USDT](config/cypress/ZKJ-USDT.config.json) | 2000 | 400 | 60000 | 10 |
+| [ZP-KAIA](config/cypress/ZP-KAIA.config.json) | 2000 | 400 | 15000 | 1 |
 | [ZRO-KRW](config/cypress/ZRO-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [ZRO-USDT](config/cypress/ZRO-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [ZRX-USDT](config/cypress/ZRX-USDT.config.json) | 2000 | 400 | 60000 | 15 |
