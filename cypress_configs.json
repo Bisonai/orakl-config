@@ -8833,59 +8833,6 @@
         ]
     },
     {
-        "name": "HPO-KRW",
-        "fetchInterval": 2000,
-        "aggregateInterval": 400,
-        "submitInterval": 60000,
-        "feeds": [
-            {
-                "name": "upbit-wss-HPO-KRW",
-                "definition": {
-                    "type": "wss",
-                    "provider": "upbit",
-                    "base": "HPO",
-                    "quote": "KRW"
-                }
-            },
-            {
-                "name": "korbit-wss-HPO-KRW",
-                "definition": {
-                    "type": "wss",
-                    "provider": "korbit",
-                    "base": "HPO",
-                    "quote": "KRW"
-                }
-            },
-            {
-                "name": "bithumb-wss-HPO-KRW",
-                "definition": {
-                    "type": "wss",
-                    "provider": "bithumb",
-                    "base": "HPO",
-                    "quote": "KRW"
-                }
-            },
-            {
-                "name": "coinone-wss-HPO-KRW",
-                "definition": {
-                    "type": "wss",
-                    "provider": "coinone",
-                    "base": "HPO",
-                    "quote": "KRW"
-                }
-            },
-            {
-                "name": "gopax-wss-HPO-KRW",
-                "definition": {
-                    "type": "wss",
-                    "provider": "gopax",
-                    "base": "HPO",
-                    "quote": "KRW"
-                }
-            }
-        ]
-    },
-    {
         "name": "HYPE-USDT",
         "fetchInterval": 2000,
         "aggregateInterval": 400,

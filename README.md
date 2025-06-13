@@ -96,7 +96,6 @@
 | [HBAR-KRW](config/baobab/HBAR-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [HNT-USDT](config/baobab/HNT-USDT.config.json) | 2000 | 400 | 60000 | 10 |
 | [HOT-USDT](config/baobab/HOT-USDT.config.json) | 2000 | 400 | 60000 | 12 |
-| [HPO-KRW](config/baobab/HPO-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [HYPE-USDT](config/baobab/HYPE-USDT.config.json) | 2000 | 400 | 60000 | 7 |
 | [IMX-KRW](config/baobab/IMX-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [INJ-USDT](config/baobab/INJ-USDT.config.json) | 2000 | 400 | 60000 | 16 |
@@ -335,7 +334,6 @@
 | [HBAR-KRW](config/cypress/HBAR-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [HNT-USDT](config/cypress/HNT-USDT.config.json) | 2000 | 400 | 60000 | 10 |
 | [HOT-USDT](config/cypress/HOT-USDT.config.json) | 2000 | 400 | 60000 | 12 |
-| [HPO-KRW](config/cypress/HPO-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [HYPE-USDT](config/cypress/HYPE-USDT.config.json) | 2000 | 400 | 60000 | 7 |
 | [IMX-KRW](config/cypress/IMX-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [INJ-USDT](config/cypress/INJ-USDT.config.json) | 2000 | 400 | 60000 | 16 |
