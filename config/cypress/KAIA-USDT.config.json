@@ -1,167 +1,167 @@
 {
-  "name": "KAIA-USDT",
-  "fetchInterval": 2000,
-  "aggregateInterval": 400,
-  "submitInterval": 60000,
-  "feeds": [
-    {
-      "name": "binance-wss-KAIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "binance",
-        "base": "KAIA",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "kucoin-wss-KAIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "kucoin",
-        "base": "KAIA",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "bybit-wss-KAIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bybit",
-        "base": "KAIA",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "crypto-wss-KAIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "crypto",
-        "base": "KAIA",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "btse-wss-KAIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "btse",
-        "base": "KAIA",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "gateio-wss-KAIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "gateio",
-        "base": "KAIA",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "lbank-wss-KAIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "lbank",
-        "base": "KAIA",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "coinex-wss-KAIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "KAIA",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "bitget-wss-KAIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitget",
-        "base": "KAIA",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "huobi-wss-KAIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "huobi",
-        "base": "KAIA",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "okx-wss-KAIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "okx",
-        "base": "KAIA",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "bingx-wss-KAIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bingx",
-        "base": "KAIA",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "bitmart-wss-KAIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "KAIA",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "xt-wss-KAIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "xt",
-        "base": "KAIA",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "orangex-wss-KAIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "orangex",
-        "base": "KAIA",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "capybara-KAIA-USDT(Wormhole)",
-      "definition": {
-        "chainId": "8217",
-        "address": "0x6389dbfa1427a3b0a89cddc7ea9bbda6e73dece7",
-        "type": "CapybaraPool",
-        "token0Decimals": 18,
-        "token1Decimals": 6,
-        "token0Address": "0x19aac5f612f524b754ca7e7c41cbfa2e981a4432",
-        "token1Address": "0x5c13e303a62fc5dedf5b52d66873f2e59fedadc2"
-      }
-    },
-    {
-      "name": "capybara-KAIA-USDT(Stargate)",
-      "definition": {
-        "chainId": "8217",
-        "address": "0x1de1578476d9b4237f963eca5d37500fc33df3d1",
-        "type": "CapybaraPool",
-        "token0Decimals": 18,
-        "token1Decimals": 6,
-        "token0Address": "0x19aac5f612f524b754ca7e7c41cbfa2e981a4432",
-        "token1Address": "0x9025095263d1e548dc890a7589a4c78038ac40ab"
-      }
-    }
-  ]
+    "name": "KAIA-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-KAIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "KAIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-KAIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "KAIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-KAIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "KAIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-KAIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "KAIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "btse-wss-KAIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "KAIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-KAIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "KAIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-KAIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "KAIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-KAIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "KAIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-KAIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "KAIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-KAIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "KAIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-KAIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "KAIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-KAIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "KAIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-KAIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "KAIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-KAIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "KAIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-KAIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "KAIA",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "capybara-KAIA-USDT(Wormhole)",
+            "definition": {
+                "chainId": "8217",
+                "address": "0x6389dbfa1427a3b0a89cddc7ea9bbda6e73dece7",
+                "type": "CapybaraPool",
+                "token0Decimals": 18,
+                "token1Decimals": 6,
+                "token0Address": "0x19aac5f612f524b754ca7e7c41cbfa2e981a4432",
+                "token1Address": "0x5c13e303a62fc5dedf5b52d66873f2e59fedadc2"
+            }
+        },
+        {
+            "name": "capybara-KAIA-USDT(Stargate)",
+            "definition": {
+                "chainId": "8217",
+                "address": "0x1de1578476d9b4237f963eca5d37500fc33df3d1",
+                "type": "CapybaraPool",
+                "token0Decimals": 18,
+                "token1Decimals": 6,
+                "token0Address": "0x19aac5f612f524b754ca7e7c41cbfa2e981a4432",
+                "token1Address": "0x9025095263d1e548dc890a7589a4c78038ac40ab"
+            }
+        }
+    ]
 }

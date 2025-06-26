@@ -84,6 +84,15 @@
                 "base": "VTHO",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "bybit-wss-VTHO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "VTHO",
+                "quote": "USDT"
+            }
         }
     ]
 }

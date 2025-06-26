@@ -1,31 +1,31 @@
 {
-  "name": "KRWO-USDT",
-  "fetchInterval": 2000,
-  "aggregateInterval": 400,
-  "submitInterval": 15000,
-  "feeds": [
-    {
-      "name": "Dragonswap-KRWO-USDT",
-      "definition": {
-        "chainId": "8217",
-        "address": "0xa53048153de2b74f92a8636bce1349192c58d1a1",
-        "type": "UniswapPool",
-        "reciprocal": true,
-        "token0Decimals": 6,
-        "token1Decimals": 6
-      }
-    },
-    {
-      "name": "capybara-KRWO-USDT",
-      "definition": {
-        "chainId": "8217",
-        "address": "0x4b63ec6284810f62cecba6f03cf17413b0f4cec3",
-        "type": "CapybaraPool",
-        "token0Decimals": 6,
-        "token1Decimals": 6,
-        "token0Address": "0x7fc692699f2216647a0e06225d8bdf8cdee40e7f",
-        "token1Address": "0x5c13e303a62fc5dedf5b52d66873f2e59fedadc2"
-      }
-    }
-  ]
+    "name": "KRWO-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 15000,
+    "feeds": [
+        {
+            "name": "Dragonswap-KRWO-USDT",
+            "definition": {
+                "chainId": "8217",
+                "address": "0xa53048153de2b74f92a8636bce1349192c58d1a1",
+                "type": "UniswapPool",
+                "reciprocal": true,
+                "token0Decimals": 6,
+                "token1Decimals": 6
+            }
+        },
+        {
+            "name": "capybara-KRWO-USDT",
+            "definition": {
+                "chainId": "8217",
+                "address": "0x4b63ec6284810f62cecba6f03cf17413b0f4cec3",
+                "type": "CapybaraPool",
+                "token0Decimals": 6,
+                "token1Decimals": 6,
+                "token0Address": "0x7fc692699f2216647a0e06225d8bdf8cdee40e7f",
+                "token1Address": "0x5c13e303a62fc5dedf5b52d66873f2e59fedadc2"
+            }
+        }
+    ]
 }

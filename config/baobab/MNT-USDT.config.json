@@ -102,6 +102,15 @@
                 "base": "MNT",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "lbank-wss-MNT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "MNT",
+                "quote": "USDT"
+            }
         }
     ]
 }

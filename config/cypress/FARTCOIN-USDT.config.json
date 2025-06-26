@@ -111,6 +111,15 @@
                 "base": "FARTCOIN",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "xt-wss-FARTCOIN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "FARTCOIN",
+                "quote": "USDT"
+            }
         }
     ]
 }

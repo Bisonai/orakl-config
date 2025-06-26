@@ -75,6 +75,15 @@
                 "base": "XCN",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "lbank-wss-XCN-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "XCN",
+                "quote": "USDT"
+            }
         }
     ]
 }

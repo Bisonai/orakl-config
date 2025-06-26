@@ -111,6 +111,24 @@
                 "base": "XAUT",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "kucoin-wss-XAUT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "XAUT",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-XAUT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "XAUT",
+                "quote": "USDT"
+            }
         }
     ]
 }

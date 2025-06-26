@@ -84,6 +84,15 @@
                 "base": "SFP",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "bitmart-wss-SFP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "SFP",
+                "quote": "USDT"
+            }
         }
     ]
 }

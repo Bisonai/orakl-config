@@ -129,6 +129,15 @@
                 "base": "VIRTUAL",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "binance-wss-VIRTUAL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "VIRTUAL",
+                "quote": "USDT"
+            }
         }
     ]
 }

@@ -66,6 +66,24 @@
                 "base": "HYPE",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-HYPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "HYPE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-HYPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "HYPE",
+                "quote": "USDT"
+            }
         }
     ]
 }

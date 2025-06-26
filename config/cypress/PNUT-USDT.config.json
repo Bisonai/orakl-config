@@ -129,6 +129,15 @@
                 "base": "PNUT",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-PNUT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "PNUT",
+                "quote": "USDT"
+            }
         }
     ]
 }
