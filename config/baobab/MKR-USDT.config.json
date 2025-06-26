@@ -129,6 +129,15 @@
                 "base": "MKR",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-MKR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "MKR",
+                "quote": "USDT"
+            }
         }
     ]
 }

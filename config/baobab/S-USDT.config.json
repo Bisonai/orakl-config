@@ -138,6 +138,15 @@
                 "base": "S",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "kraken-wss-S-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "S",
+                "quote": "USDT"
+            }
         }
     ]
 }

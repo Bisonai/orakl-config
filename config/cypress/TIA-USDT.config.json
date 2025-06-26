@@ -147,6 +147,15 @@
                 "base": "TIA",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "upbit-wss-TIA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "TIA",
+                "quote": "USDT"
+            }
         }
     ]
 }

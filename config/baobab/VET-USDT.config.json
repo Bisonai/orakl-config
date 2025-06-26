@@ -111,6 +111,15 @@
                 "base": "VET",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "bybit-wss-VET-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "VET",
+                "quote": "USDT"
+            }
         }
     ]
 }

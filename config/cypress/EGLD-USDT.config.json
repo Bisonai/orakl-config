@@ -138,6 +138,15 @@
                 "base": "EGLD",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "btse-wss-EGLD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "EGLD",
+                "quote": "USDT"
+            }
         }
     ]
 }

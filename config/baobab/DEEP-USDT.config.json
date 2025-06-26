@@ -66,6 +66,51 @@
                 "base": "DEEP",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "upbit-wss-DEEP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "DEEP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-DEEP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "DEEP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-DEEP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "DEEP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-DEEP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "DEEP",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-DEEP-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "DEEP",
+                "quote": "USDT"
+            }
         }
     ]
 }

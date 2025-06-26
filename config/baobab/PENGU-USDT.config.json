@@ -156,6 +156,15 @@
                 "base": "PENGU",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "upbit-wss-PENGU-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "PENGU",
+                "quote": "USDT"
+            }
         }
     ]
 }

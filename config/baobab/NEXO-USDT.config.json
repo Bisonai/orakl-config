@@ -93,6 +93,15 @@
                 "base": "NEXO",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "lbank-wss-NEXO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "NEXO",
+                "quote": "USDT"
+            }
         }
     ]
 }

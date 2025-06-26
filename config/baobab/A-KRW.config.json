@@ -1,51 +1,42 @@
 {
-    "name": "EOS-KRW",
+    "name": "A-KRW",
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "upbit-wss-EOS-KRW",
+            "name": "upbit-wss-A-KRW",
             "definition": {
                 "type": "wss",
                 "provider": "upbit",
-                "base": "EOS",
+                "base": "A",
                 "quote": "KRW"
             }
         },
         {
-            "name": "korbit-wss-EOS-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "EOS",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "bithumb-wss-EOS-KRW",
+            "name": "bithumb-wss-A-KRW",
             "definition": {
                 "type": "wss",
                 "provider": "bithumb",
-                "base": "EOS",
+                "base": "A",
                 "quote": "KRW"
             }
         },
         {
-            "name": "coinone-wss-EOS-KRW",
+            "name": "coinone-wss-A-KRW",
             "definition": {
                 "type": "wss",
                 "provider": "coinone",
-                "base": "EOS",
+                "base": "A",
                 "quote": "KRW"
             }
         },
         {
-            "name": "gopax-wss-EOS-KRW",
+            "name": "gopax-wss-A-KRW",
             "definition": {
                 "type": "wss",
                 "provider": "gopax",
-                "base": "EOS",
+                "base": "A",
                 "quote": "KRW"
             }
         }

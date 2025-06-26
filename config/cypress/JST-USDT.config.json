@@ -111,6 +111,24 @@
                 "base": "JST",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "lbank-wss-JST-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "JST",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-JST-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "JST",
+                "quote": "USDT"
+            }
         }
     ]
 }
