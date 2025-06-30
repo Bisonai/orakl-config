@@ -1,0 +1,152 @@
+{
+    "name": "RENDER-USDT",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "binance-wss-RENDER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "RENDER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kucoin-wss-RENDER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "RENDER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-RENDER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "RENDER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "upbit-wss-RENDER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "RENDER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "crypto-wss-RENDER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "crypto",
+                "base": "RENDER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-RENDER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "RENDER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "lbank-wss-RENDER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "RENDER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-RENDER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "RENDER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitget-wss-RENDER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitget",
+                "base": "RENDER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-RENDER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "RENDER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-RENDER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "RENDER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-RENDER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "RENDER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-RENDER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "RENDER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bitmart-wss-RENDER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "RENDER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-RENDER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "RENDER",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-RENDER-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "RENDER",
+                "quote": "USDT"
+            }
+        }
+    ]
+}
