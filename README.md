@@ -164,7 +164,7 @@
 | [QNT-USDT](config/baobab/QNT-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [QTUM-USDT](config/baobab/QTUM-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [RAY-USDT](config/baobab/RAY-USDT.config.json) | 2000 | 400 | 60000 | 14 |
-| [RNDR-USDT](config/baobab/RNDR-USDT.config.json) | 2000 | 400 | 60000 | 2 |
+| [RENDER-USDT](config/baobab/RENDER-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [RON-USDT](config/baobab/RON-USDT.config.json) | 2000 | 400 | 60000 | 8 |
 | [ROSE-USDT](config/baobab/ROSE-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [RSR-USDT](config/baobab/RSR-USDT.config.json) | 2000 | 400 | 60000 | 14 |
@@ -402,7 +402,7 @@
 | [QNT-USDT](config/cypress/QNT-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [QTUM-USDT](config/cypress/QTUM-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [RAY-USDT](config/cypress/RAY-USDT.config.json) | 2000 | 400 | 60000 | 14 |
-| [RNDR-USDT](config/cypress/RNDR-USDT.config.json) | 2000 | 400 | 60000 | 2 |
+| [RENDER-USDT](config/cypress/RENDER-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [RON-USDT](config/cypress/RON-USDT.config.json) | 2000 | 400 | 60000 | 8 |
 | [ROSE-USDT](config/cypress/ROSE-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [RSR-USDT](config/cypress/RSR-USDT.config.json) | 2000 | 400 | 60000 | 14 |
