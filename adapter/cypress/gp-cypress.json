@@ -1,0 +1,16 @@
+{
+  "name": "GP-POR",
+  "decimals": 12,
+  "feeds": [
+    {
+      "name": "GP-POR",
+      "definition": {
+        "url": "https://v1.theminingclub.io/currentRWAPrice/gold",
+        "headers": { "Content-Type": "application/json" },
+        "method": "GET",
+        "reducers": [{ "function": "PARSE", "args": ["price"] }]
+      }
+    }
+  ],
+  "interval": 300000
+}

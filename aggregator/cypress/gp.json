@@ -1,0 +1,7 @@
+{
+  "name": "GP-POR",
+  "address": "",
+  "heartbeat": 3600000,
+  "threshold": 0.0002,
+  "absoluteThreshold": 0.1
+}
