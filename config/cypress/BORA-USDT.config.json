@@ -12,24 +12,6 @@
                 "base": "BORA",
                 "quote": "USDT"
             }
-        },
-        {
-            "name": "okx-wss-BORA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "BORA",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-BORA-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "BORA",
-                "quote": "USDT"
-            }
         }
     ]
 }

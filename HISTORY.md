@@ -167,7 +167,7 @@
 | QNT-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/4f334430b9ada0a862f1bd7be788431ba1d33af3/config/baobab/QNT-USDT.config.json) |
 | QTUM-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/7036e9a916bbc154df6008c8936b2e7f3f1511df/config/baobab/QTUM-USDT.config.json) |
 | RAY-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/bb043285a665a218448fef205439daf85b821fe3/config/baobab/RAY-USDT.config.json), [v2](https://github.com/Bisonai/orakl-config/blob/f63c12366a02738ebdb2e03776dbb748eefa19c9/config/baobab/RAY-USDT.config.json) |
-| RENDER-USDT |  |
+| RENDER-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/accbba2b9b946d163f208b006a35258af1073c13/config/baobab/RENDER-USDT.config.json) |
 | RON-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/bb043285a665a218448fef205439daf85b821fe3/config/baobab/RON-USDT.config.json) |
 | ROSE-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/7036e9a916bbc154df6008c8936b2e7f3f1511df/config/baobab/ROSE-USDT.config.json) |
 | RSR-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/b8bac344f3348ed7ba14d720985601d01dd2dd80/config/baobab/RSR-USDT.config.json) |
@@ -405,7 +405,7 @@
 | QNT-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/b23a28e8e28b5454050192a0d86838ebee073a75/config/cypress/QNT-USDT.config.json) |
 | QTUM-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/da1b3187ab3cb08d5976fa0be3de4712dfc05c84/config/cypress/QTUM-USDT.config.json) |
 | RAY-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/9e548d2a122d1325998a47665e0e864704396527/config/cypress/RAY-USDT.config.json), [v2](https://github.com/Bisonai/orakl-config/blob/f63c12366a02738ebdb2e03776dbb748eefa19c9/config/cypress/RAY-USDT.config.json) |
-| RENDER-USDT |  |
+| RENDER-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/accbba2b9b946d163f208b006a35258af1073c13/config/cypress/RENDER-USDT.config.json) |
 | RON-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/9e548d2a122d1325998a47665e0e864704396527/config/cypress/RON-USDT.config.json) |
 | ROSE-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/da1b3187ab3cb08d5976fa0be3de4712dfc05c84/config/cypress/ROSE-USDT.config.json) |
 | RSR-USDT | [v1](https://github.com/Bisonai/orakl-config/blob/adfa575fb74304f7e52c69ae4a1d7a06cdf905de/config/cypress/RSR-USDT.config.json) |
