@@ -39,6 +39,15 @@
                 "base": "A",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "korbit-wss-A-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "korbit",
+                "base": "A",
+                "quote": "KRW"
+            }
         }
     ]
 }

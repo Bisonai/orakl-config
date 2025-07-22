@@ -93,6 +93,15 @@
                 "base": "IOTA",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "bitmart-wss-IOTA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bitmart",
+                "base": "IOTA",
+                "quote": "USDT"
+            }
         }
     ]
 }

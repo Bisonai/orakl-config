@@ -1,33 +1,24 @@
 {
-    "name": "STPT-KRW",
+    "name": "AWE-KRW",
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "upbit-wss-STPT-KRW",
+            "name": "upbit-wss-AWE-KRW",
             "definition": {
                 "type": "wss",
                 "provider": "upbit",
-                "base": "STPT",
+                "base": "AWE",
                 "quote": "KRW"
             }
         },
         {
-            "name": "bithumb-wss-STPT-KRW",
+            "name": "bithumb-wss-AWE-KRW",
             "definition": {
                 "type": "wss",
                 "provider": "bithumb",
-                "base": "STPT",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-STPT-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "STPT",
+                "base": "AWE",
                 "quote": "KRW"
             }
         }

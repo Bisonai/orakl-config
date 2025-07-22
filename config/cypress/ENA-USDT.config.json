@@ -138,6 +138,15 @@
                 "base": "ENA",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "upbit-wss-ENA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "ENA",
+                "quote": "USDT"
+            }
         }
     ]
 }
