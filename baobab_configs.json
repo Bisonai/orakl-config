@@ -19398,15 +19398,6 @@
                 }
             },
             {
-                "name": "btse-wss-TRUMP-USDT",
-                "definition": {
-                    "type": "wss",
-                    "provider": "btse",
-                    "base": "TRUMP",
-                    "quote": "USDT"
-                }
-            },
-            {
                 "name": "gateio-wss-TRUMP-USDT",
                 "definition": {
                     "type": "wss",
@@ -19492,15 +19483,6 @@
                 "definition": {
                     "type": "wss",
                     "provider": "orangex",
-                    "base": "TRUMP",
-                    "quote": "USDT"
-                }
-            },
-            {
-                "name": "bingx-wss-TRUMP-USDT",
-                "definition": {
-                    "type": "wss",
-                    "provider": "bingx",
                     "base": "TRUMP",
                     "quote": "USDT"
                 }
