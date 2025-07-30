@@ -213,7 +213,6 @@
 | [W-USDT](config/baobab/W-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [WALK-USDT](config/baobab/WALK-USDT.config.json) | 2000 | 400 | 60000 | 1 |
 | [WAVES-KRW](config/baobab/WAVES-KRW.config.json) | 2000 | 400 | 60000 | 3 |
-| [WEMIX-KRW](config/baobab/WEMIX-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [WEMIX-USDT](config/baobab/WEMIX-USDT.config.json) | 2000 | 400 | 15000 | 11 |
 | [WIF-USDT](config/baobab/WIF-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [WLD-KRW](config/baobab/WLD-KRW.config.json) | 2000 | 400 | 60000 | 3 |
@@ -451,7 +450,6 @@
 | [W-USDT](config/cypress/W-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [WALK-USDT](config/cypress/WALK-USDT.config.json) | 2000 | 400 | 60000 | 1 |
 | [WAVES-KRW](config/cypress/WAVES-KRW.config.json) | 2000 | 400 | 60000 | 3 |
-| [WEMIX-KRW](config/cypress/WEMIX-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [WEMIX-USDT](config/cypress/WEMIX-USDT.config.json) | 2000 | 400 | 15000 | 11 |
 | [WIF-USDT](config/cypress/WIF-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [WLD-KRW](config/cypress/WLD-KRW.config.json) | 2000 | 400 | 60000 | 3 |
