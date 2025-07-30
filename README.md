@@ -31,7 +31,7 @@
 | [BABYDOGE-USDT](config/baobab/BABYDOGE-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [BAT-USDT](config/baobab/BAT-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [BCH-KRW](config/baobab/BCH-KRW.config.json) | 2000 | 400 | 60000 | 5 |
-| [BEAM-USDT](config/baobab/BEAM-USDT.config.json) | 2000 | 400 | 60000 | 9 |
+| [BEAM-USDT](config/baobab/BEAM-USDT.config.json) | 2000 | 400 | 60000 | 7 |
 | [BERA-USDT](config/baobab/BERA-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [BGB-USDT](config/baobab/BGB-USDT.config.json) | 2000 | 400 | 60000 | 2 |
 | [BLAST-KRW](config/baobab/BLAST-KRW.config.json) | 2000 | 400 | 60000 | 3 |
@@ -268,7 +268,7 @@
 | [BABYDOGE-USDT](config/cypress/BABYDOGE-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [BAT-USDT](config/cypress/BAT-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [BCH-KRW](config/cypress/BCH-KRW.config.json) | 2000 | 400 | 60000 | 5 |
-| [BEAM-USDT](config/cypress/BEAM-USDT.config.json) | 2000 | 400 | 60000 | 9 |
+| [BEAM-USDT](config/cypress/BEAM-USDT.config.json) | 2000 | 400 | 60000 | 7 |
 | [BERA-USDT](config/cypress/BERA-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [BGB-USDT](config/cypress/BGB-USDT.config.json) | 2000 | 400 | 60000 | 2 |
 | [BLAST-KRW](config/cypress/BLAST-KRW.config.json) | 2000 | 400 | 60000 | 3 |
