@@ -3383,23 +3383,6 @@
         ]
     },
     {
-        "name": "BORA-USDT",
-        "fetchInterval": 2000,
-        "aggregateInterval": 400,
-        "submitInterval": 60000,
-        "feeds": [
-            {
-                "name": "gateio-wss-BORA-USDT",
-                "definition": {
-                    "type": "wss",
-                    "provider": "gateio",
-                    "base": "BORA",
-                    "quote": "USDT"
-                }
-            }
-        ]
-    },
-    {
         "name": "BRETT-USDT",
         "fetchInterval": 2000,
         "aggregateInterval": 400,
