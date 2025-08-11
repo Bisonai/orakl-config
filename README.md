@@ -40,7 +40,6 @@
 | [BONK-KRW](config/baobab/BONK-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [BONK-USDT](config/baobab/BONK-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [BORA-KRW](config/baobab/BORA-KRW.config.json) | 2000 | 400 | 15000 | 4 |
-| [BORA-USDT](config/baobab/BORA-USDT.config.json) | 2000 | 400 | 60000 | 1 |
 | [BRETT-USDT](config/baobab/BRETT-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [BSV-KRW](config/baobab/BSV-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [BTC-KRW](config/baobab/BTC-KRW.config.json) | 2000 | 400 | 60000 | 5 |
@@ -277,7 +276,6 @@
 | [BONK-KRW](config/cypress/BONK-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [BONK-USDT](config/cypress/BONK-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [BORA-KRW](config/cypress/BORA-KRW.config.json) | 2000 | 400 | 15000 | 4 |
-| [BORA-USDT](config/cypress/BORA-USDT.config.json) | 2000 | 400 | 60000 | 1 |
 | [BRETT-USDT](config/cypress/BRETT-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [BSV-KRW](config/cypress/BSV-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [BTC-KRW](config/cypress/BTC-KRW.config.json) | 2000 | 400 | 60000 | 5 |
