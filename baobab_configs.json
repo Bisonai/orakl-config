@@ -20947,21 +20947,20 @@
         ]
     },
     {
-        "name": "WALK-USDT",
+        "name": "WALK-KAIA",
         "fetchInterval": 2000,
         "aggregateInterval": 400,
         "submitInterval": 60000,
         "feeds": [
             {
-                "name": "capybara-WALK-USDT",
+                "name": "Dragonswap-WALK-KAIA",
                 "definition": {
                     "chainId": "8217",
-                    "address": "0x872e7e7422bcacdcb37f7fffb0cfe3f2f0d6c546",
-                    "type": "CapybaraPool",
+                    "address": "0x5f2902b3564d633c4aeb000af3b6e5360ae30dd0",
+                    "type": "UniswapPool",
+                    "reciprocal": true,
                     "token0Decimals": 18,
-                    "token1Decimals": 6,
-                    "token0Address": "0x976232eb7eb92287ff06c5d145bd0d1c033eca58",
-                    "token1Address": "0x5c13e303a62fc5dedf5b52d66873f2e59fedadc2"
+                    "token1Decimals": 18
                 }
             }
         ]
