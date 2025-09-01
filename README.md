@@ -60,7 +60,7 @@
 | [DAI-USDT](config/baobab/DAI-USDT.config.json) | 2000 | 400 | 15000 | 13 |
 | [DASH-USDT](config/baobab/DASH-USDT.config.json) | 2000 | 400 | 60000 | 7 |
 | [DEEP-USDT](config/baobab/DEEP-USDT.config.json) | 2000 | 400 | 60000 | 12 |
-| [DEXE-USDT](config/baobab/DEXE-USDT.config.json) | 2000 | 400 | 60000 | 8 |
+| [DEXE-USDT](config/baobab/DEXE-USDT.config.json) | 2000 | 400 | 60000 | 6 |
 | [DOGE-KRW](config/baobab/DOGE-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [DOGE-USDT](config/baobab/DOGE-USDT.config.json) | 2000 | 400 | 15000 | 18 |
 | [DOT-KRW](config/baobab/DOT-KRW.config.json) | 2000 | 400 | 60000 | 4 |
@@ -296,7 +296,7 @@
 | [DAI-USDT](config/cypress/DAI-USDT.config.json) | 2000 | 400 | 15000 | 13 |
 | [DASH-USDT](config/cypress/DASH-USDT.config.json) | 2000 | 400 | 60000 | 7 |
 | [DEEP-USDT](config/cypress/DEEP-USDT.config.json) | 2000 | 400 | 60000 | 12 |
-| [DEXE-USDT](config/cypress/DEXE-USDT.config.json) | 2000 | 400 | 60000 | 8 |
+| [DEXE-USDT](config/cypress/DEXE-USDT.config.json) | 2000 | 400 | 60000 | 6 |
 | [DOGE-KRW](config/cypress/DOGE-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [DOGE-USDT](config/cypress/DOGE-USDT.config.json) | 2000 | 400 | 15000 | 18 |
 | [DOT-KRW](config/cypress/DOT-KRW.config.json) | 2000 | 400 | 60000 | 4 |
