@@ -1,0 +1,7 @@
+{
+  "name": "GOOGL",
+  "address": "0x900746b44569b38C87F36f85caf7629f8b1c6856",
+  "heartbeat": 300000,
+  "threshold": 0.002,
+  "absoluteThreshold": 0.1
+}

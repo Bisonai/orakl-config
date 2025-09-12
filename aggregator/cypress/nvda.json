@@ -1,0 +1,7 @@
+{
+  "name": "NVDA",
+  "address": "0xe2f80C47eD18A56129EFfA1E72E714CAEd4Ba336",
+  "heartbeat": 3600000,
+  "threshold": 0.002,
+  "absoluteThreshold": 0.1
+}

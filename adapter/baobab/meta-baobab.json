@@ -1,0 +1,23 @@
+{
+  "name": "META",
+  "decimals": 0,
+  "feeds": [
+    {
+      "name": "META",
+      "definition": {
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/META?range=1d&interval=1m&includePrePost=true&events=div|split",
+        "headers": {
+          "Content-Type": "application/json",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "method": "GET",
+        "reducers": [
+          { "function": "PARSE", "args": ["chart", "result"] },
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["meta", "regularMarketPrice"] }
+        ]
+      }
+    }
+  ],
+  "interval": 60000
+}
