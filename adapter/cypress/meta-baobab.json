@@ -1,6 +1,6 @@
 {
   "name": "META",
-  "decimals": 0,
+  "decimals": 8,
   "feeds": [
     {
       "name": "META",
@@ -14,7 +14,9 @@
         "reducers": [
           { "function": "PARSE", "args": ["chart", "result"] },
           { "function": "INDEX", "args": 0 },
-          { "function": "PARSE", "args": ["meta", "regularMarketPrice"] }
+          { "function": "PARSE", "args": ["meta", "regularMarketPrice"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
         ]
       }
     }
