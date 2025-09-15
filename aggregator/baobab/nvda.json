@@ -1,6 +1,6 @@
 {
   "name": "NVDA",
-  "address": "0x090fDC7E37Ecdb955Fc7aE193cDe9b6d25C2e860",
+  "address": "0x3f7E757F40BB399762ba879Ff57E845cF925c33d",
   "heartbeat": 300000,
   "threshold": 0.002,
   "absoluteThreshold": 0.1

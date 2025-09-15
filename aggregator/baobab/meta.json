@@ -1,6 +1,6 @@
 {
   "name": "META",
-  "address": "0x86366EE15af225bcb8238266387424d7a9957E5F",
+  "address": "0x7f8E03089128EC0c79C4d2f03bc00D7c15E4ae1a",
   "heartbeat": 300000,
   "threshold": 0.002,
   "absoluteThreshold": 0.1

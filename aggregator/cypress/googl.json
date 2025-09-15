@@ -1,6 +1,6 @@
 {
   "name": "GOOGL",
-  "address": "0xc7cd8238921393367C8448DC1930A5F24aB5050d",
+  "address": "0x8BDF806E4194ae79ec277cB75d4559c516e4FCA0",
   "heartbeat": 3600000,
   "threshold": 0.002,
   "absoluteThreshold": 0.1

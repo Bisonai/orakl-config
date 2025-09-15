@@ -1,6 +1,6 @@
 {
   "name": "TSLA",
-  "address": "0xdfA1DFA2B0048f9dE71942dd7D660D70e9267DAF",
+  "address": "0x0B3212bF2107579B81d605abF2900A30835CeEaa",
   "heartbeat": 3600000,
   "threshold": 0.002,
   "absoluteThreshold": 0.1

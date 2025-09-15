@@ -1,6 +1,6 @@
 {
   "name": "AMZN",
-  "address": "0xF1Ef8C558d013E3A6a071b80AB55eB8Fc2a12cc2",
+  "address": "0xDc27549d6CB8E4007cC4438fEF4349DE57F560ff",
   "heartbeat": 3600000,
   "threshold": 0.002,
   "absoluteThreshold": 0.1

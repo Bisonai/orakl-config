@@ -1,6 +1,6 @@
 {
   "name": "AAPL",
-  "address": "0x0087a3c32b2a1dECd1609c81219c9A2900708fC1",
+  "address": "0xDF0e889F6e27fb51118064B50a63754349741CB4",
   "heartbeat": 3600000,
   "threshold": 0.002,
   "absoluteThreshold": 0.1
