@@ -1,0 +1,7 @@
+{
+  "name": "MSFT",
+  "address": "0x29B6e5e67c545B3675e8e4fC34E83bdc8Ffc16f0",
+  "heartbeat": 300000,
+  "threshold": 0.002,
+  "absoluteThreshold": 0.1
+}

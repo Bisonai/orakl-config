@@ -1,0 +1,25 @@
+{
+  "name": "NVDA",
+  "decimals": 8,
+  "feeds": [
+    {
+      "name": "NVDA",
+      "definition": {
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/NVDA?range=1d&interval=1m&includePrePost=true&events=div|split",
+        "headers": {
+          "Content-Type": "application/json",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "method": "GET",
+        "reducers": [
+          { "function": "PARSE", "args": ["chart", "result"] },
+          { "function": "INDEX", "args": 0 },
+          { "function": "PARSE", "args": ["meta", "regularMarketPrice"] },
+          { "function": "POW10", "args": 8 },
+          { "function": "ROUND" }
+        ]
+      }
+    }
+  ],
+  "interval": 60000
+}

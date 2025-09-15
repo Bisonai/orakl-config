@@ -1,0 +1,7 @@
+{
+  "name": "META",
+  "address": "0x7f8E03089128EC0c79C4d2f03bc00D7c15E4ae1a",
+  "heartbeat": 300000,
+  "threshold": 0.002,
+  "absoluteThreshold": 0.1
+}
