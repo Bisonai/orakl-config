@@ -115,6 +115,15 @@
                 "base": "EUR",
                 "quote": "USD"
             }
+        },
+        {
+            "name": "gemini-wss-EUR-USD",
+            "definition": {
+                "type": "wss",
+                "provider": "gemini",
+                "base": "EUR",
+                "quote": "USD"
+            }
         }
     ]
 }

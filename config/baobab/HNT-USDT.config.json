@@ -93,6 +93,15 @@
                 "base": "HNT",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "mexc-wss-HNT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "HNT",
+                "quote": "USDT"
+            }
         }
     ]
 }

@@ -147,6 +147,15 @@
                 "base": "VIRTUAL",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "xt-wss-VIRTUAL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "VIRTUAL",
+                "quote": "USDT"
+            }
         }
     ]
 }

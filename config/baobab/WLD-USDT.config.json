@@ -129,6 +129,24 @@
                 "base": "WLD",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "upbit-wss-WLD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "WLD",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "orangex-wss-WLD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "WLD",
+                "quote": "USDT"
+            }
         }
     ]
 }

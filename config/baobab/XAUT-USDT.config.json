@@ -129,6 +129,15 @@
                 "base": "XAUT",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "kraken-wss-XAUT-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "XAUT",
+                "quote": "USDT"
+            }
         }
     ]
 }

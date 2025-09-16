@@ -111,6 +111,15 @@
                 "base": "KAS",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "kraken-wss-KAS-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "KAS",
+                "quote": "USDT"
+            }
         }
     ]
 }

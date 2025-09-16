@@ -30,6 +30,15 @@
                 "base": "WLD",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "upbit-wss-WLD-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "WLD",
+                "quote": "KRW"
+            }
         }
     ]
 }
