@@ -48,6 +48,24 @@
                 "base": "SKY",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "binance-wss-SKY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "SKY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-SKY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "SKY",
+                "quote": "USDT"
+            }
         }
     ]
 }
