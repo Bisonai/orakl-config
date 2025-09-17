@@ -93,6 +93,15 @@
                 "base": "AERO",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "upbit-wss-AERO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "upbit",
+                "base": "AERO",
+                "quote": "USDT"
+            }
         }
     ]
 }

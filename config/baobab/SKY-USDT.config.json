@@ -1,78 +1,69 @@
 {
-    "name": "BEAM-USDT",
+    "name": "SKY-USDT",
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "bybit-wss-BEAM-USDT",
+            "name": "kucoin-wss-SKY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kucoin",
+                "base": "SKY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bybit-wss-SKY-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bybit",
-                "base": "BEAM",
+                "base": "SKY",
                 "quote": "USDT"
             }
         },
         {
-            "name": "upbit-wss-BEAM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "BEAM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-BEAM-USDT",
+            "name": "bitget-wss-SKY-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bitget",
-                "base": "BEAM",
+                "base": "SKY",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bitmart-wss-BEAM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "BEAM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "orangex-wss-BEAM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "orangex",
-                "base": "BEAM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-BEAM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "BEAM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-BEAM-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "BEAM",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-BEAM-USDT",
+            "name": "mexc-wss-SKY-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "mexc",
-                "base": "BEAM",
+                "base": "SKY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "okx-wss-SKY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "SKY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "binance-wss-SKY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "SKY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-SKY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "SKY",
                 "quote": "USDT"
             }
         }

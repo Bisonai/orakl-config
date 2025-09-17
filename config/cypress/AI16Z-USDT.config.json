@@ -120,6 +120,15 @@
                 "base": "AI16Z",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "xt-wss-AI16Z-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "AI16Z",
+                "quote": "USDT"
+            }
         }
     ]
 }

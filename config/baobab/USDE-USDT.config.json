@@ -48,6 +48,15 @@
                 "base": "USDE",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "binance-wss-USDE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "USDE",
+                "quote": "USDT"
+            }
         }
     ]
 }

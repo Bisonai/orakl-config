@@ -48,6 +48,33 @@
                 "base": "BEAM",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "gateio-wss-BEAM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "BEAM",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "coinex-wss-BEAM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "BEAM",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "mexc-wss-BEAM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "mexc",
+                "base": "BEAM",
+                "quote": "USDT"
+            }
         }
     ]
 }

@@ -129,6 +129,15 @@
                 "base": "RSR",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-RSR-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "RSR",
+                "quote": "USDT"
+            }
         }
     ]
 }

@@ -21,6 +21,15 @@
                 "base": "AWE",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "coinone-wss-AWE-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "coinone",
+                "base": "AWE",
+                "quote": "KRW"
+            }
         }
     ]
 }

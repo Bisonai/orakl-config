@@ -75,6 +75,15 @@
                 "base": "OKB",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-OKB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "OKB",
+                "quote": "USDT"
+            }
         }
     ]
 }

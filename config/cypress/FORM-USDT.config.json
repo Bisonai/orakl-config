@@ -84,6 +84,15 @@
                 "base": "FORM",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "coinex-wss-FORM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "coinex",
+                "base": "FORM",
+                "quote": "USDT"
+            }
         }
     ]
 }

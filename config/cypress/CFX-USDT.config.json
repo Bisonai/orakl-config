@@ -111,6 +111,15 @@
                 "base": "CFX",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "orangex-wss-CFX-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "orangex",
+                "base": "CFX",
+                "quote": "USDT"
+            }
         }
     ]
 }
