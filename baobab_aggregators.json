@@ -1,0 +1,67 @@
+[
+    {
+        "name": "AAPL",
+        "address": "0x59C6Ad73cb85Eb563a0eAD36d7d3df3853146A9e",
+        "heartbeat": 300000,
+        "threshold": 0.002,
+        "absoluteThreshold": 0.1
+    },
+    {
+        "name": "AMZN",
+        "address": "0x3068b7A1e9078D6354cb9E847aCc39e9aa05917C",
+        "heartbeat": 300000,
+        "threshold": 0.002,
+        "absoluteThreshold": 0.1
+    },
+    {
+        "name": "GOOGL",
+        "address": "0x128d5117C3D0fC9F2699AAa3016b2Ed6351F79A9",
+        "heartbeat": 300000,
+        "threshold": 0.002,
+        "absoluteThreshold": 0.1
+    },
+    {
+        "name": "GP-POR",
+        "address": "0xa57cf24c9ae082030F1511d5FC2684cE453D0Dc8",
+        "heartbeat": 120000,
+        "threshold": 0.002,
+        "absoluteThreshold": 0.1
+    },
+    {
+        "name": "META",
+        "address": "0x7f8E03089128EC0c79C4d2f03bc00D7c15E4ae1a",
+        "heartbeat": 300000,
+        "threshold": 0.002,
+        "absoluteThreshold": 0.1
+    },
+    {
+        "name": "MSFT",
+        "address": "0x29B6e5e67c545B3675e8e4fC34E83bdc8Ffc16f0",
+        "heartbeat": 300000,
+        "threshold": 0.002,
+        "absoluteThreshold": 0.1
+    },
+    {
+        "name": "NVDA",
+        "address": "0x3f7E757F40BB399762ba879Ff57E845cF925c33d",
+        "heartbeat": 300000,
+        "threshold": 0.002,
+        "absoluteThreshold": 0.1
+    },
+    {
+        "aggregatorHash": "0x952f883b8d2fd47a790307cb569118a215ea45eb861cefd4ed3b83ae7550f8e8",
+        "name": "PEG-POR",
+        "address": "0x58798D6Ca40480DF2FAd1b69939C3D29d91b60d3",
+        "heartbeat": 120000,
+        "threshold": 0.0001,
+        "absoluteThreshold": 0.1,
+        "adapterHash": "0xb208c8a40f643fed96107fa0697bf640badd2ebea84438a3ee5044a3a1ae6060"
+    },
+    {
+        "name": "TSLA",
+        "address": "0x3e2b1fAEBcBd2f063Bb400D9aE1a404ad1F2DAbe",
+        "heartbeat": 300000,
+        "threshold": 0.002,
+        "absoluteThreshold": 0.1
+    }
+]
