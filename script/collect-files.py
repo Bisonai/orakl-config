@@ -13,9 +13,8 @@ def load_json_files(directory: Path):
 
     result = []
     for file in files:
-        if "por.json" not in file.name and "por-fast.json" not in file.name:
-            with open(file) as json_file:
-                result.append(json.load(json_file))
+        with open(file) as json_file:
+            result.append(json.load(json_file))
 
     return result
 
@@ -129,3 +128,7 @@ if __name__ == "__main__":
     collect_json_files(Path("config/baobab"), "baobab_configs.json", False)
     collect_json_files(Path("config/cypress"), "cypress_configs.json", False)
     collect_json_files(Path("config/test"), "test_configs.json", False)
+    collect_json_files(Path("adapter/baobab"), "baobab_adapters.json", False)
+    collect_json_files(Path("adapter/cypress"), "cypress_adapters.json", False)
+    collect_json_files(Path("aggregator/baobab"), "baobab_aggregators.json", False)
+    collect_json_files(Path("aggregator/cypress"), "cypress_aggregators.json", False)

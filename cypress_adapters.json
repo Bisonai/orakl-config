@@ -1,0 +1,369 @@
+[
+    {
+        "name": "AAPL",
+        "decimals": 8,
+        "feeds": [
+            {
+                "name": "AAPL",
+                "definition": {
+                    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAPL?range=1d&interval=1m&includePrePost=true&events=div|split",
+                    "headers": {
+                        "Content-Type": "application/json",
+                        "User-Agent": "Mozilla/5.0"
+                    },
+                    "method": "GET",
+                    "reducers": [
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "chart",
+                                "result"
+                            ]
+                        },
+                        {
+                            "function": "INDEX",
+                            "args": 0
+                        },
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "meta",
+                                "regularMarketPrice"
+                            ]
+                        },
+                        {
+                            "function": "POW10",
+                            "args": 8
+                        },
+                        {
+                            "function": "ROUND"
+                        }
+                    ]
+                }
+            }
+        ],
+        "interval": 60000
+    },
+    {
+        "name": "AMZN",
+        "decimals": 8,
+        "feeds": [
+            {
+                "name": "AMZN",
+                "definition": {
+                    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AMZN?range=1d&interval=1m&includePrePost=true&events=div|split",
+                    "headers": {
+                        "Content-Type": "application/json",
+                        "User-Agent": "Mozilla/5.0"
+                    },
+                    "method": "GET",
+                    "reducers": [
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "chart",
+                                "result"
+                            ]
+                        },
+                        {
+                            "function": "INDEX",
+                            "args": 0
+                        },
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "meta",
+                                "regularMarketPrice"
+                            ]
+                        },
+                        {
+                            "function": "POW10",
+                            "args": 8
+                        },
+                        {
+                            "function": "ROUND"
+                        }
+                    ]
+                }
+            }
+        ],
+        "interval": 60000
+    },
+    {
+        "name": "GOOGL",
+        "decimals": 8,
+        "feeds": [
+            {
+                "name": "GOOGL",
+                "definition": {
+                    "url": "https://query2.finance.yahoo.com/v8/finance/chart/GOOGL?range=1d&interval=1m&includePrePost=true&events=div|split",
+                    "headers": {
+                        "Content-Type": "application/json",
+                        "User-Agent": "Mozilla/5.0"
+                    },
+                    "method": "GET",
+                    "reducers": [
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "chart",
+                                "result"
+                            ]
+                        },
+                        {
+                            "function": "INDEX",
+                            "args": 0
+                        },
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "meta",
+                                "regularMarketPrice"
+                            ]
+                        },
+                        {
+                            "function": "POW10",
+                            "args": 8
+                        },
+                        {
+                            "function": "ROUND"
+                        }
+                    ]
+                }
+            }
+        ],
+        "interval": 60000
+    },
+    {
+        "name": "GP-POR",
+        "decimals": 12,
+        "feeds": [
+            {
+                "name": "GP-POR",
+                "definition": {
+                    "url": "https://v1.theminingclub.io/currentRWAPrice/gold",
+                    "headers": {
+                        "Content-Type": "application/json"
+                    },
+                    "method": "GET",
+                    "reducers": [
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "price"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "interval": 300000
+    },
+    {
+        "name": "META",
+        "decimals": 8,
+        "feeds": [
+            {
+                "name": "META",
+                "definition": {
+                    "url": "https://query2.finance.yahoo.com/v8/finance/chart/META?range=1d&interval=1m&includePrePost=true&events=div|split",
+                    "headers": {
+                        "Content-Type": "application/json",
+                        "User-Agent": "Mozilla/5.0"
+                    },
+                    "method": "GET",
+                    "reducers": [
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "chart",
+                                "result"
+                            ]
+                        },
+                        {
+                            "function": "INDEX",
+                            "args": 0
+                        },
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "meta",
+                                "regularMarketPrice"
+                            ]
+                        },
+                        {
+                            "function": "POW10",
+                            "args": 8
+                        },
+                        {
+                            "function": "ROUND"
+                        }
+                    ]
+                }
+            }
+        ],
+        "interval": 60000
+    },
+    {
+        "name": "MSFT",
+        "decimals": 8,
+        "feeds": [
+            {
+                "name": "MSFT",
+                "definition": {
+                    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MSFT?range=1d&interval=1m&includePrePost=true&events=div|split",
+                    "headers": {
+                        "Content-Type": "application/json",
+                        "User-Agent": "Mozilla/5.0"
+                    },
+                    "method": "GET",
+                    "reducers": [
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "chart",
+                                "result"
+                            ]
+                        },
+                        {
+                            "function": "INDEX",
+                            "args": 0
+                        },
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "meta",
+                                "regularMarketPrice"
+                            ]
+                        },
+                        {
+                            "function": "POW10",
+                            "args": 8
+                        },
+                        {
+                            "function": "ROUND"
+                        }
+                    ]
+                }
+            }
+        ],
+        "interval": 60000
+    },
+    {
+        "name": "NVDA",
+        "decimals": 8,
+        "feeds": [
+            {
+                "name": "NVDA",
+                "definition": {
+                    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NVDA?range=1d&interval=1m&includePrePost=true&events=div|split",
+                    "headers": {
+                        "Content-Type": "application/json",
+                        "User-Agent": "Mozilla/5.0"
+                    },
+                    "method": "GET",
+                    "reducers": [
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "chart",
+                                "result"
+                            ]
+                        },
+                        {
+                            "function": "INDEX",
+                            "args": 0
+                        },
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "meta",
+                                "regularMarketPrice"
+                            ]
+                        },
+                        {
+                            "function": "POW10",
+                            "args": 8
+                        },
+                        {
+                            "function": "ROUND"
+                        }
+                    ]
+                }
+            }
+        ],
+        "interval": 60000
+    },
+    {
+        "adapterHash": "0x8524f8859d78c9f5d185f6e72ef89910328cd7d539ea654e543c70720c3ecdde",
+        "name": "PEG-POR",
+        "decimals": 4,
+        "feeds": [
+            {
+                "name": "Pennygold-PEG-POR",
+                "definition": {
+                    "url": "https://public-nft.pennygold.kr/api/v2/balance/getTotalNftAmount",
+                    "headers": {
+                        "Content-Type": "application/json"
+                    },
+                    "method": "GET",
+                    "reducers": [
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "data",
+                                "PEG",
+                                "amount"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "TSLA",
+        "decimals": 8,
+        "feeds": [
+            {
+                "name": "TSLA",
+                "definition": {
+                    "url": "https://query2.finance.yahoo.com/v8/finance/chart/TSLA?range=1d&interval=1m&includePrePost=true&events=div|split",
+                    "headers": {
+                        "Content-Type": "application/json",
+                        "User-Agent": "Mozilla/5.0"
+                    },
+                    "method": "GET",
+                    "reducers": [
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "chart",
+                                "result"
+                            ]
+                        },
+                        {
+                            "function": "INDEX",
+                            "args": 0
+                        },
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "meta",
+                                "regularMarketPrice"
+                            ]
+                        },
+                        {
+                            "function": "POW10",
+                            "args": 8
+                        },
+                        {
+                            "function": "ROUND"
+                        }
+                    ]
+                }
+            }
+        ],
+        "interval": 60000
+    }
+]
