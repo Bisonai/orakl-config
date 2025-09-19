@@ -9,10 +9,9 @@
         "url": "https://dev.pennygold.kr/api/v2/balance/getTotalNftAmount",
         "headers": { "Content-Type": "application/json" },
         "method": "GET",
-        "reducers": [
-          { "function": "PARSE", "args": ["data", "PEG", "amount"] }
-        ]
+        "reducers": [{ "function": "PARSE", "args": ["data", "PEG", "amount"] }]
       }
     }
-  ]
+  ],
+  "interval": 60000
 }
