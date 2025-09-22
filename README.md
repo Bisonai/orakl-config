@@ -196,7 +196,7 @@
 | [THETA-USDT](config/baobab/THETA-USDT.config.json) | 2000 | 400 | 60000 | 12 |
 | [TIA-USDT](config/baobab/TIA-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [TON-USDT](config/baobab/TON-USDT.config.json) | 2000 | 400 | 60000 | 16 |
-| [TRUMP-USDT](config/baobab/TRUMP-USDT.config.json) | 2000 | 400 | 60000 | 16 |
+| [TRUMP-USDT](config/baobab/TRUMP-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [TRX-KRW](config/baobab/TRX-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [TRX-USDT](config/baobab/TRX-USDT.config.json) | 2000 | 400 | 15000 | 16 |
 | [TUSD-USDT](config/baobab/TUSD-USDT.config.json) | 2000 | 400 | 60000 | 11 |
@@ -432,7 +432,7 @@
 | [THETA-USDT](config/cypress/THETA-USDT.config.json) | 2000 | 400 | 60000 | 12 |
 | [TIA-USDT](config/cypress/TIA-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [TON-USDT](config/cypress/TON-USDT.config.json) | 2000 | 400 | 60000 | 16 |
-| [TRUMP-USDT](config/cypress/TRUMP-USDT.config.json) | 2000 | 400 | 60000 | 16 |
+| [TRUMP-USDT](config/cypress/TRUMP-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [TRX-KRW](config/cypress/TRX-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [TRX-USDT](config/cypress/TRX-USDT.config.json) | 2000 | 400 | 15000 | 16 |
 | [TUSD-USDT](config/cypress/TUSD-USDT.config.json) | 2000 | 400 | 60000 | 11 |
