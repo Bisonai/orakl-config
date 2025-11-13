@@ -84,6 +84,15 @@
                 "base": "PYUSD",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "btse-wss-PYUSD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "PYUSD",
+                "quote": "USDT"
+            }
         }
     ]
 }

@@ -147,6 +147,15 @@
                 "base": "ENA",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "okx-wss-ENA-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "ENA",
+                "quote": "USDT"
+            }
         }
     ]
 }

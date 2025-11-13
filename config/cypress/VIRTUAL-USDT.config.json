@@ -156,6 +156,15 @@
                 "base": "VIRTUAL",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "okx-wss-VIRTUAL-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "VIRTUAL",
+                "quote": "USDT"
+            }
         }
     ]
 }

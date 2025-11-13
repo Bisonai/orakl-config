@@ -39,6 +39,15 @@
                 "base": "XEC",
                 "quote": "KRW"
             }
+        },
+        {
+            "name": "gopax-wss-XEC-KRW",
+            "definition": {
+                "type": "wss",
+                "provider": "gopax",
+                "base": "XEC",
+                "quote": "KRW"
+            }
         }
     ]
 }

@@ -111,6 +111,24 @@
                 "base": "MORPHO",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "binance-wss-MORPHO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "binance",
+                "base": "MORPHO",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-MORPHO-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "MORPHO",
+                "quote": "USDT"
+            }
         }
     ]
 }

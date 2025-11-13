@@ -93,6 +93,15 @@
                 "base": "HYPE",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "okx-wss-HYPE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "HYPE",
+                "quote": "USDT"
+            }
         }
     ]
 }
