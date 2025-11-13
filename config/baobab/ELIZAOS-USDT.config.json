@@ -1,69 +1,60 @@
 {
-    "name": "DEXE-USDT",
+    "name": "ELIZAOS-USDT",
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
     "feeds": [
         {
-            "name": "binance-wss-DEXE-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "DEXE",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kucoin-wss-DEXE-USDT",
+            "name": "kucoin-wss-ELIZAOS-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "kucoin",
-                "base": "DEXE",
+                "base": "ELIZAOS",
                 "quote": "USDT"
             }
         },
         {
-            "name": "gateio-wss-DEXE-USDT",
+            "name": "bybit-wss-ELIZAOS-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bybit",
+                "base": "ELIZAOS",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-ELIZAOS-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "gateio",
-                "base": "DEXE",
+                "base": "ELIZAOS",
                 "quote": "USDT"
             }
         },
         {
-            "name": "lbank-wss-DEXE-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "DEXE",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-DEXE-USDT",
+            "name": "huobi-wss-ELIZAOS-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "huobi",
-                "base": "DEXE",
+                "base": "ELIZAOS",
                 "quote": "USDT"
             }
         },
         {
-            "name": "mexc-wss-DEXE-USDT",
+            "name": "mexc-wss-ELIZAOS-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "mexc",
-                "base": "DEXE",
+                "base": "ELIZAOS",
                 "quote": "USDT"
             }
         },
         {
-            "name": "bingx-wss-DEXE-USDT",
+            "name": "bingx-wss-ELIZAOS-USDT",
             "definition": {
                 "type": "wss",
                 "provider": "bingx",
-                "base": "DEXE",
+                "base": "ELIZAOS",
                 "quote": "USDT"
             }
         }

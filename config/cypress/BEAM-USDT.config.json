@@ -75,6 +75,15 @@
                 "base": "BEAM",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "bingx-wss-BEAM-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "BEAM",
+                "quote": "USDT"
+            }
         }
     ]
 }

@@ -57,6 +57,24 @@
                 "base": "USDE",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "btse-wss-USDE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "USDE",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "kraken-wss-USDE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "kraken",
+                "base": "USDE",
+                "quote": "USDT"
+            }
         }
     ]
 }

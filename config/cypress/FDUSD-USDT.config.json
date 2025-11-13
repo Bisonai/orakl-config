@@ -39,6 +39,15 @@
                 "base": "FDUSD",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "xt-wss-FDUSD-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "FDUSD",
+                "quote": "USDT"
+            }
         }
     ]
 }

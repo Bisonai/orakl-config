@@ -21,6 +21,15 @@
                 "base": "BGB",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "lbank-wss-BGB-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "lbank",
+                "base": "BGB",
+                "quote": "USDT"
+            }
         }
     ]
 }

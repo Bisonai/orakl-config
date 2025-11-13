@@ -66,6 +66,51 @@
                 "base": "SKY",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "btse-wss-SKY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "btse",
+                "base": "SKY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "gateio-wss-SKY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "gateio",
+                "base": "SKY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "huobi-wss-SKY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "huobi",
+                "base": "SKY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "bingx-wss-SKY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "SKY",
+                "quote": "USDT"
+            }
+        },
+        {
+            "name": "xt-wss-SKY-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "xt",
+                "base": "SKY",
+                "quote": "USDT"
+            }
         }
     ]
 }

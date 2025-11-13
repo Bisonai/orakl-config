@@ -102,6 +102,15 @@
                 "base": "PAXG",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "okx-wss-PAXG-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "okx",
+                "base": "PAXG",
+                "quote": "USDT"
+            }
         }
     ]
 }

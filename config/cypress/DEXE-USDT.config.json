@@ -57,6 +57,15 @@
                 "base": "DEXE",
                 "quote": "USDT"
             }
+        },
+        {
+            "name": "bingx-wss-DEXE-USDT",
+            "definition": {
+                "type": "wss",
+                "provider": "bingx",
+                "base": "DEXE",
+                "quote": "USDT"
+            }
         }
     ]
 }
