@@ -118,7 +118,6 @@
 | [KRW-USD](config/baobab/KRW-USD.config.json) | 2000 | 400 | 15000 | 3 |
 | [KRWO-USDT](config/baobab/KRWO-USDT.config.json) | 2000 | 400 | 15000 | 2 |
 | [KSM-USDT](config/baobab/KSM-USDT.config.json) | 2000 | 400 | 60000 | 15 |
-| [KSP-KRW](config/baobab/KSP-KRW.config.json) | 2000 | 400 | 15000 | 2 |
 | [LDO-USDT](config/baobab/LDO-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [LINK-KRW](config/baobab/LINK-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [LPT-USDT](config/baobab/LPT-USDT.config.json) | 2000 | 400 | 60000 | 16 |
@@ -354,7 +353,6 @@
 | [KRW-USD](config/cypress/KRW-USD.config.json) | 2000 | 400 | 15000 | 3 |
 | [KRWO-USDT](config/cypress/KRWO-USDT.config.json) | 2000 | 400 | 60000 | 2 |
 | [KSM-USDT](config/cypress/KSM-USDT.config.json) | 2000 | 400 | 60000 | 15 |
-| [KSP-KRW](config/cypress/KSP-KRW.config.json) | 2000 | 400 | 15000 | 2 |
 | [LDO-USDT](config/cypress/LDO-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [LINK-KRW](config/cypress/LINK-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [LPT-USDT](config/cypress/LPT-USDT.config.json) | 2000 | 400 | 60000 | 16 |
