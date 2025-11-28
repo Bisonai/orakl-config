@@ -11342,32 +11342,6 @@
         ]
     },
     {
-        "name": "KSP-KRW",
-        "fetchInterval": 2000,
-        "aggregateInterval": 400,
-        "submitInterval": 15000,
-        "feeds": [
-            {
-                "name": "korbit-wss-KSP-KRW",
-                "definition": {
-                    "type": "wss",
-                    "provider": "korbit",
-                    "base": "KSP",
-                    "quote": "KRW"
-                }
-            },
-            {
-                "name": "coinone-wss-KSP-KRW",
-                "definition": {
-                    "type": "wss",
-                    "provider": "coinone",
-                    "base": "KSP",
-                    "quote": "KRW"
-                }
-            }
-        ]
-    },
-    {
         "name": "LDO-USDT",
         "fetchInterval": 2000,
         "aggregateInterval": 400,
