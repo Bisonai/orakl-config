@@ -844,10 +844,6 @@
                             ]
                         },
                         {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
                             "function": "ROUND"
                         }
                     ]
@@ -891,10 +887,6 @@
                             ]
                         },
                         {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
                             "function": "ROUND"
                         }
                     ]
@@ -917,10 +909,6 @@
                             "args": [
                                 "usDollarRate"
                             ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
                         },
                         {
                             "function": "ROUND"
@@ -1601,10 +1589,6 @@
                             ]
                         },
                         {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
                             "function": "ROUND"
                         }
                     ]
@@ -1648,10 +1632,6 @@
                             ]
                         },
                         {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
                             "function": "ROUND"
                         }
                     ]
@@ -1674,10 +1654,6 @@
                             "args": [
                                 "usDollarRate"
                             ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
                         },
                         {
                             "function": "ROUND"
@@ -1856,10 +1832,6 @@
                             ]
                         },
                         {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
                             "function": "ROUND"
                         }
                     ]
@@ -1903,10 +1875,6 @@
                             ]
                         },
                         {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
                             "function": "ROUND"
                         }
                     ]
@@ -1929,10 +1897,6 @@
                             "args": [
                                 "usDollarRate"
                             ]
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
                         },
                         {
                             "function": "ROUND"
@@ -2043,10 +2007,6 @@
                             "args": 1
                         },
                         {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
                             "function": "ROUND"
                         }
                     ]
@@ -2090,10 +2050,6 @@
                             ]
                         },
                         {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
                             "function": "ROUND"
                         }
                     ]
@@ -2120,10 +2076,6 @@
                         {
                             "function": "DIVFROM",
                             "args": 1
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
                         },
                         {
                             "function": "ROUND"
@@ -2306,10 +2258,6 @@
                             "args": 1
                         },
                         {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
                             "function": "ROUND"
                         }
                     ]
@@ -2357,10 +2305,6 @@
                             "args": 1
                         },
                         {
-                            "function": "POW10",
-                            "args": 8
-                        },
-                        {
                             "function": "ROUND"
                         }
                     ]
@@ -2385,10 +2329,6 @@
                         {
                             "function": "DIVFROM",
                             "args": 1
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
                         },
                         {
                             "function": "ROUND"
@@ -2417,10 +2357,6 @@
                         {
                             "function": "DIVFROM",
                             "args": 1
-                        },
-                        {
-                            "function": "POW10",
-                            "args": 8
                         },
                         {
                             "function": "ROUND"
