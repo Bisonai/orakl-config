@@ -44,10 +44,6 @@
                     {
                         "function": "DIVFROM",
                         "args": 1
-                    },
-
-                    {
-                        "function": "ROUND"
                     }
                 ]
             }
@@ -73,10 +69,6 @@
                     {
                         "function": "DIVFROM",
                         "args": 1
-                    },
-
-                    {
-                        "function": "ROUND"
                     }
                 ]
             }
@@ -100,10 +92,6 @@
                     {
                         "function": "DIVFROM",
                         "args": 1
-                    },
-
-                    {
-                        "function": "ROUND"
                     }
                 ]
             }

@@ -23,10 +23,6 @@
                     {
                         "function": "DIVFROM",
                         "args": 1
-                    },
-
-                    {
-                        "function": "ROUND"
                     }
                 ]
             }
@@ -67,10 +63,6 @@
                             "meta",
                             "regularMarketPrice"
                         ]
-                    },
-
-                    {
-                        "function": "ROUND"
                     }
                 ]
             }
@@ -96,10 +88,6 @@
                     {
                         "function": "DIVFROM",
                         "args": 1
-                    },
-
-                    {
-                        "function": "ROUND"
                     }
                 ]
             }

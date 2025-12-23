@@ -842,9 +842,6 @@
                             "args": [
                                 "usDollarRate"
                             ]
-                        },
-                        {
-                            "function": "ROUND"
                         }
                     ]
                 }
@@ -885,9 +882,6 @@
                                 "meta",
                                 "regularMarketPrice"
                             ]
-                        },
-                        {
-                            "function": "ROUND"
                         }
                     ]
                 }
@@ -909,9 +903,6 @@
                             "args": [
                                 "usDollarRate"
                             ]
-                        },
-                        {
-                            "function": "ROUND"
                         }
                     ]
                 }
@@ -1587,9 +1578,6 @@
                             "args": [
                                 "usDollarRate"
                             ]
-                        },
-                        {
-                            "function": "ROUND"
                         }
                     ]
                 }
@@ -1630,9 +1618,6 @@
                                 "meta",
                                 "regularMarketPrice"
                             ]
-                        },
-                        {
-                            "function": "ROUND"
                         }
                     ]
                 }
@@ -1654,9 +1639,6 @@
                             "args": [
                                 "usDollarRate"
                             ]
-                        },
-                        {
-                            "function": "ROUND"
                         }
                     ]
                 }
@@ -1830,9 +1812,6 @@
                             "args": [
                                 "usDollarRate"
                             ]
-                        },
-                        {
-                            "function": "ROUND"
                         }
                     ]
                 }
@@ -1873,9 +1852,6 @@
                                 "meta",
                                 "regularMarketPrice"
                             ]
-                        },
-                        {
-                            "function": "ROUND"
                         }
                     ]
                 }
@@ -1897,9 +1873,6 @@
                             "args": [
                                 "usDollarRate"
                             ]
-                        },
-                        {
-                            "function": "ROUND"
                         }
                     ]
                 }
@@ -2005,9 +1978,6 @@
                         {
                             "function": "DIVFROM",
                             "args": 1
-                        },
-                        {
-                            "function": "ROUND"
                         }
                     ]
                 }
@@ -2048,9 +2018,6 @@
                                 "meta",
                                 "regularMarketPrice"
                             ]
-                        },
-                        {
-                            "function": "ROUND"
                         }
                     ]
                 }
@@ -2076,9 +2043,6 @@
                         {
                             "function": "DIVFROM",
                             "args": 1
-                        },
-                        {
-                            "function": "ROUND"
                         }
                     ]
                 }
@@ -2256,9 +2220,6 @@
                         {
                             "function": "DIVFROM",
                             "args": 1
-                        },
-                        {
-                            "function": "ROUND"
                         }
                     ]
                 }
@@ -2303,9 +2264,6 @@
                         {
                             "function": "DIVFROM",
                             "args": 1
-                        },
-                        {
-                            "function": "ROUND"
                         }
                     ]
                 }
@@ -2329,9 +2287,6 @@
                         {
                             "function": "DIVFROM",
                             "args": 1
-                        },
-                        {
-                            "function": "ROUND"
                         }
                     ]
                 }
@@ -2357,9 +2312,6 @@
                         {
                             "function": "DIVFROM",
                             "args": 1
-                        },
-                        {
-                            "function": "ROUND"
                         }
                     ]
                 }

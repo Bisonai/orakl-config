@@ -40,10 +40,6 @@
                             "meta",
                             "regularMarketPrice"
                         ]
-                    },
-
-                    {
-                        "function": "ROUND"
                     }
                 ]
             }
@@ -67,10 +63,6 @@
                     {
                         "function": "DIVFROM",
                         "args": 1
-                    },
-
-                    {
-                        "function": "ROUND"
                     }
                 ]
             }
@@ -90,10 +82,6 @@
                         "args": [
                             "usDollarRate"
                         ]
-                    },
-
-                    {
-                        "function": "ROUND"
                     }
                 ]
             }
