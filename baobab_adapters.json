@@ -302,7 +302,7 @@
             {
                 "name": "Pennygold-PEG-POR",
                 "definition": {
-                    "url": "https://dev.pennygold.kr/api/v2/balance/getTotalNftAmount",
+                    "url": "https://dev-nft.pennygold.kr/api/v2/balance/getTotalNftAmount",
                     "headers": {
                         "Content-Type": "application/json"
                     },
