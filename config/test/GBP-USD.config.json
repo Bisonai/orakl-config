@@ -20,10 +20,7 @@
                             "usDollarRate"
                         ]
                     },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
+
                     {
                         "function": "ROUND"
                     }
@@ -67,10 +64,7 @@
                             "regularMarketPrice"
                         ]
                     },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
+
                     {
                         "function": "ROUND"
                     }
@@ -95,10 +89,7 @@
                             "usDollarRate"
                         ]
                     },
-                    {
-                        "function": "POW10",
-                        "args": 8
-                    },
+
                     {
                         "function": "ROUND"
                     }
