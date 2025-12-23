@@ -3,6 +3,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
+    "decimals": 16,
     "feeds": [
         {
             "name": "binance-wss-SHIB-USDT",

@@ -3,6 +3,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "decimals": 16,
     "feeds": [
         {
             "name": "kucoin-wss-BABYDOGE-USDT",
