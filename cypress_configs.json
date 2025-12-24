@@ -8977,6 +8977,97 @@
         ]
     },
     {
+        "name": "IDR-USD",
+        "fetchInterval": 2000,
+        "aggregateInterval": 400,
+        "submitInterval": 60000,
+        "feeds": [
+            {
+                "name": "Yahoo-IDR-USD",
+                "definition": {
+                    "url": "https://query2.finance.yahoo.com/v8/finance/chart/IDR=X",
+                    "headers": {
+                        "Content-Type": "application/json",
+                        "User-Agent": "Mozilla/5.0"
+                    },
+                    "method": "GET",
+                    "reducers": [
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "chart",
+                                "result"
+                            ]
+                        },
+                        {
+                            "function": "INDEX",
+                            "args": 0
+                        },
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "meta",
+                                "regularMarketPrice"
+                            ]
+                        },
+                        {
+                            "function": "DIVFROM",
+                            "args": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "naver-IDR-USD",
+                "definition": {
+                    "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDIDR",
+                    "headers": {
+                        "Content-Type": "application/json",
+                        "User-Agent": "Mozilla/5.0"
+                    },
+                    "method": "GET",
+                    "reducers": [
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "result",
+                                "closePrice"
+                            ]
+                        },
+                        {
+                            "function": "DIVFROM",
+                            "args": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Daum-IDR-USD",
+                "definition": {
+                    "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWIDR",
+                    "headers": {
+                        "Content-Type": "application/json",
+                        "User-Agent": "Mozilla/5.0",
+                        "referer": "https://m.finance.daum.net/exchanges/FRX.KRWIDR"
+                    },
+                    "method": "GET",
+                    "reducers": [
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "usDollarRate"
+                            ]
+                        },
+                        {
+                            "function": "DIV",
+                            "args": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
         "name": "IMX-KRW",
         "fetchInterval": 2000,
         "aggregateInterval": 400,
@@ -13130,6 +13221,93 @@
                     "provider": "coinone",
                     "base": "MTL",
                     "quote": "KRW"
+                }
+            }
+        ]
+    },
+    {
+        "name": "MYR-USD",
+        "fetchInterval": 2000,
+        "aggregateInterval": 400,
+        "submitInterval": 60000,
+        "feeds": [
+            {
+                "name": "Yahoo-MYR-USD",
+                "definition": {
+                    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MYR=X",
+                    "headers": {
+                        "Content-Type": "application/json",
+                        "User-Agent": "Mozilla/5.0"
+                    },
+                    "method": "GET",
+                    "reducers": [
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "chart",
+                                "result"
+                            ]
+                        },
+                        {
+                            "function": "INDEX",
+                            "args": 0
+                        },
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "meta",
+                                "regularMarketPrice"
+                            ]
+                        },
+                        {
+                            "function": "DIVFROM",
+                            "args": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "naver-MYR-USD",
+                "definition": {
+                    "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDMYR",
+                    "headers": {
+                        "Content-Type": "application/json",
+                        "User-Agent": "Mozilla/5.0"
+                    },
+                    "method": "GET",
+                    "reducers": [
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "result",
+                                "closePrice"
+                            ]
+                        },
+                        {
+                            "function": "DIVFROM",
+                            "args": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Daum-MYR-USD",
+                "definition": {
+                    "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWMYR",
+                    "headers": {
+                        "Content-Type": "application/json",
+                        "User-Agent": "Mozilla/5.0",
+                        "referer": "https://m.finance.daum.net/exchanges/FRX.KRWMYR"
+                    },
+                    "method": "GET",
+                    "reducers": [
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "usDollarRate"
+                            ]
+                        }
+                    ]
                 }
             }
         ]
@@ -17306,6 +17484,93 @@
                     "provider": "bitmart",
                     "base": "SFP",
                     "quote": "USDT"
+                }
+            }
+        ]
+    },
+    {
+        "name": "SGD-USD",
+        "fetchInterval": 2000,
+        "aggregateInterval": 400,
+        "submitInterval": 60000,
+        "feeds": [
+            {
+                "name": "Yahoo-SGD-USD",
+                "definition": {
+                    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SGD=X",
+                    "headers": {
+                        "Content-Type": "application/json",
+                        "User-Agent": "Mozilla/5.0"
+                    },
+                    "method": "GET",
+                    "reducers": [
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "chart",
+                                "result"
+                            ]
+                        },
+                        {
+                            "function": "INDEX",
+                            "args": 0
+                        },
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "meta",
+                                "regularMarketPrice"
+                            ]
+                        },
+                        {
+                            "function": "DIVFROM",
+                            "args": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "naver-SGD-USD",
+                "definition": {
+                    "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDSGD",
+                    "headers": {
+                        "Content-Type": "application/json",
+                        "User-Agent": "Mozilla/5.0"
+                    },
+                    "method": "GET",
+                    "reducers": [
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "result",
+                                "closePrice"
+                            ]
+                        },
+                        {
+                            "function": "DIVFROM",
+                            "args": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Daum-SGD-USD",
+                "definition": {
+                    "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWSGD",
+                    "headers": {
+                        "Content-Type": "application/json",
+                        "User-Agent": "Mozilla/5.0",
+                        "referer": "https://m.finance.daum.net/exchanges/FRX.KRWSGD"
+                    },
+                    "method": "GET",
+                    "reducers": [
+                        {
+                            "function": "PARSE",
+                            "args": [
+                                "usDollarRate"
+                            ]
+                        }
+                    ]
                 }
             }
         ]

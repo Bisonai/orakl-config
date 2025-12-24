@@ -1,0 +1,91 @@
+{
+    "name": "IDR-USD",
+    "fetchInterval": 2000,
+    "aggregateInterval": 400,
+    "submitInterval": 60000,
+    "feeds": [
+        {
+            "name": "Yahoo-IDR-USD",
+            "definition": {
+                "url": "https://query2.finance.yahoo.com/v8/finance/chart/IDR=X",
+                "headers": {
+                    "Content-Type": "application/json",
+                    "User-Agent": "Mozilla/5.0"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "chart",
+                            "result"
+                        ]
+                    },
+                    {
+                        "function": "INDEX",
+                        "args": 0
+                    },
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "meta",
+                            "regularMarketPrice"
+                        ]
+                    },
+                    {
+                        "function": "DIVFROM",
+                        "args": 1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "naver-IDR-USD",
+            "definition": {
+                "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDIDR",
+                "headers": {
+                    "Content-Type": "application/json",
+                    "User-Agent": "Mozilla/5.0"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "result",
+                            "closePrice"
+                        ]
+                    },
+                    {
+                        "function": "DIVFROM",
+                        "args": 1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Daum-IDR-USD",
+            "definition": {
+                "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWIDR",
+                "headers": {
+                    "Content-Type": "application/json",
+                    "User-Agent": "Mozilla/5.0",
+                    "referer": "https://m.finance.daum.net/exchanges/FRX.KRWIDR"
+                },
+                "method": "GET",
+                "reducers": [
+                    {
+                        "function": "PARSE",
+                        "args": [
+                            "usDollarRate"
+                        ]
+                    },
+                    {
+                        "function": "DIV",
+                        "args": 100
+                    }
+                ]
+            }
+        }
+    ]
+}
