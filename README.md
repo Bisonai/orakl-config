@@ -97,6 +97,7 @@
 | [HNT-USDT](config/baobab/HNT-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [HOT-USDT](config/baobab/HOT-USDT.config.json) | 2000 | 400 | 60000 | 12 |
 | [HYPE-USDT](config/baobab/HYPE-USDT.config.json) | 2000 | 400 | 60000 | 11 |
+| [IDR-USD](config/baobab/IDR-USD.config.json) | 2000 | 400 | 60000 | 3 |
 | [IMX-KRW](config/baobab/IMX-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [INJ-USDT](config/baobab/INJ-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [IOTA-USDT](config/baobab/IOTA-USDT.config.json) | 2000 | 400 | 60000 | 11 |
@@ -136,6 +137,7 @@
 | [MORPHO-USDT](config/baobab/MORPHO-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [MOVE-USDT](config/baobab/MOVE-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [MTL-KRW](config/baobab/MTL-KRW.config.json) | 2000 | 400 | 60000 | 3 |
+| [MYR-USD](config/baobab/MYR-USD.config.json) | 2000 | 400 | 60000 | 3 |
 | [NEAR-KRW](config/baobab/NEAR-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [NEO-USDT](config/baobab/NEO-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [NEXO-USDT](config/baobab/NEXO-USDT.config.json) | 2000 | 400 | 60000 | 11 |
@@ -175,6 +177,7 @@
 | [SEI-KRW](config/baobab/SEI-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [SEI-USDT](config/baobab/SEI-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [SFP-USDT](config/baobab/SFP-USDT.config.json) | 2000 | 400 | 60000 | 10 |
+| [SGD-USD](config/baobab/SGD-USD.config.json) | 2000 | 400 | 60000 | 3 |
 | [SHIB-KRW](config/baobab/SHIB-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [SHIB-USDT](config/baobab/SHIB-USDT.config.json) | 2000 | 400 | 15000 | 18 |
 | [SKY-USDT](config/baobab/SKY-USDT.config.json) | 2000 | 400 | 60000 | 12 |
@@ -332,6 +335,7 @@
 | [HNT-USDT](config/cypress/HNT-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [HOT-USDT](config/cypress/HOT-USDT.config.json) | 2000 | 400 | 60000 | 12 |
 | [HYPE-USDT](config/cypress/HYPE-USDT.config.json) | 2000 | 400 | 60000 | 11 |
+| [IDR-USD](config/cypress/IDR-USD.config.json) | 2000 | 400 | 60000 | 3 |
 | [IMX-KRW](config/cypress/IMX-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [INJ-USDT](config/cypress/INJ-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [IOTA-USDT](config/cypress/IOTA-USDT.config.json) | 2000 | 400 | 60000 | 11 |
@@ -371,6 +375,7 @@
 | [MORPHO-USDT](config/cypress/MORPHO-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [MOVE-USDT](config/cypress/MOVE-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [MTL-KRW](config/cypress/MTL-KRW.config.json) | 2000 | 400 | 60000 | 3 |
+| [MYR-USD](config/cypress/MYR-USD.config.json) | 2000 | 400 | 60000 | 3 |
 | [NEAR-KRW](config/cypress/NEAR-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [NEO-USDT](config/cypress/NEO-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [NEXO-USDT](config/cypress/NEXO-USDT.config.json) | 2000 | 400 | 60000 | 11 |
@@ -410,6 +415,7 @@
 | [SEI-KRW](config/cypress/SEI-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [SEI-USDT](config/cypress/SEI-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [SFP-USDT](config/cypress/SFP-USDT.config.json) | 2000 | 400 | 60000 | 10 |
+| [SGD-USD](config/cypress/SGD-USD.config.json) | 2000 | 400 | 60000 | 3 |
 | [SHIB-KRW](config/cypress/SHIB-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [SHIB-USDT](config/cypress/SHIB-USDT.config.json) | 2000 | 400 | 15000 | 18 |
 | [SKY-USDT](config/cypress/SKY-USDT.config.json) | 2000 | 400 | 60000 | 12 |
