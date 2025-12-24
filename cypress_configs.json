@@ -9068,6 +9068,35 @@
         ]
     },
     {
+        "name": "IDRX-USDT",
+        "fetchInterval": 2000,
+        "aggregateInterval": 400,
+        "submitInterval": 60000,
+        "feeds": [
+            {
+                "name": "Pancakeswap-IDRX-USDT",
+                "definition": {
+                    "chainId": "56",
+                    "address": "0x9a5cf6de1d8bdbca49e8e786413f6949fcd70d7b",
+                    "type": "PancakeswapPool",
+                    "token0Decimals": 18,
+                    "token1Decimals": 0,
+                    "reciprocal": true
+                }
+            },
+            {
+                "name": "UniswapV3-IDRX-USDT",
+                "definition": {
+                    "chainId": "137",
+                    "address": "0xe818c9573dd90766c1263cf6330ab1ac2476b2b9",
+                    "type": "UniswapPool",
+                    "token0Decimals": 0,
+                    "token1Decimals": 6
+                }
+            }
+        ]
+    },
+    {
         "name": "IMX-KRW",
         "fetchInterval": 2000,
         "aggregateInterval": 400,
