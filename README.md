@@ -237,7 +237,7 @@
 | [ZRO-KRW](config/baobab/ZRO-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [ZRO-USDT](config/baobab/ZRO-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [ZRX-USDT](config/baobab/ZRX-USDT.config.json) | 2000 | 400 | 60000 | 15 |
-
+| [RIVER-USDT](config/baobab/RIVER-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 ## Config Cypress
 
 | name | fetchInterval | aggregateInterval | submitInterval | feeds |

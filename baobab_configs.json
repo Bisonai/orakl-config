@@ -16162,6 +16162,68 @@
         ]
     },
     {
+        "name": "RIVER-USDT",
+        "fetchInterval": 2000,
+        "aggregateInterval": 400,
+        "submitInterval": 60000,
+        "feeds": [
+            {
+                "name": "coinex-wss-RIVER-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "RIVER",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitget-wss-RIVER-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitget",
+                    "base": "RIVER",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-RIVER-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
+                    "base": "RIVER",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "mexc-wss-RIVER-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
+                    "base": "RIVER",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bingx-wss-RIVER-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bingx",
+                    "base": "RIVER",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitmart-wss-RIVER-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitmart",
+                    "base": "RIVER",
+                    "quote": "USDT"
+                }
+            }
+        ]
+    },
+    {
         "name": "RON-USDT",
         "fetchInterval": 2000,
         "aggregateInterval": 400,
