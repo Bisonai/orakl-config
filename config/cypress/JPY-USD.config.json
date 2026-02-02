@@ -82,13 +82,6 @@
                         "args": [
                             "usDollarRate"
                         ]
-                    },
-                    {
-                        "function": "POW10",
-                        "args": 6
-                    },
-                    {
-                        "function": "ROUND"
                     }
                 ]
             }
