@@ -2037,12 +2037,12 @@
                         {
                             "function": "PARSE",
                             "args": [
-                                "basePrice"
+                                "usDollarRate"
                             ]
                         },
                         {
-                            "function": "DIVFROM",
-                            "args": 1
+                            "function": "DIV",
+                            "args": 100
                         }
                     ]
                 }
