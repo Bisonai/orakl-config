@@ -82,6 +82,10 @@
                         "args": [
                             "usDollarRate"
                         ]
+                    },
+                    {
+                        "function": "DIV",
+                        "args": 100
                     }
                 ]
             }
