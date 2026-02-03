@@ -9804,9 +9804,6 @@
                             "args": [
                                 "usDollarRate"
                             ]
-                        },
-                        {
-                            "function": "ROUND"
                         }
                     ]
                 }
