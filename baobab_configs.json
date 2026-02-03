@@ -11154,6 +11154,13 @@
                         {
                             "function": "DIVFROM",
                             "args": 1
+                        },
+                        {
+                            "function": "POW10",
+                            "args": 8
+                        },
+                        {
+                            "function": "ROUND"
                         }
                     ]
                 }
@@ -11177,6 +11184,13 @@
                         {
                             "function": "DIVFROM",
                             "args": 1
+                        },
+                        {
+                            "function": "POW10",
+                            "args": 8
+                        },
+                        {
+                            "function": "ROUND"
                         }
                     ]
                 }
