@@ -42,7 +42,7 @@
         {
             "name": "naver-IDR-USD",
             "definition": {
-                "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDIDR",
+                "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDIDR",
                 "headers": {
                     "Content-Type": "application/json",
                     "User-Agent": "Mozilla/5.0"

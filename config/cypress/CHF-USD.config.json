@@ -47,7 +47,7 @@
         {
             "name": "naver-CHF-USD",
             "definition": {
-                "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDCHF",
+                "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDCHF",
                 "headers": {
                     "Content-Type": "application/json"
                 },
