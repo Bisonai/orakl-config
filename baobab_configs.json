@@ -23619,5 +23619,94 @@
                 }
             }
         ]
+    },
+    {
+        "name": "ZKP-USDT",
+        "fetchInterval": 2000,
+        "aggregateInterval": 400,
+        "submitInterval": 60000,
+        "feeds": [
+            {
+                "name": "binance-wss-ZKP-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "binance",
+                    "base": "ZKP",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "kucoin-wss-ZKP-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "kucoin",
+                    "base": "ZKP",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bybit-wss-ZKP-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bybit",
+                    "base": "ZKP",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "lbank-wss-ZKP-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "lbank",
+                    "base": "ZKP",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "coinex-wss-ZKP-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "coinex",
+                    "base": "ZKP",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "huobi-wss-ZKP-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "huobi",
+                    "base": "ZKP",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "mexc-wss-ZKP-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "mexc",
+                    "base": "ZKP",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "bitmart-wss-ZKP-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "bitmart",
+                    "base": "ZKP",
+                    "quote": "USDT"
+                }
+            },
+            {
+                "name": "orangex-wss-ZKP-USDT",
+                "definition": {
+                    "type": "wss",
+                    "provider": "orangex",
+                    "base": "ZKP",
+                    "quote": "USDT"
+                }
+            }
+        ]
     }
 ]
