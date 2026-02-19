@@ -4200,7 +4200,7 @@
             {
                 "name": "naver-CHF-USD",
                 "definition": {
-                    "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDCHF",
+                    "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDCHF",
                     "headers": {
                         "Content-Type": "application/json"
                     },
@@ -6995,7 +6995,7 @@
             {
                 "name": "naver-EUR-USD",
                 "definition": {
-                    "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDEUR",
+                    "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDEUR",
                     "headers": {
                         "Content-Type": "application/json"
                     },
@@ -8181,7 +8181,7 @@
             {
                 "name": "naver-GBP-USD",
                 "definition": {
-                    "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDGBP",
+                    "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDGBP",
                     "headers": {
                         "Content-Type": "application/json"
                     },
@@ -9769,7 +9769,7 @@
             {
                 "name": "naver-JPY-USD",
                 "definition": {
-                    "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDJPY",
+                    "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDJPY",
                     "headers": {
                         "Content-Type": "application/json"
                     },
@@ -11165,7 +11165,7 @@
             {
                 "name": "naver-KRW-USD",
                 "definition": {
-                    "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchange&reutersCode=FX_USDKRW",
+                    "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchange&reutersCode=FX_USDKRW",
                     "headers": {
                         "Content-Type": "application/json"
                     },
