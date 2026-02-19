@@ -47,7 +47,7 @@
         {
             "name": "naver-GBP-USD",
             "definition": {
-                "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDGBP",
+                "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDGBP",
                 "headers": {
                     "Content-Type": "application/json"
                 },

@@ -4200,7 +4200,7 @@
             {
                 "name": "naver-CHF-USD",
                 "definition": {
-                    "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDCHF",
+                    "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDCHF",
                     "headers": {
                         "Content-Type": "application/json"
                     },
@@ -6995,7 +6995,7 @@
             {
                 "name": "naver-EUR-USD",
                 "definition": {
-                    "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDEUR",
+                    "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDEUR",
                     "headers": {
                         "Content-Type": "application/json"
                     },
@@ -8181,7 +8181,7 @@
             {
                 "name": "naver-GBP-USD",
                 "definition": {
-                    "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDGBP",
+                    "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDGBP",
                     "headers": {
                         "Content-Type": "application/json"
                     },
@@ -9020,7 +9020,7 @@
             {
                 "name": "naver-IDR-USD",
                 "definition": {
-                    "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDIDR",
+                    "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDIDR",
                     "headers": {
                         "Content-Type": "application/json",
                         "User-Agent": "Mozilla/5.0"
@@ -9769,7 +9769,7 @@
             {
                 "name": "naver-JPY-USD",
                 "definition": {
-                    "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDJPY",
+                    "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDJPY",
                     "headers": {
                         "Content-Type": "application/json"
                     },
@@ -11165,7 +11165,7 @@
             {
                 "name": "naver-KRW-USD",
                 "definition": {
-                    "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchange&reutersCode=FX_USDKRW",
+                    "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchange&reutersCode=FX_USDKRW",
                     "headers": {
                         "Content-Type": "application/json"
                     },
@@ -13295,7 +13295,7 @@
             {
                 "name": "naver-MYR-USD",
                 "definition": {
-                    "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDMYR",
+                    "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDMYR",
                     "headers": {
                         "Content-Type": "application/json",
                         "User-Agent": "Mozilla/5.0"
@@ -17558,7 +17558,7 @@
             {
                 "name": "naver-SGD-USD",
                 "definition": {
-                    "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDSGD",
+                    "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDSGD",
                     "headers": {
                         "Content-Type": "application/json",
                         "User-Agent": "Mozilla/5.0"

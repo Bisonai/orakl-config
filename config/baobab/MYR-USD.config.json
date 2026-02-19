@@ -42,7 +42,7 @@
         {
             "name": "naver-MYR-USD",
             "definition": {
-                "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDMYR",
+                "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDMYR",
                 "headers": {
                     "Content-Type": "application/json",
                     "User-Agent": "Mozilla/5.0"

@@ -47,7 +47,7 @@
         {
             "name": "naver-JPY-USD",
             "definition": {
-                "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDJPY",
+                "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDJPY",
                 "headers": {
                     "Content-Type": "application/json"
                 },

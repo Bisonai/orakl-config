@@ -47,7 +47,7 @@
         {
             "name": "naver-EUR-USD",
             "definition": {
-                "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDEUR",
+                "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDEUR",
                 "headers": {
                     "Content-Type": "application/json"
                 },

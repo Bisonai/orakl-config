@@ -42,7 +42,7 @@
         {
             "name": "naver-SGD-USD",
             "definition": {
-                "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDSGD",
+                "url": "http://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDSGD",
                 "headers": {
                     "Content-Type": "application/json",
                     "User-Agent": "Mozilla/5.0"
