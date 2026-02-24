@@ -23736,7 +23736,7 @@
                 "name": "capybara-stKAIA-KAIA",
                 "definition": {
                     "chainId": "8217",
-                    "address": "0x456F5c01EfE66a47Ba8573108E22Fb1f25e89060",
+                    "address": "0x5cde63386d78362267d9a3edc8da204bb64d07d3",
                     "type": "CapybaraPool",
                     "token0Decimals": 18,
                     "token1Decimals": 18,
