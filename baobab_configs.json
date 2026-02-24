@@ -23708,5 +23708,42 @@
                 }
             }
         ]
+    },
+    {
+        "name": "stKAIA-KAIA",
+        "fetchInterval": 2000,
+        "aggregateInterval": 400,
+        "submitInterval": 15000,
+        "feeds": [
+            {
+                "name": "Dragonswap-KAIA-stKAIA",
+                "definition": {
+                    "chainId": "8217",
+                    "address": "0x238b5ad6ab76b886ce6463c0e3a36a956ff58ca1",
+                    "type": "UniswapPool",
+                    "reciprocal": true,
+                    "token0Decimals": 18,
+                    "token1Decimals": 18,
+                    "reducers": [
+                        {
+                            "function": "DIVFROM",
+                            "args": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "capybara-stKAIA-KAIA",
+                "definition": {
+                    "chainId": "8217",
+                    "address": "0x4b63ec6284810f62cecba6f03cf17413b0f4cec3",
+                    "type": "CapybaraPool",
+                    "token0Decimals": 18,
+                    "token1Decimals": 18,
+                    "token0Address": "0x42952b873ed6f7f0a7e4992e2a9818e3a9001995",
+                    "token1Address": "0x19aac5f612f524b754ca7e7c41cbfa2e981a4432"
+                }
+            }
+        ]
     }
 ]
