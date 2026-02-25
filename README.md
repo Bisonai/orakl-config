@@ -240,6 +240,7 @@
 | [RIVER-USDT](config/baobab/RIVER-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [ZKP-USDT](config/baobab/ZKP-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [STKAIA-KAIA](config/baobab/STKAIA-KAIA.config.json) | 2000 | 400 | 60000 | 15 |
+| [EARNUSDT-USDT](config/baobab/EARNUSDT-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 
 | name | fetchInterval | aggregateInterval | submitInterval | feeds |
 | --- | --- | --- | --- | --- |
