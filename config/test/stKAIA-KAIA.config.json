@@ -22,7 +22,7 @@
             }
         },
         {
-            "name": "capybara-STKAIA-KAIA",
+            "name": "capybara-KAIA-STKAIA",
             "definition": {
                 "chainId": "8217",
                 "address": "0x5cde63386d78362267d9a3edc8da204bb64d07d3",
