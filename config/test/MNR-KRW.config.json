@@ -1,17 +1,18 @@
 {
-    "name": "MNR-KRW",
-    "feeds": [
-        {
-            "name": "coinone-wss-MNR-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "MNR",
-                "quote": "KRW"
-            }
-        }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 1000,
-    "submitInterval": 15000
+  "name": "MNR-KRW",
+  "feeds": [
+    {
+      "name": "coinone-wss-MNR-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "coinone",
+        "base": "MNR",
+        "quote": "KRW"
+      }
+    }
+  ],
+  "fetchInterval": 2000,
+  "aggregateInterval": 1000,
+  "submitInterval": 15000,
+  "feedDataFreshness": 60000
 }

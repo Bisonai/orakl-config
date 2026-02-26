@@ -1,44 +1,45 @@
 {
-    "name": "BORA-KRW",
-    "feeds": [
-        {
-            "name": "coinone-wss-BORA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "BORA",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "bithumb-wss-BORA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "BORA",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "upbit-wss-BORA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "BORA",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "korbit-wss-BORA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "BORA",
-                "quote": "KRW"
-            }
-        }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 1000,
-    "submitInterval": 15000
+  "name": "BORA-KRW",
+  "feeds": [
+    {
+      "name": "coinone-wss-BORA-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "coinone",
+        "base": "BORA",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "bithumb-wss-BORA-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "bithumb",
+        "base": "BORA",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "upbit-wss-BORA-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "upbit",
+        "base": "BORA",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "korbit-wss-BORA-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "korbit",
+        "base": "BORA",
+        "quote": "KRW"
+      }
+    }
+  ],
+  "fetchInterval": 2000,
+  "aggregateInterval": 1000,
+  "submitInterval": 15000,
+  "feedDataFreshness": 60000
 }

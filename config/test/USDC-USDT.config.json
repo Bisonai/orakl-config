@@ -1,162 +1,163 @@
 {
-    "name": "USDC-USDT",
-    "feeds": [
-        {
-            "name": "bybit-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "binance-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kucoin-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "UniswapV3-0.01-USDC-USDT",
-            "definition": {
-                "chainId": "1",
-                "address": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
-                "type": "UniswapPool",
-                "token0Decimals": 6,
-                "token1Decimals": 6
-            }
-        },
-        {
-            "name": "bitstamp-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitstamp",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kraken-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kraken",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-USDC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "USDC",
-                "quote": "USDT"
-            }
-        }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 1000,
-    "submitInterval": 15000
+  "name": "USDC-USDT",
+  "feeds": [
+    {
+      "name": "bybit-wss-USDC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bybit",
+        "base": "USDC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "binance-wss-USDC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "binance",
+        "base": "USDC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "kucoin-wss-USDC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kucoin",
+        "base": "USDC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "coinbase-wss-USDC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinbase",
+        "base": "USDC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "gateio-wss-USDC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "gateio",
+        "base": "USDC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "coinex-wss-USDC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinex",
+        "base": "USDC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "UniswapV3-0.01-USDC-USDT",
+      "definition": {
+        "chainId": "1",
+        "address": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+        "type": "UniswapPool",
+        "token0Decimals": 6,
+        "token1Decimals": 6
+      }
+    },
+    {
+      "name": "bitstamp-wss-USDC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitstamp",
+        "base": "USDC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "lbank-wss-USDC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "lbank",
+        "base": "USDC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitget-wss-USDC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitget",
+        "base": "USDC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "huobi-wss-USDC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "huobi",
+        "base": "USDC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "mexc-wss-USDC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "mexc",
+        "base": "USDC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "okx-wss-USDC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "okx",
+        "base": "USDC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "kraken-wss-USDC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kraken",
+        "base": "USDC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bingx-wss-USDC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bingx",
+        "base": "USDC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitmart-wss-USDC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitmart",
+        "base": "USDC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "xt-wss-USDC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "xt",
+        "base": "USDC",
+        "quote": "USDT"
+      }
+    }
+  ],
+  "fetchInterval": 2000,
+  "aggregateInterval": 1000,
+  "submitInterval": 15000,
+  "feedDataFreshness": 60000
 }

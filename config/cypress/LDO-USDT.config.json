@@ -1,152 +1,153 @@
 {
-    "name": "LDO-USDT",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 60000,
-    "feeds": [
-        {
-            "name": "binance-wss-LDO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "LDO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kucoin-wss-LDO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "LDO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bybit-wss-LDO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "LDO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-LDO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "LDO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-LDO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
-                "base": "LDO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-LDO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "LDO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-LDO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "LDO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-LDO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "LDO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-LDO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "LDO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-LDO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "LDO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-LDO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
-                "base": "LDO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-LDO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "LDO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-LDO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "LDO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-LDO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "LDO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-LDO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "LDO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "orangex-wss-LDO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "orangex",
-                "base": "LDO",
-                "quote": "USDT"
-            }
-        }
-    ]
+  "name": "LDO-USDT",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feedDataFreshness": 60000,
+  "feeds": [
+    {
+      "name": "binance-wss-LDO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "binance",
+        "base": "LDO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "kucoin-wss-LDO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kucoin",
+        "base": "LDO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bybit-wss-LDO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bybit",
+        "base": "LDO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "crypto-wss-LDO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "crypto",
+        "base": "LDO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "btse-wss-LDO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "btse",
+        "base": "LDO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "gateio-wss-LDO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "gateio",
+        "base": "LDO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "lbank-wss-LDO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "lbank",
+        "base": "LDO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "coinex-wss-LDO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinex",
+        "base": "LDO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitget-wss-LDO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitget",
+        "base": "LDO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "huobi-wss-LDO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "huobi",
+        "base": "LDO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "mexc-wss-LDO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "mexc",
+        "base": "LDO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "okx-wss-LDO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "okx",
+        "base": "LDO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bingx-wss-LDO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bingx",
+        "base": "LDO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitmart-wss-LDO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitmart",
+        "base": "LDO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "xt-wss-LDO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "xt",
+        "base": "LDO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "orangex-wss-LDO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "orangex",
+        "base": "LDO",
+        "quote": "USDT"
+      }
+    }
+  ]
 }

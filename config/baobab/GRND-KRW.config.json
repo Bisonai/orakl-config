@@ -1,26 +1,27 @@
 {
-    "name": "GRND-KRW",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 60000,
-    "feeds": [
-        {
-            "name": "bithumb-wss-GRND-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "GRND",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-GRND-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "GRND",
-                "quote": "KRW"
-            }
-        }
-    ]
+  "name": "GRND-KRW",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feedDataFreshness": 60000,
+  "feeds": [
+    {
+      "name": "bithumb-wss-GRND-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "bithumb",
+        "base": "GRND",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "coinone-wss-GRND-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "coinone",
+        "base": "GRND",
+        "quote": "KRW"
+      }
+    }
+  ]
 }

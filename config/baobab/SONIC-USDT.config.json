@@ -1,125 +1,126 @@
 {
-    "name": "SONIC-USDT",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 60000,
-    "feeds": [
-        {
-            "name": "kucoin-wss-SONIC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "SONIC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bybit-wss-SONIC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "SONIC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "upbit-wss-SONIC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "SONIC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-SONIC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
-                "base": "SONIC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-SONIC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "SONIC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-SONIC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "SONIC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-SONIC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "SONIC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-SONIC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "SONIC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-SONIC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
-                "base": "SONIC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-SONIC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "SONIC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-SONIC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "SONIC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-SONIC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "SONIC",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "orangex-wss-SONIC-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "orangex",
-                "base": "SONIC",
-                "quote": "USDT"
-            }
-        }
-    ]
+  "name": "SONIC-USDT",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feedDataFreshness": 60000,
+  "feeds": [
+    {
+      "name": "kucoin-wss-SONIC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kucoin",
+        "base": "SONIC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bybit-wss-SONIC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bybit",
+        "base": "SONIC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "upbit-wss-SONIC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "upbit",
+        "base": "SONIC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "btse-wss-SONIC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "btse",
+        "base": "SONIC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "gateio-wss-SONIC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "gateio",
+        "base": "SONIC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "lbank-wss-SONIC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "lbank",
+        "base": "SONIC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "coinex-wss-SONIC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinex",
+        "base": "SONIC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitget-wss-SONIC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitget",
+        "base": "SONIC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "mexc-wss-SONIC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "mexc",
+        "base": "SONIC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "okx-wss-SONIC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "okx",
+        "base": "SONIC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bingx-wss-SONIC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bingx",
+        "base": "SONIC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "xt-wss-SONIC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "xt",
+        "base": "SONIC",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "orangex-wss-SONIC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "orangex",
+        "base": "SONIC",
+        "quote": "USDT"
+      }
+    }
+  ]
 }

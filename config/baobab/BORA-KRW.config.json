@@ -1,44 +1,45 @@
 {
-    "name": "BORA-KRW",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000,
-    "feeds": [
-        {
-            "name": "upbit-wss-BORA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "BORA",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "korbit-wss-BORA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "BORA",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "bithumb-wss-BORA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "BORA",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-BORA-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "BORA",
-                "quote": "KRW"
-            }
-        }
-    ]
+  "name": "BORA-KRW",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 15000,
+  "feedDataFreshness": 60000,
+  "feeds": [
+    {
+      "name": "upbit-wss-BORA-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "upbit",
+        "base": "BORA",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "korbit-wss-BORA-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "korbit",
+        "base": "BORA",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "bithumb-wss-BORA-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "bithumb",
+        "base": "BORA",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "coinone-wss-BORA-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "coinone",
+        "base": "BORA",
+        "quote": "KRW"
+      }
+    }
+  ]
 }

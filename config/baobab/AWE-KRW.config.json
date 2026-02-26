@@ -1,35 +1,36 @@
 {
-    "name": "AWE-KRW",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 60000,
-    "feeds": [
-        {
-            "name": "upbit-wss-AWE-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "AWE",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "bithumb-wss-AWE-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "AWE",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-AWE-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "AWE",
-                "quote": "KRW"
-            }
-        }
-    ]
+  "name": "AWE-KRW",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feedDataFreshness": 60000,
+  "feeds": [
+    {
+      "name": "upbit-wss-AWE-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "upbit",
+        "base": "AWE",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "bithumb-wss-AWE-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "bithumb",
+        "base": "AWE",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "coinone-wss-AWE-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "coinone",
+        "base": "AWE",
+        "quote": "KRW"
+      }
+    }
+  ]
 }

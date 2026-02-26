@@ -1,153 +1,154 @@
 {
-    "name": "UNI-USDT",
-    "feeds": [
-        {
-            "name": "bybit-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "binance-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kucoin-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "UniswapV3-UNI-USDT",
-            "definition": {
-                "chainId": "1",
-                "address": "0x3470447f3cecffac709d3e783a307790b0208d60",
-                "type": "UniswapPool",
-                "token0Decimals": 18,
-                "token1Decimals": 6
-            }
-        },
-        {
-            "name": "lbank-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-UNI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "UNI",
-                "quote": "USDT"
-            }
-        }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 1000,
-    "submitInterval": 15000
+  "name": "UNI-USDT",
+  "feeds": [
+    {
+      "name": "bybit-wss-UNI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bybit",
+        "base": "UNI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "binance-wss-UNI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "binance",
+        "base": "UNI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "kucoin-wss-UNI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kucoin",
+        "base": "UNI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "crypto-wss-UNI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "crypto",
+        "base": "UNI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "btse-wss-UNI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "btse",
+        "base": "UNI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "coinbase-wss-UNI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinbase",
+        "base": "UNI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "gateio-wss-UNI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "gateio",
+        "base": "UNI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "coinex-wss-UNI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinex",
+        "base": "UNI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "UniswapV3-UNI-USDT",
+      "definition": {
+        "chainId": "1",
+        "address": "0x3470447f3cecffac709d3e783a307790b0208d60",
+        "type": "UniswapPool",
+        "token0Decimals": 18,
+        "token1Decimals": 6
+      }
+    },
+    {
+      "name": "lbank-wss-UNI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "lbank",
+        "base": "UNI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitget-wss-UNI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitget",
+        "base": "UNI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "huobi-wss-UNI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "huobi",
+        "base": "UNI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "okx-wss-UNI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "okx",
+        "base": "UNI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bingx-wss-UNI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bingx",
+        "base": "UNI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitmart-wss-UNI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitmart",
+        "base": "UNI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "xt-wss-UNI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "xt",
+        "base": "UNI",
+        "quote": "USDT"
+      }
+    }
+  ],
+  "fetchInterval": 2000,
+  "aggregateInterval": 1000,
+  "submitInterval": 15000,
+  "feedDataFreshness": 60000
 }

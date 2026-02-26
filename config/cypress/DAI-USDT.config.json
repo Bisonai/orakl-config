@@ -1,126 +1,127 @@
 {
-    "name": "DAI-USDT",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000,
-    "feeds": [
-        {
-            "name": "UniswapV3-DAI-USDT",
-            "definition": {
-                "chainId": "1",
-                "address": "0x48da0965ab2d2cbf1c17c09cfb5cbe67ad5b1406",
-                "type": "UniswapPool",
-                "token0Decimals": 18,
-                "token1Decimals": 6
-            }
-        },
-        {
-            "name": "bybit-wss-DAI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "DAI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-DAI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "DAI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-DAI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "DAI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-DAI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "DAI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-DAI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "DAI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-DAI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "DAI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-DAI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
-                "base": "DAI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-DAI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "DAI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kraken-wss-DAI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kraken",
-                "base": "DAI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-DAI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "DAI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-DAI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "DAI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-DAI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "DAI",
-                "quote": "USDT"
-            }
-        }
-    ]
+  "name": "DAI-USDT",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 15000,
+  "feedDataFreshness": 60000,
+  "feeds": [
+    {
+      "name": "UniswapV3-DAI-USDT",
+      "definition": {
+        "chainId": "1",
+        "address": "0x48da0965ab2d2cbf1c17c09cfb5cbe67ad5b1406",
+        "type": "UniswapPool",
+        "token0Decimals": 18,
+        "token1Decimals": 6
+      }
+    },
+    {
+      "name": "bybit-wss-DAI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bybit",
+        "base": "DAI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "gateio-wss-DAI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "gateio",
+        "base": "DAI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "lbank-wss-DAI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "lbank",
+        "base": "DAI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "coinex-wss-DAI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinex",
+        "base": "DAI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitget-wss-DAI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitget",
+        "base": "DAI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "huobi-wss-DAI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "huobi",
+        "base": "DAI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "mexc-wss-DAI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "mexc",
+        "base": "DAI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "okx-wss-DAI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "okx",
+        "base": "DAI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "kraken-wss-DAI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kraken",
+        "base": "DAI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bingx-wss-DAI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bingx",
+        "base": "DAI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitmart-wss-DAI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitmart",
+        "base": "DAI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "xt-wss-DAI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "xt",
+        "base": "DAI",
+        "quote": "USDT"
+      }
+    }
+  ]
 }

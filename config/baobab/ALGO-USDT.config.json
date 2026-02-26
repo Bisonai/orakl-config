@@ -1,152 +1,153 @@
 {
-    "name": "ALGO-USDT",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 60000,
-    "feeds": [
-        {
-            "name": "binance-wss-ALGO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "ALGO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kucoin-wss-ALGO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "ALGO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bybit-wss-ALGO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "ALGO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-ALGO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "ALGO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-ALGO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
-                "base": "ALGO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-ALGO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "ALGO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-ALGO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "ALGO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-ALGO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "ALGO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-ALGO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "ALGO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-ALGO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "ALGO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-ALGO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
-                "base": "ALGO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-ALGO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "ALGO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kraken-wss-ALGO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kraken",
-                "base": "ALGO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-ALGO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "ALGO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-ALGO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "ALGO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-ALGO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "ALGO",
-                "quote": "USDT"
-            }
-        }
-    ]
+  "name": "ALGO-USDT",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feedDataFreshness": 60000,
+  "feeds": [
+    {
+      "name": "binance-wss-ALGO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "binance",
+        "base": "ALGO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "kucoin-wss-ALGO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kucoin",
+        "base": "ALGO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bybit-wss-ALGO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bybit",
+        "base": "ALGO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "crypto-wss-ALGO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "crypto",
+        "base": "ALGO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "btse-wss-ALGO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "btse",
+        "base": "ALGO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "gateio-wss-ALGO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "gateio",
+        "base": "ALGO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "lbank-wss-ALGO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "lbank",
+        "base": "ALGO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "coinex-wss-ALGO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinex",
+        "base": "ALGO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitget-wss-ALGO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitget",
+        "base": "ALGO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "huobi-wss-ALGO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "huobi",
+        "base": "ALGO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "mexc-wss-ALGO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "mexc",
+        "base": "ALGO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "okx-wss-ALGO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "okx",
+        "base": "ALGO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "kraken-wss-ALGO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kraken",
+        "base": "ALGO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bingx-wss-ALGO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bingx",
+        "base": "ALGO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitmart-wss-ALGO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitmart",
+        "base": "ALGO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "xt-wss-ALGO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "xt",
+        "base": "ALGO",
+        "quote": "USDT"
+      }
+    }
+  ]
 }

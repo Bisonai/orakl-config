@@ -1,161 +1,162 @@
 {
-    "name": "APT-USDT",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 60000,
-    "feeds": [
-        {
-            "name": "binance-wss-APT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "APT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-APT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "APT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kucoin-wss-APT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "APT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bybit-wss-APT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "APT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-APT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "APT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-APT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
-                "base": "APT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-APT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "APT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-APT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "APT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-APT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "APT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-APT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "APT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-APT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "APT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-APT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
-                "base": "APT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-APT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "APT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-APT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "APT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-APT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "APT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-APT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "APT",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "orangex-wss-APT-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "orangex",
-                "base": "APT",
-                "quote": "USDT"
-            }
-        }
-    ]
+  "name": "APT-USDT",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feedDataFreshness": 60000,
+  "feeds": [
+    {
+      "name": "binance-wss-APT-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "binance",
+        "base": "APT",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "coinbase-wss-APT-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinbase",
+        "base": "APT",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "kucoin-wss-APT-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kucoin",
+        "base": "APT",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bybit-wss-APT-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bybit",
+        "base": "APT",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "crypto-wss-APT-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "crypto",
+        "base": "APT",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "btse-wss-APT-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "btse",
+        "base": "APT",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "gateio-wss-APT-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "gateio",
+        "base": "APT",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "lbank-wss-APT-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "lbank",
+        "base": "APT",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "coinex-wss-APT-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinex",
+        "base": "APT",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitget-wss-APT-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitget",
+        "base": "APT",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "huobi-wss-APT-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "huobi",
+        "base": "APT",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "mexc-wss-APT-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "mexc",
+        "base": "APT",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "okx-wss-APT-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "okx",
+        "base": "APT",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bingx-wss-APT-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bingx",
+        "base": "APT",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitmart-wss-APT-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitmart",
+        "base": "APT",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "xt-wss-APT-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "xt",
+        "base": "APT",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "orangex-wss-APT-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "orangex",
+        "base": "APT",
+        "quote": "USDT"
+      }
+    }
+  ]
 }

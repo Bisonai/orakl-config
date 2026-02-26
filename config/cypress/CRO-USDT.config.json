@@ -1,125 +1,126 @@
 {
-    "name": "CRO-USDT",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 60000,
-    "feeds": [
-        {
-            "name": "coinbase-wss-CRO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "CRO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kucoin-wss-CRO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "CRO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-CRO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "CRO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-CRO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "CRO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-CRO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "CRO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-CRO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "CRO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-CRO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "CRO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-CRO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
-                "base": "CRO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-CRO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "CRO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kraken-wss-CRO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kraken",
-                "base": "CRO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-CRO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "CRO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-CRO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "CRO",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-CRO-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "CRO",
-                "quote": "USDT"
-            }
-        }
-    ]
+  "name": "CRO-USDT",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feedDataFreshness": 60000,
+  "feeds": [
+    {
+      "name": "coinbase-wss-CRO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinbase",
+        "base": "CRO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "kucoin-wss-CRO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kucoin",
+        "base": "CRO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "crypto-wss-CRO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "crypto",
+        "base": "CRO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "gateio-wss-CRO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "gateio",
+        "base": "CRO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "lbank-wss-CRO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "lbank",
+        "base": "CRO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "coinex-wss-CRO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinex",
+        "base": "CRO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitget-wss-CRO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitget",
+        "base": "CRO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "mexc-wss-CRO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "mexc",
+        "base": "CRO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "okx-wss-CRO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "okx",
+        "base": "CRO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "kraken-wss-CRO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kraken",
+        "base": "CRO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bingx-wss-CRO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bingx",
+        "base": "CRO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitmart-wss-CRO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitmart",
+        "base": "CRO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "xt-wss-CRO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "xt",
+        "base": "CRO",
+        "quote": "USDT"
+      }
+    }
+  ]
 }

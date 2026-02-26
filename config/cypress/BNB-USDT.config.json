@@ -1,152 +1,153 @@
 {
-    "name": "BNB-USDT",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000,
-    "feeds": [
-        {
-            "name": "binance-wss-BNB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "BNB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kucoin-wss-BNB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "BNB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bybit-wss-BNB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "BNB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-BNB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
-                "base": "BNB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-BNB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "BNB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-BNB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "BNB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-BNB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "BNB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-BNB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "BNB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-BNB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "BNB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-BNB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
-                "base": "BNB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-BNB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "BNB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-BNB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "BNB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-BNB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "BNB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-BNB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "BNB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "orangex-wss-BNB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "orangex",
-                "base": "BNB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kraken-wss-BNB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kraken",
-                "base": "BNB",
-                "quote": "USDT"
-            }
-        }
-    ]
+  "name": "BNB-USDT",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 15000,
+  "feedDataFreshness": 60000,
+  "feeds": [
+    {
+      "name": "binance-wss-BNB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "binance",
+        "base": "BNB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "kucoin-wss-BNB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kucoin",
+        "base": "BNB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bybit-wss-BNB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bybit",
+        "base": "BNB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "btse-wss-BNB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "btse",
+        "base": "BNB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "gateio-wss-BNB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "gateio",
+        "base": "BNB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "lbank-wss-BNB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "lbank",
+        "base": "BNB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "coinex-wss-BNB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinex",
+        "base": "BNB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitget-wss-BNB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitget",
+        "base": "BNB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "huobi-wss-BNB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "huobi",
+        "base": "BNB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "mexc-wss-BNB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "mexc",
+        "base": "BNB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "okx-wss-BNB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "okx",
+        "base": "BNB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bingx-wss-BNB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bingx",
+        "base": "BNB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitmart-wss-BNB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitmart",
+        "base": "BNB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "xt-wss-BNB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "xt",
+        "base": "BNB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "orangex-wss-BNB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "orangex",
+        "base": "BNB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "kraken-wss-BNB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kraken",
+        "base": "BNB",
+        "quote": "USDT"
+      }
+    }
+  ]
 }

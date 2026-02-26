@@ -1,99 +1,100 @@
 {
-    "name": "GBP-USD",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000,
-    "feeds": [
-        {
-            "name": "Yahoo-GBP-USD",
-            "definition": {
-                "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=GBPUSD%3DX",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "spark",
-                            "result"
-                        ]
-                    },
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "response"
-                        ]
-                    },
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "meta",
-                            "regularMarketPrice"
-                        ]
-                    }
-                ]
-            }
+  "name": "GBP-USD",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 15000,
+  "feedDataFreshness": 60000,
+  "feeds": [
+    {
+      "name": "Yahoo-GBP-USD",
+      "definition": {
+        "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=GBPUSD%3DX",
+        "headers": {
+          "Content-Type": "application/json"
         },
-        {
-            "name": "naver-GBP-USD",
-            "definition": {
-                "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDGBP",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "result",
-                            "closePrice"
-                        ]
-                    },
-                    {
-                        "function": "DIVFROM",
-                        "args": 1
-                    }
-                ]
-            }
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "spark",
+              "result"
+            ]
+          },
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": [
+              "response"
+            ]
+          },
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": [
+              "meta",
+              "regularMarketPrice"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "naver-GBP-USD",
+      "definition": {
+        "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDGBP",
+        "headers": {
+          "Content-Type": "application/json"
         },
-        {
-            "name": "daum-GBP-USD",
-            "definition": {
-                "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWGBP",
-                "headers": {
-                    "Content-Type": "application/json",
-                    "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWGBP"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "usDollarRate"
-                        ]
-                    }
-                ]
-            }
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "result",
+              "closePrice"
+            ]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "daum-GBP-USD",
+      "definition": {
+        "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWGBP",
+        "headers": {
+          "Content-Type": "application/json",
+          "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWGBP"
         },
-        {
-            "name": "bitstamp-wss-GBP-USD",
-            "definition": {
-                "type": "wss",
-                "provider": "bitstamp",
-                "base": "GBP",
-                "quote": "USD"
-            }
-        }
-    ]
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "usDollarRate"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "bitstamp-wss-GBP-USD",
+      "definition": {
+        "type": "wss",
+        "provider": "bitstamp",
+        "base": "GBP",
+        "quote": "USD"
+      }
+    }
+  ]
 }

@@ -1,161 +1,162 @@
 {
-    "name": "FIL-USDT",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 60000,
-    "feeds": [
-        {
-            "name": "binance-wss-FIL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "FIL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kucoin-wss-FIL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "FIL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bybit-wss-FIL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "FIL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "upbit-wss-FIL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "FIL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-FIL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "FIL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-FIL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
-                "base": "FIL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-FIL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "FIL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-FIL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "FIL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-FIL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "FIL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-FIL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "FIL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-FIL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "FIL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-FIL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
-                "base": "FIL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-FIL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "FIL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-FIL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "FIL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-FIL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "FIL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-FIL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "FIL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "orangex-wss-FIL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "orangex",
-                "base": "FIL",
-                "quote": "USDT"
-            }
-        }
-    ]
+  "name": "FIL-USDT",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feedDataFreshness": 60000,
+  "feeds": [
+    {
+      "name": "binance-wss-FIL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "binance",
+        "base": "FIL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "kucoin-wss-FIL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kucoin",
+        "base": "FIL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bybit-wss-FIL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bybit",
+        "base": "FIL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "upbit-wss-FIL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "upbit",
+        "base": "FIL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "crypto-wss-FIL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "crypto",
+        "base": "FIL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "btse-wss-FIL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "btse",
+        "base": "FIL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "gateio-wss-FIL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "gateio",
+        "base": "FIL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "lbank-wss-FIL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "lbank",
+        "base": "FIL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "coinex-wss-FIL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinex",
+        "base": "FIL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitget-wss-FIL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitget",
+        "base": "FIL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "huobi-wss-FIL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "huobi",
+        "base": "FIL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "mexc-wss-FIL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "mexc",
+        "base": "FIL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "okx-wss-FIL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "okx",
+        "base": "FIL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bingx-wss-FIL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bingx",
+        "base": "FIL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitmart-wss-FIL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitmart",
+        "base": "FIL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "xt-wss-FIL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "xt",
+        "base": "FIL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "orangex-wss-FIL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "orangex",
+        "base": "FIL",
+        "quote": "USDT"
+      }
+    }
+  ]
 }

@@ -1,62 +1,63 @@
 {
-    "name": "ELIZAOS-USDT",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 60000,
-    "feeds": [
-        {
-            "name": "kucoin-wss-ELIZAOS-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "ELIZAOS",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bybit-wss-ELIZAOS-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "ELIZAOS",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-ELIZAOS-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "ELIZAOS",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-ELIZAOS-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "ELIZAOS",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-ELIZAOS-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
-                "base": "ELIZAOS",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-ELIZAOS-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "ELIZAOS",
-                "quote": "USDT"
-            }
-        }
-    ]
+  "name": "ELIZAOS-USDT",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feedDataFreshness": 60000,
+  "feeds": [
+    {
+      "name": "kucoin-wss-ELIZAOS-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kucoin",
+        "base": "ELIZAOS",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bybit-wss-ELIZAOS-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bybit",
+        "base": "ELIZAOS",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "gateio-wss-ELIZAOS-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "gateio",
+        "base": "ELIZAOS",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "huobi-wss-ELIZAOS-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "huobi",
+        "base": "ELIZAOS",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "mexc-wss-ELIZAOS-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "mexc",
+        "base": "ELIZAOS",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bingx-wss-ELIZAOS-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bingx",
+        "base": "ELIZAOS",
+        "quote": "USDT"
+      }
+    }
+  ]
 }

@@ -1,134 +1,135 @@
 {
-    "name": "SEI-USDT",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 60000,
-    "feeds": [
-        {
-            "name": "binance-wss-SEI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "SEI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kucoin-wss-SEI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "SEI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bybit-wss-SEI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "SEI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-SEI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "SEI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-SEI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "SEI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-SEI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "SEI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-SEI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "SEI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-SEI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "SEI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-SEI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "SEI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-SEI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
-                "base": "SEI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-SEI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "SEI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-SEI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "SEI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-SEI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "SEI",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "orangex-wss-SEI-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "orangex",
-                "base": "SEI",
-                "quote": "USDT"
-            }
-        }
-    ]
+  "name": "SEI-USDT",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feedDataFreshness": 60000,
+  "feeds": [
+    {
+      "name": "binance-wss-SEI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "binance",
+        "base": "SEI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "kucoin-wss-SEI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kucoin",
+        "base": "SEI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bybit-wss-SEI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bybit",
+        "base": "SEI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "crypto-wss-SEI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "crypto",
+        "base": "SEI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "gateio-wss-SEI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "gateio",
+        "base": "SEI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "lbank-wss-SEI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "lbank",
+        "base": "SEI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "coinex-wss-SEI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinex",
+        "base": "SEI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitget-wss-SEI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitget",
+        "base": "SEI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "huobi-wss-SEI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "huobi",
+        "base": "SEI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "mexc-wss-SEI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "mexc",
+        "base": "SEI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bingx-wss-SEI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bingx",
+        "base": "SEI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitmart-wss-SEI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitmart",
+        "base": "SEI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "xt-wss-SEI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "xt",
+        "base": "SEI",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "orangex-wss-SEI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "orangex",
+        "base": "SEI",
+        "quote": "USDT"
+      }
+    }
+  ]
 }

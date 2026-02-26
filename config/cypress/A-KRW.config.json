@@ -1,53 +1,54 @@
 {
-    "name": "A-KRW",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 60000,
-    "feeds": [
-        {
-            "name": "upbit-wss-A-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "A",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "bithumb-wss-A-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "A",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-A-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "A",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "gopax-wss-A-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "gopax",
-                "base": "A",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "korbit-wss-A-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "A",
-                "quote": "KRW"
-            }
-        }
-    ]
+  "name": "A-KRW",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feedDataFreshness": 60000,
+  "feeds": [
+    {
+      "name": "upbit-wss-A-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "upbit",
+        "base": "A",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "bithumb-wss-A-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "bithumb",
+        "base": "A",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "coinone-wss-A-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "coinone",
+        "base": "A",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "gopax-wss-A-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "gopax",
+        "base": "A",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "korbit-wss-A-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "korbit",
+        "base": "A",
+        "quote": "KRW"
+      }
+    }
+  ]
 }

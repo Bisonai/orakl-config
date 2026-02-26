@@ -3,6 +3,7 @@
   "fetchInterval": 2000,
   "aggregateInterval": 400,
   "submitInterval": 60000,
+  "feedDataFreshness": 60000,
   "feeds": [
     {
       "name": "binance-wss-TRUMP-USDT",

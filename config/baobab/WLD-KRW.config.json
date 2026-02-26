@@ -1,44 +1,45 @@
 {
-    "name": "WLD-KRW",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 60000,
-    "feeds": [
-        {
-            "name": "korbit-wss-WLD-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "korbit",
-                "base": "WLD",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "bithumb-wss-WLD-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "bithumb",
-                "base": "WLD",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "coinone-wss-WLD-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "coinone",
-                "base": "WLD",
-                "quote": "KRW"
-            }
-        },
-        {
-            "name": "upbit-wss-WLD-KRW",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "WLD",
-                "quote": "KRW"
-            }
-        }
-    ]
+  "name": "WLD-KRW",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feedDataFreshness": 60000,
+  "feeds": [
+    {
+      "name": "korbit-wss-WLD-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "korbit",
+        "base": "WLD",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "bithumb-wss-WLD-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "bithumb",
+        "base": "WLD",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "coinone-wss-WLD-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "coinone",
+        "base": "WLD",
+        "quote": "KRW"
+      }
+    },
+    {
+      "name": "upbit-wss-WLD-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "upbit",
+        "base": "WLD",
+        "quote": "KRW"
+      }
+    }
+  ]
 }

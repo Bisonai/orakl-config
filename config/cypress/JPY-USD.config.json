@@ -1,94 +1,95 @@
 {
-    "name": "JPY-USD",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000,
-    "feeds": [
-        {
-            "name": "Yahoo-JPY-USD",
-            "definition": {
-                "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=JPYUSD%3DX",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "spark",
-                            "result"
-                        ]
-                    },
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "response"
-                        ]
-                    },
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "meta",
-                            "regularMarketPrice"
-                        ]
-                    }
-                ]
-            }
+  "name": "JPY-USD",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 15000,
+  "feedDataFreshness": 60000,
+  "feeds": [
+    {
+      "name": "Yahoo-JPY-USD",
+      "definition": {
+        "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=JPYUSD%3DX",
+        "headers": {
+          "Content-Type": "application/json"
         },
-        {
-            "name": "naver-JPY-USD",
-            "definition": {
-                "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDJPY",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "result",
-                            "closePrice"
-                        ]
-                    },
-                    {
-                        "function": "DIVFROM",
-                        "args": 1
-                    }
-                ]
-            }
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "spark",
+              "result"
+            ]
+          },
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": [
+              "response"
+            ]
+          },
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": [
+              "meta",
+              "regularMarketPrice"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "naver-JPY-USD",
+      "definition": {
+        "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDJPY",
+        "headers": {
+          "Content-Type": "application/json"
         },
-        {
-            "name": "daum-JPY-USD",
-            "definition": {
-                "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWJPY",
-                "headers": {
-                    "Content-Type": "application/json",
-                    "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWJPY"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "usDollarRate"
-                        ]
-                    },
-                    {
-                        "function": "DIV",
-                        "args": 100
-                    }
-                ]
-            }
-        }
-    ]
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "result",
+              "closePrice"
+            ]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "daum-JPY-USD",
+      "definition": {
+        "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWJPY",
+        "headers": {
+          "Content-Type": "application/json",
+          "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWJPY"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "usDollarRate"
+            ]
+          },
+          {
+            "function": "DIV",
+            "args": 100
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -1,100 +1,101 @@
 {
-    "name": "EUR-USD",
-    "feeds": [
-        {
-            "name": "Dunamu-EUR-USD",
-            "definition": {
-                "url": "https://quotation-api-cdn.dunamu.com/v1/forex/recent?codes=FRX.EURUSD",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "usDollarRate"
-                        ]
-                    }
-                ]
-            }
+  "name": "EUR-USD",
+  "feeds": [
+    {
+      "name": "Dunamu-EUR-USD",
+      "definition": {
+        "url": "https://quotation-api-cdn.dunamu.com/v1/forex/recent?codes=FRX.EURUSD",
+        "headers": {
+          "Content-Type": "application/json"
         },
-        {
-            "name": "Yahoo-EUR-USD",
-            "definition": {
-                "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=EURUSD%3DX",
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "spark",
-                            "result"
-                        ]
-                    },
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "response"
-                        ]
-                    },
-                    {
-                        "function": "INDEX",
-                        "args": 0
-                    },
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "meta",
-                            "regularMarketPrice"
-                        ]
-                    }
-                ]
-            }
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": [
+              "usDollarRate"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Yahoo-EUR-USD",
+      "definition": {
+        "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=EURUSD%3DX",
+        "headers": {
+          "Content-Type": "application/json"
         },
-        {
-            "name": "Daum-EUR-USD",
-            "definition": {
-                "url": "https://finance.daum.net/api/exchanges/FRX.EURUSD",
-                "location": "kr",
-                "headers": {
-                    "Content-Type": "application/json",
-                    "referer": "https://finance.daum.net/exchanges/FRX.EURUSD",
-                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
-                },
-                "method": "GET",
-                "reducers": [
-                    {
-                        "function": "PARSE",
-                        "args": [
-                            "usDollarRate"
-                        ]
-                    }
-                ]
-            }
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "spark",
+              "result"
+            ]
+          },
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": [
+              "response"
+            ]
+          },
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": [
+              "meta",
+              "regularMarketPrice"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Daum-EUR-USD",
+      "definition": {
+        "url": "https://finance.daum.net/api/exchanges/FRX.EURUSD",
+        "location": "kr",
+        "headers": {
+          "Content-Type": "application/json",
+          "referer": "https://finance.daum.net/exchanges/FRX.EURUSD",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
         },
-        {
-            "name": "bitstamp-wss-EUR-USD",
-            "definition": {
-                "type": "wss",
-                "provider": "bitstamp",
-                "base": "EUR",
-                "quote": "USD"
-            }
-        }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 1000,
-    "submitInterval": 15000
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "usDollarRate"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "bitstamp-wss-EUR-USD",
+      "definition": {
+        "type": "wss",
+        "provider": "bitstamp",
+        "base": "EUR",
+        "quote": "USD"
+      }
+    }
+  ],
+  "fetchInterval": 2000,
+  "aggregateInterval": 1000,
+  "submitInterval": 15000,
+  "feedDataFreshness": 60000
 }

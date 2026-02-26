@@ -1,116 +1,117 @@
 {
-    "name": "PAXG-USDT",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 15000,
-    "feeds": [
-        {
-            "name": "binance-wss-PAXG-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "PAXG",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kucoin-wss-PAXG-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "PAXG",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-PAXG-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "PAXG",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-PAXG-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "PAXG",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-PAXG-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "PAXG",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-PAXG-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "PAXG",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-PAXG-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "PAXG",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "mexc-wss-PAXG-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "mexc",
-                "base": "PAXG",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-PAXG-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "PAXG",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-PAXG-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "PAXG",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-PAXG-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "PAXG",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-PAXG-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "PAXG",
-                "quote": "USDT"
-            }
-        }
-    ]
+  "name": "PAXG-USDT",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 15000,
+  "feedDataFreshness": 60000,
+  "feeds": [
+    {
+      "name": "binance-wss-PAXG-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "binance",
+        "base": "PAXG",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "kucoin-wss-PAXG-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kucoin",
+        "base": "PAXG",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "crypto-wss-PAXG-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "crypto",
+        "base": "PAXG",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "gateio-wss-PAXG-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "gateio",
+        "base": "PAXG",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "lbank-wss-PAXG-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "lbank",
+        "base": "PAXG",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "coinex-wss-PAXG-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinex",
+        "base": "PAXG",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitget-wss-PAXG-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitget",
+        "base": "PAXG",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "mexc-wss-PAXG-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "mexc",
+        "base": "PAXG",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bingx-wss-PAXG-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bingx",
+        "base": "PAXG",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitmart-wss-PAXG-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitmart",
+        "base": "PAXG",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "xt-wss-PAXG-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "xt",
+        "base": "PAXG",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "okx-wss-PAXG-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "okx",
+        "base": "PAXG",
+        "quote": "USDT"
+      }
+    }
+  ]
 }

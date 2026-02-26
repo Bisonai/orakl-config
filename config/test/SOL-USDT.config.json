@@ -1,161 +1,162 @@
 {
-    "name": "SOL-USDT",
-    "feeds": [
-        {
-            "name": "bybit-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "binance-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kucoin-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "upbit-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kraken-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kraken",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-SOL-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "SOL",
-                "quote": "USDT"
-            }
-        }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 1000,
-    "submitInterval": 15000
+  "name": "SOL-USDT",
+  "feeds": [
+    {
+      "name": "bybit-wss-SOL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bybit",
+        "base": "SOL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "binance-wss-SOL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "binance",
+        "base": "SOL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "kucoin-wss-SOL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kucoin",
+        "base": "SOL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "crypto-wss-SOL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "crypto",
+        "base": "SOL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "btse-wss-SOL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "btse",
+        "base": "SOL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "coinbase-wss-SOL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinbase",
+        "base": "SOL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "gateio-wss-SOL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "gateio",
+        "base": "SOL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "coinex-wss-SOL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinex",
+        "base": "SOL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "lbank-wss-SOL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "lbank",
+        "base": "SOL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitget-wss-SOL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitget",
+        "base": "SOL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "huobi-wss-SOL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "huobi",
+        "base": "SOL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "upbit-wss-SOL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "upbit",
+        "base": "SOL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "okx-wss-SOL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "okx",
+        "base": "SOL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "kraken-wss-SOL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kraken",
+        "base": "SOL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bingx-wss-SOL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bingx",
+        "base": "SOL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitmart-wss-SOL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitmart",
+        "base": "SOL",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "xt-wss-SOL-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "xt",
+        "base": "SOL",
+        "quote": "USDT"
+      }
+    }
+  ],
+  "fetchInterval": 2000,
+  "aggregateInterval": 1000,
+  "submitInterval": 15000,
+  "feedDataFreshness": 60000
 }

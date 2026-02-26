@@ -1,152 +1,153 @@
 {
-    "name": "SHIB-USDT",
-    "feeds": [
-        {
-            "name": "binance-wss-SHIB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "SHIB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kucoin-wss-SHIB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "SHIB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "crypto-wss-SHIB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "crypto",
-                "base": "SHIB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-SHIB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
-                "base": "SHIB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinbase-wss-SHIB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinbase",
-                "base": "SHIB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-SHIB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "SHIB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-SHIB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "SHIB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bybit-wss-SHIB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "SHIB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-SHIB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "SHIB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-SHIB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "SHIB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-SHIB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "SHIB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-SHIB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "SHIB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kraken-wss-SHIB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kraken",
-                "base": "SHIB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-SHIB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "SHIB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-SHIB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "SHIB",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-SHIB-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "SHIB",
-                "quote": "USDT"
-            }
-        }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 1000,
-    "submitInterval": 15000
+  "name": "SHIB-USDT",
+  "feeds": [
+    {
+      "name": "binance-wss-SHIB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "binance",
+        "base": "SHIB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "kucoin-wss-SHIB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kucoin",
+        "base": "SHIB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "crypto-wss-SHIB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "crypto",
+        "base": "SHIB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "btse-wss-SHIB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "btse",
+        "base": "SHIB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "coinbase-wss-SHIB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinbase",
+        "base": "SHIB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "gateio-wss-SHIB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "gateio",
+        "base": "SHIB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "coinex-wss-SHIB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinex",
+        "base": "SHIB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bybit-wss-SHIB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bybit",
+        "base": "SHIB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "lbank-wss-SHIB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "lbank",
+        "base": "SHIB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitget-wss-SHIB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitget",
+        "base": "SHIB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "huobi-wss-SHIB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "huobi",
+        "base": "SHIB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "okx-wss-SHIB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "okx",
+        "base": "SHIB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "kraken-wss-SHIB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kraken",
+        "base": "SHIB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bingx-wss-SHIB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bingx",
+        "base": "SHIB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitmart-wss-SHIB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitmart",
+        "base": "SHIB",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "xt-wss-SHIB-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "xt",
+        "base": "SHIB",
+        "quote": "USDT"
+      }
+    }
+  ],
+  "fetchInterval": 2000,
+  "aggregateInterval": 1000,
+  "submitInterval": 15000,
+  "feedDataFreshness": 60000
 }

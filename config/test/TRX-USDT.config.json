@@ -1,134 +1,135 @@
 {
-    "name": "TRX-USDT",
-    "feeds": [
-        {
-            "name": "bybit-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bybit",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "binance-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "binance",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "kucoin-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "kucoin",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "btse-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "btse",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "gateio-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "gateio",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "coinex-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "coinex",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "upbit-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "upbit",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "lbank-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "lbank",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitget-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitget",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "huobi-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "huobi",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "okx-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "okx",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bingx-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bingx",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "bitmart-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "bitmart",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        },
-        {
-            "name": "xt-wss-TRX-USDT",
-            "definition": {
-                "type": "wss",
-                "provider": "xt",
-                "base": "TRX",
-                "quote": "USDT"
-            }
-        }
-    ],
-    "fetchInterval": 2000,
-    "aggregateInterval": 1000,
-    "submitInterval": 15000
+  "name": "TRX-USDT",
+  "feeds": [
+    {
+      "name": "bybit-wss-TRX-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bybit",
+        "base": "TRX",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "binance-wss-TRX-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "binance",
+        "base": "TRX",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "kucoin-wss-TRX-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kucoin",
+        "base": "TRX",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "btse-wss-TRX-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "btse",
+        "base": "TRX",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "gateio-wss-TRX-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "gateio",
+        "base": "TRX",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "coinex-wss-TRX-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinex",
+        "base": "TRX",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "upbit-wss-TRX-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "upbit",
+        "base": "TRX",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "lbank-wss-TRX-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "lbank",
+        "base": "TRX",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitget-wss-TRX-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitget",
+        "base": "TRX",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "huobi-wss-TRX-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "huobi",
+        "base": "TRX",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "okx-wss-TRX-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "okx",
+        "base": "TRX",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bingx-wss-TRX-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bingx",
+        "base": "TRX",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitmart-wss-TRX-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitmart",
+        "base": "TRX",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "xt-wss-TRX-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "xt",
+        "base": "TRX",
+        "quote": "USDT"
+      }
+    }
+  ],
+  "fetchInterval": 2000,
+  "aggregateInterval": 1000,
+  "submitInterval": 15000,
+  "feedDataFreshness": 60000
 }
