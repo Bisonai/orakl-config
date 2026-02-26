@@ -10,7 +10,6 @@
                 "chainId": "8217",
                 "address": "0x26a59bd8cb36394c1584d8e2f9dd9c2acffdc8de",
                 "type": "UniswapPool",
-                "reciprocal": true,
                 "token0Decimals": 6,
                 "token1Decimals": 6
             }

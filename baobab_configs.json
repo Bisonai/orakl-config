@@ -23716,24 +23716,18 @@
         "submitInterval": 60000,
         "feeds": [
             {
-                "name": "Dragonswap-KAIA-STKAIA",
+                "name": "Dragonswap-STKAIA-KAIA",
                 "definition": {
                     "chainId": "8217",
                     "address": "0x238b5ad6ab76b886ce6463c0e3a36a956ff58ca1",
                     "type": "UniswapPool",
                     "reciprocal": true,
                     "token0Decimals": 18,
-                    "token1Decimals": 18,
-                    "reducers": [
-                        {
-                            "function": "DIVFROM",
-                            "args": 1
-                        }
-                    ]
+                    "token1Decimals": 18
                 }
             },
             {
-                "name": "capybara-KAIA-STKAIA",
+                "name": "capybara-STKAIA-KAIA",
                 "definition": {
                     "chainId": "8217",
                     "address": "0x5cde63386d78362267d9a3edc8da204bb64d07d3",
@@ -23764,7 +23758,6 @@
                     "chainId": "8217",
                     "address": "0x26a59bd8cb36394c1584d8e2f9dd9c2acffdc8de",
                     "type": "UniswapPool",
-                    "reciprocal": true,
                     "token0Decimals": 6,
                     "token1Decimals": 6
                 }
