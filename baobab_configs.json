@@ -23970,15 +23970,9 @@
           "type": "CapybaraPool",
           "token0Decimals": 18,
           "token1Decimals": 18,
-          "token0Address": "0x19aac5f612f524b754ca7e7c41cbfa2e981a4432",
-          "token1Address": "0x42952b873ed6f7f0a7e4992e2a9818e3a9001995"
-        },
-        "reducers": [
-          {
-            "function": "DIVFROM",
-            "args": 1
-          }
-        ]
+          "token0Address": "0x42952b873ed6f7f0a7e4992e2a9818e3a9001995",
+          "token1Address": "0x19aac5f612f524b754ca7e7c41cbfa2e981a4432"
+        }
       }
     ],
     "feedDataFreshness": 60000
