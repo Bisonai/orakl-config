@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "upbit-wss-TRX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "TRX",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "btse-wss-TRX-USDT",
       "definition": {
         "type": "wss",

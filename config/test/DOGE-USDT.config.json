@@ -74,15 +74,6 @@
       }
     },
     {
-      "name": "upbit-wss-DOGE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "DOGE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "lbank-wss-DOGE-USDT",
       "definition": {
         "type": "wss",

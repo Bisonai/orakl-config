@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "upbit-wss-MNT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "MNT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-MNT-USDT",
       "definition": {
         "type": "wss",

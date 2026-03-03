@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "upbit-wss-ADA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "ADA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "crypto-wss-ADA-USDT",
       "definition": {
         "type": "wss",

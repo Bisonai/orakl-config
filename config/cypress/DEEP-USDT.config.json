@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "upbit-wss-DEEP-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "DEEP",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "lbank-wss-DEEP-USDT",
       "definition": {
         "type": "wss",

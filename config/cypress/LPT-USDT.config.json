@@ -139,15 +139,6 @@
         "base": "LPT",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "upbit-wss-LPT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "LPT",
-        "quote": "USDT"
-      }
     }
   ]
 }

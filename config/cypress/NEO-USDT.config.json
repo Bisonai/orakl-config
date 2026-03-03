@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "upbit-wss-NEO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "NEO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "crypto-wss-NEO-USDT",
       "definition": {
         "type": "wss",

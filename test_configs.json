@@ -75,15 +75,6 @@
         }
       },
       {
-        "name": "upbit-wss-ADA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "ADA",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "lbank-wss-ADA-USDT",
         "definition": {
           "type": "wss",
@@ -741,15 +732,6 @@
         }
       },
       {
-        "name": "upbit-wss-BTC-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "BTC",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "lbank-wss-BTC-USDT",
         "definition": {
           "type": "wss",
@@ -1149,15 +1131,6 @@
         }
       },
       {
-        "name": "upbit-wss-DOGE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "DOGE",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "lbank-wss-DOGE-USDT",
         "definition": {
           "type": "wss",
@@ -1468,15 +1441,6 @@
         "definition": {
           "type": "wss",
           "provider": "gemini",
-          "base": "ETH",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-ETH-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "ETH",
           "quote": "USDT"
         }
@@ -3065,15 +3029,6 @@
         }
       },
       {
-        "name": "upbit-wss-SOL-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "SOL",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "okx-wss-SOL-USDT",
         "definition": {
           "type": "wss",
@@ -3177,15 +3132,6 @@
         "definition": {
           "type": "wss",
           "provider": "coinex",
-          "base": "TRX",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-TRX-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "TRX",
           "quote": "USDT"
         }
@@ -3773,15 +3719,6 @@
         "definition": {
           "type": "wss",
           "provider": "bitstamp",
-          "base": "XRP",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-XRP-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "XRP",
           "quote": "USDT"
         }

@@ -52,15 +52,6 @@
       }
     },
     {
-      "name": "upbit-wss-USDC-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "USDC",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-USDC-USDT",
       "definition": {
         "type": "wss",

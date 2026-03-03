@@ -43,15 +43,6 @@
       }
     },
     {
-      "name": "upbit-wss-UNI-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "UNI",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "crypto-wss-UNI-USDT",
       "definition": {
         "type": "wss",

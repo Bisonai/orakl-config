@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "upbit-wss-RENDER-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "RENDER",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "crypto-wss-RENDER-USDT",
       "definition": {
         "type": "wss",

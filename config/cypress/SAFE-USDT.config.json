@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "upbit-wss-SAFE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "SAFE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-SAFE-USDT",
       "definition": {
         "type": "wss",

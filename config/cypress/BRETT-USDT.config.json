@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "upbit-wss-BRETT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "BRETT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "btse-wss-BRETT-USDT",
       "definition": {
         "type": "wss",

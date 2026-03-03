@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "upbit-wss-JASMY-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "JASMY",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "crypto-wss-JASMY-USDT",
       "definition": {
         "type": "wss",

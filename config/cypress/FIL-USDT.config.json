@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "upbit-wss-FIL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "FIL",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "crypto-wss-FIL-USDT",
       "definition": {
         "type": "wss",

@@ -114,15 +114,6 @@
       }
     },
     {
-      "name": "upbit-wss-IP-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "IP",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "orangex-wss-IP-USDT",
       "definition": {
         "type": "wss",

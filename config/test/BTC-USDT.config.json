@@ -92,15 +92,6 @@
       }
     },
     {
-      "name": "upbit-wss-BTC-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "BTC",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "lbank-wss-BTC-USDT",
       "definition": {
         "type": "wss",

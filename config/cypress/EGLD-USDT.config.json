@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "upbit-wss-EGLD-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "EGLD",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "crypto-wss-EGLD-USDT",
       "definition": {
         "type": "wss",

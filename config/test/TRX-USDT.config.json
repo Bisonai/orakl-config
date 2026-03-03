@@ -56,15 +56,6 @@
       }
     },
     {
-      "name": "upbit-wss-TRX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "TRX",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "lbank-wss-TRX-USDT",
       "definition": {
         "type": "wss",

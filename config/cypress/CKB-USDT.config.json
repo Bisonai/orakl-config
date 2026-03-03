@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "upbit-wss-CKB-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "CKB",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "crypto-wss-CKB-USDT",
       "definition": {
         "type": "wss",

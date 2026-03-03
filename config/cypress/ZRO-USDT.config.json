@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "upbit-wss-ZRO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "ZRO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "crypto-wss-ZRO-USDT",
       "definition": {
         "type": "wss",
