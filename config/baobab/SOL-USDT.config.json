@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "upbit-wss-SOL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "SOL",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "crypto-wss-SOL-USDT",
       "definition": {
         "type": "wss",

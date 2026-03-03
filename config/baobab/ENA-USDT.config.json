@@ -141,15 +141,6 @@
       }
     },
     {
-      "name": "upbit-wss-ENA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "ENA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "okx-wss-ENA-USDT",
       "definition": {
         "type": "wss",

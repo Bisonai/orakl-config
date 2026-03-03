@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "upbit-wss-W-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "W",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "crypto-wss-W-USDT",
       "definition": {
         "type": "wss",

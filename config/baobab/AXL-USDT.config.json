@@ -67,15 +67,6 @@
         "base": "AXL",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "upbit-wss-AXL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "AXL",
-        "quote": "USDT"
-      }
     }
   ]
 }

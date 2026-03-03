@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "upbit-wss-DOGE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "DOGE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "crypto-wss-DOGE-USDT",
       "definition": {
         "type": "wss",

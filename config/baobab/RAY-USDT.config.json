@@ -121,15 +121,6 @@
         "base": "RAY",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "upbit-wss-RAY-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "RAY",
-        "quote": "USDT"
-      }
     }
   ]
 }

@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "upbit-wss-JUP-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "JUP",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "crypto-wss-JUP-USDT",
       "definition": {
         "type": "wss",

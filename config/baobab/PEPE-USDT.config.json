@@ -34,15 +34,6 @@
       }
     },
     {
-      "name": "upbit-wss-PEPE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "PEPE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "crypto-wss-PEPE-USDT",
       "definition": {
         "type": "wss",

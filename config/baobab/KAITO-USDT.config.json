@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "upbit-wss-KAITO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "KAITO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "btse-wss-KAITO-USDT",
       "definition": {
         "type": "wss",

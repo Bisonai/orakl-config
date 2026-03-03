@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "upbit-wss-BEAM-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "BEAM",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-BEAM-USDT",
       "definition": {
         "type": "wss",

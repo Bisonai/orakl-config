@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "upbit-wss-TUSD-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "TUSD",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-TUSD-USDT",
       "definition": {
         "type": "wss",

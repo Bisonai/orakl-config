@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "upbit-wss-MOVE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "MOVE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "crypto-wss-MOVE-USDT",
       "definition": {
         "type": "wss",

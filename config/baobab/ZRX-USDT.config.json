@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "upbit-wss-ZRX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "ZRX",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "btse-wss-ZRX-USDT",
       "definition": {
         "type": "wss",

@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "upbit-wss-XRP-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "XRP",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "crypto-wss-XRP-USDT",
       "definition": {
         "type": "wss",

@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "upbit-wss-VTHO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "VTHO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-VTHO-USDT",
       "definition": {
         "type": "wss",

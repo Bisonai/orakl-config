@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "upbit-wss-JTO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "JTO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "btse-wss-JTO-USDT",
       "definition": {
         "type": "wss",

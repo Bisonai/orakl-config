@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "upbit-wss-ONDO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "ONDO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "crypto-wss-ONDO-USDT",
       "definition": {
         "type": "wss",

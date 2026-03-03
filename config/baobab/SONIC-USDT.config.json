@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "upbit-wss-SONIC-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "SONIC",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "btse-wss-SONIC-USDT",
       "definition": {
         "type": "wss",
