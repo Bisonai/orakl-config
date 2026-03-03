@@ -492,15 +492,6 @@
         }
       },
       {
-        "name": "upbit-wss-ADA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "ADA",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "crypto-wss-ADA-USDT",
         "definition": {
           "type": "wss",
@@ -721,15 +712,6 @@
         "definition": {
           "type": "wss",
           "provider": "orangex",
-          "base": "AERO",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-AERO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "AERO",
           "quote": "USDT"
         }
@@ -2227,15 +2209,6 @@
           "base": "AXL",
           "quote": "USDT"
         }
-      },
-      {
-        "name": "upbit-wss-AXL-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "AXL",
-          "quote": "USDT"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -2428,15 +2401,6 @@
         }
       },
       {
-        "name": "upbit-wss-BAT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "BAT",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "crypto-wss-BAT-USDT",
         "definition": {
           "type": "wss",
@@ -2608,15 +2572,6 @@
         }
       },
       {
-        "name": "upbit-wss-BEAM-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "BEAM",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "bitget-wss-BEAM-USDT",
         "definition": {
           "type": "wss",
@@ -2711,15 +2666,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "BERA",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-BERA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "BERA",
           "quote": "USDT"
         }
@@ -3184,15 +3130,6 @@
         }
       },
       {
-        "name": "upbit-wss-BONK-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "BONK",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "crypto-wss-BONK-USDT",
         "definition": {
           "type": "wss",
@@ -3377,15 +3314,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "BRETT",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-BRETT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "BRETT",
           "quote": "USDT"
         }
@@ -3648,15 +3576,6 @@
         "definition": {
           "type": "wss",
           "provider": "gemini",
-          "base": "BTC",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-BTC-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "BTC",
           "quote": "USDT"
         }
@@ -4351,15 +4270,6 @@
         "definition": {
           "type": "wss",
           "provider": "kucoin",
-          "base": "CKB",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-CKB-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "CKB",
           "quote": "USDT"
         }
@@ -5446,15 +5356,6 @@
         }
       },
       {
-        "name": "upbit-wss-DEEP-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "DEEP",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "lbank-wss-DEEP-USDT",
         "definition": {
           "type": "wss",
@@ -5657,15 +5558,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "DOGE",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-DOGE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "DOGE",
           "quote": "USDT"
         }
@@ -6175,15 +6067,6 @@
         }
       },
       {
-        "name": "upbit-wss-EGLD-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "EGLD",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "crypto-wss-EGLD-USDT",
         "definition": {
           "type": "wss",
@@ -6643,15 +6526,6 @@
         }
       },
       {
-        "name": "upbit-wss-ENA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "ENA",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "okx-wss-ENA-USDT",
         "definition": {
           "type": "wss",
@@ -6883,15 +6757,6 @@
         "definition": {
           "type": "wss",
           "provider": "gemini",
-          "base": "ETH",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-ETH-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "ETH",
           "quote": "USDT"
         }
@@ -7370,15 +7235,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "FIL",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-FIL-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "FIL",
           "quote": "USDT"
         }
@@ -9271,15 +9127,6 @@
         }
       },
       {
-        "name": "upbit-wss-INJ-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "INJ",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "crypto-wss-INJ-USDT",
         "definition": {
           "type": "wss",
@@ -9613,15 +9460,6 @@
         }
       },
       {
-        "name": "upbit-wss-IP-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "IP",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "orangex-wss-IP-USDT",
         "definition": {
           "type": "wss",
@@ -9707,15 +9545,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "JASMY",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-JASMY-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "JASMY",
           "quote": "USDT"
         }
@@ -10086,15 +9915,6 @@
         }
       },
       {
-        "name": "upbit-wss-JTO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "JTO",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "btse-wss-JTO-USDT",
         "definition": {
           "type": "wss",
@@ -10234,15 +10054,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "JUP",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-JUP-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "JUP",
           "quote": "USDT"
         }
@@ -10600,15 +10411,6 @@
         "definition": {
           "type": "wss",
           "provider": "kucoin",
-          "base": "KAITO",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-KAITO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "KAITO",
           "quote": "USDT"
         }
@@ -11839,15 +11641,6 @@
           "base": "LPT",
           "quote": "USDT"
         }
-      },
-      {
-        "name": "upbit-wss-LPT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "LPT",
-          "quote": "USDT"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -12975,15 +12768,6 @@
         }
       },
       {
-        "name": "upbit-wss-MNT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "MNT",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "gateio-wss-MNT-USDT",
         "definition": {
           "type": "wss",
@@ -13231,15 +13015,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "MOVE",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-MOVE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "MOVE",
           "quote": "USDT"
         }
@@ -13553,15 +13328,6 @@
         "definition": {
           "type": "wss",
           "provider": "kucoin",
-          "base": "NEO",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-NEO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "NEO",
           "quote": "USDT"
         }
@@ -14156,15 +13922,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "ONDO",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-ONDO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "ONDO",
           "quote": "USDT"
         }
@@ -14861,15 +14618,6 @@
           "base": "PENGU",
           "quote": "USDT"
         }
-      },
-      {
-        "name": "upbit-wss-PENGU-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "PENGU",
-          "quote": "USDT"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -14949,15 +14697,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "PEPE",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-PEPE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "PEPE",
           "quote": "USDT"
         }
@@ -16169,15 +15908,6 @@
           "base": "RAY",
           "quote": "USDT"
         }
-      },
-      {
-        "name": "upbit-wss-RAY-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "RAY",
-          "quote": "USDT"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -16211,15 +15941,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "RENDER",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-RENDER-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "RENDER",
           "quote": "USDT"
         }
@@ -17021,15 +16742,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "SAFE",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-SAFE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "SAFE",
           "quote": "USDT"
         }
@@ -18474,15 +18186,6 @@
         }
       },
       {
-        "name": "upbit-wss-SOL-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "SOL",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "crypto-wss-SOL-USDT",
         "definition": {
           "type": "wss",
@@ -18631,15 +18334,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "SONIC",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-SONIC-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "SONIC",
           "quote": "USDT"
         }
@@ -19275,15 +18969,6 @@
         }
       },
       {
-        "name": "upbit-wss-SUPER-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "SUPER",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "orangex-wss-SUPER-USDT",
         "definition": {
           "type": "wss",
@@ -19750,15 +19435,6 @@
           "base": "TIA",
           "quote": "USDT"
         }
-      },
-      {
-        "name": "upbit-wss-TIA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "TIA",
-          "quote": "USDT"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -19945,15 +19621,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "TRUMP",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-TRUMP-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "TRUMP",
           "quote": "USDT"
         }
@@ -20148,15 +19815,6 @@
         }
       },
       {
-        "name": "upbit-wss-TRX-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "TRX",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "btse-wss-TRX-USDT",
         "definition": {
           "type": "wss",
@@ -20296,15 +19954,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "TUSD",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-TUSD-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "TUSD",
           "quote": "USDT"
         }
@@ -20527,15 +20176,6 @@
         }
       },
       {
-        "name": "upbit-wss-UNI-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "UNI",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "crypto-wss-UNI-USDT",
         "definition": {
           "type": "wss",
@@ -20703,15 +20343,6 @@
         "definition": {
           "type": "wss",
           "provider": "bitstamp",
-          "base": "USDC",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-USDC-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "USDC",
           "quote": "USDT"
         }
@@ -21185,15 +20816,6 @@
         }
       },
       {
-        "name": "upbit-wss-VIRTUAL-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "VIRTUAL",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "crypto-wss-VIRTUAL-USDT",
         "definition": {
           "type": "wss",
@@ -21356,15 +20978,6 @@
         }
       },
       {
-        "name": "upbit-wss-VTHO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "VTHO",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "gateio-wss-VTHO-USDT",
         "definition": {
           "type": "wss",
@@ -21459,15 +21072,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "W",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-W-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "W",
           "quote": "USDT"
         }
@@ -22082,15 +21686,6 @@
         "definition": {
           "type": "wss",
           "provider": "xt",
-          "base": "WLD",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-WLD-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "WLD",
           "quote": "USDT"
         }
@@ -22721,15 +22316,6 @@
         "definition": {
           "type": "wss",
           "provider": "bitstamp",
-          "base": "XRP",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-XRP-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "XRP",
           "quote": "USDT"
         }
@@ -23583,15 +23169,6 @@
         }
       },
       {
-        "name": "upbit-wss-ZRO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "ZRO",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "crypto-wss-ZRO-USDT",
         "definition": {
           "type": "wss",
@@ -23740,15 +23317,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "ZRX",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "upbit-wss-ZRX-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
           "base": "ZRX",
           "quote": "USDT"
         }
