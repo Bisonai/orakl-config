@@ -114,8 +114,6 @@
 | [KAITO-USDT](config/baobab/KAITO-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [KAS-USDT](config/baobab/KAS-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [KAVA-USDT](config/baobab/KAVA-USDT.config.json) | 2000 | 400 | 60000 | 13 |
-| [KLAY-KRW](config/baobab/KLAY-KRW.config.json) | 2000 | 400 | 60000 | 4 |
-| [KLAY-USDT](config/baobab/KLAY-USDT.config.json) | 2000 | 400 | 15000 | 15 |
 | [KNC-KRW](config/baobab/KNC-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [KRW-USD](config/baobab/KRW-USD.config.json) | 2000 | 400 | 15000 | 3 |
 | [KRWO-USDT](config/baobab/KRWO-USDT.config.json) | 2000 | 400 | 15000 | 2 |
@@ -355,8 +353,6 @@
 | [KAITO-USDT](config/cypress/KAITO-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [KAS-USDT](config/cypress/KAS-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [KAVA-USDT](config/cypress/KAVA-USDT.config.json) | 2000 | 400 | 60000 | 13 |
-| [KLAY-KRW](config/cypress/KLAY-KRW.config.json) | 2000 | 400 | 60000 | 4 |
-| [KLAY-USDT](config/cypress/KLAY-USDT.config.json) | 2000 | 400 | 15000 | 15 |
 | [KNC-KRW](config/cypress/KNC-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [KRW-USD](config/cypress/KRW-USD.config.json) | 2000 | 400 | 15000 | 3 |
 | [KRWO-USDT](config/cypress/KRWO-USDT.config.json) | 2000 | 400 | 60000 | 2 |
