@@ -2603,7 +2603,7 @@
         "definition": {
           "type": "wss",
           "provider": "gateio",
-          "base": "BEAM",
+          "base": "BEAMX",
           "quote": "USDT"
         }
       },
@@ -2612,7 +2612,7 @@
         "definition": {
           "type": "wss",
           "provider": "coinex",
-          "base": "BEAM",
+          "base": "BEAMX",
           "quote": "USDT"
         }
       },
