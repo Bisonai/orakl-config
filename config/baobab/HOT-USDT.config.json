@@ -29,7 +29,7 @@
         "type": "wss",
         "provider": "crypto",
         "base": "HOT",
-        "quote": "USDT"
+        "quote": "USD"
       }
     },
     {
