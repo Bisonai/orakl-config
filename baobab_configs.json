@@ -4131,10 +4131,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "spark",
-                "result"
-              ]
+              "args": ["spark", "result"]
             },
             {
               "function": "INDEX",
@@ -4142,9 +4139,7 @@
             },
             {
               "function": "PARSE",
-              "args": [
-                "response"
-              ]
+              "args": ["response"]
             },
             {
               "function": "INDEX",
@@ -4152,10 +4147,7 @@
             },
             {
               "function": "PARSE",
-              "args": [
-                "meta",
-                "regularMarketPrice"
-              ]
+              "args": ["meta", "regularMarketPrice"]
             }
           ]
         }
@@ -4171,10 +4163,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "result",
-                "closePrice"
-              ]
+              "args": ["result", "closePrice"]
             },
             {
               "function": "DIVFROM",
@@ -4195,9 +4184,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "usDollarRate"
-              ]
+              "args": ["usDollarRate"]
             }
           ]
         }
@@ -6898,10 +6885,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "spark",
-                "result"
-              ]
+              "args": ["spark", "result"]
             },
             {
               "function": "INDEX",
@@ -6909,9 +6893,7 @@
             },
             {
               "function": "PARSE",
-              "args": [
-                "response"
-              ]
+              "args": ["response"]
             },
             {
               "function": "INDEX",
@@ -6919,10 +6901,7 @@
             },
             {
               "function": "PARSE",
-              "args": [
-                "meta",
-                "regularMarketPrice"
-              ]
+              "args": ["meta", "regularMarketPrice"]
             }
           ]
         }
@@ -6938,10 +6917,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "result",
-                "closePrice"
-              ]
+              "args": ["result", "closePrice"]
             },
             {
               "function": "DIVFROM",
@@ -6962,9 +6938,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "usDollarRate"
-              ]
+              "args": ["usDollarRate"]
             }
           ]
         }
@@ -7510,37 +7484,10 @@
     "submitInterval": 60000,
     "feeds": [
       {
-        "name": "upbit-wss-FLOW-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "FLOW",
-          "quote": "KRW"
-        }
-      },
-      {
         "name": "korbit-wss-FLOW-KRW",
         "definition": {
           "type": "wss",
           "provider": "korbit",
-          "base": "FLOW",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "bithumb-wss-FLOW-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "bithumb",
-          "base": "FLOW",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "coinone-wss-FLOW-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
           "base": "FLOW",
           "quote": "KRW"
         }
@@ -8087,10 +8034,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "spark",
-                "result"
-              ]
+              "args": ["spark", "result"]
             },
             {
               "function": "INDEX",
@@ -8098,9 +8042,7 @@
             },
             {
               "function": "PARSE",
-              "args": [
-                "response"
-              ]
+              "args": ["response"]
             },
             {
               "function": "INDEX",
@@ -8108,10 +8050,7 @@
             },
             {
               "function": "PARSE",
-              "args": [
-                "meta",
-                "regularMarketPrice"
-              ]
+              "args": ["meta", "regularMarketPrice"]
             }
           ]
         }
@@ -8127,10 +8066,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "result",
-                "closePrice"
-              ]
+              "args": ["result", "closePrice"]
             },
             {
               "function": "DIVFROM",
@@ -8151,9 +8087,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "usDollarRate"
-              ]
+              "args": ["usDollarRate"]
             }
           ]
         }
@@ -8944,10 +8878,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "chart",
-                "result"
-              ]
+              "args": ["chart", "result"]
             },
             {
               "function": "INDEX",
@@ -8955,10 +8886,7 @@
             },
             {
               "function": "PARSE",
-              "args": [
-                "meta",
-                "regularMarketPrice"
-              ]
+              "args": ["meta", "regularMarketPrice"]
             },
             {
               "function": "DIVFROM",
@@ -8979,10 +8907,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "result",
-                "closePrice"
-              ]
+              "args": ["result", "closePrice"]
             },
             {
               "function": "DIVFROM",
@@ -9004,9 +8929,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "usDollarRate"
-              ]
+              "args": ["usDollarRate"]
             },
             {
               "function": "DIV",
@@ -9668,10 +9591,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "spark",
-                "result"
-              ]
+              "args": ["spark", "result"]
             },
             {
               "function": "INDEX",
@@ -9679,9 +9599,7 @@
             },
             {
               "function": "PARSE",
-              "args": [
-                "response"
-              ]
+              "args": ["response"]
             },
             {
               "function": "INDEX",
@@ -9689,10 +9607,7 @@
             },
             {
               "function": "PARSE",
-              "args": [
-                "meta",
-                "regularMarketPrice"
-              ]
+              "args": ["meta", "regularMarketPrice"]
             }
           ]
         }
@@ -9708,10 +9623,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "result",
-                "closePrice"
-              ]
+              "args": ["result", "closePrice"]
             },
             {
               "function": "DIVFROM",
@@ -9732,9 +9644,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "usDollarRate"
-              ]
+              "args": ["usDollarRate"]
             },
             {
               "function": "DIV",
@@ -10831,10 +10741,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "spark",
-                "result"
-              ]
+              "args": ["spark", "result"]
             },
             {
               "function": "INDEX",
@@ -10842,9 +10749,7 @@
             },
             {
               "function": "PARSE",
-              "args": [
-                "response"
-              ]
+              "args": ["response"]
             },
             {
               "function": "INDEX",
@@ -10852,10 +10757,7 @@
             },
             {
               "function": "PARSE",
-              "args": [
-                "meta",
-                "regularMarketPrice"
-              ]
+              "args": ["meta", "regularMarketPrice"]
             },
             {
               "function": "DIVFROM",
@@ -10878,9 +10780,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "basePrice"
-              ]
+              "args": ["basePrice"]
             },
             {
               "function": "DIVFROM",
@@ -10907,10 +10807,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "result",
-                "closePrice"
-              ]
+              "args": ["result", "closePrice"]
             },
             {
               "function": "DIVFROM",
@@ -13004,10 +12901,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "chart",
-                "result"
-              ]
+              "args": ["chart", "result"]
             },
             {
               "function": "INDEX",
@@ -13015,10 +12909,7 @@
             },
             {
               "function": "PARSE",
-              "args": [
-                "meta",
-                "regularMarketPrice"
-              ]
+              "args": ["meta", "regularMarketPrice"]
             },
             {
               "function": "DIVFROM",
@@ -13039,10 +12930,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "result",
-                "closePrice"
-              ]
+              "args": ["result", "closePrice"]
             },
             {
               "function": "DIVFROM",
@@ -13064,9 +12952,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "usDollarRate"
-              ]
+              "args": ["usDollarRate"]
             }
           ]
         }
@@ -17307,10 +17193,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "chart",
-                "result"
-              ]
+              "args": ["chart", "result"]
             },
             {
               "function": "INDEX",
@@ -17318,10 +17201,7 @@
             },
             {
               "function": "PARSE",
-              "args": [
-                "meta",
-                "regularMarketPrice"
-              ]
+              "args": ["meta", "regularMarketPrice"]
             },
             {
               "function": "DIVFROM",
@@ -17342,10 +17222,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "result",
-                "closePrice"
-              ]
+              "args": ["result", "closePrice"]
             },
             {
               "function": "DIVFROM",
@@ -17367,9 +17244,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": [
-                "usDollarRate"
-              ]
+              "args": ["usDollarRate"]
             }
           ]
         }
