@@ -32,7 +32,8 @@
       "definition": {
         "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=JPYUSD%3DX",
         "headers": {
-          "Content-Type": "application/json"
+          "Content-Type": "application/json",
+          "User-Agent": "Mozilla/5.0"
         },
         "method": "GET",
         "reducers": [

@@ -4125,7 +4125,8 @@
         "definition": {
           "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=CHFUSD%3DX",
           "headers": {
-            "Content-Type": "application/json"
+            "Content-Type": "application/json",
+            "User-Agent": "Mozilla/5.0"
           },
           "method": "GET",
           "reducers": [
@@ -6892,7 +6893,8 @@
         "definition": {
           "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=EURUSD%3DX",
           "headers": {
-            "Content-Type": "application/json"
+            "Content-Type": "application/json",
+            "User-Agent": "Mozilla/5.0"
           },
           "method": "GET",
           "reducers": [
@@ -8054,7 +8056,8 @@
         "definition": {
           "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=GBPUSD%3DX",
           "headers": {
-            "Content-Type": "application/json"
+            "Content-Type": "application/json",
+            "User-Agent": "Mozilla/5.0"
           },
           "method": "GET",
           "reducers": [
@@ -9635,7 +9638,8 @@
         "definition": {
           "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=JPYUSD%3DX",
           "headers": {
-            "Content-Type": "application/json"
+            "Content-Type": "application/json",
+            "User-Agent": "Mozilla/5.0"
           },
           "method": "GET",
           "reducers": [
@@ -10798,7 +10802,8 @@
         "definition": {
           "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=USDKRW%3DX",
           "headers": {
-            "Content-Type": "application/json"
+            "Content-Type": "application/json",
+            "User-Agent": "Mozilla/5.0"
           },
           "method": "GET",
           "reducers": [
