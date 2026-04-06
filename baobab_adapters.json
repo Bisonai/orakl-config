@@ -135,31 +135,6 @@
         "interval": 60000
     },
     {
-        "name": "GP-POR",
-        "decimals": 12,
-        "feeds": [
-            {
-                "name": "GP-POR",
-                "definition": {
-                    "url": "https://v1.theminingclub.io/currentRWAPrice/gold",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "price"
-                            ]
-                        }
-                    ]
-                }
-            }
-        ],
-        "interval": 60000
-    },
-    {
         "name": "META",
         "decimals": 8,
         "feeds": [
@@ -293,33 +268,6 @@
             }
         ],
         "interval": 60000
-    },
-    {
-        "adapterHash": "0xb208c8a40f643fed96107fa0697bf640badd2ebea84438a3ee5044a3a1ae6060",
-        "name": "PEG-POR",
-        "decimals": 4,
-        "feeds": [
-            {
-                "name": "Pennygold-PEG-POR",
-                "definition": {
-                    "url": "https://dev-nft.pennygold.kr/api/v2/balance/getTotalNftAmount",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    },
-                    "method": "GET",
-                    "reducers": [
-                        {
-                            "function": "PARSE",
-                            "args": [
-                                "data",
-                                "PEG",
-                                "amount"
-                            ]
-                        }
-                    ]
-                }
-            }
-        ]
     },
     {
         "name": "TSLA",
