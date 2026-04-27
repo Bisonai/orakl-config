@@ -4116,7 +4116,7 @@
   },
   {
     "name": "CHF-USD",
-    "fetchInterval": 2000,
+    "fetchInterval": 10000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
     "feeds": [
@@ -6871,7 +6871,7 @@
   },
   {
     "name": "EUR-USD",
-    "fetchInterval": 2000,
+    "fetchInterval": 10000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
     "feeds": [
@@ -8021,7 +8021,7 @@
   },
   {
     "name": "GBP-USD",
-    "fetchInterval": 2000,
+    "fetchInterval": 10000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
     "feeds": [
@@ -8865,7 +8865,7 @@
   },
   {
     "name": "IDR-USD",
-    "fetchInterval": 2000,
+    "fetchInterval": 10000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
     "feeds": [
@@ -9579,7 +9579,7 @@
   },
   {
     "name": "JPY-USD",
-    "fetchInterval": 2000,
+    "fetchInterval": 10000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
     "feeds": [
@@ -10730,7 +10730,7 @@
   },
   {
     "name": "KRW-USD",
-    "fetchInterval": 2000,
+    "fetchInterval": 10000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
     "feeds": [
@@ -12890,7 +12890,7 @@
   },
   {
     "name": "MYR-USD",
-    "fetchInterval": 2000,
+    "fetchInterval": 10000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
     "feeds": [
@@ -17182,7 +17182,7 @@
   },
   {
     "name": "SGD-USD",
-    "fetchInterval": 2000,
+    "fetchInterval": 10000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
     "feeds": [

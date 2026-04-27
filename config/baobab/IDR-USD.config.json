@@ -1,6 +1,6 @@
 {
   "name": "IDR-USD",
-  "fetchInterval": 2000,
+  "fetchInterval": 10000,
   "aggregateInterval": 400,
   "submitInterval": 60000,
   "feedDataFreshness": 60000,

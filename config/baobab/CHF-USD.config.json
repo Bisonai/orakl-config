@@ -1,6 +1,6 @@
 {
   "name": "CHF-USD",
-  "fetchInterval": 2000,
+  "fetchInterval": 10000,
   "aggregateInterval": 400,
   "submitInterval": 15000,
   "feedDataFreshness": 60000,
