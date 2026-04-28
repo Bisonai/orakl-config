@@ -7,6 +7,7 @@
                 "name": "AAPL",
                 "definition": {
                     "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAPL?range=1d&interval=1m&includePrePost=true&events=div|split",
+                    "location": "kr",
                     "headers": {
                         "Content-Type": "application/json",
                         "User-Agent": "Mozilla/5.0"
@@ -52,6 +53,7 @@
                 "name": "AMZN",
                 "definition": {
                     "url": "https://query2.finance.yahoo.com/v8/finance/chart/AMZN?range=1d&interval=1m&includePrePost=true&events=div|split",
+                    "location": "kr",
                     "headers": {
                         "Content-Type": "application/json",
                         "User-Agent": "Mozilla/5.0"
@@ -97,6 +99,7 @@
                 "name": "GOOGL",
                 "definition": {
                     "url": "https://query2.finance.yahoo.com/v8/finance/chart/GOOGL?range=1d&interval=1m&includePrePost=true&events=div|split",
+                    "location": "kr",
                     "headers": {
                         "Content-Type": "application/json",
                         "User-Agent": "Mozilla/5.0"
@@ -142,6 +145,7 @@
                 "name": "META",
                 "definition": {
                     "url": "https://query2.finance.yahoo.com/v8/finance/chart/META?range=1d&interval=1m&includePrePost=true&events=div|split",
+                    "location": "kr",
                     "headers": {
                         "Content-Type": "application/json",
                         "User-Agent": "Mozilla/5.0"
@@ -187,6 +191,7 @@
                 "name": "MSFT",
                 "definition": {
                     "url": "https://query2.finance.yahoo.com/v8/finance/chart/MSFT?range=1d&interval=1m&includePrePost=true&events=div|split",
+                    "location": "kr",
                     "headers": {
                         "Content-Type": "application/json",
                         "User-Agent": "Mozilla/5.0"
@@ -232,6 +237,7 @@
                 "name": "NVDA",
                 "definition": {
                     "url": "https://query2.finance.yahoo.com/v8/finance/chart/NVDA?range=1d&interval=1m&includePrePost=true&events=div|split",
+                    "location": "kr",
                     "headers": {
                         "Content-Type": "application/json",
                         "User-Agent": "Mozilla/5.0"
@@ -277,6 +283,7 @@
                 "name": "TSLA",
                 "definition": {
                     "url": "https://query2.finance.yahoo.com/v8/finance/chart/TSLA?range=1d&interval=1m&includePrePost=true&events=div|split",
+                    "location": "kr",
                     "headers": {
                         "Content-Type": "application/json",
                         "User-Agent": "Mozilla/5.0"

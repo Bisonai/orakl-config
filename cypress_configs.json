@@ -4124,6 +4124,7 @@
         "name": "Yahoo-CHF-USD",
         "definition": {
           "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=CHFUSD%3DX",
+          "location": "kr",
           "headers": {
             "Content-Type": "application/json",
             "User-Agent": "Mozilla/5.0"
@@ -6892,6 +6893,7 @@
         "name": "Yahoo-EUR-USD",
         "definition": {
           "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=EURUSD%3DX",
+          "location": "kr",
           "headers": {
             "Content-Type": "application/json",
             "User-Agent": "Mozilla/5.0"
@@ -8055,6 +8057,7 @@
         "name": "Yahoo-GBP-USD",
         "definition": {
           "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=GBPUSD%3DX",
+          "location": "kr",
           "headers": {
             "Content-Type": "application/json",
             "User-Agent": "Mozilla/5.0"
@@ -8912,6 +8915,7 @@
         "name": "Yahoo-IDR-USD",
         "definition": {
           "url": "https://query2.finance.yahoo.com/v8/finance/chart/IDR=X",
+          "location": "kr",
           "headers": {
             "Content-Type": "application/json",
             "User-Agent": "Mozilla/5.0"
@@ -9637,6 +9641,7 @@
         "name": "Yahoo-JPY-USD",
         "definition": {
           "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=JPYUSD%3DX",
+          "location": "kr",
           "headers": {
             "Content-Type": "application/json",
             "User-Agent": "Mozilla/5.0"
@@ -10801,6 +10806,7 @@
         "name": "Yahoo-KRW-USD",
         "definition": {
           "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=USDKRW%3DX",
+          "location": "kr",
           "headers": {
             "Content-Type": "application/json",
             "User-Agent": "Mozilla/5.0"
@@ -12960,6 +12966,7 @@
         "name": "Yahoo-MYR-USD",
         "definition": {
           "url": "https://query2.finance.yahoo.com/v8/finance/chart/MYR=X",
+          "location": "kr",
           "headers": {
             "Content-Type": "application/json",
             "User-Agent": "Mozilla/5.0"
@@ -17200,6 +17207,7 @@
         "name": "Yahoo-SGD-USD",
         "definition": {
           "url": "https://query2.finance.yahoo.com/v8/finance/chart/SGD=X",
+          "location": "kr",
           "headers": {
             "Content-Type": "application/json",
             "User-Agent": "Mozilla/5.0"
