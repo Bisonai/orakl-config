@@ -16,78 +16,6 @@
       }
     },
     {
-      "name": "bybit-wss-DAI-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bybit",
-        "base": "DAI",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "gateio-wss-DAI-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "gateio",
-        "base": "DAI",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "lbank-wss-DAI-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "lbank",
-        "base": "DAI",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "coinex-wss-DAI-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "DAI",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "bitget-wss-DAI-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitget",
-        "base": "DAI",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "huobi-wss-DAI-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "huobi",
-        "base": "DAI",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "mexc-wss-DAI-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "mexc",
-        "base": "DAI",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "okx-wss-DAI-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "okx",
-        "base": "DAI",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "kraken-wss-DAI-USDT",
       "definition": {
         "type": "wss",
@@ -97,30 +25,12 @@
       }
     },
     {
-      "name": "bingx-wss-DAI-USDT",
+      "name": "coinbase-wss-DAI-USD",
       "definition": {
         "type": "wss",
-        "provider": "bingx",
+        "provider": "coinbase",
         "base": "DAI",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "bitmart-wss-DAI-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "DAI",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "xt-wss-DAI-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "xt",
-        "base": "DAI",
-        "quote": "USDT"
+        "quote": "USD"
       }
     }
   ]
