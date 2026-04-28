@@ -2,43 +2,98 @@
   "name": "STG-KRW",
   "fetchInterval": 2000,
   "aggregateInterval": 400,
-  "submitInterval": 60000,
+  "submitInterval": 15000,
   "feedDataFreshness": 60000,
+  "multiplyBy": "KRW-USD",
   "feeds": [
     {
-      "name": "upbit-wss-STG-KRW",
+      "name": "binance-wss-STG-USDT",
       "definition": {
         "type": "wss",
-        "provider": "upbit",
+        "provider": "binance",
         "base": "STG",
-        "quote": "KRW"
+        "quote": "USDT"
       }
     },
     {
-      "name": "korbit-wss-STG-KRW",
+      "name": "kucoin-wss-STG-USDT",
       "definition": {
         "type": "wss",
-        "provider": "korbit",
+        "provider": "kucoin",
         "base": "STG",
-        "quote": "KRW"
+        "quote": "USDT"
       }
     },
     {
-      "name": "bithumb-wss-STG-KRW",
+      "name": "gateio-wss-STG-USDT",
       "definition": {
         "type": "wss",
-        "provider": "bithumb",
+        "provider": "gateio",
         "base": "STG",
-        "quote": "KRW"
+        "quote": "USDT"
       }
     },
     {
-      "name": "coinone-wss-STG-KRW",
+      "name": "mexc-wss-STG-USDT",
       "definition": {
         "type": "wss",
-        "provider": "coinone",
+        "provider": "mexc",
         "base": "STG",
-        "quote": "KRW"
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bitget-wss-STG-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bitget",
+        "base": "STG",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "lbank-wss-STG-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "lbank",
+        "base": "STG",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "coinex-wss-STG-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "coinex",
+        "base": "STG",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "huobi-wss-STG-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "huobi",
+        "base": "STG",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "xt-wss-STG-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "xt",
+        "base": "STG",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "bingx-wss-STG-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "bingx",
+        "base": "STG",
+        "quote": "USDT"
       }
     }
   ]
