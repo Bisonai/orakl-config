@@ -4,8 +4,7 @@
   "aggregateInterval": 400,
   "submitInterval": 15000,
   "feedDataFreshness": 60000,
-  "multiplyBy": "KRW-USD",
-  "multiplyByReciprocal": true,
+  "multiplyBy": "USDT-KRW",
   "feeds": [
     {
       "name": "binance-wss-STG-USDT",
