@@ -1,0 +1,45 @@
+{
+  "name": "JPYC-USDT",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feedDataFreshness": 60000,
+  "feeds": [
+    {
+      "name": "UniswapV4-Polygon-USDC-JPYC-005",
+      "definition": {
+        "chainId": "137",
+        "poolId": "0x4643e3152a6ea3957e087cefbba74a1c628aa643e6b8a0edfae23a5796dde012",
+        "type": "Uniswapv4Pool",
+        "token0Decimals": 6,
+        "token1Decimals": 18,
+        "reciprocal": true,
+        "multiplyBy": "USDC-USDT"
+      }
+    },
+    {
+      "name": "UniswapV4-Polygon-USDC-JPYC-0125",
+      "definition": {
+        "chainId": "137",
+        "poolId": "0x3befb3625d0a36cb4bb84ff1c549dc5092fe8e6f527661c9e4825762b5cea727",
+        "type": "Uniswapv4Pool",
+        "token0Decimals": 6,
+        "token1Decimals": 18,
+        "reciprocal": true,
+        "multiplyBy": "USDC-USDT"
+      }
+    },
+    {
+      "name": "UniswapV4-Ethereum-USDC-JPYC",
+      "definition": {
+        "chainId": "1",
+        "poolId": "0x04607d754b2dca9bca1ce71c118f4382dd6adc38d3a6442e0cfa491db61e289f",
+        "type": "Uniswapv4Pool",
+        "token0Decimals": 6,
+        "token1Decimals": 18,
+        "reciprocal": true,
+        "multiplyBy": "USDC-USDT"
+      }
+    }
+  ]
+}

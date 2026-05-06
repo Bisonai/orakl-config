@@ -1,0 +1,19 @@
+{
+  "name": "MYRC-USDT",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feedDataFreshness": 60000,
+  "feeds": [
+    {
+      "name": "UniswapV3-Arbitrum-MYRC-USDT",
+      "definition": {
+        "chainId": "42161",
+        "address": "0x98e4104de09f4da0529a6760ada3f310fe7eeba6",
+        "type": "UniswapPool",
+        "token0Decimals": 18,
+        "token1Decimals": 6
+      }
+    }
+  ]
+}
