@@ -176,7 +176,6 @@
 | [SAFE-USDT](config/baobab/SAFE-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [SAND-KRW](config/baobab/SAND-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [SAND-USDT](config/baobab/SAND-USDT.config.json) | 2000 | 400 | 60000 | 17 |
-| [SATS-USDT](config/baobab/SATS-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [SEI-KRW](config/baobab/SEI-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [SEI-USDT](config/baobab/SEI-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [SFP-USDT](config/baobab/SFP-USDT.config.json) | 2000 | 400 | 60000 | 10 |
@@ -343,7 +342,7 @@
 | [HYPE-USDT](config/cypress/HYPE-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [IDR-USD](config/cypress/IDR-USD.config.json) | 10000 | 400 | 60000 | 3 |
 | [IDRP-USDT](config/cypress/IDRP-USDT.config.json) | 2000 | 400 | 60000 | 1 |
-| [IDRX-USDT](config/cypress/IDRX-USDT.config.json) | 2000 | 400 | 60000 | 2 |
+| [IDRX-USDT](config/cypress/IDRX-USDT.config.json) | 2000 | 400 | 60000 | 4 |
 | [IMX-KRW](config/cypress/IMX-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [INJ-USDT](config/cypress/INJ-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [IOTA-USDT](config/cypress/IOTA-USDT.config.json) | 2000 | 400 | 60000 | 11 |
@@ -419,7 +418,6 @@
 | [SAFE-USDT](config/cypress/SAFE-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [SAND-KRW](config/cypress/SAND-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [SAND-USDT](config/cypress/SAND-USDT.config.json) | 2000 | 400 | 60000 | 17 |
-| [SATS-USDT](config/cypress/SATS-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [SEI-KRW](config/cypress/SEI-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [SEI-USDT](config/cypress/SEI-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [SFP-USDT](config/cypress/SFP-USDT.config.json) | 2000 | 400 | 60000 | 10 |
