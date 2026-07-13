@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "kucoin-wss-FORM-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "kucoin",
-        "base": "FORM",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-FORM-USDT",
       "definition": {
         "type": "wss",

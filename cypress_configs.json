@@ -7559,15 +7559,6 @@
         }
       },
       {
-        "name": "kucoin-wss-FORM-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "kucoin",
-          "base": "FORM",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "gateio-wss-FORM-USDT",
         "definition": {
           "type": "wss",
@@ -13843,15 +13834,6 @@
         "definition": {
           "type": "wss",
           "provider": "bitget",
-          "base": "PAXG",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "mexc-wss-PAXG-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "mexc",
           "base": "PAXG",
           "quote": "USDT"
         }
@@ -21042,15 +21024,6 @@
         "definition": {
           "type": "wss",
           "provider": "huobi",
-          "base": "XAUT",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "mexc-wss-XAUT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "mexc",
           "base": "XAUT",
           "quote": "USDT"
         }
