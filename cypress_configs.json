@@ -9282,15 +9282,6 @@
         }
       },
       {
-        "name": "btse-wss-IP-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "btse",
-          "base": "IP",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "gateio-wss-IP-USDT",
         "definition": {
           "type": "wss",
@@ -9304,60 +9295,6 @@
         "definition": {
           "type": "wss",
           "provider": "lbank",
-          "base": "IP",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "coinex-wss-IP-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "coinex",
-          "base": "IP",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitget-wss-IP-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitget",
-          "base": "IP",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "huobi-wss-IP-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "huobi",
-          "base": "IP",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "mexc-wss-IP-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "mexc",
-          "base": "IP",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "okx-wss-IP-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "okx",
-          "base": "IP",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-IP-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "IP",
           "quote": "USDT"
         }
@@ -16956,15 +16893,6 @@
         }
       },
       {
-        "name": "bitget-wss-SFP-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitget",
-          "base": "SFP",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "mexc-wss-SFP-USDT",
         "definition": {
           "type": "wss",
@@ -16987,15 +16915,6 @@
         "definition": {
           "type": "wss",
           "provider": "xt",
-          "base": "SFP",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-SFP-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "SFP",
           "quote": "USDT"
         }
@@ -19063,15 +18982,6 @@
         }
       },
       {
-        "name": "btse-wss-TON-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "btse",
-          "base": "TON",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "gateio-wss-TON-USDT",
         "definition": {
           "type": "wss",
@@ -19085,51 +18995,6 @@
         "definition": {
           "type": "wss",
           "provider": "lbank",
-          "base": "TON",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "coinex-wss-TON-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "coinex",
-          "base": "TON",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitget-wss-TON-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitget",
-          "base": "TON",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "huobi-wss-TON-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "huobi",
-          "base": "TON",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "mexc-wss-TON-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "mexc",
-          "base": "TON",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "okx-wss-TON-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "okx",
           "base": "TON",
           "quote": "USDT"
         }

@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "btse-wss-TON-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "btse",
-        "base": "TON",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-TON-USDT",
       "definition": {
         "type": "wss",
@@ -64,51 +55,6 @@
       "definition": {
         "type": "wss",
         "provider": "lbank",
-        "base": "TON",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "coinex-wss-TON-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "TON",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "bitget-wss-TON-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitget",
-        "base": "TON",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "huobi-wss-TON-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "huobi",
-        "base": "TON",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "mexc-wss-TON-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "mexc",
-        "base": "TON",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "okx-wss-TON-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "okx",
         "base": "TON",
         "quote": "USDT"
       }

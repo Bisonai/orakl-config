@@ -104,7 +104,7 @@
 | [IMX-KRW](config/baobab/IMX-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [INJ-USDT](config/baobab/INJ-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [IOTA-USDT](config/baobab/IOTA-USDT.config.json) | 2000 | 400 | 60000 | 11 |
-| [IP-USDT](config/baobab/IP-USDT.config.json) | 2000 | 400 | 60000 | 13 |
+| [IP-USDT](config/baobab/IP-USDT.config.json) | 2000 | 400 | 60000 | 6 |
 | [IQ-KRW](config/baobab/IQ-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [JASMY-USDT](config/baobab/JASMY-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [JPY-USD](config/baobab/JPY-USD.config.json) | 10000 | 400 | 15000 | 3 |
@@ -178,7 +178,7 @@
 | [SAND-USDT](config/baobab/SAND-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [SEI-KRW](config/baobab/SEI-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [SEI-USDT](config/baobab/SEI-USDT.config.json) | 2000 | 400 | 60000 | 14 |
-| [SFP-USDT](config/baobab/SFP-USDT.config.json) | 2000 | 400 | 60000 | 10 |
+| [SFP-USDT](config/baobab/SFP-USDT.config.json) | 2000 | 400 | 60000 | 8 |
 | [SGD-USD](config/baobab/SGD-USD.config.json) | 10000 | 400 | 60000 | 3 |
 | [SHIB-KRW](config/baobab/SHIB-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [SHIB-USDT](config/baobab/SHIB-USDT.config.json) | 2000 | 400 | 15000 | 18 |
@@ -201,7 +201,7 @@
 | [TFUEL-USDT](config/baobab/TFUEL-USDT.config.json) | 2000 | 400 | 60000 | 9 |
 | [THETA-USDT](config/baobab/THETA-USDT.config.json) | 2000 | 400 | 60000 | 12 |
 | [TIA-USDT](config/baobab/TIA-USDT.config.json) | 2000 | 400 | 60000 | 16 |
-| [TON-USDT](config/baobab/TON-USDT.config.json) | 2000 | 400 | 60000 | 16 |
+| [TON-USDT](config/baobab/TON-USDT.config.json) | 2000 | 400 | 60000 | 10 |
 | [TRUMP-USDT](config/baobab/TRUMP-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [TRX-KRW](config/baobab/TRX-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [TRX-USDT](config/baobab/TRX-USDT.config.json) | 2000 | 400 | 15000 | 15 |
@@ -346,7 +346,7 @@
 | [IMX-KRW](config/cypress/IMX-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [INJ-USDT](config/cypress/INJ-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [IOTA-USDT](config/cypress/IOTA-USDT.config.json) | 2000 | 400 | 60000 | 11 |
-| [IP-USDT](config/cypress/IP-USDT.config.json) | 2000 | 400 | 60000 | 13 |
+| [IP-USDT](config/cypress/IP-USDT.config.json) | 2000 | 400 | 60000 | 6 |
 | [IQ-KRW](config/cypress/IQ-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [JASMY-USDT](config/cypress/JASMY-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [JPY-USD](config/cypress/JPY-USD.config.json) | 10000 | 400 | 15000 | 3 |
@@ -420,7 +420,7 @@
 | [SAND-USDT](config/cypress/SAND-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [SEI-KRW](config/cypress/SEI-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [SEI-USDT](config/cypress/SEI-USDT.config.json) | 2000 | 400 | 60000 | 14 |
-| [SFP-USDT](config/cypress/SFP-USDT.config.json) | 2000 | 400 | 60000 | 10 |
+| [SFP-USDT](config/cypress/SFP-USDT.config.json) | 2000 | 400 | 60000 | 8 |
 | [SGD-USD](config/cypress/SGD-USD.config.json) | 10000 | 400 | 60000 | 3 |
 | [SHIB-KRW](config/cypress/SHIB-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [SHIB-USDT](config/cypress/SHIB-USDT.config.json) | 2000 | 400 | 15000 | 18 |
@@ -443,7 +443,7 @@
 | [TFUEL-USDT](config/cypress/TFUEL-USDT.config.json) | 2000 | 400 | 60000 | 9 |
 | [THETA-USDT](config/cypress/THETA-USDT.config.json) | 2000 | 400 | 60000 | 12 |
 | [TIA-USDT](config/cypress/TIA-USDT.config.json) | 2000 | 400 | 60000 | 16 |
-| [TON-USDT](config/cypress/TON-USDT.config.json) | 2000 | 400 | 60000 | 16 |
+| [TON-USDT](config/cypress/TON-USDT.config.json) | 2000 | 400 | 60000 | 10 |
 | [TRUMP-USDT](config/cypress/TRUMP-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [TRX-KRW](config/cypress/TRX-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [TRX-USDT](config/cypress/TRX-USDT.config.json) | 2000 | 400 | 15000 | 15 |

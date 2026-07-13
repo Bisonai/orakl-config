@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "bitget-wss-SFP-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitget",
-        "base": "SFP",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "mexc-wss-SFP-USDT",
       "definition": {
         "type": "wss",
@@ -82,15 +73,6 @@
       "definition": {
         "type": "wss",
         "provider": "xt",
-        "base": "SFP",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "bitmart-wss-SFP-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
         "base": "SFP",
         "quote": "USDT"
       }
