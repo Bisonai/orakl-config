@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "mexc-wss-XAUT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "mexc",
-        "base": "XAUT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "okx-wss-XAUT-USDT",
       "definition": {
         "type": "wss",

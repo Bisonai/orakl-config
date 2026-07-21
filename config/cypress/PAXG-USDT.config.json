@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "mexc-wss-PAXG-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "mexc",
-        "base": "PAXG",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bingx-wss-PAXG-USDT",
       "definition": {
         "type": "wss",
