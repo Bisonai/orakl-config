@@ -23,5 +23,6 @@
   "bitmart": "https://api-cloud.bitmart.com/spot/v1/symbols",
   "xt": "https://sapi.xt.com/v4/public/symbol",
   "gopax": "https://api.gopax.co.kr/trading-pairs",
-  "orangex": "https://api.orangex.com/api/v1/public/get_instruments?currency=spot"
+  "orangex": "https://api.orangex.com/api/v1/public/get_instruments?currency=spot",
+  "hashkey": "https://api-glb.hashkey.com/api/v1/exchangeInfo"
 }

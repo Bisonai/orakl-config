@@ -37,6 +37,19 @@ def get_binance_symbols(url):
         result.append(entry["symbol"].lower())
     return result
 
+
+# HashKey Global's exchangeInfo is Binance-format (a "symbols" array whose
+# entries carry a "status" of "TRADING"), so the parsing matches binance.
+def get_hashkey_symbols(url):
+    result = []
+    json_data = load_json_from_url(url)
+    symbols = json_data["symbols"]
+    for entry in symbols:
+        if entry["status"] != "TRADING":
+            continue
+        result.append(entry["symbol"].lower())
+    return result
+
 def get_coinbase_symbols(url):
     result = []
     json_data = load_json_from_url(url)
@@ -312,6 +325,9 @@ def store_symbols(urls_path, symbols_path):
 
     result["orangex"] = get_orangex_symbols(urls["orangex"])
     print("orangex symbol loaded")
+
+    result["hashkey"] = get_hashkey_symbols(urls["hashkey"])
+    print("hashkey symbol loaded")
 
 
     with open(symbols_path, "w") as f:
