@@ -8286,15 +8286,6 @@
           "base": "GRND",
           "quote": "USDT"
         }
-      },
-      {
-        "name": "lbank-wss-GRND-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "lbank",
-          "base": "GRND",
-          "quote": "USDT"
-        }
       }
     ],
     "feedDataFreshness": 60000
