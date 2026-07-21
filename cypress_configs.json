@@ -8343,15 +8343,6 @@
           "base": "GRND",
           "quote": "USDT"
         }
-      },
-      {
-        "name": "orangex-wss-GRND-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "orangex",
-          "base": "GRND",
-          "quote": "USDT"
-        }
       }
     ],
     "feedDataFreshness": 60000
