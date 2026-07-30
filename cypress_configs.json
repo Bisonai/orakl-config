@@ -10027,15 +10027,6 @@
         }
       },
       {
-        "name": "crypto-wss-KAIA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "crypto",
-          "base": "KAIA",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "btse-wss-KAIA-USDT",
         "definition": {
           "type": "wss",
@@ -10076,15 +10067,6 @@
         "definition": {
           "type": "wss",
           "provider": "bitget",
-          "base": "KAIA",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "huobi-wss-KAIA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "huobi",
           "base": "KAIA",
           "quote": "USDT"
         }

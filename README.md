@@ -112,7 +112,7 @@
 | [JTO-USDT](config/baobab/JTO-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [JUP-USDT](config/baobab/JUP-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [KAIA-KRW](config/baobab/KAIA-KRW.config.json) | 2000 | 400 | 60000 | 4 |
-| [KAIA-USDT](config/baobab/KAIA-USDT.config.json) | 2000 | 400 | 60000 | 15 |
+| [KAIA-USDT](config/baobab/KAIA-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [KAITO-USDT](config/baobab/KAITO-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [KAS-USDT](config/baobab/KAS-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [KAVA-USDT](config/baobab/KAVA-USDT.config.json) | 2000 | 400 | 60000 | 13 |
@@ -352,7 +352,7 @@
 | [JTO-USDT](config/cypress/JTO-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [JUP-USDT](config/cypress/JUP-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [KAIA-KRW](config/cypress/KAIA-KRW.config.json) | 2000 | 400 | 60000 | 4 |
-| [KAIA-USDT](config/cypress/KAIA-USDT.config.json) | 2000 | 400 | 60000 | 15 |
+| [KAIA-USDT](config/cypress/KAIA-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [KAITO-USDT](config/cypress/KAITO-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [KAS-USDT](config/cypress/KAS-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [KAVA-USDT](config/cypress/KAVA-USDT.config.json) | 2000 | 400 | 60000 | 13 |
