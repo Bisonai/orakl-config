@@ -82,7 +82,7 @@
 | [FLOKI-USDT](config/baobab/FLOKI-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [FLOW-KRW](config/baobab/FLOW-KRW.config.json) | 2000 | 400 | 60000 | 1 |
 | [FLR-USDT](config/baobab/FLR-USDT.config.json) | 2000 | 400 | 60000 | 11 |
-| [FORM-USDT](config/baobab/FORM-USDT.config.json) | 2000 | 400 | 60000 | 11 |
+| [FORM-USDT](config/baobab/FORM-USDT.config.json) | 2000 | 400 | 60000 | 10 |
 | [FTT-USDT](config/baobab/FTT-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [GALA-USDT](config/baobab/GALA-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [GAS-KRW](config/baobab/GAS-KRW.config.json) | 2000 | 400 | 60000 | 3 |
@@ -91,7 +91,7 @@
 | [GNO-USDT](config/baobab/GNO-USDT.config.json) | 2000 | 400 | 60000 | 9 |
 | [GRASS-USDT](config/baobab/GRASS-USDT.config.json) | 2000 | 400 | 60000 | 10 |
 | [GRND-KRW](config/baobab/GRND-KRW.config.json) | 2000 | 400 | 60000 | 2 |
-| [GRND-USDT](config/baobab/GRND-USDT.config.json) | 2000 | 400 | 60000 | 3 |
+| [GRND-USDT](config/baobab/GRND-USDT.config.json) | 2000 | 400 | 60000 | 2 |
 | [GRT-KRW](config/baobab/GRT-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [GT-USDT](config/baobab/GT-USDT.config.json) | 2000 | 400 | 60000 | 3 |
 | [HBAR-KRW](config/baobab/HBAR-KRW.config.json) | 2000 | 400 | 60000 | 4 |
@@ -112,7 +112,7 @@
 | [JTO-USDT](config/baobab/JTO-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [JUP-USDT](config/baobab/JUP-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [KAIA-KRW](config/baobab/KAIA-KRW.config.json) | 2000 | 400 | 60000 | 4 |
-| [KAIA-USDT](config/baobab/KAIA-USDT.config.json) | 2000 | 400 | 60000 | 17 |
+| [KAIA-USDT](config/baobab/KAIA-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [KAITO-USDT](config/baobab/KAITO-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [KAS-USDT](config/baobab/KAS-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [KAVA-USDT](config/baobab/KAVA-USDT.config.json) | 2000 | 400 | 60000 | 13 |
@@ -150,7 +150,7 @@
 | [ONDO-USDT](config/baobab/ONDO-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [ONG-KRW](config/baobab/ONG-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [OSMO-USDT](config/baobab/OSMO-USDT.config.json) | 2000 | 400 | 60000 | 11 |
-| [PAXG-USDT](config/baobab/PAXG-USDT.config.json) | 2000 | 400 | 15000 | 12 |
+| [PAXG-USDT](config/baobab/PAXG-USDT.config.json) | 2000 | 400 | 15000 | 11 |
 | [PENDLE-USDT](config/baobab/PENDLE-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [PENGU-USDT](config/baobab/PENGU-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [PEPE-KRW](config/baobab/PEPE-KRW.config.json) | 2000 | 400 | 60000 | 4 |
@@ -220,7 +220,7 @@
 | [WIF-USDT](config/baobab/WIF-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [WLD-KRW](config/baobab/WLD-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [WLD-USDT](config/baobab/WLD-USDT.config.json) | 2000 | 400 | 60000 | 15 |
-| [XAUT-USDT](config/baobab/XAUT-USDT.config.json) | 2000 | 400 | 60000 | 15 |
+| [XAUT-USDT](config/baobab/XAUT-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [XCH-USDT](config/baobab/XCH-USDT.config.json) | 2000 | 400 | 60000 | 9 |
 | [XCN-USDT](config/baobab/XCN-USDT.config.json) | 2000 | 400 | 60000 | 9 |
 | [XEC-KRW](config/baobab/XEC-KRW.config.json) | 2000 | 400 | 60000 | 5 |
@@ -322,7 +322,7 @@
 | [FLOKI-USDT](config/cypress/FLOKI-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [FLOW-KRW](config/cypress/FLOW-KRW.config.json) | 2000 | 400 | 60000 | 1 |
 | [FLR-USDT](config/cypress/FLR-USDT.config.json) | 2000 | 400 | 60000 | 11 |
-| [FORM-USDT](config/cypress/FORM-USDT.config.json) | 2000 | 400 | 60000 | 11 |
+| [FORM-USDT](config/cypress/FORM-USDT.config.json) | 2000 | 400 | 60000 | 10 |
 | [FTT-USDT](config/cypress/FTT-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [GALA-USDT](config/cypress/GALA-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [GAS-KRW](config/cypress/GAS-KRW.config.json) | 2000 | 400 | 60000 | 3 |
@@ -331,7 +331,7 @@
 | [GNO-USDT](config/cypress/GNO-USDT.config.json) | 2000 | 400 | 60000 | 9 |
 | [GRASS-USDT](config/cypress/GRASS-USDT.config.json) | 2000 | 400 | 60000 | 10 |
 | [GRND-KRW](config/cypress/GRND-KRW.config.json) | 2000 | 400 | 60000 | 2 |
-| [GRND-USDT](config/cypress/GRND-USDT.config.json) | 2000 | 400 | 60000 | 3 |
+| [GRND-USDT](config/cypress/GRND-USDT.config.json) | 2000 | 400 | 60000 | 2 |
 | [GRT-KRW](config/cypress/GRT-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [GT-USDT](config/cypress/GT-USDT.config.json) | 2000 | 400 | 60000 | 3 |
 | [HBAR-KRW](config/cypress/HBAR-KRW.config.json) | 2000 | 400 | 60000 | 4 |
@@ -352,7 +352,7 @@
 | [JTO-USDT](config/cypress/JTO-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [JUP-USDT](config/cypress/JUP-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [KAIA-KRW](config/cypress/KAIA-KRW.config.json) | 2000 | 400 | 60000 | 4 |
-| [KAIA-USDT](config/cypress/KAIA-USDT.config.json) | 2000 | 400 | 60000 | 17 |
+| [KAIA-USDT](config/cypress/KAIA-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [KAITO-USDT](config/cypress/KAITO-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [KAS-USDT](config/cypress/KAS-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [KAVA-USDT](config/cypress/KAVA-USDT.config.json) | 2000 | 400 | 60000 | 13 |
@@ -390,7 +390,7 @@
 | [ONDO-USDT](config/cypress/ONDO-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [ONG-KRW](config/cypress/ONG-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [OSMO-USDT](config/cypress/OSMO-USDT.config.json) | 2000 | 400 | 60000 | 11 |
-| [PAXG-USDT](config/cypress/PAXG-USDT.config.json) | 2000 | 400 | 15000 | 12 |
+| [PAXG-USDT](config/cypress/PAXG-USDT.config.json) | 2000 | 400 | 15000 | 11 |
 | [PENDLE-USDT](config/cypress/PENDLE-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [PENGU-USDT](config/cypress/PENGU-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [PEPE-KRW](config/cypress/PEPE-KRW.config.json) | 2000 | 400 | 60000 | 4 |
@@ -460,7 +460,7 @@
 | [WIF-USDT](config/cypress/WIF-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [WLD-KRW](config/cypress/WLD-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [WLD-USDT](config/cypress/WLD-USDT.config.json) | 2000 | 400 | 60000 | 15 |
-| [XAUT-USDT](config/cypress/XAUT-USDT.config.json) | 2000 | 400 | 60000 | 15 |
+| [XAUT-USDT](config/cypress/XAUT-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [XCH-USDT](config/cypress/XCH-USDT.config.json) | 2000 | 400 | 60000 | 9 |
 | [XCN-USDT](config/cypress/XCN-USDT.config.json) | 2000 | 400 | 60000 | 9 |
 | [XEC-KRW](config/cypress/XEC-KRW.config.json) | 2000 | 400 | 60000 | 5 |
