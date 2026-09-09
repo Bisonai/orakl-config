@@ -1,0 +1,19 @@
+{
+  "name": "IDRP-USDT",
+  "fetchInterval": 2000,
+  "aggregateInterval": 400,
+  "submitInterval": 60000,
+  "feedDataFreshness": 60000,
+  "feeds": [
+    {
+      "name": "DragonSwap-IDRP-USDT",
+      "definition": {
+        "chainId": "8217",
+        "address": "0x9c76d9e9d8d95937df97290ff89d3fff33c2a9a7",
+        "type": "UniswapPool",
+        "token0Decimals": 6,
+        "token1Decimals": 6
+      }
+    }
+  ]
+}
