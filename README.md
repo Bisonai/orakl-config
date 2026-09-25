@@ -118,7 +118,7 @@
 | [KAVA-USDT](config/baobab/KAVA-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [KNC-KRW](config/baobab/KNC-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [KRW-USD](config/baobab/KRW-USD.config.json) | 10000 | 400 | 15000 | 3 |
-| [KRWO-USDT](config/baobab/KRWO-USDT.config.json) | 2000 | 400 | 15000 | 2 |
+| [KRWO-USDT](config/baobab/KRWO-USDT.config.json) | 2000 | 400 | 60000 | 2 |
 | [KSM-USDT](config/baobab/KSM-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [LDO-USDT](config/baobab/LDO-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [LINK-KRW](config/baobab/LINK-KRW.config.json) | 2000 | 400 | 60000 | 5 |
