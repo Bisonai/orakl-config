@@ -125,6 +125,17 @@ def generate_config_file(adapter_path: Path, aggregator_path: Path, output_file_
         json.dump(valid_configs, f, indent=4)
 
 if __name__ == "__main__":
+    # Every bundle written below is served at config.orakl.network and fetched
+    # by orakl-grafana's script/make_configs.py via a dynamically-built URL
+    # (config.orakl.network/{chain}_{setting}.json, setting in
+    # {configs, aggregators, adapters}), so none are dead output even when a
+    # grep for the literal filename finds no consumer.
+    # _adapters.json is the only one with NO other consumer: orakl node/cli use
+    # _configs.json, _aggregators.json and per-pair /adapter/<chain>/*.adapter.json.
+    # grafana currently discards the fetched adapter data (make_configs.py L37
+    # assigns `adapter` and never reads it), but dropping the bundle still 404s
+    # that fetch and raises KeyError there. To remove it properly: first drop
+    # "adapters" from make_configs.py settings and delete the L37 access.
     collect_json_files(Path("config/baobab"), "baobab_configs.json", False)
     collect_json_files(Path("config/cypress"), "cypress_configs.json", False)
     collect_json_files(Path("adapter/baobab"), "baobab_adapters.json", False)
