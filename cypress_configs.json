@@ -19779,15 +19779,6 @@
         }
       },
       {
-        "name": "gateio-wss-USDT-USD",
-        "definition": {
-          "type": "wss",
-          "provider": "gateio",
-          "base": "USDT",
-          "quote": "USD"
-        }
-      },
-      {
         "name": "okx-wss-USDT-USD",
         "definition": {
           "type": "wss",

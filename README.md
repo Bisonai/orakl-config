@@ -209,7 +209,7 @@
 | [USDC-USDT](config/baobab/USDC-USDT.config.json) | 2000 | 400 | 15000 | 17 |
 | [USDE-USDT](config/baobab/USDE-USDT.config.json) | 2000 | 400 | 60000 | 8 |
 | [USDT-KRW](config/baobab/USDT-KRW.config.json) | 2000 | 400 | 60000 | 5 |
-| [USDT-USD](config/baobab/USDT-USD.config.json) | 2000 | 400 | 60000 | 7 |
+| [USDT-USD](config/baobab/USDT-USD.config.json) | 2000 | 400 | 60000 | 6 |
 | [VET-USDT](config/baobab/VET-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [VIRTUAL-USDT](config/baobab/VIRTUAL-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [VTHO-USDT](config/baobab/VTHO-USDT.config.json) | 2000 | 400 | 60000 | 9 |
@@ -449,7 +449,7 @@
 | [USDC-USDT](config/cypress/USDC-USDT.config.json) | 2000 | 400 | 15000 | 17 |
 | [USDE-USDT](config/cypress/USDE-USDT.config.json) | 2000 | 400 | 60000 | 8 |
 | [USDT-KRW](config/cypress/USDT-KRW.config.json) | 2000 | 400 | 60000 | 5 |
-| [USDT-USD](config/cypress/USDT-USD.config.json) | 2000 | 400 | 60000 | 7 |
+| [USDT-USD](config/cypress/USDT-USD.config.json) | 2000 | 400 | 60000 | 6 |
 | [VET-USDT](config/cypress/VET-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [VIRTUAL-USDT](config/cypress/VIRTUAL-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [VTHO-USDT](config/cypress/VTHO-USDT.config.json) | 2000 | 400 | 60000 | 9 |
