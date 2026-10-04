@@ -6249,15 +6249,6 @@
         }
       },
       {
-        "name": "bybit-wss-ELIZAOS-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bybit",
-          "base": "ELIZAOS",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "gateio-wss-ELIZAOS-USDT",
         "definition": {
           "type": "wss",
@@ -8583,15 +8574,6 @@
         "definition": {
           "type": "wss",
           "provider": "binance",
-          "base": "HOT",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bybit-wss-HOT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bybit",
           "base": "HOT",
           "quote": "USDT"
         }
@@ -19160,15 +19142,6 @@
         "definition": {
           "type": "wss",
           "provider": "kucoin",
-          "base": "TUSD",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bybit-wss-TUSD-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bybit",
           "base": "TUSD",
           "quote": "USDT"
         }

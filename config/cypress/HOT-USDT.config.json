@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "bybit-wss-HOT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bybit",
-        "base": "HOT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "crypto-wss-HOT-USDT",
       "definition": {
         "type": "wss",

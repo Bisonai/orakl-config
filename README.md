@@ -68,7 +68,7 @@
 | [EARNUSDT-USDT](config/baobab/EARNUSDT-USDT.config.json) | 2000 | 400 | 60000 | 1 |
 | [EGLD-USDT](config/baobab/EGLD-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [EIGEN-USDT](config/baobab/EIGEN-USDT.config.json) | 2000 | 400 | 60000 | 15 |
-| [ELIZAOS-USDT](config/baobab/ELIZAOS-USDT.config.json) | 2000 | 400 | 60000 | 6 |
+| [ELIZAOS-USDT](config/baobab/ELIZAOS-USDT.config.json) | 2000 | 400 | 60000 | 5 |
 | [ENA-USDT](config/baobab/ENA-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [ENS-KRW](config/baobab/ENS-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [ETC-KRW](config/baobab/ETC-KRW.config.json) | 2000 | 400 | 60000 | 4 |
@@ -96,7 +96,7 @@
 | [GT-USDT](config/baobab/GT-USDT.config.json) | 2000 | 400 | 60000 | 3 |
 | [HBAR-KRW](config/baobab/HBAR-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [HNT-USDT](config/baobab/HNT-USDT.config.json) | 2000 | 400 | 60000 | 11 |
-| [HOT-USDT](config/baobab/HOT-USDT.config.json) | 2000 | 400 | 60000 | 12 |
+| [HOT-USDT](config/baobab/HOT-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [HYPE-USDT](config/baobab/HYPE-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [IDR-USD](config/baobab/IDR-USD.config.json) | 10000 | 400 | 60000 | 3 |
 | [IDRP-USDT](config/baobab/IDRP-USDT.config.json) | 2000 | 400 | 60000 | 1 |
@@ -203,7 +203,7 @@
 | [TRUMP-USDT](config/baobab/TRUMP-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [TRX-KRW](config/baobab/TRX-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [TRX-USDT](config/baobab/TRX-USDT.config.json) | 2000 | 400 | 15000 | 15 |
-| [TUSD-USDT](config/baobab/TUSD-USDT.config.json) | 2000 | 400 | 60000 | 10 |
+| [TUSD-USDT](config/baobab/TUSD-USDT.config.json) | 2000 | 400 | 60000 | 9 |
 | [TWT-USDT](config/baobab/TWT-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [UNI-USDT](config/baobab/UNI-USDT.config.json) | 2000 | 400 | 15000 | 17 |
 | [USDC-USDT](config/baobab/USDC-USDT.config.json) | 2000 | 400 | 15000 | 17 |
@@ -308,7 +308,7 @@
 | [EARNUSDT-USDT](config/cypress/EARNUSDT-USDT.config.json) | 2000 | 400 | 60000 | 1 |
 | [EGLD-USDT](config/cypress/EGLD-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [EIGEN-USDT](config/cypress/EIGEN-USDT.config.json) | 2000 | 400 | 60000 | 15 |
-| [ELIZAOS-USDT](config/cypress/ELIZAOS-USDT.config.json) | 2000 | 400 | 60000 | 6 |
+| [ELIZAOS-USDT](config/cypress/ELIZAOS-USDT.config.json) | 2000 | 400 | 60000 | 5 |
 | [ENA-USDT](config/cypress/ENA-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [ENS-KRW](config/cypress/ENS-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [ETC-KRW](config/cypress/ETC-KRW.config.json) | 2000 | 400 | 60000 | 4 |
@@ -336,7 +336,7 @@
 | [GT-USDT](config/cypress/GT-USDT.config.json) | 2000 | 400 | 60000 | 3 |
 | [HBAR-KRW](config/cypress/HBAR-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [HNT-USDT](config/cypress/HNT-USDT.config.json) | 2000 | 400 | 60000 | 11 |
-| [HOT-USDT](config/cypress/HOT-USDT.config.json) | 2000 | 400 | 60000 | 12 |
+| [HOT-USDT](config/cypress/HOT-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [HYPE-USDT](config/cypress/HYPE-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [IDR-USD](config/cypress/IDR-USD.config.json) | 10000 | 400 | 60000 | 3 |
 | [IDRP-USDT](config/cypress/IDRP-USDT.config.json) | 2000 | 400 | 60000 | 1 |
@@ -443,7 +443,7 @@
 | [TRUMP-USDT](config/cypress/TRUMP-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [TRX-KRW](config/cypress/TRX-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [TRX-USDT](config/cypress/TRX-USDT.config.json) | 2000 | 400 | 15000 | 15 |
-| [TUSD-USDT](config/cypress/TUSD-USDT.config.json) | 2000 | 400 | 60000 | 10 |
+| [TUSD-USDT](config/cypress/TUSD-USDT.config.json) | 2000 | 400 | 60000 | 9 |
 | [TWT-USDT](config/cypress/TWT-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [UNI-USDT](config/cypress/UNI-USDT.config.json) | 2000 | 400 | 15000 | 17 |
 | [USDC-USDT](config/cypress/USDC-USDT.config.json) | 2000 | 400 | 15000 | 17 |
