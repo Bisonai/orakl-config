@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "bybit-wss-TUSD-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bybit",
-        "base": "TUSD",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-TUSD-USDT",
       "definition": {
         "type": "wss",

@@ -23,7 +23,7 @@
 | [AUCTION-KRW](config/baobab/AUCTION-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [AVAX-KRW](config/baobab/AVAX-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [AVAX-USDT](config/baobab/AVAX-USDT.config.json) | 2000 | 400 | 15000 | 18 |
-| [AVL-USDT](config/baobab/AVL-USDT.config.json) | 2000 | 400 | 60000 | 8 |
+| [AVL-USDT](config/baobab/AVL-USDT.config.json) | 2000 | 400 | 60000 | 2 |
 | [AWE-KRW](config/baobab/AWE-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [AXL-USDT](config/baobab/AXL-USDT.config.json) | 2000 | 400 | 60000 | 7 |
 | [AXS-KRW](config/baobab/AXS-KRW.config.json) | 2000 | 400 | 60000 | 4 |
@@ -68,7 +68,7 @@
 | [EARNUSDT-USDT](config/baobab/EARNUSDT-USDT.config.json) | 2000 | 400 | 60000 | 1 |
 | [EGLD-USDT](config/baobab/EGLD-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [EIGEN-USDT](config/baobab/EIGEN-USDT.config.json) | 2000 | 400 | 60000 | 15 |
-| [ELIZAOS-USDT](config/baobab/ELIZAOS-USDT.config.json) | 2000 | 400 | 60000 | 6 |
+| [ELIZAOS-USDT](config/baobab/ELIZAOS-USDT.config.json) | 2000 | 400 | 60000 | 5 |
 | [ENA-USDT](config/baobab/ENA-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [ENS-KRW](config/baobab/ENS-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [ETC-KRW](config/baobab/ETC-KRW.config.json) | 2000 | 400 | 60000 | 4 |
@@ -96,7 +96,7 @@
 | [GT-USDT](config/baobab/GT-USDT.config.json) | 2000 | 400 | 60000 | 3 |
 | [HBAR-KRW](config/baobab/HBAR-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [HNT-USDT](config/baobab/HNT-USDT.config.json) | 2000 | 400 | 60000 | 11 |
-| [HOT-USDT](config/baobab/HOT-USDT.config.json) | 2000 | 400 | 60000 | 12 |
+| [HOT-USDT](config/baobab/HOT-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [HYPE-USDT](config/baobab/HYPE-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [IDR-USD](config/baobab/IDR-USD.config.json) | 10000 | 400 | 60000 | 3 |
 | [IDRP-USDT](config/baobab/IDRP-USDT.config.json) | 2000 | 400 | 60000 | 1 |
@@ -203,13 +203,13 @@
 | [TRUMP-USDT](config/baobab/TRUMP-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [TRX-KRW](config/baobab/TRX-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [TRX-USDT](config/baobab/TRX-USDT.config.json) | 2000 | 400 | 15000 | 15 |
-| [TUSD-USDT](config/baobab/TUSD-USDT.config.json) | 2000 | 400 | 60000 | 10 |
+| [TUSD-USDT](config/baobab/TUSD-USDT.config.json) | 2000 | 400 | 60000 | 9 |
 | [TWT-USDT](config/baobab/TWT-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [UNI-USDT](config/baobab/UNI-USDT.config.json) | 2000 | 400 | 15000 | 17 |
 | [USDC-USDT](config/baobab/USDC-USDT.config.json) | 2000 | 400 | 15000 | 17 |
 | [USDE-USDT](config/baobab/USDE-USDT.config.json) | 2000 | 400 | 60000 | 8 |
 | [USDT-KRW](config/baobab/USDT-KRW.config.json) | 2000 | 400 | 60000 | 5 |
-| [USDT-USD](config/baobab/USDT-USD.config.json) | 2000 | 400 | 60000 | 7 |
+| [USDT-USD](config/baobab/USDT-USD.config.json) | 2000 | 400 | 60000 | 6 |
 | [VET-USDT](config/baobab/VET-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [VIRTUAL-USDT](config/baobab/VIRTUAL-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [VTHO-USDT](config/baobab/VTHO-USDT.config.json) | 2000 | 400 | 60000 | 9 |
@@ -263,7 +263,7 @@
 | [AUCTION-KRW](config/cypress/AUCTION-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [AVAX-KRW](config/cypress/AVAX-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [AVAX-USDT](config/cypress/AVAX-USDT.config.json) | 2000 | 400 | 15000 | 18 |
-| [AVL-USDT](config/cypress/AVL-USDT.config.json) | 2000 | 400 | 60000 | 8 |
+| [AVL-USDT](config/cypress/AVL-USDT.config.json) | 2000 | 400 | 60000 | 2 |
 | [AWE-KRW](config/cypress/AWE-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [AXL-USDT](config/cypress/AXL-USDT.config.json) | 2000 | 400 | 60000 | 7 |
 | [AXS-KRW](config/cypress/AXS-KRW.config.json) | 2000 | 400 | 60000 | 4 |
@@ -308,7 +308,7 @@
 | [EARNUSDT-USDT](config/cypress/EARNUSDT-USDT.config.json) | 2000 | 400 | 60000 | 1 |
 | [EGLD-USDT](config/cypress/EGLD-USDT.config.json) | 2000 | 400 | 60000 | 15 |
 | [EIGEN-USDT](config/cypress/EIGEN-USDT.config.json) | 2000 | 400 | 60000 | 15 |
-| [ELIZAOS-USDT](config/cypress/ELIZAOS-USDT.config.json) | 2000 | 400 | 60000 | 6 |
+| [ELIZAOS-USDT](config/cypress/ELIZAOS-USDT.config.json) | 2000 | 400 | 60000 | 5 |
 | [ENA-USDT](config/cypress/ENA-USDT.config.json) | 2000 | 400 | 60000 | 16 |
 | [ENS-KRW](config/cypress/ENS-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [ETC-KRW](config/cypress/ETC-KRW.config.json) | 2000 | 400 | 60000 | 4 |
@@ -336,7 +336,7 @@
 | [GT-USDT](config/cypress/GT-USDT.config.json) | 2000 | 400 | 60000 | 3 |
 | [HBAR-KRW](config/cypress/HBAR-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [HNT-USDT](config/cypress/HNT-USDT.config.json) | 2000 | 400 | 60000 | 11 |
-| [HOT-USDT](config/cypress/HOT-USDT.config.json) | 2000 | 400 | 60000 | 12 |
+| [HOT-USDT](config/cypress/HOT-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [HYPE-USDT](config/cypress/HYPE-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [IDR-USD](config/cypress/IDR-USD.config.json) | 10000 | 400 | 60000 | 3 |
 | [IDRP-USDT](config/cypress/IDRP-USDT.config.json) | 2000 | 400 | 60000 | 1 |
@@ -443,13 +443,13 @@
 | [TRUMP-USDT](config/cypress/TRUMP-USDT.config.json) | 2000 | 400 | 60000 | 14 |
 | [TRX-KRW](config/cypress/TRX-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [TRX-USDT](config/cypress/TRX-USDT.config.json) | 2000 | 400 | 15000 | 15 |
-| [TUSD-USDT](config/cypress/TUSD-USDT.config.json) | 2000 | 400 | 60000 | 10 |
+| [TUSD-USDT](config/cypress/TUSD-USDT.config.json) | 2000 | 400 | 60000 | 9 |
 | [TWT-USDT](config/cypress/TWT-USDT.config.json) | 2000 | 400 | 60000 | 11 |
 | [UNI-USDT](config/cypress/UNI-USDT.config.json) | 2000 | 400 | 15000 | 17 |
 | [USDC-USDT](config/cypress/USDC-USDT.config.json) | 2000 | 400 | 15000 | 17 |
 | [USDE-USDT](config/cypress/USDE-USDT.config.json) | 2000 | 400 | 60000 | 8 |
 | [USDT-KRW](config/cypress/USDT-KRW.config.json) | 2000 | 400 | 60000 | 5 |
-| [USDT-USD](config/cypress/USDT-USD.config.json) | 2000 | 400 | 60000 | 7 |
+| [USDT-USD](config/cypress/USDT-USD.config.json) | 2000 | 400 | 60000 | 6 |
 | [VET-USDT](config/cypress/VET-USDT.config.json) | 2000 | 400 | 60000 | 13 |
 | [VIRTUAL-USDT](config/cypress/VIRTUAL-USDT.config.json) | 2000 | 400 | 60000 | 17 |
 | [VTHO-USDT](config/cypress/VTHO-USDT.config.json) | 2000 | 400 | 60000 | 9 |

@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "bybit-wss-ELIZAOS-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bybit",
-        "base": "ELIZAOS",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-ELIZAOS-USDT",
       "definition": {
         "type": "wss",
