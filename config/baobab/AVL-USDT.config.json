@@ -22,60 +22,6 @@
         "base": "AVL",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "lbank-wss-AVL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "lbank",
-        "base": "AVL",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "coinex-wss-AVL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "AVL",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "huobi-wss-AVL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "huobi",
-        "base": "AVL",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "mexc-wss-AVL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "mexc",
-        "base": "AVL",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "bingx-wss-AVL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bingx",
-        "base": "AVL",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "orangex-wss-AVL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "orangex",
-        "base": "AVL",
-        "quote": "USDT"
-      }
     }
   ]
 }

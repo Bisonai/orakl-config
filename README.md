@@ -23,7 +23,7 @@
 | [AUCTION-KRW](config/baobab/AUCTION-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [AVAX-KRW](config/baobab/AVAX-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [AVAX-USDT](config/baobab/AVAX-USDT.config.json) | 2000 | 400 | 15000 | 18 |
-| [AVL-USDT](config/baobab/AVL-USDT.config.json) | 2000 | 400 | 60000 | 8 |
+| [AVL-USDT](config/baobab/AVL-USDT.config.json) | 2000 | 400 | 60000 | 2 |
 | [AWE-KRW](config/baobab/AWE-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [AXL-USDT](config/baobab/AXL-USDT.config.json) | 2000 | 400 | 60000 | 7 |
 | [AXS-KRW](config/baobab/AXS-KRW.config.json) | 2000 | 400 | 60000 | 4 |
@@ -263,7 +263,7 @@
 | [AUCTION-KRW](config/cypress/AUCTION-KRW.config.json) | 2000 | 400 | 60000 | 4 |
 | [AVAX-KRW](config/cypress/AVAX-KRW.config.json) | 2000 | 400 | 60000 | 5 |
 | [AVAX-USDT](config/cypress/AVAX-USDT.config.json) | 2000 | 400 | 15000 | 18 |
-| [AVL-USDT](config/cypress/AVL-USDT.config.json) | 2000 | 400 | 60000 | 8 |
+| [AVL-USDT](config/cypress/AVL-USDT.config.json) | 2000 | 400 | 60000 | 2 |
 | [AWE-KRW](config/cypress/AWE-KRW.config.json) | 2000 | 400 | 60000 | 3 |
 | [AXL-USDT](config/cypress/AXL-USDT.config.json) | 2000 | 400 | 60000 | 7 |
 | [AXS-KRW](config/cypress/AXS-KRW.config.json) | 2000 | 400 | 60000 | 4 |
