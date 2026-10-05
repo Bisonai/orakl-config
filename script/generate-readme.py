@@ -49,14 +49,16 @@ def generate_config_list(config_dir: Path):
 
         # Validate type, not just presence: a present-but-wrong-typed value
         # (e.g. an object or null) would otherwise reach make_line and either
-        # abort (dict -> KeyError) or render a literal 'None' cell.
-        scalar_types = {
-            'name': str,
-            'fetchInterval': int,
-            'aggregateInterval': int,
-            'submitInterval': int,
-        }
-        bad = [k for k, t in scalar_types.items() if not isinstance(data.get(k), t)]
+        # abort (dict -> KeyError) or render a literal 'None' cell. Intervals
+        # accept any JSON number (int or float) but not bool, which subclasses
+        # int yet is not a valid interval.
+        def valid_scalar(key, value):
+            if key == 'name':
+                return isinstance(value, str)
+            return isinstance(value, (int, float)) and not isinstance(value, bool)
+
+        bad = [k for k in ('name', 'fetchInterval', 'aggregateInterval', 'submitInterval')
+               if not valid_scalar(k, data.get(k))]
         if bad:
             print('skipping {}: field(s) missing or not the expected type: {}'.format(config, ', '.join(bad)), file=sys.stderr)
             continue
