@@ -132,15 +132,6 @@
       }
     },
     {
-      "name": "xt-wss-MOVE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "xt",
-        "base": "MOVE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "orangex-wss-MOVE-USDT",
       "definition": {
         "type": "wss",

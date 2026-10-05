@@ -67,15 +67,6 @@
         "base": "SFP",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "xt-wss-SFP-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "xt",
-        "base": "SFP",
-        "quote": "USDT"
-      }
     }
   ]
 }

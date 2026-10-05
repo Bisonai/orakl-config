@@ -79,15 +79,6 @@
       }
     },
     {
-      "name": "xt-wss-STG-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "xt",
-        "base": "STG",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bingx-wss-STG-USDT",
       "definition": {
         "type": "wss",

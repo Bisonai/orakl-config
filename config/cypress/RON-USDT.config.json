@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "xt-wss-RON-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "xt",
-        "base": "RON",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "orangex-wss-RON-USDT",
       "definition": {
         "type": "wss",
