@@ -4192,15 +4192,6 @@
         }
       },
       {
-        "name": "crypto-wss-CKB-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "crypto",
-          "base": "CKB",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "gateio-wss-CKB-USDT",
         "definition": {
           "type": "wss",
@@ -11112,15 +11103,6 @@
         }
       },
       {
-        "name": "crypto-wss-LUNC-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "crypto",
-          "base": "LUNC",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "btse-wss-LUNC-USDT",
         "definition": {
           "type": "wss",
@@ -11260,15 +11242,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "MANA",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "crypto-wss-MANA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "crypto",
           "base": "MANA",
           "quote": "USDT"
         }
@@ -11661,15 +11634,6 @@
         }
       },
       {
-        "name": "crypto-wss-MELANIA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "crypto",
-          "base": "MELANIA",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "gateio-wss-MELANIA-USDT",
         "definition": {
           "type": "wss",
@@ -11845,15 +11809,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "MINA",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "crypto-wss-MINA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "crypto",
           "base": "MINA",
           "quote": "USDT"
         }
@@ -12268,15 +12223,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "MOVE",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "crypto-wss-MOVE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "crypto",
           "base": "MOVE",
           "quote": "USDT"
         }
@@ -14518,15 +14464,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "POPCAT",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "crypto-wss-POPCAT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "crypto",
           "base": "POPCAT",
           "quote": "USDT"
         }
@@ -19879,15 +19816,6 @@
         }
       },
       {
-        "name": "crypto-wss-W-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "crypto",
-          "base": "W",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "btse-wss-W-USDT",
         "definition": {
           "type": "wss",
@@ -21469,15 +21397,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "ZIL",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "crypto-wss-ZIL-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "crypto",
           "base": "ZIL",
           "quote": "USDT"
         }

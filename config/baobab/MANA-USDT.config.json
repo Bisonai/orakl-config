@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "crypto-wss-MANA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "crypto",
-        "base": "MANA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "btse-wss-MANA-USDT",
       "definition": {
         "type": "wss",

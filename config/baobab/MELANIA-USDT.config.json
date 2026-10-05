@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "crypto-wss-MELANIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "crypto",
-        "base": "MELANIA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-MELANIA-USDT",
       "definition": {
         "type": "wss",
