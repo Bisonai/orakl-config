@@ -94,15 +94,6 @@
         "base": "HOT",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "xt-wss-HOT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "xt",
-        "base": "HOT",
-        "quote": "USDT"
-      }
     }
   ]
 }

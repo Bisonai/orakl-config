@@ -132,15 +132,6 @@
       }
     },
     {
-      "name": "xt-wss-MASK-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "xt",
-        "base": "MASK",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "orangex-wss-MASK-USDT",
       "definition": {
         "type": "wss",

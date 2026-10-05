@@ -114,15 +114,6 @@
       }
     },
     {
-      "name": "xt-wss-ZRX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "xt",
-        "base": "ZRX",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "orangex-wss-ZRX-USDT",
       "definition": {
         "type": "wss",

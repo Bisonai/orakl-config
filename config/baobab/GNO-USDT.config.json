@@ -76,15 +76,6 @@
         "base": "GNO",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "xt-wss-GNO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "xt",
-        "base": "GNO",
-        "quote": "USDT"
-      }
     }
   ]
 }

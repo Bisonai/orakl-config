@@ -96,15 +96,6 @@
       }
     },
     {
-      "name": "xt-wss-SONIC-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "xt",
-        "base": "SONIC",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "orangex-wss-SONIC-USDT",
       "definition": {
         "type": "wss",

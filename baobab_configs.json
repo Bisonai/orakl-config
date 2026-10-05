@@ -382,15 +382,6 @@
           "base": "ACH",
           "quote": "USDT"
         }
-      },
-      {
-        "name": "xt-wss-ACH-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "xt",
-          "base": "ACH",
-          "quote": "USDT"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -4991,15 +4982,6 @@
           "base": "CVX",
           "quote": "USDT"
         }
-      },
-      {
-        "name": "xt-wss-CVX-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "xt",
-          "base": "CVX",
-          "quote": "USDT"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -7632,15 +7614,6 @@
         }
       },
       {
-        "name": "xt-wss-FTT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "xt",
-          "base": "FTT",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "orangex-wss-FTT-USDT",
         "definition": {
           "type": "wss",
@@ -8040,15 +8013,6 @@
         "definition": {
           "type": "wss",
           "provider": "bitmart",
-          "base": "GNO",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "xt-wss-GNO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "xt",
           "base": "GNO",
           "quote": "USDT"
         }
@@ -8535,15 +8499,6 @@
         "definition": {
           "type": "wss",
           "provider": "bitmart",
-          "base": "HOT",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "xt-wss-HOT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "xt",
           "base": "HOT",
           "quote": "USDT"
         }
@@ -9451,15 +9406,6 @@
         }
       },
       {
-        "name": "xt-wss-JST-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "xt",
-          "base": "JST",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "lbank-wss-JST-USDT",
         "definition": {
           "type": "wss",
@@ -10049,15 +9995,6 @@
         "definition": {
           "type": "wss",
           "provider": "bitmart",
-          "base": "KAITO",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "xt-wss-KAITO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "xt",
           "base": "KAITO",
           "quote": "USDT"
         }
@@ -11589,15 +11526,6 @@
         }
       },
       {
-        "name": "xt-wss-MASK-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "xt",
-          "base": "MASK",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "orangex-wss-MASK-USDT",
         "definition": {
           "type": "wss",
@@ -12439,15 +12367,6 @@
         "definition": {
           "type": "wss",
           "provider": "bitmart",
-          "base": "MOVE",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "xt-wss-MOVE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "xt",
           "base": "MOVE",
           "quote": "USDT"
         }
@@ -15423,15 +15342,6 @@
         }
       },
       {
-        "name": "xt-wss-RON-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "xt",
-          "base": "RON",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "orangex-wss-RON-USDT",
         "definition": {
           "type": "wss",
@@ -16062,15 +15972,6 @@
         }
       },
       {
-        "name": "xt-wss-SAFE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "xt",
-          "base": "SAFE",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "orangex-wss-SAFE-USDT",
         "definition": {
           "type": "wss",
@@ -16543,15 +16444,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "SFP",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "xt-wss-SFP-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "xt",
           "base": "SFP",
           "quote": "USDT"
         }
@@ -17482,15 +17374,6 @@
         }
       },
       {
-        "name": "xt-wss-SONIC-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "xt",
-          "base": "SONIC",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "orangex-wss-SONIC-USDT",
         "definition": {
           "type": "wss",
@@ -17677,15 +17560,6 @@
         "definition": {
           "type": "wss",
           "provider": "huobi",
-          "base": "STG",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "xt-wss-STG-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "xt",
           "base": "STG",
           "quote": "USDT"
         }
@@ -18279,15 +18153,6 @@
         "definition": {
           "type": "wss",
           "provider": "bitmart",
-          "base": "TFUEL",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "xt-wss-TFUEL-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "xt",
           "base": "TFUEL",
           "quote": "USDT"
         }
@@ -18972,15 +18837,6 @@
         "definition": {
           "type": "wss",
           "provider": "bitmart",
-          "base": "TUSD",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "xt-wss-TUSD-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "xt",
           "base": "TUSD",
           "quote": "USDT"
         }
@@ -19973,15 +19829,6 @@
         "definition": {
           "type": "wss",
           "provider": "bitmart",
-          "base": "VTHO",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "xt-wss-VTHO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "xt",
           "base": "VTHO",
           "quote": "USDT"
         }
@@ -22349,15 +22196,6 @@
         }
       },
       {
-        "name": "xt-wss-ZRX-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "xt",
-          "base": "ZRX",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "orangex-wss-ZRX-USDT",
         "definition": {
           "type": "wss",
@@ -22496,15 +22334,6 @@
         "definition": {
           "type": "wss",
           "provider": "huobi",
-          "base": "STG",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "xt-wss-STG-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "xt",
           "base": "STG",
           "quote": "USDT"
         }
