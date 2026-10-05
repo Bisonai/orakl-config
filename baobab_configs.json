@@ -247,15 +247,6 @@
           "base": "AAVE",
           "quote": "KRW"
         }
-      },
-      {
-        "name": "gopax-wss-AAVE-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "gopax",
-          "base": "AAVE",
-          "quote": "KRW"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -1819,15 +1810,6 @@
         "definition": {
           "type": "wss",
           "provider": "coinone",
-          "base": "AVAX",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "gopax-wss-AVAX-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "gopax",
           "base": "AVAX",
           "quote": "KRW"
         }
@@ -7899,15 +7881,6 @@
           "base": "GLM",
           "quote": "KRW"
         }
-      },
-      {
-        "name": "gopax-wss-GLM-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "gopax",
-          "base": "GLM",
-          "quote": "KRW"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -10265,15 +10238,6 @@
         "definition": {
           "type": "wss",
           "provider": "coinone",
-          "base": "KNC",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "gopax-wss-KNC-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "gopax",
           "base": "KNC",
           "quote": "KRW"
         }
@@ -14242,15 +14206,6 @@
           "base": "POL",
           "quote": "KRW"
         }
-      },
-      {
-        "name": "gopax-wss-POL-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "gopax",
-          "base": "POL",
-          "quote": "KRW"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -16114,15 +16069,6 @@
           "base": "SEI",
           "quote": "KRW"
         }
-      },
-      {
-        "name": "gopax-wss-SEI-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "gopax",
-          "base": "SEI",
-          "quote": "KRW"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -16775,15 +16721,6 @@
         "definition": {
           "type": "wss",
           "provider": "coinone",
-          "base": "SNT",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "gopax-wss-SNT-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "gopax",
           "base": "SNT",
           "quote": "KRW"
         }
@@ -17550,15 +17487,6 @@
         "definition": {
           "type": "wss",
           "provider": "coinone",
-          "base": "SUI",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "gopax-wss-SUI-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "gopax",
           "base": "SUI",
           "quote": "KRW"
         }
@@ -20686,15 +20614,6 @@
         "definition": {
           "type": "wss",
           "provider": "coinone",
-          "base": "XEC",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "gopax-wss-XEC-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "gopax",
           "base": "XEC",
           "quote": "KRW"
         }

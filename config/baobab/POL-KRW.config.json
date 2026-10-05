@@ -40,15 +40,6 @@
         "base": "POL",
         "quote": "KRW"
       }
-    },
-    {
-      "name": "gopax-wss-POL-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "gopax",
-        "base": "POL",
-        "quote": "KRW"
-      }
     }
   ]
 }
