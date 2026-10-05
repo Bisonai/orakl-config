@@ -41,7 +41,7 @@ python script/collect-files.py
 
 ## Generate per-pair table
 
-The `generate-readme.py` script prints the per-pair interval tables for the `config/<network>/` pairs — one markdown section per network (`## Config Baobab`, `## Config Cypress`) — to standard output. The pair links are repo-root-relative, so the output is meant to be read against the repo root. The tables are not committed to `README.md`; run the script on demand. Do not redirect the output into `README.md` — that file is now hand-written prose, not generated.
+The `generate-readme.py` script prints the per-pair interval tables to standard output: one markdown section per network for the `config/<network>/` pairs (`## Config Baobab`, `## Config Cypress`) followed by one per network for the `mag7/<network>/` feeds (`## Mag7 Baobab`, `## Mag7 Cypress`). The mag7 schema differs — it has no `aggregateInterval`/`submitInterval`, so the mag7 sections use their own columns (`name | interval | heartbeat | threshold | feeds`). The links are repo-root-relative, so the output is meant to be read against the repo root. The tables are not committed to `README.md`; run the script on demand. Do not redirect the output into `README.md` — that file is now hand-written prose, not generated.
 
 Execute from root directory of this repository.
 

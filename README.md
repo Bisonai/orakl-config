@@ -10,7 +10,7 @@ Price-feed configuration for the Orakl Network oracle, per network (`baobab`, `c
 
 ## Per-pair table
 
-The per-pair interval table (`name | fetchInterval | aggregateInterval | submitInterval | feeds`) for the `config/<network>/` pairs is not committed (mag7 feeds are not included). Regenerate it on demand with:
+The per-pair interval table (`name | fetchInterval | aggregateInterval | submitInterval | feeds`) for the `config/<network>/` pairs, plus a separate mag7 table (`name | interval | heartbeat | threshold | feeds`) for the `mag7/<network>/` feeds, is not committed. Regenerate both on demand with:
 
 ```
 python script/generate-readme.py
