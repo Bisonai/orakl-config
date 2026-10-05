@@ -39,22 +39,12 @@ Execute from root directory of this repository.
 python script/collect-files.py
 ```
 
-## Generate README.md
+## Generate per-pair table
 
-The `generate-readme.py` script will check whether all connections between aggregators and adapters are valid, and prints out new version of README to standard output.
-
-Execute from root directory of this repository.
-
-```
-python script/generate-readme.py >! README.md
-```
-
-## Generate HISTORY.md
-
-The `generate-history.py` script fetches all previous version of adapters and aggregators, and prints out them in markdown format to standard output.
+The `generate-readme.py` script prints the per-pair interval tables for the `config/<network>/` pairs — one markdown section per network (`## Config Baobab`, `## Config Cypress`) — to standard output. The pair links are repo-root-relative, so the output is meant to be read against the repo root. The tables are not committed to `README.md`; run the script on demand. Do not redirect the output into `README.md` — that file is now hand-written prose, not generated.
 
 Execute from root directory of this repository.
 
 ```
-python script/generate-history.py >! HISTORY.md
+python script/generate-readme.py
 ```
