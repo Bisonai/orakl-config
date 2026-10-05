@@ -34,28 +34,10 @@
       }
     },
     {
-      "name": "mexc-wss-STG-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "mexc",
-        "base": "STG",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-STG-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
-        "base": "STG",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "lbank-wss-STG-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "lbank",
         "base": "STG",
         "quote": "USDT"
       }

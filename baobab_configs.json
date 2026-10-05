@@ -2986,15 +2986,6 @@
     "submitInterval": 60000,
     "feeds": [
       {
-        "name": "upbit-wss-BONK-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "BONK",
-          "quote": "KRW"
-        }
-      },
-      {
         "name": "korbit-wss-BONK-KRW",
         "definition": {
           "type": "wss",
@@ -5718,15 +5709,6 @@
         "definition": {
           "type": "wss",
           "provider": "crypto",
-          "base": "DYDX",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "btse-wss-DYDX-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "btse",
           "base": "DYDX",
           "quote": "USDT"
         }
@@ -11722,15 +11704,6 @@
           "base": "MELANIA",
           "quote": "USDT"
         }
-      },
-      {
-        "name": "orangex-wss-MELANIA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "orangex",
-          "base": "MELANIA",
-          "quote": "USDT"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -12223,15 +12196,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "MOVE",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "btse-wss-MOVE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "btse",
           "base": "MOVE",
           "quote": "USDT"
         }
@@ -15837,15 +15801,6 @@
         }
       },
       {
-        "name": "lbank-wss-SAFE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "lbank",
-          "base": "SAFE",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "coinex-wss-SAFE-USDT",
         "definition": {
           "type": "wss",
@@ -16012,15 +15967,6 @@
         "definition": {
           "type": "wss",
           "provider": "crypto",
-          "base": "SAND",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "btse-wss-SAND-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "btse",
           "base": "SAND",
           "quote": "USDT"
         }
@@ -17221,15 +17167,6 @@
     "submitInterval": 60000,
     "feeds": [
       {
-        "name": "kucoin-wss-SONIC-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "kucoin",
-          "base": "SONIC",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "bybit-wss-SONIC-USDT",
         "definition": {
           "type": "wss",
@@ -17457,28 +17394,10 @@
         }
       },
       {
-        "name": "mexc-wss-STG-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "mexc",
-          "base": "STG",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "bitget-wss-STG-USDT",
         "definition": {
           "type": "wss",
           "provider": "bitget",
-          "base": "STG",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "lbank-wss-STG-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "lbank",
           "base": "STG",
           "quote": "USDT"
         }
@@ -17838,15 +17757,6 @@
         "definition": {
           "type": "wss",
           "provider": "gateio",
-          "base": "SUPER",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "lbank-wss-SUPER-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "lbank",
           "base": "SUPER",
           "quote": "USDT"
         }
@@ -20034,15 +19944,6 @@
         }
       },
       {
-        "name": "huobi-wss-WEMIX-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "huobi",
-          "base": "WEMIX",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "mexc-wss-WEMIX-USDT",
         "definition": {
           "type": "wss",
@@ -21769,15 +21670,6 @@
           "base": "ZKJ",
           "quote": "USDT"
         }
-      },
-      {
-        "name": "orangex-wss-ZKJ-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "orangex",
-          "base": "ZKJ",
-          "quote": "USDT"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -22213,28 +22105,10 @@
         }
       },
       {
-        "name": "mexc-wss-STG-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "mexc",
-          "base": "STG",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "bitget-wss-STG-USDT",
         "definition": {
           "type": "wss",
           "provider": "bitget",
-          "base": "STG",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "lbank-wss-STG-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "lbank",
           "base": "STG",
           "quote": "USDT"
         }

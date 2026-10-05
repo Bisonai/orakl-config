@@ -103,15 +103,6 @@
         "base": "MELANIA",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "orangex-wss-MELANIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "orangex",
-        "base": "MELANIA",
-        "quote": "USDT"
-      }
     }
   ]
 }

@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "huobi-wss-WEMIX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "huobi",
-        "base": "WEMIX",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "mexc-wss-WEMIX-USDT",
       "definition": {
         "type": "wss",
