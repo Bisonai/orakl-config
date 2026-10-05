@@ -1,0 +1,50 @@
+{
+  "name": "MSFT",
+  "decimals": 8,
+  "interval": 60000,
+  "feeds": [
+    {
+      "name": "MSFT",
+      "definition": {
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/MSFT?range=1d&interval=1m&includePrePost=true&events=div|split",
+        "headers": {
+          "Content-Type": "application/json",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "chart",
+              "result"
+            ]
+          },
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": [
+              "meta",
+              "regularMarketPrice"
+            ]
+          },
+          {
+            "function": "POW10",
+            "args": 8
+          },
+          {
+            "function": "ROUND"
+          }
+        ],
+        "location": "kr"
+      }
+    }
+  ],
+  "address": "0x0874b6cF008ed88B83eF5D8F9075e5bf348965dF",
+  "heartbeat": 3600000,
+  "threshold": 0.002,
+  "absoluteThreshold": 0.1
+}
