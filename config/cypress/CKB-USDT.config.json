@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "crypto-wss-CKB-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "crypto",
-        "base": "CKB",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-CKB-USDT",
       "definition": {
         "type": "wss",

@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "crypto-wss-MOVE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "crypto",
-        "base": "MOVE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "btse-wss-MOVE-USDT",
       "definition": {
         "type": "wss",

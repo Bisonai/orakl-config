@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "crypto-wss-POPCAT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "crypto",
-        "base": "POPCAT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "btse-wss-POPCAT-USDT",
       "definition": {
         "type": "wss",

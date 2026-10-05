@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "crypto-wss-MINA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "crypto",
-        "base": "MINA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-MINA-USDT",
       "definition": {
         "type": "wss",
