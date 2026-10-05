@@ -41,7 +41,7 @@ python script/collect-files.py
 
 ## Generate per-pair table
 
-The `generate-readme.py` script prints the per-pair interval tables for the `config/<network>/` pairs — one markdown section per network (`## Config Baobab`, `## Config Cypress`) — to standard output. The pair links are repo-root-relative, so the output is meant to be read against the repo root. The tables are not committed to `README.md`; run the script on demand.
+The `generate-readme.py` script prints the per-pair interval tables for the `config/<network>/` pairs — one markdown section per network (`## Config Baobab`, `## Config Cypress`) — to standard output. The pair links are repo-root-relative, so the output is meant to be read against the repo root. The tables are not committed to `README.md`; run the script on demand. Do not redirect the output into `README.md` — that file is now hand-written prose, not generated.
 
 Execute from root directory of this repository.
 
