@@ -41,7 +41,7 @@ python script/collect-files.py
 
 ## Generate per-pair table
 
-The `generate-readme.py` script checks whether all connections between aggregators and adapters are valid, and prints the full per-pair interval table (Config Baobab / Config Cypress) to standard output. The table is not committed to `README.md`; run the script on demand.
+The `generate-readme.py` script prints the per-pair interval table for the `config/<network>/` pairs (Config Baobab / Config Cypress) to standard output. The table is not committed to `README.md`; run the script on demand.
 
 Execute from root directory of this repository.
 
