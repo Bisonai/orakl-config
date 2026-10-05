@@ -31,11 +31,42 @@ def generate_config_list(config_dir: Path):
     make_line(keys)
     make_empty_line(keys)
     for config in configs:
-        data = load_json_from_path(config)
+        try:
+            data = load_json_from_path(config)
+        except (ValueError, OSError) as err:
+            # ValueError covers JSONDecodeError and UnicodeDecodeError
+            print('skipping {}: could not read/parse JSON ({})'.format(config, err), file=sys.stderr)
+            continue
+
+        if not isinstance(data, dict):
+            print('skipping {}: top-level JSON is not an object'.format(config), file=sys.stderr)
+            continue
+
+        feeds = data.get('feeds')
+        if not isinstance(feeds, list):
+            print('skipping {}: "feeds" missing, null, or not a list'.format(config), file=sys.stderr)
+            continue
+
+        # Validate type, not just presence: a present-but-wrong-typed value
+        # (e.g. an object or null) would otherwise reach make_line and either
+        # abort (dict -> KeyError) or render a literal 'None' cell. Intervals
+        # accept any JSON number (int or float) but not bool, which subclasses
+        # int yet is not a valid interval.
+        def valid_scalar(key, value):
+            if key == 'name':
+                return isinstance(value, str)
+            return isinstance(value, (int, float)) and not isinstance(value, bool)
+
+        bad = [k for k in ('name', 'fetchInterval', 'aggregateInterval', 'submitInterval')
+               if not valid_scalar(k, data.get(k))]
+        if bad:
+            print('skipping {}: field(s) missing or not the expected type: {}'.format(config, ', '.join(bad)), file=sys.stderr)
+            continue
+
         values = []
         for key in keys:
             if key == 'feeds':
-                values.append(len(data[key]))
+                values.append(len(feeds))
             elif key == 'name':
                 values.append({'url': config, 'value': data[key]})
             else:
