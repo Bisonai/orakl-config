@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "btse-wss-SAND-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "btse",
-        "base": "SAND",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-SAND-USDT",
       "definition": {
         "type": "wss",

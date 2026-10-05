@@ -6,15 +6,6 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "upbit-wss-BONK-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "upbit",
-        "base": "BONK",
-        "quote": "KRW"
-      }
-    },
-    {
       "name": "korbit-wss-BONK-KRW",
       "definition": {
         "type": "wss",

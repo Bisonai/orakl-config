@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "lbank-wss-SAFE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "lbank",
-        "base": "SAFE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "coinex-wss-SAFE-USDT",
       "definition": {
         "type": "wss",
