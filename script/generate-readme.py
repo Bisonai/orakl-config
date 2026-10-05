@@ -33,8 +33,13 @@ def generate_config_list(config_dir: Path):
     for config in configs:
         try:
             data = load_json_from_path(config)
-        except (json.JSONDecodeError, OSError) as err:
-            print('skipping {}: invalid JSON ({})'.format(config, err), file=sys.stderr)
+        except (ValueError, OSError) as err:
+            # ValueError covers JSONDecodeError and UnicodeDecodeError
+            print('skipping {}: could not read/parse JSON ({})'.format(config, err), file=sys.stderr)
+            continue
+
+        if not isinstance(data, dict):
+            print('skipping {}: top-level JSON is not an object'.format(config), file=sys.stderr)
             continue
 
         feeds = data.get('feeds')
@@ -42,9 +47,9 @@ def generate_config_list(config_dir: Path):
             print('skipping {}: "feeds" missing, null, or not a list'.format(config), file=sys.stderr)
             continue
 
-        missing = [k for k in ('fetchInterval', 'aggregateInterval', 'submitInterval') if k not in data]
+        missing = [k for k in ('name', 'fetchInterval', 'aggregateInterval', 'submitInterval') if k not in data]
         if missing:
-            print('skipping {}: missing interval field(s): {}'.format(config, ', '.join(missing)), file=sys.stderr)
+            print('skipping {}: missing field(s): {}'.format(config, ', '.join(missing)), file=sys.stderr)
             continue
 
         values = []
