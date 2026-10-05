@@ -23,15 +23,6 @@
         "base": "DAI",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "coinbase-wss-DAI-USD",
-      "definition": {
-        "type": "wss",
-        "provider": "coinbase",
-        "base": "DAI",
-        "quote": "USD"
-      }
     }
   ]
 }

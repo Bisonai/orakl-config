@@ -1086,15 +1086,6 @@
         }
       },
       {
-        "name": "coinbase-wss-APT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "coinbase",
-          "base": "APT",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "kucoin-wss-APT-USDT",
         "definition": {
           "type": "wss",
@@ -4592,15 +4583,6 @@
     "submitInterval": 60000,
     "feeds": [
       {
-        "name": "coinbase-wss-CRO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "coinbase",
-          "base": "CRO",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "kucoin-wss-CRO-USDT",
         "definition": {
           "type": "wss",
@@ -5059,15 +5041,6 @@
           "provider": "kraken",
           "base": "DAI",
           "quote": "USDT"
-        }
-      },
-      {
-        "name": "coinbase-wss-DAI-USD",
-        "definition": {
-          "type": "wss",
-          "provider": "coinbase",
-          "base": "DAI",
-          "quote": "USD"
         }
       }
     ]
@@ -9219,15 +9192,6 @@
         }
       },
       {
-        "name": "coinbase-wss-JASMY-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "coinbase",
-          "base": "JASMY",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "kucoin-wss-JASMY-USDT",
         "definition": {
           "type": "wss",
@@ -11584,15 +11548,6 @@
         }
       },
       {
-        "name": "coinbase-wss-MASK-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "coinbase",
-          "base": "MASK",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "kucoin-wss-MASK-USDT",
         "definition": {
           "type": "wss",
@@ -12020,15 +11975,6 @@
         "definition": {
           "type": "wss",
           "provider": "binance",
-          "base": "MINA",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "coinbase-wss-MINA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "coinbase",
           "base": "MINA",
           "quote": "USDT"
         }
@@ -15600,15 +15546,6 @@
         }
       },
       {
-        "name": "coinbase-wss-ROSE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "coinbase",
-          "base": "ROSE",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "kucoin-wss-ROSE-USDT",
         "definition": {
           "type": "wss",
@@ -16297,15 +16234,6 @@
         "definition": {
           "type": "wss",
           "provider": "binance",
-          "base": "SAND",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "coinbase-wss-SAND-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "coinbase",
           "base": "SAND",
           "quote": "USDT"
         }

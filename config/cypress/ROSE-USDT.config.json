@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "coinbase-wss-ROSE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinbase",
-        "base": "ROSE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "kucoin-wss-ROSE-USDT",
       "definition": {
         "type": "wss",
