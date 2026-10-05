@@ -1,11 +1,12 @@
 {
-  "name": "NVDA",
+  "name": "AAPL",
   "decimals": 8,
+  "interval": 60000,
   "feeds": [
     {
-      "name": "NVDA",
+      "name": "AAPL",
       "definition": {
-        "url": "https://query2.finance.yahoo.com/v8/finance/chart/NVDA?range=1d&interval=1m&includePrePost=true&events=div|split",
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAPL?range=1d&interval=1m&includePrePost=true&events=div|split",
         "headers": {
           "Content-Type": "application/json",
           "User-Agent": "Mozilla/5.0"
@@ -42,5 +43,8 @@
       }
     }
   ],
-  "interval": 60000
+  "address": "0x59C6Ad73cb85Eb563a0eAD36d7d3df3853146A9e",
+  "heartbeat": 300000,
+  "threshold": 0.002,
+  "absoluteThreshold": 0.1
 }

@@ -1,11 +1,12 @@
 {
-  "name": "AMZN",
+  "name": "GOOGL",
   "decimals": 8,
+  "interval": 60000,
   "feeds": [
     {
-      "name": "AMZN",
+      "name": "GOOGL",
       "definition": {
-        "url": "https://query2.finance.yahoo.com/v8/finance/chart/AMZN?range=1d&interval=1m&includePrePost=true&events=div|split",
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/GOOGL?range=1d&interval=1m&includePrePost=true&events=div|split",
         "headers": {
           "Content-Type": "application/json",
           "User-Agent": "Mozilla/5.0"
@@ -42,5 +43,8 @@
       }
     }
   ],
-  "interval": 60000
+  "address": "0x8BDF806E4194ae79ec277cB75d4559c516e4FCA0",
+  "heartbeat": 3600000,
+  "threshold": 0.002,
+  "absoluteThreshold": 0.1
 }

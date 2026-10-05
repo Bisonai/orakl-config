@@ -1,11 +1,12 @@
 {
-  "name": "GOOGL",
+  "name": "AAPL",
   "decimals": 8,
+  "interval": 60000,
   "feeds": [
     {
-      "name": "GOOGL",
+      "name": "AAPL",
       "definition": {
-        "url": "https://query2.finance.yahoo.com/v8/finance/chart/GOOGL?range=1d&interval=1m&includePrePost=true&events=div|split",
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAPL?range=1d&interval=1m&includePrePost=true&events=div|split",
         "headers": {
           "Content-Type": "application/json",
           "User-Agent": "Mozilla/5.0"
@@ -42,5 +43,8 @@
       }
     }
   ],
-  "interval": 60000
+  "address": "0xDF0e889F6e27fb51118064B50a63754349741CB4",
+  "heartbeat": 3600000,
+  "threshold": 0.002,
+  "absoluteThreshold": 0.1
 }

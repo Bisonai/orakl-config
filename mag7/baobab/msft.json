@@ -1,11 +1,12 @@
 {
-  "name": "AMZN",
+  "name": "MSFT",
   "decimals": 8,
+  "interval": 60000,
   "feeds": [
     {
-      "name": "AMZN",
+      "name": "MSFT",
       "definition": {
-        "url": "https://query2.finance.yahoo.com/v8/finance/chart/AMZN?range=1d&interval=1m&includePrePost=true&events=div|split",
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/MSFT?range=1d&interval=1m&includePrePost=true&events=div|split",
         "headers": {
           "Content-Type": "application/json",
           "User-Agent": "Mozilla/5.0"
@@ -42,5 +43,8 @@
       }
     }
   ],
-  "interval": 60000
+  "address": "0x29B6e5e67c545B3675e8e4fC34E83bdc8Ffc16f0",
+  "heartbeat": 300000,
+  "threshold": 0.002,
+  "absoluteThreshold": 0.1
 }

@@ -1,11 +1,12 @@
 {
-  "name": "GOOGL",
+  "name": "TSLA",
   "decimals": 8,
+  "interval": 60000,
   "feeds": [
     {
-      "name": "GOOGL",
+      "name": "TSLA",
       "definition": {
-        "url": "https://query2.finance.yahoo.com/v8/finance/chart/GOOGL?range=1d&interval=1m&includePrePost=true&events=div|split",
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/TSLA?range=1d&interval=1m&includePrePost=true&events=div|split",
         "headers": {
           "Content-Type": "application/json",
           "User-Agent": "Mozilla/5.0"
@@ -42,5 +43,8 @@
       }
     }
   ],
-  "interval": 60000
+  "address": "0x3e2b1fAEBcBd2f063Bb400D9aE1a404ad1F2DAbe",
+  "heartbeat": 300000,
+  "threshold": 0.002,
+  "absoluteThreshold": 0.1
 }

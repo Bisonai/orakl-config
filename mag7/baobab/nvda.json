@@ -1,11 +1,12 @@
 {
-  "name": "META",
+  "name": "NVDA",
   "decimals": 8,
+  "interval": 60000,
   "feeds": [
     {
-      "name": "META",
+      "name": "NVDA",
       "definition": {
-        "url": "https://query2.finance.yahoo.com/v8/finance/chart/META?range=1d&interval=1m&includePrePost=true&events=div|split",
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/NVDA?range=1d&interval=1m&includePrePost=true&events=div|split",
         "headers": {
           "Content-Type": "application/json",
           "User-Agent": "Mozilla/5.0"
@@ -42,5 +43,8 @@
       }
     }
   ],
-  "interval": 60000
+  "address": "0x3f7E757F40BB399762ba879Ff57E845cF925c33d",
+  "heartbeat": 300000,
+  "threshold": 0.002,
+  "absoluteThreshold": 0.1
 }
