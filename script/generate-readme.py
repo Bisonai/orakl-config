@@ -47,9 +47,18 @@ def generate_config_list(config_dir: Path):
             print('skipping {}: "feeds" missing, null, or not a list'.format(config), file=sys.stderr)
             continue
 
-        missing = [k for k in ('name', 'fetchInterval', 'aggregateInterval', 'submitInterval') if k not in data]
-        if missing:
-            print('skipping {}: missing field(s): {}'.format(config, ', '.join(missing)), file=sys.stderr)
+        # Validate type, not just presence: a present-but-wrong-typed value
+        # (e.g. an object or null) would otherwise reach make_line and either
+        # abort (dict -> KeyError) or render a literal 'None' cell.
+        scalar_types = {
+            'name': str,
+            'fetchInterval': int,
+            'aggregateInterval': int,
+            'submitInterval': int,
+        }
+        bad = [k for k, t in scalar_types.items() if not isinstance(data.get(k), t)]
+        if bad:
+            print('skipping {}: field(s) missing or not the expected type: {}'.format(config, ', '.join(bad)), file=sys.stderr)
             continue
 
         values = []
