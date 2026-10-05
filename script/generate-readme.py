@@ -52,6 +52,3 @@ if __name__ == "__main__":
 
     print('\n## Config Cypress\n')
     generate_config_list(Path('config') / cypress)
-
-    print("\n## Log history\n")
-    print("[History of Adapter and Aggregator](HISTORY.md)")
