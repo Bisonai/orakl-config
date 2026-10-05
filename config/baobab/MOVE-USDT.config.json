@@ -33,24 +33,6 @@
       }
     },
     {
-      "name": "crypto-wss-MOVE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "crypto",
-        "base": "MOVE",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "btse-wss-MOVE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "btse",
-        "base": "MOVE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-MOVE-USDT",
       "definition": {
         "type": "wss",
@@ -127,15 +109,6 @@
       "definition": {
         "type": "wss",
         "provider": "bitmart",
-        "base": "MOVE",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "xt-wss-MOVE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "xt",
         "base": "MOVE",
         "quote": "USDT"
       }

@@ -112,15 +112,6 @@
         "base": "CVX",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "xt-wss-CVX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "xt",
-        "base": "CVX",
-        "quote": "USDT"
-      }
     }
   ]
 }

@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "crypto-wss-LUNC-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "crypto",
-        "base": "LUNC",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "btse-wss-LUNC-USDT",
       "definition": {
         "type": "wss",

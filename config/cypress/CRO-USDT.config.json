@@ -6,15 +6,6 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "coinbase-wss-CRO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinbase",
-        "base": "CRO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "kucoin-wss-CRO-USDT",
       "definition": {
         "type": "wss",

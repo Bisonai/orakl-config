@@ -121,15 +121,6 @@
         "base": "ACH",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "xt-wss-ACH-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "xt",
-        "base": "ACH",
-        "quote": "USDT"
-      }
     }
   ]
 }

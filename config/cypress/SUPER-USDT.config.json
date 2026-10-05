@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "lbank-wss-SUPER-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "lbank",
-        "base": "SUPER",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "coinex-wss-SUPER-USDT",
       "definition": {
         "type": "wss",

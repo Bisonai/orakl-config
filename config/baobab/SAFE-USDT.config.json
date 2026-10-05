@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "lbank-wss-SAFE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "lbank",
-        "base": "SAFE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "coinex-wss-SAFE-USDT",
       "definition": {
         "type": "wss",
@@ -100,15 +91,6 @@
       "definition": {
         "type": "wss",
         "provider": "bitmart",
-        "base": "SAFE",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "xt-wss-SAFE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "xt",
         "base": "SAFE",
         "quote": "USDT"
       }

@@ -76,15 +76,6 @@
         "base": "TFUEL",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "xt-wss-TFUEL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "xt",
-        "base": "TFUEL",
-        "quote": "USDT"
-      }
     }
   ]
 }

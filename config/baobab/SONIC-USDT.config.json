@@ -6,15 +6,6 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "kucoin-wss-SONIC-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "kucoin",
-        "base": "SONIC",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bybit-wss-SONIC-USDT",
       "definition": {
         "type": "wss",
@@ -91,15 +82,6 @@
       "definition": {
         "type": "wss",
         "provider": "bingx",
-        "base": "SONIC",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "xt-wss-SONIC-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "xt",
         "base": "SONIC",
         "quote": "USDT"
       }

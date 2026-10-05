@@ -85,15 +85,6 @@
         "base": "ZKJ",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "orangex-wss-ZKJ-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "orangex",
-        "base": "ZKJ",
-        "quote": "USDT"
-      }
     }
   ]
 }

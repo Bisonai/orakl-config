@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "crypto-wss-W-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "crypto",
-        "base": "W",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "btse-wss-W-USDT",
       "definition": {
         "type": "wss",

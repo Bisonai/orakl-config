@@ -40,15 +40,6 @@
         "base": "AAVE",
         "quote": "KRW"
       }
-    },
-    {
-      "name": "gopax-wss-AAVE-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "gopax",
-        "base": "AAVE",
-        "quote": "KRW"
-      }
     }
   ]
 }

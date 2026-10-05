@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "crypto-wss-ZIL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "crypto",
-        "base": "ZIL",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-ZIL-USDT",
       "definition": {
         "type": "wss",

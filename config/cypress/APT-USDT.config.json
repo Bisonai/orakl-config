@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "coinbase-wss-APT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinbase",
-        "base": "APT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "kucoin-wss-APT-USDT",
       "definition": {
         "type": "wss",

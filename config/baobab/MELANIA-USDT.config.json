@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "crypto-wss-MELANIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "crypto",
-        "base": "MELANIA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-MELANIA-USDT",
       "definition": {
         "type": "wss",
@@ -109,15 +100,6 @@
       "definition": {
         "type": "wss",
         "provider": "xt",
-        "base": "MELANIA",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "orangex-wss-MELANIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "orangex",
         "base": "MELANIA",
         "quote": "USDT"
       }

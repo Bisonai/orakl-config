@@ -76,15 +76,6 @@
         "base": "TUSD",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "xt-wss-TUSD-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "xt",
-        "base": "TUSD",
-        "quote": "USDT"
-      }
     }
   ]
 }

@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "btse-wss-DYDX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "btse",
-        "base": "DYDX",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-DYDX-USDT",
       "definition": {
         "type": "wss",

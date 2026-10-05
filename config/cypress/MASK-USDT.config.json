@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "coinbase-wss-MASK-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinbase",
-        "base": "MASK",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "kucoin-wss-MASK-USDT",
       "definition": {
         "type": "wss",
@@ -136,15 +127,6 @@
       "definition": {
         "type": "wss",
         "provider": "bitmart",
-        "base": "MASK",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "xt-wss-MASK-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "xt",
         "base": "MASK",
         "quote": "USDT"
       }
