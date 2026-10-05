@@ -74,6 +74,57 @@ def generate_config_list(config_dir: Path):
         make_line(values)
 
 
+def generate_mag7_list(mag7_dir: Path):
+    # mag7 feeds use a different schema than config/<net> pairs: there is no
+    # aggregateInterval/submitInterval; the cadence fields are `interval`
+    # (fetch) and `heartbeat` (submit), plus a `threshold`. Hence a separate
+    # table rather than reusing generate_config_list's columns.
+    configs = sorted(mag7_dir.glob("*.json"))
+    keys = ['name', 'interval', 'heartbeat', 'threshold', 'feeds']
+    make_line(keys)
+    make_empty_line(keys)
+    for config in configs:
+        try:
+            data = load_json_from_path(config)
+        except (ValueError, OSError) as err:
+            # ValueError covers JSONDecodeError and UnicodeDecodeError
+            print('skipping {}: could not read/parse JSON ({})'.format(config, err), file=sys.stderr)
+            continue
+
+        if not isinstance(data, dict):
+            print('skipping {}: top-level JSON is not an object'.format(config), file=sys.stderr)
+            continue
+
+        feeds = data.get('feeds')
+        if not isinstance(feeds, list):
+            print('skipping {}: "feeds" missing, null, or not a list'.format(config), file=sys.stderr)
+            continue
+
+        # Validate type, not just presence (see generate_config_list). Intervals
+        # and threshold accept any JSON number (int or float) but not bool,
+        # which subclasses int yet is not a valid value.
+        def valid_scalar(key, value):
+            if key == 'name':
+                return isinstance(value, str)
+            return isinstance(value, (int, float)) and not isinstance(value, bool)
+
+        bad = [k for k in ('name', 'interval', 'heartbeat', 'threshold')
+               if not valid_scalar(k, data.get(k))]
+        if bad:
+            print('skipping {}: field(s) missing or not the expected type: {}'.format(config, ', '.join(bad)), file=sys.stderr)
+            continue
+
+        values = []
+        for key in keys:
+            if key == 'feeds':
+                values.append(len(feeds))
+            elif key == 'name':
+                values.append({'url': config, 'value': data[key]})
+            else:
+                values.append(data[key])
+        make_line(values)
+
+
 if __name__ == "__main__":
     baobab = "baobab"
     cypress = "cypress"
@@ -83,3 +134,9 @@ if __name__ == "__main__":
 
     print('\n## Config Cypress\n')
     generate_config_list(Path('config') / cypress)
+
+    print('\n## Mag7 Baobab\n')
+    generate_mag7_list(Path('mag7') / baobab)
+
+    print('\n## Mag7 Cypress\n')
+    generate_mag7_list(Path('mag7') / cypress)
