@@ -31,11 +31,26 @@ def generate_config_list(config_dir: Path):
     make_line(keys)
     make_empty_line(keys)
     for config in configs:
-        data = load_json_from_path(config)
+        try:
+            data = load_json_from_path(config)
+        except (json.JSONDecodeError, OSError) as err:
+            print('skipping {}: invalid JSON ({})'.format(config, err), file=sys.stderr)
+            continue
+
+        feeds = data.get('feeds')
+        if not isinstance(feeds, list):
+            print('skipping {}: "feeds" missing, null, or not a list'.format(config), file=sys.stderr)
+            continue
+
+        missing = [k for k in ('fetchInterval', 'aggregateInterval', 'submitInterval') if k not in data]
+        if missing:
+            print('skipping {}: missing interval field(s): {}'.format(config, ', '.join(missing)), file=sys.stderr)
+            continue
+
         values = []
         for key in keys:
             if key == 'feeds':
-                values.append(len(data[key]))
+                values.append(len(feeds))
             elif key == 'name':
                 values.append({'url': config, 'value': data[key]})
             else:
