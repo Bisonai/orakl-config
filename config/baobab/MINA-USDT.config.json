@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "coinbase-wss-MINA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinbase",
-        "base": "MINA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "kucoin-wss-MINA-USDT",
       "definition": {
         "type": "wss",

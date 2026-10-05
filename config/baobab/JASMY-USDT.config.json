@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "coinbase-wss-JASMY-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinbase",
-        "base": "JASMY",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "kucoin-wss-JASMY-USDT",
       "definition": {
         "type": "wss",

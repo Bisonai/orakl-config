@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "coinbase-wss-SAND-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinbase",
-        "base": "SAND",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "kucoin-wss-SAND-USDT",
       "definition": {
         "type": "wss",
