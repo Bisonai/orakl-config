@@ -2,14 +2,14 @@
 
 # orakl-config
 
-Price-feed configuration for the Orakl Network oracle, per network (`cypress` = Kaia mainnet, `baobab` = Kaia testnet).
+Price-feed configuration for the Orakl Network oracle, per network (`mainnet` = Kaia mainnet, `kairos` = Kaia testnet).
 
 ## Served bundles
 
 | network | price feeds | mag7 feeds |
 | --- | --- | --- |
-| cypress | [`cypress_configs.json`](https://config.orakl.network/cypress_configs.json) | [`cypress_mag7.json`](https://config.orakl.network/cypress_mag7.json) |
-| baobab | [`baobab_configs.json`](https://config.orakl.network/baobab_configs.json) | [`baobab_mag7.json`](https://config.orakl.network/baobab_mag7.json) |
+| mainnet | [`mainnet_configs.json`](https://config.orakl.network/mainnet_configs.json) | [`mainnet_mag7.json`](https://config.orakl.network/mainnet_mag7.json) |
+| kairos | [`kairos_configs.json`](https://config.orakl.network/kairos_configs.json) | [`kairos_mag7.json`](https://config.orakl.network/kairos_mag7.json) |
 
 ## Layout
 
@@ -19,486 +19,486 @@ Price-feed configuration for the Orakl Network oracle, per network (`cypress` = 
 
 See [`script/README.md`](script/README.md) for the scripts that generate the bundles and this file.
 
-## Cypress
+## Mainnet
 
 235 pairs, 2180 feeds.
 
 | pair | sources | fetchInterval | aggregateInterval | submitInterval |
 | --- | --- | ---: | ---: | ---: |
-| [1INCH-USDT](config/cypress/1INCH-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [A-KRW](config/cypress/A-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [AAVE-KRW](config/cypress/AAVE-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [ACH-USDT](config/cypress/ACH-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, mexc, okx | 2000 | 400 | 60000 |
-| [ADA-KRW](config/cypress/ADA-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [ADA-USDT](config/cypress/ADA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [AERO-USDT](config/cypress/AERO-USDT.config.json) | bingx, bitget, bybit, coinex, gateio, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [AIOZ-USDT](config/cypress/AIOZ-USDT.config.json) | bingx, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, orangex, xt | 2000 | 400 | 60000 |
-| [AKT-KRW](config/cypress/AKT-KRW.config.json) | bithumb, korbit, upbit | 2000 | 400 | 60000 |
-| [ALGO-USDT](config/cypress/ALGO-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [APT-KRW](config/cypress/APT-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [APT-USDT](config/cypress/APT-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [AR-USDT](config/cypress/AR-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [ARB-KRW](config/cypress/ARB-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [ASTR-KRW](config/cypress/ASTR-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [ATH-USDT](config/cypress/ATH-USDT.config.json) | bingx, bitget, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [ATOM-USDT](config/cypress/ATOM-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [AUCTION-KRW](config/cypress/AUCTION-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [AVAX-KRW](config/cypress/AVAX-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [AVAX-USDT](config/cypress/AVAX-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [AVL-USDT](config/cypress/AVL-USDT.config.json) | bybit, gateio | 2000 | 400 | 60000 |
-| [AWE-KRW](config/cypress/AWE-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [AXL-USDT](config/cypress/AXL-USDT.config.json) | binance, bitget, bitmart, bybit, crypto, orangex, xt | 2000 | 400 | 60000 |
-| [AXS-KRW](config/cypress/AXS-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [BABYDOGE-USDT](config/cypress/BABYDOGE-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx | 2000 | 400 | 60000 |
-| [BAT-USDT](config/cypress/BAT-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, mexc, okx, xt | 2000 | 400 | 60000 |
-| [BCH-KRW](config/cypress/BCH-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [BEAM-USDT](config/cypress/BEAM-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, mexc, orangex | 2000 | 400 | 60000 |
-| [BERA-USDT](config/cypress/BERA-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [BGB-USDT](config/cypress/BGB-USDT.config.json) | bitget, lbank, mexc | 2000 | 400 | 60000 |
-| [BLAST-KRW](config/cypress/BLAST-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [BLUR-KRW](config/cypress/BLUR-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [BNB-USDT](config/cypress/BNB-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [BONK-KRW](config/cypress/BONK-KRW.config.json) | bithumb, coinone, korbit | 2000 | 400 | 60000 |
-| [BONK-USDT](config/cypress/BONK-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [BORA-KRW](config/cypress/BORA-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 15000 |
-| [BRETT-USDT](config/cypress/BRETT-USDT.config.json) | bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, orangex, xt | 2000 | 400 | 60000 |
-| [BSV-KRW](config/cypress/BSV-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [BTC-KRW](config/cypress/BTC-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [BTC-USDT](config/cypress/BTC-USDT.config.json) | binance, bingx, bitget, bitmart, bitstamp, btse, bybit, coinbase, coinex, crypto, gateio, gemini, huobi, kucoin, lbank, okx, orangex, UniswapV3, xt | 2000 | 400 | 15000 |
-| [BTT-KRW](config/cypress/BTT-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [CAKE-USDT](config/cypress/CAKE-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [CELO-USDT](config/cypress/CELO-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, okx, xt | 2000 | 400 | 60000 |
-| [CFX-USDT](config/cypress/CFX-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [CHF-USD](config/cypress/CHF-USD.config.json) | daum, naver, Yahoo | 10000 | 400 | 15000 |
-| [CHZ-KRW](config/cypress/CHZ-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [CKB-USDT](config/cypress/CKB-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [COMP-USDT](config/cypress/COMP-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [CORE-USDT](config/cypress/CORE-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, huobi, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [CRO-USDT](config/cypress/CRO-USDT.config.json) | bingx, bitget, bitmart, coinex, crypto, gateio, kraken, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [CRV-USDT](config/cypress/CRV-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [CTC-KRW](config/cypress/CTC-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [CVX-USDT](config/cypress/CVX-USDT.config.json) | binance, bingx, bitget, bitmart, btse, coinex, gateio, huobi, kucoin, lbank, mexc, okx | 2000 | 400 | 60000 |
-| [DAI-USDT](config/cypress/DAI-USDT.config.json) | kraken, UniswapV3 | 2000 | 400 | 15000 |
-| [DASH-USDT](config/cypress/DASH-USDT.config.json) | binance, bingx, bitmart, coinex, kucoin, mexc, xt | 2000 | 400 | 60000 |
-| [DEEP-USDT](config/cypress/DEEP-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [DEXE-USDT](config/cypress/DEXE-USDT.config.json) | binance, bingx, gateio, huobi, kucoin, lbank, mexc | 2000 | 400 | 60000 |
-| [DOGE-KRW](config/cypress/DOGE-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [DOGE-USDT](config/cypress/DOGE-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [DOT-KRW](config/cypress/DOT-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [DOT-USDT](config/cypress/DOT-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 15000 |
-| [DYDX-USDT](config/cypress/DYDX-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [EARNUSDT-USDT](config/cypress/EARNUSDT-USDT.config.json) | Dragonswap | 2000 | 400 | 60000 |
-| [EGLD-USDT](config/cypress/EGLD-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [EIGEN-USDT](config/cypress/EIGEN-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [ELIZAOS-USDT](config/cypress/ELIZAOS-USDT.config.json) | bingx, gateio, huobi, kucoin, mexc | 2000 | 400 | 60000 |
-| [ENA-USDT](config/cypress/ENA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [ENS-KRW](config/cypress/ENS-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [ETC-KRW](config/cypress/ETC-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [ETH-KRW](config/cypress/ETH-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [ETH-USDT](config/cypress/ETH-USDT.config.json) | binance, bingx, bitget, bitmart, bitstamp, btse, bybit, coinbase, coinex, crypto, gateio, gemini, huobi, kraken, kucoin, lbank, okx, orangex, UniswapV3:0.05, UniswapV3:0.3, xt | 2000 | 400 | 15000 |
-| [EUR-USD](config/cypress/EUR-USD.config.json) | bitstamp, daum, gemini, naver, Yahoo | 10000 | 400 | 15000 |
-| [FARTCOIN-USDT](config/cypress/FARTCOIN-USDT.config.json) | bingx, bitget, bitmart, btse, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [FDUSD-USDT](config/cypress/FDUSD-USDT.config.json) | binance, bingx, gateio, mexc, xt | 2000 | 400 | 60000 |
-| [FET-KRW](config/cypress/FET-KRW.config.json) | bithumb, coinone, korbit | 2000 | 400 | 60000 |
-| [FIL-USDT](config/cypress/FIL-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [FLOKI-USDT](config/cypress/FLOKI-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [FLOW-KRW](config/cypress/FLOW-KRW.config.json) | korbit | 2000 | 400 | 60000 |
-| [FLR-USDT](config/cypress/FLR-USDT.config.json) | bingx, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [FORM-USDT](config/cypress/FORM-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [FTT-USDT](config/cypress/FTT-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, orangex | 2000 | 400 | 60000 |
-| [GALA-USDT](config/cypress/GALA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [GAS-KRW](config/cypress/GAS-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [GBP-USD](config/cypress/GBP-USD.config.json) | bitstamp, daum, naver, Yahoo | 10000 | 400 | 15000 |
-| [GLM-KRW](config/cypress/GLM-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [GNO-USDT](config/cypress/GNO-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, huobi, mexc | 2000 | 400 | 60000 |
-| [GRASS-USDT](config/cypress/GRASS-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc | 2000 | 400 | 60000 |
-| [GRND-KRW](config/cypress/GRND-KRW.config.json) | bithumb, coinone | 2000 | 400 | 60000 |
-| [GRND-USDT](config/cypress/GRND-USDT.config.json) | gateio, hashkey | 2000 | 400 | 60000 |
-| [GRT-KRW](config/cypress/GRT-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [GT-USDT](config/cypress/GT-USDT.config.json) | gateio, huobi, lbank | 2000 | 400 | 60000 |
-| [HBAR-KRW](config/cypress/HBAR-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [HNT-USDT](config/cypress/HNT-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, crypto, gateio, kucoin, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [HOT-USDT](config/cypress/HOT-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, crypto, gateio, huobi, lbank, mexc | 2000 | 400 | 60000 |
-| [HYPE-USDT](config/cypress/HYPE-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [IDR-USD](config/cypress/IDR-USD.config.json) | Daum, naver, Yahoo | 10000 | 400 | 60000 |
-| [IDRP-USDT](config/cypress/IDRP-USDT.config.json) | DragonSwap | 2000 | 400 | 60000 |
-| [IDRX-USDT](config/cypress/IDRX-USDT.config.json) | DragonSwap, PancakeSwap, UniswapV3 | 2000 | 400 | 60000 |
-| [IMX-KRW](config/cypress/IMX-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [INJ-USDT](config/cypress/INJ-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [IOTA-USDT](config/cypress/IOTA-USDT.config.json) | binance, bingx, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [IQ-KRW](config/cypress/IQ-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [JASMY-USDT](config/cypress/JASMY-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [JPY-USD](config/cypress/JPY-USD.config.json) | daum, naver, Yahoo | 10000 | 400 | 15000 |
-| [JPYC-USDT](config/cypress/JPYC-USDT.config.json) | UniswapV4 | 2000 | 400 | 60000 |
-| [JST-USDT](config/cypress/JST-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
-| [JTO-USDT](config/cypress/JTO-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [JUP-USDT](config/cypress/JUP-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [KAIA-KRW](config/cypress/KAIA-KRW.config.json) | bithumb, coinone, gopax, korbit | 2000 | 400 | 60000 |
-| [KAIA-USDT](config/cypress/KAIA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, kucoin, lbank, okx, orangex, xt | 2000 | 400 | 60000 |
-| [KAITO-USDT](config/cypress/KAITO-USDT.config.json) | binance, bitget, bitmart, btse, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
-| [KAS-USDT](config/cypress/KAS-USDT.config.json) | bingx, bitget, bitmart, btse, bybit, coinex, gateio, kraken, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [KAVA-USDT](config/cypress/KAVA-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
-| [KNC-KRW](config/cypress/KNC-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [KRW-USD](config/cypress/KRW-USD.config.json) | Daum, naver, Yahoo | 10000 | 400 | 15000 |
-| [KRWO-USDT](config/cypress/KRWO-USDT.config.json) | capybara, Dragonswap | 2000 | 400 | 60000 |
-| [KSM-USDT](config/cypress/KSM-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [LDO-USDT](config/cypress/LDO-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [LINK-KRW](config/cypress/LINK-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [LPT-USDT](config/cypress/LPT-USDT.config.json) | binance, bingx, bitget, bitmart, btse, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [LTC-USDT](config/cypress/LTC-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [LUNC-USDT](config/cypress/LUNC-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [MANA-USDT](config/cypress/MANA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [MASK-USDT](config/cypress/MASK-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
-| [MBL-KRW](config/cypress/MBL-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [MBX-KRW](config/cypress/MBX-KRW.config.json) | bithumb, coinone, korbit | 2000 | 400 | 15000 |
-| [MED-KRW](config/cypress/MED-KRW.config.json) | bithumb, korbit, upbit | 2000 | 400 | 60000 |
-| [MELANIA-USDT](config/cypress/MELANIA-USDT.config.json) | bingx, bitget, bitmart, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
-| [MINA-KRW](config/cypress/MINA-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [MINA-USDT](config/cypress/MINA-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [MLK-KRW](config/cypress/MLK-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [MNT-USDT](config/cypress/MNT-USDT.config.json) | bingx, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [MORPHO-USDT](config/cypress/MORPHO-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [MOVE-USDT](config/cypress/MOVE-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
-| [MTL-KRW](config/cypress/MTL-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [MYR-USD](config/cypress/MYR-USD.config.json) | Daum, naver, Yahoo | 10000 | 400 | 60000 |
-| [MYRC-USDT](config/cypress/MYRC-USDT.config.json) | UniswapV3 | 2000 | 400 | 60000 |
-| [NEAR-KRW](config/cypress/NEAR-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [NEO-USDT](config/cypress/NEO-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [NEXO-USDT](config/cypress/NEXO-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, lbank, mexc, xt | 2000 | 400 | 60000 |
-| [NFT-USDT](config/cypress/NFT-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, mexc, okx | 2000 | 400 | 60000 |
-| [NOT-USDT](config/cypress/NOT-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [OKB-USDT](config/cypress/OKB-USDT.config.json) | bingx, bitmart, coinex, gateio, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [ONDO-KRW](config/cypress/ONDO-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [ONDO-USDT](config/cypress/ONDO-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [ONG-KRW](config/cypress/ONG-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [OSMO-USDT](config/cypress/OSMO-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc, orangex | 2000 | 400 | 60000 |
-| [PAXG-USDT](config/cypress/PAXG-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, crypto, gateio, kucoin, lbank, okx, xt | 2000 | 400 | 15000 |
-| [PENDLE-USDT](config/cypress/PENDLE-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [PENGU-USDT](config/cypress/PENGU-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [PEPE-KRW](config/cypress/PEPE-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [PEPE-USDT](config/cypress/PEPE-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [PER-KLAY](config/cypress/PER-KLAY.config.json) | KlaySwap | 2000 | 400 | 15000 |
-| [PI-USDT](config/cypress/PI-USDT.config.json) | bitget, bitmart, coinex, gateio, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [PNUT-USDT](config/cypress/PNUT-USDT.config.json) | binance, bingx, bitget, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [POL-KRW](config/cypress/POL-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [POL-USDT](config/cypress/POL-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [POPCAT-USDT](config/cypress/POPCAT-USDT.config.json) | bingx, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [PYTH-KRW](config/cypress/PYTH-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [PYUSD-USDT](config/cypress/PYUSD-USDT.config.json) | bingx, bitget, bitmart, btse, bybit, crypto, gateio, huobi, kucoin, okx | 2000 | 400 | 60000 |
-| [QNT-USDT](config/cypress/QNT-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinbase, coinex, crypto, gateio, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
-| [QTUM-USDT](config/cypress/QTUM-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [RAY-USDT](config/cypress/RAY-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [RENDER-USDT](config/cypress/RENDER-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [RON-USDT](config/cypress/RON-USDT.config.json) | bingx, bitget, coinex, gateio, mexc, okx, orangex | 2000 | 400 | 60000 |
-| [ROSE-USDT](config/cypress/ROSE-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, mexc, xt | 2000 | 400 | 60000 |
-| [RSR-USDT](config/cypress/RSR-USDT.config.json) | binance, bingx, bitget, bitmart, btse, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [RUNE-USDT](config/cypress/RUNE-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, mexc, xt | 2000 | 400 | 60000 |
-| [S-USDT](config/cypress/S-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [SAFE-USDT](config/cypress/SAFE-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, mexc, okx, orangex | 2000 | 400 | 60000 |
-| [SAND-KRW](config/cypress/SAND-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [SAND-USDT](config/cypress/SAND-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [SEI-KRW](config/cypress/SEI-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [SEI-USDT](config/cypress/SEI-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [SFP-USDT](config/cypress/SFP-USDT.config.json) | binance, bingx, coinex, gateio, kucoin, lbank, mexc | 2000 | 400 | 60000 |
-| [SGD-USD](config/cypress/SGD-USD.config.json) | Daum, naver, Yahoo | 10000 | 400 | 60000 |
-| [SHIB-KRW](config/cypress/SHIB-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [SHIB-USDT](config/cypress/SHIB-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [SKY-USDT](config/cypress/SKY-USDT.config.json) | binance, bingx, bitget, btse, bybit, coinex, gateio, huobi, kucoin, mexc, okx, xt | 2000 | 400 | 60000 |
-| [SNT-KRW](config/cypress/SNT-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [SNX-USDT](config/cypress/SNX-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [SOL-KRW](config/cypress/SOL-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [SOL-USDT](config/cypress/SOL-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [SONIC-USDT](config/cypress/SONIC-USDT.config.json) | bingx, bitget, btse, bybit, coinex, gateio, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
-| [SPX-USDT](config/cypress/SPX-USDT.config.json) | bingx, bitmart, btse, bybit, coinex, gateio, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
-| [STG-KRW](config/cypress/STG-KRW.config.json) | binance, bingx, bitget, coinex, gateio, huobi, kucoin | 2000 | 400 | 15000 |
-| [STG-USDT](config/cypress/STG-USDT.config.json) | binance, bingx, bitget, coinex, gateio, huobi, kucoin | 2000 | 400 | 15000 |
-| [STKAIA-KAIA](config/cypress/STKAIA-KAIA.config.json) | capybara, Dragonswap | 2000 | 400 | 60000 |
-| [STRK-KRW](config/cypress/STRK-KRW.config.json) | bithumb, coinone, korbit | 2000 | 400 | 60000 |
-| [STX-KRW](config/cypress/STX-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [SUI-KRW](config/cypress/SUI-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [SUI-USDT](config/cypress/SUI-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [SUPER-USDT](config/cypress/SUPER-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, crypto, gateio, huobi, kucoin, orangex, xt | 2000 | 400 | 60000 |
-| [TAO-USDT](config/cypress/TAO-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
-| [TFUEL-USDT](config/cypress/TFUEL-USDT.config.json) | binance, bingx, bitmart, coinex, crypto, gateio, kucoin, mexc | 2000 | 400 | 60000 |
-| [THETA-USDT](config/cypress/THETA-USDT.config.json) | binance, bingx, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, okx, xt | 2000 | 400 | 60000 |
-| [TIA-USDT](config/cypress/TIA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [TRUMP-USDT](config/cypress/TRUMP-USDT.config.json) | binance, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kraken, kucoin, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [TRX-KRW](config/cypress/TRX-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [TRX-USDT](config/cypress/TRX-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [TUSD-USDT](config/cypress/TUSD-USDT.config.json) | binance, bingx, bitget, bitmart, gateio, huobi, kucoin, mexc | 2000 | 400 | 60000 |
-| [TWT-USDT](config/cypress/TWT-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
-| [UNI-USDT](config/cypress/UNI-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, UniswapV3, xt | 2000 | 400 | 15000 |
-| [USDC-USDT](config/cypress/USDC-USDT.config.json) | binance, bingx, bitget, bitmart, bitstamp, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, UniswapV3, xt | 2000 | 400 | 15000 |
-| [USDE-USDT](config/cypress/USDE-USDT.config.json) | binance, bitget, bitmart, btse, bybit, gateio, kraken, kucoin | 2000 | 400 | 60000 |
-| [USDT-KRW](config/cypress/USDT-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [USDT-USD](config/cypress/USDT-USD.config.json) | bitstamp, btse, coinbase, crypto, gemini, okx | 2000 | 400 | 60000 |
-| [VET-USDT](config/cypress/VET-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
-| [VIRTUAL-USDT](config/cypress/VIRTUAL-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [VTHO-USDT](config/cypress/VTHO-USDT.config.json) | binance, bitget, bitmart, bybit, coinex, gateio, kucoin, mexc | 2000 | 400 | 60000 |
-| [W-USDT](config/cypress/W-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [WALK-KAIA](config/cypress/WALK-KAIA.config.json) | Dragonswap | 2000 | 400 | 60000 |
-| [WAVES-KRW](config/cypress/WAVES-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [WEMIX-USDT](config/cypress/WEMIX-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, mexc, orangex, xt | 2000 | 400 | 15000 |
-| [WIF-USDT](config/cypress/WIF-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [WLD-KRW](config/cypress/WLD-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [WLD-USDT](config/cypress/WLD-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [XAUT-USDT](config/cypress/XAUT-USDT.config.json) | bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, okx, orangex, xt | 2000 | 400 | 60000 |
-| [XCH-USDT](config/cypress/XCH-USDT.config.json) | bingx, bitmart, coinex, gateio, huobi, kucoin, mexc, okx, xt | 2000 | 400 | 60000 |
-| [XCN-USDT](config/cypress/XCN-USDT.config.json) | bingx, bitget, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc | 2000 | 400 | 60000 |
-| [XEC-KRW](config/cypress/XEC-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [XLM-KRW](config/cypress/XLM-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [XMR-USDT](config/cypress/XMR-USDT.config.json) | bingx, bitmart, btse, coinex, kraken, kucoin, mexc, xt | 2000 | 400 | 60000 |
-| [XRP-KRW](config/cypress/XRP-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [XRP-USDT](config/cypress/XRP-USDT.config.json) | binance, bingx, bitget, bitmart, bitstamp, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [XTZ-USDT](config/cypress/XTZ-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [ZETA-KRW](config/cypress/ZETA-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [ZIL-USDT](config/cypress/ZIL-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [ZK-KRW](config/cypress/ZK-KRW.config.json) | bithumb, coinone, korbit | 2000 | 400 | 60000 |
-| [ZK-USDT](config/cypress/ZK-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [ZKJ-USDT](config/cypress/ZKJ-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, mexc, okx | 2000 | 400 | 60000 |
-| [ZP-KAIA](config/cypress/ZP-KAIA.config.json) | Dragonswap | 2000 | 400 | 15000 |
-| [ZRO-KRW](config/cypress/ZRO-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [ZRO-USDT](config/cypress/ZRO-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [ZRX-USDT](config/cypress/ZRX-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, mexc, okx, orangex | 2000 | 400 | 60000 |
+| [1INCH-USDT](config/mainnet/1INCH-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [A-KRW](config/mainnet/A-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [AAVE-KRW](config/mainnet/AAVE-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [ACH-USDT](config/mainnet/ACH-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, mexc, okx | 2000 | 400 | 60000 |
+| [ADA-KRW](config/mainnet/ADA-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [ADA-USDT](config/mainnet/ADA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [AERO-USDT](config/mainnet/AERO-USDT.config.json) | bingx, bitget, bybit, coinex, gateio, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [AIOZ-USDT](config/mainnet/AIOZ-USDT.config.json) | bingx, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, orangex, xt | 2000 | 400 | 60000 |
+| [AKT-KRW](config/mainnet/AKT-KRW.config.json) | bithumb, korbit, upbit | 2000 | 400 | 60000 |
+| [ALGO-USDT](config/mainnet/ALGO-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [APT-KRW](config/mainnet/APT-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [APT-USDT](config/mainnet/APT-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [AR-USDT](config/mainnet/AR-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [ARB-KRW](config/mainnet/ARB-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [ASTR-KRW](config/mainnet/ASTR-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [ATH-USDT](config/mainnet/ATH-USDT.config.json) | bingx, bitget, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [ATOM-USDT](config/mainnet/ATOM-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [AUCTION-KRW](config/mainnet/AUCTION-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [AVAX-KRW](config/mainnet/AVAX-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [AVAX-USDT](config/mainnet/AVAX-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [AVL-USDT](config/mainnet/AVL-USDT.config.json) | bybit, gateio | 2000 | 400 | 60000 |
+| [AWE-KRW](config/mainnet/AWE-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [AXL-USDT](config/mainnet/AXL-USDT.config.json) | binance, bitget, bitmart, bybit, crypto, orangex, xt | 2000 | 400 | 60000 |
+| [AXS-KRW](config/mainnet/AXS-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [BABYDOGE-USDT](config/mainnet/BABYDOGE-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx | 2000 | 400 | 60000 |
+| [BAT-USDT](config/mainnet/BAT-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, mexc, okx, xt | 2000 | 400 | 60000 |
+| [BCH-KRW](config/mainnet/BCH-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [BEAM-USDT](config/mainnet/BEAM-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, mexc, orangex | 2000 | 400 | 60000 |
+| [BERA-USDT](config/mainnet/BERA-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [BGB-USDT](config/mainnet/BGB-USDT.config.json) | bitget, lbank, mexc | 2000 | 400 | 60000 |
+| [BLAST-KRW](config/mainnet/BLAST-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [BLUR-KRW](config/mainnet/BLUR-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [BNB-USDT](config/mainnet/BNB-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [BONK-KRW](config/mainnet/BONK-KRW.config.json) | bithumb, coinone, korbit | 2000 | 400 | 60000 |
+| [BONK-USDT](config/mainnet/BONK-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [BORA-KRW](config/mainnet/BORA-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 15000 |
+| [BRETT-USDT](config/mainnet/BRETT-USDT.config.json) | bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, orangex, xt | 2000 | 400 | 60000 |
+| [BSV-KRW](config/mainnet/BSV-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [BTC-KRW](config/mainnet/BTC-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [BTC-USDT](config/mainnet/BTC-USDT.config.json) | binance, bingx, bitget, bitmart, bitstamp, btse, bybit, coinbase, coinex, crypto, gateio, gemini, huobi, kucoin, lbank, okx, orangex, UniswapV3, xt | 2000 | 400 | 15000 |
+| [BTT-KRW](config/mainnet/BTT-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [CAKE-USDT](config/mainnet/CAKE-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [CELO-USDT](config/mainnet/CELO-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, okx, xt | 2000 | 400 | 60000 |
+| [CFX-USDT](config/mainnet/CFX-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [CHF-USD](config/mainnet/CHF-USD.config.json) | daum, naver, Yahoo | 10000 | 400 | 15000 |
+| [CHZ-KRW](config/mainnet/CHZ-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [CKB-USDT](config/mainnet/CKB-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [COMP-USDT](config/mainnet/COMP-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [CORE-USDT](config/mainnet/CORE-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, huobi, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [CRO-USDT](config/mainnet/CRO-USDT.config.json) | bingx, bitget, bitmart, coinex, crypto, gateio, kraken, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [CRV-USDT](config/mainnet/CRV-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [CTC-KRW](config/mainnet/CTC-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [CVX-USDT](config/mainnet/CVX-USDT.config.json) | binance, bingx, bitget, bitmart, btse, coinex, gateio, huobi, kucoin, lbank, mexc, okx | 2000 | 400 | 60000 |
+| [DAI-USDT](config/mainnet/DAI-USDT.config.json) | kraken, UniswapV3 | 2000 | 400 | 15000 |
+| [DASH-USDT](config/mainnet/DASH-USDT.config.json) | binance, bingx, bitmart, coinex, kucoin, mexc, xt | 2000 | 400 | 60000 |
+| [DEEP-USDT](config/mainnet/DEEP-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [DEXE-USDT](config/mainnet/DEXE-USDT.config.json) | binance, bingx, gateio, huobi, kucoin, lbank, mexc | 2000 | 400 | 60000 |
+| [DOGE-KRW](config/mainnet/DOGE-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [DOGE-USDT](config/mainnet/DOGE-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [DOT-KRW](config/mainnet/DOT-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [DOT-USDT](config/mainnet/DOT-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 15000 |
+| [DYDX-USDT](config/mainnet/DYDX-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [EARNUSDT-USDT](config/mainnet/EARNUSDT-USDT.config.json) | Dragonswap | 2000 | 400 | 60000 |
+| [EGLD-USDT](config/mainnet/EGLD-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [EIGEN-USDT](config/mainnet/EIGEN-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [ELIZAOS-USDT](config/mainnet/ELIZAOS-USDT.config.json) | bingx, gateio, huobi, kucoin, mexc | 2000 | 400 | 60000 |
+| [ENA-USDT](config/mainnet/ENA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [ENS-KRW](config/mainnet/ENS-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [ETC-KRW](config/mainnet/ETC-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [ETH-KRW](config/mainnet/ETH-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [ETH-USDT](config/mainnet/ETH-USDT.config.json) | binance, bingx, bitget, bitmart, bitstamp, btse, bybit, coinbase, coinex, crypto, gateio, gemini, huobi, kraken, kucoin, lbank, okx, orangex, UniswapV3:0.05, UniswapV3:0.3, xt | 2000 | 400 | 15000 |
+| [EUR-USD](config/mainnet/EUR-USD.config.json) | bitstamp, daum, gemini, naver, Yahoo | 10000 | 400 | 15000 |
+| [FARTCOIN-USDT](config/mainnet/FARTCOIN-USDT.config.json) | bingx, bitget, bitmart, btse, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [FDUSD-USDT](config/mainnet/FDUSD-USDT.config.json) | binance, bingx, gateio, mexc, xt | 2000 | 400 | 60000 |
+| [FET-KRW](config/mainnet/FET-KRW.config.json) | bithumb, coinone, korbit | 2000 | 400 | 60000 |
+| [FIL-USDT](config/mainnet/FIL-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [FLOKI-USDT](config/mainnet/FLOKI-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [FLOW-KRW](config/mainnet/FLOW-KRW.config.json) | korbit | 2000 | 400 | 60000 |
+| [FLR-USDT](config/mainnet/FLR-USDT.config.json) | bingx, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [FORM-USDT](config/mainnet/FORM-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [FTT-USDT](config/mainnet/FTT-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, orangex | 2000 | 400 | 60000 |
+| [GALA-USDT](config/mainnet/GALA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [GAS-KRW](config/mainnet/GAS-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [GBP-USD](config/mainnet/GBP-USD.config.json) | bitstamp, daum, naver, Yahoo | 10000 | 400 | 15000 |
+| [GLM-KRW](config/mainnet/GLM-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [GNO-USDT](config/mainnet/GNO-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, huobi, mexc | 2000 | 400 | 60000 |
+| [GRASS-USDT](config/mainnet/GRASS-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc | 2000 | 400 | 60000 |
+| [GRND-KRW](config/mainnet/GRND-KRW.config.json) | bithumb, coinone | 2000 | 400 | 60000 |
+| [GRND-USDT](config/mainnet/GRND-USDT.config.json) | gateio, hashkey | 2000 | 400 | 60000 |
+| [GRT-KRW](config/mainnet/GRT-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [GT-USDT](config/mainnet/GT-USDT.config.json) | gateio, huobi, lbank | 2000 | 400 | 60000 |
+| [HBAR-KRW](config/mainnet/HBAR-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [HNT-USDT](config/mainnet/HNT-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, crypto, gateio, kucoin, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [HOT-USDT](config/mainnet/HOT-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, crypto, gateio, huobi, lbank, mexc | 2000 | 400 | 60000 |
+| [HYPE-USDT](config/mainnet/HYPE-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [IDR-USD](config/mainnet/IDR-USD.config.json) | Daum, naver, Yahoo | 10000 | 400 | 60000 |
+| [IDRP-USDT](config/mainnet/IDRP-USDT.config.json) | DragonSwap | 2000 | 400 | 60000 |
+| [IDRX-USDT](config/mainnet/IDRX-USDT.config.json) | DragonSwap, PancakeSwap, UniswapV3 | 2000 | 400 | 60000 |
+| [IMX-KRW](config/mainnet/IMX-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [INJ-USDT](config/mainnet/INJ-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [IOTA-USDT](config/mainnet/IOTA-USDT.config.json) | binance, bingx, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [IQ-KRW](config/mainnet/IQ-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [JASMY-USDT](config/mainnet/JASMY-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [JPY-USD](config/mainnet/JPY-USD.config.json) | daum, naver, Yahoo | 10000 | 400 | 15000 |
+| [JPYC-USDT](config/mainnet/JPYC-USDT.config.json) | UniswapV4 | 2000 | 400 | 60000 |
+| [JST-USDT](config/mainnet/JST-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
+| [JTO-USDT](config/mainnet/JTO-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [JUP-USDT](config/mainnet/JUP-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [KAIA-KRW](config/mainnet/KAIA-KRW.config.json) | bithumb, coinone, gopax, korbit | 2000 | 400 | 60000 |
+| [KAIA-USDT](config/mainnet/KAIA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, kucoin, lbank, okx, orangex, xt | 2000 | 400 | 60000 |
+| [KAITO-USDT](config/mainnet/KAITO-USDT.config.json) | binance, bitget, bitmart, btse, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
+| [KAS-USDT](config/mainnet/KAS-USDT.config.json) | bingx, bitget, bitmart, btse, bybit, coinex, gateio, kraken, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [KAVA-USDT](config/mainnet/KAVA-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
+| [KNC-KRW](config/mainnet/KNC-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [KRW-USD](config/mainnet/KRW-USD.config.json) | Daum, naver, Yahoo | 10000 | 400 | 15000 |
+| [KRWO-USDT](config/mainnet/KRWO-USDT.config.json) | capybara, Dragonswap | 2000 | 400 | 60000 |
+| [KSM-USDT](config/mainnet/KSM-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [LDO-USDT](config/mainnet/LDO-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [LINK-KRW](config/mainnet/LINK-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [LPT-USDT](config/mainnet/LPT-USDT.config.json) | binance, bingx, bitget, bitmart, btse, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [LTC-USDT](config/mainnet/LTC-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [LUNC-USDT](config/mainnet/LUNC-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [MANA-USDT](config/mainnet/MANA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [MASK-USDT](config/mainnet/MASK-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
+| [MBL-KRW](config/mainnet/MBL-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [MBX-KRW](config/mainnet/MBX-KRW.config.json) | bithumb, coinone, korbit | 2000 | 400 | 15000 |
+| [MED-KRW](config/mainnet/MED-KRW.config.json) | bithumb, korbit, upbit | 2000 | 400 | 60000 |
+| [MELANIA-USDT](config/mainnet/MELANIA-USDT.config.json) | bingx, bitget, bitmart, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
+| [MINA-KRW](config/mainnet/MINA-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [MINA-USDT](config/mainnet/MINA-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [MLK-KRW](config/mainnet/MLK-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [MNT-USDT](config/mainnet/MNT-USDT.config.json) | bingx, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [MORPHO-USDT](config/mainnet/MORPHO-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [MOVE-USDT](config/mainnet/MOVE-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
+| [MTL-KRW](config/mainnet/MTL-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [MYR-USD](config/mainnet/MYR-USD.config.json) | Daum, naver, Yahoo | 10000 | 400 | 60000 |
+| [MYRC-USDT](config/mainnet/MYRC-USDT.config.json) | UniswapV3 | 2000 | 400 | 60000 |
+| [NEAR-KRW](config/mainnet/NEAR-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [NEO-USDT](config/mainnet/NEO-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [NEXO-USDT](config/mainnet/NEXO-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, lbank, mexc, xt | 2000 | 400 | 60000 |
+| [NFT-USDT](config/mainnet/NFT-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, mexc, okx | 2000 | 400 | 60000 |
+| [NOT-USDT](config/mainnet/NOT-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [OKB-USDT](config/mainnet/OKB-USDT.config.json) | bingx, bitmart, coinex, gateio, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [ONDO-KRW](config/mainnet/ONDO-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [ONDO-USDT](config/mainnet/ONDO-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [ONG-KRW](config/mainnet/ONG-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [OSMO-USDT](config/mainnet/OSMO-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc, orangex | 2000 | 400 | 60000 |
+| [PAXG-USDT](config/mainnet/PAXG-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, crypto, gateio, kucoin, lbank, okx, xt | 2000 | 400 | 15000 |
+| [PENDLE-USDT](config/mainnet/PENDLE-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [PENGU-USDT](config/mainnet/PENGU-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [PEPE-KRW](config/mainnet/PEPE-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [PEPE-USDT](config/mainnet/PEPE-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [PER-KLAY](config/mainnet/PER-KLAY.config.json) | KlaySwap | 2000 | 400 | 15000 |
+| [PI-USDT](config/mainnet/PI-USDT.config.json) | bitget, bitmart, coinex, gateio, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [PNUT-USDT](config/mainnet/PNUT-USDT.config.json) | binance, bingx, bitget, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [POL-KRW](config/mainnet/POL-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [POL-USDT](config/mainnet/POL-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [POPCAT-USDT](config/mainnet/POPCAT-USDT.config.json) | bingx, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [PYTH-KRW](config/mainnet/PYTH-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [PYUSD-USDT](config/mainnet/PYUSD-USDT.config.json) | bingx, bitget, bitmart, btse, bybit, crypto, gateio, huobi, kucoin, okx | 2000 | 400 | 60000 |
+| [QNT-USDT](config/mainnet/QNT-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinbase, coinex, crypto, gateio, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
+| [QTUM-USDT](config/mainnet/QTUM-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [RAY-USDT](config/mainnet/RAY-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [RENDER-USDT](config/mainnet/RENDER-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [RON-USDT](config/mainnet/RON-USDT.config.json) | bingx, bitget, coinex, gateio, mexc, okx, orangex | 2000 | 400 | 60000 |
+| [ROSE-USDT](config/mainnet/ROSE-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, mexc, xt | 2000 | 400 | 60000 |
+| [RSR-USDT](config/mainnet/RSR-USDT.config.json) | binance, bingx, bitget, bitmart, btse, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [RUNE-USDT](config/mainnet/RUNE-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, mexc, xt | 2000 | 400 | 60000 |
+| [S-USDT](config/mainnet/S-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [SAFE-USDT](config/mainnet/SAFE-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, mexc, okx, orangex | 2000 | 400 | 60000 |
+| [SAND-KRW](config/mainnet/SAND-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [SAND-USDT](config/mainnet/SAND-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [SEI-KRW](config/mainnet/SEI-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [SEI-USDT](config/mainnet/SEI-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [SFP-USDT](config/mainnet/SFP-USDT.config.json) | binance, bingx, coinex, gateio, kucoin, lbank, mexc | 2000 | 400 | 60000 |
+| [SGD-USD](config/mainnet/SGD-USD.config.json) | Daum, naver, Yahoo | 10000 | 400 | 60000 |
+| [SHIB-KRW](config/mainnet/SHIB-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [SHIB-USDT](config/mainnet/SHIB-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [SKY-USDT](config/mainnet/SKY-USDT.config.json) | binance, bingx, bitget, btse, bybit, coinex, gateio, huobi, kucoin, mexc, okx, xt | 2000 | 400 | 60000 |
+| [SNT-KRW](config/mainnet/SNT-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [SNX-USDT](config/mainnet/SNX-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [SOL-KRW](config/mainnet/SOL-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [SOL-USDT](config/mainnet/SOL-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [SONIC-USDT](config/mainnet/SONIC-USDT.config.json) | bingx, bitget, btse, bybit, coinex, gateio, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
+| [SPX-USDT](config/mainnet/SPX-USDT.config.json) | bingx, bitmart, btse, bybit, coinex, gateio, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
+| [STG-KRW](config/mainnet/STG-KRW.config.json) | binance, bingx, bitget, coinex, gateio, huobi, kucoin | 2000 | 400 | 15000 |
+| [STG-USDT](config/mainnet/STG-USDT.config.json) | binance, bingx, bitget, coinex, gateio, huobi, kucoin | 2000 | 400 | 15000 |
+| [STKAIA-KAIA](config/mainnet/STKAIA-KAIA.config.json) | capybara, Dragonswap | 2000 | 400 | 60000 |
+| [STRK-KRW](config/mainnet/STRK-KRW.config.json) | bithumb, coinone, korbit | 2000 | 400 | 60000 |
+| [STX-KRW](config/mainnet/STX-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [SUI-KRW](config/mainnet/SUI-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [SUI-USDT](config/mainnet/SUI-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [SUPER-USDT](config/mainnet/SUPER-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, crypto, gateio, huobi, kucoin, orangex, xt | 2000 | 400 | 60000 |
+| [TAO-USDT](config/mainnet/TAO-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
+| [TFUEL-USDT](config/mainnet/TFUEL-USDT.config.json) | binance, bingx, bitmart, coinex, crypto, gateio, kucoin, mexc | 2000 | 400 | 60000 |
+| [THETA-USDT](config/mainnet/THETA-USDT.config.json) | binance, bingx, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, okx, xt | 2000 | 400 | 60000 |
+| [TIA-USDT](config/mainnet/TIA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [TRUMP-USDT](config/mainnet/TRUMP-USDT.config.json) | binance, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kraken, kucoin, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [TRX-KRW](config/mainnet/TRX-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [TRX-USDT](config/mainnet/TRX-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [TUSD-USDT](config/mainnet/TUSD-USDT.config.json) | binance, bingx, bitget, bitmart, gateio, huobi, kucoin, mexc | 2000 | 400 | 60000 |
+| [TWT-USDT](config/mainnet/TWT-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
+| [UNI-USDT](config/mainnet/UNI-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, UniswapV3, xt | 2000 | 400 | 15000 |
+| [USDC-USDT](config/mainnet/USDC-USDT.config.json) | binance, bingx, bitget, bitmart, bitstamp, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, UniswapV3, xt | 2000 | 400 | 15000 |
+| [USDE-USDT](config/mainnet/USDE-USDT.config.json) | binance, bitget, bitmart, btse, bybit, gateio, kraken, kucoin | 2000 | 400 | 60000 |
+| [USDT-KRW](config/mainnet/USDT-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [USDT-USD](config/mainnet/USDT-USD.config.json) | bitstamp, btse, coinbase, crypto, gemini, okx | 2000 | 400 | 60000 |
+| [VET-USDT](config/mainnet/VET-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
+| [VIRTUAL-USDT](config/mainnet/VIRTUAL-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [VTHO-USDT](config/mainnet/VTHO-USDT.config.json) | binance, bitget, bitmart, bybit, coinex, gateio, kucoin, mexc | 2000 | 400 | 60000 |
+| [W-USDT](config/mainnet/W-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [WALK-KAIA](config/mainnet/WALK-KAIA.config.json) | Dragonswap | 2000 | 400 | 60000 |
+| [WAVES-KRW](config/mainnet/WAVES-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [WEMIX-USDT](config/mainnet/WEMIX-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, mexc, orangex, xt | 2000 | 400 | 15000 |
+| [WIF-USDT](config/mainnet/WIF-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [WLD-KRW](config/mainnet/WLD-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [WLD-USDT](config/mainnet/WLD-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [XAUT-USDT](config/mainnet/XAUT-USDT.config.json) | bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, okx, orangex, xt | 2000 | 400 | 60000 |
+| [XCH-USDT](config/mainnet/XCH-USDT.config.json) | bingx, bitmart, coinex, gateio, huobi, kucoin, mexc, okx, xt | 2000 | 400 | 60000 |
+| [XCN-USDT](config/mainnet/XCN-USDT.config.json) | bingx, bitget, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc | 2000 | 400 | 60000 |
+| [XEC-KRW](config/mainnet/XEC-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [XLM-KRW](config/mainnet/XLM-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [XMR-USDT](config/mainnet/XMR-USDT.config.json) | bingx, bitmart, btse, coinex, kraken, kucoin, mexc, xt | 2000 | 400 | 60000 |
+| [XRP-KRW](config/mainnet/XRP-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [XRP-USDT](config/mainnet/XRP-USDT.config.json) | binance, bingx, bitget, bitmart, bitstamp, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [XTZ-USDT](config/mainnet/XTZ-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [ZETA-KRW](config/mainnet/ZETA-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [ZIL-USDT](config/mainnet/ZIL-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [ZK-KRW](config/mainnet/ZK-KRW.config.json) | bithumb, coinone, korbit | 2000 | 400 | 60000 |
+| [ZK-USDT](config/mainnet/ZK-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [ZKJ-USDT](config/mainnet/ZKJ-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, mexc, okx | 2000 | 400 | 60000 |
+| [ZP-KAIA](config/mainnet/ZP-KAIA.config.json) | Dragonswap | 2000 | 400 | 15000 |
+| [ZRO-KRW](config/mainnet/ZRO-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [ZRO-USDT](config/mainnet/ZRO-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [ZRX-USDT](config/mainnet/ZRX-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, mexc, okx, orangex | 2000 | 400 | 60000 |
 
-## Baobab
+## Kairos
 
 235 pairs, 2180 feeds.
 
 | pair | sources | fetchInterval | aggregateInterval | submitInterval |
 | --- | --- | ---: | ---: | ---: |
-| [1INCH-USDT](config/baobab/1INCH-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [A-KRW](config/baobab/A-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [AAVE-KRW](config/baobab/AAVE-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [ACH-USDT](config/baobab/ACH-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, mexc, okx | 2000 | 400 | 60000 |
-| [ADA-KRW](config/baobab/ADA-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [ADA-USDT](config/baobab/ADA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [AERO-USDT](config/baobab/AERO-USDT.config.json) | bingx, bitget, bybit, coinex, gateio, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [AIOZ-USDT](config/baobab/AIOZ-USDT.config.json) | bingx, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, orangex, xt | 2000 | 400 | 60000 |
-| [AKT-KRW](config/baobab/AKT-KRW.config.json) | bithumb, korbit, upbit | 2000 | 400 | 60000 |
-| [ALGO-USDT](config/baobab/ALGO-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [APT-KRW](config/baobab/APT-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [APT-USDT](config/baobab/APT-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [AR-USDT](config/baobab/AR-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [ARB-KRW](config/baobab/ARB-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [ASTR-KRW](config/baobab/ASTR-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [ATH-USDT](config/baobab/ATH-USDT.config.json) | bingx, bitget, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [ATOM-USDT](config/baobab/ATOM-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [AUCTION-KRW](config/baobab/AUCTION-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [AVAX-KRW](config/baobab/AVAX-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [AVAX-USDT](config/baobab/AVAX-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [AVL-USDT](config/baobab/AVL-USDT.config.json) | bybit, gateio | 2000 | 400 | 60000 |
-| [AWE-KRW](config/baobab/AWE-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [AXL-USDT](config/baobab/AXL-USDT.config.json) | binance, bitget, bitmart, bybit, crypto, orangex, xt | 2000 | 400 | 60000 |
-| [AXS-KRW](config/baobab/AXS-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [BABYDOGE-USDT](config/baobab/BABYDOGE-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx | 2000 | 400 | 60000 |
-| [BAT-USDT](config/baobab/BAT-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, mexc, okx, xt | 2000 | 400 | 60000 |
-| [BCH-KRW](config/baobab/BCH-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [BEAM-USDT](config/baobab/BEAM-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, mexc, orangex | 2000 | 400 | 60000 |
-| [BERA-USDT](config/baobab/BERA-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [BGB-USDT](config/baobab/BGB-USDT.config.json) | bitget, lbank, mexc | 2000 | 400 | 60000 |
-| [BLAST-KRW](config/baobab/BLAST-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [BLUR-KRW](config/baobab/BLUR-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [BNB-USDT](config/baobab/BNB-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [BONK-KRW](config/baobab/BONK-KRW.config.json) | bithumb, coinone, korbit | 2000 | 400 | 60000 |
-| [BONK-USDT](config/baobab/BONK-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [BORA-KRW](config/baobab/BORA-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 15000 |
-| [BRETT-USDT](config/baobab/BRETT-USDT.config.json) | bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, orangex, xt | 2000 | 400 | 60000 |
-| [BSV-KRW](config/baobab/BSV-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [BTC-KRW](config/baobab/BTC-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [BTC-USDT](config/baobab/BTC-USDT.config.json) | binance, bingx, bitget, bitmart, bitstamp, btse, bybit, coinbase, coinex, crypto, gateio, gemini, huobi, kucoin, lbank, okx, orangex, UniswapV3, xt | 2000 | 400 | 15000 |
-| [BTT-KRW](config/baobab/BTT-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [CAKE-USDT](config/baobab/CAKE-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [CELO-USDT](config/baobab/CELO-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, okx, xt | 2000 | 400 | 60000 |
-| [CFX-USDT](config/baobab/CFX-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [CHF-USD](config/baobab/CHF-USD.config.json) | daum, naver, Yahoo | 10000 | 400 | 15000 |
-| [CHZ-KRW](config/baobab/CHZ-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [CKB-USDT](config/baobab/CKB-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [COMP-USDT](config/baobab/COMP-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [CORE-USDT](config/baobab/CORE-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, huobi, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [CRO-USDT](config/baobab/CRO-USDT.config.json) | bingx, bitget, bitmart, coinex, crypto, gateio, kraken, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [CRV-USDT](config/baobab/CRV-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [CTC-KRW](config/baobab/CTC-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [CVX-USDT](config/baobab/CVX-USDT.config.json) | binance, bingx, bitget, bitmart, btse, coinex, gateio, huobi, kucoin, lbank, mexc, okx | 2000 | 400 | 60000 |
-| [DAI-USDT](config/baobab/DAI-USDT.config.json) | kraken, UniswapV3 | 2000 | 400 | 15000 |
-| [DASH-USDT](config/baobab/DASH-USDT.config.json) | binance, bingx, bitmart, coinex, kucoin, mexc, xt | 2000 | 400 | 60000 |
-| [DEEP-USDT](config/baobab/DEEP-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [DEXE-USDT](config/baobab/DEXE-USDT.config.json) | binance, bingx, gateio, huobi, kucoin, lbank, mexc | 2000 | 400 | 60000 |
-| [DOGE-KRW](config/baobab/DOGE-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [DOGE-USDT](config/baobab/DOGE-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [DOT-KRW](config/baobab/DOT-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [DOT-USDT](config/baobab/DOT-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 15000 |
-| [DYDX-USDT](config/baobab/DYDX-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [EARNUSDT-USDT](config/baobab/EARNUSDT-USDT.config.json) | Dragonswap | 2000 | 400 | 60000 |
-| [EGLD-USDT](config/baobab/EGLD-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [EIGEN-USDT](config/baobab/EIGEN-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [ELIZAOS-USDT](config/baobab/ELIZAOS-USDT.config.json) | bingx, gateio, huobi, kucoin, mexc | 2000 | 400 | 60000 |
-| [ENA-USDT](config/baobab/ENA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [ENS-KRW](config/baobab/ENS-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [ETC-KRW](config/baobab/ETC-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [ETH-KRW](config/baobab/ETH-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [ETH-USDT](config/baobab/ETH-USDT.config.json) | binance, bingx, bitget, bitmart, bitstamp, btse, bybit, coinbase, coinex, crypto, gateio, gemini, huobi, kraken, kucoin, lbank, okx, orangex, UniswapV3:0.05, UniswapV3:0.3, xt | 2000 | 400 | 15000 |
-| [EUR-USD](config/baobab/EUR-USD.config.json) | bitstamp, daum, gemini, naver, Yahoo | 10000 | 400 | 15000 |
-| [FARTCOIN-USDT](config/baobab/FARTCOIN-USDT.config.json) | bingx, bitget, bitmart, btse, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [FDUSD-USDT](config/baobab/FDUSD-USDT.config.json) | binance, bingx, gateio, mexc, xt | 2000 | 400 | 60000 |
-| [FET-KRW](config/baobab/FET-KRW.config.json) | bithumb, coinone, korbit | 2000 | 400 | 60000 |
-| [FIL-USDT](config/baobab/FIL-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [FLOKI-USDT](config/baobab/FLOKI-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [FLOW-KRW](config/baobab/FLOW-KRW.config.json) | korbit | 2000 | 400 | 60000 |
-| [FLR-USDT](config/baobab/FLR-USDT.config.json) | bingx, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [FORM-USDT](config/baobab/FORM-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [FTT-USDT](config/baobab/FTT-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, orangex | 2000 | 400 | 60000 |
-| [GALA-USDT](config/baobab/GALA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [GAS-KRW](config/baobab/GAS-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [GBP-USD](config/baobab/GBP-USD.config.json) | bitstamp, daum, naver, Yahoo | 10000 | 400 | 15000 |
-| [GLM-KRW](config/baobab/GLM-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [GNO-USDT](config/baobab/GNO-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, huobi, mexc | 2000 | 400 | 60000 |
-| [GRASS-USDT](config/baobab/GRASS-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc | 2000 | 400 | 60000 |
-| [GRND-KRW](config/baobab/GRND-KRW.config.json) | bithumb, coinone | 2000 | 400 | 60000 |
-| [GRND-USDT](config/baobab/GRND-USDT.config.json) | gateio, hashkey | 2000 | 400 | 60000 |
-| [GRT-KRW](config/baobab/GRT-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [GT-USDT](config/baobab/GT-USDT.config.json) | gateio, huobi, lbank | 2000 | 400 | 60000 |
-| [HBAR-KRW](config/baobab/HBAR-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [HNT-USDT](config/baobab/HNT-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, crypto, gateio, kucoin, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [HOT-USDT](config/baobab/HOT-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, crypto, gateio, huobi, lbank, mexc | 2000 | 400 | 60000 |
-| [HYPE-USDT](config/baobab/HYPE-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [IDR-USD](config/baobab/IDR-USD.config.json) | Daum, naver, Yahoo | 10000 | 400 | 60000 |
-| [IDRP-USDT](config/baobab/IDRP-USDT.config.json) | DragonSwap | 2000 | 400 | 60000 |
-| [IDRX-USDT](config/baobab/IDRX-USDT.config.json) | DragonSwap, PancakeSwap, UniswapV3 | 2000 | 400 | 60000 |
-| [IMX-KRW](config/baobab/IMX-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [INJ-USDT](config/baobab/INJ-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [IOTA-USDT](config/baobab/IOTA-USDT.config.json) | binance, bingx, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [IQ-KRW](config/baobab/IQ-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [JASMY-USDT](config/baobab/JASMY-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [JPY-USD](config/baobab/JPY-USD.config.json) | daum, naver, Yahoo | 10000 | 400 | 15000 |
-| [JPYC-USDT](config/baobab/JPYC-USDT.config.json) | UniswapV4 | 2000 | 400 | 60000 |
-| [JST-USDT](config/baobab/JST-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
-| [JTO-USDT](config/baobab/JTO-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [JUP-USDT](config/baobab/JUP-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [KAIA-KRW](config/baobab/KAIA-KRW.config.json) | bithumb, coinone, gopax, korbit | 2000 | 400 | 60000 |
-| [KAIA-USDT](config/baobab/KAIA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, kucoin, lbank, okx, orangex, xt | 2000 | 400 | 60000 |
-| [KAITO-USDT](config/baobab/KAITO-USDT.config.json) | binance, bitget, bitmart, btse, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
-| [KAS-USDT](config/baobab/KAS-USDT.config.json) | bingx, bitget, bitmart, btse, bybit, coinex, gateio, kraken, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [KAVA-USDT](config/baobab/KAVA-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
-| [KNC-KRW](config/baobab/KNC-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [KRW-USD](config/baobab/KRW-USD.config.json) | Daum, naver, Yahoo | 10000 | 400 | 15000 |
-| [KRWO-USDT](config/baobab/KRWO-USDT.config.json) | capybara, Dragonswap | 2000 | 400 | 60000 |
-| [KSM-USDT](config/baobab/KSM-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [LDO-USDT](config/baobab/LDO-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [LINK-KRW](config/baobab/LINK-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [LPT-USDT](config/baobab/LPT-USDT.config.json) | binance, bingx, bitget, bitmart, btse, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [LTC-USDT](config/baobab/LTC-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [LUNC-USDT](config/baobab/LUNC-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [MANA-USDT](config/baobab/MANA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [MASK-USDT](config/baobab/MASK-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
-| [MBL-KRW](config/baobab/MBL-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [MBX-KRW](config/baobab/MBX-KRW.config.json) | bithumb, coinone, korbit | 2000 | 400 | 15000 |
-| [MED-KRW](config/baobab/MED-KRW.config.json) | bithumb, korbit, upbit | 2000 | 400 | 60000 |
-| [MELANIA-USDT](config/baobab/MELANIA-USDT.config.json) | bingx, bitget, bitmart, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
-| [MINA-KRW](config/baobab/MINA-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [MINA-USDT](config/baobab/MINA-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [MLK-KRW](config/baobab/MLK-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [MNT-USDT](config/baobab/MNT-USDT.config.json) | bingx, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [MORPHO-USDT](config/baobab/MORPHO-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [MOVE-USDT](config/baobab/MOVE-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
-| [MTL-KRW](config/baobab/MTL-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [MYR-USD](config/baobab/MYR-USD.config.json) | Daum, naver, Yahoo | 10000 | 400 | 60000 |
-| [MYRC-USDT](config/baobab/MYRC-USDT.config.json) | UniswapV3 | 2000 | 400 | 60000 |
-| [NEAR-KRW](config/baobab/NEAR-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [NEO-USDT](config/baobab/NEO-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [NEXO-USDT](config/baobab/NEXO-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, lbank, mexc, xt | 2000 | 400 | 60000 |
-| [NFT-USDT](config/baobab/NFT-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, mexc, okx | 2000 | 400 | 60000 |
-| [NOT-USDT](config/baobab/NOT-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [OKB-USDT](config/baobab/OKB-USDT.config.json) | bingx, bitmart, coinex, gateio, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [ONDO-KRW](config/baobab/ONDO-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [ONDO-USDT](config/baobab/ONDO-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [ONG-KRW](config/baobab/ONG-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [OSMO-USDT](config/baobab/OSMO-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc, orangex | 2000 | 400 | 60000 |
-| [PAXG-USDT](config/baobab/PAXG-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, crypto, gateio, kucoin, lbank, okx, xt | 2000 | 400 | 15000 |
-| [PENDLE-USDT](config/baobab/PENDLE-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [PENGU-USDT](config/baobab/PENGU-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [PEPE-KRW](config/baobab/PEPE-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [PEPE-USDT](config/baobab/PEPE-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [PER-KLAY](config/baobab/PER-KLAY.config.json) | KlaySwap | 2000 | 400 | 15000 |
-| [PI-USDT](config/baobab/PI-USDT.config.json) | bitget, bitmart, coinex, gateio, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [PNUT-USDT](config/baobab/PNUT-USDT.config.json) | binance, bingx, bitget, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [POL-KRW](config/baobab/POL-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [POL-USDT](config/baobab/POL-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [POPCAT-USDT](config/baobab/POPCAT-USDT.config.json) | bingx, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [PYTH-KRW](config/baobab/PYTH-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [PYUSD-USDT](config/baobab/PYUSD-USDT.config.json) | bingx, bitget, bitmart, btse, bybit, crypto, gateio, huobi, kucoin, okx | 2000 | 400 | 60000 |
-| [QNT-USDT](config/baobab/QNT-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinbase, coinex, crypto, gateio, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
-| [QTUM-USDT](config/baobab/QTUM-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [RAY-USDT](config/baobab/RAY-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [RENDER-USDT](config/baobab/RENDER-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [RON-USDT](config/baobab/RON-USDT.config.json) | bingx, bitget, coinex, gateio, mexc, okx, orangex | 2000 | 400 | 60000 |
-| [ROSE-USDT](config/baobab/ROSE-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, mexc, xt | 2000 | 400 | 60000 |
-| [RSR-USDT](config/baobab/RSR-USDT.config.json) | binance, bingx, bitget, bitmart, btse, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [RUNE-USDT](config/baobab/RUNE-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, mexc, xt | 2000 | 400 | 60000 |
-| [S-USDT](config/baobab/S-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [SAFE-USDT](config/baobab/SAFE-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, mexc, okx, orangex | 2000 | 400 | 60000 |
-| [SAND-KRW](config/baobab/SAND-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [SAND-USDT](config/baobab/SAND-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [SEI-KRW](config/baobab/SEI-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [SEI-USDT](config/baobab/SEI-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [SFP-USDT](config/baobab/SFP-USDT.config.json) | binance, bingx, coinex, gateio, kucoin, lbank, mexc | 2000 | 400 | 60000 |
-| [SGD-USD](config/baobab/SGD-USD.config.json) | Daum, naver, Yahoo | 10000 | 400 | 60000 |
-| [SHIB-KRW](config/baobab/SHIB-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [SHIB-USDT](config/baobab/SHIB-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [SKY-USDT](config/baobab/SKY-USDT.config.json) | binance, bingx, bitget, btse, bybit, coinex, gateio, huobi, kucoin, mexc, okx, xt | 2000 | 400 | 60000 |
-| [SNT-KRW](config/baobab/SNT-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [SNX-USDT](config/baobab/SNX-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [SOL-KRW](config/baobab/SOL-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [SOL-USDT](config/baobab/SOL-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [SONIC-USDT](config/baobab/SONIC-USDT.config.json) | bingx, bitget, btse, bybit, coinex, gateio, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
-| [SPX-USDT](config/baobab/SPX-USDT.config.json) | bingx, bitmart, btse, bybit, coinex, gateio, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
-| [STG-KRW](config/baobab/STG-KRW.config.json) | binance, bingx, bitget, coinex, gateio, huobi, kucoin | 2000 | 400 | 15000 |
-| [STG-USDT](config/baobab/STG-USDT.config.json) | binance, bingx, bitget, coinex, gateio, huobi, kucoin | 2000 | 400 | 15000 |
-| [STKAIA-KAIA](config/baobab/STKAIA-KAIA.config.json) | capybara, Dragonswap | 2000 | 400 | 60000 |
-| [STRK-KRW](config/baobab/STRK-KRW.config.json) | bithumb, coinone, korbit | 2000 | 400 | 60000 |
-| [STX-KRW](config/baobab/STX-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [SUI-KRW](config/baobab/SUI-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [SUI-USDT](config/baobab/SUI-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [SUPER-USDT](config/baobab/SUPER-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, crypto, gateio, huobi, kucoin, orangex, xt | 2000 | 400 | 60000 |
-| [TAO-USDT](config/baobab/TAO-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
-| [TFUEL-USDT](config/baobab/TFUEL-USDT.config.json) | binance, bingx, bitmart, coinex, crypto, gateio, kucoin, mexc | 2000 | 400 | 60000 |
-| [THETA-USDT](config/baobab/THETA-USDT.config.json) | binance, bingx, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, okx, xt | 2000 | 400 | 60000 |
-| [TIA-USDT](config/baobab/TIA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [TRUMP-USDT](config/baobab/TRUMP-USDT.config.json) | binance, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kraken, kucoin, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [TRX-KRW](config/baobab/TRX-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [TRX-USDT](config/baobab/TRX-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [TUSD-USDT](config/baobab/TUSD-USDT.config.json) | binance, bingx, bitget, bitmart, gateio, huobi, kucoin, mexc | 2000 | 400 | 60000 |
-| [TWT-USDT](config/baobab/TWT-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
-| [UNI-USDT](config/baobab/UNI-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, UniswapV3, xt | 2000 | 400 | 15000 |
-| [USDC-USDT](config/baobab/USDC-USDT.config.json) | binance, bingx, bitget, bitmart, bitstamp, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, UniswapV3, xt | 2000 | 400 | 15000 |
-| [USDE-USDT](config/baobab/USDE-USDT.config.json) | binance, bitget, bitmart, btse, bybit, gateio, kraken, kucoin | 2000 | 400 | 60000 |
-| [USDT-KRW](config/baobab/USDT-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [USDT-USD](config/baobab/USDT-USD.config.json) | bitstamp, btse, coinbase, crypto, gemini, okx | 2000 | 400 | 60000 |
-| [VET-USDT](config/baobab/VET-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
-| [VIRTUAL-USDT](config/baobab/VIRTUAL-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [VTHO-USDT](config/baobab/VTHO-USDT.config.json) | binance, bitget, bitmart, bybit, coinex, gateio, kucoin, mexc | 2000 | 400 | 60000 |
-| [W-USDT](config/baobab/W-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [WALK-KAIA](config/baobab/WALK-KAIA.config.json) | Dragonswap | 2000 | 400 | 60000 |
-| [WAVES-KRW](config/baobab/WAVES-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
-| [WEMIX-USDT](config/baobab/WEMIX-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, mexc, orangex, xt | 2000 | 400 | 15000 |
-| [WIF-USDT](config/baobab/WIF-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [WLD-KRW](config/baobab/WLD-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [WLD-USDT](config/baobab/WLD-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [XAUT-USDT](config/baobab/XAUT-USDT.config.json) | bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, okx, orangex, xt | 2000 | 400 | 60000 |
-| [XCH-USDT](config/baobab/XCH-USDT.config.json) | bingx, bitmart, coinex, gateio, huobi, kucoin, mexc, okx, xt | 2000 | 400 | 60000 |
-| [XCN-USDT](config/baobab/XCN-USDT.config.json) | bingx, bitget, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc | 2000 | 400 | 60000 |
-| [XEC-KRW](config/baobab/XEC-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [XLM-KRW](config/baobab/XLM-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [XMR-USDT](config/baobab/XMR-USDT.config.json) | bingx, bitmart, btse, coinex, kraken, kucoin, mexc, xt | 2000 | 400 | 60000 |
-| [XRP-KRW](config/baobab/XRP-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
-| [XRP-USDT](config/baobab/XRP-USDT.config.json) | binance, bingx, bitget, bitmart, bitstamp, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
-| [XTZ-USDT](config/baobab/XTZ-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [ZETA-KRW](config/baobab/ZETA-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [ZIL-USDT](config/baobab/ZIL-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [ZK-KRW](config/baobab/ZK-KRW.config.json) | bithumb, coinone, korbit | 2000 | 400 | 60000 |
-| [ZK-USDT](config/baobab/ZK-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [ZKJ-USDT](config/baobab/ZKJ-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, mexc, okx | 2000 | 400 | 60000 |
-| [ZP-KAIA](config/baobab/ZP-KAIA.config.json) | Dragonswap | 2000 | 400 | 15000 |
-| [ZRO-KRW](config/baobab/ZRO-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [ZRO-USDT](config/baobab/ZRO-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [ZRX-USDT](config/baobab/ZRX-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, mexc, okx, orangex | 2000 | 400 | 60000 |
+| [1INCH-USDT](config/kairos/1INCH-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [A-KRW](config/kairos/A-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [AAVE-KRW](config/kairos/AAVE-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [ACH-USDT](config/kairos/ACH-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, mexc, okx | 2000 | 400 | 60000 |
+| [ADA-KRW](config/kairos/ADA-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [ADA-USDT](config/kairos/ADA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [AERO-USDT](config/kairos/AERO-USDT.config.json) | bingx, bitget, bybit, coinex, gateio, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [AIOZ-USDT](config/kairos/AIOZ-USDT.config.json) | bingx, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, orangex, xt | 2000 | 400 | 60000 |
+| [AKT-KRW](config/kairos/AKT-KRW.config.json) | bithumb, korbit, upbit | 2000 | 400 | 60000 |
+| [ALGO-USDT](config/kairos/ALGO-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [APT-KRW](config/kairos/APT-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [APT-USDT](config/kairos/APT-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [AR-USDT](config/kairos/AR-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [ARB-KRW](config/kairos/ARB-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [ASTR-KRW](config/kairos/ASTR-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [ATH-USDT](config/kairos/ATH-USDT.config.json) | bingx, bitget, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [ATOM-USDT](config/kairos/ATOM-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [AUCTION-KRW](config/kairos/AUCTION-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [AVAX-KRW](config/kairos/AVAX-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [AVAX-USDT](config/kairos/AVAX-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [AVL-USDT](config/kairos/AVL-USDT.config.json) | bybit, gateio | 2000 | 400 | 60000 |
+| [AWE-KRW](config/kairos/AWE-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [AXL-USDT](config/kairos/AXL-USDT.config.json) | binance, bitget, bitmart, bybit, crypto, orangex, xt | 2000 | 400 | 60000 |
+| [AXS-KRW](config/kairos/AXS-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [BABYDOGE-USDT](config/kairos/BABYDOGE-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx | 2000 | 400 | 60000 |
+| [BAT-USDT](config/kairos/BAT-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, mexc, okx, xt | 2000 | 400 | 60000 |
+| [BCH-KRW](config/kairos/BCH-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [BEAM-USDT](config/kairos/BEAM-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, mexc, orangex | 2000 | 400 | 60000 |
+| [BERA-USDT](config/kairos/BERA-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [BGB-USDT](config/kairos/BGB-USDT.config.json) | bitget, lbank, mexc | 2000 | 400 | 60000 |
+| [BLAST-KRW](config/kairos/BLAST-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [BLUR-KRW](config/kairos/BLUR-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [BNB-USDT](config/kairos/BNB-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [BONK-KRW](config/kairos/BONK-KRW.config.json) | bithumb, coinone, korbit | 2000 | 400 | 60000 |
+| [BONK-USDT](config/kairos/BONK-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [BORA-KRW](config/kairos/BORA-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 15000 |
+| [BRETT-USDT](config/kairos/BRETT-USDT.config.json) | bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, orangex, xt | 2000 | 400 | 60000 |
+| [BSV-KRW](config/kairos/BSV-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [BTC-KRW](config/kairos/BTC-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [BTC-USDT](config/kairos/BTC-USDT.config.json) | binance, bingx, bitget, bitmart, bitstamp, btse, bybit, coinbase, coinex, crypto, gateio, gemini, huobi, kucoin, lbank, okx, orangex, UniswapV3, xt | 2000 | 400 | 15000 |
+| [BTT-KRW](config/kairos/BTT-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [CAKE-USDT](config/kairos/CAKE-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [CELO-USDT](config/kairos/CELO-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, okx, xt | 2000 | 400 | 60000 |
+| [CFX-USDT](config/kairos/CFX-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [CHF-USD](config/kairos/CHF-USD.config.json) | daum, naver, Yahoo | 10000 | 400 | 15000 |
+| [CHZ-KRW](config/kairos/CHZ-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [CKB-USDT](config/kairos/CKB-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [COMP-USDT](config/kairos/COMP-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [CORE-USDT](config/kairos/CORE-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, huobi, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [CRO-USDT](config/kairos/CRO-USDT.config.json) | bingx, bitget, bitmart, coinex, crypto, gateio, kraken, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [CRV-USDT](config/kairos/CRV-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [CTC-KRW](config/kairos/CTC-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [CVX-USDT](config/kairos/CVX-USDT.config.json) | binance, bingx, bitget, bitmart, btse, coinex, gateio, huobi, kucoin, lbank, mexc, okx | 2000 | 400 | 60000 |
+| [DAI-USDT](config/kairos/DAI-USDT.config.json) | kraken, UniswapV3 | 2000 | 400 | 15000 |
+| [DASH-USDT](config/kairos/DASH-USDT.config.json) | binance, bingx, bitmart, coinex, kucoin, mexc, xt | 2000 | 400 | 60000 |
+| [DEEP-USDT](config/kairos/DEEP-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [DEXE-USDT](config/kairos/DEXE-USDT.config.json) | binance, bingx, gateio, huobi, kucoin, lbank, mexc | 2000 | 400 | 60000 |
+| [DOGE-KRW](config/kairos/DOGE-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [DOGE-USDT](config/kairos/DOGE-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [DOT-KRW](config/kairos/DOT-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [DOT-USDT](config/kairos/DOT-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 15000 |
+| [DYDX-USDT](config/kairos/DYDX-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [EARNUSDT-USDT](config/kairos/EARNUSDT-USDT.config.json) | Dragonswap | 2000 | 400 | 60000 |
+| [EGLD-USDT](config/kairos/EGLD-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [EIGEN-USDT](config/kairos/EIGEN-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [ELIZAOS-USDT](config/kairos/ELIZAOS-USDT.config.json) | bingx, gateio, huobi, kucoin, mexc | 2000 | 400 | 60000 |
+| [ENA-USDT](config/kairos/ENA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [ENS-KRW](config/kairos/ENS-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [ETC-KRW](config/kairos/ETC-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [ETH-KRW](config/kairos/ETH-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [ETH-USDT](config/kairos/ETH-USDT.config.json) | binance, bingx, bitget, bitmart, bitstamp, btse, bybit, coinbase, coinex, crypto, gateio, gemini, huobi, kraken, kucoin, lbank, okx, orangex, UniswapV3:0.05, UniswapV3:0.3, xt | 2000 | 400 | 15000 |
+| [EUR-USD](config/kairos/EUR-USD.config.json) | bitstamp, daum, gemini, naver, Yahoo | 10000 | 400 | 15000 |
+| [FARTCOIN-USDT](config/kairos/FARTCOIN-USDT.config.json) | bingx, bitget, bitmart, btse, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [FDUSD-USDT](config/kairos/FDUSD-USDT.config.json) | binance, bingx, gateio, mexc, xt | 2000 | 400 | 60000 |
+| [FET-KRW](config/kairos/FET-KRW.config.json) | bithumb, coinone, korbit | 2000 | 400 | 60000 |
+| [FIL-USDT](config/kairos/FIL-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [FLOKI-USDT](config/kairos/FLOKI-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [FLOW-KRW](config/kairos/FLOW-KRW.config.json) | korbit | 2000 | 400 | 60000 |
+| [FLR-USDT](config/kairos/FLR-USDT.config.json) | bingx, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [FORM-USDT](config/kairos/FORM-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [FTT-USDT](config/kairos/FTT-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, orangex | 2000 | 400 | 60000 |
+| [GALA-USDT](config/kairos/GALA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [GAS-KRW](config/kairos/GAS-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [GBP-USD](config/kairos/GBP-USD.config.json) | bitstamp, daum, naver, Yahoo | 10000 | 400 | 15000 |
+| [GLM-KRW](config/kairos/GLM-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [GNO-USDT](config/kairos/GNO-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, huobi, mexc | 2000 | 400 | 60000 |
+| [GRASS-USDT](config/kairos/GRASS-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc | 2000 | 400 | 60000 |
+| [GRND-KRW](config/kairos/GRND-KRW.config.json) | bithumb, coinone | 2000 | 400 | 60000 |
+| [GRND-USDT](config/kairos/GRND-USDT.config.json) | gateio, hashkey | 2000 | 400 | 60000 |
+| [GRT-KRW](config/kairos/GRT-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [GT-USDT](config/kairos/GT-USDT.config.json) | gateio, huobi, lbank | 2000 | 400 | 60000 |
+| [HBAR-KRW](config/kairos/HBAR-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [HNT-USDT](config/kairos/HNT-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, crypto, gateio, kucoin, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [HOT-USDT](config/kairos/HOT-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, crypto, gateio, huobi, lbank, mexc | 2000 | 400 | 60000 |
+| [HYPE-USDT](config/kairos/HYPE-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [IDR-USD](config/kairos/IDR-USD.config.json) | Daum, naver, Yahoo | 10000 | 400 | 60000 |
+| [IDRP-USDT](config/kairos/IDRP-USDT.config.json) | DragonSwap | 2000 | 400 | 60000 |
+| [IDRX-USDT](config/kairos/IDRX-USDT.config.json) | DragonSwap, PancakeSwap, UniswapV3 | 2000 | 400 | 60000 |
+| [IMX-KRW](config/kairos/IMX-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [INJ-USDT](config/kairos/INJ-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [IOTA-USDT](config/kairos/IOTA-USDT.config.json) | binance, bingx, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [IQ-KRW](config/kairos/IQ-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [JASMY-USDT](config/kairos/JASMY-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [JPY-USD](config/kairos/JPY-USD.config.json) | daum, naver, Yahoo | 10000 | 400 | 15000 |
+| [JPYC-USDT](config/kairos/JPYC-USDT.config.json) | UniswapV4 | 2000 | 400 | 60000 |
+| [JST-USDT](config/kairos/JST-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
+| [JTO-USDT](config/kairos/JTO-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [JUP-USDT](config/kairos/JUP-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [KAIA-KRW](config/kairos/KAIA-KRW.config.json) | bithumb, coinone, gopax, korbit | 2000 | 400 | 60000 |
+| [KAIA-USDT](config/kairos/KAIA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, kucoin, lbank, okx, orangex, xt | 2000 | 400 | 60000 |
+| [KAITO-USDT](config/kairos/KAITO-USDT.config.json) | binance, bitget, bitmart, btse, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
+| [KAS-USDT](config/kairos/KAS-USDT.config.json) | bingx, bitget, bitmart, btse, bybit, coinex, gateio, kraken, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [KAVA-USDT](config/kairos/KAVA-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
+| [KNC-KRW](config/kairos/KNC-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [KRW-USD](config/kairos/KRW-USD.config.json) | Daum, naver, Yahoo | 10000 | 400 | 15000 |
+| [KRWO-USDT](config/kairos/KRWO-USDT.config.json) | capybara, Dragonswap | 2000 | 400 | 60000 |
+| [KSM-USDT](config/kairos/KSM-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [LDO-USDT](config/kairos/LDO-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [LINK-KRW](config/kairos/LINK-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [LPT-USDT](config/kairos/LPT-USDT.config.json) | binance, bingx, bitget, bitmart, btse, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [LTC-USDT](config/kairos/LTC-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [LUNC-USDT](config/kairos/LUNC-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [MANA-USDT](config/kairos/MANA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [MASK-USDT](config/kairos/MASK-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
+| [MBL-KRW](config/kairos/MBL-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [MBX-KRW](config/kairos/MBX-KRW.config.json) | bithumb, coinone, korbit | 2000 | 400 | 15000 |
+| [MED-KRW](config/kairos/MED-KRW.config.json) | bithumb, korbit, upbit | 2000 | 400 | 60000 |
+| [MELANIA-USDT](config/kairos/MELANIA-USDT.config.json) | bingx, bitget, bitmart, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
+| [MINA-KRW](config/kairos/MINA-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [MINA-USDT](config/kairos/MINA-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [MLK-KRW](config/kairos/MLK-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [MNT-USDT](config/kairos/MNT-USDT.config.json) | bingx, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [MORPHO-USDT](config/kairos/MORPHO-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [MOVE-USDT](config/kairos/MOVE-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
+| [MTL-KRW](config/kairos/MTL-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [MYR-USD](config/kairos/MYR-USD.config.json) | Daum, naver, Yahoo | 10000 | 400 | 60000 |
+| [MYRC-USDT](config/kairos/MYRC-USDT.config.json) | UniswapV3 | 2000 | 400 | 60000 |
+| [NEAR-KRW](config/kairos/NEAR-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [NEO-USDT](config/kairos/NEO-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [NEXO-USDT](config/kairos/NEXO-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, lbank, mexc, xt | 2000 | 400 | 60000 |
+| [NFT-USDT](config/kairos/NFT-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, mexc, okx | 2000 | 400 | 60000 |
+| [NOT-USDT](config/kairos/NOT-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [OKB-USDT](config/kairos/OKB-USDT.config.json) | bingx, bitmart, coinex, gateio, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [ONDO-KRW](config/kairos/ONDO-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [ONDO-USDT](config/kairos/ONDO-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [ONG-KRW](config/kairos/ONG-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [OSMO-USDT](config/kairos/OSMO-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc, orangex | 2000 | 400 | 60000 |
+| [PAXG-USDT](config/kairos/PAXG-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, crypto, gateio, kucoin, lbank, okx, xt | 2000 | 400 | 15000 |
+| [PENDLE-USDT](config/kairos/PENDLE-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [PENGU-USDT](config/kairos/PENGU-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [PEPE-KRW](config/kairos/PEPE-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [PEPE-USDT](config/kairos/PEPE-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [PER-KLAY](config/kairos/PER-KLAY.config.json) | KlaySwap | 2000 | 400 | 15000 |
+| [PI-USDT](config/kairos/PI-USDT.config.json) | bitget, bitmart, coinex, gateio, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [PNUT-USDT](config/kairos/PNUT-USDT.config.json) | binance, bingx, bitget, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [POL-KRW](config/kairos/POL-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [POL-USDT](config/kairos/POL-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [POPCAT-USDT](config/kairos/POPCAT-USDT.config.json) | bingx, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [PYTH-KRW](config/kairos/PYTH-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [PYUSD-USDT](config/kairos/PYUSD-USDT.config.json) | bingx, bitget, bitmart, btse, bybit, crypto, gateio, huobi, kucoin, okx | 2000 | 400 | 60000 |
+| [QNT-USDT](config/kairos/QNT-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinbase, coinex, crypto, gateio, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
+| [QTUM-USDT](config/kairos/QTUM-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [RAY-USDT](config/kairos/RAY-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [RENDER-USDT](config/kairos/RENDER-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [RON-USDT](config/kairos/RON-USDT.config.json) | bingx, bitget, coinex, gateio, mexc, okx, orangex | 2000 | 400 | 60000 |
+| [ROSE-USDT](config/kairos/ROSE-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, mexc, xt | 2000 | 400 | 60000 |
+| [RSR-USDT](config/kairos/RSR-USDT.config.json) | binance, bingx, bitget, bitmart, btse, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [RUNE-USDT](config/kairos/RUNE-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, mexc, xt | 2000 | 400 | 60000 |
+| [S-USDT](config/kairos/S-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [SAFE-USDT](config/kairos/SAFE-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, mexc, okx, orangex | 2000 | 400 | 60000 |
+| [SAND-KRW](config/kairos/SAND-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [SAND-USDT](config/kairos/SAND-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [SEI-KRW](config/kairos/SEI-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [SEI-USDT](config/kairos/SEI-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
+| [SFP-USDT](config/kairos/SFP-USDT.config.json) | binance, bingx, coinex, gateio, kucoin, lbank, mexc | 2000 | 400 | 60000 |
+| [SGD-USD](config/kairos/SGD-USD.config.json) | Daum, naver, Yahoo | 10000 | 400 | 60000 |
+| [SHIB-KRW](config/kairos/SHIB-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [SHIB-USDT](config/kairos/SHIB-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [SKY-USDT](config/kairos/SKY-USDT.config.json) | binance, bingx, bitget, btse, bybit, coinex, gateio, huobi, kucoin, mexc, okx, xt | 2000 | 400 | 60000 |
+| [SNT-KRW](config/kairos/SNT-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [SNX-USDT](config/kairos/SNX-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [SOL-KRW](config/kairos/SOL-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [SOL-USDT](config/kairos/SOL-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [SONIC-USDT](config/kairos/SONIC-USDT.config.json) | bingx, bitget, btse, bybit, coinex, gateio, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
+| [SPX-USDT](config/kairos/SPX-USDT.config.json) | bingx, bitmart, btse, bybit, coinex, gateio, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
+| [STG-KRW](config/kairos/STG-KRW.config.json) | binance, bingx, bitget, coinex, gateio, huobi, kucoin | 2000 | 400 | 15000 |
+| [STG-USDT](config/kairos/STG-USDT.config.json) | binance, bingx, bitget, coinex, gateio, huobi, kucoin | 2000 | 400 | 15000 |
+| [STKAIA-KAIA](config/kairos/STKAIA-KAIA.config.json) | capybara, Dragonswap | 2000 | 400 | 60000 |
+| [STRK-KRW](config/kairos/STRK-KRW.config.json) | bithumb, coinone, korbit | 2000 | 400 | 60000 |
+| [STX-KRW](config/kairos/STX-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [SUI-KRW](config/kairos/SUI-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [SUI-USDT](config/kairos/SUI-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [SUPER-USDT](config/kairos/SUPER-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, crypto, gateio, huobi, kucoin, orangex, xt | 2000 | 400 | 60000 |
+| [TAO-USDT](config/kairos/TAO-USDT.config.json) | binance, bingx, bitget, bitmart, coinex, gateio, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
+| [TFUEL-USDT](config/kairos/TFUEL-USDT.config.json) | binance, bingx, bitmart, coinex, crypto, gateio, kucoin, mexc | 2000 | 400 | 60000 |
+| [THETA-USDT](config/kairos/THETA-USDT.config.json) | binance, bingx, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, okx, xt | 2000 | 400 | 60000 |
+| [TIA-USDT](config/kairos/TIA-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [TRUMP-USDT](config/kairos/TRUMP-USDT.config.json) | binance, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kraken, kucoin, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [TRX-KRW](config/kairos/TRX-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [TRX-USDT](config/kairos/TRX-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [TUSD-USDT](config/kairos/TUSD-USDT.config.json) | binance, bingx, bitget, bitmart, gateio, huobi, kucoin, mexc | 2000 | 400 | 60000 |
+| [TWT-USDT](config/kairos/TWT-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
+| [UNI-USDT](config/kairos/UNI-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, UniswapV3, xt | 2000 | 400 | 15000 |
+| [USDC-USDT](config/kairos/USDC-USDT.config.json) | binance, bingx, bitget, bitmart, bitstamp, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, UniswapV3, xt | 2000 | 400 | 15000 |
+| [USDE-USDT](config/kairos/USDE-USDT.config.json) | binance, bitget, bitmart, btse, bybit, gateio, kraken, kucoin | 2000 | 400 | 60000 |
+| [USDT-KRW](config/kairos/USDT-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [USDT-USD](config/kairos/USDT-USD.config.json) | bitstamp, btse, coinbase, crypto, gemini, okx | 2000 | 400 | 60000 |
+| [VET-USDT](config/kairos/VET-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
+| [VIRTUAL-USDT](config/kairos/VIRTUAL-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [VTHO-USDT](config/kairos/VTHO-USDT.config.json) | binance, bitget, bitmart, bybit, coinex, gateio, kucoin, mexc | 2000 | 400 | 60000 |
+| [W-USDT](config/kairos/W-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [WALK-KAIA](config/kairos/WALK-KAIA.config.json) | Dragonswap | 2000 | 400 | 60000 |
+| [WAVES-KRW](config/kairos/WAVES-KRW.config.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
+| [WEMIX-USDT](config/kairos/WEMIX-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, mexc, orangex, xt | 2000 | 400 | 15000 |
+| [WIF-USDT](config/kairos/WIF-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [WLD-KRW](config/kairos/WLD-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [WLD-USDT](config/kairos/WLD-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [XAUT-USDT](config/kairos/XAUT-USDT.config.json) | bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kraken, kucoin, lbank, okx, orangex, xt | 2000 | 400 | 60000 |
+| [XCH-USDT](config/kairos/XCH-USDT.config.json) | bingx, bitmart, coinex, gateio, huobi, kucoin, mexc, okx, xt | 2000 | 400 | 60000 |
+| [XCN-USDT](config/kairos/XCN-USDT.config.json) | bingx, bitget, bitmart, coinex, gateio, huobi, kucoin, lbank, mexc | 2000 | 400 | 60000 |
+| [XEC-KRW](config/kairos/XEC-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [XLM-KRW](config/kairos/XLM-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [XMR-USDT](config/kairos/XMR-USDT.config.json) | bingx, bitmart, btse, coinex, kraken, kucoin, mexc, xt | 2000 | 400 | 60000 |
+| [XRP-KRW](config/kairos/XRP-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [XRP-USDT](config/kairos/XRP-USDT.config.json) | binance, bingx, bitget, bitmart, bitstamp, btse, bybit, coinbase, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
+| [XTZ-USDT](config/kairos/XTZ-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [ZETA-KRW](config/kairos/ZETA-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [ZIL-USDT](config/kairos/ZIL-USDT.config.json) | binance, bingx, bitget, bitmart, bybit, coinex, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
+| [ZK-KRW](config/kairos/ZK-KRW.config.json) | bithumb, coinone, korbit | 2000 | 400 | 60000 |
+| [ZK-USDT](config/kairos/ZK-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [ZKJ-USDT](config/kairos/ZKJ-USDT.config.json) | bingx, bitget, bitmart, bybit, coinex, gateio, kucoin, mexc, okx | 2000 | 400 | 60000 |
+| [ZP-KAIA](config/kairos/ZP-KAIA.config.json) | Dragonswap | 2000 | 400 | 15000 |
+| [ZRO-KRW](config/kairos/ZRO-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
+| [ZRO-USDT](config/kairos/ZRO-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
+| [ZRX-USDT](config/kairos/ZRX-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, mexc, okx, orangex | 2000 | 400 | 60000 |

@@ -16,7 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 README = ROOT / 'README.md'
 BASE_URL = 'https://config.orakl.network'
-NETWORKS = ('cypress', 'baobab')
+NETWORKS = ('mainnet', 'kairos')
 INTERVALS = ('fetchInterval', 'aggregateInterval', 'submitInterval')
 
 INTRO = """\
@@ -24,7 +24,7 @@ INTRO = """\
 
 # orakl-config
 
-Price-feed configuration for the Orakl Network oracle, per network (`cypress` = Kaia mainnet, `baobab` = Kaia testnet).
+Price-feed configuration for the Orakl Network oracle, per network (`mainnet` = Kaia mainnet, `kairos` = Kaia testnet).
 
 ## Served bundles
 
