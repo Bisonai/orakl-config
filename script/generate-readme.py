@@ -129,7 +129,7 @@ def network_table(network):
 
 
 def render():
-    year = datetime.date.today().year
+    year = datetime.datetime.now(datetime.timezone.utc).year  # UTC: match CI
     parts = [INTRO] + [network_table(n) for n in NETWORKS]
     parts.append('---\n\nMaintained by Bisonai · © 2022–{}\n'.format(year))
     return '\n'.join(parts)
