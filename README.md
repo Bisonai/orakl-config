@@ -95,6 +95,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [ENS-KRW](config/cypress/ENS-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
 | [ETC-KRW](config/cypress/ETC-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
 | [ETH-KRW](config/cypress/ETH-KRW.config.json) | bithumb, coinone, gopax, korbit, upbit | 2000 | 400 | 60000 |
+| [ETH-USDT](config/cypress/ETH-USDT.config.json) | binance, bingx, bitget, bitmart, bitstamp, btse, bybit, coinbase, coinex, crypto, gateio, gemini, huobi, kraken, kucoin, lbank, okx, orangex, UniswapV3:0.05, UniswapV3:0.3, xt | 2000 | 400 | 15000 |
 | [EUR-USD](config/cypress/EUR-USD.config.json) | bitstamp, daum, gemini, naver, Yahoo | 10000 | 400 | 15000 |
 | [FARTCOIN-USDT](config/cypress/FARTCOIN-USDT.config.json) | bingx, bitget, bitmart, btse, coinex, gateio, huobi, kraken, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
 | [FDUSD-USDT](config/cypress/FDUSD-USDT.config.json) | binance, bingx, gateio, mexc, xt | 2000 | 400 | 60000 |
