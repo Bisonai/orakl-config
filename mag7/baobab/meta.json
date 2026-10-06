@@ -1,0 +1,50 @@
+{
+  "name": "META",
+  "decimals": 8,
+  "interval": 60000,
+  "feeds": [
+    {
+      "name": "META",
+      "definition": {
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/META?range=1d&interval=1m&includePrePost=true&events=div|split",
+        "headers": {
+          "Content-Type": "application/json",
+          "User-Agent": "Mozilla/5.0"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "chart",
+              "result"
+            ]
+          },
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": [
+              "meta",
+              "regularMarketPrice"
+            ]
+          },
+          {
+            "function": "POW10",
+            "args": 8
+          },
+          {
+            "function": "ROUND"
+          }
+        ],
+        "location": "kr"
+      }
+    }
+  ],
+  "address": "0x7f8E03089128EC0c79C4d2f03bc00D7c15E4ae1a",
+  "heartbeat": 300000,
+  "threshold": 0.002,
+  "absoluteThreshold": 0.1
+}

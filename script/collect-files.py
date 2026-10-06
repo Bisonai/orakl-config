@@ -1,5 +1,6 @@
 import json
 import os
+import shutil
 from pathlib import Path
 
 wsfetchers = ["binance", "coinbase", "coinone", "korbit", "kucoin", "bybit", "upbit", "crypto", "btse", "bithumb", "gateio", "coinex", "huobi", "mexc", "orangex"]
@@ -125,7 +126,29 @@ def generate_config_file(adapter_path: Path, aggregator_path: Path, output_file_
         json.dump(valid_configs, f, indent=4)
 
 if __name__ == "__main__":
-    collect_json_files(Path("config/baobab"), "baobab_configs.json", False)
-    collect_json_files(Path("config/cypress"), "cypress_configs.json", False)
-    collect_json_files(Path("mag7/baobab"), "baobab_mag7.json", False)
-    collect_json_files(Path("mag7/cypress"), "cypress_mag7.json", False)
+    # Canonical new names are mainnet (was cypress) and kairos (was baobab).
+    # Dual-publish: emit old-named bundles alongside new-named ones so no
+    # downstream consumer breaks (both names serve identical bytes).
+    #
+    # NOTE (issue #234, Phase 1 — rename only): the committed config bundles
+    # (cypress_configs.json / baobab_configs.json and their mainnet_/kairos_
+    # copies) are intentionally FROZEN to the pre-existing bytes. The source
+    # config/ files are ahead of those bundles by a cosmetic serialization
+    # delta (~180KB: indent 2->4 + key order), so running this script WILL
+    # rewrite the config bundles. That delta is a separate pre-existing
+    # staleness concern and must NOT be committed as part of this rename PR;
+    # it will be addressed in a dedicated follow-up. Mag7 bundles are in sync
+    # with source and regenerate cleanly.
+    collect_json_files(Path("config/kairos"), "kairos_configs.json", False)
+    collect_json_files(Path("config/kairos"), "baobab_configs.json", False)
+    collect_json_files(Path("config/mainnet"), "mainnet_configs.json", False)
+    collect_json_files(Path("config/mainnet"), "cypress_configs.json", False)
+    collect_json_files(Path("mag7/kairos"), "kairos_mag7.json", False)
+    collect_json_files(Path("mag7/kairos"), "baobab_mag7.json", False)
+    collect_json_files(Path("mag7/mainnet"), "mainnet_mag7.json", False)
+    collect_json_files(Path("mag7/mainnet"), "cypress_mag7.json", False)
+
+    # Regenerate old-name per-feed mag7 dirs so por's per-feed fetch of
+    # mag7/<chain>/<name>.json keeps working for the old chain names.
+    shutil.copytree("mag7/mainnet", "mag7/cypress", dirs_exist_ok=True)
+    shutil.copytree("mag7/kairos", "mag7/baobab", dirs_exist_ok=True)
