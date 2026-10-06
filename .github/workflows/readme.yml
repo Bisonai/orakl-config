@@ -30,7 +30,7 @@ jobs:
         if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository
         run: |
           python script/generate-readme.py --check || {
-            echo "::error::README.md is out of date. Run 'python script/generate-readme.py' locally and commit README.md."
+            echo "::error::README.md is out of date (checked on the merge with master). Merge master into your branch, run 'python script/generate-readme.py', commit README.md."
             exit 1
           }
 
