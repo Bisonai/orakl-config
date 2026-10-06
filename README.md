@@ -502,7 +502,3 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [ZRO-KRW](config/baobab/ZRO-KRW.config.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
 | [ZRO-USDT](config/baobab/ZRO-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [ZRX-USDT](config/baobab/ZRX-USDT.config.json) | binance, bingx, bitget, bitmart, btse, bybit, coinex, gateio, huobi, kucoin, mexc, okx, orangex | 2000 | 400 | 60000 |
-
----
-
-Maintained by Bisonai · © 2022–2026

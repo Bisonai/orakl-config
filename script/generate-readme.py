@@ -1,4 +1,4 @@
-"""Generate the repo-root README.md (intro + per-network feed tables + footer).
+"""Generate the repo-root README.md (intro + per-network feed tables).
 
 Usage (from anywhere):
     python script/generate-readme.py           # write README.md
@@ -6,12 +6,10 @@ Usage (from anywhere):
     python script/generate-readme.py --stdout  # print instead of writing
 
 Malformed config files are skipped with a warning on stderr. Output is
-deterministic apart from the footer year.
+deterministic.
 """
 import argparse
-import datetime
 import json
-import re
 import sys
 from pathlib import Path
 
@@ -130,16 +128,7 @@ def network_table(network):
 
 
 def render():
-    year = datetime.datetime.now(datetime.timezone.utc).year  # UTC: match CI
-    parts = [INTRO] + [network_table(n) for n in NETWORKS]
-    parts.append('---\n\nMaintained by Bisonai · © 2022–{}\n'.format(year))
-    return '\n'.join(parts)
-
-
-def without_year(text):
-    # --check ignores the footer year so a new calendar year alone doesn't
-    # fail fork PRs / master; the next same-repo PR refreshes it.
-    return re.sub(r'© 2022–\d{4}', '© 2022–YYYY', text)
+    return '\n'.join([INTRO] + [network_table(n) for n in NETWORKS])
 
 
 def main():
@@ -155,7 +144,7 @@ def main():
         return 0
     current = README.read_text(encoding='utf-8') if README.exists() else ''
     if args.check:
-        if without_year(current) != without_year(content):
+        if current != content:
             print('README.md is out of date; run: python script/generate-readme.py', file=sys.stderr)
             return 1
         return 0
