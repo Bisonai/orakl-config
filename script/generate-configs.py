@@ -361,7 +361,7 @@ def get_all_supported_providers(possible_symbols, base, quote):
 
 def load_existing_symbols(folder_path):
     result = []
-    postfix = ".config.json"
+    postfix = ".json"
     if not os.path.exists(folder_path):
         return []
     for filename in os.listdir(folder_path):
@@ -392,17 +392,17 @@ def feed_exists(feeds, name):
 
 def update_or_make_config_file(config_folder_path, symbol, feeds):
     result = {}
-    if not os.path.exists(config_folder_path+"/"+symbol+".config.json"):
+    if not os.path.exists(config_folder_path+"/"+symbol+".json"):
         result["name"] = symbol
         result["fetchInterval"] = DEFAULT_FETCH_INTERVAL
         result["aggregateInterval"] = DEFAULT_AGGREGATE_INTERVAL
         result["submitInterval"] = DEFAULT_SUBMIT_INTERVAL
         result["feeds"] = feeds
-        with open(f"{config_folder_path}/{symbol}.config.json", "w") as f:
+        with open(f"{config_folder_path}/{symbol}.json", "w") as f:
             json.dump(result, f, indent=4)
         return
 
-    with open(f"{config_folder_path}/{symbol}.config.json", "r") as f:
+    with open(f"{config_folder_path}/{symbol}.json", "r") as f:
         result = json.load(f)
 
     result["aggregateInterval"] = DEFAULT_AGGREGATE_INTERVAL
@@ -410,23 +410,23 @@ def update_or_make_config_file(config_folder_path, symbol, feeds):
         if not feed_exists(result["feeds"], feed["name"]):
             result["feeds"].append(feed)
 
-    with open(f"{config_folder_path}/{symbol}.config.json", "w") as f:
+    with open(f"{config_folder_path}/{symbol}.json", "w") as f:
         json.dump(result, f, indent=4)
 
 def replace_config_file(config_folder_path, symbol, feeds):
     # removes all ws feeds from previous file, and replace with new one
     result = {}
-    if not os.path.exists(config_folder_path+"/"+symbol+".config.json"):
+    if not os.path.exists(config_folder_path+"/"+symbol+".json"):
         result["name"] = symbol
         result["fetchInterval"] = DEFAULT_FETCH_INTERVAL
         result["aggregateInterval"] = DEFAULT_AGGREGATE_INTERVAL
         result["submitInterval"] = DEFAULT_SUBMIT_INTERVAL
         result["feeds"] = feeds
-        with open(f"{config_folder_path}/{symbol}.config.json", "w") as f:
+        with open(f"{config_folder_path}/{symbol}.json", "w") as f:
             json.dump(result, f, indent=4)
         return
 
-    with open(f"{config_folder_path}/{symbol}.config.json", "r") as f:
+    with open(f"{config_folder_path}/{symbol}.json", "r") as f:
         prev = json.load(f)
 
     result["name"] = symbol
@@ -443,7 +443,7 @@ def replace_config_file(config_folder_path, symbol, feeds):
 
 
 
-    with open(f"{config_folder_path}/{symbol}.config.json", "w") as f:
+    with open(f"{config_folder_path}/{symbol}.json", "w") as f:
         json.dump(result, f, indent=4)
 
 

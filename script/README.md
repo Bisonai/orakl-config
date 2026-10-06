@@ -17,7 +17,7 @@ Simply run `deactivate` for deactivating the venv.
 
 ## Generate Config Files
 
-Automatically generates `configs.json` files based on supported WebSocket APIs.
+Automatically generates per-pair `<PAIR>.json` config files based on supported WebSocket APIs.
 
 ### Parameters
 

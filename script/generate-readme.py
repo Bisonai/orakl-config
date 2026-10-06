@@ -31,14 +31,14 @@ Price-feed configuration for the Orakl Network oracle, per network (`mainnet` = 
 | network | price feeds | mag7 feeds |
 | --- | --- | --- |
 """ + ''.join(
-    '| {n} | [`{n}_configs.json`]({u}/{n}_configs.json) | [`{n}_mag7.json`]({u}/{n}_mag7.json) |\n'.format(n=n, u=BASE_URL)
+    '| {n} | [`{n}_feeds.json`]({u}/{n}_feeds.json) | [`{n}_mag7.json`]({u}/{n}_mag7.json) |\n'.format(n=n, u=BASE_URL)
     for n in NETWORKS
 ) + """
 ## Layout
 
-- `config/<network>/<PAIR>.config.json` — per-pair feed definitions (fetch / aggregate / submit intervals in ms, and the data-source feeds).
-- `mag7/<network>/<name>.json` — mag7 (US equity) feed definitions.
-- `<network>_configs.json` / `<network>_mag7.json` — aggregated bundles served from the repo root.
+- `config/<network>/<PAIR>.json` — per-pair feed definitions (fetch / aggregate / submit intervals in ms, and the data-source feeds).
+- `mag7/<network>/<NAME>.json` — mag7 (US equity) feed definitions.
+- `<network>_feeds.json` / `<network>_mag7.json` — aggregated bundles served from the repo root.
 
 See [`script/README.md`](script/README.md) for the scripts that generate the bundles and this file.
 """
@@ -107,7 +107,7 @@ def load_pair(path):
 def network_table(network):
     rows = []
     feed_total = 0
-    for path in sorted((ROOT / 'config' / network).glob('*.config.json')):
+    for path in sorted((ROOT / 'config' / network).glob('*.json')):
         pair = load_pair(path)
         if pair is None:
             continue
