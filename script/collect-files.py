@@ -149,6 +149,9 @@ if __name__ == "__main__":
     collect_json_files(Path("mag7/mainnet"), "cypress_mag7.json", False)
 
     # Regenerate old-name per-feed mag7 dirs so por's per-feed fetch of
-    # mag7/<chain>/<name>.json keeps working for the old chain names.
-    shutil.copytree("mag7/mainnet", "mag7/cypress", dirs_exist_ok=True)
-    shutil.copytree("mag7/kairos", "mag7/baobab", dirs_exist_ok=True)
+    # mag7/<chain>/<name>.json keeps working for the old chain names. Clear the
+    # destination first so feeds removed from the new-name source do not linger
+    # as stale per-feed files under the legacy names.
+    for src, dst in (("mag7/mainnet", "mag7/cypress"), ("mag7/kairos", "mag7/baobab")):
+        shutil.rmtree(dst, ignore_errors=True)
+        shutil.copytree(src, dst)

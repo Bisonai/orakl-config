@@ -377,7 +377,7 @@ def load_args():
     parser.add_argument("--onlysymbols", type=bool, default=False, help="Will only reload symbols from each exchanges")
     parser.add_argument("--refresh", type=bool, default=False, help="Refresh supported symbols from apis, true or false")
     parser.add_argument("--symbols", type=str, default="", required=False, help="configs to create, separated by comma, ex) btc-usdt, eth-usdt...")
-    parser.add_argument("--network", type=str, default="kairos", required=False, help="network to generate, defaults to kairos")
+    parser.add_argument("--network", type=str, default="kairos", choices=["mainnet", "kairos"], required=False, help="network to generate, defaults to kairos")
     parser.add_argument("--replace", type=bool, default=False, required=False, help="remove old ws sources and add new ones")
 
     args = parser.parse_args()
