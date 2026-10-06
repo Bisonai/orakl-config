@@ -11,6 +11,7 @@ deterministic apart from the footer year.
 import argparse
 import datetime
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -135,6 +136,12 @@ def render():
     return '\n'.join(parts)
 
 
+def without_year(text):
+    # --check ignores the footer year so a new calendar year alone doesn't
+    # fail fork PRs / master; the next same-repo PR refreshes it.
+    return re.sub(r'© 2022–\d{4}', '© 2022–YYYY', text)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     group = parser.add_mutually_exclusive_group()
@@ -148,7 +155,7 @@ def main():
         return 0
     current = README.read_text(encoding='utf-8') if README.exists() else ''
     if args.check:
-        if current != content:
+        if without_year(current) != without_year(content):
             print('README.md is out of date; run: python script/generate-readme.py', file=sys.stderr)
             return 1
         return 0

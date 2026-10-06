@@ -47,8 +47,8 @@ Stdlib only; runs from any directory.
 
 ```
 python script/generate-readme.py           # rewrite README.md
-python script/generate-readme.py --check   # exit 1 if README.md is stale
+python script/generate-readme.py --check   # exit 1 if README.md is stale (ignores footer year)
 python script/generate-readme.py --stdout  # print instead of writing
 ```
 
-CI (`.github/workflows/readme.yml`) runs it on every PR: for same-repo PRs it commits `chore: regenerate README` to the PR branch if the output changed, so `master` is current on merge. Fork PRs cannot be pushed to, so the check fails if README.md is stale — run the script locally and commit the result.
+CI (`.github/workflows/readme.yml`) runs it on every PR: for same-repo PRs it commits `chore: regenerate README` to the PR branch if the output changed, so `master` is current on merge. Fork PRs cannot be pushed to, so they run `--check` and fail if README.md is stale — run the script locally and commit the result. `--check` (also used by manual `workflow_dispatch` runs) ignores the footer year, so a new calendar year alone fails nothing; the next same-repo PR refreshes it.

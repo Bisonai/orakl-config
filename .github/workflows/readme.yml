@@ -41,15 +41,17 @@ jobs:
           REF_NAME: ${{ github.ref_name }}
           HEAD_REF: ${{ github.head_ref }}
         run: |
+          if [ "$EVENT" != "pull_request" ]; then
+            python script/generate-readme.py --check || {
+              echo "::error::README.md is out of date on $REF_NAME; regenerate it in a PR."
+              exit 1
+            }
+            exit 0
+          fi
           python script/generate-readme.py
           if git diff --quiet -- README.md; then
             echo "README.md up to date; no changes."
             exit 0
-          fi
-          if [ "$EVENT" != "pull_request" ]; then
-            echo "::error::README.md is out of date on $REF_NAME; regenerate it in a PR."
-            git diff --stat -- README.md
-            exit 1
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898808+github-actions[bot]@users.noreply.github.com"
