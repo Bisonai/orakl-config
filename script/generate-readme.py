@@ -97,7 +97,12 @@ def load_pair(path):
     if feeds and not sources:
         warn(path, 'no feed has a usable name/provider')
         return None
-    return data['name'], sorted(sources, key=lambda s: (s.lower(), s)), len(feeds), [data[k] for k in INTERVALS]
+    # Feed-name prefixes vary in case (e.g. PancakeSwap/Pancakeswap); list each
+    # source once, keeping the first spelling in (casefold, exact) order.
+    unique = {}
+    for s in sorted(sources, key=lambda s: (s.lower(), s)):
+        unique.setdefault(s.lower(), s)
+    return data['name'], list(unique.values()), len(feeds), [data[k] for k in INTERVALS]
 
 
 def network_table(network):
