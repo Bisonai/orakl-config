@@ -1,0 +1,60 @@
+name: README
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Same-repo PR: check out the branch itself so we can push to it.
+          # Fork PR / dispatch: default ref (read-only check).
+          ref: ${{ github.event.pull_request.head.repo.full_name == github.repository && github.head_ref || '' }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Check README (fork PR)
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository
+        run: |
+          python script/generate-readme.py --check || {
+            echo "::error::README.md is out of date (checked on the merge with master). Merge master into your branch, run 'python script/generate-readme.py', commit README.md."
+            exit 1
+          }
+
+      - name: Regenerate and push README
+        if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+        env:
+          EVENT: ${{ github.event_name }}
+          REF_NAME: ${{ github.ref_name }}
+          HEAD_REF: ${{ github.head_ref }}
+        run: |
+          if [ "$EVENT" != "pull_request" ]; then
+            python script/generate-readme.py --check || {
+              echo "::error::README.md is out of date on $REF_NAME; regenerate it in a PR."
+              exit 1
+            }
+            exit 0
+          fi
+          python script/generate-readme.py
+          if git diff --quiet -- README.md; then
+            echo "README.md up to date; no changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898808+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: regenerate README"
+          git push origin "HEAD:$HEAD_REF"
