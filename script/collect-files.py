@@ -1,6 +1,4 @@
 import json
-import os
-import shutil
 from pathlib import Path
 
 wsfetchers = ["binance", "coinbase", "coinone", "korbit", "kucoin", "bybit", "upbit", "crypto", "btse", "bithumb", "gateio", "coinex", "huobi", "mexc", "orangex"]
@@ -126,38 +124,15 @@ def generate_config_file(adapter_path: Path, aggregator_path: Path, output_file_
         json.dump(valid_configs, f, indent=4)
 
 if __name__ == "__main__":
-    # Canonical new names are mainnet (was cypress) and kairos (was baobab).
-    # Dual-publish: emit old-named bundles alongside new-named ones so no
-    # downstream consumer breaks (both names serve identical bytes).
+    # Canonical bundles only: price feeds "<chain>_feeds.json" and mag7
+    # "<chain>_mag7.json" for chains mainnet (Kaia mainnet) and kairos (testnet).
+    # The old cypress/baobab + *_configs.json aliases were retired in Phase 5.
     #
-    # Canonical new bundles use the final naming: price feeds are "<chain>_feeds.json"
-    # (was "<chain>_configs.json"); mag7 stays "<chain>_mag7.json".
-    #
-    # NOTE (issue #234, Phase 1 — rename only): the committed config/feed bundles
-    # (legacy cypress_configs.json / baobab_configs.json and the canonical
-    # mainnet_feeds.json / kairos_feeds.json copies) are intentionally FROZEN to
-    # the pre-existing bytes. The source config/ files are ahead of those bundles
-    # by a cosmetic serialization delta (~180KB: indent 2->4 + key order), so
-    # running this script WILL rewrite them. That delta is a separate pre-existing
-    # staleness concern (#236) and must NOT be committed as part of this rename PR.
-    # Mag7 bundles are in sync with source and regenerate cleanly.
+    # NOTE (#236): the committed *_feeds.json bundles are FROZEN to pre-existing
+    # bytes; the source config/ files differ by a cosmetic serialization delta
+    # (indent 2->4 + key order), so running this WILL rewrite them — do not
+    # commit that delta here.
     collect_json_files(Path("config/kairos"), "kairos_feeds.json", False)
-    collect_json_files(Path("config/kairos"), "baobab_configs.json", False)
     collect_json_files(Path("config/mainnet"), "mainnet_feeds.json", False)
-    collect_json_files(Path("config/mainnet"), "cypress_configs.json", False)
     collect_json_files(Path("mag7/kairos"), "kairos_mag7.json", False)
-    collect_json_files(Path("mag7/kairos"), "baobab_mag7.json", False)
     collect_json_files(Path("mag7/mainnet"), "mainnet_mag7.json", False)
-    collect_json_files(Path("mag7/mainnet"), "cypress_mag7.json", False)
-
-    # Regenerate old-name per-feed mag7 dirs so por's per-feed fetch of
-    # mag7/<chain>/<name>.json keeps working for the old chain names. The legacy
-    # per-feed files keep their original lowercase names (e.g. aapl.json) even
-    # though the canonical mag7/<chain>/ sources are now uppercase (AAPL.json) —
-    # that lowercase path is por's live contract. Clear the destination first so
-    # feeds removed from the new-name source do not linger under the legacy names.
-    for src, dst in (("mag7/mainnet", "mag7/cypress"), ("mag7/kairos", "mag7/baobab")):
-        shutil.rmtree(dst, ignore_errors=True)
-        os.makedirs(dst, exist_ok=True)
-        for path in Path(src).glob("*.json"):
-            shutil.copyfile(path, Path(dst) / path.name.lower())
