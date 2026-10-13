@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "coinex-wss-1INCH-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "1INCH",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-1INCH-USDT",
       "definition": {
         "type": "wss",

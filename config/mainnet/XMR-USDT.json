@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "coinex-wss-XMR-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "XMR",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "mexc-wss-XMR-USDT",
       "definition": {
         "type": "wss",

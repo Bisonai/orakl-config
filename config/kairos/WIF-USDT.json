@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "coinex-wss-WIF-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "WIF",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-WIF-USDT",
       "definition": {
         "type": "wss",

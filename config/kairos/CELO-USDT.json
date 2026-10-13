@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "coinex-wss-CELO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "CELO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-CELO-USDT",
       "definition": {
         "type": "wss",

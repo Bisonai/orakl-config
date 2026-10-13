@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "coinex-wss-SPX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "SPX",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "mexc-wss-SPX-USDT",
       "definition": {
         "type": "wss",

@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "coinex-wss-AERO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "AERO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-AERO-USDT",
       "definition": {
         "type": "wss",

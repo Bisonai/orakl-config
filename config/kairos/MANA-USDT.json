@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "coinex-wss-MANA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "MANA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-MANA-USDT",
       "definition": {
         "type": "wss",

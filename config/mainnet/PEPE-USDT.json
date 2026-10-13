@@ -70,15 +70,6 @@
       }
     },
     {
-      "name": "coinex-wss-PEPE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "PEPE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-PEPE-USDT",
       "definition": {
         "type": "wss",

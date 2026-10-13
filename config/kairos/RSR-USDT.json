@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "coinex-wss-RSR-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "RSR",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-RSR-USDT",
       "definition": {
         "type": "wss",

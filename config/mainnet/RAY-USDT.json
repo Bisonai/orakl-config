@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "coinex-wss-RAY-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "RAY",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-RAY-USDT",
       "definition": {
         "type": "wss",

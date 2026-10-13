@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "coinex-wss-ACH-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "ACH",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-ACH-USDT",
       "definition": {
         "type": "wss",

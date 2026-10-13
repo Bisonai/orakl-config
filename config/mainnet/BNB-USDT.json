@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "coinex-wss-BNB-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "BNB",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-BNB-USDT",
       "definition": {
         "type": "wss",

@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "coinex-wss-XCN-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "XCN",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-XCN-USDT",
       "definition": {
         "type": "wss",

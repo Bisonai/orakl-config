@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "coinex-wss-BEAM-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "BEAMX",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "mexc-wss-BEAM-USDT",
       "definition": {
         "type": "wss",

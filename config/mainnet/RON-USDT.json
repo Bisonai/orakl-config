@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "coinex-wss-RON-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "RON",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-RON-USDT",
       "definition": {
         "type": "wss",

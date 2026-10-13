@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "coinex-wss-FARTCOIN-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "FARTCOIN",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-FARTCOIN-USDT",
       "definition": {
         "type": "wss",

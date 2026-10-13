@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "coinex-wss-TRUMP-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "TRUMP",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-TRUMP-USDT",
       "definition": {
         "type": "wss",

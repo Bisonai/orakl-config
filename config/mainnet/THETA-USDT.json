@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "coinex-wss-THETA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "THETA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "huobi-wss-THETA-USDT",
       "definition": {
         "type": "wss",

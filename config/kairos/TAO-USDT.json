@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "coinex-wss-TAO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "TAO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-TAO-USDT",
       "definition": {
         "type": "wss",

@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "coinex-wss-JASMY-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "JASMY",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-JASMY-USDT",
       "definition": {
         "type": "wss",

@@ -87,15 +87,6 @@
       }
     },
     {
-      "name": "coinex-wss-XRP-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "XRP",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-XRP-USDT",
       "definition": {
         "type": "wss",

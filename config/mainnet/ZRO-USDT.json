@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "coinex-wss-ZRO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "ZRO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-ZRO-USDT",
       "definition": {
         "type": "wss",

@@ -43,15 +43,6 @@
       }
     },
     {
-      "name": "coinex-wss-BABYDOGE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "BABYDOGE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-BABYDOGE-USDT",
       "definition": {
         "type": "wss",

@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "coinex-wss-PNUT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "PNUT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-PNUT-USDT",
       "definition": {
         "type": "wss",

@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "coinex-wss-HYPE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "HYPE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-HYPE-USDT",
       "definition": {
         "type": "wss",

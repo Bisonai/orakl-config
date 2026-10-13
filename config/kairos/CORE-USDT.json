@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "coinex-wss-CORE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "CORE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-CORE-USDT",
       "definition": {
         "type": "wss",

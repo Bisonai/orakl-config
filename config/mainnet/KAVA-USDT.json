@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "coinex-wss-KAVA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "KAVA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-KAVA-USDT",
       "definition": {
         "type": "wss",

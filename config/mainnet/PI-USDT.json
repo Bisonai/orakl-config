@@ -67,15 +67,6 @@
         "base": "PI",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "coinex-wss-PI-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "PI",
-        "quote": "USDT"
-      }
     }
   ]
 }

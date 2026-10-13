@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "coinex-wss-INJ-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "INJ",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-INJ-USDT",
       "definition": {
         "type": "wss",

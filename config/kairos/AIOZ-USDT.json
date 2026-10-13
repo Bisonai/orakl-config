@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "coinex-wss-AIOZ-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "AIOZ",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "huobi-wss-AIOZ-USDT",
       "definition": {
         "type": "wss",

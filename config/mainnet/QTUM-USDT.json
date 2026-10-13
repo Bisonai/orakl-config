@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "coinex-wss-QTUM-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "QTUM",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-QTUM-USDT",
       "definition": {
         "type": "wss",

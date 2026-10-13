@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "coinex-wss-TFUEL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "TFUEL",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "mexc-wss-TFUEL-USDT",
       "definition": {
         "type": "wss",

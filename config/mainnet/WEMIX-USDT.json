@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "coinex-wss-WEMIX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "WEMIX",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-WEMIX-USDT",
       "definition": {
         "type": "wss",
