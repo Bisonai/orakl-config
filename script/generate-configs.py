@@ -111,6 +111,8 @@ def get_crypto_symbols(url):
     result = []
     json_data = load_json_from_url(url)
     for entry in json_data["result"]["data"]:
+        if not entry.get("tradable", False):
+            continue
         result.append(entry["symbol"].replace("_","").lower())
     return result
 
@@ -118,7 +120,7 @@ def get_btse_symbols(url):
     result = []
     json_data = load_json_from_url(url)
     for entry in json_data:
-        if not entry["isMarketOpenToSpot"]:
+        if not entry["isMarketOpenToSpot"] or not entry.get("active", False):
             continue
         result.append(entry["symbol"].replace("-","").lower())
     return result
@@ -134,6 +136,8 @@ def get_gateio_symbols(url):
     result = []
     json_data = load_json_from_url(url)
     for entry in json_data:
+        if entry.get("trade_status") != "tradable":
+            continue
         result.append(entry["id"].replace("_","").lower())
     return result
 
@@ -155,6 +159,9 @@ def get_bitget_symbols(url):
     result = []
     json_data = load_json_from_url(url)
     for entry in json_data["data"]:
+        # status: online | offline | halt
+        if entry.get("status") != "online":
+            continue
         result.append(entry["symbol"].lower())
     return result
 
@@ -187,7 +194,8 @@ def get_okx_symbols(url):
     result = []
     json_data = load_json_from_url(url)
     for entry in json_data["data"]:
-        if entry["instType"] != "SPOT":
+        # state: live | suspend | preopen
+        if entry["instType"] != "SPOT" or entry.get("state") != "live":
             continue
         result.append(entry["baseCcy"].lower() + entry["quoteCcy"].lower())
     return result
@@ -205,7 +213,9 @@ def get_bingx_symbols(url):
     result = []
     json_data = load_json_from_url(url)
     for entry in json_data["data"]["symbols"]:
-        if not entry["apiStateSell"] or not entry["apiStateBuy"]:
+        # status: 1 = online; 0 = offline (delisted pairs stay listed with
+        # status 0 and apiState* still true), other values = not trading
+        if entry.get("status") != 1 or not entry["apiStateSell"] or not entry["apiStateBuy"]:
             continue
         result.append(entry["symbol"].replace("-","").lower())
     return result
@@ -221,7 +231,7 @@ def get_xt_symbols(url):
     result = []
     json_data = load_json_from_url(url)
     for entry in json_data["result"]["symbols"]:
-        if not entry["tradingEnabled"] or not entry["openapiEnabled"]:
+        if entry.get("state") != "ONLINE" or not entry["tradingEnabled"] or not entry["openapiEnabled"]:
             continue
         result.append(entry["symbol"].replace("_","").lower())
     return result
