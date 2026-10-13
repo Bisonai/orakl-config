@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "bitget-wss-GNO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitget",
-        "base": "GNO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "huobi-wss-GNO-USDT",
       "definition": {
         "type": "wss",

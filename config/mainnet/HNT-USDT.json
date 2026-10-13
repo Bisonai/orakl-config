@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "bingx-wss-HNT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bingx",
-        "base": "HNT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitmart-wss-HNT-USDT",
       "definition": {
         "type": "wss",

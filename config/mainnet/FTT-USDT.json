@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "bitget-wss-FTT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitget",
-        "base": "FTT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "huobi-wss-FTT-USDT",
       "definition": {
         "type": "wss",

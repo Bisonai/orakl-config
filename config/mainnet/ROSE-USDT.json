@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "bingx-wss-ROSE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bingx",
-        "base": "ROSE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitmart-wss-ROSE-USDT",
       "definition": {
         "type": "wss",

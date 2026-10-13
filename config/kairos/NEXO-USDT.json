@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "bitget-wss-NEXO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitget",
-        "base": "NEXO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "huobi-wss-NEXO-USDT",
       "definition": {
         "type": "wss",
@@ -55,15 +46,6 @@
       "definition": {
         "type": "wss",
         "provider": "mexc",
-        "base": "NEXO",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "bingx-wss-NEXO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bingx",
         "base": "NEXO",
         "quote": "USDT"
       }

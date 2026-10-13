@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "bitget-wss-ZKJ-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitget",
-        "base": "ZKJ",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "mexc-wss-ZKJ-USDT",
       "definition": {
         "type": "wss",
@@ -55,15 +46,6 @@
       "definition": {
         "type": "wss",
         "provider": "okx",
-        "base": "ZKJ",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "bingx-wss-ZKJ-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bingx",
         "base": "ZKJ",
         "quote": "USDT"
       }

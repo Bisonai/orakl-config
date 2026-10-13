@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "kucoin-wss-SFP-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "kucoin",
-        "base": "SFP",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-SFP-USDT",
       "definition": {
         "type": "wss",

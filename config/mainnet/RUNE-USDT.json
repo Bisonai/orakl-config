@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "bitget-wss-RUNE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitget",
-        "base": "RUNE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "huobi-wss-RUNE-USDT",
       "definition": {
         "type": "wss",

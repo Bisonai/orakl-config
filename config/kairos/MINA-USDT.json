@@ -87,15 +87,6 @@
       }
     },
     {
-      "name": "bingx-wss-MINA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bingx",
-        "base": "MINA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitmart-wss-MINA-USDT",
       "definition": {
         "type": "wss",

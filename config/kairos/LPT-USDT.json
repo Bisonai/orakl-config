@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "bitget-wss-LPT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitget",
-        "base": "LPT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "huobi-wss-LPT-USDT",
       "definition": {
         "type": "wss",

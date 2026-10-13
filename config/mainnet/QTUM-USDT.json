@@ -87,15 +87,6 @@
       }
     },
     {
-      "name": "bingx-wss-QTUM-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bingx",
-        "base": "QTUM",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitmart-wss-QTUM-USDT",
       "definition": {
         "type": "wss",

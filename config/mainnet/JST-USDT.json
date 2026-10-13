@@ -69,24 +69,6 @@
       }
     },
     {
-      "name": "okx-wss-JST-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "okx",
-        "base": "JST",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "bingx-wss-JST-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bingx",
-        "base": "JST",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitmart-wss-JST-USDT",
       "definition": {
         "type": "wss",
