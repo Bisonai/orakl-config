@@ -13,7 +13,6 @@ DEFAULT_SUBMIT_INTERVAL = 60000 # 1 minute
 
 filter_outs = {
     "bitmart": ["joyusdt"],
-    "coinex": ["joyusdt"],
     "bitget": ["joyusdt"],
     "huobi": ["joyusdt"]
 }
@@ -146,13 +145,6 @@ def get_lbank_symbols(url):
     json_data = load_json_from_url(url)
     for entry in json_data["data"]:
         result.append(entry.replace("_",""))
-    return result
-
-def get_coinex_symbols(url):
-    result = []
-    json_data = load_json_from_url(url)
-    for entry in json_data["data"]:
-        result.append(entry.lower())
     return result
 
 def get_bitget_symbols(url):
@@ -299,9 +291,6 @@ def store_symbols(urls_path, symbols_path):
 
     result["lbank"] = get_lbank_symbols(urls["lbank"])
     print("lbank symbol loaded")
-
-    result["coinex"] = get_coinex_symbols(urls["coinex"])
-    print("coinex symbol loaded")
 
     result["bitget"] = get_bitget_symbols(urls["bitget"])
     print("bitget symbol loaded")
