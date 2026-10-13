@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "coinex-wss-GRASS-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "GRASS",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-GRASS-USDT",
       "definition": {
         "type": "wss",

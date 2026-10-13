@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "coinex-wss-HNT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "HNT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-HNT-USDT",
       "definition": {
         "type": "wss",

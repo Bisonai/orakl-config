@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "coinex-wss-RUNE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "RUNE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-RUNE-USDT",
       "definition": {
         "type": "wss",

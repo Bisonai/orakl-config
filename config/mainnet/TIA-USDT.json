@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "coinex-wss-TIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "TIA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-TIA-USDT",
       "definition": {
         "type": "wss",

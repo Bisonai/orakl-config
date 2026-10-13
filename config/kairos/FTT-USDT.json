@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "coinex-wss-FTT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "FTT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-FTT-USDT",
       "definition": {
         "type": "wss",

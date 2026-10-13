@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "coinex-wss-ZRX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "ZRX",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-ZRX-USDT",
       "definition": {
         "type": "wss",

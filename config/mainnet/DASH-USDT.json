@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "coinex-wss-DASH-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "DASH",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "mexc-wss-DASH-USDT",
       "definition": {
         "type": "wss",

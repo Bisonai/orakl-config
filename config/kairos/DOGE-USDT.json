@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "coinex-wss-DOGE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "DOGE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-DOGE-USDT",
       "definition": {
         "type": "wss",

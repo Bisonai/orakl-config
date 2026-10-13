@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "coinex-wss-DOT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "DOT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-DOT-USDT",
       "definition": {
         "type": "wss",

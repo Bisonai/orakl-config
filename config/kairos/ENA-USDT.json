@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "coinex-wss-ENA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "ENA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-ENA-USDT",
       "definition": {
         "type": "wss",

@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "coinex-wss-SONIC-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "SONIC",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-SONIC-USDT",
       "definition": {
         "type": "wss",

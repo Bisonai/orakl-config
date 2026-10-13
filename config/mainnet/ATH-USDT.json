@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "coinex-wss-ATH-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "ATH",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-ATH-USDT",
       "definition": {
         "type": "wss",

@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "coinex-wss-CRV-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "CRV",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-CRV-USDT",
       "definition": {
         "type": "wss",

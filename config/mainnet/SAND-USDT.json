@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "coinex-wss-SAND-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "SAND",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-SAND-USDT",
       "definition": {
         "type": "wss",

@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "coinex-wss-MOVE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "MOVE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-MOVE-USDT",
       "definition": {
         "type": "wss",

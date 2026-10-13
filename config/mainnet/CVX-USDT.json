@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "coinex-wss-CVX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "CVX",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-CVX-USDT",
       "definition": {
         "type": "wss",

@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "coinex-wss-MNT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "MNT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "huobi-wss-MNT-USDT",
       "definition": {
         "type": "wss",

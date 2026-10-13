@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "coinex-wss-KAITO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "KAITO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-KAITO-USDT",
       "definition": {
         "type": "wss",

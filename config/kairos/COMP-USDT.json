@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "coinex-wss-COMP-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "COMP",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-COMP-USDT",
       "definition": {
         "type": "wss",

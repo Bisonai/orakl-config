@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "coinex-wss-ZK-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "ZK",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-ZK-USDT",
       "definition": {
         "type": "wss",

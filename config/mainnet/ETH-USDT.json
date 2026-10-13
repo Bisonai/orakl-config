@@ -116,15 +116,6 @@
       }
     },
     {
-      "name": "coinex-wss-ETH-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "ETH",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-ETH-USDT",
       "definition": {
         "type": "wss",

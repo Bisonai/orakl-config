@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "coinex-wss-CFX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "CFX",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-CFX-USDT",
       "definition": {
         "type": "wss",

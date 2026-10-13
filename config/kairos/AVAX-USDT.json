@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "coinex-wss-AVAX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "AVAX",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-AVAX-USDT",
       "definition": {
         "type": "wss",

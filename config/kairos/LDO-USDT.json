@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "coinex-wss-LDO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "LDO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-LDO-USDT",
       "definition": {
         "type": "wss",

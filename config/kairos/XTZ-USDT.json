@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "coinex-wss-XTZ-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "XTZ",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-XTZ-USDT",
       "definition": {
         "type": "wss",

@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "coinex-wss-ROSE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "ROSE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-ROSE-USDT",
       "definition": {
         "type": "wss",

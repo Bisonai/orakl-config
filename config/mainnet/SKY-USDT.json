@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "coinex-wss-SKY-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "SKY",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "btse-wss-SKY-USDT",
       "definition": {
         "type": "wss",

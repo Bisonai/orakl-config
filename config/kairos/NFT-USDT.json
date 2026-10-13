@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "coinex-wss-NFT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "NFT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-NFT-USDT",
       "definition": {
         "type": "wss",

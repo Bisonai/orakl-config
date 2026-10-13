@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "coinex-wss-FORM-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "FORM",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitmart-wss-FORM-USDT",
       "definition": {
         "type": "wss",

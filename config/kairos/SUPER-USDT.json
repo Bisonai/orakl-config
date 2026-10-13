@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "coinex-wss-SUPER-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "SUPER",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-SUPER-USDT",
       "definition": {
         "type": "wss",

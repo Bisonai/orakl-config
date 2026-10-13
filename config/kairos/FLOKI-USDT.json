@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "coinex-wss-FLOKI-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "FLOKI",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-FLOKI-USDT",
       "definition": {
         "type": "wss",

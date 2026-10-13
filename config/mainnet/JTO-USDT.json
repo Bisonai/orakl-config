@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "coinex-wss-JTO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "JTO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-JTO-USDT",
       "definition": {
         "type": "wss",

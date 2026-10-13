@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "coinex-wss-ZKJ-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "ZKJ",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-ZKJ-USDT",
       "definition": {
         "type": "wss",

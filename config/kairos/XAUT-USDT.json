@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "coinex-wss-XAUT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "XAUT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-XAUT-USDT",
       "definition": {
         "type": "wss",

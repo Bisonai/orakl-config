@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "coinex-wss-TRX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "TRX",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-TRX-USDT",
       "definition": {
         "type": "wss",

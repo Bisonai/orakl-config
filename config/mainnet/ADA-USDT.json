@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "coinex-wss-ADA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "ADA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-ADA-USDT",
       "definition": {
         "type": "wss",

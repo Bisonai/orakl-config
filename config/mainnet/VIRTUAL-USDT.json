@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "coinex-wss-VIRTUAL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "VIRTUAL",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-VIRTUAL-USDT",
       "definition": {
         "type": "wss",

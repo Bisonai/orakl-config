@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "coinex-wss-POPCAT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "POPCAT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "huobi-wss-POPCAT-USDT",
       "definition": {
         "type": "wss",

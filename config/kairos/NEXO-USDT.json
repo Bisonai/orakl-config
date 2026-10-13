@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "coinex-wss-NEXO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "NEXO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-NEXO-USDT",
       "definition": {
         "type": "wss",

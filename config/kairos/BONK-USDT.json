@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "coinex-wss-BONK-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "BONK",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-BONK-USDT",
       "definition": {
         "type": "wss",

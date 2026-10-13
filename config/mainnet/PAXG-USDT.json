@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "coinex-wss-PAXG-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "PAXG",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-PAXG-USDT",
       "definition": {
         "type": "wss",

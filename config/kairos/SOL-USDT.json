@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "coinex-wss-SOL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "SOL",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-SOL-USDT",
       "definition": {
         "type": "wss",

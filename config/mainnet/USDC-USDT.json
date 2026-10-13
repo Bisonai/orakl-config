@@ -70,15 +70,6 @@
       }
     },
     {
-      "name": "coinex-wss-USDC-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "USDC",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-USDC-USDT",
       "definition": {
         "type": "wss",

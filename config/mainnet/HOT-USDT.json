@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "coinex-wss-HOT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "HOT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-HOT-USDT",
       "definition": {
         "type": "wss",

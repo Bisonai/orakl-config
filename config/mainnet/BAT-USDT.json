@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "coinex-wss-BAT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "BAT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-BAT-USDT",
       "definition": {
         "type": "wss",

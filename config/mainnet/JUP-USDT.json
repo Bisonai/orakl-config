@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "coinex-wss-JUP-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "JUP",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-JUP-USDT",
       "definition": {
         "type": "wss",

@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "coinex-wss-OSMO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "OSMO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-OSMO-USDT",
       "definition": {
         "type": "wss",

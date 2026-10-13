@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "coinex-wss-IOTA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "IOTA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "huobi-wss-IOTA-USDT",
       "definition": {
         "type": "wss",

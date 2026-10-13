@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "coinex-wss-KAIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "KAIA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-KAIA-USDT",
       "definition": {
         "type": "wss",

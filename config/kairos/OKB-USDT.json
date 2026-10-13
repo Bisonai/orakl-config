@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "coinex-wss-OKB-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "OKB",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "mexc-wss-OKB-USDT",
       "definition": {
         "type": "wss",

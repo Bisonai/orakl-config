@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "coinex-wss-EIGEN-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "EIGEN",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-EIGEN-USDT",
       "definition": {
         "type": "wss",

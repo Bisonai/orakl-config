@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "coinex-wss-GALA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "GALA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-GALA-USDT",
       "definition": {
         "type": "wss",

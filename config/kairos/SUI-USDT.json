@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "coinex-wss-SUI-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinex",
-        "base": "SUI",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-SUI-USDT",
       "definition": {
         "type": "wss",
