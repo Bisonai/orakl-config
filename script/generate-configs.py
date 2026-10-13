@@ -302,7 +302,12 @@ def store_symbols(urls_path, symbols_path):
 
     for provider, loader in SYMBOL_LOADERS.items():
         try:
-            result[provider] = loader(urls[provider])
+            symbols = loader(urls[provider])
+            if not symbols:
+                # e.g. maintenance answering with an empty list; must not
+                # look like "provider lists nothing" to --replace
+                raise FetchError("empty symbol list")
+            result[provider] = symbols
         except FetchError as e:
             failed.append(provider)
             print(f"WARNING: {provider} symbols not loaded, skipping: {e}", file=sys.stderr)
@@ -323,8 +328,9 @@ def symbols_cache_is_stale(symbols_path, max_age_hours=SYMBOLS_MAX_AGE_HOURS):
     if not os.path.exists(symbols_path):
         return True
     age = time.time() - os.path.getmtime(symbols_path)
-    # a future mtime (clock skew, copied file) also counts as stale
-    return not 0 <= age <= max_age_hours * 3600
+    # a future mtime (clock skew, copied file) also counts as stale;
+    # allow 5 min for filesystem/local clock drift
+    return not -300 <= age <= max_age_hours * 3600
 
 def make_wss_object(provider, base, quote):
     wsFeed = {}
@@ -430,7 +436,7 @@ def replace_config_file(config_folder_path, symbol, feeds, unavailable_providers
     result["submitInterval"] = prev["submitInterval"]
     result["feeds"] = []
     for feed in prev["feeds"]:
-        provider = feed.get("definition", {}).get("provider")
+        provider = (feed.get("definition") or {}).get("provider")
         if "-wss-" not in feed["name"] or provider in unavailable_providers:
             result["feeds"].append(feed)
 

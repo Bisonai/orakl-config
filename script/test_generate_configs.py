@@ -117,6 +117,12 @@ class StoreSymbolsTest(unittest.TestCase):
         self.assertIn("WARNING: bad symbols not loaded", self.stderr.getvalue())
         self.assertIn("no symbols for bad", self.stderr.getvalue())
 
+    def test_empty_provider_is_skipped(self):
+        out = self.run_store({"good": lambda url: ["btcusdt"], "empty": lambda url: []})
+        with open(out) as f:
+            self.assertEqual(json.load(f), {"good": ["btcusdt"]})
+        self.assertTrue(gc.symbols_cache_is_stale(out))
+
     def test_parse_valueerror_aborts(self):
         # only fetch errors skip a provider; errors while parsing abort
         def loader(url):
