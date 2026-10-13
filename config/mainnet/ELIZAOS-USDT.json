@@ -40,15 +40,6 @@
         "base": "ELIZAOS",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "bingx-wss-ELIZAOS-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bingx",
-        "base": "ELIZAOS",
-        "quote": "USDT"
-      }
     }
   ]
 }

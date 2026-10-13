@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "bitget-wss-HOT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitget",
-        "base": "HOT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "huobi-wss-HOT-USDT",
       "definition": {
         "type": "wss",

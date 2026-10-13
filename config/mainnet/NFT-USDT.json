@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "bingx-wss-NFT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bingx",
-        "base": "NFT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitmart-wss-NFT-USDT",
       "definition": {
         "type": "wss",

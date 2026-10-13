@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "bitget-wss-OSMO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitget",
-        "base": "OSMO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "huobi-wss-OSMO-USDT",
       "definition": {
         "type": "wss",
@@ -64,15 +55,6 @@
       "definition": {
         "type": "wss",
         "provider": "mexc",
-        "base": "OSMO",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "bingx-wss-OSMO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bingx",
         "base": "OSMO",
         "quote": "USDT"
       }

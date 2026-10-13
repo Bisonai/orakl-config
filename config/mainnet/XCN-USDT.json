@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "bitget-wss-XCN-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitget",
-        "base": "XCN",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "huobi-wss-XCN-USDT",
       "definition": {
         "type": "wss",

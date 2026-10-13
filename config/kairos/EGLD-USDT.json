@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "bitget-wss-EGLD-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitget",
-        "base": "EGLD",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "huobi-wss-EGLD-USDT",
       "definition": {
         "type": "wss",

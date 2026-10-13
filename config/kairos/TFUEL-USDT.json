@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "bingx-wss-TFUEL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bingx",
-        "base": "TFUEL",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitmart-wss-TFUEL-USDT",
       "definition": {
         "type": "wss",

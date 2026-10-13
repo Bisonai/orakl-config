@@ -22,15 +22,6 @@
         "base": "BONK",
         "quote": "KRW"
       }
-    },
-    {
-      "name": "coinone-wss-BONK-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "BONK",
-        "quote": "KRW"
-      }
     }
   ]
 }

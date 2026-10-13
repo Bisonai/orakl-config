@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "bingx-wss-CELO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bingx",
-        "base": "CELO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitmart-wss-CELO-USDT",
       "definition": {
         "type": "wss",

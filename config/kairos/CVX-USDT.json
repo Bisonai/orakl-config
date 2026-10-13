@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "bitget-wss-CVX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitget",
-        "base": "CVX",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "huobi-wss-CVX-USDT",
       "definition": {
         "type": "wss",

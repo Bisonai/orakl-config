@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "bitget-wss-MELANIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitget",
-        "base": "MELANIA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "huobi-wss-MELANIA-USDT",
       "definition": {
         "type": "wss",
