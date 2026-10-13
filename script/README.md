@@ -30,7 +30,7 @@ Automatically generates per-pair `<PAIR>.json` config files based on supported W
 python3 script/generate-configs.py --network mainnet --refresh true --symbols "NOT-USDT, PEOPLE-USDT"
 ```
 
-Only pairs an exchange reports as trading are used (e.g. bingx `status == 1`, bitget `status == "online"`, okx `state == "live"`). If a provider's symbols API fails, it is skipped with a warning: its feeds are neither added nor (with `--replace`) removed.
+Only pairs an exchange reports as trading are used (e.g. bingx `status == 1`, bitget `status == "online"`, okx `state == "live"`). If a provider's symbols API is unreachable or returns an HTTP error, it is skipped with a warning (its feeds are neither added nor, with `--replace`, removed) and the cache is marked stale so the next run retries. A changed response format aborts the run.
 
 Tests (mocked API responses, no network): `python3 -m unittest discover -s script`
 

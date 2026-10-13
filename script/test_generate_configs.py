@@ -5,6 +5,7 @@ Run from the repo root:  python3 -m unittest discover -s script
 import importlib.util
 import json
 import os
+import shutil
 import tempfile
 import time
 import unittest
@@ -90,20 +91,36 @@ class StatusFilterTest(unittest.TestCase):
 
 
 class StoreSymbolsTest(unittest.TestCase):
-    def test_failing_provider_is_skipped(self):
-        def boom(url):
-            raise RuntimeError("unreachable")
-        loaders = {"good": lambda url: ["btcusdt"], "bad": boom}
-        with tempfile.TemporaryDirectory() as d:
-            urls_path = os.path.join(d, "urls.json")
-            out = os.path.join(d, "tmp", "symbols.json")
-            with open(urls_path, "w") as f:
-                json.dump({"good": "u1", "bad": "u2"}, f)
-            with mock.patch.object(gc, "SYMBOL_LOADERS", loaders), \
-                    mock.patch("sys.stderr"), mock.patch("builtins.print"):
-                gc.store_symbols(urls_path, out)
-            with open(out) as f:
-                self.assertEqual(json.load(f), {"good": ["btcusdt"]})
+    def run_store(self, loaders):
+        d = tempfile.mkdtemp()
+        self.addCleanup(shutil.rmtree, d)
+        urls_path = os.path.join(d, "urls.json")
+        out = os.path.join(d, "tmp", "symbols.json")
+        with open(urls_path, "w") as f:
+            json.dump({k: "u" for k in loaders}, f)
+        with mock.patch.object(gc, "SYMBOL_LOADERS", loaders), \
+                mock.patch("sys.stderr"), mock.patch("builtins.print"):
+            gc.store_symbols(urls_path, out)
+        return out
+
+    def test_unreachable_provider_is_skipped_and_cache_marked_stale(self):
+        def unreachable(url):
+            raise gc.requests.ConnectionError("dns")
+        out = self.run_store({"good": lambda url: ["btcusdt"], "bad": unreachable})
+        with open(out) as f:
+            self.assertEqual(json.load(f), {"good": ["btcusdt"]})
+        self.assertTrue(gc.symbols_cache_is_stale(out))
+
+    def test_all_ok_cache_is_fresh(self):
+        out = self.run_store({"good": lambda url: ["btcusdt"]})
+        self.assertFalse(gc.symbols_cache_is_stale(out))
+
+    def test_schema_change_aborts(self):
+        # missing status field must not silently yield an empty provider
+        def loader(url):
+            return symbols(gc.get_bitget_symbols, {"data": [{"symbol": "BTCUSDT"}]})
+        with self.assertRaises(KeyError):
+            self.run_store({"bitget": loader})
 
 
 class CacheTest(unittest.TestCase):
@@ -132,7 +149,7 @@ class ReplaceConfigTest(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             with open(os.path.join(d, "BTC-USDT.json"), "w") as f:
                 json.dump(prev, f)
-            gc.replace_config_file(d, "BTC-USDT", new_feeds, {"binance", "bingx"})
+            gc.replace_config_file(d, "BTC-USDT", new_feeds, {"bitmart"})
             with open(os.path.join(d, "BTC-USDT.json")) as f:
                 names = [x["name"] for x in json.load(f)["feeds"]]
         # bingx loaded and no longer lists the pair -> removed;

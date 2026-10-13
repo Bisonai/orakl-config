@@ -78,7 +78,7 @@ def get_bybit_symbols(url):
     json_data = load_json_from_url(url)
     # v5 instruments-info; spot is not paginated. status: Trading | PreLaunch | ...
     for entry in json_data["result"]["list"]:
-        if entry.get("status") != "Trading":
+        if entry["status"] != "Trading":
             continue
         result.append(entry["symbol"].lower())
     return result
@@ -116,7 +116,7 @@ def get_crypto_symbols(url):
     result = []
     json_data = load_json_from_url(url)
     for entry in json_data["result"]["data"]:
-        if not entry.get("tradable", False):
+        if not entry["tradable"]:
             continue
         result.append(entry["symbol"].replace("_","").lower())
     return result
@@ -125,7 +125,7 @@ def get_btse_symbols(url):
     result = []
     json_data = load_json_from_url(url)
     for entry in json_data:
-        if not entry["isMarketOpenToSpot"] or not entry.get("active", False):
+        if not entry["isMarketOpenToSpot"] or not entry["active"]:
             continue
         result.append(entry["symbol"].replace("-","").lower())
     return result
@@ -141,7 +141,7 @@ def get_gateio_symbols(url):
     result = []
     json_data = load_json_from_url(url)
     for entry in json_data:
-        if entry.get("trade_status") != "tradable":
+        if entry["trade_status"] != "tradable":
             continue
         result.append(entry["id"].replace("_","").lower())
     return result
@@ -158,7 +158,7 @@ def get_bitget_symbols(url):
     json_data = load_json_from_url(url)
     for entry in json_data["data"]:
         # status: online | offline | halt
-        if entry.get("status") != "online":
+        if entry["status"] != "online":
             continue
         result.append(entry["symbol"].lower())
     return result
@@ -193,7 +193,7 @@ def get_okx_symbols(url):
     json_data = load_json_from_url(url)
     for entry in json_data["data"]:
         # state: live | suspend | preopen
-        if entry["instType"] != "SPOT" or entry.get("state") != "live":
+        if entry["instType"] != "SPOT" or entry["state"] != "live":
             continue
         result.append(entry["baseCcy"].lower() + entry["quoteCcy"].lower())
     return result
@@ -213,7 +213,7 @@ def get_bingx_symbols(url):
     for entry in json_data["data"]["symbols"]:
         # status: 1 = online; 0 = offline (delisted pairs stay listed with
         # status 0 and apiState* still true), other values = not trading
-        if entry.get("status") != 1 or not entry["apiStateSell"] or not entry["apiStateBuy"]:
+        if entry["status"] != 1 or not entry["apiStateSell"] or not entry["apiStateBuy"]:
             continue
         result.append(entry["symbol"].replace("-","").lower())
     return result
@@ -229,7 +229,7 @@ def get_xt_symbols(url):
     result = []
     json_data = load_json_from_url(url)
     for entry in json_data["result"]["symbols"]:
-        if entry.get("state") != "ONLINE" or not entry["tradingEnabled"] or not entry["openapiEnabled"]:
+        if entry["state"] != "ONLINE" or not entry["tradingEnabled"] or not entry["openapiEnabled"]:
             continue
         result.append(entry["symbol"].replace("_","").lower())
     return result
@@ -280,9 +280,10 @@ SYMBOL_LOADERS = {
 }
 
 def store_symbols(urls_path, symbols_path):
-    # A provider whose API fails is left out of the cache (with a warning)
-    # instead of aborting the run; see replace_config_file for how its
-    # existing feeds are kept.
+    # A provider whose API is unreachable/erroring is left out of the cache
+    # (with a warning) instead of aborting the run; see replace_config_file
+    # for how its existing feeds are kept. Parse errors (API schema changes,
+    # e.g. a missing status field) still abort.
     store_directory = os.path.dirname(symbols_path)
     if not os.path.exists(store_directory):
         os.makedirs(store_directory)
@@ -294,7 +295,7 @@ def store_symbols(urls_path, symbols_path):
     for provider, loader in SYMBOL_LOADERS.items():
         try:
             result[provider] = loader(urls[provider])
-        except Exception as e:
+        except (requests.RequestException, ValueError) as e:
             failed.append(provider)
             print(f"WARNING: {provider} symbols not loaded, skipping: {e!r}", file=sys.stderr)
             continue
@@ -305,6 +306,10 @@ def store_symbols(urls_path, symbols_path):
 
     with open(symbols_path, "w") as f:
         json.dump(result, f, indent=4)
+
+    if failed:
+        # mark the partial cache stale so the next run retries (and warns again)
+        os.utime(symbols_path, (0, 0))
 
 def symbols_cache_is_stale(symbols_path, max_age_hours=SYMBOLS_MAX_AGE_HOURS):
     if not os.path.exists(symbols_path):
@@ -391,10 +396,10 @@ def update_or_make_config_file(config_folder_path, symbol, feeds):
     with open(f"{config_folder_path}/{symbol}.json", "w") as f:
         json.dump(result, f, indent=4)
 
-def replace_config_file(config_folder_path, symbol, feeds, available_providers=None):
+def replace_config_file(config_folder_path, symbol, feeds, unavailable_providers=frozenset()):
     # removes all ws feeds from previous file, and replace with new one.
-    # ws feeds of providers not in available_providers (symbols failed to
-    # load) are kept as-is, since their support is unknown.
+    # ws feeds of unavailable_providers (symbols failed to load) are kept
+    # as-is, since their support is unknown.
     result = {}
     if not os.path.exists(config_folder_path+"/"+symbol+".json"):
         result["name"] = symbol
@@ -416,8 +421,7 @@ def replace_config_file(config_folder_path, symbol, feeds, available_providers=N
     result["feeds"] = []
     for feed in prev["feeds"]:
         provider = feed.get("definition", {}).get("provider")
-        if "-wss-" not in feed["name"] or \
-            (available_providers is not None and provider not in available_providers):
+        if "-wss-" not in feed["name"] or provider in unavailable_providers:
             result["feeds"].append(feed)
 
     for feed in feeds:
@@ -438,17 +442,15 @@ if __name__ == "__main__":
     network = args.network
     is_replace = args.replace
 
-    if refresh or symbols_only:
-        store_symbols(URLS_PATH, SYMBOLS_PATH)
-    elif symbols_cache_is_stale(SYMBOLS_PATH):
-        if os.path.exists(SYMBOLS_PATH):
-            print(f"{SYMBOLS_PATH} is older than {SYMBOLS_MAX_AGE_HOURS}h, refreshing")
+    if refresh or symbols_only or symbols_cache_is_stale(SYMBOLS_PATH):
         store_symbols(URLS_PATH, SYMBOLS_PATH)
 
     if symbols_only:
         exit(0)
 
-    possible_symbols = load_json_from_path(SYMBOLS_PATH)
+    # ignore cached providers the generator no longer supports (e.g. coinex)
+    possible_symbols = {k: v for k, v in load_json_from_path(SYMBOLS_PATH).items() if k in SYMBOL_LOADERS}
+    unavailable_providers = set(SYMBOL_LOADERS) - set(possible_symbols)
 
     work_symbols = []
     for symbol in input_symbols:
@@ -477,6 +479,6 @@ if __name__ == "__main__":
 
     for symbol, feeds in result.items():
         if is_replace:
-            replace_config_file(f"config/{network}", symbol, feeds, set(possible_symbols))
+            replace_config_file(f"config/{network}", symbol, feeds, unavailable_providers)
         else:
             update_or_make_config_file(f"config/{network}", symbol, feeds)
