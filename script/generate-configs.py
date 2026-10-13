@@ -7,7 +7,9 @@ import time
 from pathlib import Path
 
 URLS_PATH = Path("script/urls.json")
-SYMBOLS_PATH = Path("tmp/symbols.json")
+# v2: status-filtered symbols; caches written by older generators (no
+# status filters) live at tmp/symbols.json and are ignored.
+SYMBOLS_PATH = Path("tmp/symbols.v2.json")
 # Cached symbols older than this are refetched: a stale cache re-adds pairs
 # that have since been delisted or taken offline.
 SYMBOLS_MAX_AGE_HOURS = 24
@@ -22,10 +24,16 @@ filter_outs = {
     "huobi": ["joyusdt"]
 }
 
+class FetchError(Exception):
+    """Provider API unreachable, HTTP error, or non-JSON response."""
+
 def load_json_from_url(url):
-    response = requests.get(url=url, headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"}, timeout=30)
-    response.raise_for_status()
-    json_data = response.json()
+    try:
+        response = requests.get(url=url, headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"}, timeout=30)
+        response.raise_for_status()
+        json_data = response.json()
+    except (requests.RequestException, ValueError) as e:
+        raise FetchError(f"{url}: {e!r}") from e
     return json_data
 
 def load_json_from_path(file_path: Path):
@@ -295,9 +303,9 @@ def store_symbols(urls_path, symbols_path):
     for provider, loader in SYMBOL_LOADERS.items():
         try:
             result[provider] = loader(urls[provider])
-        except (requests.RequestException, ValueError) as e:
+        except FetchError as e:
             failed.append(provider)
-            print(f"WARNING: {provider} symbols not loaded, skipping: {e!r}", file=sys.stderr)
+            print(f"WARNING: {provider} symbols not loaded, skipping: {e}", file=sys.stderr)
             continue
         print(f"{provider} symbol loaded")
 
@@ -314,7 +322,9 @@ def store_symbols(urls_path, symbols_path):
 def symbols_cache_is_stale(symbols_path, max_age_hours=SYMBOLS_MAX_AGE_HOURS):
     if not os.path.exists(symbols_path):
         return True
-    return time.time() - os.path.getmtime(symbols_path) > max_age_hours * 3600
+    age = time.time() - os.path.getmtime(symbols_path)
+    # a future mtime (clock skew, copied file) also counts as stale
+    return not 0 <= age <= max_age_hours * 3600
 
 def make_wss_object(provider, base, quote):
     wsFeed = {}

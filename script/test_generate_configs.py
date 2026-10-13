@@ -3,6 +3,7 @@
 Run from the repo root:  python3 -m unittest discover -s script
 """
 import importlib.util
+import io
 import json
 import os
 import shutil
@@ -98,18 +99,30 @@ class StoreSymbolsTest(unittest.TestCase):
         out = os.path.join(d, "tmp", "symbols.json")
         with open(urls_path, "w") as f:
             json.dump({k: "u" for k in loaders}, f)
+        self.stderr = io.StringIO()
         with mock.patch.object(gc, "SYMBOL_LOADERS", loaders), \
-                mock.patch("sys.stderr"), mock.patch("builtins.print"):
+                mock.patch("sys.stderr", self.stderr), \
+                mock.patch("sys.stdout", io.StringIO()):
             gc.store_symbols(urls_path, out)
         return out
 
     def test_unreachable_provider_is_skipped_and_cache_marked_stale(self):
         def unreachable(url):
-            raise gc.requests.ConnectionError("dns")
-        out = self.run_store({"good": lambda url: ["btcusdt"], "bad": unreachable})
+            return gc.load_json_from_url(url)
+        with mock.patch.object(gc.requests, "get", side_effect=gc.requests.ConnectionError("dns")):
+            out = self.run_store({"good": lambda url: ["btcusdt"], "bad": unreachable})
         with open(out) as f:
             self.assertEqual(json.load(f), {"good": ["btcusdt"]})
         self.assertTrue(gc.symbols_cache_is_stale(out))
+        self.assertIn("WARNING: bad symbols not loaded", self.stderr.getvalue())
+        self.assertIn("no symbols for bad", self.stderr.getvalue())
+
+    def test_parse_valueerror_aborts(self):
+        # only fetch errors skip a provider; errors while parsing abort
+        def loader(url):
+            raise ValueError("bad parse")
+        with self.assertRaises(ValueError):
+            self.run_store({"x": loader})
 
     def test_all_ok_cache_is_fresh(self):
         out = self.run_store({"good": lambda url: ["btcusdt"]})
@@ -132,6 +145,9 @@ class CacheTest(unittest.TestCase):
             self.assertFalse(gc.symbols_cache_is_stale(p))
             old = time.time() - (gc.SYMBOLS_MAX_AGE_HOURS + 1) * 3600
             os.utime(p, (old, old))
+            self.assertTrue(gc.symbols_cache_is_stale(p))
+            future = time.time() + 3600
+            os.utime(p, (future, future))
             self.assertTrue(gc.symbols_cache_is_stale(p))
 
 

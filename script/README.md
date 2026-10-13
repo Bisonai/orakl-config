@@ -22,7 +22,7 @@ Automatically generates per-pair `<PAIR>.json` config files based on supported W
 ### Parameters
 
 - network: Designate network, defaults to `kairos`.
-- refresh: true or false, defaults to false. Reload possible supported symbols from APIs if true. The symbols cache (`tmp/symbols.json`) is also reloaded automatically when missing or older than 24h, so delisted pairs are not re-added from a stale cache.
+- refresh: true or false, defaults to false. Reload possible supported symbols from APIs if true. The symbols cache (`tmp/symbols.v2.json`; the old `tmp/symbols.json` is ignored) is also reloaded automatically when missing or older than 24h, so delisted pairs are not re-added from a stale cache.
 - symbols: Pass symbols to generate besides pre-existing price pairs in the `configs/{network}/` path. If not given, it will only update existing config files.
 - onlysymbols: defaults to false, only reload supported symbols if true without generating configs
 
