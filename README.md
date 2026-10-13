@@ -21,7 +21,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 
 ## Mainnet
 
-235 pairs, 2044 feeds.
+233 pairs, 2032 feeds.
 
 | pair | sources | fetchInterval | aggregateInterval | submitInterval |
 | --- | --- | ---: | ---: | ---: |
@@ -210,8 +210,6 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [SOL-USDT](config/mainnet/SOL-USDT.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
 | [SONIC-USDT](config/mainnet/SONIC-USDT.json) | bingx, bitget, btse, bybit, gateio, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
 | [SPX-USDT](config/mainnet/SPX-USDT.json) | bingx, bitmart, btse, bybit, gateio, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
-| [STG-KRW](config/mainnet/STG-KRW.json) | binance, bingx, bitget, gateio, huobi, kucoin | 2000 | 400 | 15000 |
-| [STG-USDT](config/mainnet/STG-USDT.json) | binance, bingx, bitget, gateio, huobi, kucoin | 2000 | 400 | 15000 |
 | [STKAIA-KAIA](config/mainnet/STKAIA-KAIA.json) | capybara, Dragonswap | 2000 | 400 | 60000 |
 | [STRK-KRW](config/mainnet/STRK-KRW.json) | bithumb, coinone, korbit | 2000 | 400 | 60000 |
 | [STX-KRW](config/mainnet/STX-KRW.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
@@ -263,7 +261,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 
 ## Kairos
 
-235 pairs, 2044 feeds.
+233 pairs, 2032 feeds.
 
 | pair | sources | fetchInterval | aggregateInterval | submitInterval |
 | --- | --- | ---: | ---: | ---: |
@@ -452,8 +450,6 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [SOL-USDT](config/kairos/SOL-USDT.json) | binance, bingx, bitget, bitmart, btse, bybit, coinbase, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
 | [SONIC-USDT](config/kairos/SONIC-USDT.json) | bingx, bitget, btse, bybit, gateio, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
 | [SPX-USDT](config/kairos/SPX-USDT.json) | bingx, bitmart, btse, bybit, gateio, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
-| [STG-KRW](config/kairos/STG-KRW.json) | binance, bingx, bitget, gateio, huobi, kucoin | 2000 | 400 | 15000 |
-| [STG-USDT](config/kairos/STG-USDT.json) | binance, bingx, bitget, gateio, huobi, kucoin | 2000 | 400 | 15000 |
 | [STKAIA-KAIA](config/kairos/STKAIA-KAIA.json) | capybara, Dragonswap | 2000 | 400 | 60000 |
 | [STRK-KRW](config/kairos/STRK-KRW.json) | bithumb, coinone, korbit | 2000 | 400 | 60000 |
 | [STX-KRW](config/kairos/STX-KRW.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
