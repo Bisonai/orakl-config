@@ -71,11 +71,11 @@ def get_kucoin_symbols(url):
 def get_bybit_symbols(url):
     result = []
     json_data = load_json_from_url(url)
-    print("loaded bybit json data")
+    # v5 instruments-info; spot is not paginated. status: Trading | PreLaunch | ...
     for entry in json_data["result"]["list"]:
-        if entry["showStatus"] != "1":
+        if entry.get("status") != "Trading":
             continue
-        result.append(entry["name"].lower())
+        result.append(entry["symbol"].lower())
     return result
 
 def get_bistamp_symbols(url):
