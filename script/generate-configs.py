@@ -2,10 +2,15 @@ import json
 import requests
 import argparse
 import os
+import sys
+import time
 from pathlib import Path
 
 URLS_PATH = Path("script/urls.json")
 SYMBOLS_PATH = Path("tmp/symbols.json")
+# Cached symbols older than this are refetched: a stale cache re-adds pairs
+# that have since been delisted or taken offline.
+SYMBOLS_MAX_AGE_HOURS = 24
 
 DEFAULT_FETCH_INTERVAL = 2000
 DEFAULT_AGGREGATE_INTERVAL = 400
@@ -18,7 +23,8 @@ filter_outs = {
 }
 
 def load_json_from_url(url):
-    response = requests.get(url=url, headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"})
+    response = requests.get(url=url, headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"}, timeout=30)
+    response.raise_for_status()
     json_data = response.json()
     return json_data
 
@@ -245,92 +251,65 @@ def get_orangex_symbols(url):
         result.append(entry["show_name"].replace("/","").lower())
     return result
 
+SYMBOL_LOADERS = {
+    "binance": get_binance_symbols,
+    "coinbase": get_coinbase_symbols,
+    "kucoin": get_kucoin_symbols,
+    "bybit": get_bybit_symbols,
+    "bitstamp": get_bistamp_symbols,
+    "gemini": get_gemini_symbols,
+    "upbit": get_upbit_symbols,
+    "korbit": get_korbit_symbols,
+    "crypto": get_crypto_symbols,
+    "btse": get_btse_symbols,
+    "bithumb": get_bithumb_symbols,
+    "gateio": get_gateio_symbols,
+    "lbank": get_lbank_symbols,
+    "bitget": get_bitget_symbols,
+    "coinone": get_coinone_symbols,
+    "huobi": get_huobi_symbols,
+    "mexc": get_mexc_symbols,
+    "okx": get_okx_symbols,
+    "kraken": get_kraken_symbols,
+    "bingx": get_bingx_symbols,
+    "bitmart": get_bitmart_symbols,
+    "xt": get_xt_symbols,
+    "gopax": get_gopax_symbols,
+    "orangex": get_orangex_symbols,
+    "hashkey": get_hashkey_symbols,
+}
+
 def store_symbols(urls_path, symbols_path):
+    # A provider whose API fails is left out of the cache (with a warning)
+    # instead of aborting the run; see replace_config_file for how its
+    # existing feeds are kept.
     store_directory = os.path.dirname(symbols_path)
     if not os.path.exists(store_directory):
         os.makedirs(store_directory)
 
     result = {}
+    failed = []
     urls = load_json_from_path(urls_path)
 
-    result["binance"] = get_binance_symbols(urls["binance"])
-    print("binance symbol loaded")
+    for provider, loader in SYMBOL_LOADERS.items():
+        try:
+            result[provider] = loader(urls[provider])
+        except Exception as e:
+            failed.append(provider)
+            print(f"WARNING: {provider} symbols not loaded, skipping: {e!r}", file=sys.stderr)
+            continue
+        print(f"{provider} symbol loaded")
 
-    result["coinbase"] = get_coinbase_symbols(urls["coinbase"])
-    print("coinbase symbol loaded")
-
-    result["kucoin"] = get_kucoin_symbols(urls["kucoin"])
-    print("kucoin symbol loaded")
-
-    result["bybit"] = get_bybit_symbols(urls["bybit"])
-    print("bybit symbol loaded")
-
-    result["bitstamp"] = get_bistamp_symbols(urls["bitstamp"])
-    print("bitstamp symbol loaded")
-
-    result["gemini"] = get_gemini_symbols(urls["gemini"])
-    print("gemini symbol loaded")
-
-    result["upbit"] = get_upbit_symbols(urls["upbit"])
-    print("upbit symbol loaded")
-
-    result["korbit"] = get_korbit_symbols(urls["korbit"])
-    print("korbit symbol loaded")
-
-    result["crypto"] = get_crypto_symbols(urls["crypto"])
-    print("crypto symbol loaded")
-
-    result["btse"] = get_btse_symbols(urls["btse"])
-    print("btse symbol loaded")
-
-    result["bithumb"] = get_bithumb_symbols(urls["bithumb"])
-    print("bithumb symbol loaded")
-
-    result["gateio"] = get_gateio_symbols(urls["gateio"])
-    print("gateio symbol loaded")
-
-    result["lbank"] = get_lbank_symbols(urls["lbank"])
-    print("lbank symbol loaded")
-
-    result["bitget"] = get_bitget_symbols(urls["bitget"])
-    print("bitget symbol loaded")
-
-    result["coinone"] = get_coinone_symbols(urls["coinone"])
-    print("coinone symbol loaded")
-
-    result["huobi"] = get_huobi_symbols(urls["huobi"])
-    print("huobi symbol loaded")
-
-    result["mexc"] = get_mexc_symbols(urls["mexc"])
-    print("mexc symbol loaded")
-
-    result["okx"] = get_okx_symbols(urls["okx"])
-    print("okx symbol loaded")
-
-    result["kraken"] = get_kraken_symbols(urls["kraken"])
-    print("kraken symbol loaded")
-
-    result["bingx"] = get_bingx_symbols(urls["bingx"])
-    print("bingx symbol loaded")
-
-    result["bitmart"] = get_bitmart_symbols(urls["bitmart"])
-    print("bitmart symbol loaded")
-
-    result["xt"] = get_xt_symbols(urls["xt"])
-    print("xt symbol loaded")
-
-    result["gopax"] = get_gopax_symbols(urls["gopax"])
-    print("gopax symbol loaded")
-
-    result["orangex"] = get_orangex_symbols(urls["orangex"])
-    print("orangex symbol loaded")
-
-    result["hashkey"] = get_hashkey_symbols(urls["hashkey"])
-    print("hashkey symbol loaded")
-
+    if failed:
+        print(f"WARNING: no symbols for {', '.join(failed)}; their feeds are neither added nor removed", file=sys.stderr)
 
     with open(symbols_path, "w") as f:
         json.dump(result, f, indent=4)
+
+def symbols_cache_is_stale(symbols_path, max_age_hours=SYMBOLS_MAX_AGE_HOURS):
+    if not os.path.exists(symbols_path):
+        return True
+    return time.time() - os.path.getmtime(symbols_path) > max_age_hours * 3600
 
 def make_wss_object(provider, base, quote):
     wsFeed = {}
@@ -412,8 +391,10 @@ def update_or_make_config_file(config_folder_path, symbol, feeds):
     with open(f"{config_folder_path}/{symbol}.json", "w") as f:
         json.dump(result, f, indent=4)
 
-def replace_config_file(config_folder_path, symbol, feeds):
-    # removes all ws feeds from previous file, and replace with new one
+def replace_config_file(config_folder_path, symbol, feeds, available_providers=None):
+    # removes all ws feeds from previous file, and replace with new one.
+    # ws feeds of providers not in available_providers (symbols failed to
+    # load) are kept as-is, since their support is unknown.
     result = {}
     if not os.path.exists(config_folder_path+"/"+symbol+".json"):
         result["name"] = symbol
@@ -434,7 +415,9 @@ def replace_config_file(config_folder_path, symbol, feeds):
     result["submitInterval"] = prev["submitInterval"]
     result["feeds"] = []
     for feed in prev["feeds"]:
-        if "-wss-" not in feed["name"]:
+        provider = feed.get("definition", {}).get("provider")
+        if "-wss-" not in feed["name"] or \
+            (available_providers is not None and provider not in available_providers):
             result["feeds"].append(feed)
 
     for feed in feeds:
@@ -455,7 +438,11 @@ if __name__ == "__main__":
     network = args.network
     is_replace = args.replace
 
-    if not os.path.exists(SYMBOLS_PATH) or refresh or symbols_only:
+    if refresh or symbols_only:
+        store_symbols(URLS_PATH, SYMBOLS_PATH)
+    elif symbols_cache_is_stale(SYMBOLS_PATH):
+        if os.path.exists(SYMBOLS_PATH):
+            print(f"{SYMBOLS_PATH} is older than {SYMBOLS_MAX_AGE_HOURS}h, refreshing")
         store_symbols(URLS_PATH, SYMBOLS_PATH)
 
     if symbols_only:
@@ -490,6 +477,6 @@ if __name__ == "__main__":
 
     for symbol, feeds in result.items():
         if is_replace:
-            replace_config_file(f"config/{network}", symbol, feeds)
+            replace_config_file(f"config/{network}", symbol, feeds, set(possible_symbols))
         else:
             update_or_make_config_file(f"config/{network}", symbol, feeds)
