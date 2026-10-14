@@ -12,16 +12,20 @@ jobs:
   dispatch:
     runs-on: ubuntu-24.04
     steps:
+      - name: Generate GitHub App Token
+        id: generate-token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ secrets.GH_ORAKL_BOT_APP_ID }}
+          private-key: ${{ secrets.GH_ORAKL_BOT_PRIVATE_KEY }}
+          owner: bisonai
+          repositories: orakl
+
       - name: Send repository_dispatch to orakl
         env:
-          # Fine-grained PAT: repo Bisonai/orakl, Contents read+write.
-          GH_TOKEN: ${{ secrets.ORAKL_DISPATCH_TOKEN }}
+          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
           SHA: ${{ github.sha }}
         run: |
-          if [ -z "$GH_TOKEN" ]; then
-            echo "::warning::ORAKL_DISPATCH_TOKEN not set; orakl will pick this up on its daily run."
-            exit 0
-          fi
           gh api repos/Bisonai/orakl/dispatches \
             -f event_type=orakl-config-published \
             -f "client_payload[sha]=$SHA"
