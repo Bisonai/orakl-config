@@ -7,7 +7,6 @@ on:
     paths:
       - '*_feeds.json'
   workflow_dispatch:
-  pull_request: # TEMP: verify client-id, revert before merge
 
 jobs:
   dispatch:
