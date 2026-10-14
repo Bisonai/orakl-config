@@ -36,7 +36,7 @@ Tests (mocked API responses, no network): `python3 -m unittest discover -s scrip
 
 ## Collect Files
 
-The following script will gather all adapter & aggregator configurations for mainnet and kairos, and generate JSON files for each network. It dual-publishes the bundles under both the new names (`mainnet_*`, `kairos_*`) and the legacy names (`cypress_*`, `baobab_*`), and regenerates the legacy per-feed `mag7/cypress/` and `mag7/baobab/` dirs, so existing consumers keep working.
+The following script will gather all adapter & aggregator configurations for mainnet and kairos, and generate `<network>_feeds.json` and `<network>_mag7.json` for each network.
 Execute from root directory of this repository.
 
 ```
