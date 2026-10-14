@@ -1,0 +1,31 @@
+name: Notify orakl
+
+# Tells Bisonai/orakl to regenerate contracts/v0.2/addresses/feeds.json from this commit's config.
+on:
+  push:
+    branches: [master]
+    paths:
+      - '*_feeds.json'
+  workflow_dispatch:
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Generate GitHub App Token
+        id: generate-token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ secrets.GH_ORAKL_BOT_APP_ID }}
+          private-key: ${{ secrets.GH_ORAKL_BOT_PRIVATE_KEY }}
+          owner: bisonai
+          repositories: orakl
+
+      - name: Send repository_dispatch to orakl
+        env:
+          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+          SHA: ${{ github.sha }}
+        run: |
+          gh api repos/Bisonai/orakl/dispatches \
+            -f event_type=orakl-config-published \
+            -f "client_payload[sha]=$SHA"
