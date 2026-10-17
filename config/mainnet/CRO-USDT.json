@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "bitget-wss-CRO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitget",
-        "base": "CRO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "mexc-wss-CRO-USDT",
       "definition": {
         "type": "wss",
