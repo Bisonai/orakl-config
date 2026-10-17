@@ -1,0 +1,35 @@
+name: Bundles
+
+# Served bundles (<chain>_feeds.json, <chain>_mag7.json) must semantically
+# match their config/ and mag7/ sources; nodes sync only the bundles (#260).
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  # PRs: one group per PR, superseded runs cancelled. Pushes: one group per
+  # commit, so every master commit gets a result.
+  group: bundles-${{ github.event.pull_request.number || github.sha }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Check served bundles match sources
+        run: python script/collect-files.py --check
+
+      - name: Unit tests (collect-files)
+        run: python -m unittest discover -s script -p test_collect_files.py
