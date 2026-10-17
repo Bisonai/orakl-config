@@ -15,28 +15,10 @@
       }
     },
     {
-      "name": "korbit-wss-BORA-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "BORA",
-        "quote": "KRW"
-      }
-    },
-    {
       "name": "bithumb-wss-BORA-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
-        "base": "BORA",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "coinone-wss-BORA-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
         "base": "BORA",
         "quote": "KRW"
       }

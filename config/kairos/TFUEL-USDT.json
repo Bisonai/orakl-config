@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "crypto-wss-TFUEL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "crypto",
-        "base": "TFUEL",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-TFUEL-USDT",
       "definition": {
         "type": "wss",

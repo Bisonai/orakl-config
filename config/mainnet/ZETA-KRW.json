@@ -31,15 +31,6 @@
         "base": "ZETA",
         "quote": "KRW"
       }
-    },
-    {
-      "name": "coinone-wss-ZETA-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "ZETA",
-        "quote": "KRW"
-      }
     }
   ]
 }

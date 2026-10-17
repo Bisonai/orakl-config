@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "crypto-wss-AIOZ-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "crypto",
-        "base": "AIOZ",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-AIOZ-USDT",
       "definition": {
         "type": "wss",

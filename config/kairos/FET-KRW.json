@@ -6,15 +6,6 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "korbit-wss-FET-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "FET",
-        "quote": "KRW"
-      }
-    },
-    {
       "name": "bithumb-wss-FET-KRW",
       "definition": {
         "type": "wss",

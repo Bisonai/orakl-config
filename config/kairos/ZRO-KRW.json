@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "korbit-wss-ZRO-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "ZRO",
-        "quote": "KRW"
-      }
-    },
-    {
       "name": "bithumb-wss-ZRO-KRW",
       "definition": {
         "type": "wss",

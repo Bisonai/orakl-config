@@ -22,15 +22,6 @@
         "base": "SNT",
         "quote": "KRW"
       }
-    },
-    {
-      "name": "coinone-wss-SNT-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "SNT",
-        "quote": "KRW"
-      }
     }
   ]
 }
