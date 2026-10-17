@@ -21,7 +21,9 @@ DEFAULT_SUBMIT_INTERVAL = 60000 # 1 minute
 filter_outs = {
     "bitmart": ["joyusdt"],
     "bitget": ["joyusdt"],
-    "huobi": ["joyusdt"]
+    "huobi": ["joyusdt"],
+    "korbit": ["bonkkrw"],  # frozen ticker, vol 0 (#253)
+    "mexc": ["beamusdt"],  # old Beam, not beam-2/BEAMX (#253)
 }
 
 class FetchError(Exception):
