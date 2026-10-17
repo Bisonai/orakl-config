@@ -1,4 +1,6 @@
+import argparse
 import json
+import sys
 from pathlib import Path
 
 wsfetchers = ["binance", "coinbase", "coinone", "korbit", "kucoin", "bybit", "upbit", "crypto", "btse", "bithumb", "gateio", "huobi", "mexc", "orangex"]
@@ -123,6 +125,78 @@ def generate_config_file(adapter_path: Path, aggregator_path: Path, output_file_
     with open(output_file_path, "w") as f:
         json.dump(valid_configs, f, indent=4)
 
+ROOT = Path(__file__).resolve().parent.parent
+
+# (source dir, served bundle) pairs, relative to the repo root. Writing resolves
+# them against cwd (run from the repo root); --check resolves against ROOT.
+BUNDLES = [
+    ("config/kairos", "kairos_feeds.json"),
+    ("config/mainnet", "mainnet_feeds.json"),
+    ("mag7/kairos", "kairos_mag7.json"),
+    ("mag7/mainnet", "mainnet_mag7.json"),
+]
+
+def by_name(entries: list, label: str, errors: list):
+    result = {}
+    for entry in entries:
+        name = entry.get("name")
+        if name in result:
+            errors.append(f"{label}: duplicate name {name!r}")
+        result[name] = entry
+    return result
+
+def check_bundle(source_dir: Path, bundle_path: Path):
+    # Semantic check (#260): compare parsed JSON, not bytes, so cosmetic
+    # serialization deltas (#236) are tolerated. Entries are matched by "name":
+    # entry order in the bundle is ignored (node admin sync keys configs by
+    # name). Each entry, incl. its feeds list order, must match exactly.
+    errors = []
+    generated = by_name(load_json_files(ROOT / source_dir), str(source_dir), errors)
+    committed = by_name(load_json_from_path(ROOT / bundle_path), str(bundle_path), errors)
+    for name in sorted(generated.keys() - committed.keys(), key=str):
+        errors.append(f"{name}: in {source_dir}/ but missing from {bundle_path}")
+    for name in sorted(committed.keys() - generated.keys(), key=str):
+        errors.append(f"{name}: in {bundle_path} but not in {source_dir}/")
+    for name in sorted(generated.keys() & committed.keys(), key=str):
+        gen, com = generated[name], committed[name]
+        if gen == com:
+            continue
+        details = []
+        for key in sorted(gen.keys() | com.keys()):
+            if key == "feeds" or gen.get(key) == com.get(key):
+                continue
+            details.append(f"{key}: {source_dir}/={gen.get(key)!r} bundle={com.get(key)!r}")
+        gen_feeds = gen.get("feeds") or []
+        com_feeds = com.get("feeds") or []
+        if gen_feeds != com_feeds:
+            before = len(details)
+            gen_map = {f.get("name"): f for f in gen_feeds}
+            com_map = {f.get("name"): f for f in com_feeds}
+            for feed in sorted(gen_map.keys() - com_map.keys(), key=str):
+                details.append(f"feed {feed} missing from bundle")
+            for feed in sorted(com_map.keys() - gen_map.keys(), key=str):
+                details.append(f"feed {feed} only in bundle")
+            for feed in sorted(gen_map.keys() & com_map.keys(), key=str):
+                if gen_map[feed] != com_map[feed]:
+                    details.append(f"feed {feed} differs")
+            if len(details) == before or len(gen_map) != len(gen_feeds) or len(com_map) != len(com_feeds):
+                details.append("feeds list order/duplicates differ")
+        errors.append(f"{name}: " + "; ".join(details or ["differs"]))
+    return errors
+
+def check_bundles():
+    failed = False
+    for source_dir, bundle in BUNDLES:
+        errors = check_bundle(Path(source_dir), Path(bundle))
+        if errors:
+            failed = True
+            print(f"::error::{bundle} does not match {source_dir}/ ({len(errors)} problem(s))", file=sys.stderr)
+            for error in errors:
+                print(f"  {error}", file=sys.stderr)
+        else:
+            print(f"{bundle}: OK")
+    return 1 if failed else 0
+
 if __name__ == "__main__":
     # Canonical bundles only: price feeds "<chain>_feeds.json" and mag7
     # "<chain>_mag7.json" for chains mainnet (Kaia mainnet) and kairos (testnet).
@@ -131,8 +205,12 @@ if __name__ == "__main__":
     # NOTE (#236): the committed *_feeds.json bundles are FROZEN to pre-existing
     # bytes; the source config/ files differ by a cosmetic serialization delta
     # (indent 2->4 + key order), so running this WILL rewrite them — do not
-    # commit that delta here.
-    collect_json_files(Path("config/kairos"), "kairos_feeds.json", False)
-    collect_json_files(Path("config/mainnet"), "mainnet_feeds.json", False)
-    collect_json_files(Path("mag7/kairos"), "kairos_mag7.json", False)
-    collect_json_files(Path("mag7/mainnet"), "mainnet_mag7.json", False)
+    # commit that delta here. Use --check (CI, #260) to verify the bundles
+    # semantically match their sources without writing anything.
+    parser = argparse.ArgumentParser(description="Collect config/ and mag7/ sources into served bundles.")
+    parser.add_argument("--check", action="store_true", help="exit 1 if a served bundle does not semantically match its source dir; writes nothing")
+    args = parser.parse_args()
+    if args.check:
+        sys.exit(check_bundles())
+    for source_dir, bundle in BUNDLES:
+        collect_json_files(Path(source_dir), bundle, False)
