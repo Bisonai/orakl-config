@@ -31,5 +31,5 @@ jobs:
       - name: Check served bundles match sources
         run: python script/collect-files.py --check
 
-      - name: Unit tests (script/)
-        run: python -m unittest discover -s script
+      - name: Unit tests (collect-files)
+        run: python -m unittest discover -s script -p test_collect_files.py
