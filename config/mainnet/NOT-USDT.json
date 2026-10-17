@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "crypto-wss-NOT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "crypto",
-        "base": "NOT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-NOT-USDT",
       "definition": {
         "type": "wss",

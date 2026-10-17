@@ -6,15 +6,6 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "korbit-wss-ZK-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "ZK",
-        "quote": "KRW"
-      }
-    },
-    {
       "name": "bithumb-wss-ZK-KRW",
       "definition": {
         "type": "wss",

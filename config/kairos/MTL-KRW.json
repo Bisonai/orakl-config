@@ -22,15 +22,6 @@
         "base": "MTL",
         "quote": "KRW"
       }
-    },
-    {
-      "name": "coinone-wss-MTL-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "MTL",
-        "quote": "KRW"
-      }
     }
   ]
 }

@@ -22,15 +22,6 @@
         "base": "GLM",
         "quote": "KRW"
       }
-    },
-    {
-      "name": "coinone-wss-GLM-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "GLM",
-        "quote": "KRW"
-      }
     }
   ]
 }

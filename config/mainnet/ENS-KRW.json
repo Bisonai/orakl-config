@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "korbit-wss-ENS-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "ENS",
-        "quote": "KRW"
-      }
-    },
-    {
       "name": "bithumb-wss-ENS-KRW",
       "definition": {
         "type": "wss",
