@@ -13,9 +13,10 @@ permissions:
   contents: read
 
 concurrency:
-  group: bundles-${{ github.event.pull_request.number || github.ref }}
-  # Cancel superseded PR runs only; every master commit gets a result.
-  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+  # PRs: one group per PR, superseded runs cancelled. Pushes: one group per
+  # commit, so every master commit gets a result.
+  group: bundles-${{ github.event.pull_request.number || github.sha }}
+  cancel-in-progress: true
 
 jobs:
   check:
@@ -29,3 +30,6 @@ jobs:
 
       - name: Check served bundles match sources
         run: python script/collect-files.py --check
+
+      - name: Unit tests (script/)
+        run: python -m unittest discover -s script

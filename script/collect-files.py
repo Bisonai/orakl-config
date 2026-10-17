@@ -146,11 +146,14 @@ def canon(value):
     # Type-strict, key-order-insensitive form: 1 != 1.0 != true.
     return json.dumps(value, sort_keys=True)
 
+def is_named_list(value):
+    return isinstance(value, list) and all(isinstance(e, dict) and isinstance(e.get("name"), str) for e in value)
+
 def by_name(entries, label: str, errors: list):
     # None (load failed, already reported) or bad shape -> None.
     if entries is None:
         return None
-    if not isinstance(entries, list) or not all(isinstance(e, dict) and isinstance(e.get("name"), str) for e in entries):
+    if not is_named_list(entries):
         errors.append(f"{label}: expected a JSON list of objects with string \"name\"")
         return None
     result = {}
@@ -162,8 +165,7 @@ def by_name(entries, label: str, errors: list):
     return result
 
 def diff_feeds(gen_feeds, com_feeds):
-    is_feed_list = lambda feeds: isinstance(feeds, list) and all(isinstance(f, dict) and isinstance(f.get("name"), str) for f in feeds)
-    if not (is_feed_list(gen_feeds) and is_feed_list(com_feeds)):
+    if not (is_named_list(gen_feeds) and is_named_list(com_feeds)):
         return ["feeds differ (not a list of objects with string \"name\")"]
     details = []
     gen_map = {f["name"]: f for f in gen_feeds}
@@ -188,6 +190,8 @@ def check_bundle(source_dir: Path, bundle_path: Path, root: Path = ROOT):
     # keys configs by name). Within an entry, values (types included) and feed
     # order must match exactly.
     errors = []
+    if not (root / source_dir).is_dir():
+        return [f"{source_dir}/: source directory not found"]
     sources = [load_for_check(f, str(f.relative_to(root)), errors) for f in sorted((root / source_dir).glob("*.json"))]
     if errors:
         return errors
@@ -204,10 +208,13 @@ def check_bundle(source_dir: Path, bundle_path: Path, root: Path = ROOT):
         if canon(gen) == canon(com):
             continue
         details = []
+        def show(entry, key):
+            return canon(entry[key]) if key in entry else "(missing)"
         for key in sorted(gen.keys() | com.keys()):
-            if key == "feeds" or canon(gen.get(key)) == canon(com.get(key)):
+            if key == "feeds":
                 continue
-            details.append(f"{key}: {source_dir}/={json.dumps(gen.get(key))} bundle={json.dumps(com.get(key))}")
+            if show(gen, key) != show(com, key):
+                details.append(f"{key}: {source_dir}/={show(gen, key)} bundle={show(com, key)}")
         if canon(gen.get("feeds")) != canon(com.get("feeds")):
             details += diff_feeds(gen.get("feeds"), com.get("feeds"))
         errors.append(f"{name}: " + "; ".join(details or ["differs"]))

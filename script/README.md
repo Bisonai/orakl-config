@@ -40,7 +40,7 @@ The following script will gather all adapter & aggregator configurations for mai
 Paths resolve against the repo root; runs from any directory.
 
 ```
-python script/collect-files.py
+python script/collect-files.py           # rewrites all 4 bundles (whole-file cosmetic diff, see below)
 python script/collect-files.py --check   # exit 1 if a bundle != its source dir; writes nothing
 ```
 

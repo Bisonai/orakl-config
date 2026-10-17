@@ -74,6 +74,22 @@ class CheckBundleTest(unittest.TestCase):
         [error] = self.check([pair("A-USDT", {"name": {"x": 1}})], [pair("A-USDT")])
         self.assertIn("not a list of objects", error)
 
+    def test_missing_vs_null_key_named(self):
+        src = pair("A-USDT", feed("x"))
+        com = dict(src, aggregateInterval=None)
+        [error] = self.check([src], [com])
+        self.assertIn("aggregateInterval: src/=(missing) bundle=null", error)
+
+    def test_nested_key_order_ignored(self):
+        src = pair("A-USDT", feed("x"), submit={"a": 1, "b": 2})
+        com = pair("A-USDT", feed("x"), submit={"b": 2, "a": 1})
+        self.assertEqual(self.check([src], [com]), [])
+
+    def test_missing_source_dir(self):
+        (self.root / "bundle.json").write_text("[]")
+        self.assertEqual(cf.check_bundle(Path("nope"), Path("bundle.json"), self.root),
+                         ["nope/: source directory not found"])
+
 
 if __name__ == "__main__":
     unittest.main()
