@@ -2399,15 +2399,6 @@
           "base": "BEAMX",
           "quote": "USDT"
         }
-      },
-      {
-        "name": "mexc-wss-BEAM-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "mexc",
-          "base": "BEAM",
-          "quote": "USDT"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -2814,15 +2805,6 @@
     "aggregateInterval": 400,
     "submitInterval": 60000,
     "feeds": [
-      {
-        "name": "korbit-wss-BONK-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "BONK",
-          "quote": "KRW"
-        }
-      },
       {
         "name": "bithumb-wss-BONK-KRW",
         "definition": {
@@ -4317,15 +4299,6 @@
         "definition": {
           "type": "wss",
           "provider": "lbank",
-          "base": "CRO",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitget-wss-CRO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitget",
           "base": "CRO",
           "quote": "USDT"
         }

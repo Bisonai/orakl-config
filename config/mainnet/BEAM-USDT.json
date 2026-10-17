@@ -49,15 +49,6 @@
         "base": "BEAMX",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "mexc-wss-BEAM-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "mexc",
-        "base": "BEAM",
-        "quote": "USDT"
-      }
     }
   ]
 }
