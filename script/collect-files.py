@@ -135,72 +135,81 @@ BUNDLES = [
     ("mag7/mainnet", "mainnet_mag7.json"),
 ]
 
-def load_for_check(path: Path, errors: list):
+def load_for_check(path: Path, label: str, errors: list):
     try:
         return load_json_from_path(path)
     except (OSError, ValueError) as e:
-        errors.append(f"{path.relative_to(ROOT)}: cannot load: {e}")
+        errors.append(f"{label}: cannot load: {e}")
         return None
+
+def canon(value):
+    # Type-strict, key-order-insensitive form: 1 != 1.0 != true.
+    return json.dumps(value, sort_keys=True)
 
 def by_name(entries, label: str, errors: list):
     # None (load failed, already reported) or bad shape -> None.
     if entries is None:
         return None
-    if not isinstance(entries, list) or not all(isinstance(e, dict) for e in entries):
-        errors.append(f"{label}: expected a JSON list of objects")
+    if not isinstance(entries, list) or not all(isinstance(e, dict) and isinstance(e.get("name"), str) for e in entries):
+        errors.append(f"{label}: expected a JSON list of objects with string \"name\"")
         return None
     result = {}
     for entry in entries:
-        name = entry.get("name")
+        name = entry["name"]
         if name in result:
             errors.append(f"{label}: duplicate name {name!r}")
         result[name] = entry
     return result
 
-def check_bundle(source_dir: Path, bundle_path: Path):
+def diff_feeds(gen_feeds, com_feeds):
+    is_feed_list = lambda feeds: isinstance(feeds, list) and all(isinstance(f, dict) and isinstance(f.get("name"), str) for f in feeds)
+    if not (is_feed_list(gen_feeds) and is_feed_list(com_feeds)):
+        return ["feeds differ (not a list of objects with string \"name\")"]
+    details = []
+    gen_map = {f["name"]: f for f in gen_feeds}
+    com_map = {f["name"]: f for f in com_feeds}
+    for feed in sorted(gen_map.keys() - com_map.keys()):
+        details.append(f"feed {feed} missing from bundle")
+    for feed in sorted(com_map.keys() - gen_map.keys()):
+        details.append(f"feed {feed} only in bundle")
+    for feed in sorted(gen_map.keys() & com_map.keys()):
+        if canon(gen_map[feed]) != canon(com_map[feed]):
+            details.append(f"feed {feed} differs")
+    if len(gen_map) != len(gen_feeds) or len(com_map) != len(com_feeds):
+        details.append("duplicate feed names")
+    elif [f["name"] for f in gen_feeds if f["name"] in com_map] != [f["name"] for f in com_feeds if f["name"] in gen_map]:
+        details.append("feed order differs")
+    return details
+
+def check_bundle(source_dir: Path, bundle_path: Path, root: Path = ROOT):
     # Semantic check (#260): compare parsed JSON, not bytes, so cosmetic
-    # serialization deltas (#236) are tolerated. Entries are matched by "name":
-    # entry order in the bundle is ignored (node admin sync keys configs by
-    # name). Each entry, incl. its feeds list order, must match exactly.
+    # serialization deltas (#236: indent, key order) are tolerated. Entries are
+    # matched by "name": entry order in the bundle is ignored (node admin sync
+    # keys configs by name). Within an entry, values (types included) and feed
+    # order must match exactly.
     errors = []
-    sources = [load_for_check(f, errors) for f in sorted((ROOT / source_dir).glob("*.json"))]
+    sources = [load_for_check(f, str(f.relative_to(root)), errors) for f in sorted((root / source_dir).glob("*.json"))]
     if errors:
         return errors
     generated = by_name(sources, str(source_dir), errors)
-    committed = by_name(load_for_check(ROOT / bundle_path, errors), str(bundle_path), errors)
+    committed = by_name(load_for_check(root / bundle_path, str(bundle_path), errors), str(bundle_path), errors)
     if generated is None or committed is None:
         return errors
-    for name in sorted(generated.keys() - committed.keys(), key=str):
+    for name in sorted(generated.keys() - committed.keys()):
         errors.append(f"{name}: in {source_dir}/ but missing from {bundle_path}")
-    for name in sorted(committed.keys() - generated.keys(), key=str):
+    for name in sorted(committed.keys() - generated.keys()):
         errors.append(f"{name}: in {bundle_path} but not in {source_dir}/")
-    for name in sorted(generated.keys() & committed.keys(), key=str):
+    for name in sorted(generated.keys() & committed.keys()):
         gen, com = generated[name], committed[name]
-        if gen == com:
+        if canon(gen) == canon(com):
             continue
         details = []
         for key in sorted(gen.keys() | com.keys()):
-            if key == "feeds" or gen.get(key) == com.get(key):
+            if key == "feeds" or canon(gen.get(key)) == canon(com.get(key)):
                 continue
-            details.append(f"{key}: {source_dir}/={gen.get(key)!r} bundle={com.get(key)!r}")
-        gen_feeds = gen.get("feeds") or []
-        com_feeds = com.get("feeds") or []
-        feed_lists_ok = all(isinstance(f, list) and all(isinstance(x, dict) for x in f) for f in (gen_feeds, com_feeds))
-        if gen_feeds != com_feeds and not feed_lists_ok:
-            details.append("feeds differ (not a list of objects)")
-        elif gen_feeds != com_feeds:
-            before = len(details)
-            gen_map = {f.get("name"): f for f in gen_feeds}
-            com_map = {f.get("name"): f for f in com_feeds}
-            for feed in sorted(gen_map.keys() - com_map.keys(), key=str):
-                details.append(f"feed {feed} missing from bundle")
-            for feed in sorted(com_map.keys() - gen_map.keys(), key=str):
-                details.append(f"feed {feed} only in bundle")
-            for feed in sorted(gen_map.keys() & com_map.keys(), key=str):
-                if gen_map[feed] != com_map[feed]:
-                    details.append(f"feed {feed} differs")
-            if len(details) == before or len(gen_map) != len(gen_feeds) or len(com_map) != len(com_feeds):
-                details.append("feeds list order/duplicates differ")
+            details.append(f"{key}: {source_dir}/={json.dumps(gen.get(key))} bundle={json.dumps(com.get(key))}")
+        if canon(gen.get("feeds")) != canon(com.get("feeds")):
+            details += diff_feeds(gen.get("feeds"), com.get("feeds"))
         errors.append(f"{name}: " + "; ".join(details or ["differs"]))
     return errors
 

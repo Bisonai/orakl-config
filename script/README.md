@@ -44,7 +44,7 @@ python script/collect-files.py
 python script/collect-files.py --check   # exit 1 if a bundle != its source dir; writes nothing
 ```
 
-The committed bundles are not byte-reproducible (#236: different indent/key order); writing rewrites them with a cosmetic diff, so hand-edit bundles alongside `config/`/`mag7/` instead. CI (`.github/workflows/bundles.yml`) runs `--check` on every PR and push to `master`: it compares parsed JSON, matching entries by `name` (bundle entry order is ignored; each entry, incl. feed order, must match exactly) and lists missing/extra/differing pairs and feeds.
+The committed bundles are not byte-reproducible (#236: different indent/key order); writing rewrites them with a cosmetic diff, so hand-edit bundles alongside `config/`/`mag7/` instead. CI (`.github/workflows/bundles.yml`) runs `--check` on every PR and push to `master`: it compares parsed JSON, matching entries by `name` (bundle entry order and key order are ignored; within an entry, values incl. types and feed order must match exactly) and lists missing/extra/differing pairs and feeds.
 
 ## Generate README
 
