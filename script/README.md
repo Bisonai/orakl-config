@@ -37,7 +37,7 @@ Tests (mocked API responses, no network): `python3 -m unittest discover -s scrip
 ## Collect Files
 
 The following script will gather all adapter & aggregator configurations for mainnet and kairos, and generate `<network>_feeds.json` and `<network>_mag7.json` for each network.
-Execute from root directory of this repository.
+Paths resolve against the repo root; runs from any directory.
 
 ```
 python script/collect-files.py

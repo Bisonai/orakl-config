@@ -127,8 +127,7 @@ def generate_config_file(adapter_path: Path, aggregator_path: Path, output_file_
 
 ROOT = Path(__file__).resolve().parent.parent
 
-# (source dir, served bundle) pairs, relative to the repo root. Writing resolves
-# them against cwd (run from the repo root); --check resolves against ROOT.
+# (source dir, served bundle) pairs, relative to the repo root (ROOT).
 BUNDLES = [
     ("config/kairos", "kairos_feeds.json"),
     ("config/mainnet", "mainnet_feeds.json"),
@@ -136,7 +135,20 @@ BUNDLES = [
     ("mag7/mainnet", "mainnet_mag7.json"),
 ]
 
-def by_name(entries: list, label: str, errors: list):
+def load_for_check(path: Path, errors: list):
+    try:
+        return load_json_from_path(path)
+    except (OSError, ValueError) as e:
+        errors.append(f"{path.relative_to(ROOT)}: cannot load: {e}")
+        return None
+
+def by_name(entries, label: str, errors: list):
+    # None (load failed, already reported) or bad shape -> None.
+    if entries is None:
+        return None
+    if not isinstance(entries, list) or not all(isinstance(e, dict) for e in entries):
+        errors.append(f"{label}: expected a JSON list of objects")
+        return None
     result = {}
     for entry in entries:
         name = entry.get("name")
@@ -151,8 +163,13 @@ def check_bundle(source_dir: Path, bundle_path: Path):
     # entry order in the bundle is ignored (node admin sync keys configs by
     # name). Each entry, incl. its feeds list order, must match exactly.
     errors = []
-    generated = by_name(load_json_files(ROOT / source_dir), str(source_dir), errors)
-    committed = by_name(load_json_from_path(ROOT / bundle_path), str(bundle_path), errors)
+    sources = [load_for_check(f, errors) for f in sorted((ROOT / source_dir).glob("*.json"))]
+    if errors:
+        return errors
+    generated = by_name(sources, str(source_dir), errors)
+    committed = by_name(load_for_check(ROOT / bundle_path, errors), str(bundle_path), errors)
+    if generated is None or committed is None:
+        return errors
     for name in sorted(generated.keys() - committed.keys(), key=str):
         errors.append(f"{name}: in {source_dir}/ but missing from {bundle_path}")
     for name in sorted(committed.keys() - generated.keys(), key=str):
@@ -168,7 +185,10 @@ def check_bundle(source_dir: Path, bundle_path: Path):
             details.append(f"{key}: {source_dir}/={gen.get(key)!r} bundle={com.get(key)!r}")
         gen_feeds = gen.get("feeds") or []
         com_feeds = com.get("feeds") or []
-        if gen_feeds != com_feeds:
+        feed_lists_ok = all(isinstance(f, list) and all(isinstance(x, dict) for x in f) for f in (gen_feeds, com_feeds))
+        if gen_feeds != com_feeds and not feed_lists_ok:
+            details.append("feeds differ (not a list of objects)")
+        elif gen_feeds != com_feeds:
             before = len(details)
             gen_map = {f.get("name"): f for f in gen_feeds}
             com_map = {f.get("name"): f for f in com_feeds}
@@ -190,9 +210,9 @@ def check_bundles():
         errors = check_bundle(Path(source_dir), Path(bundle))
         if errors:
             failed = True
-            print(f"::error::{bundle} does not match {source_dir}/ ({len(errors)} problem(s))", file=sys.stderr)
+            print(f"::error::{bundle} does not match {source_dir}/ ({len(errors)} problem(s))")
             for error in errors:
-                print(f"  {error}", file=sys.stderr)
+                print(f"  {error}")
         else:
             print(f"{bundle}: OK")
     return 1 if failed else 0
@@ -213,4 +233,4 @@ if __name__ == "__main__":
     if args.check:
         sys.exit(check_bundles())
     for source_dir, bundle in BUNDLES:
-        collect_json_files(Path(source_dir), bundle, False)
+        collect_json_files(ROOT / source_dir, ROOT / bundle, False)
