@@ -6,10 +6,10 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "korbit-wss-ZK-KRW",
+      "name": "upbit-wss-ZK-KRW",
       "definition": {
         "type": "wss",
-        "provider": "korbit",
+        "provider": "upbit",
         "base": "ZK",
         "quote": "KRW"
       }

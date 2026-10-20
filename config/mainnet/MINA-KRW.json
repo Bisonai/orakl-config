@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "korbit-wss-MINA-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "MINA",
-        "quote": "KRW"
-      }
-    },
-    {
       "name": "bithumb-wss-MINA-KRW",
       "definition": {
         "type": "wss",

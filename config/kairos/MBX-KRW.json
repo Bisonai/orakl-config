@@ -22,15 +22,6 @@
         "base": "MBX",
         "quote": "KRW"
       }
-    },
-    {
-      "name": "coinone-wss-MBX-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "MBX",
-        "quote": "KRW"
-      }
     }
   ]
 }

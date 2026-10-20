@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "korbit-wss-AXS-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "AXS",
-        "quote": "KRW"
-      }
-    },
-    {
       "name": "bithumb-wss-AXS-KRW",
       "definition": {
         "type": "wss",

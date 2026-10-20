@@ -15,28 +15,10 @@
       }
     },
     {
-      "name": "korbit-wss-CHZ-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "CHZ",
-        "quote": "KRW"
-      }
-    },
-    {
       "name": "bithumb-wss-CHZ-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
-        "base": "CHZ",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "coinone-wss-CHZ-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
         "base": "CHZ",
         "quote": "KRW"
       }

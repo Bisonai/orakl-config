@@ -22,15 +22,6 @@
         "base": "IQ",
         "quote": "KRW"
       }
-    },
-    {
-      "name": "coinone-wss-IQ-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "IQ",
-        "quote": "KRW"
-      }
     }
   ]
 }
