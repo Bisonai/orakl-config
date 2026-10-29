@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "bitget-wss-RON-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitget",
-        "base": "RON",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "mexc-wss-RON-USDT",
       "definition": {
         "type": "wss",

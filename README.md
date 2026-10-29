@@ -21,7 +21,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 
 ## Mainnet
 
-233 pairs, 1970 feeds.
+233 pairs, 1969 feeds.
 
 | pair | sources | fetchInterval | aggregateInterval | submitInterval |
 | --- | --- | ---: | ---: | ---: |
@@ -189,7 +189,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [QTUM-USDT](config/mainnet/QTUM-USDT.json) | binance, bitget, bitmart, bybit, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
 | [RAY-USDT](config/mainnet/RAY-USDT.json) | binance, bingx, bitget, bitmart, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [RENDER-USDT](config/mainnet/RENDER-USDT.json) | binance, bingx, bitget, bitmart, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [RON-USDT](config/mainnet/RON-USDT.json) | bingx, bitget, gateio, mexc, okx, orangex | 2000 | 400 | 60000 |
+| [RON-USDT](config/mainnet/RON-USDT.json) | bingx, gateio, mexc, okx, orangex | 2000 | 400 | 60000 |
 | [ROSE-USDT](config/mainnet/ROSE-USDT.json) | binance, bitget, bitmart, bybit, gateio, kucoin, mexc, xt | 2000 | 400 | 60000 |
 | [RSR-USDT](config/mainnet/RSR-USDT.json) | binance, bingx, bitget, bitmart, btse, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [RUNE-USDT](config/mainnet/RUNE-USDT.json) | binance, bingx, bitmart, bybit, crypto, gateio, huobi, kucoin, mexc, xt | 2000 | 400 | 60000 |
@@ -261,7 +261,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 
 ## Kairos
 
-233 pairs, 1970 feeds.
+233 pairs, 1969 feeds.
 
 | pair | sources | fetchInterval | aggregateInterval | submitInterval |
 | --- | --- | ---: | ---: | ---: |
@@ -429,7 +429,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [QTUM-USDT](config/kairos/QTUM-USDT.json) | binance, bitget, bitmart, bybit, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
 | [RAY-USDT](config/kairos/RAY-USDT.json) | binance, bingx, bitget, bitmart, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [RENDER-USDT](config/kairos/RENDER-USDT.json) | binance, bingx, bitget, bitmart, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [RON-USDT](config/kairos/RON-USDT.json) | bingx, bitget, gateio, mexc, okx, orangex | 2000 | 400 | 60000 |
+| [RON-USDT](config/kairos/RON-USDT.json) | bingx, gateio, mexc, okx, orangex | 2000 | 400 | 60000 |
 | [ROSE-USDT](config/kairos/ROSE-USDT.json) | binance, bitget, bitmart, bybit, gateio, kucoin, mexc, xt | 2000 | 400 | 60000 |
 | [RSR-USDT](config/kairos/RSR-USDT.json) | binance, bingx, bitget, bitmart, btse, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [RUNE-USDT](config/kairos/RUNE-USDT.json) | binance, bingx, bitmart, bybit, crypto, gateio, huobi, kucoin, mexc, xt | 2000 | 400 | 60000 |
