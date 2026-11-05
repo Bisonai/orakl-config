@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "gateio-wss-TUSD-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "gateio",
-        "base": "TUSD",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-TUSD-USDT",
       "definition": {
         "type": "wss",
@@ -46,15 +37,6 @@
       "definition": {
         "type": "wss",
         "provider": "huobi",
-        "base": "TUSD",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "mexc-wss-TUSD-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "mexc",
         "base": "TUSD",
         "quote": "USDT"
       }

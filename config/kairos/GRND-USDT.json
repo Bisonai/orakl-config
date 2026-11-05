@@ -13,15 +13,6 @@
         "base": "GRND",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "hashkey-wss-GRND-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "hashkey",
-        "base": "GRND",
-        "quote": "USDT"
-      }
     }
   ]
 }

@@ -31,15 +31,6 @@
         "base": "CTC",
         "quote": "KRW"
       }
-    },
-    {
-      "name": "gopax-wss-CTC-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "gopax",
-        "base": "CTC",
-        "quote": "KRW"
-      }
     }
   ]
 }

@@ -177,15 +177,6 @@
         }
       },
       {
-        "name": "gopax-wss-A-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "gopax",
-          "base": "A",
-          "quote": "KRW"
-        }
-      },
-      {
         "name": "korbit-wss-A-KRW",
         "definition": {
           "type": "wss",
@@ -973,15 +964,6 @@
         "definition": {
           "type": "wss",
           "provider": "coinone",
-          "base": "APT",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "gopax-wss-APT-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "gopax",
           "base": "APT",
           "quote": "KRW"
         }
@@ -4397,15 +4379,6 @@
           "base": "CTC",
           "quote": "KRW"
         }
-      },
-      {
-        "name": "gopax-wss-CTC-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "gopax",
-          "base": "CTC",
-          "quote": "KRW"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -5577,15 +5550,6 @@
           "base": "ELIZAOS",
           "quote": "USDT"
         }
-      },
-      {
-        "name": "mexc-wss-ELIZAOS-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "mexc",
-          "base": "ELIZAOS",
-          "quote": "USDT"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -6142,15 +6106,6 @@
         "definition": {
           "type": "wss",
           "provider": "bitstamp",
-          "base": "EUR",
-          "quote": "USD"
-        }
-      },
-      {
-        "name": "gemini-wss-EUR-USD",
-        "definition": {
-          "type": "wss",
-          "provider": "gemini",
           "base": "EUR",
           "quote": "USD"
         }
@@ -7419,15 +7374,6 @@
         "definition": {
           "type": "wss",
           "provider": "gateio",
-          "base": "GRND",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "hashkey-wss-GRND-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "hashkey",
           "base": "GRND",
           "quote": "USDT"
         }
@@ -8873,15 +8819,6 @@
           "base": "KAIA",
           "quote": "KRW"
         }
-      },
-      {
-        "name": "gopax-wss-KAIA-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "gopax",
-          "base": "KAIA",
-          "quote": "KRW"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -9811,15 +9748,6 @@
         "definition": {
           "type": "wss",
           "provider": "coinone",
-          "base": "LINK",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "gopax-wss-LINK-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "gopax",
           "base": "LINK",
           "quote": "KRW"
         }
@@ -14503,15 +14431,6 @@
           "base": "SAND",
           "quote": "KRW"
         }
-      },
-      {
-        "name": "gopax-wss-SAND-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "gopax",
-          "base": "SAND",
-          "quote": "KRW"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -16933,15 +16852,6 @@
         }
       },
       {
-        "name": "gateio-wss-TUSD-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "gateio",
-          "base": "TUSD",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "bitget-wss-TUSD-USDT",
         "definition": {
           "type": "wss",
@@ -16955,15 +16865,6 @@
         "definition": {
           "type": "wss",
           "provider": "huobi",
-          "base": "TUSD",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "mexc-wss-TUSD-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "mexc",
           "base": "TUSD",
           "quote": "USDT"
         }
@@ -17281,15 +17182,6 @@
         "definition": {
           "type": "wss",
           "provider": "bybit",
-          "base": "USDC",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitstamp-wss-USDC-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitstamp",
           "base": "USDC",
           "quote": "USDT"
         }
@@ -19704,15 +19596,6 @@
         "definition": {
           "type": "wss",
           "provider": "gateio",
-          "base": "ZKJ",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "mexc-wss-ZKJ-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "mexc",
           "base": "ZKJ",
           "quote": "USDT"
         }

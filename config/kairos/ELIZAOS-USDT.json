@@ -31,15 +31,6 @@
         "base": "ELIZAOS",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "mexc-wss-ELIZAOS-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "mexc",
-        "base": "ELIZAOS",
-        "quote": "USDT"
-      }
     }
   ]
 }

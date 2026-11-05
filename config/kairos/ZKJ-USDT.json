@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "mexc-wss-ZKJ-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "mexc",
-        "base": "ZKJ",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "okx-wss-ZKJ-USDT",
       "definition": {
         "type": "wss",
