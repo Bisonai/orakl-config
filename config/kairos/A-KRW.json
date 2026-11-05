@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "gopax-wss-A-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "gopax",
-        "base": "A",
-        "quote": "KRW"
-      }
-    },
-    {
       "name": "korbit-wss-A-KRW",
       "definition": {
         "type": "wss",

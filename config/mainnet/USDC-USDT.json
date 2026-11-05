@@ -43,15 +43,6 @@
       }
     },
     {
-      "name": "bitstamp-wss-USDC-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitstamp",
-        "base": "USDC",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-USDC-USDT",
       "definition": {
         "type": "wss",
