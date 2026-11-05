@@ -10360,7 +10360,7 @@
         "definition": {
           "type": "wss",
           "provider": "lbank",
-          "base": "MASK",
+          "base": "MASK2",
           "quote": "USDT"
         }
       },
