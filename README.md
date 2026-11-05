@@ -21,7 +21,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 
 ## Mainnet
 
-233 pairs, 1956 feeds.
+232 pairs, 1953 feeds.
 
 | pair | sources | fetchInterval | aggregateInterval | submitInterval |
 | --- | --- | ---: | ---: | ---: |
@@ -55,7 +55,6 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [BEAM-USDT](config/mainnet/BEAM-USDT.json) | bitget, bitmart, bybit, gateio, orangex | 2000 | 400 | 60000 |
 | [BERA-USDT](config/mainnet/BERA-USDT.json) | binance, bingx, bitget, bitmart, bybit, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [BGB-USDT](config/mainnet/BGB-USDT.json) | bitget, lbank, mexc | 2000 | 400 | 60000 |
-| [BLAST-KRW](config/mainnet/BLAST-KRW.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
 | [BLUR-KRW](config/mainnet/BLUR-KRW.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
 | [BNB-USDT](config/mainnet/BNB-USDT.json) | binance, bingx, bitget, bitmart, btse, bybit, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
 | [BONK-KRW](config/mainnet/BONK-KRW.json) | bithumb | 2000 | 400 | 60000 |
@@ -261,7 +260,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 
 ## Kairos
 
-233 pairs, 1956 feeds.
+232 pairs, 1953 feeds.
 
 | pair | sources | fetchInterval | aggregateInterval | submitInterval |
 | --- | --- | ---: | ---: | ---: |
@@ -295,7 +294,6 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [BEAM-USDT](config/kairos/BEAM-USDT.json) | bitget, bitmart, bybit, gateio, orangex | 2000 | 400 | 60000 |
 | [BERA-USDT](config/kairos/BERA-USDT.json) | binance, bingx, bitget, bitmart, bybit, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [BGB-USDT](config/kairos/BGB-USDT.json) | bitget, lbank, mexc | 2000 | 400 | 60000 |
-| [BLAST-KRW](config/kairos/BLAST-KRW.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
 | [BLUR-KRW](config/kairos/BLUR-KRW.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
 | [BNB-USDT](config/kairos/BNB-USDT.json) | binance, bingx, bitget, bitmart, btse, bybit, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
 | [BONK-KRW](config/kairos/BONK-KRW.json) | bithumb | 2000 | 400 | 60000 |
