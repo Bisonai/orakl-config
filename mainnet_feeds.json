@@ -8384,7 +8384,7 @@
       {
         "name": "Yahoo-JPY-USD",
         "definition": {
-          "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=JPYUSD%3DX",
+          "url": "https://query2.finance.yahoo.com/v8/finance/chart/JPY=X",
           "location": "kr",
           "headers": {
             "Content-Type": "application/json",
@@ -8395,18 +8395,8 @@
             {
               "function": "PARSE",
               "args": [
-                "spark",
+                "chart",
                 "result"
-              ]
-            },
-            {
-              "function": "INDEX",
-              "args": 0
-            },
-            {
-              "function": "PARSE",
-              "args": [
-                "response"
               ]
             },
             {
@@ -8418,25 +8408,6 @@
               "args": [
                 "meta",
                 "regularMarketPrice"
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "name": "naver-JPY-USD",
-        "definition": {
-          "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDJPY",
-          "headers": {
-            "Content-Type": "application/json"
-          },
-          "method": "GET",
-          "reducers": [
-            {
-              "function": "PARSE",
-              "args": [
-                "result",
-                "closePrice"
               ]
             },
             {
