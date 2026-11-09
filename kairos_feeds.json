@@ -8334,7 +8334,7 @@
       {
         "name": "Yahoo-JPY-USD",
         "definition": {
-          "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=JPYUSD%3DX",
+          "url": "https://query2.finance.yahoo.com/v8/finance/chart/JPY=X",
           "location": "kr",
           "headers": {
             "Content-Type": "application/json",
@@ -8344,15 +8344,7 @@
           "reducers": [
             {
               "function": "PARSE",
-              "args": ["spark", "result"]
-            },
-            {
-              "function": "INDEX",
-              "args": 0
-            },
-            {
-              "function": "PARSE",
-              "args": ["response"]
+              "args": ["chart", "result"]
             },
             {
               "function": "INDEX",
@@ -8361,6 +8353,10 @@
             {
               "function": "PARSE",
               "args": ["meta", "regularMarketPrice"]
+            },
+            {
+              "function": "DIVFROM",
+              "args": 1
             }
           ]
         }
