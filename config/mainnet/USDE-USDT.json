@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "bitmart-wss-USDE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "USDE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "binance-wss-USDE-USDT",
       "definition": {
         "type": "wss",

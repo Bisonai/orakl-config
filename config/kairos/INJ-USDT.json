@@ -114,15 +114,6 @@
       }
     },
     {
-      "name": "bitmart-wss-INJ-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "INJ",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-INJ-USDT",
       "definition": {
         "type": "wss",

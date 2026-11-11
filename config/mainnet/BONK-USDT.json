@@ -114,15 +114,6 @@
       }
     },
     {
-      "name": "bitmart-wss-BONK-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "BONK",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-BONK-USDT",
       "definition": {
         "type": "wss",

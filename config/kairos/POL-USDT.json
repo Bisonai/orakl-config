@@ -114,15 +114,6 @@
       }
     },
     {
-      "name": "bitmart-wss-POL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "POL",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-POL-USDT",
       "definition": {
         "type": "wss",

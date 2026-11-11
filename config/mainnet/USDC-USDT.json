@@ -115,15 +115,6 @@
       }
     },
     {
-      "name": "bitmart-wss-USDC-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "USDC",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-USDC-USDT",
       "definition": {
         "type": "wss",

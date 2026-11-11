@@ -96,15 +96,6 @@
       }
     },
     {
-      "name": "bitmart-wss-MOVE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "MOVE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "orangex-wss-MOVE-USDT",
       "definition": {
         "type": "wss",

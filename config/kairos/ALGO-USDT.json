@@ -123,15 +123,6 @@
       }
     },
     {
-      "name": "bitmart-wss-ALGO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "ALGO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-ALGO-USDT",
       "definition": {
         "type": "wss",

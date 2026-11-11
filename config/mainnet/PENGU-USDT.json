@@ -123,15 +123,6 @@
       }
     },
     {
-      "name": "bitmart-wss-PENGU-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "PENGU",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-PENGU-USDT",
       "definition": {
         "type": "wss",

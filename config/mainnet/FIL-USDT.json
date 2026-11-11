@@ -114,15 +114,6 @@
       }
     },
     {
-      "name": "bitmart-wss-FIL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "FIL",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-FIL-USDT",
       "definition": {
         "type": "wss",

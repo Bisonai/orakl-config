@@ -114,15 +114,6 @@
       }
     },
     {
-      "name": "bitmart-wss-SUI-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "SUI",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-SUI-USDT",
       "definition": {
         "type": "wss",

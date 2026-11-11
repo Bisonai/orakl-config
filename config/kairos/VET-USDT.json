@@ -87,15 +87,6 @@
       }
     },
     {
-      "name": "bitmart-wss-VET-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "VET",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-VET-USDT",
       "definition": {
         "type": "wss",

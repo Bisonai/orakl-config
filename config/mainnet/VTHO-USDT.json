@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "bitmart-wss-VTHO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "VTHO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bybit-wss-VTHO-USDT",
       "definition": {
         "type": "wss",

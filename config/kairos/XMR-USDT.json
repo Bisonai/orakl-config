@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "bitmart-wss-XMR-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "XMR",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-XMR-USDT",
       "definition": {
         "type": "wss",

@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "bitmart-wss-DEEP-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "DEEP",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-DEEP-USDT",
       "definition": {
         "type": "wss",

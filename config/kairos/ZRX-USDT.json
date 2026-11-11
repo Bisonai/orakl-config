@@ -96,15 +96,6 @@
       }
     },
     {
-      "name": "bitmart-wss-ZRX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "ZRX",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "orangex-wss-ZRX-USDT",
       "definition": {
         "type": "wss",

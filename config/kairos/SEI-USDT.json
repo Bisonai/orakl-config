@@ -96,15 +96,6 @@
       }
     },
     {
-      "name": "bitmart-wss-SEI-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "SEI",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-SEI-USDT",
       "definition": {
         "type": "wss",

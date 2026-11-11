@@ -114,15 +114,6 @@
       }
     },
     {
-      "name": "bitmart-wss-SNX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "SNX",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-SNX-USDT",
       "definition": {
         "type": "wss",

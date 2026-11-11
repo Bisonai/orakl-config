@@ -49,15 +49,6 @@
         "base": "GNO",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "bitmart-wss-GNO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "GNO",
-        "quote": "USDT"
-      }
     }
   ]
 }

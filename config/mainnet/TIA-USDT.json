@@ -114,15 +114,6 @@
       }
     },
     {
-      "name": "bitmart-wss-TIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "TIA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-TIA-USDT",
       "definition": {
         "type": "wss",

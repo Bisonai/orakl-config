@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "bitmart-wss-DASH-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "DASH",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-DASH-USDT",
       "definition": {
         "type": "wss",

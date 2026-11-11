@@ -49,15 +49,6 @@
         "base": "TUSD",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "bitmart-wss-TUSD-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "TUSD",
-        "quote": "USDT"
-      }
     }
   ]
 }

@@ -105,15 +105,6 @@
       }
     },
     {
-      "name": "bitmart-wss-BAT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "BAT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-BAT-USDT",
       "definition": {
         "type": "wss",

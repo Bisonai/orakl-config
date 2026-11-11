@@ -40,15 +40,6 @@
         "base": "ZKJ",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "bitmart-wss-ZKJ-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "ZKJ",
-        "quote": "USDT"
-      }
     }
   ]
 }

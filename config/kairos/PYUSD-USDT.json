@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "bitmart-wss-PYUSD-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "PYUSD",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "btse-wss-PYUSD-USDT",
       "definition": {
         "type": "wss",

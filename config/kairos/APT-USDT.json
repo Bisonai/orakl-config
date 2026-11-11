@@ -114,15 +114,6 @@
       }
     },
     {
-      "name": "bitmart-wss-APT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "APT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-APT-USDT",
       "definition": {
         "type": "wss",

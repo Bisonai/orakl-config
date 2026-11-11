@@ -141,15 +141,6 @@
       }
     },
     {
-      "name": "bitmart-wss-XRP-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "XRP",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-XRP-USDT",
       "definition": {
         "type": "wss",

@@ -114,15 +114,6 @@
       }
     },
     {
-      "name": "bitmart-wss-CRV-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "CRV",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-CRV-USDT",
       "definition": {
         "type": "wss",

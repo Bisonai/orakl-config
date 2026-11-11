@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "bitmart-wss-JST-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "JST",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "lbank-wss-JST-USDT",
       "definition": {
         "type": "wss",

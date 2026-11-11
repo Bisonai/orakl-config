@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "bitmart-wss-RUNE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "RUNE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-RUNE-USDT",
       "definition": {
         "type": "wss",

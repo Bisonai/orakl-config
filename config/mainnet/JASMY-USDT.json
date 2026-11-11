@@ -96,15 +96,6 @@
       }
     },
     {
-      "name": "bitmart-wss-JASMY-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "JASMY",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-JASMY-USDT",
       "definition": {
         "type": "wss",

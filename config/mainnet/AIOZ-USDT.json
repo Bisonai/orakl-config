@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "bitmart-wss-AIOZ-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "AIOZ",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-AIOZ-USDT",
       "definition": {
         "type": "wss",

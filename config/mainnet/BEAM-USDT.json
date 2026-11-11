@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "bitmart-wss-BEAM-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "BEAM",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "orangex-wss-BEAM-USDT",
       "definition": {
         "type": "wss",

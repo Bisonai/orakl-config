@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "bitmart-wss-SAFE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "SAFE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "orangex-wss-SAFE-USDT",
       "definition": {
         "type": "wss",

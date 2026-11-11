@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "bitmart-wss-XAUT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "XAUT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-XAUT-USDT",
       "definition": {
         "type": "wss",

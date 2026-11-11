@@ -161,15 +161,6 @@
       }
     },
     {
-      "name": "bitmart-wss-ETH-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "ETH",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-ETH-USDT",
       "definition": {
         "type": "wss",

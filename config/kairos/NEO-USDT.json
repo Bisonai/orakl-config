@@ -96,15 +96,6 @@
       }
     },
     {
-      "name": "bitmart-wss-NEO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "NEO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-NEO-USDT",
       "definition": {
         "type": "wss",

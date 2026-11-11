@@ -40,15 +40,6 @@
         "base": "TFUEL",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "bitmart-wss-TFUEL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "TFUEL",
-        "quote": "USDT"
-      }
     }
   ]
 }

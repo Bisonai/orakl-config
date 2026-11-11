@@ -85,15 +85,6 @@
         "base": "CVX",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "bitmart-wss-CVX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "CVX",
-        "quote": "USDT"
-      }
     }
   ]
 }

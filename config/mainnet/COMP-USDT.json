@@ -114,15 +114,6 @@
       }
     },
     {
-      "name": "bitmart-wss-COMP-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "COMP",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-COMP-USDT",
       "definition": {
         "type": "wss",

@@ -133,15 +133,6 @@
       }
     },
     {
-      "name": "bitmart-wss-SHIB-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "SHIB",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-SHIB-USDT",
       "definition": {
         "type": "wss",

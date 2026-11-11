@@ -105,15 +105,6 @@
       }
     },
     {
-      "name": "bitmart-wss-JTO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "JTO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-JTO-USDT",
       "definition": {
         "type": "wss",

@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "bitmart-wss-OSMO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "OSMO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "orangex-wss-OSMO-USDT",
       "definition": {
         "type": "wss",

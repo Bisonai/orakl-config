@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "bitmart-wss-MORPHO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "MORPHO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-MORPHO-USDT",
       "definition": {
         "type": "wss",

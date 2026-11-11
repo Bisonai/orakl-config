@@ -105,15 +105,6 @@
       }
     },
     {
-      "name": "bitmart-wss-RENDER-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "RENDER",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-RENDER-USDT",
       "definition": {
         "type": "wss",

@@ -96,15 +96,6 @@
       }
     },
     {
-      "name": "bitmart-wss-QNT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "QNT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-QNT-USDT",
       "definition": {
         "type": "wss",

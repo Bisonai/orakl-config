@@ -105,15 +105,6 @@
       }
     },
     {
-      "name": "bitmart-wss-RSR-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "RSR",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-RSR-USDT",
       "definition": {
         "type": "wss",

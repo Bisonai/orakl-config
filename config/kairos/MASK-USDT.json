@@ -114,15 +114,6 @@
       }
     },
     {
-      "name": "bitmart-wss-MASK-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "MASK",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "orangex-wss-MASK-USDT",
       "definition": {
         "type": "wss",

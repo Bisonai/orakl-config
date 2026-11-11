@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "bitmart-wss-KAS-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "KAS",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-KAS-USDT",
       "definition": {
         "type": "wss",

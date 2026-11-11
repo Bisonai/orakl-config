@@ -124,15 +124,6 @@
       }
     },
     {
-      "name": "bitmart-wss-UNI-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "UNI",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-UNI-USDT",
       "definition": {
         "type": "wss",

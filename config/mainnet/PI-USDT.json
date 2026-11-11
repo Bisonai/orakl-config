@@ -58,15 +58,6 @@
         "base": "PI",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "bitmart-wss-PI-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "PI",
-        "quote": "USDT"
-      }
     }
   ]
 }

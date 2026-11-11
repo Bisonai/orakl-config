@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "bitmart-wss-TWT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "TWT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-TWT-USDT",
       "definition": {
         "type": "wss",

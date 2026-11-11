@@ -96,15 +96,6 @@
       }
     },
     {
-      "name": "bitmart-wss-LPT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "LPT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-LPT-USDT",
       "definition": {
         "type": "wss",

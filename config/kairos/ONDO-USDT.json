@@ -96,15 +96,6 @@
       }
     },
     {
-      "name": "bitmart-wss-ONDO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "ONDO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-ONDO-USDT",
       "definition": {
         "type": "wss",

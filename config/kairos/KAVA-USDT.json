@@ -96,15 +96,6 @@
       }
     },
     {
-      "name": "bitmart-wss-KAVA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "KAVA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-KAVA-USDT",
       "definition": {
         "type": "wss",

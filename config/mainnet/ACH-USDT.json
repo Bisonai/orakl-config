@@ -103,15 +103,6 @@
         "base": "ACH",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "bitmart-wss-ACH-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "ACH",
-        "quote": "USDT"
-      }
     }
   ]
 }
