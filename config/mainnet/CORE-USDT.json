@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "bitmart-wss-CORE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "CORE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-CORE-USDT",
       "definition": {
         "type": "wss",

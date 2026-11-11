@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "bitmart-wss-AXL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "AXL",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-AXL-USDT",
       "definition": {
         "type": "wss",

@@ -87,15 +87,6 @@
       }
     },
     {
-      "name": "bitmart-wss-KAIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "KAIA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-KAIA-USDT",
       "definition": {
         "type": "wss",

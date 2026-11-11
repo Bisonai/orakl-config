@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "bitmart-wss-HNT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "HNT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-HNT-USDT",
       "definition": {
         "type": "wss",

@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "bitmart-wss-TAO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "TAO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-TAO-USDT",
       "definition": {
         "type": "wss",

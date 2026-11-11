@@ -114,15 +114,6 @@
       }
     },
     {
-      "name": "bitmart-wss-1INCH-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "1INCH",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-1INCH-USDT",
       "definition": {
         "type": "wss",

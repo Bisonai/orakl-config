@@ -123,15 +123,6 @@
       }
     },
     {
-      "name": "bitmart-wss-XTZ-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "XTZ",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-XTZ-USDT",
       "definition": {
         "type": "wss",

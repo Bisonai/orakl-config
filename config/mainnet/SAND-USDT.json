@@ -105,15 +105,6 @@
       }
     },
     {
-      "name": "bitmart-wss-SAND-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "SAND",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-SAND-USDT",
       "definition": {
         "type": "wss",

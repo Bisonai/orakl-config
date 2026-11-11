@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "bitmart-wss-MELANIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "MELANIA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-MELANIA-USDT",
       "definition": {
         "type": "wss",

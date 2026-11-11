@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "bitmart-wss-ROSE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "ROSE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-ROSE-USDT",
       "definition": {
         "type": "wss",

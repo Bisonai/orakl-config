@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "bitmart-wss-CELO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "CELO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-CELO-USDT",
       "definition": {
         "type": "wss",

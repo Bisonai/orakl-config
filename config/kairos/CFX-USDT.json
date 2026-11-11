@@ -87,15 +87,6 @@
       }
     },
     {
-      "name": "bitmart-wss-CFX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "CFX",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-CFX-USDT",
       "definition": {
         "type": "wss",

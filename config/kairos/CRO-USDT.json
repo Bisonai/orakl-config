@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "bitmart-wss-CRO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "CRO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-CRO-USDT",
       "definition": {
         "type": "wss",

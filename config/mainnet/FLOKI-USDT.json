@@ -114,15 +114,6 @@
       }
     },
     {
-      "name": "bitmart-wss-FLOKI-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "FLOKI",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-FLOKI-USDT",
       "definition": {
         "type": "wss",

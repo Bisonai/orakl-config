@@ -86,15 +86,6 @@
         "base": "BABYDOGE",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "bitmart-wss-BABYDOGE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "BABYDOGE",
-        "quote": "USDT"
-      }
     }
   ]
 }

@@ -132,15 +132,6 @@
       }
     },
     {
-      "name": "bitmart-wss-SOL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "SOL",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-SOL-USDT",
       "definition": {
         "type": "wss",

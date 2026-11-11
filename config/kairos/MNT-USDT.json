@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "bitmart-wss-MNT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "MNT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-MNT-USDT",
       "definition": {
         "type": "wss",

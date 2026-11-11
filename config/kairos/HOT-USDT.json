@@ -67,15 +67,6 @@
         "base": "HOT",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "bitmart-wss-HOT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "HOT",
-        "quote": "USDT"
-      }
     }
   ]
 }

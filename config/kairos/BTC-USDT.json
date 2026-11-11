@@ -142,15 +142,6 @@
       }
     },
     {
-      "name": "bitmart-wss-BTC-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "BTC",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-BTC-USDT",
       "definition": {
         "type": "wss",

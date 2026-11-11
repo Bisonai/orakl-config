@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "bitmart-wss-FTT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "FTT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "orangex-wss-FTT-USDT",
       "definition": {
         "type": "wss",

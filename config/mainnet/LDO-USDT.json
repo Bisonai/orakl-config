@@ -114,15 +114,6 @@
       }
     },
     {
-      "name": "bitmart-wss-LDO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "LDO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-LDO-USDT",
       "definition": {
         "type": "wss",

@@ -96,15 +96,6 @@
       }
     },
     {
-      "name": "bitmart-wss-TRUMP-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "TRUMP",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-TRUMP-USDT",
       "definition": {
         "type": "wss",

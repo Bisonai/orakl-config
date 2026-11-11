@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "bitmart-wss-NEXO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "NEXO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-NEXO-USDT",
       "definition": {
         "type": "wss",

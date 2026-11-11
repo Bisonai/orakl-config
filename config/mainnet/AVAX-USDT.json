@@ -132,15 +132,6 @@
       }
     },
     {
-      "name": "bitmart-wss-AVAX-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "AVAX",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-AVAX-USDT",
       "definition": {
         "type": "wss",

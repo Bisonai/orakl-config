@@ -114,15 +114,6 @@
       }
     },
     {
-      "name": "bitmart-wss-WIF-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "WIF",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-WIF-USDT",
       "definition": {
         "type": "wss",

@@ -114,15 +114,6 @@
       }
     },
     {
-      "name": "bitmart-wss-MANA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "MANA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-MANA-USDT",
       "definition": {
         "type": "wss",

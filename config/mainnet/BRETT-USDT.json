@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "bitmart-wss-BRETT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "BRETT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-BRETT-USDT",
       "definition": {
         "type": "wss",

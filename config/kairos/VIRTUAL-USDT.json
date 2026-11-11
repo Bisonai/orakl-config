@@ -96,15 +96,6 @@
       }
     },
     {
-      "name": "bitmart-wss-VIRTUAL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "VIRTUAL",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "orangex-wss-VIRTUAL-USDT",
       "definition": {
         "type": "wss",

@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "bitmart-wss-FLR-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "FLR",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-FLR-USDT",
       "definition": {
         "type": "wss",

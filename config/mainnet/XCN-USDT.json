@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "bitmart-wss-XCN-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "XCN",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "lbank-wss-XCN-USDT",
       "definition": {
         "type": "wss",

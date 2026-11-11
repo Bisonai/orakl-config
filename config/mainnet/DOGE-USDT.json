@@ -123,15 +123,6 @@
       }
     },
     {
-      "name": "bitmart-wss-DOGE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "DOGE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-DOGE-USDT",
       "definition": {
         "type": "wss",

@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "bitmart-wss-SUPER-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "SUPER",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-SUPER-USDT",
       "definition": {
         "type": "wss",

@@ -114,15 +114,6 @@
       }
     },
     {
-      "name": "bitmart-wss-KSM-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "KSM",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-KSM-USDT",
       "definition": {
         "type": "wss",

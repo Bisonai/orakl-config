@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "bitmart-wss-OKB-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "OKB",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-OKB-USDT",
       "definition": {
         "type": "wss",

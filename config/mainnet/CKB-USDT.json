@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "bitmart-wss-CKB-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "CKB",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-CKB-USDT",
       "definition": {
         "type": "wss",

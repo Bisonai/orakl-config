@@ -96,15 +96,6 @@
       }
     },
     {
-      "name": "bitmart-wss-CAKE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "CAKE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-CAKE-USDT",
       "definition": {
         "type": "wss",

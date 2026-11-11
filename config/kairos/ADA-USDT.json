@@ -132,15 +132,6 @@
       }
     },
     {
-      "name": "bitmart-wss-ADA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "ADA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-ADA-USDT",
       "definition": {
         "type": "wss",

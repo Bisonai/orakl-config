@@ -87,15 +87,6 @@
       }
     },
     {
-      "name": "bitmart-wss-RAY-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "RAY",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-RAY-USDT",
       "definition": {
         "type": "wss",

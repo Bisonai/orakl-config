@@ -114,15 +114,6 @@
         }
       },
       {
-        "name": "bitmart-wss-1INCH-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "1INCH",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-1INCH-USDT",
         "definition": {
           "type": "wss",
@@ -337,15 +328,6 @@
           "base": "ACH",
           "quote": "USDT"
         }
-      },
-      {
-        "name": "bitmart-wss-ACH-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "ACH",
-          "quote": "USDT"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -537,15 +519,6 @@
         }
       },
       {
-        "name": "bitmart-wss-ADA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "ADA",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-ADA-USDT",
         "definition": {
           "type": "wss",
@@ -712,15 +685,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "AIOZ",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-AIOZ-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "AIOZ",
           "quote": "USDT"
         }
@@ -906,15 +870,6 @@
         }
       },
       {
-        "name": "bitmart-wss-ALGO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "ALGO",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-ALGO-USDT",
         "definition": {
           "type": "wss",
@@ -1086,15 +1041,6 @@
         }
       },
       {
-        "name": "bitmart-wss-APT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "APT",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-APT-USDT",
         "definition": {
           "type": "wss",
@@ -1216,15 +1162,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "AR",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-AR-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "AR",
           "quote": "USDT"
         }
@@ -1581,15 +1518,6 @@
         }
       },
       {
-        "name": "bitmart-wss-ATOM-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "ATOM",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-ATOM-USDT",
         "definition": {
           "type": "wss",
@@ -1815,15 +1743,6 @@
         }
       },
       {
-        "name": "bitmart-wss-AVAX-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "AVAX",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-AVAX-USDT",
         "definition": {
           "type": "wss",
@@ -1936,15 +1855,6 @@
         "definition": {
           "type": "wss",
           "provider": "bitget",
-          "base": "AXL",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-AXL-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "AXL",
           "quote": "USDT"
         }
@@ -2093,15 +2003,6 @@
           "base": "BABYDOGE",
           "quote": "USDT"
         }
-      },
-      {
-        "name": "bitmart-wss-BABYDOGE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "BABYDOGE",
-          "quote": "USDT"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -2212,15 +2113,6 @@
         }
       },
       {
-        "name": "bitmart-wss-BAT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "BAT",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-BAT-USDT",
         "definition": {
           "type": "wss",
@@ -2306,15 +2198,6 @@
         "definition": {
           "type": "wss",
           "provider": "bitget",
-          "base": "BEAM",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-BEAM-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "BEAM",
           "quote": "USDT"
         }
@@ -2441,15 +2324,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "BERA",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-BERA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "BERA",
           "quote": "USDT"
         }
@@ -2662,15 +2536,6 @@
         }
       },
       {
-        "name": "bitmart-wss-BNB-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "BNB",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-BNB-USDT",
         "definition": {
           "type": "wss",
@@ -2833,15 +2698,6 @@
         }
       },
       {
-        "name": "bitmart-wss-BONK-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "BONK",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-BONK-USDT",
         "definition": {
           "type": "wss",
@@ -2963,15 +2819,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "BRETT",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-BRETT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "BRETT",
           "quote": "USDT"
         }
@@ -3239,15 +3086,6 @@
         }
       },
       {
-        "name": "bitmart-wss-BTC-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "BTC",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-BTC-USDT",
         "definition": {
           "type": "wss",
@@ -3410,15 +3248,6 @@
         }
       },
       {
-        "name": "bitmart-wss-CAKE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "CAKE",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-CAKE-USDT",
         "definition": {
           "type": "wss",
@@ -3518,15 +3347,6 @@
         }
       },
       {
-        "name": "bitmart-wss-CELO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "CELO",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-CELO-USDT",
         "definition": {
           "type": "wss",
@@ -3621,15 +3441,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "CFX",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-CFX-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "CFX",
           "quote": "USDT"
         }
@@ -3854,15 +3665,6 @@
         }
       },
       {
-        "name": "bitmart-wss-CKB-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "CKB",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-CKB-USDT",
         "definition": {
           "type": "wss",
@@ -3998,15 +3800,6 @@
         }
       },
       {
-        "name": "bitmart-wss-COMP-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "COMP",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-COMP-USDT",
         "definition": {
           "type": "wss",
@@ -4106,15 +3899,6 @@
         }
       },
       {
-        "name": "bitmart-wss-CORE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "CORE",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-CORE-USDT",
         "definition": {
           "type": "wss",
@@ -4200,15 +3984,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "CRO",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-CRO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "CRO",
           "quote": "USDT"
         }
@@ -4335,15 +4110,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "CRV",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-CRV-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "CRV",
           "quote": "USDT"
         }
@@ -4482,15 +4248,6 @@
           "base": "CVX",
           "quote": "USDT"
         }
-      },
-      {
-        "name": "bitmart-wss-CVX-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "CVX",
-          "quote": "USDT"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -4557,15 +4314,6 @@
         }
       },
       {
-        "name": "bitmart-wss-DASH-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "DASH",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-DASH-USDT",
         "definition": {
           "type": "wss",
@@ -4615,15 +4363,6 @@
         "definition": {
           "type": "wss",
           "provider": "mexc",
-          "base": "DEEP",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-DEEP-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "DEEP",
           "quote": "USDT"
         }
@@ -4917,15 +4656,6 @@
         }
       },
       {
-        "name": "bitmart-wss-DOGE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "DOGE",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-DOGE-USDT",
         "definition": {
           "type": "wss",
@@ -5124,15 +4854,6 @@
         }
       },
       {
-        "name": "bitmart-wss-DOT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "DOT",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-DOT-USDT",
         "definition": {
           "type": "wss",
@@ -5250,15 +4971,6 @@
         }
       },
       {
-        "name": "bitmart-wss-DYDX-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "DYDX",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-DYDX-USDT",
         "definition": {
           "type": "wss",
@@ -5362,15 +5074,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "EGLD",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-EGLD-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "EGLD",
           "quote": "USDT"
         }
@@ -5497,15 +5200,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "EIGEN",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-EIGEN-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "EIGEN",
           "quote": "USDT"
         }
@@ -5668,15 +5362,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "ENA",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-ENA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "ENA",
           "quote": "USDT"
         }
@@ -6008,15 +5693,6 @@
         }
       },
       {
-        "name": "bitmart-wss-ETH-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "ETH",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-ETH-USDT",
         "definition": {
           "type": "wss",
@@ -6222,15 +5898,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "FARTCOIN",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-FARTCOIN-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "FARTCOIN",
           "quote": "USDT"
         }
@@ -6452,15 +6119,6 @@
         }
       },
       {
-        "name": "bitmart-wss-FIL-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "FIL",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-FIL-USDT",
         "definition": {
           "type": "wss",
@@ -6596,15 +6254,6 @@
         }
       },
       {
-        "name": "bitmart-wss-FLOKI-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "FLOKI",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-FLOKI-USDT",
         "definition": {
           "type": "wss",
@@ -6713,15 +6362,6 @@
         }
       },
       {
-        "name": "bitmart-wss-FLR-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "FLR",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-FLR-USDT",
         "definition": {
           "type": "wss",
@@ -6810,15 +6450,6 @@
           "base": "FORM",
           "quote": "USDT"
         }
-      },
-      {
-        "name": "bitmart-wss-FORM-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "FORM",
-          "quote": "USDT"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -6897,15 +6528,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "FTT",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-FTT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "FTT",
           "quote": "USDT"
         }
@@ -7023,15 +6645,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "GALA",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-GALA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "GALA",
           "quote": "USDT"
         }
@@ -7272,15 +6885,6 @@
           "base": "GNO",
           "quote": "USDT"
         }
-      },
-      {
-        "name": "bitmart-wss-GNO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "GNO",
-          "quote": "USDT"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -7359,15 +6963,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "GRASS",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-GRASS-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "GRASS",
           "quote": "USDT"
         }
@@ -7598,15 +7193,6 @@
         }
       },
       {
-        "name": "bitmart-wss-HNT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "HNT",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-HNT-USDT",
         "definition": {
           "type": "wss",
@@ -7704,15 +7290,6 @@
           "base": "HOT",
           "quote": "USDT"
         }
-      },
-      {
-        "name": "bitmart-wss-HOT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "HOT",
-          "quote": "USDT"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -7782,15 +7359,6 @@
         "definition": {
           "type": "wss",
           "provider": "mexc",
-          "base": "HYPE",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-HYPE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "HYPE",
           "quote": "USDT"
         }
@@ -8103,15 +7671,6 @@
         }
       },
       {
-        "name": "bitmart-wss-INJ-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "INJ",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-INJ-USDT",
         "definition": {
           "type": "wss",
@@ -8206,15 +7765,6 @@
         "definition": {
           "type": "wss",
           "provider": "xt",
-          "base": "IOTA",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-IOTA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "IOTA",
           "quote": "USDT"
         }
@@ -8341,15 +7891,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "JASMY",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-JASMY-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "JASMY",
           "quote": "USDT"
         }
@@ -8513,15 +8054,6 @@
         }
       },
       {
-        "name": "bitmart-wss-JST-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "JST",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "lbank-wss-JST-USDT",
         "definition": {
           "type": "wss",
@@ -8643,15 +8175,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "JTO",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-JTO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "JTO",
           "quote": "USDT"
         }
@@ -8787,15 +8310,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "JUP",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-JUP-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "JUP",
           "quote": "USDT"
         }
@@ -8945,15 +8459,6 @@
         }
       },
       {
-        "name": "bitmart-wss-KAIA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "KAIA",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-KAIA-USDT",
         "definition": {
           "type": "wss",
@@ -9062,15 +8567,6 @@
         }
       },
       {
-        "name": "bitmart-wss-KAITO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "KAITO",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "orangex-wss-KAITO-USDT",
         "definition": {
           "type": "wss",
@@ -9156,15 +8652,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "KAS",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-KAS-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "KAS",
           "quote": "USDT"
         }
@@ -9291,15 +8778,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "KAVA",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-KAVA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "KAVA",
           "quote": "USDT"
         }
@@ -9593,15 +9071,6 @@
         }
       },
       {
-        "name": "bitmart-wss-KSM-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "KSM",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-KSM-USDT",
         "definition": {
           "type": "wss",
@@ -9723,15 +9192,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "LDO",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-LDO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "LDO",
           "quote": "USDT"
         }
@@ -9899,15 +9359,6 @@
         }
       },
       {
-        "name": "bitmart-wss-LPT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "LPT",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-LPT-USDT",
         "definition": {
           "type": "wss",
@@ -10043,15 +9494,6 @@
         }
       },
       {
-        "name": "bitmart-wss-LTC-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "LTC",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-LTC-USDT",
         "definition": {
           "type": "wss",
@@ -10164,15 +9606,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "LUNC",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-LUNC-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "LUNC",
           "quote": "USDT"
         }
@@ -10313,15 +9746,6 @@
         }
       },
       {
-        "name": "bitmart-wss-MANA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "MANA",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-MANA-USDT",
         "definition": {
           "type": "wss",
@@ -10452,15 +9876,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "MASK",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-MASK-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "MASK",
           "quote": "USDT"
         }
@@ -10646,15 +10061,6 @@
         }
       },
       {
-        "name": "bitmart-wss-MELANIA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "MELANIA",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-MELANIA-USDT",
         "definition": {
           "type": "wss",
@@ -10790,15 +10196,6 @@
         }
       },
       {
-        "name": "bitmart-wss-MINA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "MINA",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-MINA-USDT",
         "definition": {
           "type": "wss",
@@ -10916,15 +10313,6 @@
         }
       },
       {
-        "name": "bitmart-wss-MNT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "MNT",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-MNT-USDT",
         "definition": {
           "type": "wss",
@@ -11028,15 +10416,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "MORPHO",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-MORPHO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "MORPHO",
           "quote": "USDT"
         }
@@ -11172,15 +10551,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "MOVE",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-MOVE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "MOVE",
           "quote": "USDT"
         }
@@ -11455,15 +10825,6 @@
         }
       },
       {
-        "name": "bitmart-wss-NEO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "NEO",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-NEO-USDT",
         "definition": {
           "type": "wss",
@@ -11522,15 +10883,6 @@
         "definition": {
           "type": "wss",
           "provider": "mexc",
-          "base": "NEXO",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-NEXO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "NEXO",
           "quote": "USDT"
         }
@@ -11621,15 +10973,6 @@
         "definition": {
           "type": "wss",
           "provider": "okx",
-          "base": "NFT",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-NFT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "NFT",
           "quote": "USDT"
         }
@@ -11725,15 +11068,6 @@
         }
       },
       {
-        "name": "bitmart-wss-NOT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "NOT",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-NOT-USDT",
         "definition": {
           "type": "wss",
@@ -11792,15 +11126,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "OKB",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-OKB-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "OKB",
           "quote": "USDT"
         }
@@ -11968,15 +11293,6 @@
         }
       },
       {
-        "name": "bitmart-wss-ONDO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "ONDO",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-ONDO-USDT",
         "definition": {
           "type": "wss",
@@ -12103,15 +11419,6 @@
         }
       },
       {
-        "name": "bitmart-wss-OSMO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "OSMO",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "orangex-wss-OSMO-USDT",
         "definition": {
           "type": "wss",
@@ -12188,15 +11495,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "PAXG",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-PAXG-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "PAXG",
           "quote": "USDT"
         }
@@ -12332,15 +11630,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "PENDLE",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-PENDLE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "PENDLE",
           "quote": "USDT"
         }
@@ -12485,15 +11774,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "PENGU",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-PENGU-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "PENGU",
           "quote": "USDT"
         }
@@ -12680,15 +11960,6 @@
         }
       },
       {
-        "name": "bitmart-wss-PEPE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "PEPE",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-PEPE-USDT",
         "definition": {
           "type": "wss",
@@ -12785,15 +12056,6 @@
         "definition": {
           "type": "wss",
           "provider": "xt",
-          "base": "PI",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-PI-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "PI",
           "quote": "USDT"
         }
@@ -13096,15 +12358,6 @@
         }
       },
       {
-        "name": "bitmart-wss-POL-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "POL",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-POL-USDT",
         "definition": {
           "type": "wss",
@@ -13348,15 +12601,6 @@
         }
       },
       {
-        "name": "bitmart-wss-PYUSD-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "PYUSD",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "btse-wss-PYUSD-USDT",
         "definition": {
           "type": "wss",
@@ -13465,15 +12709,6 @@
         }
       },
       {
-        "name": "bitmart-wss-QNT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "QNT",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-QNT-USDT",
         "definition": {
           "type": "wss",
@@ -13573,15 +12808,6 @@
         }
       },
       {
-        "name": "bitmart-wss-QTUM-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "QTUM",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-QTUM-USDT",
         "definition": {
           "type": "wss",
@@ -13676,15 +12902,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "RAY",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-RAY-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "RAY",
           "quote": "USDT"
         }
@@ -13811,15 +13028,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "RENDER",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-RENDER-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "RENDER",
           "quote": "USDT"
         }
@@ -13960,15 +13168,6 @@
         }
       },
       {
-        "name": "bitmart-wss-ROSE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "ROSE",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-ROSE-USDT",
         "definition": {
           "type": "wss",
@@ -14086,15 +13285,6 @@
         }
       },
       {
-        "name": "bitmart-wss-RSR-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "RSR",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-RSR-USDT",
         "definition": {
           "type": "wss",
@@ -14189,15 +13379,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "RUNE",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-RUNE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "RUNE",
           "quote": "USDT"
         }
@@ -14320,15 +13501,6 @@
         }
       },
       {
-        "name": "bitmart-wss-S-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "S",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-S-USDT",
         "definition": {
           "type": "wss",
@@ -14423,15 +13595,6 @@
         "definition": {
           "type": "wss",
           "provider": "okx",
-          "base": "SAFE",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-SAFE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "SAFE",
           "quote": "USDT"
         }
@@ -14599,15 +13762,6 @@
         }
       },
       {
-        "name": "bitmart-wss-SAND-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "SAND",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-SAND-USDT",
         "definition": {
           "type": "wss",
@@ -14765,15 +13919,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "SEI",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-SEI-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "SEI",
           "quote": "USDT"
         }
@@ -15121,15 +14266,6 @@
         }
       },
       {
-        "name": "bitmart-wss-SHIB-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "SHIB",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-SHIB-USDT",
         "definition": {
           "type": "wss",
@@ -15400,15 +14536,6 @@
         }
       },
       {
-        "name": "bitmart-wss-SNX-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "SNX",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-SNX-USDT",
         "definition": {
           "type": "wss",
@@ -15607,15 +14734,6 @@
         }
       },
       {
-        "name": "bitmart-wss-SOL-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "SOL",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-SOL-USDT",
         "definition": {
           "type": "wss",
@@ -15791,15 +14909,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "SPX",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-SPX-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "SPX",
           "quote": "USDT"
         }
@@ -16057,15 +15166,6 @@
         }
       },
       {
-        "name": "bitmart-wss-SUI-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "SUI",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-SUI-USDT",
         "definition": {
           "type": "wss",
@@ -16151,15 +15251,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "SUPER",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-SUPER-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "SUPER",
           "quote": "USDT"
         }
@@ -16255,15 +15346,6 @@
         }
       },
       {
-        "name": "bitmart-wss-TAO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "TAO",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-TAO-USDT",
         "definition": {
           "type": "wss",
@@ -16313,15 +15395,6 @@
         "definition": {
           "type": "wss",
           "provider": "mexc",
-          "base": "TFUEL",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-TFUEL-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "TFUEL",
           "quote": "USDT"
         }
@@ -16412,15 +15485,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "THETA",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-THETA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "THETA",
           "quote": "USDT"
         }
@@ -16552,15 +15616,6 @@
         }
       },
       {
-        "name": "bitmart-wss-TIA-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "TIA",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-TIA-USDT",
         "definition": {
           "type": "wss",
@@ -16673,15 +15728,6 @@
         "definition": {
           "type": "wss",
           "provider": "kraken",
-          "base": "TRUMP",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-TRUMP-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "TRUMP",
           "quote": "USDT"
         }
@@ -16867,15 +15913,6 @@
         }
       },
       {
-        "name": "bitmart-wss-TRX-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "TRX",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-TRX-USDT",
         "definition": {
           "type": "wss",
@@ -16943,15 +15980,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "TUSD",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-TUSD-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "TUSD",
           "quote": "USDT"
         }
@@ -17033,15 +16061,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "TWT",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-TWT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "TWT",
           "quote": "USDT"
         }
@@ -17183,15 +16202,6 @@
         }
       },
       {
-        "name": "bitmart-wss-UNI-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "UNI",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-UNI-USDT",
         "definition": {
           "type": "wss",
@@ -17328,15 +16338,6 @@
         }
       },
       {
-        "name": "bitmart-wss-USDC-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "USDC",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-USDC-USDT",
         "definition": {
           "type": "wss",
@@ -17395,15 +16396,6 @@
         "definition": {
           "type": "wss",
           "provider": "bitget",
-          "base": "USDE",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-USDE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "USDE",
           "quote": "USDT"
         }
@@ -17643,15 +16635,6 @@
         }
       },
       {
-        "name": "bitmart-wss-VET-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "VET",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-VET-USDT",
         "definition": {
           "type": "wss",
@@ -17769,15 +16752,6 @@
         }
       },
       {
-        "name": "bitmart-wss-VIRTUAL-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "VIRTUAL",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "orangex-wss-VIRTUAL-USDT",
         "definition": {
           "type": "wss",
@@ -17872,15 +16846,6 @@
         "definition": {
           "type": "wss",
           "provider": "mexc",
-          "base": "VTHO",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-VTHO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "VTHO",
           "quote": "USDT"
         }
@@ -17998,15 +16963,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "W",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-W-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "W",
           "quote": "USDT"
         }
@@ -18135,15 +17091,6 @@
         "definition": {
           "type": "wss",
           "provider": "mexc",
-          "base": "WEMIX",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-WEMIX-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "WEMIX",
           "quote": "USDT"
         }
@@ -18279,15 +17226,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "WIF",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-WIF-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "WIF",
           "quote": "USDT"
         }
@@ -18464,15 +17402,6 @@
         }
       },
       {
-        "name": "bitmart-wss-WLD-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "WLD",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-WLD-USDT",
         "definition": {
           "type": "wss",
@@ -18558,15 +17487,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "XAUT",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-XAUT-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "XAUT",
           "quote": "USDT"
         }
@@ -18680,15 +17600,6 @@
         }
       },
       {
-        "name": "bitmart-wss-XCH-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "XCH",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-XCH-USDT",
         "definition": {
           "type": "wss",
@@ -18747,15 +17658,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "XCN",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-XCN-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "XCN",
           "quote": "USDT"
         }
@@ -18909,15 +17811,6 @@
         "definition": {
           "type": "wss",
           "provider": "kraken",
-          "base": "XMR",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-XMR-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "XMR",
           "quote": "USDT"
         }
@@ -19130,15 +18023,6 @@
         }
       },
       {
-        "name": "bitmart-wss-XRP-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "XRP",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-XRP-USDT",
         "definition": {
           "type": "wss",
@@ -19283,15 +18167,6 @@
         }
       },
       {
-        "name": "bitmart-wss-XTZ-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "XTZ",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-XTZ-USDT",
         "definition": {
           "type": "wss",
@@ -19431,15 +18306,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "ZIL",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-ZIL-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "ZIL",
           "quote": "USDT"
         }
@@ -19607,15 +18473,6 @@
         }
       },
       {
-        "name": "bitmart-wss-ZK-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "ZK",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-ZK-USDT",
         "definition": {
           "type": "wss",
@@ -19674,15 +18531,6 @@
         "definition": {
           "type": "wss",
           "provider": "okx",
-          "base": "ZKJ",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-ZKJ-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "ZKJ",
           "quote": "USDT"
         }
@@ -19861,15 +18709,6 @@
         }
       },
       {
-        "name": "bitmart-wss-ZRO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
-          "base": "ZRO",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "xt-wss-ZRO-USDT",
         "definition": {
           "type": "wss",
@@ -19982,15 +18821,6 @@
         "definition": {
           "type": "wss",
           "provider": "bingx",
-          "base": "ZRX",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "bitmart-wss-ZRX-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bitmart",
           "base": "ZRX",
           "quote": "USDT"
         }

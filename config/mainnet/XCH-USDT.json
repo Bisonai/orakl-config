@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "bitmart-wss-XCH-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "XCH",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-XCH-USDT",
       "definition": {
         "type": "wss",

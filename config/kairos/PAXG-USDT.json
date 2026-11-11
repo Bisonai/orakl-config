@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "bitmart-wss-PAXG-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "PAXG",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-PAXG-USDT",
       "definition": {
         "type": "wss",

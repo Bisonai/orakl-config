@@ -114,15 +114,6 @@
       }
     },
     {
-      "name": "bitmart-wss-ZRO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "ZRO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-ZRO-USDT",
       "definition": {
         "type": "wss",

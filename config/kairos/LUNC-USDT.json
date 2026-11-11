@@ -96,15 +96,6 @@
       }
     },
     {
-      "name": "bitmart-wss-LUNC-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "LUNC",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-LUNC-USDT",
       "definition": {
         "type": "wss",

@@ -87,15 +87,6 @@
       }
     },
     {
-      "name": "bitmart-wss-FARTCOIN-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "FARTCOIN",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "orangex-wss-FARTCOIN-USDT",
       "definition": {
         "type": "wss",

@@ -132,15 +132,6 @@
       }
     },
     {
-      "name": "bitmart-wss-ATOM-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "ATOM",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-ATOM-USDT",
       "definition": {
         "type": "wss",

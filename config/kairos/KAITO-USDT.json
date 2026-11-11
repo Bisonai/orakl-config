@@ -87,15 +87,6 @@
       }
     },
     {
-      "name": "bitmart-wss-KAITO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "KAITO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "orangex-wss-KAITO-USDT",
       "definition": {
         "type": "wss",

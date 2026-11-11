@@ -114,15 +114,6 @@
       }
     },
     {
-      "name": "bitmart-wss-ZK-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "ZK",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-ZK-USDT",
       "definition": {
         "type": "wss",

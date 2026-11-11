@@ -96,15 +96,6 @@
       }
     },
     {
-      "name": "bitmart-wss-ZIL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitmart",
-        "base": "ZIL",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "xt-wss-ZIL-USDT",
       "definition": {
         "type": "wss",
