@@ -23,7 +23,19 @@ filter_outs = {
     "bitget": ["joyusdt", "crousdt"],  # crousdt: halted, frozen (#253)
     "huobi": ["joyusdt"],
     "korbit": ["bonkkrw"],  # frozen ticker, vol 0 (#253)
-    "mexc": ["beamusdt"],  # old Beam, not beam-2/BEAMX (#253)
+    "mexc": [
+        "beamusdt",  # old Beam, not beam-2/BEAMX (#253)
+        "elizaosusdt", "tusdusdt", "zkjusdt",  # no data on any node (#269)
+    ],
+    # listed, but no data on any node (#269)
+    "gopax": ["akrw", "aptkrw", "ctckrw", "kaiakrw", "linkkrw", "sandkrw"],
+    "gateio": ["tusdusdt"],
+    "gemini": ["eurusd"],
+    "bitstamp": ["usdcusdt"],
+    "hashkey": ["grndusdt"],
+    # lbank mask_usdt is a different token; MASK-USDT uses base MASK2
+    # (mask2_usdt, #270). A --replace run drops that source; re-add it by hand.
+    "lbank": ["maskusdt"],
 }
 
 class FetchError(Exception):
