@@ -131,8 +131,6 @@ ROOT = Path(__file__).resolve().parent.parent
 BUNDLES = [
     ("config/kairos", "kairos_feeds.json"),
     ("config/mainnet", "mainnet_feeds.json"),
-    ("mag7/kairos", "kairos_mag7.json"),
-    ("mag7/mainnet", "mainnet_mag7.json"),
 ]
 
 def load_for_check(path: Path, label: str, errors: list):
@@ -234,8 +232,8 @@ def check_bundles():
     return 1 if failed else 0
 
 if __name__ == "__main__":
-    # Canonical bundles only: price feeds "<chain>_feeds.json" and mag7
-    # "<chain>_mag7.json" for chains mainnet (Kaia mainnet) and kairos (testnet).
+    # Canonical bundles only: price feeds "<chain>_feeds.json" for chains
+    # mainnet (Kaia mainnet) and kairos (testnet). mag7 (*_mag7.json) retired with POR.
     # The old cypress/baobab + *_configs.json aliases were retired in Phase 5.
     #
     # NOTE (#236): the committed *_feeds.json bundles are FROZEN to pre-existing
@@ -243,7 +241,7 @@ if __name__ == "__main__":
     # (indent 2->4 + key order), so running this WILL rewrite them — do not
     # commit that delta here. Use --check (CI, #260) to verify the bundles
     # semantically match their sources without writing anything.
-    parser = argparse.ArgumentParser(description="Collect config/ and mag7/ sources into served bundles.")
+    parser = argparse.ArgumentParser(description="Collect config/ sources into served bundles.")
     parser.add_argument("--check", action="store_true", help="exit 1 if a served bundle does not semantically match its source dir; writes nothing")
     args = parser.parse_args()
     if args.check:

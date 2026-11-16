@@ -28,17 +28,16 @@ Price-feed configuration for the Orakl Network oracle, per network (`mainnet` = 
 
 ## Served bundles
 
-| network | price feeds | mag7 feeds |
-| --- | --- | --- |
+| network | price feeds |
+| --- | --- |
 """ + ''.join(
-    '| {n} | [`{n}_feeds.json`]({u}/{n}_feeds.json) | [`{n}_mag7.json`]({u}/{n}_mag7.json) |\n'.format(n=n, u=BASE_URL)
+    '| {n} | [`{n}_feeds.json`]({u}/{n}_feeds.json) |\n'.format(n=n, u=BASE_URL)
     for n in NETWORKS
 ) + """
 ## Layout
 
 - `config/<network>/<PAIR>.json` — per-pair feed definitions (fetch / aggregate / submit intervals in ms, and the data-source feeds).
-- `mag7/<network>/<NAME>.json` — mag7 (US equity) feed definitions.
-- `<network>_feeds.json` / `<network>_mag7.json` — aggregated bundles served from the repo root.
+- `<network>_feeds.json` — aggregated bundles served from the repo root.
 
 See [`script/README.md`](script/README.md) for the scripts that generate the bundles and this file.
 """
