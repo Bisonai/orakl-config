@@ -6,16 +6,15 @@ Price-feed configuration for the Orakl Network oracle, per network (`mainnet` = 
 
 ## Served bundles
 
-| network | price feeds | mag7 feeds |
-| --- | --- | --- |
-| mainnet | [`mainnet_feeds.json`](https://config.orakl.network/mainnet_feeds.json) | [`mainnet_mag7.json`](https://config.orakl.network/mainnet_mag7.json) |
-| kairos | [`kairos_feeds.json`](https://config.orakl.network/kairos_feeds.json) | [`kairos_mag7.json`](https://config.orakl.network/kairos_mag7.json) |
+| network | price feeds |
+| --- | --- |
+| mainnet | [`mainnet_feeds.json`](https://config.orakl.network/mainnet_feeds.json) |
+| kairos | [`kairos_feeds.json`](https://config.orakl.network/kairos_feeds.json) |
 
 ## Layout
 
 - `config/<network>/<PAIR>.json` — per-pair feed definitions (fetch / aggregate / submit intervals in ms, and the data-source feeds).
-- `mag7/<network>/<NAME>.json` — mag7 (US equity) feed definitions.
-- `<network>_feeds.json` / `<network>_mag7.json` — aggregated bundles served from the repo root.
+- `<network>_feeds.json` — aggregated bundles served from the repo root.
 
 See [`script/README.md`](script/README.md) for the scripts that generate the bundles and this file.
 

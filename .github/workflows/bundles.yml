@@ -1,7 +1,7 @@
 name: Bundles
 
-# Served bundles (<chain>_feeds.json, <chain>_mag7.json) must semantically
-# match their config/ and mag7/ sources; nodes sync only the bundles (#260).
+# Served bundles (<chain>_feeds.json) must semantically match their config/
+# sources; nodes sync only the bundles (#260).
 
 on:
   pull_request:
