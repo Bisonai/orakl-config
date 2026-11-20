@@ -654,15 +654,6 @@
         }
       },
       {
-        "name": "huobi-wss-AIOZ-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "huobi",
-          "base": "AIOZ",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "bingx-wss-AIOZ-USDT",
         "definition": {
           "type": "wss",
@@ -703,15 +694,6 @@
         "definition": {
           "type": "wss",
           "provider": "upbit",
-          "base": "AKT",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "korbit-wss-AKT-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
           "base": "AKT",
           "quote": "KRW"
         }
@@ -2095,15 +2077,6 @@
         }
       },
       {
-        "name": "korbit-wss-BCH-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "BCH",
-          "quote": "KRW"
-        }
-      },
-      {
         "name": "bithumb-wss-BCH-KRW",
         "definition": {
           "type": "wss",
@@ -2338,28 +2311,10 @@
         }
       },
       {
-        "name": "korbit-wss-BLUR-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "BLUR",
-          "quote": "KRW"
-        }
-      },
-      {
         "name": "bithumb-wss-BLUR-KRW",
         "definition": {
           "type": "wss",
           "provider": "bithumb",
-          "base": "BLUR",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "coinone-wss-BLUR-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
           "base": "BLUR",
           "quote": "KRW"
         }
@@ -3008,51 +2963,6 @@
     "feedDataFreshness": 60000
   },
   {
-    "name": "BTT-KRW",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 60000,
-    "feeds": [
-      {
-        "name": "upbit-wss-BTT-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "BTT",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "korbit-wss-BTT-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "BTT",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "bithumb-wss-BTT-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "bithumb",
-          "base": "BTT",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "coinone-wss-BTT-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
-          "base": "BTT",
-          "quote": "KRW"
-        }
-      }
-    ],
-    "feedDataFreshness": 60000
-  },
-  {
     "name": "CAKE-USDT",
     "fetchInterval": 2000,
     "aggregateInterval": 400,
@@ -3521,15 +3431,6 @@
         "definition": {
           "type": "wss",
           "provider": "bitget",
-          "base": "CKB",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "huobi-wss-CKB-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "huobi",
           "base": "CKB",
           "quote": "USDT"
         }
@@ -4881,15 +4782,6 @@
         "definition": {
           "type": "wss",
           "provider": "lbank",
-          "base": "EGLD",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "huobi-wss-EGLD-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "huobi",
           "base": "EGLD",
           "quote": "USDT"
         }
@@ -7275,18 +7167,6 @@
           "token0Decimals": 2,
           "token1Decimals": 6
         }
-      },
-      {
-        "name": "PancakeSwap-Base-IDRX-USDC",
-        "definition": {
-          "chainId": "8453",
-          "address": "0x457C528A3d135EC387caB8848D7aFeDfAB49a82F",
-          "type": "PancakeswapPool",
-          "token0Decimals": 2,
-          "token1Decimals": 6,
-          "multiplyBy": "USDC-USDT",
-          "multiplyByReciprocal": false
-        }
       }
     ]
   },
@@ -7892,15 +7772,6 @@
         "definition": {
           "type": "wss",
           "provider": "bitget",
-          "base": "JTO",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "huobi-wss-JTO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "huobi",
           "base": "JTO",
           "quote": "USDT"
         }
@@ -9585,15 +9456,6 @@
         }
       },
       {
-        "name": "huobi-wss-MASK-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "huobi",
-          "base": "MASK",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "mexc-wss-MASK-USDT",
         "definition": {
           "type": "wss",
@@ -11116,15 +10978,6 @@
         "definition": {
           "type": "wss",
           "provider": "lbank",
-          "base": "OSMO",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "huobi-wss-OSMO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "huobi",
           "base": "OSMO",
           "quote": "USDT"
         }
@@ -13045,15 +12898,6 @@
         "definition": {
           "type": "wss",
           "provider": "gateio",
-          "base": "RUNE",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "huobi-wss-RUNE-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "huobi",
           "base": "RUNE",
           "quote": "USDT"
         }
@@ -16587,15 +16431,6 @@
           "base": "WAVES",
           "quote": "KRW"
         }
-      },
-      {
-        "name": "coinone-wss-WAVES-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
-          "base": "WAVES",
-          "quote": "KRW"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -17934,15 +17769,6 @@
         "definition": {
           "type": "wss",
           "provider": "bitget",
-          "base": "ZK",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "huobi-wss-ZK-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "huobi",
           "base": "ZK",
           "quote": "USDT"
         }

@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "huobi-wss-CKB-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "huobi",
-        "base": "CKB",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "mexc-wss-CKB-USDT",
       "definition": {
         "type": "wss",

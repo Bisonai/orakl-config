@@ -69,15 +69,6 @@
       }
     },
     {
-      "name": "huobi-wss-JTO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "huobi",
-        "base": "JTO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "mexc-wss-JTO-USDT",
       "definition": {
         "type": "wss",

@@ -22,8 +22,12 @@ filter_outs = {
     "bitmart": ["joyusdt"],
     "bitget": ["joyusdt", "crousdt",  # crousdt: halted, frozen (#253)
                "brettusdt", "wemixusdt"],  # dead/not listed (2026-11-20)
-    "huobi": ["joyusdt", "elizaosusdt", "safeusdt", "superusdt"],  # dead/not listed (2026-11-20)
-    "korbit": ["bonkkrw"],  # frozen ticker, vol 0 (#253)
+    "huobi": ["joyusdt", "elizaosusdt", "safeusdt", "superusdt",  # dead/not listed (2026-11-20)
+              # price off the median, thin books (2026-11-20)
+              "osmousdt", "aiozusdt", "zkusdt", "maskusdt", "ckbusdt", "jtousdt", "runeusdt", "egldusdt"],
+    "korbit": ["bonkkrw",  # frozen ticker, vol 0 (#253)
+               "blurkrw", "bchkrw", "aktkrw"],  # price off the median, ~0 vol (2026-11-20)
+    "coinone": ["waveskrw", "blurkrw"],  # price off the median, vol 0 (2026-11-20)
     "mexc": [
         "beamusdt",  # old Beam, not beam-2/BEAMX (#253)
         "elizaosusdt", "tusdusdt", "zkjusdt",  # no data on any node (#269)

@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "huobi-wss-AIOZ-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "huobi",
-        "base": "AIOZ",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bingx-wss-AIOZ-USDT",
       "definition": {
         "type": "wss",

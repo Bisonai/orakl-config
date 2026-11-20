@@ -22,15 +22,6 @@
         "base": "WAVES",
         "quote": "KRW"
       }
-    },
-    {
-      "name": "coinone-wss-WAVES-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "WAVES",
-        "quote": "KRW"
-      }
     }
   ]
 }

@@ -42,15 +42,6 @@
       }
     },
     {
-      "name": "huobi-wss-OSMO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "huobi",
-        "base": "OSMO",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "mexc-wss-OSMO-USDT",
       "definition": {
         "type": "wss",

@@ -15,28 +15,10 @@
       }
     },
     {
-      "name": "korbit-wss-BLUR-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "BLUR",
-        "quote": "KRW"
-      }
-    },
-    {
       "name": "bithumb-wss-BLUR-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
-        "base": "BLUR",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "coinone-wss-BLUR-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
         "base": "BLUR",
         "quote": "KRW"
       }

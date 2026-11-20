@@ -35,18 +35,6 @@
         "token0Decimals": 2,
         "token1Decimals": 6
       }
-    },
-    {
-      "name": "PancakeSwap-Base-IDRX-USDC",
-      "definition": {
-        "chainId": "8453",
-        "address": "0x457C528A3d135EC387caB8848D7aFeDfAB49a82F",
-        "type": "PancakeswapPool",
-        "token0Decimals": 2,
-        "token1Decimals": 6,
-        "multiplyBy": "USDC-USDT",
-        "multiplyByReciprocal": false
-      }
     }
   ]
 }
