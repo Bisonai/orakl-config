@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "huobi-wss-MASK-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "huobi",
-        "base": "MASK",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "mexc-wss-MASK-USDT",
       "definition": {
         "type": "wss",

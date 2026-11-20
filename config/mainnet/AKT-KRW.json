@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "korbit-wss-AKT-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "AKT",
-        "quote": "KRW"
-      }
-    },
-    {
       "name": "bithumb-wss-AKT-KRW",
       "definition": {
         "type": "wss",

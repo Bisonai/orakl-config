@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "huobi-wss-RUNE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "huobi",
-        "base": "RUNE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "mexc-wss-RUNE-USDT",
       "definition": {
         "type": "wss",

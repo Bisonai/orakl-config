@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "huobi-wss-ZK-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "huobi",
-        "base": "ZK",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "mexc-wss-ZK-USDT",
       "definition": {
         "type": "wss",

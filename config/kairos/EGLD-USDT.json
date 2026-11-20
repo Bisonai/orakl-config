@@ -60,15 +60,6 @@
       }
     },
     {
-      "name": "huobi-wss-EGLD-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "huobi",
-        "base": "EGLD",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "mexc-wss-EGLD-USDT",
       "definition": {
         "type": "wss",
