@@ -20,7 +20,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 
 ## Mainnet
 
-239 pairs, 1829 feeds.
+239 pairs, 1830 feeds.
 
 | pair | sources | fetchInterval | aggregateInterval | submitInterval |
 | --- | --- | ---: | ---: | ---: |
@@ -134,7 +134,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [JST-USDT](config/mainnet/JST-USDT.json) | binance, bitget, bybit, gateio, huobi, kucoin, lbank, mexc, orangex | 2000 | 400 | 60000 |
 | [JTO-USDT](config/mainnet/JTO-USDT.json) | binance, bingx, bitget, btse, bybit, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [JUP-USDT](config/mainnet/JUP-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [KAIA-KRW](config/mainnet/KAIA-KRW.json) | bithumb, coinone, korbit | 2000 | 400 | 60000 |
+| [KAIA-KRW](config/mainnet/KAIA-KRW.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
 | [KAIA-USDT](config/mainnet/KAIA-USDT.json) | binance, bingx, bitget, btse, bybit, gateio, kucoin, lbank, okx, orangex, xt | 2000 | 400 | 60000 |
 | [KAITO-USDT](config/mainnet/KAITO-USDT.json) | binance, bitget, btse, gateio, huobi, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
 | [KAS-USDT](config/mainnet/KAS-USDT.json) | bingx, bitget, btse, bybit, gateio, kraken, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
@@ -266,7 +266,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 
 ## Kairos
 
-239 pairs, 1829 feeds.
+239 pairs, 1830 feeds.
 
 | pair | sources | fetchInterval | aggregateInterval | submitInterval |
 | --- | --- | ---: | ---: | ---: |
@@ -380,7 +380,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [JST-USDT](config/kairos/JST-USDT.json) | binance, bitget, bybit, gateio, huobi, kucoin, lbank, mexc, orangex | 2000 | 400 | 60000 |
 | [JTO-USDT](config/kairos/JTO-USDT.json) | binance, bingx, bitget, btse, bybit, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [JUP-USDT](config/kairos/JUP-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [KAIA-KRW](config/kairos/KAIA-KRW.json) | bithumb, coinone, korbit | 2000 | 400 | 60000 |
+| [KAIA-KRW](config/kairos/KAIA-KRW.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
 | [KAIA-USDT](config/kairos/KAIA-USDT.json) | binance, bingx, bitget, btse, bybit, gateio, kucoin, lbank, okx, orangex, xt | 2000 | 400 | 60000 |
 | [KAITO-USDT](config/kairos/KAITO-USDT.json) | binance, bitget, btse, gateio, huobi, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
 | [KAS-USDT](config/kairos/KAS-USDT.json) | bingx, bitget, btse, bybit, gateio, kraken, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
