@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "kraken-wss-VIRTUAL-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "kraken",
-        "base": "VIRTUAL",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bingx-wss-VIRTUAL-USDT",
       "definition": {
         "type": "wss",

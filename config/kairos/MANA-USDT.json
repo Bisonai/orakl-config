@@ -96,15 +96,6 @@
       }
     },
     {
-      "name": "kraken-wss-MANA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "kraken",
-        "base": "MANA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bingx-wss-MANA-USDT",
       "definition": {
         "type": "wss",

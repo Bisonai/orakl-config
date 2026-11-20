@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "crypto-wss-AR-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "crypto",
-        "base": "AR",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "gateio-wss-AR-USDT",
       "definition": {
         "type": "wss",

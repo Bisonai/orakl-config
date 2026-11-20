@@ -6,28 +6,10 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "kucoin-wss-USDE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "kucoin",
-        "base": "USDE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bybit-wss-USDE-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
-        "base": "USDE",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "gateio-wss-USDE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "gateio",
         "base": "USDE",
         "quote": "USDT"
       }
@@ -55,15 +37,6 @@
       "definition": {
         "type": "wss",
         "provider": "btse",
-        "base": "USDE",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "kraken-wss-USDE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "kraken",
         "base": "USDE",
         "quote": "USDT"
       }

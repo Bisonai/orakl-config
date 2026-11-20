@@ -20,17 +20,26 @@ DEFAULT_SUBMIT_INTERVAL = 60000 # 1 minute
 
 filter_outs = {
     "bitmart": ["joyusdt"],
-    "bitget": ["joyusdt", "crousdt"],  # crousdt: halted, frozen (#253)
-    "huobi": ["joyusdt"],
+    "bitget": ["joyusdt", "crousdt",  # crousdt: halted, frozen (#253)
+               "brettusdt", "wemixusdt"],  # dead/not listed (2026-11-20)
+    "huobi": ["joyusdt", "elizaosusdt", "safeusdt", "superusdt"],  # dead/not listed (2026-11-20)
     "korbit": ["bonkkrw"],  # frozen ticker, vol 0 (#253)
     "mexc": [
         "beamusdt",  # old Beam, not beam-2/BEAMX (#253)
         "elizaosusdt", "tusdusdt", "zkjusdt",  # no data on any node (#269)
+        "dashusdt", "safeusdt", "xcnusdt",  # dead/not listed (2026-11-20)
     ],
-    "gateio": ["tusdusdt"],
-    "gemini": ["eurusd"],
-    "bitstamp": ["usdcusdt"],
+    "gateio": ["tusdusdt", "usdeusdt"],  # dead/not listed (2026-11-20)
+    "gemini": ["eurusd", "btcusdt", "ethusdt"],  # dead/not listed (2026-11-20)
+    "bitstamp": ["usdcusdt", "gbpusd"],  # dead/not listed (2026-11-20)
     "hashkey": ["grndusdt"],
+    # dead/not listed/delisted (2026-11-20)
+    "crypto": ["arusdt", "achusdt", "hotusdt"],
+    "xt": ["coreusdt", "roseusdt", "superusdt"],
+    "kucoin": ["tusdusdt", "usdeusdt"],
+    "kraken": ["algousdt", "berausdt", "bnbusdt", "manausdt", "melaniausdt",
+               "penguusdt", "shibusdt", "usdeusdt", "virtualusdt", "xtzusdt"],
+    "coinbase": ["atomusdt", "dogeusdt", "dotusdt", "qntusdt", "shibusdt", "xrpusdt"],
     # lbank mask_usdt is a different token; MASK-USDT uses base MASK2
     # (mask2_usdt, #270). A --replace run drops that source; re-add it by hand.
     "lbank": ["maskusdt"],
