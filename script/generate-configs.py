@@ -27,8 +27,6 @@ filter_outs = {
         "beamusdt",  # old Beam, not beam-2/BEAMX (#253)
         "elizaosusdt", "tusdusdt", "zkjusdt",  # no data on any node (#269)
     ],
-    # listed, but no data on any node (#269)
-    "gopax": ["akrw", "aptkrw", "ctckrw", "kaiakrw", "linkkrw", "sandkrw"],
     "gateio": ["tusdusdt"],
     "gemini": ["eurusd"],
     "bitstamp": ["usdcusdt"],
@@ -256,13 +254,6 @@ def get_xt_symbols(url):
         result.append(entry["symbol"].replace("_","").lower())
     return result
 
-def get_gopax_symbols(url):
-    result = []
-    json_data = load_json_from_url(url)
-    for entry in json_data:
-        result.append(entry["name"].replace("-","").lower())
-    return result
-
 def get_orangex_symbols(url):
     result = []
     json_data = load_json_from_url(url)
@@ -296,7 +287,6 @@ SYMBOL_LOADERS = {
     "bingx": get_bingx_symbols,
     "bitmart": get_bitmart_symbols,
     "xt": get_xt_symbols,
-    "gopax": get_gopax_symbols,
     "orangex": get_orangex_symbols,
     "hashkey": get_hashkey_symbols,
 }
