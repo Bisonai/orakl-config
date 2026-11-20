@@ -31,6 +31,15 @@
         "base": "KAIA",
         "quote": "KRW"
       }
+    },
+    {
+      "name": "upbit-wss-KAIA-KRW",
+      "definition": {
+        "type": "wss",
+        "provider": "upbit",
+        "base": "KAIA",
+        "quote": "KRW"
+      }
     }
   ]
 }
