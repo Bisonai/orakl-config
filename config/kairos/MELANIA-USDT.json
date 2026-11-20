@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "kraken-wss-MELANIA-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "kraken",
-        "base": "MELANIA",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bingx-wss-MELANIA-USDT",
       "definition": {
         "type": "wss",

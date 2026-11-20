@@ -51,28 +51,10 @@
       }
     },
     {
-      "name": "huobi-wss-SUPER-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "huobi",
-        "base": "SUPER",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bingx-wss-SUPER-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
-        "base": "SUPER",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "xt-wss-SUPER-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "xt",
         "base": "SUPER",
         "quote": "USDT"
       }

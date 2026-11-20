@@ -51,15 +51,6 @@
       }
     },
     {
-      "name": "bitget-wss-BRETT-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bitget",
-        "base": "BRETT",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "huobi-wss-BRETT-USDT",
       "definition": {
         "type": "wss",

@@ -61,15 +61,6 @@
       }
     },
     {
-      "name": "gemini-wss-BTC-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "gemini",
-        "base": "BTC",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "crypto-wss-BTC-USDT",
       "definition": {
         "type": "wss",

@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "mexc-wss-XCN-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "mexc",
-        "base": "XCN",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bingx-wss-XCN-USDT",
       "definition": {
         "type": "wss",

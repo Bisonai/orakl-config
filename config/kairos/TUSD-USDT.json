@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "kucoin-wss-TUSD-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "kucoin",
-        "base": "TUSD",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bitget-wss-TUSD-USDT",
       "definition": {
         "type": "wss",

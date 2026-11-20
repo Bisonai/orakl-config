@@ -16,15 +16,6 @@
       }
     },
     {
-      "name": "coinbase-wss-SHIB-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinbase",
-        "base": "SHIB",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "kucoin-wss-SHIB-USDT",
       "definition": {
         "type": "wss",
@@ -110,15 +101,6 @@
       "definition": {
         "type": "wss",
         "provider": "okx",
-        "base": "SHIB",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "kraken-wss-SHIB-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "kraken",
         "base": "SHIB",
         "quote": "USDT"
       }

@@ -88,15 +88,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "bitstamp-wss-GBP-USD",
-      "definition": {
-        "type": "wss",
-        "provider": "bitstamp",
-        "base": "GBP",
-        "quote": "USD"
-      }
     }
   ]
 }

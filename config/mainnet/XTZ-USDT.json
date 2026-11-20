@@ -105,15 +105,6 @@
       }
     },
     {
-      "name": "kraken-wss-XTZ-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "kraken",
-        "base": "XTZ",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "bingx-wss-XTZ-USDT",
       "definition": {
         "type": "wss",

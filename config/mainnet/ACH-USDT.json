@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "crypto-wss-ACH-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "crypto",
-        "base": "ACH",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "btse-wss-ACH-USDT",
       "definition": {
         "type": "wss",

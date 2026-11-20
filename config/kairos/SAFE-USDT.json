@@ -42,24 +42,6 @@
       }
     },
     {
-      "name": "huobi-wss-SAFE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "huobi",
-        "base": "SAFE",
-        "quote": "USDT"
-      }
-    },
-    {
-      "name": "mexc-wss-SAFE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "mexc",
-        "base": "SAFE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "okx-wss-SAFE-USDT",
       "definition": {
         "type": "wss",

@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "coinbase-wss-DOGE-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinbase",
-        "base": "DOGE",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "kucoin-wss-DOGE-USDT",
       "definition": {
         "type": "wss",

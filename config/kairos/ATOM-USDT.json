@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "coinbase-wss-ATOM-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "coinbase",
-        "base": "ATOM",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "kucoin-wss-ATOM-USDT",
       "definition": {
         "type": "wss",
