@@ -112,6 +112,24 @@
         "base": "XAUT",
         "quote": "USDT"
       }
+    },
+    {
+      "name": "binance-wss-XAUT-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "binance",
+        "base": "XAUT",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "crypto-wss-XAUT-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "crypto",
+        "base": "XAUT",
+        "quote": "USDT"
+      }
     }
   ]
 }

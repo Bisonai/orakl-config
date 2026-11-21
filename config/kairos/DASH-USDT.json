@@ -31,6 +31,24 @@
         "base": "DASH",
         "quote": "USDT"
       }
+    },
+    {
+      "name": "okx-wss-DASH-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "okx",
+        "base": "DASH",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "gateio-wss-DASH-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "gateio",
+        "base": "DASH",
+        "quote": "USDT"
+      }
     }
   ]
 }

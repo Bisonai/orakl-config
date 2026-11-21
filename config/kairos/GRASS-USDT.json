@@ -76,6 +76,24 @@
         "base": "GRASS",
         "quote": "USDT"
       }
+    },
+    {
+      "name": "okx-wss-GRASS-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "okx",
+        "base": "GRASS",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "xt-wss-GRASS-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "xt",
+        "base": "GRASS",
+        "quote": "USDT"
+      }
     }
   ]
 }
