@@ -76,6 +76,15 @@
         "base": "TAO",
         "quote": "USDT"
       }
+    },
+    {
+      "name": "okx-wss-TAO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "okx",
+        "base": "TAO",
+        "quote": "USDT"
+      }
     }
   ]
 }

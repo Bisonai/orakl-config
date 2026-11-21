@@ -607,6 +607,24 @@
           "base": "AERO",
           "quote": "USDT"
         }
+      },
+      {
+        "name": "binance-wss-AERO-USDT",
+        "definition": {
+          "type": "wss",
+          "provider": "binance",
+          "base": "AERO",
+          "quote": "USDT"
+        }
+      },
+      {
+        "name": "okx-wss-AERO-USDT",
+        "definition": {
+          "type": "wss",
+          "provider": "okx",
+          "base": "AERO",
+          "quote": "USDT"
+        }
       }
     ],
     "feedDataFreshness": 60000
@@ -3165,6 +3183,15 @@
           "base": "CELO",
           "quote": "USDT"
         }
+      },
+      {
+        "name": "mexc-wss-CELO-USDT",
+        "definition": {
+          "type": "wss",
+          "provider": "mexc",
+          "base": "CELO",
+          "quote": "USDT"
+        }
       }
     ],
     "feedDataFreshness": 60000
@@ -4105,6 +4132,24 @@
           "base": "DASH",
           "quote": "USDT"
         }
+      },
+      {
+        "name": "okx-wss-DASH-USDT",
+        "definition": {
+          "type": "wss",
+          "provider": "okx",
+          "base": "DASH",
+          "quote": "USDT"
+        }
+      },
+      {
+        "name": "gateio-wss-DASH-USDT",
+        "definition": {
+          "type": "wss",
+          "provider": "gateio",
+          "base": "DASH",
+          "quote": "USDT"
+        }
       }
     ],
     "feedDataFreshness": 60000
@@ -4255,6 +4300,15 @@
         "definition": {
           "type": "wss",
           "provider": "mexc",
+          "base": "DEXE",
+          "quote": "USDT"
+        }
+      },
+      {
+        "name": "xt-wss-DEXE-USDT",
+        "definition": {
+          "type": "wss",
+          "provider": "xt",
           "base": "DEXE",
           "quote": "USDT"
         }
@@ -6678,6 +6732,24 @@
           "base": "GRASS",
           "quote": "USDT"
         }
+      },
+      {
+        "name": "okx-wss-GRASS-USDT",
+        "definition": {
+          "type": "wss",
+          "provider": "okx",
+          "base": "GRASS",
+          "quote": "USDT"
+        }
+      },
+      {
+        "name": "xt-wss-GRASS-USDT",
+        "definition": {
+          "type": "wss",
+          "provider": "xt",
+          "base": "GRASS",
+          "quote": "USDT"
+        }
       }
     ],
     "feedDataFreshness": 60000
@@ -6801,6 +6873,15 @@
         "definition": {
           "type": "wss",
           "provider": "huobi",
+          "base": "GT",
+          "quote": "USDT"
+        }
+      },
+      {
+        "name": "xt-wss-GT-USDT",
+        "definition": {
+          "type": "wss",
+          "provider": "xt",
           "base": "GT",
           "quote": "USDT"
         }
@@ -7080,6 +7161,15 @@
         "definition": {
           "type": "wss",
           "provider": "okx",
+          "base": "HYPE",
+          "quote": "USDT"
+        }
+      },
+      {
+        "name": "binance-wss-HYPE-USDT",
+        "definition": {
+          "type": "wss",
+          "provider": "binance",
           "base": "HYPE",
           "quote": "USDT"
         }
@@ -8163,6 +8253,15 @@
         "definition": {
           "type": "wss",
           "provider": "orangex",
+          "base": "KAIA",
+          "quote": "USDT"
+        }
+      },
+      {
+        "name": "mexc-wss-KAIA-USDT",
+        "definition": {
+          "type": "wss",
+          "provider": "mexc",
           "base": "KAIA",
           "quote": "USDT"
         }
@@ -13541,6 +13640,15 @@
           "base": "SEI",
           "quote": "USDT"
         }
+      },
+      {
+        "name": "okx-wss-SEI-USDT",
+        "definition": {
+          "type": "wss",
+          "provider": "okx",
+          "base": "SEI",
+          "quote": "USDT"
+        }
       }
     ],
     "feedDataFreshness": 60000
@@ -14414,6 +14522,15 @@
           "base": "SONIC",
           "quote": "USDT"
         }
+      },
+      {
+        "name": "kucoin-wss-SONIC-USDT",
+        "definition": {
+          "type": "wss",
+          "provider": "kucoin",
+          "base": "SONIC",
+          "quote": "USDT"
+        }
       }
     ],
     "feedDataFreshness": 60000
@@ -14906,6 +15023,15 @@
         "definition": {
           "type": "wss",
           "provider": "xt",
+          "base": "TAO",
+          "quote": "USDT"
+        }
+      },
+      {
+        "name": "okx-wss-TAO-USDT",
+        "definition": {
+          "type": "wss",
+          "provider": "okx",
           "base": "TAO",
           "quote": "USDT"
         }
@@ -15937,6 +16063,15 @@
           "base": "USDE",
           "quote": "USDT"
         }
+      },
+      {
+        "name": "xt-wss-USDE-USDT",
+        "definition": {
+          "type": "wss",
+          "provider": "xt",
+          "base": "USDE",
+          "quote": "USDT"
+        }
       }
     ],
     "feedDataFreshness": 60000
@@ -16042,6 +16177,33 @@
         "definition": {
           "type": "wss",
           "provider": "okx",
+          "base": "USDT",
+          "quote": "USD"
+        }
+      },
+      {
+        "name": "binance-wss-USDT-USD",
+        "definition": {
+          "type": "wss",
+          "provider": "binance",
+          "base": "USDT",
+          "quote": "USD"
+        }
+      },
+      {
+        "name": "bitget-wss-USDT-USD",
+        "definition": {
+          "type": "wss",
+          "provider": "bitget",
+          "base": "USDT",
+          "quote": "USD"
+        }
+      },
+      {
+        "name": "bybit-wss-USDT-USD",
+        "definition": {
+          "type": "wss",
+          "provider": "bybit",
           "base": "USDT",
           "quote": "USD"
         }
@@ -17010,6 +17172,24 @@
           "base": "XAUT",
           "quote": "USDT"
         }
+      },
+      {
+        "name": "binance-wss-XAUT-USDT",
+        "definition": {
+          "type": "wss",
+          "provider": "binance",
+          "base": "XAUT",
+          "quote": "USDT"
+        }
+      },
+      {
+        "name": "crypto-wss-XAUT-USDT",
+        "definition": {
+          "type": "wss",
+          "provider": "crypto",
+          "base": "XAUT",
+          "quote": "USDT"
+        }
       }
     ],
     "feedDataFreshness": 60000
@@ -17133,6 +17313,15 @@
         "definition": {
           "type": "wss",
           "provider": "lbank",
+          "base": "XCN",
+          "quote": "USDT"
+        }
+      },
+      {
+        "name": "xt-wss-XCN-USDT",
+        "definition": {
+          "type": "wss",
+          "provider": "xt",
           "base": "XCN",
           "quote": "USDT"
         }

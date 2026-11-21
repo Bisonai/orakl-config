@@ -31,6 +31,15 @@
         "base": "GT",
         "quote": "USDT"
       }
+    },
+    {
+      "name": "xt-wss-GT-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "xt",
+        "base": "GT",
+        "quote": "USDT"
+      }
     }
   ]
 }

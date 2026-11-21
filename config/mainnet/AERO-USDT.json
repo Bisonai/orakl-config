@@ -85,6 +85,24 @@
         "base": "AERO",
         "quote": "USDT"
       }
+    },
+    {
+      "name": "binance-wss-AERO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "binance",
+        "base": "AERO",
+        "quote": "USDT"
+      }
+    },
+    {
+      "name": "okx-wss-AERO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "okx",
+        "base": "AERO",
+        "quote": "USDT"
+      }
     }
   ]
 }

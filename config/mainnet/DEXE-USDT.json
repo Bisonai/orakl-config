@@ -58,6 +58,15 @@
         "base": "DEXE",
         "quote": "USDT"
       }
+    },
+    {
+      "name": "xt-wss-DEXE-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "xt",
+        "base": "DEXE",
+        "quote": "USDT"
+      }
     }
   ]
 }

@@ -85,6 +85,15 @@
         "base": "CELO",
         "quote": "USDT"
       }
+    },
+    {
+      "name": "mexc-wss-CELO-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "mexc",
+        "base": "CELO",
+        "quote": "USDT"
+      }
     }
   ]
 }
