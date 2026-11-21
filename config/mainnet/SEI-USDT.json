@@ -112,6 +112,15 @@
         "base": "SEI",
         "quote": "USDT"
       }
+    },
+    {
+      "name": "okx-wss-SEI-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "okx",
+        "base": "SEI",
+        "quote": "USDT"
+      }
     }
   ]
 }

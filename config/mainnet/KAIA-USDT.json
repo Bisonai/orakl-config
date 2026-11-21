@@ -103,6 +103,15 @@
         "base": "KAIA",
         "quote": "USDT"
       }
+    },
+    {
+      "name": "mexc-wss-KAIA-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "mexc",
+        "base": "KAIA",
+        "quote": "USDT"
+      }
     }
   ]
 }

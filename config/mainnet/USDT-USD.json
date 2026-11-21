@@ -58,6 +58,33 @@
         "base": "USDT",
         "quote": "USD"
       }
+    },
+    {
+      "name": "binance-wss-USDT-USD",
+      "definition": {
+        "type": "wss",
+        "provider": "binance",
+        "base": "USDT",
+        "quote": "USD"
+      }
+    },
+    {
+      "name": "bitget-wss-USDT-USD",
+      "definition": {
+        "type": "wss",
+        "provider": "bitget",
+        "base": "USDT",
+        "quote": "USD"
+      }
+    },
+    {
+      "name": "bybit-wss-USDT-USD",
+      "definition": {
+        "type": "wss",
+        "provider": "bybit",
+        "base": "USDT",
+        "quote": "USD"
+      }
     }
   ]
 }

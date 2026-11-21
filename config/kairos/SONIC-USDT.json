@@ -85,6 +85,15 @@
         "base": "SONIC",
         "quote": "USDT"
       }
+    },
+    {
+      "name": "kucoin-wss-SONIC-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "kucoin",
+        "base": "SONIC",
+        "quote": "USDT"
+      }
     }
   ]
 }

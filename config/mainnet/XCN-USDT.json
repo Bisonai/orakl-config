@@ -49,6 +49,15 @@
         "base": "XCN",
         "quote": "USDT"
       }
+    },
+    {
+      "name": "xt-wss-XCN-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "xt",
+        "base": "XCN",
+        "quote": "USDT"
+      }
     }
   ]
 }

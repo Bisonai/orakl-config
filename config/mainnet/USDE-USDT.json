@@ -40,6 +40,15 @@
         "base": "USDE",
         "quote": "USDT"
       }
+    },
+    {
+      "name": "xt-wss-USDE-USDT",
+      "definition": {
+        "type": "wss",
+        "provider": "xt",
+        "base": "USDE",
+        "quote": "USDT"
+      }
     }
   ]
 }
