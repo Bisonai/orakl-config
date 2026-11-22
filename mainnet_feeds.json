@@ -2215,33 +2215,6 @@
     "feedDataFreshness": 60000
   },
   {
-    "name": "BLUR-KRW",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 60000,
-    "feeds": [
-      {
-        "name": "upbit-wss-BLUR-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "upbit",
-          "base": "BLUR",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "bithumb-wss-BLUR-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "bithumb",
-          "base": "BLUR",
-          "quote": "KRW"
-        }
-      }
-    ],
-    "feedDataFreshness": 60000
-  },
-  {
     "name": "BNB-USDT",
     "fetchInterval": 2000,
     "aggregateInterval": 400,
@@ -5591,24 +5564,6 @@
     "feedDataFreshness": 60000
   },
   {
-    "name": "FET-KRW",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 60000,
-    "feeds": [
-      {
-        "name": "bithumb-wss-FET-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "bithumb",
-          "base": "FET",
-          "quote": "KRW"
-        }
-      }
-    ],
-    "feedDataFreshness": 60000
-  },
-  {
     "name": "FIL-USDT",
     "fetchInterval": 2000,
     "aggregateInterval": 400,
@@ -5864,24 +5819,6 @@
           "provider": "xt",
           "base": "FLOKI",
           "quote": "USDT"
-        }
-      }
-    ],
-    "feedDataFreshness": 60000
-  },
-  {
-    "name": "FLOW-KRW",
-    "fetchInterval": 2000,
-    "aggregateInterval": 400,
-    "submitInterval": 60000,
-    "feeds": [
-      {
-        "name": "korbit-wss-FLOW-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "FLOW",
-          "quote": "KRW"
         }
       }
     ],
