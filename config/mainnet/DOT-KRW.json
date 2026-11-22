@@ -15,28 +15,10 @@
       }
     },
     {
-      "name": "korbit-wss-DOT-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "DOT",
-        "quote": "KRW"
-      }
-    },
-    {
       "name": "bithumb-wss-DOT-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
-        "base": "DOT",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "coinone-wss-DOT-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
         "base": "DOT",
         "quote": "KRW"
       }

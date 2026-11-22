@@ -22,24 +22,6 @@
         "base": "A",
         "quote": "KRW"
       }
-    },
-    {
-      "name": "coinone-wss-A-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "A",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "korbit-wss-A-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "A",
-        "quote": "KRW"
-      }
     }
   ]
 }

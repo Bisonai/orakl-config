@@ -15,28 +15,10 @@
       }
     },
     {
-      "name": "korbit-wss-ARB-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "ARB",
-        "quote": "KRW"
-      }
-    },
-    {
       "name": "bithumb-wss-ARB-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
-        "base": "ARB",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "coinone-wss-ARB-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
         "base": "ARB",
         "quote": "KRW"
       }

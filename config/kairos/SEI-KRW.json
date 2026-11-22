@@ -15,28 +15,10 @@
       }
     },
     {
-      "name": "korbit-wss-SEI-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "SEI",
-        "quote": "KRW"
-      }
-    },
-    {
       "name": "bithumb-wss-SEI-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
-        "base": "SEI",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "coinone-wss-SEI-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
         "base": "SEI",
         "quote": "KRW"
       }

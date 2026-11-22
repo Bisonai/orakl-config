@@ -15,28 +15,10 @@
       }
     },
     {
-      "name": "korbit-wss-AAVE-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "AAVE",
-        "quote": "KRW"
-      }
-    },
-    {
       "name": "bithumb-wss-AAVE-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
-        "base": "AAVE",
-        "quote": "KRW"
-      }
-    },
-    {
-      "name": "coinone-wss-AAVE-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
         "base": "AAVE",
         "quote": "KRW"
       }

@@ -22,15 +22,6 @@
         "base": "AXS",
         "quote": "KRW"
       }
-    },
-    {
-      "name": "coinone-wss-AXS-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "AXS",
-        "quote": "KRW"
-      }
     }
   ]
 }

@@ -22,15 +22,6 @@
         "base": "ENS",
         "quote": "KRW"
       }
-    },
-    {
-      "name": "coinone-wss-ENS-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "ENS",
-        "quote": "KRW"
-      }
     }
   ]
 }

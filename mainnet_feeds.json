@@ -157,24 +157,6 @@
           "base": "A",
           "quote": "KRW"
         }
-      },
-      {
-        "name": "coinone-wss-A-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
-          "base": "A",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "korbit-wss-A-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "A",
-          "quote": "KRW"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -195,28 +177,10 @@
         }
       },
       {
-        "name": "korbit-wss-AAVE-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "AAVE",
-          "quote": "KRW"
-        }
-      },
-      {
         "name": "bithumb-wss-AAVE-KRW",
         "definition": {
           "type": "wss",
           "provider": "bithumb",
-          "base": "AAVE",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "coinone-wss-AAVE-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
           "base": "AAVE",
           "quote": "KRW"
         }
@@ -886,15 +850,6 @@
           "base": "APT",
           "quote": "KRW"
         }
-      },
-      {
-        "name": "coinone-wss-APT-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
-          "base": "APT",
-          "quote": "KRW"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -1158,28 +1113,10 @@
         }
       },
       {
-        "name": "korbit-wss-ARB-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "ARB",
-          "quote": "KRW"
-        }
-      },
-      {
         "name": "bithumb-wss-ARB-KRW",
         "definition": {
           "type": "wss",
           "provider": "bithumb",
-          "base": "ARB",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "coinone-wss-ARB-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
           "base": "ARB",
           "quote": "KRW"
         }
@@ -1203,28 +1140,10 @@
         }
       },
       {
-        "name": "korbit-wss-ASTR-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "ASTR",
-          "quote": "KRW"
-        }
-      },
-      {
         "name": "bithumb-wss-ASTR-KRW",
         "definition": {
           "type": "wss",
           "provider": "bithumb",
-          "base": "ASTR",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "coinone-wss-ASTR-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
           "base": "ASTR",
           "quote": "KRW"
         }
@@ -1531,15 +1450,6 @@
         "definition": {
           "type": "wss",
           "provider": "upbit",
-          "base": "AVAX",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "korbit-wss-AVAX-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
           "base": "AVAX",
           "quote": "KRW"
         }
@@ -1855,15 +1765,6 @@
         "definition": {
           "type": "wss",
           "provider": "bithumb",
-          "base": "AXS",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "coinone-wss-AXS-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
           "base": "AXS",
           "quote": "KRW"
         }
@@ -2752,28 +2653,10 @@
         }
       },
       {
-        "name": "korbit-wss-BSV-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "BSV",
-          "quote": "KRW"
-        }
-      },
-      {
         "name": "bithumb-wss-BSV-KRW",
         "definition": {
           "type": "wss",
           "provider": "bithumb",
-          "base": "BSV",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "coinone-wss-BSV-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
           "base": "BSV",
           "quote": "KRW"
         }
@@ -3962,15 +3845,6 @@
         }
       },
       {
-        "name": "korbit-wss-CTC-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "CTC",
-          "quote": "KRW"
-        }
-      },
-      {
         "name": "bithumb-wss-CTC-KRW",
         "definition": {
           "type": "wss",
@@ -4512,28 +4386,10 @@
         }
       },
       {
-        "name": "korbit-wss-DOT-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "DOT",
-          "quote": "KRW"
-        }
-      },
-      {
         "name": "bithumb-wss-DOT-KRW",
         "definition": {
           "type": "wss",
           "provider": "bithumb",
-          "base": "DOT",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "coinone-wss-DOT-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
           "base": "DOT",
           "quote": "KRW"
         }
@@ -5212,15 +5068,6 @@
           "base": "ENS",
           "quote": "KRW"
         }
-      },
-      {
-        "name": "coinone-wss-ENS-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
-          "base": "ENS",
-          "quote": "KRW"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -5236,15 +5083,6 @@
         "definition": {
           "type": "wss",
           "provider": "upbit",
-          "base": "ETC",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "korbit-wss-ETC-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
           "base": "ETC",
           "quote": "KRW"
         }
@@ -5763,15 +5601,6 @@
         "definition": {
           "type": "wss",
           "provider": "bithumb",
-          "base": "FET",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "coinone-wss-FET-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
           "base": "FET",
           "quote": "KRW"
         }
@@ -6468,15 +6297,6 @@
           "base": "GAS",
           "quote": "KRW"
         }
-      },
-      {
-        "name": "coinone-wss-GAS-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
-          "base": "GAS",
-          "quote": "KRW"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -6815,28 +6635,10 @@
         }
       },
       {
-        "name": "korbit-wss-GRT-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "GRT",
-          "quote": "KRW"
-        }
-      },
-      {
         "name": "bithumb-wss-GRT-KRW",
         "definition": {
           "type": "wss",
           "provider": "bithumb",
-          "base": "GRT",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "coinone-wss-GRT-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
           "base": "GRT",
           "quote": "KRW"
         }
@@ -9687,15 +9489,6 @@
           "base": "MBL",
           "quote": "KRW"
         }
-      },
-      {
-        "name": "coinone-wss-MBL-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
-          "base": "MBL",
-          "quote": "KRW"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -9706,15 +9499,6 @@
     "aggregateInterval": 400,
     "submitInterval": 15000,
     "feeds": [
-      {
-        "name": "korbit-wss-MBX-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "MBX",
-          "quote": "KRW"
-        }
-      },
       {
         "name": "bithumb-wss-MBX-KRW",
         "definition": {
@@ -9738,15 +9522,6 @@
         "definition": {
           "type": "wss",
           "provider": "upbit",
-          "base": "MED",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "korbit-wss-MED-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
           "base": "MED",
           "quote": "KRW"
         }
@@ -9855,15 +9630,6 @@
         "definition": {
           "type": "wss",
           "provider": "bithumb",
-          "base": "MINA",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "coinone-wss-MINA-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
           "base": "MINA",
           "quote": "KRW"
         }
@@ -9999,15 +9765,6 @@
         "definition": {
           "type": "wss",
           "provider": "bithumb",
-          "base": "MLK",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "coinone-wss-MLK-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
           "base": "MLK",
           "quote": "KRW"
         }
@@ -11108,15 +10865,6 @@
           "base": "ONG",
           "quote": "KRW"
         }
-      },
-      {
-        "name": "coinone-wss-ONG-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
-          "base": "ONG",
-          "quote": "KRW"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -11959,15 +11707,6 @@
         }
       },
       {
-        "name": "korbit-wss-POL-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "POL",
-          "quote": "KRW"
-        }
-      },
-      {
         "name": "bithumb-wss-POL-KRW",
         "definition": {
           "type": "wss",
@@ -12238,28 +11977,10 @@
         }
       },
       {
-        "name": "korbit-wss-PYTH-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "PYTH",
-          "quote": "KRW"
-        }
-      },
-      {
         "name": "bithumb-wss-PYTH-KRW",
         "definition": {
           "type": "wss",
           "provider": "bithumb",
-          "base": "PYTH",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "coinone-wss-PYTH-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
           "base": "PYTH",
           "quote": "KRW"
         }
@@ -13327,15 +13048,6 @@
         }
       },
       {
-        "name": "korbit-wss-SAND-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "SAND",
-          "quote": "KRW"
-        }
-      },
-      {
         "name": "bithumb-wss-SAND-KRW",
         "definition": {
           "type": "wss",
@@ -13498,28 +13210,10 @@
         }
       },
       {
-        "name": "korbit-wss-SEI-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "SEI",
-          "quote": "KRW"
-        }
-      },
-      {
         "name": "bithumb-wss-SEI-KRW",
         "definition": {
           "type": "wss",
           "provider": "bithumb",
-          "base": "SEI",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "coinone-wss-SEI-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
           "base": "SEI",
           "quote": "KRW"
         }
@@ -14623,28 +14317,10 @@
     "submitInterval": 60000,
     "feeds": [
       {
-        "name": "korbit-wss-STRK-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "STRK",
-          "quote": "KRW"
-        }
-      },
-      {
         "name": "bithumb-wss-STRK-KRW",
         "definition": {
           "type": "wss",
           "provider": "bithumb",
-          "base": "STRK",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "coinone-wss-STRK-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
           "base": "STRK",
           "quote": "KRW"
         }
@@ -14668,28 +14344,10 @@
         }
       },
       {
-        "name": "korbit-wss-STX-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "STX",
-          "quote": "KRW"
-        }
-      },
-      {
         "name": "bithumb-wss-STX-KRW",
         "definition": {
           "type": "wss",
           "provider": "bithumb",
-          "base": "STX",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "coinone-wss-STX-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
           "base": "STX",
           "quote": "KRW"
         }
@@ -17345,28 +17003,10 @@
         }
       },
       {
-        "name": "korbit-wss-XEC-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "XEC",
-          "quote": "KRW"
-        }
-      },
-      {
         "name": "bithumb-wss-XEC-KRW",
         "definition": {
           "type": "wss",
           "provider": "bithumb",
-          "base": "XEC",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "coinone-wss-XEC-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
           "base": "XEC",
           "quote": "KRW"
         }
@@ -17813,15 +17453,6 @@
         }
       },
       {
-        "name": "korbit-wss-ZETA-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "korbit",
-          "base": "ZETA",
-          "quote": "KRW"
-        }
-      },
-      {
         "name": "bithumb-wss-ZETA-KRW",
         "definition": {
           "type": "wss",
@@ -17961,15 +17592,6 @@
         "definition": {
           "type": "wss",
           "provider": "bithumb",
-          "base": "ZK",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "coinone-wss-ZK-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
           "base": "ZK",
           "quote": "KRW"
         }
@@ -18188,15 +17810,6 @@
         "definition": {
           "type": "wss",
           "provider": "bithumb",
-          "base": "ZRO",
-          "quote": "KRW"
-        }
-      },
-      {
-        "name": "coinone-wss-ZRO-KRW",
-        "definition": {
-          "type": "wss",
-          "provider": "coinone",
           "base": "ZRO",
           "quote": "KRW"
         }
