@@ -26,8 +26,19 @@ filter_outs = {
               # price off the median, thin books (2026-11-20)
               "osmousdt", "aiozusdt", "zkusdt", "maskusdt", "ckbusdt", "jtousdt", "runeusdt", "egldusdt"],
     "korbit": ["bonkkrw",  # frozen ticker, vol 0 (#253)
-               "blurkrw", "bchkrw", "aktkrw"],  # price off the median, ~0 vol (2026-11-20)
-    "coinone": ["waveskrw", "blurkrw"],  # price off the median, vol 0 (2026-11-20)
+               "blurkrw", "bchkrw", "aktkrw",  # price off the median, ~0 vol (2026-11-20)
+               # < 5M KRW/24h, stale price published when upbit/bithumb are quiet (2026-11-22)
+               "aavekrw", "akrw", "arbkrw", "astrkrw", "avaxkrw", "bsvkrw", "ctckrw",
+               "dotkrw", "etckrw", "grtkrw", "mbxkrw", "medkrw", "polkrw", "pythkrw",
+               "sandkrw", "seikrw", "strkkrw", "stxkrw", "xeckrw", "zetakrw",
+               ],
+    "coinone": ["waveskrw", "blurkrw",  # price off the median, vol 0 (2026-11-20)
+                # < 5M KRW/24h, stale price published when upbit/bithumb are quiet (2026-11-22)
+                "aavekrw", "akrw", "aptkrw", "arbkrw", "astrkrw", "axskrw", "bsvkrw",
+                "dotkrw", "enskrw", "fetkrw", "gaskrw", "grtkrw", "mblkrw", "minakrw",
+                "mlkkrw", "ongkrw", "pythkrw", "seikrw", "strkkrw", "stxkrw", "xeckrw",
+                "zkkrw", "zrokrw",
+                ],
     "mexc": [
         "beamusdt",  # old Beam, not beam-2/BEAMX (#253)
         "elizaosusdt", "tusdusdt", "zkjusdt",  # no data on any node (#269)

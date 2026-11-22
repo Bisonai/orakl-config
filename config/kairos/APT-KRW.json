@@ -31,15 +31,6 @@
         "base": "APT",
         "quote": "KRW"
       }
-    },
-    {
-      "name": "coinone-wss-APT-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "APT",
-        "quote": "KRW"
-      }
     }
   ]
 }

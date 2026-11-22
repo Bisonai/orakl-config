@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "korbit-wss-AVAX-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "AVAX",
-        "quote": "KRW"
-      }
-    },
-    {
       "name": "bithumb-wss-AVAX-KRW",
       "definition": {
         "type": "wss",

@@ -6,15 +6,6 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "korbit-wss-MBX-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "MBX",
-        "quote": "KRW"
-      }
-    },
-    {
       "name": "bithumb-wss-MBX-KRW",
       "definition": {
         "type": "wss",

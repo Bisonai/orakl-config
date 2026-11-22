@@ -22,15 +22,6 @@
         "base": "ONG",
         "quote": "KRW"
       }
-    },
-    {
-      "name": "coinone-wss-ONG-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "ONG",
-        "quote": "KRW"
-      }
     }
   ]
 }

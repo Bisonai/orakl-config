@@ -22,15 +22,6 @@
         "base": "ZRO",
         "quote": "KRW"
       }
-    },
-    {
-      "name": "coinone-wss-ZRO-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "ZRO",
-        "quote": "KRW"
-      }
     }
   ]
 }

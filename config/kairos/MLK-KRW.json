@@ -22,15 +22,6 @@
         "base": "MLK",
         "quote": "KRW"
       }
-    },
-    {
-      "name": "coinone-wss-MLK-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "MLK",
-        "quote": "KRW"
-      }
     }
   ]
 }

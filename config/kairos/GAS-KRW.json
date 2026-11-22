@@ -22,15 +22,6 @@
         "base": "GAS",
         "quote": "KRW"
       }
-    },
-    {
-      "name": "coinone-wss-GAS-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "coinone",
-        "base": "GAS",
-        "quote": "KRW"
-      }
     }
   ]
 }

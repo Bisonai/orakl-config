@@ -15,15 +15,6 @@
       }
     },
     {
-      "name": "korbit-wss-POL-KRW",
-      "definition": {
-        "type": "wss",
-        "provider": "korbit",
-        "base": "POL",
-        "quote": "KRW"
-      }
-    },
-    {
       "name": "bithumb-wss-POL-KRW",
       "definition": {
         "type": "wss",
