@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "UniswapV3:0.3-ETH-USDT",
+      "name": "uniswapv3:0.3-ETH-USDT",
       "definition": {
         "chainId": "1",
         "address": "0x4e68ccd3e89f51c3074ca5072bbac773960dfa36",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "UniswapV3:0.05-ETH-USDT",
+      "name": "uniswapv3:0.05-ETH-USDT",
       "definition": {
         "chainId": "1",
         "address": "0x11b815efb8f581194ae79006d24e0d814b7697f6",

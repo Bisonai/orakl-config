@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "Yahoo-JPY-USD",
+      "name": "yahoo-JPY-USD",
       "definition": {
         "url": "https://query2.finance.yahoo.com/v8/finance/chart/JPY=X",
         "headers": {

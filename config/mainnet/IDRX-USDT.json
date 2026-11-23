@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "Pancakeswap-IDRX-USDT",
+      "name": "pancakeswap-IDRX-USDT",
       "definition": {
         "chainId": "56",
         "address": "0x9a5cf6de1d8bdbca49e8e786413f6949fcd70d7b",
@@ -17,7 +17,7 @@
       }
     },
     {
-      "name": "UniswapV3-IDRX-USDT",
+      "name": "uniswapv3-IDRX-USDT",
       "definition": {
         "chainId": "137",
         "address": "0xe818c9573dd90766c1263cf6330ab1ac2476b2b9",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "name": "DragonSwap-IDRX-USDT",
+      "name": "dragonswap-IDRX-USDT",
       "definition": {
         "chainId": "8217",
         "address": "0x68dd15d01f36dc92677fcf353ff9f1474f98ce19",

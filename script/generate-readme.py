@@ -57,8 +57,8 @@ def cell(value):
 
 
 # Display names for non-wss feed-name prefixes, keyed by lowercased prefix.
-# Feed names are node-side identities and are not renamed in config (#232);
-# only the README label is normalized. Unknown prefixes keep their case.
+# Config prefixes are lowercase like wss ones (#232); this maps them to brand
+# case for the README. Unknown prefixes keep their case.
 SOURCE_NAMES = {
     'capybara': 'Capybara',
     'daum': 'Daum',
@@ -73,7 +73,7 @@ SOURCE_NAMES = {
 
 
 def display_source(prefix):
-    """Feed-name prefix -> README label: drop fee tier (`UniswapV3:0.05`), canonical case."""
+    """Feed-name prefix -> README label: drop fee tier (`uniswapv3:0.05`), canonical case."""
     base = prefix.split(':', 1)[0]
     return SOURCE_NAMES.get(base.lower(), base)
 

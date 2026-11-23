@@ -34,6 +34,7 @@ class DisplaySourceTest(unittest.TestCase):
         self.assertEqual(gr.display_source("UniswapV3:0.05"), "UniswapV3")
         self.assertEqual(gr.display_source("UniswapV3:0.3"), "UniswapV3")
         self.assertEqual(gr.display_source("uniswapv3"), "UniswapV3")
+        self.assertEqual(gr.display_source("uniswapv3:0.05"), "UniswapV3")
 
     def test_unknown_prefix_kept(self):
         self.assertEqual(gr.display_source("SomeDex"), "SomeDex")

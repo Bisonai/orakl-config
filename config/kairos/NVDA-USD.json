@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "Yahoo-NVDA-USD",
+      "name": "yahoo-NVDA-USD",
       "definition": {
         "url": "https://query2.finance.yahoo.com/v8/finance/chart/NVDA?range=1d&interval=1m&includePrePost=true&events=div|split",
         "headers": {

@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "UniswapV3-UNI-USDT",
+      "name": "uniswapv3-UNI-USDT",
       "definition": {
         "chainId": "1",
         "address": "0x3470447f3cecffac709d3e783a307790b0208d60",

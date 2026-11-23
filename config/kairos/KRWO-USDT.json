@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "Dragonswap-KRWO-USDT",
+      "name": "dragonswap-KRWO-USDT",
       "definition": {
         "chainId": "8217",
         "address": "0xa53048153de2b74f92a8636bce1349192c58d1a1",
