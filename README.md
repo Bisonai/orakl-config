@@ -501,3 +501,4 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [ZRO-KRW](config/kairos/ZRO-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [ZRO-USDT](config/kairos/ZRO-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [ZRX-USDT](config/kairos/ZRX-USDT.json) | binance, bingx, bitget, btse, bybit, gateio, huobi, kucoin, mexc, okx, orangex | 2000 | 400 | 60000 |
+stale line to exercise bot push (#294)
