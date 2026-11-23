@@ -220,6 +220,8 @@ def check_bundle(source_dir: Path, bundle_path: Path, root: Path = ROOT):
     return errors
 
 FEED_PAIR = re.compile(r"[A-Z0-9]+-[A-Z0-9]+")
+# lowercase source, optional `-` qualifiers: binance-wss, uniswapv3-0.3, uniswapv4-polygon-005
+FEED_SOURCE = re.compile(r"[a-z0-9]+(-[a-z0-9.]+)*")
 
 def check_feed_prefixes(source_dir: Path, root: Path = ROOT):
     # Feed names must be `<source>:<BASE>-<QUOTE>` (#297): exactly one ":", a
@@ -250,6 +252,8 @@ def check_feed_prefixes(source_dir: Path, root: Path = ROOT):
                 errors.append(f"{where}: empty source before ':'")
             elif source != source.lower():
                 errors.append(f"{where}: source {source!r} must be lowercase ({source.lower()!r})")
+            elif not FEED_SOURCE.fullmatch(source):
+                errors.append(f"{where}: source {source!r} must be <name>[-<qualifier>...] (a-z, 0-9, '.')")
             if not FEED_PAIR.fullmatch(pair):
                 errors.append(f"{where}: pair {pair!r} must be <BASE>-<QUOTE> (uppercase letters/digits)")
     return errors

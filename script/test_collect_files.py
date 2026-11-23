@@ -15,6 +15,10 @@ _spec = importlib.util.spec_from_file_location(
     "collect_files", Path(__file__).with_name("collect-files.py"))
 cf = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(cf)
+_gc_spec = importlib.util.spec_from_file_location(
+    "generate_configs", Path(__file__).with_name("generate-configs.py"))
+gc = importlib.util.module_from_spec(_gc_spec)
+_gc_spec.loader.exec_module(gc)
 
 
 def feed(name, provider="binance"):
@@ -118,13 +122,21 @@ class CheckFeedPrefixesTest(unittest.TestCase):
         self.assertIn("'dragonswap'", error)
 
     def test_malformed_names_fail(self):
-        errors = self.check("binance-wss-BTC-USDT", "a:b:C-D", ":BTC-USDT", "x:BTC", "x:btc-usdt")
-        self.assertEqual(len(errors), 5, errors)
+        errors = self.check("binance-wss-BTC-USDT", "a:b:C-D", ":BTC-USDT", "x:BTC", "x:btc-usdt",
+                            "binance-wss-:BTC-USDT", "a b:BTC-USDT")
+        self.assertEqual(len(errors), 7, errors)
         self.assertIn("exactly one ':'", errors[0])
         self.assertIn("exactly one ':'", errors[1])
         self.assertIn("empty source", errors[2])
         self.assertIn("pair 'BTC'", errors[3])
         self.assertIn("pair 'btc-usdt'", errors[4])
+        self.assertIn("source 'binance-wss-'", errors[5])
+        self.assertIn("source 'a b'", errors[6])
+
+    def test_generator_names_pass(self):
+        names = [gc.make_wss_object(p, b, q)["name"] for p, b, q in
+                 [("binance", "btc", "usdt"), ("upbit", "1inch", "krw"), ("lbank", "MASK2", "usdt")]]
+        self.assertEqual(self.check(*names), [], names)
 
     def test_malformed_skipped(self):
         (self.root / "src" / "bad.json").write_text('{"name": "A",}')
