@@ -3,3 +3,4 @@ venv
 
 # dispatch-issue checks worktrees out into this repo under .claude/worktrees/
 .claude/worktrees/
+__pycache__/
