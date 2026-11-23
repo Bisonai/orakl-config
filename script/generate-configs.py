@@ -355,7 +355,7 @@ def symbols_cache_is_stale(symbols_path, max_age_hours=SYMBOLS_MAX_AGE_HOURS):
 
 def make_wss_object(provider, base, quote):
     wsFeed = {}
-    wsFeed["name"] = f"{provider}-wss-{base.upper()}-{quote.upper()}"
+    wsFeed["name"] = f"{provider}-wss:{base.upper()}-{quote.upper()}"
     wsFeed["definition"] = {}
     wsFeed["definition"]["type"] = "wss"
     wsFeed["definition"]["provider"] = provider
@@ -467,7 +467,7 @@ def replace_config_file(config_folder_path, symbol, feeds, unavailable_providers
     result["feeds"] = []
     for feed in prev["feeds"]:
         provider = (feed.get("definition") or {}).get("provider")
-        if "-wss-" not in feed["name"] or provider in unavailable_providers:
+        if (feed.get("definition") or {}).get("type") != "wss" or provider in unavailable_providers:
             result["feeds"].append(feed)
 
     for feed in feeds:

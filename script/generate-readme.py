@@ -61,9 +61,10 @@ def cell(value):
     return str(value).replace('|', '\\|')
 
 
-# Display names for non-wss feed-name prefixes, keyed by lowercased prefix.
-# Config prefixes are lowercase like wss ones (#232); this maps them to brand
-# case for the README. Unknown prefixes keep their case.
+# Display names for non-wss feed sources, keyed by lowercased source name.
+# Feed names are `<source>:<BASE>-<QUOTE>` with a lowercase source (#232,
+# #297); this maps the source to brand case for the README. Unknown sources
+# keep their case.
 SOURCE_NAMES = {
     'capybara': 'Capybara',
     'daum': 'Daum',
@@ -77,21 +78,21 @@ SOURCE_NAMES = {
 }
 
 
-def display_source(prefix):
-    """Feed-name prefix -> README label: drop fee tier (`uniswapv3:0.05`), canonical case."""
-    base = prefix.split(':', 1)[0]
+def display_source(source):
+    """Feed source -> README label: drop qualifier (`uniswapv3-0.05` fee tier), canonical case."""
+    base = source.split('-', 1)[0]
     return SOURCE_NAMES.get(base.lower(), base)
 
 
 def source_name(feed):
-    """wss feeds -> provider; others (DEX pools, HTTP) -> normalized feed-name prefix."""
+    """wss feeds -> provider; others (DEX pools, HTTP) -> normalized feed source (before ':')."""
     definition = feed.get('definition')
     if isinstance(definition, dict) and definition.get('type') == 'wss' \
             and isinstance(definition.get('provider'), str):
         return definition['provider']
     name = feed.get('name')
     if isinstance(name, str) and name:
-        return display_source(name.split('-', 1)[0]) or None
+        return display_source(name.split(':', 1)[0]) or None
     return None
 
 

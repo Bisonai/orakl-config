@@ -162,7 +162,7 @@ class ReplaceConfigTest(unittest.TestCase):
         prev = {
             "name": "BTC-USDT", "fetchInterval": 1, "aggregateInterval": 2, "submitInterval": 3,
             "feeds": [
-                {"name": "naver-BTC-USDT", "definition": {"url": "x"}},
+                {"name": "naver:BTC-USDT", "definition": {"url": "x"}},
                 gc.make_wss_object("xt", "btc", "usdt"),
                 gc.make_wss_object("bingx", "btc", "usdt"),
             ],
@@ -176,7 +176,7 @@ class ReplaceConfigTest(unittest.TestCase):
                 names = [x["name"] for x in json.load(f)["feeds"]]
         # bingx loaded and no longer lists the pair -> removed;
         # xt failed to load -> kept
-        self.assertEqual(names, ["naver-BTC-USDT", "xt-wss-BTC-USDT", "binance-wss-BTC-USDT"])
+        self.assertEqual(names, ["naver:BTC-USDT", "xt-wss:BTC-USDT", "binance-wss:BTC-USDT"])
 
     def test_keeps_pair_level_settings(self):
         prev = {
@@ -193,7 +193,7 @@ class ReplaceConfigTest(unittest.TestCase):
         self.assertEqual(out["priceSource"], "mid")
         self.assertEqual(out["feedDataFreshness"], 60000)
         self.assertEqual((out["fetchInterval"], out["aggregateInterval"], out["submitInterval"]), (1, 2, 3))
-        self.assertEqual([x["name"] for x in out["feeds"]], ["bithumb-wss-WAVES-KRW"])
+        self.assertEqual([x["name"] for x in out["feeds"]], ["bithumb-wss:WAVES-KRW"])
 
 
 class LoadArgsTest(unittest.TestCase):

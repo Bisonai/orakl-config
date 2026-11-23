@@ -107,19 +107,29 @@ class CheckFeedPrefixesTest(unittest.TestCase):
         (self.root / "src" / "A-USDT.json").write_text(json.dumps(pair("A-USDT", *(feed(n) for n in names))))
         return cf.check_feed_prefixes(Path("src"), self.root)
 
-    def test_lowercase_prefixes_pass(self):
-        self.assertEqual(self.check("binance-wss-BTC-USDT", "dragonswap-NEW-KAIA", "uniswapv3:0.3-ETH-USDT", "x"), [])
+    def test_well_formed_names_pass(self):
+        self.assertEqual(self.check("binance-wss:BTC-USDT", "dragonswap:NEW-KAIA",
+                                    "uniswapv3-0.3:ETH-USDT", "uniswapv4-polygon-005:USDC-JPYC"), [])
 
-    def test_mixed_case_prefix_fails(self):
-        [error] = self.check("dragonswap-OK-KAIA", "DragonSwap-NEW-KAIA")
+    def test_mixed_case_source_fails(self):
+        [error] = self.check("dragonswap:OK-KAIA", "DragonSwap:NEW-KAIA")
         self.assertIn("src/A-USDT.json", error)
-        self.assertIn("'DragonSwap-NEW-KAIA'", error)
+        self.assertIn("'DragonSwap:NEW-KAIA'", error)
         self.assertIn("'dragonswap'", error)
+
+    def test_malformed_names_fail(self):
+        errors = self.check("binance-wss-BTC-USDT", "a:b:C-D", ":BTC-USDT", "x:BTC", "x:btc-usdt")
+        self.assertEqual(len(errors), 5, errors)
+        self.assertIn("exactly one ':'", errors[0])
+        self.assertIn("exactly one ':'", errors[1])
+        self.assertIn("empty source", errors[2])
+        self.assertIn("pair 'BTC'", errors[3])
+        self.assertIn("pair 'btc-usdt'", errors[4])
 
     def test_malformed_skipped(self):
         (self.root / "src" / "bad.json").write_text('{"name": "A",}')
         (self.root / "src" / "list.json").write_text('[]')
-        (self.root / "src" / "z.json").write_text(json.dumps(pair("Z-USDT", feed("Bad-Z-USDT"))))
+        (self.root / "src" / "z.json").write_text(json.dumps(pair("Z-USDT", feed("Bad:Z-USDT"))))
         [error] = self.check({"x": 1})
         self.assertIn("src/z.json", error)
 
@@ -135,9 +145,9 @@ class CheckBundlesTest(unittest.TestCase):
         return rc, out.getvalue()
 
     def test_prefix_error_alone_fails_without_ok(self):
-        rc, out = self.run_check(["src/A.json: feed 'Bad-X': prefix 'Bad' must be lowercase ('bad')"])
+        rc, out = self.run_check(["src/A.json: feed 'Bad:X-Y': source 'Bad' must be lowercase ('bad')"])
         self.assertEqual(rc, 1)
-        self.assertIn("non-lowercase prefix", out)
+        self.assertIn("malformed feed names", out)
         self.assertNotIn("OK", out)
 
     def test_clean_prints_ok(self):
