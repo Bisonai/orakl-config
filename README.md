@@ -67,7 +67,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [CAKE-USDT](config/mainnet/CAKE-USDT.json) | binance, bingx, bitget, btse, bybit, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
 | [CELO-USDT](config/mainnet/CELO-USDT.json) | binance, bitget, bybit, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
 | [CFX-USDT](config/mainnet/CFX-USDT.json) | binance, bingx, bitget, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [CHF-USD](config/mainnet/CHF-USD.json) | daum, naver, Yahoo | 10000 | 400 | 15000 |
+| [CHF-USD](config/mainnet/CHF-USD.json) | Daum, Naver, Yahoo | 10000 | 400 | 15000 |
 | [CHZ-KRW](config/mainnet/CHZ-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [CKB-USDT](config/mainnet/CKB-USDT.json) | binance, bingx, bitget, gateio, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
 | [COMP-USDT](config/mainnet/COMP-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
@@ -85,7 +85,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [DOT-KRW](config/mainnet/DOT-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [DOT-USDT](config/mainnet/DOT-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 15000 |
 | [DYDX-USDT](config/mainnet/DYDX-USDT.json) | binance, bingx, bitget, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [EARNUSDT-USDT](config/mainnet/EARNUSDT-USDT.json) | Dragonswap | 2000 | 400 | 60000 |
+| [EARNUSDT-USDT](config/mainnet/EARNUSDT-USDT.json) | DragonSwap | 2000 | 400 | 60000 |
 | [EGLD-USDT](config/mainnet/EGLD-USDT.json) | binance, bingx, btse, bybit, crypto, gateio, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
 | [EIGEN-USDT](config/mainnet/EIGEN-USDT.json) | binance, bingx, bitget, btse, bybit, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [ELIZAOS-USDT](config/mainnet/ELIZAOS-USDT.json) | gateio, kucoin | 2000 | 400 | 60000 |
@@ -93,8 +93,8 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [ENS-KRW](config/mainnet/ENS-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [ETC-KRW](config/mainnet/ETC-KRW.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
 | [ETH-KRW](config/mainnet/ETH-KRW.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [ETH-USDT](config/mainnet/ETH-USDT.json) | binance, bingx, bitget, bitstamp, btse, bybit, coinbase, crypto, gateio, huobi, kraken, kucoin, lbank, okx, orangex, UniswapV3:0.05, UniswapV3:0.3, xt | 2000 | 400 | 15000 |
-| [EUR-USD](config/mainnet/EUR-USD.json) | bitstamp, daum, naver, Yahoo | 10000 | 400 | 15000 |
+| [ETH-USDT](config/mainnet/ETH-USDT.json) | binance, bingx, bitget, bitstamp, btse, bybit, coinbase, crypto, gateio, huobi, kraken, kucoin, lbank, okx, orangex, UniswapV3, xt | 2000 | 400 | 15000 |
+| [EUR-USD](config/mainnet/EUR-USD.json) | bitstamp, Daum, Naver, Yahoo | 10000 | 400 | 15000 |
 | [FARTCOIN-USDT](config/mainnet/FARTCOIN-USDT.json) | bingx, bitget, btse, gateio, huobi, kraken, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
 | [FDUSD-USDT](config/mainnet/FDUSD-USDT.json) | binance, bingx, gateio, mexc, xt | 2000 | 400 | 60000 |
 | [FIL-USDT](config/mainnet/FIL-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
@@ -104,7 +104,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [FTT-USDT](config/mainnet/FTT-USDT.json) | binance, bingx, bybit, gateio, huobi, kucoin, lbank, mexc, orangex | 2000 | 400 | 60000 |
 | [GALA-USDT](config/mainnet/GALA-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [GAS-KRW](config/mainnet/GAS-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
-| [GBP-USD](config/mainnet/GBP-USD.json) | daum, naver, Yahoo | 10000 | 400 | 15000 |
+| [GBP-USD](config/mainnet/GBP-USD.json) | Daum, Naver, Yahoo | 10000 | 400 | 15000 |
 | [GLM-KRW](config/mainnet/GLM-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [GNO-USDT](config/mainnet/GNO-USDT.json) | binance, bingx, gateio, huobi, mexc | 2000 | 400 | 60000 |
 | [GOOGL-USD](config/mainnet/GOOGL-USD.json) | Yahoo | 10000 | 400 | 15000 |
@@ -117,15 +117,15 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [HNT-USDT](config/mainnet/HNT-USDT.json) | bitget, bybit, crypto, gateio, kucoin, mexc, orangex, xt | 2000 | 400 | 60000 |
 | [HOT-USDT](config/mainnet/HOT-USDT.json) | binance, bingx, gateio, huobi, lbank, mexc | 2000 | 400 | 60000 |
 | [HYPE-USDT](config/mainnet/HYPE-USDT.json) | binance, bingx, bitget, bybit, gateio, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [IDR-USD](config/mainnet/IDR-USD.json) | Daum, naver, Yahoo | 10000 | 400 | 60000 |
+| [IDR-USD](config/mainnet/IDR-USD.json) | Daum, Naver, Yahoo | 10000 | 400 | 60000 |
 | [IDRP-USDT](config/mainnet/IDRP-USDT.json) | DragonSwap | 2000 | 400 | 60000 |
-| [IDRX-USDT](config/mainnet/IDRX-USDT.json) | DragonSwap, Pancakeswap, UniswapV3 | 2000 | 400 | 60000 |
+| [IDRX-USDT](config/mainnet/IDRX-USDT.json) | DragonSwap, PancakeSwap, UniswapV3 | 2000 | 400 | 60000 |
 | [IMX-KRW](config/mainnet/IMX-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [INJ-USDT](config/mainnet/INJ-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
 | [IOTA-USDT](config/mainnet/IOTA-USDT.json) | binance, bingx, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
 | [IQ-KRW](config/mainnet/IQ-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [JASMY-USDT](config/mainnet/JASMY-USDT.json) | binance, bingx, bitget, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [JPY-USD](config/mainnet/JPY-USD.json) | daum, Yahoo | 10000 | 400 | 15000 |
+| [JPY-USD](config/mainnet/JPY-USD.json) | Daum, Yahoo | 10000 | 400 | 15000 |
 | [JPYC-USDT](config/mainnet/JPYC-USDT.json) | UniswapV4 | 2000 | 400 | 60000 |
 | [JST-USDT](config/mainnet/JST-USDT.json) | binance, bitget, bybit, gateio, huobi, kucoin, lbank, mexc, orangex | 2000 | 400 | 60000 |
 | [JTO-USDT](config/mainnet/JTO-USDT.json) | binance, bingx, bitget, btse, bybit, gateio, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
@@ -136,8 +136,8 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [KAS-USDT](config/mainnet/KAS-USDT.json) | bingx, bitget, btse, bybit, gateio, kraken, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
 | [KAVA-USDT](config/mainnet/KAVA-USDT.json) | binance, bingx, bitget, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
 | [KNC-KRW](config/mainnet/KNC-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
-| [KRW-USD](config/mainnet/KRW-USD.json) | Daum, naver, Yahoo | 10000 | 400 | 15000 |
-| [KRWO-USDT](config/mainnet/KRWO-USDT.json) | capybara, Dragonswap | 2000 | 400 | 60000 |
+| [KRW-USD](config/mainnet/KRW-USD.json) | Daum, Naver, Yahoo | 10000 | 400 | 15000 |
+| [KRWO-USDT](config/mainnet/KRWO-USDT.json) | Capybara, DragonSwap | 2000 | 400 | 60000 |
 | [KSM-USDT](config/mainnet/KSM-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
 | [LDO-USDT](config/mainnet/LDO-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [LINK-KRW](config/mainnet/LINK-KRW.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
@@ -159,7 +159,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [MOVE-USDT](config/mainnet/MOVE-USDT.json) | binance, bingx, bitget, bybit, gateio, huobi, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
 | [MSFT-USD](config/mainnet/MSFT-USD.json) | Yahoo | 10000 | 400 | 15000 |
 | [MTL-KRW](config/mainnet/MTL-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
-| [MYR-USD](config/mainnet/MYR-USD.json) | Daum, naver, Yahoo | 10000 | 400 | 60000 |
+| [MYR-USD](config/mainnet/MYR-USD.json) | Daum, Naver, Yahoo | 10000 | 400 | 60000 |
 | [MYRC-USDT](config/mainnet/MYRC-USDT.json) | UniswapV3 | 2000 | 400 | 60000 |
 | [NEAR-KRW](config/mainnet/NEAR-KRW.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
 | [NEO-USDT](config/mainnet/NEO-USDT.json) | binance, bingx, bitget, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
@@ -200,7 +200,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [SEI-KRW](config/mainnet/SEI-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [SEI-USDT](config/mainnet/SEI-USDT.json) | binance, bingx, bitget, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [SFP-USDT](config/mainnet/SFP-USDT.json) | binance, bingx, gateio, lbank, mexc | 2000 | 400 | 60000 |
-| [SGD-USD](config/mainnet/SGD-USD.json) | Daum, naver, Yahoo | 10000 | 400 | 60000 |
+| [SGD-USD](config/mainnet/SGD-USD.json) | Daum, Naver, Yahoo | 10000 | 400 | 60000 |
 | [SHIB-KRW](config/mainnet/SHIB-KRW.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
 | [SHIB-USDT](config/mainnet/SHIB-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
 | [SKY-USDT](config/mainnet/SKY-USDT.json) | binance, bingx, bitget, btse, bybit, gateio, huobi, kucoin, mexc, okx, xt | 2000 | 400 | 60000 |
@@ -210,7 +210,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [SOL-USDT](config/mainnet/SOL-USDT.json) | binance, bingx, bitget, btse, bybit, coinbase, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
 | [SONIC-USDT](config/mainnet/SONIC-USDT.json) | bingx, bitget, btse, bybit, gateio, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
 | [SPX-USDT](config/mainnet/SPX-USDT.json) | bingx, btse, bybit, gateio, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
-| [STKAIA-KAIA](config/mainnet/STKAIA-KAIA.json) | capybara, Dragonswap | 2000 | 400 | 60000 |
+| [STKAIA-KAIA](config/mainnet/STKAIA-KAIA.json) | Capybara, DragonSwap | 2000 | 400 | 60000 |
 | [STRK-KRW](config/mainnet/STRK-KRW.json) | bithumb | 2000 | 400 | 60000 |
 | [STX-KRW](config/mainnet/STX-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [SUI-KRW](config/mainnet/SUI-KRW.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
@@ -235,7 +235,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [VIRTUAL-USDT](config/mainnet/VIRTUAL-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [VTHO-USDT](config/mainnet/VTHO-USDT.json) | binance, bitget, bybit, gateio, kucoin, mexc | 2000 | 400 | 60000 |
 | [W-USDT](config/mainnet/W-USDT.json) | binance, bingx, bitget, btse, bybit, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [WALK-KAIA](config/mainnet/WALK-KAIA.json) | Dragonswap | 2000 | 400 | 60000 |
+| [WALK-KAIA](config/mainnet/WALK-KAIA.json) | DragonSwap | 2000 | 400 | 60000 |
 | [WAVES-KRW](config/mainnet/WAVES-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [WEMIX-USDT](config/mainnet/WEMIX-USDT.json) | bybit, gateio, kucoin, mexc, orangex, xt | 2000 | 400 | 15000 |
 | [WIF-USDT](config/mainnet/WIF-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
@@ -255,7 +255,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [ZK-KRW](config/mainnet/ZK-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [ZK-USDT](config/mainnet/ZK-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [ZKJ-USDT](config/mainnet/ZKJ-USDT.json) | bybit, gateio, kucoin, okx | 2000 | 400 | 60000 |
-| [ZP-KAIA](config/mainnet/ZP-KAIA.json) | Dragonswap | 2000 | 400 | 15000 |
+| [ZP-KAIA](config/mainnet/ZP-KAIA.json) | DragonSwap | 2000 | 400 | 15000 |
 | [ZRO-KRW](config/mainnet/ZRO-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [ZRO-USDT](config/mainnet/ZRO-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [ZRX-USDT](config/mainnet/ZRX-USDT.json) | binance, bingx, bitget, btse, bybit, gateio, huobi, kucoin, mexc, okx, orangex | 2000 | 400 | 60000 |
@@ -309,7 +309,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [CAKE-USDT](config/kairos/CAKE-USDT.json) | binance, bingx, bitget, btse, bybit, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
 | [CELO-USDT](config/kairos/CELO-USDT.json) | binance, bitget, bybit, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
 | [CFX-USDT](config/kairos/CFX-USDT.json) | binance, bingx, bitget, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [CHF-USD](config/kairos/CHF-USD.json) | daum, naver, Yahoo | 10000 | 400 | 15000 |
+| [CHF-USD](config/kairos/CHF-USD.json) | Daum, Naver, Yahoo | 10000 | 400 | 15000 |
 | [CHZ-KRW](config/kairos/CHZ-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [CKB-USDT](config/kairos/CKB-USDT.json) | binance, bingx, bitget, gateio, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
 | [COMP-USDT](config/kairos/COMP-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
@@ -327,7 +327,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [DOT-KRW](config/kairos/DOT-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [DOT-USDT](config/kairos/DOT-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 15000 |
 | [DYDX-USDT](config/kairos/DYDX-USDT.json) | binance, bingx, bitget, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [EARNUSDT-USDT](config/kairos/EARNUSDT-USDT.json) | Dragonswap | 2000 | 400 | 60000 |
+| [EARNUSDT-USDT](config/kairos/EARNUSDT-USDT.json) | DragonSwap | 2000 | 400 | 60000 |
 | [EGLD-USDT](config/kairos/EGLD-USDT.json) | binance, bingx, btse, bybit, crypto, gateio, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
 | [EIGEN-USDT](config/kairos/EIGEN-USDT.json) | binance, bingx, bitget, btse, bybit, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [ELIZAOS-USDT](config/kairos/ELIZAOS-USDT.json) | gateio, kucoin | 2000 | 400 | 60000 |
@@ -335,8 +335,8 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [ENS-KRW](config/kairos/ENS-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [ETC-KRW](config/kairos/ETC-KRW.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
 | [ETH-KRW](config/kairos/ETH-KRW.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
-| [ETH-USDT](config/kairos/ETH-USDT.json) | binance, bingx, bitget, bitstamp, btse, bybit, coinbase, crypto, gateio, huobi, kraken, kucoin, lbank, okx, orangex, UniswapV3:0.05, UniswapV3:0.3, xt | 2000 | 400 | 15000 |
-| [EUR-USD](config/kairos/EUR-USD.json) | bitstamp, daum, naver, Yahoo | 10000 | 400 | 15000 |
+| [ETH-USDT](config/kairos/ETH-USDT.json) | binance, bingx, bitget, bitstamp, btse, bybit, coinbase, crypto, gateio, huobi, kraken, kucoin, lbank, okx, orangex, UniswapV3, xt | 2000 | 400 | 15000 |
+| [EUR-USD](config/kairos/EUR-USD.json) | bitstamp, Daum, Naver, Yahoo | 10000 | 400 | 15000 |
 | [FARTCOIN-USDT](config/kairos/FARTCOIN-USDT.json) | bingx, bitget, btse, gateio, huobi, kraken, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
 | [FDUSD-USDT](config/kairos/FDUSD-USDT.json) | binance, bingx, gateio, mexc, xt | 2000 | 400 | 60000 |
 | [FIL-USDT](config/kairos/FIL-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
@@ -346,7 +346,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [FTT-USDT](config/kairos/FTT-USDT.json) | binance, bingx, bybit, gateio, huobi, kucoin, lbank, mexc, orangex | 2000 | 400 | 60000 |
 | [GALA-USDT](config/kairos/GALA-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [GAS-KRW](config/kairos/GAS-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
-| [GBP-USD](config/kairos/GBP-USD.json) | daum, naver, Yahoo | 10000 | 400 | 15000 |
+| [GBP-USD](config/kairos/GBP-USD.json) | Daum, Naver, Yahoo | 10000 | 400 | 15000 |
 | [GLM-KRW](config/kairos/GLM-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [GNO-USDT](config/kairos/GNO-USDT.json) | binance, bingx, gateio, huobi, mexc | 2000 | 400 | 60000 |
 | [GOOGL-USD](config/kairos/GOOGL-USD.json) | Yahoo | 10000 | 400 | 15000 |
@@ -359,15 +359,15 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [HNT-USDT](config/kairos/HNT-USDT.json) | bitget, bybit, crypto, gateio, kucoin, mexc, orangex, xt | 2000 | 400 | 60000 |
 | [HOT-USDT](config/kairos/HOT-USDT.json) | binance, bingx, gateio, huobi, lbank, mexc | 2000 | 400 | 60000 |
 | [HYPE-USDT](config/kairos/HYPE-USDT.json) | binance, bingx, bitget, bybit, gateio, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [IDR-USD](config/kairos/IDR-USD.json) | Daum, naver, Yahoo | 10000 | 400 | 60000 |
+| [IDR-USD](config/kairos/IDR-USD.json) | Daum, Naver, Yahoo | 10000 | 400 | 60000 |
 | [IDRP-USDT](config/kairos/IDRP-USDT.json) | DragonSwap | 2000 | 400 | 60000 |
-| [IDRX-USDT](config/kairos/IDRX-USDT.json) | DragonSwap, Pancakeswap, UniswapV3 | 2000 | 400 | 60000 |
+| [IDRX-USDT](config/kairos/IDRX-USDT.json) | DragonSwap, PancakeSwap, UniswapV3 | 2000 | 400 | 60000 |
 | [IMX-KRW](config/kairos/IMX-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [INJ-USDT](config/kairos/INJ-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
 | [IOTA-USDT](config/kairos/IOTA-USDT.json) | binance, bingx, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
 | [IQ-KRW](config/kairos/IQ-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [JASMY-USDT](config/kairos/JASMY-USDT.json) | binance, bingx, bitget, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
-| [JPY-USD](config/kairos/JPY-USD.json) | daum, Yahoo | 10000 | 400 | 15000 |
+| [JPY-USD](config/kairos/JPY-USD.json) | Daum, Yahoo | 10000 | 400 | 15000 |
 | [JPYC-USDT](config/kairos/JPYC-USDT.json) | UniswapV4 | 2000 | 400 | 60000 |
 | [JST-USDT](config/kairos/JST-USDT.json) | binance, bitget, bybit, gateio, huobi, kucoin, lbank, mexc, orangex | 2000 | 400 | 60000 |
 | [JTO-USDT](config/kairos/JTO-USDT.json) | binance, bingx, bitget, btse, bybit, gateio, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
@@ -378,8 +378,8 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [KAS-USDT](config/kairos/KAS-USDT.json) | bingx, bitget, btse, bybit, gateio, kraken, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
 | [KAVA-USDT](config/kairos/KAVA-USDT.json) | binance, bingx, bitget, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
 | [KNC-KRW](config/kairos/KNC-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
-| [KRW-USD](config/kairos/KRW-USD.json) | Daum, naver, Yahoo | 10000 | 400 | 15000 |
-| [KRWO-USDT](config/kairos/KRWO-USDT.json) | capybara, Dragonswap | 2000 | 400 | 60000 |
+| [KRW-USD](config/kairos/KRW-USD.json) | Daum, Naver, Yahoo | 10000 | 400 | 15000 |
+| [KRWO-USDT](config/kairos/KRWO-USDT.json) | Capybara, DragonSwap | 2000 | 400 | 60000 |
 | [KSM-USDT](config/kairos/KSM-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
 | [LDO-USDT](config/kairos/LDO-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [LINK-KRW](config/kairos/LINK-KRW.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
@@ -401,7 +401,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [MOVE-USDT](config/kairos/MOVE-USDT.json) | binance, bingx, bitget, bybit, gateio, huobi, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
 | [MSFT-USD](config/kairos/MSFT-USD.json) | Yahoo | 10000 | 400 | 15000 |
 | [MTL-KRW](config/kairos/MTL-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
-| [MYR-USD](config/kairos/MYR-USD.json) | Daum, naver, Yahoo | 10000 | 400 | 60000 |
+| [MYR-USD](config/kairos/MYR-USD.json) | Daum, Naver, Yahoo | 10000 | 400 | 60000 |
 | [MYRC-USDT](config/kairos/MYRC-USDT.json) | UniswapV3 | 2000 | 400 | 60000 |
 | [NEAR-KRW](config/kairos/NEAR-KRW.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
 | [NEO-USDT](config/kairos/NEO-USDT.json) | binance, bingx, bitget, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
@@ -442,7 +442,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [SEI-KRW](config/kairos/SEI-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [SEI-USDT](config/kairos/SEI-USDT.json) | binance, bingx, bitget, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [SFP-USDT](config/kairos/SFP-USDT.json) | binance, bingx, gateio, lbank, mexc | 2000 | 400 | 60000 |
-| [SGD-USD](config/kairos/SGD-USD.json) | Daum, naver, Yahoo | 10000 | 400 | 60000 |
+| [SGD-USD](config/kairos/SGD-USD.json) | Daum, Naver, Yahoo | 10000 | 400 | 60000 |
 | [SHIB-KRW](config/kairos/SHIB-KRW.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
 | [SHIB-USDT](config/kairos/SHIB-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
 | [SKY-USDT](config/kairos/SKY-USDT.json) | binance, bingx, bitget, btse, bybit, gateio, huobi, kucoin, mexc, okx, xt | 2000 | 400 | 60000 |
@@ -452,7 +452,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [SOL-USDT](config/kairos/SOL-USDT.json) | binance, bingx, bitget, btse, bybit, coinbase, crypto, gateio, huobi, kraken, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 15000 |
 | [SONIC-USDT](config/kairos/SONIC-USDT.json) | bingx, bitget, btse, bybit, gateio, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
 | [SPX-USDT](config/kairos/SPX-USDT.json) | bingx, btse, bybit, gateio, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
-| [STKAIA-KAIA](config/kairos/STKAIA-KAIA.json) | capybara, Dragonswap | 2000 | 400 | 60000 |
+| [STKAIA-KAIA](config/kairos/STKAIA-KAIA.json) | Capybara, DragonSwap | 2000 | 400 | 60000 |
 | [STRK-KRW](config/kairos/STRK-KRW.json) | bithumb | 2000 | 400 | 60000 |
 | [STX-KRW](config/kairos/STX-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [SUI-KRW](config/kairos/SUI-KRW.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
@@ -477,7 +477,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [VIRTUAL-USDT](config/kairos/VIRTUAL-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [VTHO-USDT](config/kairos/VTHO-USDT.json) | binance, bitget, bybit, gateio, kucoin, mexc | 2000 | 400 | 60000 |
 | [W-USDT](config/kairos/W-USDT.json) | binance, bingx, bitget, btse, bybit, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
-| [WALK-KAIA](config/kairos/WALK-KAIA.json) | Dragonswap | 2000 | 400 | 60000 |
+| [WALK-KAIA](config/kairos/WALK-KAIA.json) | DragonSwap | 2000 | 400 | 60000 |
 | [WAVES-KRW](config/kairos/WAVES-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [WEMIX-USDT](config/kairos/WEMIX-USDT.json) | bybit, gateio, kucoin, mexc, orangex, xt | 2000 | 400 | 15000 |
 | [WIF-USDT](config/kairos/WIF-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
@@ -497,7 +497,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [ZK-KRW](config/kairos/ZK-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [ZK-USDT](config/kairos/ZK-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [ZKJ-USDT](config/kairos/ZKJ-USDT.json) | bybit, gateio, kucoin, okx | 2000 | 400 | 60000 |
-| [ZP-KAIA](config/kairos/ZP-KAIA.json) | Dragonswap | 2000 | 400 | 15000 |
+| [ZP-KAIA](config/kairos/ZP-KAIA.json) | DragonSwap | 2000 | 400 | 15000 |
 | [ZRO-KRW](config/kairos/ZRO-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [ZRO-USDT](config/kairos/ZRO-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [ZRX-USDT](config/kairos/ZRX-USDT.json) | binance, bingx, bitget, btse, bybit, gateio, huobi, kucoin, mexc, okx, orangex | 2000 | 400 | 60000 |
