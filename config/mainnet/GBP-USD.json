@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "Yahoo-GBP-USD",
+      "name": "yahoo-GBP-USD",
       "definition": {
         "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=GBPUSD%3DX",
         "headers": {

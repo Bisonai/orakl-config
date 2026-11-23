@@ -56,15 +56,37 @@ def cell(value):
     return str(value).replace('|', '\\|')
 
 
+# Display names for non-wss feed-name prefixes, keyed by lowercased prefix.
+# Config prefixes are lowercase like wss ones (#232); this maps them to brand
+# case for the README. Unknown prefixes keep their case.
+SOURCE_NAMES = {
+    'capybara': 'Capybara',
+    'daum': 'Daum',
+    'dragonswap': 'DragonSwap',
+    'klayswap': 'KlaySwap',
+    'naver': 'Naver',
+    'pancakeswap': 'PancakeSwap',
+    'uniswapv3': 'UniswapV3',
+    'uniswapv4': 'UniswapV4',
+    'yahoo': 'Yahoo',
+}
+
+
+def display_source(prefix):
+    """Feed-name prefix -> README label: drop fee tier (`uniswapv3:0.05`), canonical case."""
+    base = prefix.split(':', 1)[0]
+    return SOURCE_NAMES.get(base.lower(), base)
+
+
 def source_name(feed):
-    """wss feeds -> provider; others (DEX pools, HTTP) -> feed-name prefix."""
+    """wss feeds -> provider; others (DEX pools, HTTP) -> normalized feed-name prefix."""
     definition = feed.get('definition')
     if isinstance(definition, dict) and definition.get('type') == 'wss' \
             and isinstance(definition.get('provider'), str):
         return definition['provider']
     name = feed.get('name')
     if isinstance(name, str) and name:
-        return name.split('-', 1)[0]
+        return display_source(name.split('-', 1)[0]) or None
     return None
 
 
@@ -95,8 +117,8 @@ def load_pair(path):
     if feeds and not sources:
         warn(path, 'no feed has a usable name/provider')
         return None
-    # Feed-name prefixes vary in case (e.g. PancakeSwap/Pancakeswap); list each
-    # source once, keeping the first spelling in (casefold, exact) order.
+    # Prefixes not in SOURCE_NAMES may still vary in case; list each source
+    # once, keeping the first spelling in (casefold, exact) order.
     unique = {}
     for s in sorted(sources, key=lambda s: (s.lower(), s)):
         unique.setdefault(s.lower(), s)

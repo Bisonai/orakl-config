@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "Dragonswap-ZP-KAIA",
+      "name": "dragonswap-ZP-KAIA",
       "definition": {
         "chainId": "8217",
         "address": "0xb1bcb17975407f2e9dbae748366b95e12f163a03",

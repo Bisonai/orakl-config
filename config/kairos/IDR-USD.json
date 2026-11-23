@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "Yahoo-IDR-USD",
+      "name": "yahoo-IDR-USD",
       "definition": {
         "url": "https://query2.finance.yahoo.com/v8/finance/chart/IDR=X",
         "headers": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "name": "Daum-IDR-USD",
+      "name": "daum-IDR-USD",
       "definition": {
         "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWIDR",
         "headers": {

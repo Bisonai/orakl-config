@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "Yahoo-CHF-USD",
+      "name": "yahoo-CHF-USD",
       "definition": {
         "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=CHFUSD%3DX",
         "headers": {

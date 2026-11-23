@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "Yahoo-MYR-USD",
+      "name": "yahoo-MYR-USD",
       "definition": {
         "url": "https://query2.finance.yahoo.com/v8/finance/chart/MYR=X",
         "headers": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "name": "Daum-MYR-USD",
+      "name": "daum-MYR-USD",
       "definition": {
         "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWMYR",
         "headers": {

@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "UniswapV3-0.3-WBTC-USDT",
+      "name": "uniswapv3-0.3-WBTC-USDT",
       "definition": {
         "chainId": "1",
         "address": "0x9db9e0e53058c89e5b94e29621a205198648425b",

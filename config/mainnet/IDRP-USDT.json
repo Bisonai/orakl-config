@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "DragonSwap-IDRP-USDT",
+      "name": "dragonswap-IDRP-USDT",
       "definition": {
         "chainId": "8217",
         "address": "0x9c76d9e9d8d95937df97290ff89d3fff33c2a9a7",
