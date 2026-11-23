@@ -189,8 +189,9 @@ class LoadArgsTest(unittest.TestCase):
     def test_bool_flags_parse_true_false(self):
         for flag in ("refresh", "onlysymbols", "replace"):
             for raw, want in (("true", True), ("True", True), (" true ", True), ("false", False), ("FALSE", False)):
-                args = gc.load_args([f"--{flag}", raw])
-                self.assertIs(getattr(args, flag), want, f"--{flag} {raw}")
+                with self.subTest(flag=flag, raw=raw):
+                    args = gc.load_args([f"--{flag}", raw])
+                    self.assertIs(getattr(args, flag), want)
 
     def test_bool_flags_reject_other_values(self):
         for flag in ("refresh", "onlysymbols", "replace"):
