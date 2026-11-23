@@ -12,6 +12,17 @@ jobs:
   dispatch:
     runs-on: ubuntu-24.04
     steps:
+      # Drifted bundle must not be dispatched to orakl (#262). Does not stop
+      # nodes syncing it from master; merge gate = required Bundles check.
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Check served bundles match sources
+        run: python script/collect-files.py --check
+
       - name: Generate GitHub App Token
         id: generate-token
         uses: actions/create-github-app-token@v3

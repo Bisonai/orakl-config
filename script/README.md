@@ -47,7 +47,7 @@ python script/collect-files.py           # rewrites all 4 bundles (whole-file co
 python script/collect-files.py --check   # exit 1 if a bundle != its source dir; writes nothing
 ```
 
-The committed bundles are not byte-reproducible (#236: different indent/key order); writing rewrites them with a cosmetic diff, so hand-edit bundles alongside `config/` instead. CI (`.github/workflows/bundles.yml`) runs `--check` on every PR and push to `master`: it compares parsed JSON, matching entries by `name` (bundle entry order and key order are ignored; within an entry, values incl. types and feed order must match exactly) and lists missing/extra/differing pairs and feeds.
+The committed bundles are not byte-reproducible (#236: different indent/key order); writing rewrites them with a cosmetic diff, so hand-edit bundles alongside `config/` instead. CI (`.github/workflows/bundles.yml`) runs `--check` on every PR and push to `master`: it compares parsed JSON, matching entries by `name` (bundle entry order and key order are ignored; within an entry, values incl. types and feed order must match exactly) and lists missing/extra/differing pairs and feeds. `.github/workflows/notify-orakl.yml` runs the same `--check` before dispatching `orakl-config-published`, so a drifted bundle on `master` is not dispatched to orakl (#262; nodes still sync it from `master` — only a required `Bundles` check blocks the merge). It only triggers on `*_feeds.json` changes, so if the fix touches only `config/`, re-run it by hand: `gh workflow run notify-orakl.yml -R Bisonai/orakl-config --ref master`.
 
 ## Generate README
 
@@ -61,4 +61,4 @@ python script/generate-readme.py --check   # exit 1 if README.md is stale
 python script/generate-readme.py --stdout  # print instead of writing
 ```
 
-CI (`.github/workflows/readme.yml`) runs it on every PR: for same-repo PRs it commits `chore: regenerate README` to the PR branch if the output changed, so `master` is current on merge. Fork PRs cannot be pushed to, so they run `--check` and fail if README.md is stale — run the script locally and commit the result. Manual `workflow_dispatch` runs also use `--check`.
+CI (`.github/workflows/readme.yml`) runs it on every PR: for same-repo PRs it commits `chore: regenerate README` to the PR branch if the output changed, so `master` is current on merge. The push uses the `orakl-bot` GitHub App token (not `GITHUB_TOKEN`), so the new head gets normal `README` and `Bundles` runs (#266). Fork PRs cannot be pushed to, so they run `--check` and fail if README.md is stale — run the script locally and commit the result. Manual `workflow_dispatch` runs also use `--check`.
