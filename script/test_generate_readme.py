@@ -2,7 +2,9 @@
 
 Run from the repo root:  python3 -m unittest discover -s script
 """
+import contextlib
 import importlib.util
+import io
 import json
 import tempfile
 import unittest
@@ -80,6 +82,14 @@ class LoadPairTest(unittest.TestCase):
     def test_unknown_prefix_case_variants_deduped(self):
         self.assertEqual(self.sources(pool("FooDex-ETH-USDT"), pool("foodex-ETH-USDT")),
                          ["FooDex"])
+
+    def test_malformed_outside_repo_warns_full_path(self):
+        self.path.write_text("not json")
+        err = io.StringIO()
+        with contextlib.redirect_stderr(err):
+            self.assertIsNone(gr.load_pair(self.path))
+        self.assertIn("skipping {}: could not read/parse JSON".format(self.path),
+                      err.getvalue())
 
 
 if __name__ == "__main__":
