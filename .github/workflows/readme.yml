@@ -77,12 +77,15 @@ jobs:
     runs-on: ubuntu-24.04
     env:
       # Same-repo PRs without Actions secrets (e.g. Dependabot) get an empty
-      # key; skip instead of failing in create-github-app-token (#306).
+      # key: fail with a clear message (like fork PRs), not in
+      # create-github-app-token (#306).
       BOT_KEY_SET: ${{ secrets.GH_ORAKL_BOT_PRIVATE_KEY != '' }}
     steps:
       - name: No orakl-bot key
         if: env.BOT_KEY_SET != 'true'
-        run: echo "::warning::README.md is out of date, but this run has no orakl-bot key (e.g. Dependabot PR); not pushing. Run 'python script/generate-readme.py' and commit README.md."
+        run: |
+          echo "::error::README.md is out of date and this run has no orakl-bot key (e.g. Dependabot PR), so it can't push. Run 'python script/generate-readme.py' and commit README.md."
+          exit 1
 
       - name: Generate GitHub App Token
         id: app-token
