@@ -410,11 +410,11 @@ def parse_bool(value):
 def load_args(argv=None):
     parser = argparse.ArgumentParser(description="Generate config files, it'll try to update existing config files, generate config file if not exist")
 
-    parser.add_argument("--onlysymbols", type=parse_bool, default=False, help="Will only reload symbols from each exchanges")
+    parser.add_argument("--onlysymbols", type=parse_bool, default=False, help="Will only reload symbols from each exchanges, true or false")
     parser.add_argument("--refresh", type=parse_bool, default=False, help="Refresh supported symbols from apis, true or false")
     parser.add_argument("--symbols", type=str, default="", required=False, help="configs to create, separated by comma, ex) btc-usdt, eth-usdt...")
     parser.add_argument("--network", type=str, default="kairos", choices=["mainnet", "kairos"], required=False, help="network to generate, defaults to kairos")
-    parser.add_argument("--replace", type=parse_bool, default=False, required=False, help="remove old ws sources and add new ones")
+    parser.add_argument("--replace", type=parse_bool, default=False, required=False, help="remove old ws sources and add new ones, true or false")
 
     args = parser.parse_args(argv)
 

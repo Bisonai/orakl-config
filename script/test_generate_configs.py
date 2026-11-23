@@ -188,14 +188,16 @@ class LoadArgsTest(unittest.TestCase):
 
     def test_bool_flags_parse_true_false(self):
         for flag in ("refresh", "onlysymbols", "replace"):
-            for raw, want in (("true", True), ("True", True), ("false", False), ("FALSE", False)):
+            for raw, want in (("true", True), ("True", True), (" true ", True), ("false", False), ("FALSE", False)):
                 args = gc.load_args([f"--{flag}", raw])
                 self.assertIs(getattr(args, flag), want, f"--{flag} {raw}")
 
     def test_bool_flags_reject_other_values(self):
-        for raw in ("0", "1", "yes", ""):
-            with mock.patch("sys.stderr", io.StringIO()), self.assertRaises(SystemExit):
-                gc.load_args(["--refresh", raw])
+        for flag in ("refresh", "onlysymbols", "replace"):
+            for raw in ("0", "1", "yes", ""):
+                with self.subTest(flag=flag, raw=raw), \
+                        mock.patch("sys.stderr", io.StringIO()), self.assertRaises(SystemExit):
+                    gc.load_args([f"--{flag}", raw])
 
 
 if __name__ == "__main__":
