@@ -178,6 +178,23 @@ class ReplaceConfigTest(unittest.TestCase):
         # xt failed to load -> kept
         self.assertEqual(names, ["naver-BTC-USDT", "xt-wss-BTC-USDT", "binance-wss-BTC-USDT"])
 
+    def test_keeps_pair_level_settings(self):
+        prev = {
+            "name": "WAVES-KRW", "fetchInterval": 1, "aggregateInterval": 2, "submitInterval": 3,
+            "feedDataFreshness": 60000, "priceSource": "mid",
+            "feeds": [gc.make_wss_object("upbit", "waves", "krw")],
+        }
+        with tempfile.TemporaryDirectory() as d:
+            with open(os.path.join(d, "WAVES-KRW.json"), "w") as f:
+                json.dump(prev, f)
+            gc.replace_config_file(d, "WAVES-KRW", [gc.make_wss_object("bithumb", "waves", "krw")])
+            with open(os.path.join(d, "WAVES-KRW.json")) as f:
+                out = json.load(f)
+        self.assertEqual(out["priceSource"], "mid")
+        self.assertEqual(out["feedDataFreshness"], 60000)
+        self.assertEqual((out["fetchInterval"], out["aggregateInterval"], out["submitInterval"]), (1, 2, 3))
+        self.assertEqual([x["name"] for x in out["feeds"]], ["bithumb-wss-WAVES-KRW"])
+
 
 class LoadArgsTest(unittest.TestCase):
     def test_bool_flags_default_false(self):
