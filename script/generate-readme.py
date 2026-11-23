@@ -39,6 +39,13 @@ Price-feed configuration for the Orakl Network oracle, per network (`mainnet` = 
 - `config/<network>/<PAIR>.json` — per-pair feed definitions (fetch / aggregate / submit intervals in ms, and the data-source feeds).
 - `<network>_feeds.json` — aggregated bundles served from the repo root.
 
+## Applying changes
+
+A merge updates the served bundles after the Pages deploy; they are served with `cache-control: max-age=600`, so wait until the served bundle shows the change (content or `last-modified`, up to ~10 min) before reloading. Consumers pick them up as follows.
+
+- **Oracle nodes** (`nodebin`): fetcher and aggregator load the bundle only at boot and on config sync, so **any** change (incl. pair-level fields such as `priceSource`, intervals or feeds) reaches them only after `nodebin admin reload` runs inside each node pod/host (or the node restarts). It runs config sync, then fetcher and aggregator refresh, and reads `ADMIN_TOKEN` itself, e.g. `kubectl -n orakl exec <pod> -c orakl-node -- nodebin admin reload` for every pod of the node. A reload logs about one `failed to get message from topic: context canceled` line per config; it is harmless (Bisonai/orakl#2985). The node's reporter is not touched by `admin reload`; it reloads on its own like the DAL (next item).
+- **Node reporter, DAL and sentinel** (DAL and on-chain checkers) poll every `CONFIG_RELOAD_INTERVAL` (default 5m); reporter and DAL also reload on SIGHUP (sentinel has no SIGHUP handler: the signal stops it). They apply added or removed pairs; reporter and on-chain checker also apply `submitInterval` changes. They refuse an empty bundle, an entry without or with a duplicate `name`, or a drop of more than 50 % of pairs, keep the old config and log the error on every poll; restart them to apply a large drop. Sentinel's DAL checker subscribes to websocket feeds only at startup, so added pairs get websocket push tracking after a restart.
+
 See [`script/README.md`](script/README.md) for the scripts that generate the bundles and this file.
 """
 
