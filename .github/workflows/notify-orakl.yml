@@ -12,7 +12,8 @@ jobs:
   dispatch:
     runs-on: ubuntu-24.04
     steps:
-      # Drifted bundle must not reach orakl (#262).
+      # Drifted bundle must not be dispatched to orakl (#262). Does not stop
+      # nodes syncing it from master; merge gate = required Bundles check.
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
