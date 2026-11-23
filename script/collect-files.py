@@ -218,9 +218,38 @@ def check_bundle(source_dir: Path, bundle_path: Path, root: Path = ROOT):
         errors.append(f"{name}: " + "; ".join(details or ["differs"]))
     return errors
 
+def check_feed_prefixes(source_dir: Path, root: Path = ROOT):
+    # #298: feed-name prefix (before the first "-") must be lowercase, else
+    # mixed-case names split the Prometheus `feed` label (#232). README lookup
+    # and bundle dedupe ignore case, so nothing else catches it. Unloadable or
+    # malformed files are skipped here (check_bundle reports them).
+    errors = []
+    for path in sorted((root / source_dir).glob("*.json")):
+        try:
+            config = load_json_from_path(path)
+        except (OSError, ValueError):
+            continue
+        feeds = config.get("feeds") if isinstance(config, dict) else None
+        if not isinstance(feeds, list):
+            continue
+        for feed in feeds:
+            name = feed.get("name") if isinstance(feed, dict) else None
+            if not isinstance(name, str):
+                continue
+            prefix = name.split("-", 1)[0]
+            if prefix != prefix.lower():
+                errors.append(f"{path.relative_to(root)}: feed {name!r}: prefix {prefix!r} must be lowercase ({prefix.lower()!r})")
+    return errors
+
 def check_bundles():
     failed = False
     for source_dir, bundle in BUNDLES:
+        prefix_errors = check_feed_prefixes(Path(source_dir))
+        if prefix_errors:
+            failed = True
+            print(f"::error::{source_dir}/ has feed names with non-lowercase prefix ({len(prefix_errors)} problem(s))")
+            for error in prefix_errors:
+                print(f"  {error}")
         errors = check_bundle(Path(source_dir), Path(bundle))
         if errors:
             failed = True
@@ -247,4 +276,6 @@ if __name__ == "__main__":
     if args.check:
         sys.exit(check_bundles())
     for source_dir, bundle in BUNDLES:
+        for error in check_feed_prefixes(Path(source_dir)):
+            print(f"warning: {error}", file=sys.stderr)
         collect_json_files(ROOT / source_dir, ROOT / bundle, False)

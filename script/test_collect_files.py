@@ -91,5 +91,33 @@ class CheckBundleTest(unittest.TestCase):
                          ["nope/: source directory not found"])
 
 
+class CheckFeedPrefixesTest(unittest.TestCase):
+    def setUp(self):
+        self._tmp = tempfile.TemporaryDirectory()
+        self.root = Path(self._tmp.name)
+        (self.root / "src").mkdir()
+
+    def tearDown(self):
+        self._tmp.cleanup()
+
+    def check(self, *names):
+        (self.root / "src" / "A-USDT.json").write_text(json.dumps(pair("A-USDT", *(feed(n) for n in names))))
+        return cf.check_feed_prefixes(Path("src"), self.root)
+
+    def test_lowercase_prefixes_pass(self):
+        self.assertEqual(self.check("binance-wss-BTC-USDT", "dragonswap-NEW-KAIA", "uniswapv3:0.3-ETH-USDT", "x"), [])
+
+    def test_mixed_case_prefix_fails(self):
+        [error] = self.check("dragonswap-OK-KAIA", "DragonSwap-NEW-KAIA")
+        self.assertIn("src/A-USDT.json", error)
+        self.assertIn("'DragonSwap-NEW-KAIA'", error)
+        self.assertIn("'dragonswap'", error)
+
+    def test_malformed_skipped(self):
+        (self.root / "src" / "bad.json").write_text('{"name": "A",}')
+        (self.root / "src" / "list.json").write_text('[]')
+        self.assertEqual(self.check({"x": 1}), [])
+
+
 if __name__ == "__main__":
     unittest.main()
