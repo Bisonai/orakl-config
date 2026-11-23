@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-FDUSD-USDT",
+      "name": "binance-wss:FDUSD-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "gateio-wss-FDUSD-USDT",
+      "name": "gateio-wss:FDUSD-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "mexc-wss-FDUSD-USDT",
+      "name": "mexc-wss:FDUSD-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "bingx-wss-FDUSD-USDT",
+      "name": "bingx-wss:FDUSD-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "xt-wss-FDUSD-USDT",
+      "name": "xt-wss:FDUSD-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

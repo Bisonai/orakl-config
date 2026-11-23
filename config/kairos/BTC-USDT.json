@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "uniswapv3-0.3-WBTC-USDT",
+      "name": "uniswapv3-0.3:WBTC-USDT",
       "definition": {
         "chainId": "1",
         "address": "0x9db9e0e53058c89e5b94e29621a205198648425b",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "binance-wss-BTC-USDT",
+      "name": "binance-wss:BTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "name": "coinbase-wss-BTC-USDT",
+      "name": "coinbase-wss:BTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "coinbase",
@@ -34,7 +34,7 @@
       }
     },
     {
-      "name": "kucoin-wss-BTC-USDT",
+      "name": "kucoin-wss:BTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "name": "bybit-wss-BTC-USDT",
+      "name": "bybit-wss:BTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "name": "bitstamp-wss-BTC-USDT",
+      "name": "bitstamp-wss:BTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitstamp",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "name": "crypto-wss-BTC-USDT",
+      "name": "crypto-wss:BTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "name": "btse-wss-BTC-USDT",
+      "name": "btse-wss:BTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "name": "gateio-wss-BTC-USDT",
+      "name": "gateio-wss:BTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "name": "lbank-wss-BTC-USDT",
+      "name": "lbank-wss:BTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -97,7 +97,7 @@
       }
     },
     {
-      "name": "bitget-wss-BTC-USDT",
+      "name": "bitget-wss:BTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -106,7 +106,7 @@
       }
     },
     {
-      "name": "huobi-wss-BTC-USDT",
+      "name": "huobi-wss:BTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "name": "okx-wss-BTC-USDT",
+      "name": "okx-wss:BTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "name": "bingx-wss-BTC-USDT",
+      "name": "bingx-wss:BTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -133,7 +133,7 @@
       }
     },
     {
-      "name": "xt-wss-BTC-USDT",
+      "name": "xt-wss:BTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -142,7 +142,7 @@
       }
     },
     {
-      "name": "orangex-wss-BTC-USDT",
+      "name": "orangex-wss:BTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

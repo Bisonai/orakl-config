@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "yahoo-JPY-USD",
+      "name": "yahoo:JPY-USD",
       "definition": {
         "url": "https://query2.finance.yahoo.com/v8/finance/chart/JPY=X",
         "headers": {
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "daum-JPY-USD",
+      "name": "daum:JPY-USD",
       "definition": {
         "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWJPY",
         "headers": {

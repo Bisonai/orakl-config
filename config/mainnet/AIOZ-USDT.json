@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "kucoin-wss-AIOZ-USDT",
+      "name": "kucoin-wss:AIOZ-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bybit-wss-AIOZ-USDT",
+      "name": "bybit-wss:AIOZ-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "gateio-wss-AIOZ-USDT",
+      "name": "gateio-wss:AIOZ-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "lbank-wss-AIOZ-USDT",
+      "name": "lbank-wss:AIOZ-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "bingx-wss-AIOZ-USDT",
+      "name": "bingx-wss:AIOZ-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "xt-wss-AIOZ-USDT",
+      "name": "xt-wss:AIOZ-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "orangex-wss-AIOZ-USDT",
+      "name": "orangex-wss:AIOZ-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

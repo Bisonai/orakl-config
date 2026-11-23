@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "gateio-wss-OKB-USDT",
+      "name": "gateio-wss:OKB-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "lbank-wss-OKB-USDT",
+      "name": "lbank-wss:OKB-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "mexc-wss-OKB-USDT",
+      "name": "mexc-wss:OKB-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "okx-wss-OKB-USDT",
+      "name": "okx-wss:OKB-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "bingx-wss-OKB-USDT",
+      "name": "bingx-wss:OKB-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "xt-wss-OKB-USDT",
+      "name": "xt-wss:OKB-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "orangex-wss-OKB-USDT",
+      "name": "orangex-wss:OKB-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

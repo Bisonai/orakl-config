@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-NEO-USDT",
+      "name": "binance-wss:NEO-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-NEO-USDT",
+      "name": "kucoin-wss:NEO-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "crypto-wss-NEO-USDT",
+      "name": "crypto-wss:NEO-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "gateio-wss-NEO-USDT",
+      "name": "gateio-wss:NEO-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "lbank-wss-NEO-USDT",
+      "name": "lbank-wss:NEO-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "bitget-wss-NEO-USDT",
+      "name": "bitget-wss:NEO-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "huobi-wss-NEO-USDT",
+      "name": "huobi-wss:NEO-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "mexc-wss-NEO-USDT",
+      "name": "mexc-wss:NEO-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "okx-wss-NEO-USDT",
+      "name": "okx-wss:NEO-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "bingx-wss-NEO-USDT",
+      "name": "bingx-wss:NEO-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "xt-wss-NEO-USDT",
+      "name": "xt-wss:NEO-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "kucoin-wss-ZKJ-USDT",
+      "name": "kucoin-wss:ZKJ-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bybit-wss-ZKJ-USDT",
+      "name": "bybit-wss:ZKJ-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "gateio-wss-ZKJ-USDT",
+      "name": "gateio-wss:ZKJ-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "okx-wss-ZKJ-USDT",
+      "name": "okx-wss:ZKJ-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",

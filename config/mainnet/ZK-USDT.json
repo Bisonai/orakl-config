@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-ZK-USDT",
+      "name": "binance-wss:ZK-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-ZK-USDT",
+      "name": "kucoin-wss:ZK-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-ZK-USDT",
+      "name": "bybit-wss:ZK-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "crypto-wss-ZK-USDT",
+      "name": "crypto-wss:ZK-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "btse-wss-ZK-USDT",
+      "name": "btse-wss:ZK-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "gateio-wss-ZK-USDT",
+      "name": "gateio-wss:ZK-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "lbank-wss-ZK-USDT",
+      "name": "lbank-wss:ZK-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "bitget-wss-ZK-USDT",
+      "name": "bitget-wss:ZK-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "mexc-wss-ZK-USDT",
+      "name": "mexc-wss:ZK-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "okx-wss-ZK-USDT",
+      "name": "okx-wss:ZK-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "bingx-wss-ZK-USDT",
+      "name": "bingx-wss:ZK-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "name": "xt-wss-ZK-USDT",
+      "name": "xt-wss:ZK-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -114,7 +114,7 @@
       }
     },
     {
-      "name": "orangex-wss-ZK-USDT",
+      "name": "orangex-wss:ZK-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

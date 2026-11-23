@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "bithumb-wss-BONK-KRW",
+      "name": "bithumb-wss:BONK-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",

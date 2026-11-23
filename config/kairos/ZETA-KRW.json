@@ -7,7 +7,7 @@
   "priceSource": "mid",
   "feeds": [
     {
-      "name": "upbit-wss-ZETA-KRW",
+      "name": "upbit-wss:ZETA-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "bithumb-wss-ZETA-KRW",
+      "name": "bithumb-wss:ZETA-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",

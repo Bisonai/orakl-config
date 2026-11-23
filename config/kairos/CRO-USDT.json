@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "kucoin-wss-CRO-USDT",
+      "name": "kucoin-wss:CRO-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "crypto-wss-CRO-USDT",
+      "name": "crypto-wss:CRO-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "gateio-wss-CRO-USDT",
+      "name": "gateio-wss:CRO-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "lbank-wss-CRO-USDT",
+      "name": "lbank-wss:CRO-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "mexc-wss-CRO-USDT",
+      "name": "mexc-wss:CRO-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "okx-wss-CRO-USDT",
+      "name": "okx-wss:CRO-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "kraken-wss-CRO-USDT",
+      "name": "kraken-wss:CRO-USDT",
       "definition": {
         "type": "wss",
         "provider": "kraken",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "bingx-wss-CRO-USDT",
+      "name": "bingx-wss:CRO-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "xt-wss-CRO-USDT",
+      "name": "xt-wss:CRO-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

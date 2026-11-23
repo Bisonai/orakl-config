@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "kucoin-wss-GRASS-USDT",
+      "name": "kucoin-wss:GRASS-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bybit-wss-GRASS-USDT",
+      "name": "bybit-wss:GRASS-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "gateio-wss-GRASS-USDT",
+      "name": "gateio-wss:GRASS-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "lbank-wss-GRASS-USDT",
+      "name": "lbank-wss:GRASS-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "bitget-wss-GRASS-USDT",
+      "name": "bitget-wss:GRASS-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "huobi-wss-GRASS-USDT",
+      "name": "huobi-wss:GRASS-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "mexc-wss-GRASS-USDT",
+      "name": "mexc-wss:GRASS-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "bingx-wss-GRASS-USDT",
+      "name": "bingx-wss:GRASS-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "okx-wss-GRASS-USDT",
+      "name": "okx-wss:GRASS-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "xt-wss-GRASS-USDT",
+      "name": "xt-wss:GRASS-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "kucoin-wss-MELANIA-USDT",
+      "name": "kucoin-wss:MELANIA-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "gateio-wss-MELANIA-USDT",
+      "name": "gateio-wss:MELANIA-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "lbank-wss-MELANIA-USDT",
+      "name": "lbank-wss:MELANIA-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "huobi-wss-MELANIA-USDT",
+      "name": "huobi-wss:MELANIA-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "mexc-wss-MELANIA-USDT",
+      "name": "mexc-wss:MELANIA-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "bingx-wss-MELANIA-USDT",
+      "name": "bingx-wss:MELANIA-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "xt-wss-MELANIA-USDT",
+      "name": "xt-wss:MELANIA-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

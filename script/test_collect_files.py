@@ -15,6 +15,10 @@ _spec = importlib.util.spec_from_file_location(
     "collect_files", Path(__file__).with_name("collect-files.py"))
 cf = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(cf)
+_gc_spec = importlib.util.spec_from_file_location(
+    "generate_configs", Path(__file__).with_name("generate-configs.py"))
+gc = importlib.util.module_from_spec(_gc_spec)
+_gc_spec.loader.exec_module(gc)
 
 
 def feed(name, provider="binance"):
@@ -107,19 +111,37 @@ class CheckFeedPrefixesTest(unittest.TestCase):
         (self.root / "src" / "A-USDT.json").write_text(json.dumps(pair("A-USDT", *(feed(n) for n in names))))
         return cf.check_feed_prefixes(Path("src"), self.root)
 
-    def test_lowercase_prefixes_pass(self):
-        self.assertEqual(self.check("binance-wss-BTC-USDT", "dragonswap-NEW-KAIA", "uniswapv3:0.3-ETH-USDT", "x"), [])
+    def test_well_formed_names_pass(self):
+        self.assertEqual(self.check("binance-wss:BTC-USDT", "dragonswap:NEW-KAIA",
+                                    "uniswapv3-0.3:ETH-USDT", "uniswapv4-polygon-005:USDC-JPYC"), [])
 
-    def test_mixed_case_prefix_fails(self):
-        [error] = self.check("dragonswap-OK-KAIA", "DragonSwap-NEW-KAIA")
+    def test_mixed_case_source_fails(self):
+        [error] = self.check("dragonswap:OK-KAIA", "DragonSwap:NEW-KAIA")
         self.assertIn("src/A-USDT.json", error)
-        self.assertIn("'DragonSwap-NEW-KAIA'", error)
+        self.assertIn("'DragonSwap:NEW-KAIA'", error)
         self.assertIn("'dragonswap'", error)
+
+    def test_malformed_names_fail(self):
+        errors = self.check("binance-wss-BTC-USDT", "a:b:C-D", ":BTC-USDT", "x:BTC", "x:btc-usdt",
+                            "binance-wss-:BTC-USDT", "a b:BTC-USDT")
+        self.assertEqual(len(errors), 7, errors)
+        self.assertIn("exactly one ':'", errors[0])
+        self.assertIn("exactly one ':'", errors[1])
+        self.assertIn("empty source", errors[2])
+        self.assertIn("pair 'BTC'", errors[3])
+        self.assertIn("pair 'btc-usdt'", errors[4])
+        self.assertIn("source 'binance-wss-'", errors[5])
+        self.assertIn("source 'a b'", errors[6])
+
+    def test_generator_names_pass(self):
+        names = [gc.make_wss_object(p, b, q)["name"] for p, b, q in
+                 [("binance", "btc", "usdt"), ("upbit", "1inch", "krw"), ("lbank", "MASK2", "usdt")]]
+        self.assertEqual(self.check(*names), [], names)
 
     def test_malformed_skipped(self):
         (self.root / "src" / "bad.json").write_text('{"name": "A",}')
         (self.root / "src" / "list.json").write_text('[]')
-        (self.root / "src" / "z.json").write_text(json.dumps(pair("Z-USDT", feed("Bad-Z-USDT"))))
+        (self.root / "src" / "z.json").write_text(json.dumps(pair("Z-USDT", feed("Bad:Z-USDT"))))
         [error] = self.check({"x": 1})
         self.assertIn("src/z.json", error)
 
@@ -135,9 +157,9 @@ class CheckBundlesTest(unittest.TestCase):
         return rc, out.getvalue()
 
     def test_prefix_error_alone_fails_without_ok(self):
-        rc, out = self.run_check(["src/A.json: feed 'Bad-X': prefix 'Bad' must be lowercase ('bad')"])
+        rc, out = self.run_check(["src/A.json: feed 'Bad:X-Y': source 'Bad' must be lowercase ('bad')"])
         self.assertEqual(rc, 1)
-        self.assertIn("non-lowercase prefix", out)
+        self.assertIn("malformed feed names", out)
         self.assertNotIn("OK", out)
 
     def test_clean_prints_ok(self):

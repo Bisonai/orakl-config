@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-XRP-USDT",
+      "name": "binance-wss:XRP-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-XRP-USDT",
+      "name": "kucoin-wss:XRP-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-XRP-USDT",
+      "name": "bybit-wss:XRP-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "bitstamp-wss-XRP-USDT",
+      "name": "bitstamp-wss:XRP-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitstamp",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "crypto-wss-XRP-USDT",
+      "name": "crypto-wss:XRP-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "btse-wss-XRP-USDT",
+      "name": "btse-wss:XRP-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "gateio-wss-XRP-USDT",
+      "name": "gateio-wss:XRP-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "lbank-wss-XRP-USDT",
+      "name": "lbank-wss:XRP-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "bitget-wss-XRP-USDT",
+      "name": "bitget-wss:XRP-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "huobi-wss-XRP-USDT",
+      "name": "huobi-wss:XRP-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "mexc-wss-XRP-USDT",
+      "name": "mexc-wss:XRP-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "name": "okx-wss-XRP-USDT",
+      "name": "okx-wss:XRP-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -114,7 +114,7 @@
       }
     },
     {
-      "name": "kraken-wss-XRP-USDT",
+      "name": "kraken-wss:XRP-USDT",
       "definition": {
         "type": "wss",
         "provider": "kraken",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "name": "bingx-wss-XRP-USDT",
+      "name": "bingx-wss:XRP-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -132,7 +132,7 @@
       }
     },
     {
-      "name": "xt-wss-XRP-USDT",
+      "name": "xt-wss:XRP-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -141,7 +141,7 @@
       }
     },
     {
-      "name": "orangex-wss-XRP-USDT",
+      "name": "orangex-wss:XRP-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

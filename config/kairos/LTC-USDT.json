@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-LTC-USDT",
+      "name": "binance-wss:LTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-LTC-USDT",
+      "name": "kucoin-wss:LTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-LTC-USDT",
+      "name": "bybit-wss:LTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "crypto-wss-LTC-USDT",
+      "name": "crypto-wss:LTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "btse-wss-LTC-USDT",
+      "name": "btse-wss:LTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "gateio-wss-LTC-USDT",
+      "name": "gateio-wss:LTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "lbank-wss-LTC-USDT",
+      "name": "lbank-wss:LTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "bitget-wss-LTC-USDT",
+      "name": "bitget-wss:LTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "mexc-wss-LTC-USDT",
+      "name": "mexc-wss:LTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "okx-wss-LTC-USDT",
+      "name": "okx-wss:LTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "kraken-wss-LTC-USDT",
+      "name": "kraken-wss:LTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "kraken",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "name": "bingx-wss-LTC-USDT",
+      "name": "bingx-wss:LTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -114,7 +114,7 @@
       }
     },
     {
-      "name": "xt-wss-LTC-USDT",
+      "name": "xt-wss:LTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "name": "orangex-wss-LTC-USDT",
+      "name": "orangex-wss:LTC-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

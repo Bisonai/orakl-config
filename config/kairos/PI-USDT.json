@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "gateio-wss-PI-USDT",
+      "name": "gateio-wss:PI-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "lbank-wss-PI-USDT",
+      "name": "lbank-wss:PI-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bitget-wss-PI-USDT",
+      "name": "bitget-wss:PI-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "mexc-wss-PI-USDT",
+      "name": "mexc-wss:PI-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "okx-wss-PI-USDT",
+      "name": "okx-wss:PI-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "xt-wss-PI-USDT",
+      "name": "xt-wss:PI-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

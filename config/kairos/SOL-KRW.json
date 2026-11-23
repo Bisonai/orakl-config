@@ -7,7 +7,7 @@
   "priceSource": "mid",
   "feeds": [
     {
-      "name": "upbit-wss-SOL-KRW",
+      "name": "upbit-wss:SOL-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "korbit-wss-SOL-KRW",
+      "name": "korbit-wss:SOL-KRW",
       "definition": {
         "type": "wss",
         "provider": "korbit",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "name": "bithumb-wss-SOL-KRW",
+      "name": "bithumb-wss:SOL-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
@@ -34,7 +34,7 @@
       }
     },
     {
-      "name": "coinone-wss-SOL-KRW",
+      "name": "coinone-wss:SOL-KRW",
       "definition": {
         "type": "wss",
         "provider": "coinone",

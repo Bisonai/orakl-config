@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-TUSD-USDT",
+      "name": "binance-wss:TUSD-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bitget-wss-TUSD-USDT",
+      "name": "bitget-wss:TUSD-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "huobi-wss-TUSD-USDT",
+      "name": "huobi-wss:TUSD-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "bingx-wss-TUSD-USDT",
+      "name": "bingx-wss:TUSD-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",

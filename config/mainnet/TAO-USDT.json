@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-TAO-USDT",
+      "name": "binance-wss:TAO-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-TAO-USDT",
+      "name": "kucoin-wss:TAO-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "gateio-wss-TAO-USDT",
+      "name": "gateio-wss:TAO-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "lbank-wss-TAO-USDT",
+      "name": "lbank-wss:TAO-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "bitget-wss-TAO-USDT",
+      "name": "bitget-wss:TAO-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "mexc-wss-TAO-USDT",
+      "name": "mexc-wss:TAO-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "bingx-wss-TAO-USDT",
+      "name": "bingx-wss:TAO-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "xt-wss-TAO-USDT",
+      "name": "xt-wss:TAO-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "okx-wss-TAO-USDT",
+      "name": "okx-wss:TAO-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",

@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "kucoin-wss-WEMIX-USDT",
+      "name": "kucoin-wss:WEMIX-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bybit-wss-WEMIX-USDT",
+      "name": "bybit-wss:WEMIX-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "gateio-wss-WEMIX-USDT",
+      "name": "gateio-wss:WEMIX-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "mexc-wss-WEMIX-USDT",
+      "name": "mexc-wss:WEMIX-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "xt-wss-WEMIX-USDT",
+      "name": "xt-wss:WEMIX-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "orangex-wss-WEMIX-USDT",
+      "name": "orangex-wss:WEMIX-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

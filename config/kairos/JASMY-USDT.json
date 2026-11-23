@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-JASMY-USDT",
+      "name": "binance-wss:JASMY-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-JASMY-USDT",
+      "name": "kucoin-wss:JASMY-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-JASMY-USDT",
+      "name": "bybit-wss:JASMY-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "crypto-wss-JASMY-USDT",
+      "name": "crypto-wss:JASMY-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "gateio-wss-JASMY-USDT",
+      "name": "gateio-wss:JASMY-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "lbank-wss-JASMY-USDT",
+      "name": "lbank-wss:JASMY-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "bitget-wss-JASMY-USDT",
+      "name": "bitget-wss:JASMY-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "huobi-wss-JASMY-USDT",
+      "name": "huobi-wss:JASMY-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "mexc-wss-JASMY-USDT",
+      "name": "mexc-wss:JASMY-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "bingx-wss-JASMY-USDT",
+      "name": "bingx-wss:JASMY-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "xt-wss-JASMY-USDT",
+      "name": "xt-wss:JASMY-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "name": "orangex-wss-JASMY-USDT",
+      "name": "orangex-wss:JASMY-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

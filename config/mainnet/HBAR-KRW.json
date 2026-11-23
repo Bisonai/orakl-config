@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "upbit-wss-HBAR-KRW",
+      "name": "upbit-wss:HBAR-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "korbit-wss-HBAR-KRW",
+      "name": "korbit-wss:HBAR-KRW",
       "definition": {
         "type": "wss",
         "provider": "korbit",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bithumb-wss-HBAR-KRW",
+      "name": "bithumb-wss:HBAR-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "coinone-wss-HBAR-KRW",
+      "name": "coinone-wss:HBAR-KRW",
       "definition": {
         "type": "wss",
         "provider": "coinone",

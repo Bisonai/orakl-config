@@ -7,7 +7,7 @@
   "priceSource": "mid",
   "feeds": [
     {
-      "name": "upbit-wss-DOGE-KRW",
+      "name": "upbit-wss:DOGE-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "korbit-wss-DOGE-KRW",
+      "name": "korbit-wss:DOGE-KRW",
       "definition": {
         "type": "wss",
         "provider": "korbit",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "name": "bithumb-wss-DOGE-KRW",
+      "name": "bithumb-wss:DOGE-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
@@ -34,7 +34,7 @@
       }
     },
     {
-      "name": "coinone-wss-DOGE-KRW",
+      "name": "coinone-wss:DOGE-KRW",
       "definition": {
         "type": "wss",
         "provider": "coinone",

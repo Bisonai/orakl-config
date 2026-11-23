@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-AXL-USDT",
+      "name": "binance-wss:AXL-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bybit-wss-AXL-USDT",
+      "name": "bybit-wss:AXL-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "crypto-wss-AXL-USDT",
+      "name": "crypto-wss:AXL-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "bitget-wss-AXL-USDT",
+      "name": "bitget-wss:AXL-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "xt-wss-AXL-USDT",
+      "name": "xt-wss:AXL-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "orangex-wss-AXL-USDT",
+      "name": "orangex-wss:AXL-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

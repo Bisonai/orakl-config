@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "korbit-wss-WLD-KRW",
+      "name": "korbit-wss:WLD-KRW",
       "definition": {
         "type": "wss",
         "provider": "korbit",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bithumb-wss-WLD-KRW",
+      "name": "bithumb-wss:WLD-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "coinone-wss-WLD-KRW",
+      "name": "coinone-wss:WLD-KRW",
       "definition": {
         "type": "wss",
         "provider": "coinone",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "upbit-wss-WLD-KRW",
+      "name": "upbit-wss:WLD-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",

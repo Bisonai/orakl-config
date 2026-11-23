@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "gateio-wss-GRND-USDT",
+      "name": "gateio-wss:GRND-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",

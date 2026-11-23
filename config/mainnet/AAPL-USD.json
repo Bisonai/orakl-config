@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "yahoo-AAPL-USD",
+      "name": "yahoo:AAPL-USD",
       "definition": {
         "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAPL?range=1d&interval=1m&includePrePost=true&events=div|split",
         "headers": {

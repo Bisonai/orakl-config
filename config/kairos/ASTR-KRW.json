@@ -7,7 +7,7 @@
   "priceSource": "mid",
   "feeds": [
     {
-      "name": "upbit-wss-ASTR-KRW",
+      "name": "upbit-wss:ASTR-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "bithumb-wss-ASTR-KRW",
+      "name": "bithumb-wss:ASTR-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",

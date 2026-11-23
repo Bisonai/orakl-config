@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "yahoo-SGD-USD",
+      "name": "yahoo:SGD-USD",
       "definition": {
         "url": "https://query2.finance.yahoo.com/v8/finance/chart/SGD=X",
         "headers": {
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "naver-SGD-USD",
+      "name": "naver:SGD-USD",
       "definition": {
         "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDSGD",
         "headers": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "name": "daum-SGD-USD",
+      "name": "daum:SGD-USD",
       "definition": {
         "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWSGD",
         "headers": {

@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-TRX-USDT",
+      "name": "binance-wss:TRX-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-TRX-USDT",
+      "name": "kucoin-wss:TRX-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-TRX-USDT",
+      "name": "bybit-wss:TRX-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "btse-wss-TRX-USDT",
+      "name": "btse-wss:TRX-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "gateio-wss-TRX-USDT",
+      "name": "gateio-wss:TRX-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "lbank-wss-TRX-USDT",
+      "name": "lbank-wss:TRX-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "bitget-wss-TRX-USDT",
+      "name": "bitget-wss:TRX-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "huobi-wss-TRX-USDT",
+      "name": "huobi-wss:TRX-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "mexc-wss-TRX-USDT",
+      "name": "mexc-wss:TRX-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "okx-wss-TRX-USDT",
+      "name": "okx-wss:TRX-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "bingx-wss-TRX-USDT",
+      "name": "bingx-wss:TRX-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "name": "xt-wss-TRX-USDT",
+      "name": "xt-wss:TRX-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -114,7 +114,7 @@
       }
     },
     {
-      "name": "orangex-wss-TRX-USDT",
+      "name": "orangex-wss:TRX-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "kucoin-wss-SPX-USDT",
+      "name": "kucoin-wss:SPX-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bybit-wss-SPX-USDT",
+      "name": "bybit-wss:SPX-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "btse-wss-SPX-USDT",
+      "name": "btse-wss:SPX-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "gateio-wss-SPX-USDT",
+      "name": "gateio-wss:SPX-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "lbank-wss-SPX-USDT",
+      "name": "lbank-wss:SPX-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "mexc-wss-SPX-USDT",
+      "name": "mexc-wss:SPX-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "bingx-wss-SPX-USDT",
+      "name": "bingx-wss:SPX-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "xt-wss-SPX-USDT",
+      "name": "xt-wss:SPX-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

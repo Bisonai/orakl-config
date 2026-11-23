@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "upbit-wss-POL-KRW",
+      "name": "upbit-wss:POL-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bithumb-wss-POL-KRW",
+      "name": "bithumb-wss:POL-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "coinone-wss-POL-KRW",
+      "name": "coinone-wss:POL-KRW",
       "definition": {
         "type": "wss",
         "provider": "coinone",

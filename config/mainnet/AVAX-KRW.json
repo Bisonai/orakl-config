@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "upbit-wss-AVAX-KRW",
+      "name": "upbit-wss:AVAX-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bithumb-wss-AVAX-KRW",
+      "name": "bithumb-wss:AVAX-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "coinone-wss-AVAX-KRW",
+      "name": "coinone-wss:AVAX-KRW",
       "definition": {
         "type": "wss",
         "provider": "coinone",

@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-FTT-USDT",
+      "name": "binance-wss:FTT-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-FTT-USDT",
+      "name": "kucoin-wss:FTT-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-FTT-USDT",
+      "name": "bybit-wss:FTT-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "gateio-wss-FTT-USDT",
+      "name": "gateio-wss:FTT-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "lbank-wss-FTT-USDT",
+      "name": "lbank-wss:FTT-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "huobi-wss-FTT-USDT",
+      "name": "huobi-wss:FTT-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "mexc-wss-FTT-USDT",
+      "name": "mexc-wss:FTT-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "bingx-wss-FTT-USDT",
+      "name": "bingx-wss:FTT-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "orangex-wss-FTT-USDT",
+      "name": "orangex-wss:FTT-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

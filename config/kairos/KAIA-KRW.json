@@ -7,7 +7,7 @@
   "priceSource": "mid",
   "feeds": [
     {
-      "name": "korbit-wss-KAIA-KRW",
+      "name": "korbit-wss:KAIA-KRW",
       "definition": {
         "type": "wss",
         "provider": "korbit",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "bithumb-wss-KAIA-KRW",
+      "name": "bithumb-wss:KAIA-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "name": "coinone-wss-KAIA-KRW",
+      "name": "coinone-wss:KAIA-KRW",
       "definition": {
         "type": "wss",
         "provider": "coinone",
@@ -34,7 +34,7 @@
       }
     },
     {
-      "name": "upbit-wss-KAIA-KRW",
+      "name": "upbit-wss:KAIA-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",

@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "kucoin-wss-DEEP-USDT",
+      "name": "kucoin-wss:DEEP-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bybit-wss-DEEP-USDT",
+      "name": "bybit-wss:DEEP-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "gateio-wss-DEEP-USDT",
+      "name": "gateio-wss:DEEP-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "mexc-wss-DEEP-USDT",
+      "name": "mexc-wss:DEEP-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "xt-wss-DEEP-USDT",
+      "name": "xt-wss:DEEP-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "lbank-wss-DEEP-USDT",
+      "name": "lbank-wss:DEEP-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "bitget-wss-DEEP-USDT",
+      "name": "bitget-wss:DEEP-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "bingx-wss-DEEP-USDT",
+      "name": "bingx-wss:DEEP-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "orangex-wss-DEEP-USDT",
+      "name": "orangex-wss:DEEP-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

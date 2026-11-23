@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "yahoo-GOOGL-USD",
+      "name": "yahoo:GOOGL-USD",
       "definition": {
         "url": "https://query2.finance.yahoo.com/v8/finance/chart/GOOGL?range=1d&interval=1m&includePrePost=true&events=div|split",
         "headers": {

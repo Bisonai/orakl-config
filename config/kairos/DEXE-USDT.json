@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-DEXE-USDT",
+      "name": "binance-wss:DEXE-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-DEXE-USDT",
+      "name": "kucoin-wss:DEXE-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "gateio-wss-DEXE-USDT",
+      "name": "gateio-wss:DEXE-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "lbank-wss-DEXE-USDT",
+      "name": "lbank-wss:DEXE-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "huobi-wss-DEXE-USDT",
+      "name": "huobi-wss:DEXE-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "mexc-wss-DEXE-USDT",
+      "name": "mexc-wss:DEXE-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "xt-wss-DEXE-USDT",
+      "name": "xt-wss:DEXE-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

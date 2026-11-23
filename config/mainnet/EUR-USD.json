@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "yahoo-EUR-USD",
+      "name": "yahoo:EUR-USD",
       "definition": {
         "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=EURUSD%3DX",
         "headers": {
@@ -48,7 +48,7 @@
       }
     },
     {
-      "name": "naver-EUR-USD",
+      "name": "naver:EUR-USD",
       "definition": {
         "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDEUR",
         "headers": {
@@ -71,7 +71,7 @@
       }
     },
     {
-      "name": "daum-EUR-USD",
+      "name": "daum:EUR-USD",
       "definition": {
         "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWEUR",
         "headers": {
@@ -90,7 +90,7 @@
       }
     },
     {
-      "name": "bitstamp-wss-EUR-USD",
+      "name": "bitstamp-wss:EUR-USD",
       "definition": {
         "type": "wss",
         "provider": "bitstamp",

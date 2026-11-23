@@ -7,7 +7,7 @@
   "priceSource": "mid",
   "feeds": [
     {
-      "name": "upbit-wss-PEPE-KRW",
+      "name": "upbit-wss:PEPE-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "korbit-wss-PEPE-KRW",
+      "name": "korbit-wss:PEPE-KRW",
       "definition": {
         "type": "wss",
         "provider": "korbit",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "name": "bithumb-wss-PEPE-KRW",
+      "name": "bithumb-wss:PEPE-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
@@ -34,7 +34,7 @@
       }
     },
     {
-      "name": "coinone-wss-PEPE-KRW",
+      "name": "coinone-wss:PEPE-KRW",
       "definition": {
         "type": "wss",
         "provider": "coinone",

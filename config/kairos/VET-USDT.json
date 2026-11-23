@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-VET-USDT",
+      "name": "binance-wss:VET-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-VET-USDT",
+      "name": "kucoin-wss:VET-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "crypto-wss-VET-USDT",
+      "name": "crypto-wss:VET-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "gateio-wss-VET-USDT",
+      "name": "gateio-wss:VET-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "lbank-wss-VET-USDT",
+      "name": "lbank-wss:VET-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "bitget-wss-VET-USDT",
+      "name": "bitget-wss:VET-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "huobi-wss-VET-USDT",
+      "name": "huobi-wss:VET-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "mexc-wss-VET-USDT",
+      "name": "mexc-wss:VET-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "bingx-wss-VET-USDT",
+      "name": "bingx-wss:VET-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "xt-wss-VET-USDT",
+      "name": "xt-wss:VET-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "bybit-wss-VET-USDT",
+      "name": "bybit-wss:VET-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",

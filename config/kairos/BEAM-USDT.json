@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "bybit-wss-BEAM-USDT",
+      "name": "bybit-wss:BEAM-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bitget-wss-BEAM-USDT",
+      "name": "bitget-wss:BEAM-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "orangex-wss-BEAM-USDT",
+      "name": "orangex-wss:BEAM-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "gateio-wss-BEAM-USDT",
+      "name": "gateio-wss:BEAM-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",

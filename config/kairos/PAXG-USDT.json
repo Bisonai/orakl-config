@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-PAXG-USDT",
+      "name": "binance-wss:PAXG-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-PAXG-USDT",
+      "name": "kucoin-wss:PAXG-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "crypto-wss-PAXG-USDT",
+      "name": "crypto-wss:PAXG-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "gateio-wss-PAXG-USDT",
+      "name": "gateio-wss:PAXG-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "lbank-wss-PAXG-USDT",
+      "name": "lbank-wss:PAXG-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "bitget-wss-PAXG-USDT",
+      "name": "bitget-wss:PAXG-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "bingx-wss-PAXG-USDT",
+      "name": "bingx-wss:PAXG-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "xt-wss-PAXG-USDT",
+      "name": "xt-wss:PAXG-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "okx-wss-PAXG-USDT",
+      "name": "okx-wss:PAXG-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",

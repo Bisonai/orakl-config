@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "uniswapv3-0.01-USDC-USDT",
+      "name": "uniswapv3-0.01:USDC-USDT",
       "definition": {
         "chainId": "1",
         "address": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "binance-wss-USDC-USDT",
+      "name": "binance-wss:USDC-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "name": "kucoin-wss-USDC-USDT",
+      "name": "kucoin-wss:USDC-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -34,7 +34,7 @@
       }
     },
     {
-      "name": "bybit-wss-USDC-USDT",
+      "name": "bybit-wss:USDC-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "name": "gateio-wss-USDC-USDT",
+      "name": "gateio-wss:USDC-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "name": "lbank-wss-USDC-USDT",
+      "name": "lbank-wss:USDC-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "name": "bitget-wss-USDC-USDT",
+      "name": "bitget-wss:USDC-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "name": "huobi-wss-USDC-USDT",
+      "name": "huobi-wss:USDC-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "name": "mexc-wss-USDC-USDT",
+      "name": "mexc-wss:USDC-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "name": "okx-wss-USDC-USDT",
+      "name": "okx-wss:USDC-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -97,7 +97,7 @@
       }
     },
     {
-      "name": "kraken-wss-USDC-USDT",
+      "name": "kraken-wss:USDC-USDT",
       "definition": {
         "type": "wss",
         "provider": "kraken",
@@ -106,7 +106,7 @@
       }
     },
     {
-      "name": "bingx-wss-USDC-USDT",
+      "name": "bingx-wss:USDC-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "name": "xt-wss-USDC-USDT",
+      "name": "xt-wss:USDC-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "name": "orangex-wss-USDC-USDT",
+      "name": "orangex-wss:USDC-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

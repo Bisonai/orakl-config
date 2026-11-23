@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-PENGU-USDT",
+      "name": "binance-wss:PENGU-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-PENGU-USDT",
+      "name": "kucoin-wss:PENGU-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-PENGU-USDT",
+      "name": "bybit-wss:PENGU-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "crypto-wss-PENGU-USDT",
+      "name": "crypto-wss:PENGU-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "btse-wss-PENGU-USDT",
+      "name": "btse-wss:PENGU-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "gateio-wss-PENGU-USDT",
+      "name": "gateio-wss:PENGU-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "lbank-wss-PENGU-USDT",
+      "name": "lbank-wss:PENGU-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "bitget-wss-PENGU-USDT",
+      "name": "bitget-wss:PENGU-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "huobi-wss-PENGU-USDT",
+      "name": "huobi-wss:PENGU-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "mexc-wss-PENGU-USDT",
+      "name": "mexc-wss:PENGU-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "okx-wss-PENGU-USDT",
+      "name": "okx-wss:PENGU-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "name": "bingx-wss-PENGU-USDT",
+      "name": "bingx-wss:PENGU-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -114,7 +114,7 @@
       }
     },
     {
-      "name": "xt-wss-PENGU-USDT",
+      "name": "xt-wss:PENGU-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "name": "orangex-wss-PENGU-USDT",
+      "name": "orangex-wss:PENGU-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

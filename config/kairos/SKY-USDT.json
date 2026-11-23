@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "kucoin-wss-SKY-USDT",
+      "name": "kucoin-wss:SKY-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bybit-wss-SKY-USDT",
+      "name": "bybit-wss:SKY-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bitget-wss-SKY-USDT",
+      "name": "bitget-wss:SKY-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "mexc-wss-SKY-USDT",
+      "name": "mexc-wss:SKY-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "okx-wss-SKY-USDT",
+      "name": "okx-wss:SKY-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "binance-wss-SKY-USDT",
+      "name": "binance-wss:SKY-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "btse-wss-SKY-USDT",
+      "name": "btse-wss:SKY-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "gateio-wss-SKY-USDT",
+      "name": "gateio-wss:SKY-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "huobi-wss-SKY-USDT",
+      "name": "huobi-wss:SKY-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "bingx-wss-SKY-USDT",
+      "name": "bingx-wss:SKY-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "xt-wss-SKY-USDT",
+      "name": "xt-wss:SKY-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

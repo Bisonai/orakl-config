@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-ZIL-USDT",
+      "name": "binance-wss:ZIL-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-ZIL-USDT",
+      "name": "kucoin-wss:ZIL-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-ZIL-USDT",
+      "name": "bybit-wss:ZIL-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "gateio-wss-ZIL-USDT",
+      "name": "gateio-wss:ZIL-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "lbank-wss-ZIL-USDT",
+      "name": "lbank-wss:ZIL-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "bitget-wss-ZIL-USDT",
+      "name": "bitget-wss:ZIL-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "huobi-wss-ZIL-USDT",
+      "name": "huobi-wss:ZIL-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "mexc-wss-ZIL-USDT",
+      "name": "mexc-wss:ZIL-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "okx-wss-ZIL-USDT",
+      "name": "okx-wss:ZIL-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "bingx-wss-ZIL-USDT",
+      "name": "bingx-wss:ZIL-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "xt-wss-ZIL-USDT",
+      "name": "xt-wss:ZIL-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

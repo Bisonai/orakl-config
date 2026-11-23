@@ -7,7 +7,7 @@
   "priceSource": "mid",
   "feeds": [
     {
-      "name": "upbit-wss-TRX-KRW",
+      "name": "upbit-wss:TRX-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "korbit-wss-TRX-KRW",
+      "name": "korbit-wss:TRX-KRW",
       "definition": {
         "type": "wss",
         "provider": "korbit",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "name": "bithumb-wss-TRX-KRW",
+      "name": "bithumb-wss:TRX-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
@@ -34,7 +34,7 @@
       }
     },
     {
-      "name": "coinone-wss-TRX-KRW",
+      "name": "coinone-wss:TRX-KRW",
       "definition": {
         "type": "wss",
         "provider": "coinone",

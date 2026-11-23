@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "kucoin-wss-HNT-USDT",
+      "name": "kucoin-wss:HNT-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bybit-wss-HNT-USDT",
+      "name": "bybit-wss:HNT-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "crypto-wss-HNT-USDT",
+      "name": "crypto-wss:HNT-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "gateio-wss-HNT-USDT",
+      "name": "gateio-wss:HNT-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "bitget-wss-HNT-USDT",
+      "name": "bitget-wss:HNT-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "xt-wss-HNT-USDT",
+      "name": "xt-wss:HNT-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "orangex-wss-HNT-USDT",
+      "name": "orangex-wss:HNT-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "mexc-wss-HNT-USDT",
+      "name": "mexc-wss:HNT-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",

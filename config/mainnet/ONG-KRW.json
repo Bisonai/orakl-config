@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "upbit-wss-ONG-KRW",
+      "name": "upbit-wss:ONG-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bithumb-wss-ONG-KRW",
+      "name": "bithumb-wss:ONG-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",

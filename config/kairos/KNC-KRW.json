@@ -7,7 +7,7 @@
   "priceSource": "mid",
   "feeds": [
     {
-      "name": "upbit-wss-KNC-KRW",
+      "name": "upbit-wss:KNC-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "bithumb-wss-KNC-KRW",
+      "name": "bithumb-wss:KNC-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",

@@ -1,5 +1,6 @@
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -39,7 +40,7 @@ def define_websocket_feed(feed_name, adapter_name):
     wsFeed = {}
     for ws in wsfetchers:
         if ws in feed_name.lower():
-            wsFeed["name"] = ws + "-wss-" + adapter_name
+            wsFeed["name"] = ws + "-wss:" + adapter_name
             wsFeed["definition"] = {}
             wsFeed["definition"]["type"] = "wss"
             wsFeed["definition"]["provider"] = ws
@@ -102,7 +103,7 @@ def generate_config_file(adapter_path: Path, aggregator_path: Path, output_file_
         for feed in adapter["feeds"]:
             for ws in wsfetchers:
                 if ws in feed["name"].lower():
-                    feed["name"] = ws + "-wss-" + adapter["name"]
+                    feed["name"] = ws + "-wss:" + adapter["name"]
                     feed["definition"] = {}
                     feed["definition"]["type"] = "wss"
 
@@ -218,12 +219,17 @@ def check_bundle(source_dir: Path, bundle_path: Path, root: Path = ROOT):
         errors.append(f"{name}: " + "; ".join(details or ["differs"]))
     return errors
 
+FEED_PAIR = re.compile(r"[A-Z0-9]+-[A-Z0-9]+")
+# lowercase source, optional `-` qualifiers: binance-wss, uniswapv3-0.3, uniswapv4-polygon-005
+FEED_SOURCE = re.compile(r"[a-z0-9]+(-[a-z0-9.]+)*")
+
 def check_feed_prefixes(source_dir: Path, root: Path = ROOT):
-    # #298: feed-name prefix (before the first "-"; whole name if no "-") must be lowercase, else
-    # mixed-case names split the Prometheus `feed` label (#232). README lookup
-    # and bundle dedupe ignore case, so nothing else catches it. Unloadable
-    # files are skipped (check_bundle reports them); so are non-list "feeds"
-    # and feeds without a string "name" (not validated here).
+    # Feed names must be `<source>:<BASE>-<QUOTE>` (#297): exactly one ":", a
+    # non-empty lowercase source (#298: mixed case splits the Prometheus `feed`
+    # label, #232; README lookup and bundle dedupe ignore case, so nothing else
+    # catches it) and an uppercase BASE-QUOTE pair. Unloadable files are skipped
+    # (check_bundle reports them); so are non-list "feeds" and feeds without a
+    # string "name" (not validated here).
     errors = []
     for path in sorted((root / source_dir).glob("*.json")):
         try:
@@ -237,9 +243,19 @@ def check_feed_prefixes(source_dir: Path, root: Path = ROOT):
             name = feed.get("name") if isinstance(feed, dict) else None
             if not isinstance(name, str):
                 continue
-            prefix = name.split("-", 1)[0]
-            if prefix != prefix.lower():
-                errors.append(f"{path.relative_to(root)}: feed {name!r}: prefix {prefix!r} must be lowercase ({prefix.lower()!r})")
+            where = f"{path.relative_to(root)}: feed {name!r}"
+            if name.count(":") != 1:
+                errors.append(f"{where}: must be '<source>:<BASE>-<QUOTE>' (exactly one ':')")
+                continue
+            source, pair = name.split(":")
+            if not source:
+                errors.append(f"{where}: empty source before ':'")
+            elif source != source.lower():
+                errors.append(f"{where}: source {source!r} must be lowercase ({source.lower()!r})")
+            elif not FEED_SOURCE.fullmatch(source):
+                errors.append(f"{where}: source {source!r} must be <name>[-<qualifier>...] (a-z, 0-9, '.')")
+            if not FEED_PAIR.fullmatch(pair):
+                errors.append(f"{where}: pair {pair!r} must be <BASE>-<QUOTE> (uppercase letters/digits)")
     return errors
 
 def check_bundles():
@@ -248,7 +264,7 @@ def check_bundles():
         prefix_errors = check_feed_prefixes(Path(source_dir))
         if prefix_errors:
             failed = True
-            print(f"::error::{source_dir}/ has feed names with non-lowercase prefix ({len(prefix_errors)} problem(s))")
+            print(f"::error::{source_dir}/ has malformed feed names ({len(prefix_errors)} problem(s))")
             for error in prefix_errors:
                 print(f"  {error}")
         errors = check_bundle(Path(source_dir), Path(bundle))

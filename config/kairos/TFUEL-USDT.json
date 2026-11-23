@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-TFUEL-USDT",
+      "name": "binance-wss:TFUEL-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-TFUEL-USDT",
+      "name": "kucoin-wss:TFUEL-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "gateio-wss-TFUEL-USDT",
+      "name": "gateio-wss:TFUEL-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "mexc-wss-TFUEL-USDT",
+      "name": "mexc-wss:TFUEL-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
