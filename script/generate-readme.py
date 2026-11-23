@@ -49,7 +49,12 @@ def valid_interval(value):
 
 
 def warn(path, msg):
-    print('skipping {}: {}'.format(path.relative_to(ROOT), msg), file=sys.stderr)
+    try:
+        shown = path.relative_to(ROOT)
+    except ValueError:
+        # Path outside the repo (e.g. a test tempdir): show it in full.
+        shown = path
+    print('skipping {}: {}'.format(shown, msg), file=sys.stderr)
 
 
 def cell(value):
