@@ -31,5 +31,9 @@ jobs:
       - name: Check served bundles match sources
         run: python script/collect-files.py --check
 
-      - name: Unit tests (collect-files)
-        run: python -m unittest discover -s script -p test_collect_files.py
+      # All script tests (#296); test_generate_configs needs requests (mocked, no network).
+      - name: Install script deps
+        run: pip install -r requirements.txt
+
+      - name: Unit tests (script/test_*.py)
+        run: python -m unittest discover -s script -p 'test_*.py'
