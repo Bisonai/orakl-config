@@ -139,6 +139,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:A-KRW",
@@ -166,6 +167,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:AAVE-KRW",
@@ -292,6 +294,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:ADA-KRW",
@@ -670,6 +673,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:AKT-KRW",
@@ -823,6 +827,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:APT-KRW",
@@ -1102,6 +1107,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:ARB-KRW",
@@ -1129,6 +1135,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:ASTR-KRW",
@@ -1417,6 +1424,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:AUCTION-KRW",
@@ -1444,6 +1452,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:AVAX-KRW",
@@ -1660,6 +1669,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:AWE-KRW",
@@ -1750,6 +1760,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:AXS-KRW",
@@ -1985,6 +1996,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:BCH-KRW",
@@ -2345,6 +2357,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "bithumb-wss:BONK-KRW",
@@ -2498,6 +2511,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:BORA-KRW",
@@ -2615,6 +2629,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:BSV-KRW",
@@ -2642,6 +2657,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:BTC-KRW",
@@ -3258,6 +3274,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:CHZ-KRW",
@@ -3807,6 +3824,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:CTC-KRW",
@@ -4168,6 +4186,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:DOGE-KRW",
@@ -4348,6 +4367,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:DOT-KRW",
@@ -5023,6 +5043,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:ENS-KRW",
@@ -5050,6 +5071,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:ETC-KRW",
@@ -5086,6 +5108,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:ETH-KRW",
@@ -6216,6 +6239,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:GAS-KRW",
@@ -6336,6 +6360,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:GLM-KRW",
@@ -6507,6 +6532,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "bithumb-wss:GRND-KRW",
@@ -6552,6 +6578,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:GRT-KRW",
@@ -6624,6 +6651,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:HBAR-KRW",
@@ -7045,6 +7073,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:IMX-KRW",
@@ -7288,6 +7317,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:IQ-KRW",
@@ -7842,6 +7872,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "korbit-wss:KAIA-KRW",
@@ -8319,6 +8350,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:KNC-KRW",
@@ -8742,6 +8774,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:LINK-KRW",
@@ -9399,6 +9432,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:MBL-KRW",
@@ -9426,6 +9460,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "bithumb-wss:MBX-KRW",
@@ -9444,6 +9479,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:MED-KRW",
@@ -9543,6 +9579,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:MINA-KRW",
@@ -9678,6 +9715,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:MLK-KRW",
@@ -10020,6 +10058,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:MTL-KRW",
@@ -10136,6 +10175,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:NEAR-KRW",
@@ -10604,6 +10644,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:ONDO-KRW",
@@ -10775,6 +10816,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:ONG-KRW",
@@ -11225,6 +11267,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:PEPE-KRW",
@@ -11624,6 +11667,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:POL-KRW",
@@ -11894,6 +11938,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:PYTH-KRW",
@@ -12965,6 +13010,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:SAND-KRW",
@@ -13127,6 +13173,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:SEI-KRW",
@@ -13423,6 +13470,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:SHIB-KRW",
@@ -13712,6 +13760,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:SNT-KRW",
@@ -13865,6 +13914,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:SOL-KRW",
@@ -14243,6 +14293,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "bithumb-wss:STRK-KRW",
@@ -14261,6 +14312,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:STX-KRW",
@@ -14288,6 +14340,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:SUI-KRW",
@@ -15026,6 +15079,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:TRX-KRW",
@@ -15667,6 +15721,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:USDT-KRW",
@@ -16254,6 +16309,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:WAVES-KRW",
@@ -16479,6 +16535,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "korbit-wss:WLD-KRW",
@@ -16911,6 +16968,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:XEC-KRW",
@@ -16938,6 +16996,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:XLM-KRW",
@@ -17028,6 +17087,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:XRP-KRW",
@@ -17352,6 +17412,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:ZETA-KRW",
@@ -17487,6 +17548,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:ZK-KRW",
@@ -17705,6 +17767,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "upbit-wss:ZRO-KRW",
