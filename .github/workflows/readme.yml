@@ -15,28 +15,17 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  # Runs PR-branch Python, so it never gets the App token (#294).
   regenerate:
     runs-on: ubuntu-24.04
+    outputs:
+      changed: ${{ steps.regen.outputs.changed }}
     steps:
-      # Same-repo PR only: fork PRs get no secrets.
-      - name: Generate GitHub App Token
-        id: app-token
-        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
-        uses: actions/create-github-app-token@v3
-        with:
-          client-id: Iv1.c13a65499d8e95e6
-          private-key: ${{ secrets.GH_ORAKL_BOT_PRIVATE_KEY }}
-          owner: bisonai
-          repositories: orakl-config
-          permission-contents: write
-
       - uses: actions/checkout@v4
         with:
-          # Same-repo PR: check out the branch itself so we can push to it.
+          # Same-repo PR: the head commit itself (push job commits on top).
           # Fork PR / dispatch: default ref (read-only check).
-          ref: ${{ github.event.pull_request.head.repo.full_name == github.repository && github.head_ref || '' }}
-          # Don't leave the App token in .git/config while PR-branch scripts
-          # run; only the push step gets it (#294).
+          ref: ${{ github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.head.sha || '' }}
           persist-credentials: false
 
       - uses: actions/setup-python@v5
@@ -70,27 +59,61 @@ jobs:
             echo "README.md up to date; no changes."
             exit 0
           fi
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Upload README
+        if: steps.regen.outputs.changed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: readme
+          path: README.md
+          retention-days: 1
+
+  # Gets the token; runs no PR code: fresh checkout, takes only the README
+  # file from the regenerate job.
+  push:
+    needs: regenerate
+    if: needs.regenerate.outputs.changed == 'true'
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Generate GitHub App Token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: Iv1.c13a65499d8e95e6
+          private-key: ${{ secrets.GH_ORAKL_BOT_PRIVATE_KEY }}
+          owner: bisonai
+          repositories: orakl-config
+          permission-contents: write
+
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: readme
+          path: ${{ runner.temp }}/readme
+
+      # Push re-triggers this workflow on the new head; it regenerates no diff
+      # there, so no loop. Same commit as regenerate checked out: if the branch
+      # moved meanwhile, the push is rejected (non-fast-forward), not clobbered.
+      - name: Commit and push README
+        env:
+          TOKEN: ${{ steps.app-token.outputs.token }}
+          HEAD_REF: ${{ github.head_ref }}
+          README_SRC: ${{ runner.temp }}/readme/README.md
+        run: |
+          cp "$README_SRC" README.md
           git config user.name "orakl-bot[bot]"
           git config user.email "162664606+orakl-bot[bot]@users.noreply.github.com"
           git add README.md
           git commit -m "chore: regenerate README"
-          echo "changed=true" >> "$GITHUB_OUTPUT"
-
-      # Separate step: the token is not in the env of the regen step. Header via
-      # GIT_CONFIG_* env (not .git/config, not argv); hooks off so nothing the
-      # regen step wrote under .git/hooks runs with it.
-      # Push re-triggers this workflow on the new head; it regenerates no diff
-      # there and exits above, so no loop.
-      - name: Push README
-        if: steps.regen.outputs.changed == 'true'
-        env:
-          TOKEN: ${{ steps.app-token.outputs.token }}
-          HEAD_REF: ${{ github.head_ref }}
-        run: |
+          # Header via GIT_CONFIG_* env: not in .git/config or argv.
           auth=$(printf 'x-access-token:%s' "$TOKEN" | base64 -w0)
           echo "::add-mask::$auth"
-          export GIT_CONFIG_COUNT=2
-          export GIT_CONFIG_KEY_0=core.hooksPath GIT_CONFIG_VALUE_0=/dev/null
-          export GIT_CONFIG_KEY_1=http.https://github.com/.extraheader
-          export GIT_CONFIG_VALUE_1="AUTHORIZATION: basic $auth"
+          export GIT_CONFIG_COUNT=1
+          export GIT_CONFIG_KEY_0=http.https://github.com/.extraheader
+          export GIT_CONFIG_VALUE_0="AUTHORIZATION: basic $auth"
           git push origin "HEAD:$HEAD_REF"

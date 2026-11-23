@@ -33,7 +33,10 @@ jobs:
 
       # All script tests (#296); test_generate_configs needs requests (mocked, no network).
       - name: Install script deps
+        # Run even if the bundle check failed.
+        if: ${{ !cancelled() }}
         run: pip install -r requirements.txt
 
       - name: Unit tests (script/test_*.py)
+        if: ${{ !cancelled() }}
         run: python -m unittest discover -s script -p 'test_*.py'
