@@ -19,7 +19,6 @@
   "okx": "https://www.okx.com/api/v5/public/instruments?instType=SPOT",
   "kraken": "https://api.kraken.com/0/public/AssetPairs",
   "bingx": "https://open-api.bingx.com/openApi/spot/v1/common/symbols",
-  "bitmart": "https://api-cloud.bitmart.com/spot/v1/symbols",
   "xt": "https://sapi.xt.com/v4/public/symbol",
   "orangex": "https://api.orangex.com/api/v1/public/get_instruments?currency=spot",
   "hashkey": "https://api-glb.hashkey.com/api/v1/exchangeInfo"

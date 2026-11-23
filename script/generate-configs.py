@@ -19,7 +19,6 @@ DEFAULT_AGGREGATE_INTERVAL = 400
 DEFAULT_SUBMIT_INTERVAL = 60000 # 1 minute
 
 filter_outs = {
-    "bitmart": ["joyusdt"],
     "bitget": ["joyusdt", "crousdt",  # crousdt: halted, frozen (#253)
                "brettusdt", "wemixusdt"],  # dead/not listed (2026-11-20)
     "huobi": ["joyusdt", "elizaosusdt", "safeusdt", "superusdt",  # dead/not listed (2026-11-20)
@@ -262,13 +261,6 @@ def get_bingx_symbols(url):
         result.append(entry["symbol"].replace("-","").lower())
     return result
 
-def get_bitmart_symbols(url):
-    result = []
-    json_data = load_json_from_url(url)
-    for entry in json_data["data"]["symbols"]:
-        result.append(entry.replace("_","").lower())
-    return result
-
 def get_xt_symbols(url):
     result = []
     json_data = load_json_from_url(url)
@@ -309,7 +301,6 @@ SYMBOL_LOADERS = {
     "okx": get_okx_symbols,
     "kraken": get_kraken_symbols,
     "bingx": get_bingx_symbols,
-    "bitmart": get_bitmart_symbols,
     "xt": get_xt_symbols,
     "orangex": get_orangex_symbols,
     "hashkey": get_hashkey_symbols,
