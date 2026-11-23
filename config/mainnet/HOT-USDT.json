@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-HOT-USDT",
+      "name": "binance-wss:HOT-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "gateio-wss-HOT-USDT",
+      "name": "gateio-wss:HOT-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "lbank-wss-HOT-USDT",
+      "name": "lbank-wss:HOT-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "huobi-wss-HOT-USDT",
+      "name": "huobi-wss:HOT-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "mexc-wss-HOT-USDT",
+      "name": "mexc-wss:HOT-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "bingx-wss-HOT-USDT",
+      "name": "bingx-wss:HOT-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",

@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-EGLD-USDT",
+      "name": "binance-wss:EGLD-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-EGLD-USDT",
+      "name": "kucoin-wss:EGLD-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-EGLD-USDT",
+      "name": "bybit-wss:EGLD-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "crypto-wss-EGLD-USDT",
+      "name": "crypto-wss:EGLD-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "gateio-wss-EGLD-USDT",
+      "name": "gateio-wss:EGLD-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "lbank-wss-EGLD-USDT",
+      "name": "lbank-wss:EGLD-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "mexc-wss-EGLD-USDT",
+      "name": "mexc-wss:EGLD-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "okx-wss-EGLD-USDT",
+      "name": "okx-wss:EGLD-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "bingx-wss-EGLD-USDT",
+      "name": "bingx-wss:EGLD-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "xt-wss-EGLD-USDT",
+      "name": "xt-wss:EGLD-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "btse-wss-EGLD-USDT",
+      "name": "btse-wss:EGLD-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",

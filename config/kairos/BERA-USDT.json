@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-BERA-USDT",
+      "name": "binance-wss:BERA-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-BERA-USDT",
+      "name": "kucoin-wss:BERA-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-BERA-USDT",
+      "name": "bybit-wss:BERA-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "gateio-wss-BERA-USDT",
+      "name": "gateio-wss:BERA-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "lbank-wss-BERA-USDT",
+      "name": "lbank-wss:BERA-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "bitget-wss-BERA-USDT",
+      "name": "bitget-wss:BERA-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "huobi-wss-BERA-USDT",
+      "name": "huobi-wss:BERA-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "mexc-wss-BERA-USDT",
+      "name": "mexc-wss:BERA-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "okx-wss-BERA-USDT",
+      "name": "okx-wss:BERA-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "bingx-wss-BERA-USDT",
+      "name": "bingx-wss:BERA-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "xt-wss-BERA-USDT",
+      "name": "xt-wss:BERA-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "name": "orangex-wss-BERA-USDT",
+      "name": "orangex-wss:BERA-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

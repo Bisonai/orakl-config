@@ -7,7 +7,7 @@
   "decimals": 16,
   "feeds": [
     {
-      "name": "kucoin-wss-BABYDOGE-USDT",
+      "name": "kucoin-wss:BABYDOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "bybit-wss-BABYDOGE-USDT",
+      "name": "bybit-wss:BABYDOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "name": "gateio-wss-BABYDOGE-USDT",
+      "name": "gateio-wss:BABYDOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -34,7 +34,7 @@
       }
     },
     {
-      "name": "lbank-wss-BABYDOGE-USDT",
+      "name": "lbank-wss:BABYDOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "name": "bitget-wss-BABYDOGE-USDT",
+      "name": "bitget-wss:BABYDOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "name": "huobi-wss-BABYDOGE-USDT",
+      "name": "huobi-wss:BABYDOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "name": "mexc-wss-BABYDOGE-USDT",
+      "name": "mexc-wss:BABYDOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "name": "okx-wss-BABYDOGE-USDT",
+      "name": "okx-wss:BABYDOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "name": "bingx-wss-BABYDOGE-USDT",
+      "name": "bingx-wss:BABYDOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",

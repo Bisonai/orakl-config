@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-TWT-USDT",
+      "name": "binance-wss:TWT-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-TWT-USDT",
+      "name": "kucoin-wss:TWT-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-TWT-USDT",
+      "name": "bybit-wss:TWT-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "gateio-wss-TWT-USDT",
+      "name": "gateio-wss:TWT-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "lbank-wss-TWT-USDT",
+      "name": "lbank-wss:TWT-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "bitget-wss-TWT-USDT",
+      "name": "bitget-wss:TWT-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "mexc-wss-TWT-USDT",
+      "name": "mexc-wss:TWT-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "bingx-wss-TWT-USDT",
+      "name": "bingx-wss:TWT-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "xt-wss-TWT-USDT",
+      "name": "xt-wss:TWT-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

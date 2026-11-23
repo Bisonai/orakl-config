@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-ALGO-USDT",
+      "name": "binance-wss:ALGO-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-ALGO-USDT",
+      "name": "kucoin-wss:ALGO-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-ALGO-USDT",
+      "name": "bybit-wss:ALGO-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "crypto-wss-ALGO-USDT",
+      "name": "crypto-wss:ALGO-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "btse-wss-ALGO-USDT",
+      "name": "btse-wss:ALGO-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "gateio-wss-ALGO-USDT",
+      "name": "gateio-wss:ALGO-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "lbank-wss-ALGO-USDT",
+      "name": "lbank-wss:ALGO-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "bitget-wss-ALGO-USDT",
+      "name": "bitget-wss:ALGO-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "huobi-wss-ALGO-USDT",
+      "name": "huobi-wss:ALGO-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "mexc-wss-ALGO-USDT",
+      "name": "mexc-wss:ALGO-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "okx-wss-ALGO-USDT",
+      "name": "okx-wss:ALGO-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "name": "bingx-wss-ALGO-USDT",
+      "name": "bingx-wss:ALGO-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -114,7 +114,7 @@
       }
     },
     {
-      "name": "xt-wss-ALGO-USDT",
+      "name": "xt-wss:ALGO-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

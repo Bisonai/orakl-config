@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-CELO-USDT",
+      "name": "binance-wss:CELO-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-CELO-USDT",
+      "name": "kucoin-wss:CELO-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-CELO-USDT",
+      "name": "bybit-wss:CELO-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "gateio-wss-CELO-USDT",
+      "name": "gateio-wss:CELO-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "lbank-wss-CELO-USDT",
+      "name": "lbank-wss:CELO-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "bitget-wss-CELO-USDT",
+      "name": "bitget-wss:CELO-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "huobi-wss-CELO-USDT",
+      "name": "huobi-wss:CELO-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "okx-wss-CELO-USDT",
+      "name": "okx-wss:CELO-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "xt-wss-CELO-USDT",
+      "name": "xt-wss:CELO-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "mexc-wss-CELO-USDT",
+      "name": "mexc-wss:CELO-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",

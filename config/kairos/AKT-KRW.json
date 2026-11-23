@@ -7,7 +7,7 @@
   "priceSource": "mid",
   "feeds": [
     {
-      "name": "upbit-wss-AKT-KRW",
+      "name": "upbit-wss:AKT-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "bithumb-wss-AKT-KRW",
+      "name": "bithumb-wss:AKT-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",

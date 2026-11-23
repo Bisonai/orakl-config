@@ -7,7 +7,7 @@
   "priceSource": "mid",
   "feeds": [
     {
-      "name": "upbit-wss-BTC-KRW",
+      "name": "upbit-wss:BTC-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "korbit-wss-BTC-KRW",
+      "name": "korbit-wss:BTC-KRW",
       "definition": {
         "type": "wss",
         "provider": "korbit",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "name": "bithumb-wss-BTC-KRW",
+      "name": "bithumb-wss:BTC-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
@@ -34,7 +34,7 @@
       }
     },
     {
-      "name": "coinone-wss-BTC-KRW",
+      "name": "coinone-wss:BTC-KRW",
       "definition": {
         "type": "wss",
         "provider": "coinone",

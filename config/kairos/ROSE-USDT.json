@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-ROSE-USDT",
+      "name": "binance-wss:ROSE-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-ROSE-USDT",
+      "name": "kucoin-wss:ROSE-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-ROSE-USDT",
+      "name": "bybit-wss:ROSE-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "gateio-wss-ROSE-USDT",
+      "name": "gateio-wss:ROSE-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "bitget-wss-ROSE-USDT",
+      "name": "bitget-wss:ROSE-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "mexc-wss-ROSE-USDT",
+      "name": "mexc-wss:ROSE-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",

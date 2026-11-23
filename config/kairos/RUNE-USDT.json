@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-RUNE-USDT",
+      "name": "binance-wss:RUNE-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-RUNE-USDT",
+      "name": "kucoin-wss:RUNE-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-RUNE-USDT",
+      "name": "bybit-wss:RUNE-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "crypto-wss-RUNE-USDT",
+      "name": "crypto-wss:RUNE-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "gateio-wss-RUNE-USDT",
+      "name": "gateio-wss:RUNE-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "mexc-wss-RUNE-USDT",
+      "name": "mexc-wss:RUNE-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "bingx-wss-RUNE-USDT",
+      "name": "bingx-wss:RUNE-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "xt-wss-RUNE-USDT",
+      "name": "xt-wss:RUNE-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

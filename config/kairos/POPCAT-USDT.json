@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "kucoin-wss-POPCAT-USDT",
+      "name": "kucoin-wss:POPCAT-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bybit-wss-POPCAT-USDT",
+      "name": "bybit-wss:POPCAT-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "btse-wss-POPCAT-USDT",
+      "name": "btse-wss:POPCAT-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "gateio-wss-POPCAT-USDT",
+      "name": "gateio-wss:POPCAT-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "lbank-wss-POPCAT-USDT",
+      "name": "lbank-wss:POPCAT-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "huobi-wss-POPCAT-USDT",
+      "name": "huobi-wss:POPCAT-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "mexc-wss-POPCAT-USDT",
+      "name": "mexc-wss:POPCAT-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "bingx-wss-POPCAT-USDT",
+      "name": "bingx-wss:POPCAT-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "xt-wss-POPCAT-USDT",
+      "name": "xt-wss:POPCAT-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "orangex-wss-POPCAT-USDT",
+      "name": "orangex-wss:POPCAT-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-MINA-USDT",
+      "name": "binance-wss:MINA-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-MINA-USDT",
+      "name": "kucoin-wss:MINA-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-MINA-USDT",
+      "name": "bybit-wss:MINA-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "gateio-wss-MINA-USDT",
+      "name": "gateio-wss:MINA-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "lbank-wss-MINA-USDT",
+      "name": "lbank-wss:MINA-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "bitget-wss-MINA-USDT",
+      "name": "bitget-wss:MINA-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "huobi-wss-MINA-USDT",
+      "name": "huobi-wss:MINA-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "mexc-wss-MINA-USDT",
+      "name": "mexc-wss:MINA-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "okx-wss-MINA-USDT",
+      "name": "okx-wss:MINA-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "xt-wss-MINA-USDT",
+      "name": "xt-wss:MINA-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "orangex-wss-MINA-USDT",
+      "name": "orangex-wss:MINA-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

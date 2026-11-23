@@ -7,7 +7,7 @@
   "decimals": 16,
   "feeds": [
     {
-      "name": "binance-wss-PEPE-USDT",
+      "name": "binance-wss:PEPE-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "kucoin-wss-PEPE-USDT",
+      "name": "kucoin-wss:PEPE-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "name": "bybit-wss-PEPE-USDT",
+      "name": "bybit-wss:PEPE-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -34,7 +34,7 @@
       }
     },
     {
-      "name": "crypto-wss-PEPE-USDT",
+      "name": "crypto-wss:PEPE-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "name": "btse-wss-PEPE-USDT",
+      "name": "btse-wss:PEPE-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "name": "gateio-wss-PEPE-USDT",
+      "name": "gateio-wss:PEPE-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "name": "lbank-wss-PEPE-USDT",
+      "name": "lbank-wss:PEPE-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "name": "bitget-wss-PEPE-USDT",
+      "name": "bitget-wss:PEPE-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "name": "huobi-wss-PEPE-USDT",
+      "name": "huobi-wss:PEPE-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "name": "mexc-wss-PEPE-USDT",
+      "name": "mexc-wss:PEPE-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -97,7 +97,7 @@
       }
     },
     {
-      "name": "okx-wss-PEPE-USDT",
+      "name": "okx-wss:PEPE-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -106,7 +106,7 @@
       }
     },
     {
-      "name": "bingx-wss-PEPE-USDT",
+      "name": "bingx-wss:PEPE-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "name": "xt-wss-PEPE-USDT",
+      "name": "xt-wss:PEPE-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "name": "orangex-wss-PEPE-USDT",
+      "name": "orangex-wss:PEPE-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

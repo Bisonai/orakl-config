@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-SFP-USDT",
+      "name": "binance-wss:SFP-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "gateio-wss-SFP-USDT",
+      "name": "gateio-wss:SFP-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "lbank-wss-SFP-USDT",
+      "name": "lbank-wss:SFP-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "mexc-wss-SFP-USDT",
+      "name": "mexc-wss:SFP-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "bingx-wss-SFP-USDT",
+      "name": "bingx-wss:SFP-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",

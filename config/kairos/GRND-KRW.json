@@ -7,7 +7,7 @@
   "priceSource": "mid",
   "feeds": [
     {
-      "name": "bithumb-wss-GRND-KRW",
+      "name": "bithumb-wss:GRND-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "coinone-wss-GRND-KRW",
+      "name": "coinone-wss:GRND-KRW",
       "definition": {
         "type": "wss",
         "provider": "coinone",

@@ -7,7 +7,7 @@
   "priceSource": "mid",
   "feeds": [
     {
-      "name": "upbit-wss-NEAR-KRW",
+      "name": "upbit-wss:NEAR-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "korbit-wss-NEAR-KRW",
+      "name": "korbit-wss:NEAR-KRW",
       "definition": {
         "type": "wss",
         "provider": "korbit",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "name": "bithumb-wss-NEAR-KRW",
+      "name": "bithumb-wss:NEAR-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
@@ -34,7 +34,7 @@
       }
     },
     {
-      "name": "coinone-wss-NEAR-KRW",
+      "name": "coinone-wss:NEAR-KRW",
       "definition": {
         "type": "wss",
         "provider": "coinone",

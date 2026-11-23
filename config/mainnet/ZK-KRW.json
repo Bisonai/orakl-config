@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "upbit-wss-ZK-KRW",
+      "name": "upbit-wss:ZK-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bithumb-wss-ZK-KRW",
+      "name": "bithumb-wss:ZK-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",

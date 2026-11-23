@@ -7,7 +7,7 @@
   "priceSource": "mid",
   "feeds": [
     {
-      "name": "upbit-wss-IQ-KRW",
+      "name": "upbit-wss:IQ-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "bithumb-wss-IQ-KRW",
+      "name": "bithumb-wss:IQ-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",

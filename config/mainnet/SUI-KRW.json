@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "upbit-wss-SUI-KRW",
+      "name": "upbit-wss:SUI-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "korbit-wss-SUI-KRW",
+      "name": "korbit-wss:SUI-KRW",
       "definition": {
         "type": "wss",
         "provider": "korbit",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bithumb-wss-SUI-KRW",
+      "name": "bithumb-wss:SUI-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "coinone-wss-SUI-KRW",
+      "name": "coinone-wss:SUI-KRW",
       "definition": {
         "type": "wss",
         "provider": "coinone",

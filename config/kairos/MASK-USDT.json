@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-MASK-USDT",
+      "name": "binance-wss:MASK-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-MASK-USDT",
+      "name": "kucoin-wss:MASK-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-MASK-USDT",
+      "name": "bybit-wss:MASK-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "crypto-wss-MASK-USDT",
+      "name": "crypto-wss:MASK-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "btse-wss-MASK-USDT",
+      "name": "btse-wss:MASK-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "gateio-wss-MASK-USDT",
+      "name": "gateio-wss:MASK-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "lbank-wss-MASK-USDT",
+      "name": "lbank-wss:MASK-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "bitget-wss-MASK-USDT",
+      "name": "bitget-wss:MASK-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "mexc-wss-MASK-USDT",
+      "name": "mexc-wss:MASK-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "okx-wss-MASK-USDT",
+      "name": "okx-wss:MASK-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "bingx-wss-MASK-USDT",
+      "name": "bingx-wss:MASK-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "name": "orangex-wss-MASK-USDT",
+      "name": "orangex-wss:MASK-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

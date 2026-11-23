@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "yahoo-KRW-USD",
+      "name": "yahoo:KRW-USD",
       "definition": {
         "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=USDKRW%3DX",
         "headers": {
@@ -52,7 +52,7 @@
       }
     },
     {
-      "name": "daum-KRW-USD",
+      "name": "daum:KRW-USD",
       "definition": {
         "url": "https://finance.daum.net/api/exchanges/FRX.KRWUSD",
         "location": "kr",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "name": "naver-KRW-USD",
+      "name": "naver:KRW-USD",
       "definition": {
         "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchange&reutersCode=FX_USDKRW",
         "headers": {

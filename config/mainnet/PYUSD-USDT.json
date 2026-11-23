@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "kucoin-wss-PYUSD-USDT",
+      "name": "kucoin-wss:PYUSD-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bybit-wss-PYUSD-USDT",
+      "name": "bybit-wss:PYUSD-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "crypto-wss-PYUSD-USDT",
+      "name": "crypto-wss:PYUSD-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "gateio-wss-PYUSD-USDT",
+      "name": "gateio-wss:PYUSD-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "bitget-wss-PYUSD-USDT",
+      "name": "bitget-wss:PYUSD-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "huobi-wss-PYUSD-USDT",
+      "name": "huobi-wss:PYUSD-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "okx-wss-PYUSD-USDT",
+      "name": "okx-wss:PYUSD-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "bingx-wss-PYUSD-USDT",
+      "name": "bingx-wss:PYUSD-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "btse-wss-PYUSD-USDT",
+      "name": "btse-wss:PYUSD-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",

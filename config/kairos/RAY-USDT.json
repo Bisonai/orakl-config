@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-RAY-USDT",
+      "name": "binance-wss:RAY-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-RAY-USDT",
+      "name": "kucoin-wss:RAY-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "gateio-wss-RAY-USDT",
+      "name": "gateio-wss:RAY-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "lbank-wss-RAY-USDT",
+      "name": "lbank-wss:RAY-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "bitget-wss-RAY-USDT",
+      "name": "bitget-wss:RAY-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "huobi-wss-RAY-USDT",
+      "name": "huobi-wss:RAY-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "mexc-wss-RAY-USDT",
+      "name": "mexc-wss:RAY-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "okx-wss-RAY-USDT",
+      "name": "okx-wss:RAY-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "bingx-wss-RAY-USDT",
+      "name": "bingx-wss:RAY-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "xt-wss-RAY-USDT",
+      "name": "xt-wss:RAY-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "orangex-wss-RAY-USDT",
+      "name": "orangex-wss:RAY-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

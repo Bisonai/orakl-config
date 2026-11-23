@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "coinbase-wss-USDT-USD",
+      "name": "coinbase-wss:USDT-USD",
       "definition": {
         "type": "wss",
         "provider": "coinbase",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bitstamp-wss-USDT-USD",
+      "name": "bitstamp-wss:USDT-USD",
       "definition": {
         "type": "wss",
         "provider": "bitstamp",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "gemini-wss-USDT-USD",
+      "name": "gemini-wss:USDT-USD",
       "definition": {
         "type": "wss",
         "provider": "gemini",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "crypto-wss-USDT-USD",
+      "name": "crypto-wss:USDT-USD",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "btse-wss-USDT-USD",
+      "name": "btse-wss:USDT-USD",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "okx-wss-USDT-USD",
+      "name": "okx-wss:USDT-USD",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "binance-wss-USDT-USD",
+      "name": "binance-wss:USDT-USD",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "bitget-wss-USDT-USD",
+      "name": "bitget-wss:USDT-USD",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "bybit-wss-USDT-USD",
+      "name": "bybit-wss:USDT-USD",
       "definition": {
         "type": "wss",
         "provider": "bybit",

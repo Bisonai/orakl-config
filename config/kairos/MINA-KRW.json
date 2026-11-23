@@ -7,7 +7,7 @@
   "priceSource": "mid",
   "feeds": [
     {
-      "name": "upbit-wss-MINA-KRW",
+      "name": "upbit-wss:MINA-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "bithumb-wss-MINA-KRW",
+      "name": "bithumb-wss:MINA-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",

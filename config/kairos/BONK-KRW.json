@@ -7,7 +7,7 @@
   "priceSource": "mid",
   "feeds": [
     {
-      "name": "bithumb-wss-BONK-KRW",
+      "name": "bithumb-wss:BONK-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",

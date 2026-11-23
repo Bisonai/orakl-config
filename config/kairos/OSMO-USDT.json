@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-OSMO-USDT",
+      "name": "binance-wss:OSMO-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-OSMO-USDT",
+      "name": "kucoin-wss:OSMO-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "gateio-wss-OSMO-USDT",
+      "name": "gateio-wss:OSMO-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "lbank-wss-OSMO-USDT",
+      "name": "lbank-wss:OSMO-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "mexc-wss-OSMO-USDT",
+      "name": "mexc-wss:OSMO-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "orangex-wss-OSMO-USDT",
+      "name": "orangex-wss:OSMO-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

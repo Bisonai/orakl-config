@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "upbit-wss-STX-KRW",
+      "name": "upbit-wss:STX-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bithumb-wss-STX-KRW",
+      "name": "bithumb-wss:STX-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",

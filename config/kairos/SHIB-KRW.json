@@ -7,7 +7,7 @@
   "priceSource": "mid",
   "feeds": [
     {
-      "name": "upbit-wss-SHIB-KRW",
+      "name": "upbit-wss:SHIB-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "korbit-wss-SHIB-KRW",
+      "name": "korbit-wss:SHIB-KRW",
       "definition": {
         "type": "wss",
         "provider": "korbit",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "name": "bithumb-wss-SHIB-KRW",
+      "name": "bithumb-wss:SHIB-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
@@ -34,7 +34,7 @@
       }
     },
     {
-      "name": "coinone-wss-SHIB-KRW",
+      "name": "coinone-wss:SHIB-KRW",
       "definition": {
         "type": "wss",
         "provider": "coinone",

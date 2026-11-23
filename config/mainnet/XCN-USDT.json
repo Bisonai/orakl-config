@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "kucoin-wss-XCN-USDT",
+      "name": "kucoin-wss:XCN-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "gateio-wss-XCN-USDT",
+      "name": "gateio-wss:XCN-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "huobi-wss-XCN-USDT",
+      "name": "huobi-wss:XCN-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "bingx-wss-XCN-USDT",
+      "name": "bingx-wss:XCN-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "lbank-wss-XCN-USDT",
+      "name": "lbank-wss:XCN-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "xt-wss-XCN-USDT",
+      "name": "xt-wss:XCN-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

@@ -7,7 +7,7 @@
   "priceSource": "mid",
   "feeds": [
     {
-      "name": "upbit-wss-WAVES-KRW",
+      "name": "upbit-wss:WAVES-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "bithumb-wss-WAVES-KRW",
+      "name": "bithumb-wss:WAVES-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",

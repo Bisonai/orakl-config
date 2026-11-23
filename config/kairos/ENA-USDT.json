@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-ENA-USDT",
+      "name": "binance-wss:ENA-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-ENA-USDT",
+      "name": "kucoin-wss:ENA-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-ENA-USDT",
+      "name": "bybit-wss:ENA-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "crypto-wss-ENA-USDT",
+      "name": "crypto-wss:ENA-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "btse-wss-ENA-USDT",
+      "name": "btse-wss:ENA-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "gateio-wss-ENA-USDT",
+      "name": "gateio-wss:ENA-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "lbank-wss-ENA-USDT",
+      "name": "lbank-wss:ENA-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "bitget-wss-ENA-USDT",
+      "name": "bitget-wss:ENA-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "huobi-wss-ENA-USDT",
+      "name": "huobi-wss:ENA-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "mexc-wss-ENA-USDT",
+      "name": "mexc-wss:ENA-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "bingx-wss-ENA-USDT",
+      "name": "bingx-wss:ENA-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "name": "xt-wss-ENA-USDT",
+      "name": "xt-wss:ENA-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -114,7 +114,7 @@
       }
     },
     {
-      "name": "orangex-wss-ENA-USDT",
+      "name": "orangex-wss:ENA-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "name": "okx-wss-ENA-USDT",
+      "name": "okx-wss:ENA-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",

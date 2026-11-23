@@ -7,7 +7,7 @@
   "priceSource": "mid",
   "feeds": [
     {
-      "name": "upbit-wss-SAND-KRW",
+      "name": "upbit-wss:SAND-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "bithumb-wss-SAND-KRW",
+      "name": "bithumb-wss:SAND-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "name": "coinone-wss-SAND-KRW",
+      "name": "coinone-wss:SAND-KRW",
       "definition": {
         "type": "wss",
         "provider": "coinone",

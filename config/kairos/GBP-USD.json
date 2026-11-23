@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "yahoo-GBP-USD",
+      "name": "yahoo:GBP-USD",
       "definition": {
         "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=GBPUSD%3DX",
         "headers": {
@@ -48,7 +48,7 @@
       }
     },
     {
-      "name": "naver-GBP-USD",
+      "name": "naver:GBP-USD",
       "definition": {
         "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDGBP",
         "headers": {
@@ -71,7 +71,7 @@
       }
     },
     {
-      "name": "daum-GBP-USD",
+      "name": "daum:GBP-USD",
       "definition": {
         "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWGBP",
         "headers": {

@@ -7,7 +7,7 @@
   "priceSource": "mid",
   "feeds": [
     {
-      "name": "bithumb-wss-MBX-KRW",
+      "name": "bithumb-wss:MBX-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",

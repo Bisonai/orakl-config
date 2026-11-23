@@ -7,7 +7,7 @@
   "priceSource": "mid",
   "feeds": [
     {
-      "name": "upbit-wss-MTL-KRW",
+      "name": "upbit-wss:MTL-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "bithumb-wss-MTL-KRW",
+      "name": "bithumb-wss:MTL-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",

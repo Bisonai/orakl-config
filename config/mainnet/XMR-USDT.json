@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "kucoin-wss-XMR-USDT",
+      "name": "kucoin-wss:XMR-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "btse-wss-XMR-USDT",
+      "name": "btse-wss:XMR-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "kraken-wss-XMR-USDT",
+      "name": "kraken-wss:XMR-USDT",
       "definition": {
         "type": "wss",
         "provider": "kraken",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "xt-wss-XMR-USDT",
+      "name": "xt-wss:XMR-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

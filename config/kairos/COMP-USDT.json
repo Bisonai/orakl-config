@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-COMP-USDT",
+      "name": "binance-wss:COMP-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-COMP-USDT",
+      "name": "kucoin-wss:COMP-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-COMP-USDT",
+      "name": "bybit-wss:COMP-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "crypto-wss-COMP-USDT",
+      "name": "crypto-wss:COMP-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "btse-wss-COMP-USDT",
+      "name": "btse-wss:COMP-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "gateio-wss-COMP-USDT",
+      "name": "gateio-wss:COMP-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "lbank-wss-COMP-USDT",
+      "name": "lbank-wss:COMP-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "bitget-wss-COMP-USDT",
+      "name": "bitget-wss:COMP-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "huobi-wss-COMP-USDT",
+      "name": "huobi-wss:COMP-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "mexc-wss-COMP-USDT",
+      "name": "mexc-wss:COMP-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "okx-wss-COMP-USDT",
+      "name": "okx-wss:COMP-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "name": "bingx-wss-COMP-USDT",
+      "name": "bingx-wss:COMP-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -114,7 +114,7 @@
       }
     },
     {
-      "name": "xt-wss-COMP-USDT",
+      "name": "xt-wss:COMP-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "name": "orangex-wss-COMP-USDT",
+      "name": "orangex-wss:COMP-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

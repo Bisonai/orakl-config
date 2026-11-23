@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "kucoin-wss-SAFE-USDT",
+      "name": "kucoin-wss:SAFE-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bybit-wss-SAFE-USDT",
+      "name": "bybit-wss:SAFE-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "gateio-wss-SAFE-USDT",
+      "name": "gateio-wss:SAFE-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "bitget-wss-SAFE-USDT",
+      "name": "bitget-wss:SAFE-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "okx-wss-SAFE-USDT",
+      "name": "okx-wss:SAFE-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "orangex-wss-SAFE-USDT",
+      "name": "orangex-wss:SAFE-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

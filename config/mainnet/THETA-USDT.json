@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-THETA-USDT",
+      "name": "binance-wss:THETA-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-THETA-USDT",
+      "name": "kucoin-wss:THETA-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-THETA-USDT",
+      "name": "bybit-wss:THETA-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "crypto-wss-THETA-USDT",
+      "name": "crypto-wss:THETA-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "gateio-wss-THETA-USDT",
+      "name": "gateio-wss:THETA-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "lbank-wss-THETA-USDT",
+      "name": "lbank-wss:THETA-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "huobi-wss-THETA-USDT",
+      "name": "huobi-wss:THETA-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "okx-wss-THETA-USDT",
+      "name": "okx-wss:THETA-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "bingx-wss-THETA-USDT",
+      "name": "bingx-wss:THETA-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "xt-wss-THETA-USDT",
+      "name": "xt-wss:THETA-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

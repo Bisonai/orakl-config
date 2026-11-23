@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "bybit-wss-USDE-USDT",
+      "name": "bybit-wss:USDE-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bitget-wss-USDE-USDT",
+      "name": "bitget-wss:USDE-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "binance-wss-USDE-USDT",
+      "name": "binance-wss:USDE-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "btse-wss-USDE-USDT",
+      "name": "btse-wss:USDE-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "xt-wss-USDE-USDT",
+      "name": "xt-wss:USDE-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

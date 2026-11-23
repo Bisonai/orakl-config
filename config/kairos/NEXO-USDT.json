@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-NEXO-USDT",
+      "name": "binance-wss:NEXO-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bybit-wss-NEXO-USDT",
+      "name": "bybit-wss:NEXO-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "gateio-wss-NEXO-USDT",
+      "name": "gateio-wss:NEXO-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "huobi-wss-NEXO-USDT",
+      "name": "huobi-wss:NEXO-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "mexc-wss-NEXO-USDT",
+      "name": "mexc-wss:NEXO-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "xt-wss-NEXO-USDT",
+      "name": "xt-wss:NEXO-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "lbank-wss-NEXO-USDT",
+      "name": "lbank-wss:NEXO-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",

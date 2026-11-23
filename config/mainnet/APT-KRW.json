@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "upbit-wss-APT-KRW",
+      "name": "upbit-wss:APT-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "korbit-wss-APT-KRW",
+      "name": "korbit-wss:APT-KRW",
       "definition": {
         "type": "wss",
         "provider": "korbit",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bithumb-wss-APT-KRW",
+      "name": "bithumb-wss:APT-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",

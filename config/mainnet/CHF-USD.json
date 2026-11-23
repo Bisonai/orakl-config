@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "yahoo-CHF-USD",
+      "name": "yahoo:CHF-USD",
       "definition": {
         "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=CHFUSD%3DX",
         "headers": {
@@ -48,7 +48,7 @@
       }
     },
     {
-      "name": "naver-CHF-USD",
+      "name": "naver:CHF-USD",
       "definition": {
         "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDCHF",
         "headers": {
@@ -71,7 +71,7 @@
       }
     },
     {
-      "name": "daum-CHF-USD",
+      "name": "daum:CHF-USD",
       "definition": {
         "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWCHF",
         "headers": {

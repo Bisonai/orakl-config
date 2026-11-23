@@ -7,7 +7,7 @@
   "decimals": 16,
   "feeds": [
     {
-      "name": "binance-wss-SHIB-USDT",
+      "name": "binance-wss:SHIB-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "kucoin-wss-SHIB-USDT",
+      "name": "kucoin-wss:SHIB-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "name": "bybit-wss-SHIB-USDT",
+      "name": "bybit-wss:SHIB-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -34,7 +34,7 @@
       }
     },
     {
-      "name": "crypto-wss-SHIB-USDT",
+      "name": "crypto-wss:SHIB-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "name": "btse-wss-SHIB-USDT",
+      "name": "btse-wss:SHIB-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "name": "gateio-wss-SHIB-USDT",
+      "name": "gateio-wss:SHIB-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "name": "lbank-wss-SHIB-USDT",
+      "name": "lbank-wss:SHIB-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "name": "bitget-wss-SHIB-USDT",
+      "name": "bitget-wss:SHIB-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "name": "huobi-wss-SHIB-USDT",
+      "name": "huobi-wss:SHIB-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "name": "mexc-wss-SHIB-USDT",
+      "name": "mexc-wss:SHIB-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -97,7 +97,7 @@
       }
     },
     {
-      "name": "okx-wss-SHIB-USDT",
+      "name": "okx-wss:SHIB-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -106,7 +106,7 @@
       }
     },
     {
-      "name": "bingx-wss-SHIB-USDT",
+      "name": "bingx-wss:SHIB-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "name": "xt-wss-SHIB-USDT",
+      "name": "xt-wss:SHIB-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "name": "orangex-wss-SHIB-USDT",
+      "name": "orangex-wss:SHIB-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "upbit-wss-XEC-KRW",
+      "name": "upbit-wss:XEC-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bithumb-wss-XEC-KRW",
+      "name": "bithumb-wss:XEC-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",

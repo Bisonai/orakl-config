@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "kucoin-wss-AERO-USDT",
+      "name": "kucoin-wss:AERO-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bybit-wss-AERO-USDT",
+      "name": "bybit-wss:AERO-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "gateio-wss-AERO-USDT",
+      "name": "gateio-wss:AERO-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "lbank-wss-AERO-USDT",
+      "name": "lbank-wss:AERO-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "bitget-wss-AERO-USDT",
+      "name": "bitget-wss:AERO-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "mexc-wss-AERO-USDT",
+      "name": "mexc-wss:AERO-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "bingx-wss-AERO-USDT",
+      "name": "bingx-wss:AERO-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "xt-wss-AERO-USDT",
+      "name": "xt-wss:AERO-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "orangex-wss-AERO-USDT",
+      "name": "orangex-wss:AERO-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "binance-wss-AERO-USDT",
+      "name": "binance-wss:AERO-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "okx-wss-AERO-USDT",
+      "name": "okx-wss:AERO-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",

@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "gateio-wss-GT-USDT",
+      "name": "gateio-wss:GT-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "lbank-wss-GT-USDT",
+      "name": "lbank-wss:GT-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "huobi-wss-GT-USDT",
+      "name": "huobi-wss:GT-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "xt-wss-GT-USDT",
+      "name": "xt-wss:GT-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

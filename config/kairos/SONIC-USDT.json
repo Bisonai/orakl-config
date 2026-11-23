@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "bybit-wss-SONIC-USDT",
+      "name": "bybit-wss:SONIC-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "btse-wss-SONIC-USDT",
+      "name": "btse-wss:SONIC-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "gateio-wss-SONIC-USDT",
+      "name": "gateio-wss:SONIC-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "lbank-wss-SONIC-USDT",
+      "name": "lbank-wss:SONIC-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "bitget-wss-SONIC-USDT",
+      "name": "bitget-wss:SONIC-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "mexc-wss-SONIC-USDT",
+      "name": "mexc-wss:SONIC-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "okx-wss-SONIC-USDT",
+      "name": "okx-wss:SONIC-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "bingx-wss-SONIC-USDT",
+      "name": "bingx-wss:SONIC-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "orangex-wss-SONIC-USDT",
+      "name": "orangex-wss:SONIC-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "kucoin-wss-SONIC-USDT",
+      "name": "kucoin-wss:SONIC-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",

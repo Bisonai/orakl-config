@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-CVX-USDT",
+      "name": "binance-wss:CVX-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-CVX-USDT",
+      "name": "kucoin-wss:CVX-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "btse-wss-CVX-USDT",
+      "name": "btse-wss:CVX-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "gateio-wss-CVX-USDT",
+      "name": "gateio-wss:CVX-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "lbank-wss-CVX-USDT",
+      "name": "lbank-wss:CVX-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "huobi-wss-CVX-USDT",
+      "name": "huobi-wss:CVX-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "mexc-wss-CVX-USDT",
+      "name": "mexc-wss:CVX-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "okx-wss-CVX-USDT",
+      "name": "okx-wss:CVX-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "bingx-wss-CVX-USDT",
+      "name": "bingx-wss:CVX-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",

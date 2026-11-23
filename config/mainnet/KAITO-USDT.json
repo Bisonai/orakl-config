@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-KAITO-USDT",
+      "name": "binance-wss:KAITO-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-KAITO-USDT",
+      "name": "kucoin-wss:KAITO-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "btse-wss-KAITO-USDT",
+      "name": "btse-wss:KAITO-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "gateio-wss-KAITO-USDT",
+      "name": "gateio-wss:KAITO-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "lbank-wss-KAITO-USDT",
+      "name": "lbank-wss:KAITO-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "bitget-wss-KAITO-USDT",
+      "name": "bitget-wss:KAITO-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "huobi-wss-KAITO-USDT",
+      "name": "huobi-wss:KAITO-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "mexc-wss-KAITO-USDT",
+      "name": "mexc-wss:KAITO-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "okx-wss-KAITO-USDT",
+      "name": "okx-wss:KAITO-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "orangex-wss-KAITO-USDT",
+      "name": "orangex-wss:KAITO-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

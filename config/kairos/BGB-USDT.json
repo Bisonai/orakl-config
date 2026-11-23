@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "bitget-wss-BGB-USDT",
+      "name": "bitget-wss:BGB-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "mexc-wss-BGB-USDT",
+      "name": "mexc-wss:BGB-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "lbank-wss-BGB-USDT",
+      "name": "lbank-wss:BGB-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",

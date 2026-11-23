@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-AR-USDT",
+      "name": "binance-wss:AR-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-AR-USDT",
+      "name": "kucoin-wss:AR-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-AR-USDT",
+      "name": "bybit-wss:AR-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "gateio-wss-AR-USDT",
+      "name": "gateio-wss:AR-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "lbank-wss-AR-USDT",
+      "name": "lbank-wss:AR-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "bitget-wss-AR-USDT",
+      "name": "bitget-wss:AR-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "huobi-wss-AR-USDT",
+      "name": "huobi-wss:AR-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "mexc-wss-AR-USDT",
+      "name": "mexc-wss:AR-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "okx-wss-AR-USDT",
+      "name": "okx-wss:AR-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "bingx-wss-AR-USDT",
+      "name": "bingx-wss:AR-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "xt-wss-AR-USDT",
+      "name": "xt-wss:AR-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

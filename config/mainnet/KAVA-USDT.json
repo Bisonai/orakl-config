@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-KAVA-USDT",
+      "name": "binance-wss:KAVA-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-KAVA-USDT",
+      "name": "kucoin-wss:KAVA-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-KAVA-USDT",
+      "name": "bybit-wss:KAVA-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "crypto-wss-KAVA-USDT",
+      "name": "crypto-wss:KAVA-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "gateio-wss-KAVA-USDT",
+      "name": "gateio-wss:KAVA-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "lbank-wss-KAVA-USDT",
+      "name": "lbank-wss:KAVA-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "bitget-wss-KAVA-USDT",
+      "name": "bitget-wss:KAVA-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "huobi-wss-KAVA-USDT",
+      "name": "huobi-wss:KAVA-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "mexc-wss-KAVA-USDT",
+      "name": "mexc-wss:KAVA-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "bingx-wss-KAVA-USDT",
+      "name": "bingx-wss:KAVA-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "xt-wss-KAVA-USDT",
+      "name": "xt-wss:KAVA-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

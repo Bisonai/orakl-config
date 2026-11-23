@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-WIF-USDT",
+      "name": "binance-wss:WIF-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-WIF-USDT",
+      "name": "kucoin-wss:WIF-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-WIF-USDT",
+      "name": "bybit-wss:WIF-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "crypto-wss-WIF-USDT",
+      "name": "crypto-wss:WIF-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "btse-wss-WIF-USDT",
+      "name": "btse-wss:WIF-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "gateio-wss-WIF-USDT",
+      "name": "gateio-wss:WIF-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "lbank-wss-WIF-USDT",
+      "name": "lbank-wss:WIF-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "bitget-wss-WIF-USDT",
+      "name": "bitget-wss:WIF-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "huobi-wss-WIF-USDT",
+      "name": "huobi-wss:WIF-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "mexc-wss-WIF-USDT",
+      "name": "mexc-wss:WIF-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "okx-wss-WIF-USDT",
+      "name": "okx-wss:WIF-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "name": "bingx-wss-WIF-USDT",
+      "name": "bingx-wss:WIF-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -114,7 +114,7 @@
       }
     },
     {
-      "name": "xt-wss-WIF-USDT",
+      "name": "xt-wss:WIF-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "name": "orangex-wss-WIF-USDT",
+      "name": "orangex-wss:WIF-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

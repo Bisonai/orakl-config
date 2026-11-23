@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-SUPER-USDT",
+      "name": "binance-wss:SUPER-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-SUPER-USDT",
+      "name": "kucoin-wss:SUPER-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "crypto-wss-SUPER-USDT",
+      "name": "crypto-wss:SUPER-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "gateio-wss-SUPER-USDT",
+      "name": "gateio-wss:SUPER-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "bitget-wss-SUPER-USDT",
+      "name": "bitget-wss:SUPER-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "bingx-wss-SUPER-USDT",
+      "name": "bingx-wss:SUPER-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "orangex-wss-SUPER-USDT",
+      "name": "orangex-wss:SUPER-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

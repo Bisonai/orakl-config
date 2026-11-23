@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "bybit-wss-AVL-USDT",
+      "name": "bybit-wss:AVL-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "gateio-wss-AVL-USDT",
+      "name": "gateio-wss:AVL-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",

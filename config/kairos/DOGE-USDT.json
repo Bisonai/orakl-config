@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-DOGE-USDT",
+      "name": "binance-wss:DOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-DOGE-USDT",
+      "name": "kucoin-wss:DOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-DOGE-USDT",
+      "name": "bybit-wss:DOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "crypto-wss-DOGE-USDT",
+      "name": "crypto-wss:DOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "btse-wss-DOGE-USDT",
+      "name": "btse-wss:DOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "gateio-wss-DOGE-USDT",
+      "name": "gateio-wss:DOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "lbank-wss-DOGE-USDT",
+      "name": "lbank-wss:DOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "bitget-wss-DOGE-USDT",
+      "name": "bitget-wss:DOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "huobi-wss-DOGE-USDT",
+      "name": "huobi-wss:DOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "mexc-wss-DOGE-USDT",
+      "name": "mexc-wss:DOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "okx-wss-DOGE-USDT",
+      "name": "okx-wss:DOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "name": "bingx-wss-DOGE-USDT",
+      "name": "bingx-wss:DOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -114,7 +114,7 @@
       }
     },
     {
-      "name": "xt-wss-DOGE-USDT",
+      "name": "xt-wss:DOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "name": "orangex-wss-DOGE-USDT",
+      "name": "orangex-wss:DOGE-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

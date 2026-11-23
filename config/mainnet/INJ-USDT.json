@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-INJ-USDT",
+      "name": "binance-wss:INJ-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-INJ-USDT",
+      "name": "kucoin-wss:INJ-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-INJ-USDT",
+      "name": "bybit-wss:INJ-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "crypto-wss-INJ-USDT",
+      "name": "crypto-wss:INJ-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "btse-wss-INJ-USDT",
+      "name": "btse-wss:INJ-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "gateio-wss-INJ-USDT",
+      "name": "gateio-wss:INJ-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "lbank-wss-INJ-USDT",
+      "name": "lbank-wss:INJ-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "bitget-wss-INJ-USDT",
+      "name": "bitget-wss:INJ-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "huobi-wss-INJ-USDT",
+      "name": "huobi-wss:INJ-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "mexc-wss-INJ-USDT",
+      "name": "mexc-wss:INJ-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "okx-wss-INJ-USDT",
+      "name": "okx-wss:INJ-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "name": "bingx-wss-INJ-USDT",
+      "name": "bingx-wss:INJ-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -114,7 +114,7 @@
       }
     },
     {
-      "name": "xt-wss-INJ-USDT",
+      "name": "xt-wss:INJ-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "upbit-wss-XRP-KRW",
+      "name": "upbit-wss:XRP-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "korbit-wss-XRP-KRW",
+      "name": "korbit-wss:XRP-KRW",
       "definition": {
         "type": "wss",
         "provider": "korbit",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bithumb-wss-XRP-KRW",
+      "name": "bithumb-wss:XRP-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "coinone-wss-XRP-KRW",
+      "name": "coinone-wss:XRP-KRW",
       "definition": {
         "type": "wss",
         "provider": "coinone",

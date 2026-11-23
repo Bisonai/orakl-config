@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-DYDX-USDT",
+      "name": "binance-wss:DYDX-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-DYDX-USDT",
+      "name": "kucoin-wss:DYDX-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-DYDX-USDT",
+      "name": "bybit-wss:DYDX-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "crypto-wss-DYDX-USDT",
+      "name": "crypto-wss:DYDX-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "gateio-wss-DYDX-USDT",
+      "name": "gateio-wss:DYDX-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "lbank-wss-DYDX-USDT",
+      "name": "lbank-wss:DYDX-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "bitget-wss-DYDX-USDT",
+      "name": "bitget-wss:DYDX-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "huobi-wss-DYDX-USDT",
+      "name": "huobi-wss:DYDX-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "mexc-wss-DYDX-USDT",
+      "name": "mexc-wss:DYDX-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "okx-wss-DYDX-USDT",
+      "name": "okx-wss:DYDX-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "bingx-wss-DYDX-USDT",
+      "name": "bingx-wss:DYDX-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "name": "xt-wss-DYDX-USDT",
+      "name": "xt-wss:DYDX-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",

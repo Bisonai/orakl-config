@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-GNO-USDT",
+      "name": "binance-wss:GNO-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "gateio-wss-GNO-USDT",
+      "name": "gateio-wss:GNO-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "huobi-wss-GNO-USDT",
+      "name": "huobi-wss:GNO-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "mexc-wss-GNO-USDT",
+      "name": "mexc-wss:GNO-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",

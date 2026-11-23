@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "upbit-wss-BCH-KRW",
+      "name": "upbit-wss:BCH-KRW",
       "definition": {
         "type": "wss",
         "provider": "upbit",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bithumb-wss-BCH-KRW",
+      "name": "bithumb-wss:BCH-KRW",
       "definition": {
         "type": "wss",
         "provider": "bithumb",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "coinone-wss-BCH-KRW",
+      "name": "coinone-wss:BCH-KRW",
       "definition": {
         "type": "wss",
         "provider": "coinone",

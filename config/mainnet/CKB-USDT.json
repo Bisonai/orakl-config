@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-CKB-USDT",
+      "name": "binance-wss:CKB-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-CKB-USDT",
+      "name": "kucoin-wss:CKB-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "gateio-wss-CKB-USDT",
+      "name": "gateio-wss:CKB-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "lbank-wss-CKB-USDT",
+      "name": "lbank-wss:CKB-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "bitget-wss-CKB-USDT",
+      "name": "bitget-wss:CKB-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "mexc-wss-CKB-USDT",
+      "name": "mexc-wss:CKB-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "bingx-wss-CKB-USDT",
+      "name": "bingx-wss:CKB-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "xt-wss-CKB-USDT",
+      "name": "xt-wss:CKB-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "orangex-wss-CKB-USDT",
+      "name": "orangex-wss:CKB-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

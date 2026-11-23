@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "kucoin-wss-ELIZAOS-USDT",
+      "name": "kucoin-wss:ELIZAOS-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "gateio-wss-ELIZAOS-USDT",
+      "name": "gateio-wss:ELIZAOS-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",

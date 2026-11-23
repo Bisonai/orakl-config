@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-ADA-USDT",
+      "name": "binance-wss:ADA-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "coinbase-wss-ADA-USDT",
+      "name": "coinbase-wss:ADA-USDT",
       "definition": {
         "type": "wss",
         "provider": "coinbase",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "kucoin-wss-ADA-USDT",
+      "name": "kucoin-wss:ADA-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "bybit-wss-ADA-USDT",
+      "name": "bybit-wss:ADA-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "crypto-wss-ADA-USDT",
+      "name": "crypto-wss:ADA-USDT",
       "definition": {
         "type": "wss",
         "provider": "crypto",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "btse-wss-ADA-USDT",
+      "name": "btse-wss:ADA-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "gateio-wss-ADA-USDT",
+      "name": "gateio-wss:ADA-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "lbank-wss-ADA-USDT",
+      "name": "lbank-wss:ADA-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "bitget-wss-ADA-USDT",
+      "name": "bitget-wss:ADA-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "huobi-wss-ADA-USDT",
+      "name": "huobi-wss:ADA-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "mexc-wss-ADA-USDT",
+      "name": "mexc-wss:ADA-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "name": "okx-wss-ADA-USDT",
+      "name": "okx-wss:ADA-USDT",
       "definition": {
         "type": "wss",
         "provider": "okx",
@@ -114,7 +114,7 @@
       }
     },
     {
-      "name": "kraken-wss-ADA-USDT",
+      "name": "kraken-wss:ADA-USDT",
       "definition": {
         "type": "wss",
         "provider": "kraken",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "name": "bingx-wss-ADA-USDT",
+      "name": "bingx-wss:ADA-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -132,7 +132,7 @@
       }
     },
     {
-      "name": "xt-wss-ADA-USDT",
+      "name": "xt-wss:ADA-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -141,7 +141,7 @@
       }
     },
     {
-      "name": "orangex-wss-ADA-USDT",
+      "name": "orangex-wss:ADA-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "binance-wss-CAKE-USDT",
+      "name": "binance-wss:CAKE-USDT",
       "definition": {
         "type": "wss",
         "provider": "binance",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "kucoin-wss-CAKE-USDT",
+      "name": "kucoin-wss:CAKE-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "bybit-wss-CAKE-USDT",
+      "name": "bybit-wss:CAKE-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "btse-wss-CAKE-USDT",
+      "name": "btse-wss:CAKE-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "gateio-wss-CAKE-USDT",
+      "name": "gateio-wss:CAKE-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "lbank-wss-CAKE-USDT",
+      "name": "lbank-wss:CAKE-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "bitget-wss-CAKE-USDT",
+      "name": "bitget-wss:CAKE-USDT",
       "definition": {
         "type": "wss",
         "provider": "bitget",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "huobi-wss-CAKE-USDT",
+      "name": "huobi-wss:CAKE-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "mexc-wss-CAKE-USDT",
+      "name": "mexc-wss:CAKE-USDT",
       "definition": {
         "type": "wss",
         "provider": "mexc",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "bingx-wss-CAKE-USDT",
+      "name": "bingx-wss:CAKE-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "xt-wss-CAKE-USDT",
+      "name": "xt-wss:CAKE-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "name": "orangex-wss-CAKE-USDT",
+      "name": "orangex-wss:CAKE-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",

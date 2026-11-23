@@ -6,7 +6,7 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "kucoin-wss-BRETT-USDT",
+      "name": "kucoin-wss:BRETT-USDT",
       "definition": {
         "type": "wss",
         "provider": "kucoin",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "bybit-wss-BRETT-USDT",
+      "name": "bybit-wss:BRETT-USDT",
       "definition": {
         "type": "wss",
         "provider": "bybit",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "btse-wss-BRETT-USDT",
+      "name": "btse-wss:BRETT-USDT",
       "definition": {
         "type": "wss",
         "provider": "btse",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "gateio-wss-BRETT-USDT",
+      "name": "gateio-wss:BRETT-USDT",
       "definition": {
         "type": "wss",
         "provider": "gateio",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "lbank-wss-BRETT-USDT",
+      "name": "lbank-wss:BRETT-USDT",
       "definition": {
         "type": "wss",
         "provider": "lbank",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "name": "huobi-wss-BRETT-USDT",
+      "name": "huobi-wss:BRETT-USDT",
       "definition": {
         "type": "wss",
         "provider": "huobi",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "name": "bingx-wss-BRETT-USDT",
+      "name": "bingx-wss:BRETT-USDT",
       "definition": {
         "type": "wss",
         "provider": "bingx",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "name": "xt-wss-BRETT-USDT",
+      "name": "xt-wss:BRETT-USDT",
       "definition": {
         "type": "wss",
         "provider": "xt",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "orangex-wss-BRETT-USDT",
+      "name": "orangex-wss:BRETT-USDT",
       "definition": {
         "type": "wss",
         "provider": "orangex",
