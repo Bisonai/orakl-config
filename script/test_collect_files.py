@@ -116,7 +116,9 @@ class CheckFeedPrefixesTest(unittest.TestCase):
     def test_malformed_skipped(self):
         (self.root / "src" / "bad.json").write_text('{"name": "A",}')
         (self.root / "src" / "list.json").write_text('[]')
-        self.assertEqual(self.check({"x": 1}), [])
+        (self.root / "src" / "z.json").write_text(json.dumps(pair("Z-USDT", feed("Bad-Z-USDT"))))
+        [error] = self.check({"x": 1})
+        self.assertIn("src/z.json", error)
 
 
 if __name__ == "__main__":

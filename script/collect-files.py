@@ -221,8 +221,9 @@ def check_bundle(source_dir: Path, bundle_path: Path, root: Path = ROOT):
 def check_feed_prefixes(source_dir: Path, root: Path = ROOT):
     # #298: feed-name prefix (before the first "-") must be lowercase, else
     # mixed-case names split the Prometheus `feed` label (#232). README lookup
-    # and bundle dedupe ignore case, so nothing else catches it. Unloadable or
-    # malformed files are skipped here (check_bundle reports them).
+    # and bundle dedupe ignore case, so nothing else catches it. Unloadable
+    # files are skipped (check_bundle reports them); so are non-list "feeds"
+    # and feeds without a string "name" (not validated here).
     errors = []
     for path in sorted((root / source_dir).glob("*.json")):
         try:
@@ -256,7 +257,7 @@ def check_bundles():
             print(f"::error::{bundle} does not match {source_dir}/ ({len(errors)} problem(s))")
             for error in errors:
                 print(f"  {error}")
-        else:
+        elif not prefix_errors:
             print(f"{bundle}: OK")
     return 1 if failed else 0
 
