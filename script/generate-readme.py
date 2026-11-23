@@ -56,9 +56,9 @@ def cell(value):
     return str(value).replace('|', '\\|')
 
 
-# Display names for non-wss feed-name prefixes, keyed by casefolded prefix.
+# Display names for non-wss feed-name prefixes, keyed by lowercased prefix.
 # Feed names are node-side identities and are not renamed in config (#232);
-# only the README label is normalized. Unknown prefixes are shown as is.
+# only the README label is normalized. Unknown prefixes keep their case.
 SOURCE_NAMES = {
     'capybara': 'Capybara',
     'daum': 'Daum',
