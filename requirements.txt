@@ -1,1 +1,2 @@
-requests
+# Pinned: Bundles CI (required check) installs this; bump deliberately (#307).
+requests==2.34.2

@@ -25,6 +25,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
+        id: setup-python
         with:
           python-version: '3.12'
 
@@ -33,10 +34,11 @@ jobs:
 
       # All script tests (#296); test_generate_configs needs requests (mocked, no network).
       - name: Install script deps
-        # Run even if the bundle check failed.
-        if: ${{ !cancelled() }}
+        # Run even if the bundle check failed, not if setup did (#307).
+        id: deps
+        if: ${{ !cancelled() && steps.setup-python.outcome == 'success' }}
         run: pip install -r requirements.txt
 
       - name: Unit tests (script/test_*.py)
-        if: ${{ !cancelled() }}
+        if: ${{ !cancelled() && steps.deps.outcome == 'success' }}
         run: python -m unittest discover -s script -p 'test_*.py'
