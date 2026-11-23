@@ -35,7 +35,9 @@ jobs:
           # Same-repo PR: check out the branch itself so we can push to it.
           # Fork PR / dispatch: default ref (read-only check).
           ref: ${{ github.event.pull_request.head.repo.full_name == github.repository && github.head_ref || '' }}
-          token: ${{ steps.app-token.outputs.token || github.token }}
+          # Don't leave the App token in .git/config while PR-branch scripts
+          # run; only the push step gets it (#294).
+          persist-credentials: false
 
       - uses: actions/setup-python@v5
         with:
@@ -49,12 +51,12 @@ jobs:
             exit 1
           }
 
-      - name: Regenerate and push README
+      - name: Regenerate README
+        id: regen
         if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
         env:
           EVENT: ${{ github.event_name }}
           REF_NAME: ${{ github.ref_name }}
-          HEAD_REF: ${{ github.head_ref }}
         run: |
           if [ "$EVENT" != "pull_request" ]; then
             python script/generate-readme.py --check || {
@@ -68,10 +70,24 @@ jobs:
             echo "README.md up to date; no changes."
             exit 0
           fi
-          # Push re-triggers this workflow on the new head; it regenerates no
-          # diff there and exits above, so no loop.
           git config user.name "orakl-bot[bot]"
           git config user.email "162664606+orakl-bot[bot]@users.noreply.github.com"
           git add README.md
           git commit -m "chore: regenerate README"
-          git push origin "HEAD:$HEAD_REF"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # Separate step: the token is never in the env of repo Python. Header via
+      # -c (not stored in .git/config); hooks off so nothing the regen step
+      # wrote under .git/hooks runs with it.
+      # Push re-triggers this workflow on the new head; it regenerates no diff
+      # there and exits above, so no loop.
+      - name: Push README
+        if: steps.regen.outputs.changed == 'true'
+        env:
+          TOKEN: ${{ steps.app-token.outputs.token }}
+          HEAD_REF: ${{ github.head_ref }}
+        run: |
+          auth=$(printf 'x-access-token:%s' "$TOKEN" | base64 -w0)
+          git -c core.hooksPath=/dev/null \
+            -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth" \
+            push origin "HEAD:$HEAD_REF"

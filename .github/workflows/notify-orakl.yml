@@ -8,6 +8,10 @@ on:
       - '*_feeds.json'
   workflow_dispatch:
 
+# Checks out and runs repo Python; dispatch uses the orakl-bot App token.
+permissions:
+  contents: read
+
 jobs:
   dispatch:
     runs-on: ubuntu-24.04
