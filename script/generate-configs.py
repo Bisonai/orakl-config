@@ -458,10 +458,10 @@ def replace_config_file(config_folder_path, symbol, feeds, unavailable_providers
     with open(f"{config_folder_path}/{symbol}.json", "r") as f:
         prev = json.load(f)
 
+    # keep every pair-level setting (intervals, feedDataFreshness,
+    # priceSource, multiplyBy, ...); only the feeds are rebuilt
+    result = {k: v for k, v in prev.items() if k != "feeds"}
     result["name"] = symbol
-    result["fetchInterval"] = prev["fetchInterval"]
-    result["aggregateInterval"] = prev["aggregateInterval"]
-    result["submitInterval"] = prev["submitInterval"]
     result["feeds"] = []
     for feed in prev["feeds"]:
         provider = (feed.get("definition") or {}).get("provider")
