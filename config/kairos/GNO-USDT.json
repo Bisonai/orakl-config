@@ -40,15 +40,6 @@
         "base": "GNO",
         "quote": "USDT"
       }
-    },
-    {
-      "name": "bingx-wss-GNO-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "bingx",
-        "base": "GNO",
-        "quote": "USDT"
-      }
     }
   ]
 }

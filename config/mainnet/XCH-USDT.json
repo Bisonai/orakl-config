@@ -33,15 +33,6 @@
       }
     },
     {
-      "name": "mexc-wss-XCH-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "mexc",
-        "base": "XCH",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "okx-wss-XCH-USDT",
       "definition": {
         "type": "wss",

@@ -6399,15 +6399,6 @@
           "base": "GNO",
           "quote": "USDT"
         }
-      },
-      {
-        "name": "bingx-wss-GNO-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "bingx",
-          "base": "GNO",
-          "quote": "USDT"
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -16823,15 +16814,6 @@
         }
       },
       {
-        "name": "mexc-wss-XCH-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "mexc",
-          "base": "XCH",
-          "quote": "USDT"
-        }
-      },
-      {
         "name": "okx-wss-XCH-USDT",
         "definition": {
           "type": "wss",
@@ -17016,15 +16998,6 @@
         "definition": {
           "type": "wss",
           "provider": "btse",
-          "base": "XMR",
-          "quote": "USDT"
-        }
-      },
-      {
-        "name": "mexc-wss-XMR-USDT",
-        "definition": {
-          "type": "wss",
-          "provider": "mexc",
           "base": "XMR",
           "quote": "USDT"
         }

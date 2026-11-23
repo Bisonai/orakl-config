@@ -24,15 +24,6 @@
       }
     },
     {
-      "name": "mexc-wss-XMR-USDT",
-      "definition": {
-        "type": "wss",
-        "provider": "mexc",
-        "base": "XMR",
-        "quote": "USDT"
-      }
-    },
-    {
       "name": "kraken-wss-XMR-USDT",
       "definition": {
         "type": "wss",
