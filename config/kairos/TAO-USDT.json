@@ -4,6 +4,7 @@
   "aggregateInterval": 400,
   "submitInterval": 60000,
   "feedDataFreshness": 60000,
+  "priceSource": "mid",
   "feeds": [
     {
       "name": "binance-wss:TAO-USDT",
