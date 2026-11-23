@@ -2,11 +2,14 @@
 
 Run from the repo root:  python3 -m unittest discover -s script
 """
+import contextlib
 import importlib.util
+import io
 import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 _spec = importlib.util.spec_from_file_location(
     "collect_files", Path(__file__).with_name("collect-files.py"))
@@ -89,6 +92,56 @@ class CheckBundleTest(unittest.TestCase):
         (self.root / "bundle.json").write_text("[]")
         self.assertEqual(cf.check_bundle(Path("nope"), Path("bundle.json"), self.root),
                          ["nope/: source directory not found"])
+
+
+class CheckFeedPrefixesTest(unittest.TestCase):
+    def setUp(self):
+        self._tmp = tempfile.TemporaryDirectory()
+        self.root = Path(self._tmp.name)
+        (self.root / "src").mkdir()
+
+    def tearDown(self):
+        self._tmp.cleanup()
+
+    def check(self, *names):
+        (self.root / "src" / "A-USDT.json").write_text(json.dumps(pair("A-USDT", *(feed(n) for n in names))))
+        return cf.check_feed_prefixes(Path("src"), self.root)
+
+    def test_lowercase_prefixes_pass(self):
+        self.assertEqual(self.check("binance-wss-BTC-USDT", "dragonswap-NEW-KAIA", "uniswapv3:0.3-ETH-USDT", "x"), [])
+
+    def test_mixed_case_prefix_fails(self):
+        [error] = self.check("dragonswap-OK-KAIA", "DragonSwap-NEW-KAIA")
+        self.assertIn("src/A-USDT.json", error)
+        self.assertIn("'DragonSwap-NEW-KAIA'", error)
+        self.assertIn("'dragonswap'", error)
+
+    def test_malformed_skipped(self):
+        (self.root / "src" / "bad.json").write_text('{"name": "A",}')
+        (self.root / "src" / "list.json").write_text('[]')
+        (self.root / "src" / "z.json").write_text(json.dumps(pair("Z-USDT", feed("Bad-Z-USDT"))))
+        [error] = self.check({"x": 1})
+        self.assertIn("src/z.json", error)
+
+
+class CheckBundlesTest(unittest.TestCase):
+    def run_check(self, prefix_errors):
+        out = io.StringIO()
+        with mock.patch.object(cf, "BUNDLES", [("src", "b.json")]), \
+             mock.patch.object(cf, "check_feed_prefixes", return_value=prefix_errors), \
+             mock.patch.object(cf, "check_bundle", return_value=[]), \
+             contextlib.redirect_stdout(out):
+            rc = cf.check_bundles()
+        return rc, out.getvalue()
+
+    def test_prefix_error_alone_fails_without_ok(self):
+        rc, out = self.run_check(["src/A.json: feed 'Bad-X': prefix 'Bad' must be lowercase ('bad')"])
+        self.assertEqual(rc, 1)
+        self.assertIn("non-lowercase prefix", out)
+        self.assertNotIn("OK", out)
+
+    def test_clean_prints_ok(self):
+        self.assertEqual(self.run_check([]), (0, "b.json: OK\n"))
 
 
 if __name__ == "__main__":
