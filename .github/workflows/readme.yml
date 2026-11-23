@@ -75,9 +75,18 @@ jobs:
     needs: regenerate
     if: needs.regenerate.outputs.changed == 'true'
     runs-on: ubuntu-24.04
+    env:
+      # Same-repo PRs without Actions secrets (e.g. Dependabot) get an empty
+      # key; skip instead of failing in create-github-app-token (#306).
+      BOT_KEY_SET: ${{ secrets.GH_ORAKL_BOT_PRIVATE_KEY != '' }}
     steps:
+      - name: No orakl-bot key
+        if: env.BOT_KEY_SET != 'true'
+        run: echo "::warning::README.md is out of date, but this run has no orakl-bot key (e.g. Dependabot PR); not pushing. Run 'python script/generate-readme.py' and commit README.md."
+
       - name: Generate GitHub App Token
         id: app-token
+        if: env.BOT_KEY_SET == 'true'
         uses: actions/create-github-app-token@v3
         with:
           client-id: Iv1.c13a65499d8e95e6
@@ -87,19 +96,23 @@ jobs:
           permission-contents: write
 
       - uses: actions/checkout@v4
+        if: env.BOT_KEY_SET == 'true'
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           persist-credentials: false
 
       - uses: actions/download-artifact@v4
+        if: env.BOT_KEY_SET == 'true'
         with:
           name: readme
           path: ${{ runner.temp }}/readme
 
       # Push re-triggers this workflow on the new head; it regenerates no diff
       # there, so no loop. Same commit as regenerate checked out: if the branch
-      # moved meanwhile, the push is rejected (non-fast-forward), not clobbered.
+      # moved meanwhile, the push is rejected (non-fast-forward), not clobbered,
+      # and the job passes: the run for the new head regenerates (#306).
       - name: Commit and push README
+        if: env.BOT_KEY_SET == 'true'
         env:
           TOKEN: ${{ steps.app-token.outputs.token }}
           HEAD_REF: ${{ github.head_ref }}
@@ -116,4 +129,15 @@ jobs:
           export GIT_CONFIG_COUNT=1
           export GIT_CONFIG_KEY_0=http.https://github.com/.extraheader
           export GIT_CONFIG_VALUE_0="AUTHORIZATION: basic $auth"
-          git push origin "HEAD:$HEAD_REF"
+          err="$RUNNER_TEMP/push.err"
+          if git push origin "HEAD:$HEAD_REF" 2>"$err"; then
+            cat "$err"
+            exit 0
+          fi
+          cat "$err" >&2
+          # Only a non-ff reject is benign; auth/network/protection still fail.
+          if grep -qE '\[rejected\]|non-fast-forward|fetch first' "$err"; then
+            echo "::notice::$HEAD_REF moved after this run started; README push rejected (non-fast-forward). The run for the new head regenerates."
+            exit 0
+          fi
+          exit 1
