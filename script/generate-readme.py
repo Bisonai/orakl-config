@@ -39,6 +39,13 @@ Price-feed configuration for the Orakl Network oracle, per network (`mainnet` = 
 - `config/<network>/<PAIR>.json` — per-pair feed definitions (fetch / aggregate / submit intervals in ms, and the data-source feeds).
 - `<network>_feeds.json` — aggregated bundles served from the repo root.
 
+## Applying changes
+
+A merge updates the served bundles; consumers pick them up as follows.
+
+- **Oracle nodes** (`nodebin`) load the bundle only at boot and on config sync, so **any** change (incl. pair-level fields such as `priceSource`, intervals or feeds) reaches a node only after `nodebin admin reload` runs inside each node (or the node restarts). It runs config sync, then fetcher and aggregator refresh, and reads `ADMIN_TOKEN` itself, e.g. `kubectl -n orakl exec deploy/<node> -c orakl-node -- nodebin admin reload`. A reload logs about one `failed to get message from topic: context canceled` line per config; it is harmless (Bisonai/orakl#2985).
+- **DAL and sentinel** (on-chain checker) poll every `CONFIG_RELOAD_INTERVAL` (default 5m; SIGHUP also reloads) and apply only added or removed pairs. They refuse an empty bundle or a drop of more than 50 % of pairs; restart them to apply such a change.
+
 See [`script/README.md`](script/README.md) for the scripts that generate the bundles and this file.
 """
 

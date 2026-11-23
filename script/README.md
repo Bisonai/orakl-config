@@ -49,6 +49,8 @@ python script/collect-files.py --check   # exit 1 if a bundle != its source dir;
 
 The committed bundles are not byte-reproducible (#236: different indent/key order); writing rewrites them with a cosmetic diff, so hand-edit bundles alongside `config/` instead. CI (`.github/workflows/bundles.yml`) runs `--check` on every PR and push to `master`: it compares parsed JSON, matching entries by `name` (bundle entry order and key order are ignored; within an entry, values incl. types and feed order must match exactly) and lists missing/extra/differing pairs and feeds. `.github/workflows/notify-orakl.yml` runs the same `--check` before dispatching `orakl-config-published`, so a drifted bundle on `master` is not dispatched to orakl (#262; nodes still sync it from `master` — only a required `Bundles` check blocks the merge). It only triggers on `*_feeds.json` changes, so if the fix touches only `config/`, re-run it by hand: `gh workflow run notify-orakl.yml -R Bisonai/orakl-config --ref master`.
 
+A merged bundle reaches oracle nodes only after `nodebin admin reload` on each node; see "Applying changes" in the [root README](../README.md#applying-changes).
+
 Feed names are `<source>:<BASE>-<QUOTE>` (#297): a lowercase source, optionally qualified with `-` (`binance-wss`, `uniswapv3-0.3`, `uniswapv4-polygon-005`, `yahoo`), then `:` and the uppercase pair the feed quotes (`binance-wss:BTC-USDT`, `uniswapv3-0.3:WBTC-USDT`). `--check` fails on any other form (#298). The node does not parse feed names (websocket feeds are matched by `definition`), but each name is the Prometheus `feed` label on node metrics, so renaming a feed starts a new series.
 
 ## Generate README
