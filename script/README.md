@@ -27,7 +27,7 @@ Automatically generates per-pair `<PAIR>.json` config files based on supported W
 - onlysymbols: defaults to false, only reload supported symbols if true without generating configs
 - replace: true or false, defaults to false. Remove old ws sources and add new ones if true (ws feeds of providers whose symbols could not be loaded are kept).
 
-Boolean flags (`--refresh`, `--onlysymbols`, `--replace`) take `true` or `false` (case-insensitive); any other value is an error.
+Boolean flags (`--refresh`, `--onlysymbols`, `--replace`) require a value, `true` or `false` (case-insensitive); a bare flag or any other value is an error.
 
 ```
 python3 script/generate-configs.py --network mainnet --refresh true --symbols "NOT-USDT, PEOPLE-USDT"
