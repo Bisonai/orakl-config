@@ -83,13 +83,13 @@ class LoadPairTest(unittest.TestCase):
         self.assertEqual(self.sources(pool("FooDex-ETH-USDT"), pool("foodex-ETH-USDT")),
                          ["FooDex"])
 
-    def test_malformed_outside_repo_warns_full_path(self):
+    def test_malformed_outside_repo_warns(self):
         self.path.write_text("not json")
         err = io.StringIO()
         with contextlib.redirect_stderr(err):
             self.assertIsNone(gr.load_pair(self.path))
-        self.assertIn("skipping {}: could not read/parse JSON".format(self.path),
-                      err.getvalue())
+        # full path normally; relative if TMPDIR is inside the repo
+        self.assertIn("ETH-USDT.json: could not read/parse JSON", err.getvalue())
 
 
 if __name__ == "__main__":

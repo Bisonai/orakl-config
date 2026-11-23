@@ -76,9 +76,9 @@ jobs:
           git commit -m "chore: regenerate README"
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
-      # Separate step: the token is never in the env of repo Python. Header via
-      # -c (not stored in .git/config); hooks off so nothing the regen step
-      # wrote under .git/hooks runs with it.
+      # Separate step: the token is not in the env of the regen step. Header via
+      # GIT_CONFIG_* env (not .git/config, not argv); hooks off so nothing the
+      # regen step wrote under .git/hooks runs with it.
       # Push re-triggers this workflow on the new head; it regenerates no diff
       # there and exits above, so no loop.
       - name: Push README
@@ -88,6 +88,9 @@ jobs:
           HEAD_REF: ${{ github.head_ref }}
         run: |
           auth=$(printf 'x-access-token:%s' "$TOKEN" | base64 -w0)
-          git -c core.hooksPath=/dev/null \
-            -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth" \
-            push origin "HEAD:$HEAD_REF"
+          echo "::add-mask::$auth"
+          export GIT_CONFIG_COUNT=2
+          export GIT_CONFIG_KEY_0=core.hooksPath GIT_CONFIG_VALUE_0=/dev/null
+          export GIT_CONFIG_KEY_1=http.https://github.com/.extraheader
+          export GIT_CONFIG_VALUE_1="AUTHORIZATION: basic $auth"
+          git push origin "HEAD:$HEAD_REF"
