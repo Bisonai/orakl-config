@@ -163,7 +163,7 @@ class ReplaceConfigTest(unittest.TestCase):
             "name": "BTC-USDT", "fetchInterval": 1, "aggregateInterval": 2, "submitInterval": 3,
             "feeds": [
                 {"name": "naver-BTC-USDT", "definition": {"url": "x"}},
-                gc.make_wss_object("bitmart", "btc", "usdt"),
+                gc.make_wss_object("xt", "btc", "usdt"),
                 gc.make_wss_object("bingx", "btc", "usdt"),
             ],
         }
@@ -171,12 +171,12 @@ class ReplaceConfigTest(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             with open(os.path.join(d, "BTC-USDT.json"), "w") as f:
                 json.dump(prev, f)
-            gc.replace_config_file(d, "BTC-USDT", new_feeds, {"bitmart"})
+            gc.replace_config_file(d, "BTC-USDT", new_feeds, {"xt"})
             with open(os.path.join(d, "BTC-USDT.json")) as f:
                 names = [x["name"] for x in json.load(f)["feeds"]]
         # bingx loaded and no longer lists the pair -> removed;
-        # bitmart failed to load -> kept
-        self.assertEqual(names, ["naver-BTC-USDT", "bitmart-wss-BTC-USDT", "binance-wss-BTC-USDT"])
+        # xt failed to load -> kept
+        self.assertEqual(names, ["naver-BTC-USDT", "xt-wss-BTC-USDT", "binance-wss-BTC-USDT"])
 
 
 if __name__ == "__main__":
