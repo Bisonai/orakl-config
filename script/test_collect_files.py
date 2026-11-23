@@ -2,11 +2,14 @@
 
 Run from the repo root:  python3 -m unittest discover -s script
 """
+import contextlib
 import importlib.util
+import io
 import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 _spec = importlib.util.spec_from_file_location(
     "collect_files", Path(__file__).with_name("collect-files.py"))
@@ -119,6 +122,26 @@ class CheckFeedPrefixesTest(unittest.TestCase):
         (self.root / "src" / "z.json").write_text(json.dumps(pair("Z-USDT", feed("Bad-Z-USDT"))))
         [error] = self.check({"x": 1})
         self.assertIn("src/z.json", error)
+
+
+class CheckBundlesTest(unittest.TestCase):
+    def run_check(self, prefix_errors):
+        out = io.StringIO()
+        with mock.patch.object(cf, "BUNDLES", [("src", "b.json")]), \
+             mock.patch.object(cf, "check_feed_prefixes", return_value=prefix_errors), \
+             mock.patch.object(cf, "check_bundle", return_value=[]), \
+             contextlib.redirect_stdout(out):
+            rc = cf.check_bundles()
+        return rc, out.getvalue()
+
+    def test_prefix_error_alone_fails_without_ok(self):
+        rc, out = self.run_check(["src/A.json: feed 'Bad-X': prefix 'Bad' must be lowercase ('bad')"])
+        self.assertEqual(rc, 1)
+        self.assertIn("non-lowercase prefix", out)
+        self.assertNotIn("OK", out)
+
+    def test_clean_prints_ok(self):
+        self.assertEqual(self.run_check([]), (0, "b.json: OK\n"))
 
 
 if __name__ == "__main__":

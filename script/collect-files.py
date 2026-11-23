@@ -219,7 +219,7 @@ def check_bundle(source_dir: Path, bundle_path: Path, root: Path = ROOT):
     return errors
 
 def check_feed_prefixes(source_dir: Path, root: Path = ROOT):
-    # #298: feed-name prefix (before the first "-") must be lowercase, else
+    # #298: feed-name prefix (before the first "-"; whole name if no "-") must be lowercase, else
     # mixed-case names split the Prometheus `feed` label (#232). README lookup
     # and bundle dedupe ignore case, so nothing else catches it. Unloadable
     # files are skipped (check_bundle reports them); so are non-list "feeds"
