@@ -42,7 +42,9 @@ filter_outs = {
         "beamusdt",  # old Beam, not beam-2/BEAMX (#253)
         "elizaosusdt", "tusdusdt", "zkjusdt",  # no data on any node (#269)
         "dashusdt", "safeusdt", "xcnusdt",  # dead/not listed (2026-11-20)
+        "xchusdt", "xmrusdt",  # delisted, "invalid symbol" (2026-11-23)
     ],
+    "bingx": ["gnousdt"],  # symbol offline since 2026-11-16 (2026-11-23)
     "gateio": ["tusdusdt", "usdeusdt"],  # dead/not listed (2026-11-20)
     "gemini": ["eurusd", "btcusdt", "ethusdt"],  # dead/not listed (2026-11-20)
     "bitstamp": ["usdcusdt", "gbpusd"],  # dead/not listed (2026-11-20)
