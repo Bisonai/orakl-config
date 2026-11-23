@@ -9,6 +9,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 _spec = importlib.util.spec_from_file_location(
     "generate_readme", Path(__file__).with_name("generate-readme.py"))
@@ -87,10 +88,12 @@ class LoadPairTest(unittest.TestCase):
     def test_malformed_outside_repo_warns(self):
         self.path.write_text("not json")
         err = io.StringIO()
-        with contextlib.redirect_stderr(err):
+        # ROOT the tempdir can't be under, whatever TMPDIR is
+        with contextlib.redirect_stderr(err), \
+                mock.patch.object(gr, "ROOT", Path("/nonexistent-orakl-config-root")):
             self.assertIsNone(gr.load_pair(self.path))
-        # full path normally; relative if TMPDIR is inside the repo
-        self.assertIn("ETH-USDT.json: could not read/parse JSON", err.getvalue())
+        self.assertIn("skipping {}: could not read/parse JSON".format(self.path),
+                      err.getvalue())
 
 
 if __name__ == "__main__":
