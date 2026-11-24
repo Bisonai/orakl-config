@@ -3961,6 +3961,7 @@
     "aggregateInterval": 400,
     "submitInterval": 15000,
     "feedDataFreshness": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "uniswapv3:DAI-USDT",
