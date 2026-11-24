@@ -4,6 +4,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:1INCH-USDT",
@@ -195,6 +196,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:ACH-USDT",
@@ -340,6 +342,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:ADA-USDT",
@@ -493,6 +496,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:AERO-USDT",
@@ -601,6 +605,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:AIOZ-USDT",
@@ -701,6 +706,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:ALGO-USDT",
@@ -864,6 +870,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:APT-USDT",
@@ -999,6 +1006,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:AR-USDT",
@@ -1163,6 +1171,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:ATH-USDT",
@@ -1280,6 +1289,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:ATOM-USDT",
@@ -1489,6 +1499,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:AVAX-USDT",
@@ -1642,6 +1653,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "bybit-wss:AVL-USDT",
@@ -1697,6 +1709,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:AXL-USDT",
@@ -1789,6 +1802,7 @@
     "aggregateInterval": 400,
     "submitInterval": 60000,
     "decimals": 16,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:BABYDOGE-USDT",
@@ -1879,6 +1893,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:BAT-USDT",
@@ -2033,6 +2048,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "bybit-wss:BEAM-USDT",
@@ -2078,6 +2094,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:BERA-USDT",
@@ -2195,6 +2212,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "bitget-wss:BGB-USDT",
@@ -2231,6 +2249,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:BNB-USDT",
@@ -2376,6 +2395,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:BONK-USDT",
@@ -2539,6 +2559,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:BRETT-USDT",
@@ -2703,6 +2724,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "uniswapv3-0.3:WBTC-USDT",
@@ -2857,6 +2879,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:CAKE-USDT",
@@ -2974,6 +2997,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:CELO-USDT",
@@ -3073,6 +3097,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:CFX-USDT",
@@ -3289,6 +3314,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:CKB-USDT",
@@ -3379,6 +3405,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:COMP-USDT",
@@ -3514,6 +3541,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "bybit-wss:CORE-USDT",
@@ -3595,6 +3623,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:CRO-USDT",
@@ -3685,6 +3714,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:CRV-USDT",
@@ -3839,6 +3869,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:CVX-USDT",
@@ -3957,6 +3988,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:DASH-USDT",
@@ -4011,6 +4043,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:DEEP-USDT",
@@ -4101,6 +4134,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:DEXE-USDT",
@@ -4219,6 +4253,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:DOGE-USDT",
@@ -4382,6 +4417,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:DOT-USDT",
@@ -4517,6 +4553,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:DYDX-USDT",
@@ -4634,6 +4671,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:EGLD-USDT",
@@ -4742,6 +4780,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:EIGEN-USDT",
@@ -4868,6 +4907,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:ELIZAOS-USDT",
@@ -4895,6 +4935,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:ENA-USDT",
@@ -5141,6 +5182,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "uniswapv3-0.3:ETH-USDT",
@@ -5403,6 +5445,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:FARTCOIN-USDT",
@@ -5511,6 +5554,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:FDUSD-USDT",
@@ -5565,6 +5609,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:FIL-USDT",
@@ -5700,6 +5745,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:FLOKI-USDT",
@@ -5826,6 +5872,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:FLR-USDT",
@@ -5916,6 +5963,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:FORM-USDT",
@@ -5997,6 +6045,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:FTT-USDT",
@@ -6087,6 +6136,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:GALA-USDT",
@@ -6349,6 +6399,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:GNO-USDT",
@@ -6394,6 +6445,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:GRASS-USDT",
@@ -6521,6 +6573,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "gateio-wss:GRND-USDT",
@@ -6567,6 +6620,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "gateio-wss:GT-USDT",
@@ -6658,6 +6712,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:HNT-USDT",
@@ -6739,6 +6794,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:HOT-USDT",
@@ -6802,6 +6858,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:HYPE-USDT",
@@ -7051,6 +7108,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:INJ-USDT",
@@ -7177,6 +7235,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:IOTA-USDT",
@@ -7295,6 +7354,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:JASMY-USDT",
@@ -7472,6 +7532,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:JST-USDT",
@@ -7562,6 +7623,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:JTO-USDT",
@@ -7679,6 +7741,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:JUP-USDT",
@@ -7860,6 +7923,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:KAIA-USDT",
@@ -7977,6 +8041,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:KAITO-USDT",
@@ -8076,6 +8141,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:KAS-USDT",
@@ -8184,6 +8250,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:KAVA-USDT",
@@ -8442,6 +8509,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:KSM-USDT",
@@ -8568,6 +8636,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:LDO-USDT",
@@ -8749,6 +8818,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:LPT-USDT",
@@ -8866,6 +8936,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:LTC-USDT",
@@ -9001,6 +9072,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:LUNC-USDT",
@@ -9118,6 +9190,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:MANA-USDT",
@@ -9244,6 +9317,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:MASK-USDT",
@@ -9436,6 +9510,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:MELANIA-USDT",
@@ -9536,6 +9611,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:MINA-USDT",
@@ -9672,6 +9748,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:MNT-USDT",
@@ -9762,6 +9839,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:MORPHO-USDT",
@@ -9879,6 +9957,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:MOVE-USDT",
@@ -10139,6 +10218,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:NEO-USDT",
@@ -10247,6 +10327,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:NEXO-USDT",
@@ -10319,6 +10400,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:NFT-USDT",
@@ -10391,6 +10473,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:NOT-USDT",
@@ -10490,6 +10573,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "gateio-wss:OKB-USDT",
@@ -10608,6 +10692,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:ONDO-USDT",
@@ -10762,6 +10847,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:OSMO-USDT",
@@ -10825,6 +10911,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:PAXG-USDT",
@@ -10915,6 +11002,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:PENDLE-USDT",
@@ -11050,6 +11138,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:PENGU-USDT",
@@ -11232,6 +11321,7 @@
     "aggregateInterval": 400,
     "submitInterval": 15000,
     "decimals": 16,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:PEPE-USDT",
@@ -11387,6 +11477,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "gateio-wss:PI-USDT",
@@ -11450,6 +11541,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:PNUT-USDT",
@@ -11622,6 +11714,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:POL-USDT",
@@ -11757,6 +11850,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:POPCAT-USDT",
@@ -11884,6 +11978,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:PYUSD-USDT",
@@ -11974,6 +12069,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:QNT-USDT",
@@ -12073,6 +12169,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:QTUM-USDT",
@@ -12172,6 +12269,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:RAY-USDT",
@@ -12280,6 +12378,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:RENDER-USDT",
@@ -12406,6 +12505,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "gateio-wss:RON-USDT",
@@ -12460,6 +12560,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:ROSE-USDT",
@@ -12523,6 +12624,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:RSR-USDT",
@@ -12649,6 +12751,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:RUNE-USDT",
@@ -12730,6 +12833,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:S-USDT",
@@ -12865,6 +12969,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:SAFE-USDT",
@@ -12965,6 +13070,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:SAND-USDT",
@@ -13119,6 +13225,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:SEI-USDT",
@@ -13245,6 +13352,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:SFP-USDT",
@@ -13424,6 +13532,7 @@
     "aggregateInterval": 400,
     "submitInterval": 15000,
     "decimals": 16,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:SHIB-USDT",
@@ -13559,6 +13668,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:SKY-USDT",
@@ -13695,6 +13805,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:SNX-USDT",
@@ -13867,6 +13978,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:SOL-USDT",
@@ -14020,6 +14132,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "bybit-wss:SONIC-USDT",
@@ -14119,6 +14232,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:SPX-USDT",
@@ -14293,6 +14407,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:SUI-USDT",
@@ -14428,6 +14543,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:SUPER-USDT",
@@ -14500,6 +14616,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:TAO-USDT",
@@ -14590,6 +14707,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:TFUEL-USDT",
@@ -14635,6 +14753,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:THETA-USDT",
@@ -14734,6 +14853,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:TIA-USDT",
@@ -14869,6 +14989,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:TRUMP-USDT",
@@ -15032,6 +15153,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:TRX-USDT",
@@ -15158,6 +15280,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:TUSD-USDT",
@@ -15203,6 +15326,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:TWT-USDT",
@@ -15293,6 +15417,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "uniswapv3:UNI-USDT",
@@ -15438,6 +15563,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "uniswapv3-0.01:USDC-USDT",
@@ -15574,6 +15700,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "bybit-wss:USDE-USDT",
@@ -15674,6 +15801,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "coinbase-wss:USDT-USD",
@@ -15764,6 +15892,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:VET-USDT",
@@ -15872,6 +16001,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:VIRTUAL-USDT",
@@ -16007,6 +16137,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:VTHO-USDT",
@@ -16070,6 +16201,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:W-USDT",
@@ -16244,6 +16376,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:WEMIX-USDT",
@@ -16307,6 +16440,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:WIF-USDT",
@@ -16488,6 +16622,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:WLD-USDT",
@@ -16614,6 +16749,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "btse-wss:XAUT-USDT",
@@ -16749,6 +16885,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:XCH-USDT",
@@ -16812,6 +16949,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:XCN-USDT",
@@ -16949,6 +17087,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:XMR-USDT",
@@ -17040,6 +17179,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 15000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:XRP-USDT",
@@ -17193,6 +17333,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:XTZ-USDT",
@@ -17347,6 +17488,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:ZIL-USDT",
@@ -17483,6 +17625,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:ZK-USDT",
@@ -17609,6 +17752,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "kucoin-wss:ZKJ-USDT",
@@ -17702,6 +17846,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:ZRO-USDT",
@@ -17837,6 +17982,7 @@
     "fetchInterval": 2000,
     "aggregateInterval": 400,
     "submitInterval": 60000,
+    "priceSource": "mid",
     "feeds": [
       {
         "name": "binance-wss:ZRX-USDT",
