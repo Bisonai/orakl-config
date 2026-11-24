@@ -5,6 +5,7 @@
   "submitInterval": 60000,
   "feedDataFreshness": 60000,
   "decimals": 16,
+  "priceSource": "mid",
   "feeds": [
     {
       "name": "kucoin-wss:BABYDOGE-USDT",
