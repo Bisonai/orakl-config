@@ -5,6 +5,7 @@
   "submitInterval": 15000,
   "feedDataFreshness": 60000,
   "decimals": 16,
+  "priceSource": "mid",
   "feeds": [
     {
       "name": "binance-wss:PEPE-USDT",
