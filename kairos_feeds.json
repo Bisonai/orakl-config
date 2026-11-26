@@ -7554,6 +7554,72 @@
             }
           ]
         }
+      },
+      {
+        "name": "swissquote:JPY-USD",
+        "definition": {
+          "url": "https://forex-data-feed.swissquote.com/public-quotes/bboquotes/instrument/USD/JPY",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "INDEX",
+              "args": 0
+            },
+            {
+              "function": "PARSE",
+              "args": ["spreadProfilePrices"]
+            },
+            {
+              "function": "FIND",
+              "args": {
+                "key": "spreadProfile",
+                "value": "premium"
+              }
+            },
+            {
+              "function": "MEAN",
+              "args": ["bid", "ask"]
+            },
+            {
+              "function": "DIVFROM",
+              "args": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "linefx:JPY-USD",
+        "definition": {
+          "url": "https://line-fx.com/api/fx/market/init-price-list-and-settings",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "PARSE",
+              "args": ["priceAndQuotationDto"]
+            },
+            {
+              "function": "FIND",
+              "args": {
+                "key": "symbolCode",
+                "value": "2001"
+              }
+            },
+            {
+              "function": "MEAN",
+              "args": ["bidRate", "askRate"]
+            },
+            {
+              "function": "DIVFROM",
+              "args": 1
+            }
+          ]
+        }
       }
     ],
     "feedDataFreshness": 60000
