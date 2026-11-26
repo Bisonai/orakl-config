@@ -98,6 +98,32 @@
           }
         ]
       }
+    },
+    {
+      "name": "upbit:KRW-USD",
+      "definition": {
+        "url": "https://crix-api-cdn.upbit.com/v1/crix/recent/relatedForex?codes=CRIX.UPBIT.KRW-USDT",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": [
+              "basePrice"
+            ]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
+          }
+        ]
+      }
     }
   ]
 }
