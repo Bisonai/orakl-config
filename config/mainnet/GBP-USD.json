@@ -88,6 +88,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "kraken-wss:GBP-USD",
+      "definition": {
+        "type": "wss",
+        "provider": "kraken",
+        "base": "GBP",
+        "quote": "USD"
+      }
     }
   ]
 }

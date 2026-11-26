@@ -27,7 +27,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 
 ## Mainnet
 
-235 pairs, 1737 feeds.
+235 pairs, 1739 feeds.
 
 | pair | sources | fetchInterval | aggregateInterval | submitInterval |
 | --- | --- | ---: | ---: | ---: |
@@ -101,7 +101,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [ETC-KRW](config/mainnet/ETC-KRW.json) | bithumb, coinone, upbit | 2000 | 400 | 60000 |
 | [ETH-KRW](config/mainnet/ETH-KRW.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
 | [ETH-USDT](config/mainnet/ETH-USDT.json) | binance, bingx, bitget, bitstamp, btse, bybit, coinbase, crypto, gateio, huobi, kraken, kucoin, lbank, okx, orangex, UniswapV3, xt | 2000 | 400 | 15000 |
-| [EUR-USD](config/mainnet/EUR-USD.json) | bitstamp, Daum, Naver, Yahoo | 10000 | 400 | 15000 |
+| [EUR-USD](config/mainnet/EUR-USD.json) | bitstamp, Daum, kraken, Naver, Yahoo | 10000 | 400 | 15000 |
 | [FARTCOIN-USDT](config/mainnet/FARTCOIN-USDT.json) | bingx, bitget, btse, gateio, huobi, kraken, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
 | [FDUSD-USDT](config/mainnet/FDUSD-USDT.json) | binance, bingx, gateio, mexc, xt | 2000 | 400 | 60000 |
 | [FIL-USDT](config/mainnet/FIL-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
@@ -111,7 +111,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [FTT-USDT](config/mainnet/FTT-USDT.json) | binance, bingx, bybit, gateio, huobi, kucoin, lbank, mexc, orangex | 2000 | 400 | 60000 |
 | [GALA-USDT](config/mainnet/GALA-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
 | [GAS-KRW](config/mainnet/GAS-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
-| [GBP-USD](config/mainnet/GBP-USD.json) | Daum, Naver, Yahoo | 10000 | 400 | 15000 |
+| [GBP-USD](config/mainnet/GBP-USD.json) | Daum, kraken, Naver, Yahoo | 10000 | 400 | 15000 |
 | [GLM-KRW](config/mainnet/GLM-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
 | [GNO-USDT](config/mainnet/GNO-USDT.json) | binance, gateio, huobi, mexc | 2000 | 400 | 60000 |
 | [GOOGL-USD](config/mainnet/GOOGL-USD.json) | Yahoo | 10000 | 400 | 15000 |
