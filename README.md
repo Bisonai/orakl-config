@@ -27,7 +27,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 
 ## Mainnet
 
-235 pairs, 1733 feeds.
+235 pairs, 1735 feeds.
 
 | pair | sources | fetchInterval | aggregateInterval | submitInterval |
 | --- | --- | ---: | ---: | ---: |
@@ -143,7 +143,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [KAS-USDT](config/mainnet/KAS-USDT.json) | bingx, bitget, btse, bybit, gateio, kraken, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
 | [KAVA-USDT](config/mainnet/KAVA-USDT.json) | binance, bingx, bitget, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
 | [KNC-KRW](config/mainnet/KNC-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
-| [KRW-USD](config/mainnet/KRW-USD.json) | Daum, Naver, Yahoo | 10000 | 400 | 15000 |
+| [KRW-USD](config/mainnet/KRW-USD.json) | bithumb, Daum, Naver, upbit, Yahoo | 10000 | 400 | 15000 |
 | [KRWO-USDT](config/mainnet/KRWO-USDT.json) | Capybara, DragonSwap | 2000 | 400 | 60000 |
 | [KSM-USDT](config/mainnet/KSM-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
 | [LDO-USDT](config/mainnet/LDO-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
