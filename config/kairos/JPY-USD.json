@@ -63,6 +63,41 @@
           }
         ]
       }
+    },
+    {
+      "name": "gmo:JPY-USD",
+      "definition": {
+        "url": "https://forex-api.coin.z.com/public/v1/ticker",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "data"
+            ]
+          },
+          {
+            "function": "FIND",
+            "args": {
+              "key": "symbol",
+              "value": "USD_JPY"
+            }
+          },
+          {
+            "function": "PARSE",
+            "args": [
+              "bid"
+            ]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
+          }
+        ]
+      }
     }
   ]
 }
