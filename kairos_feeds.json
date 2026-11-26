@@ -7483,8 +7483,8 @@
               }
             },
             {
-              "function": "PARSE",
-              "args": ["bid"]
+              "function": "MEAN",
+              "args": ["bid", "ask"]
             },
             {
               "function": "DIVFROM",
