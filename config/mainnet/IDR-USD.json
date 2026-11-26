@@ -42,30 +42,6 @@
       }
     },
     {
-      "name": "naver:IDR-USD",
-      "definition": {
-        "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDIDR",
-        "headers": {
-          "Content-Type": "application/json",
-          "User-Agent": "Mozilla/5.0"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": [
-              "result",
-              "closePrice"
-            ]
-          },
-          {
-            "function": "DIVFROM",
-            "args": 1
-          }
-        ]
-      }
-    },
-    {
       "name": "daum:IDR-USD",
       "definition": {
         "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWIDR",
