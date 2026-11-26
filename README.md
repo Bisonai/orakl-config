@@ -269,7 +269,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 
 ## Kairos
 
-235 pairs, 1734 feeds.
+235 pairs, 1735 feeds.
 
 | pair | sources | fetchInterval | aggregateInterval | submitInterval |
 | --- | --- | ---: | ---: | ---: |
@@ -385,7 +385,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [KAS-USDT](config/kairos/KAS-USDT.json) | bingx, bitget, btse, bybit, gateio, kraken, kucoin, lbank, mexc, orangex, xt | 2000 | 400 | 60000 |
 | [KAVA-USDT](config/kairos/KAVA-USDT.json) | binance, bingx, bitget, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, xt | 2000 | 400 | 60000 |
 | [KNC-KRW](config/kairos/KNC-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
-| [KRW-USD](config/kairos/KRW-USD.json) | Daum, Naver, upbit, Yahoo | 10000 | 400 | 15000 |
+| [KRW-USD](config/kairos/KRW-USD.json) | bithumb, Daum, Naver, upbit, Yahoo | 10000 | 400 | 15000 |
 | [KRWO-USDT](config/kairos/KRWO-USDT.json) | Capybara, DragonSwap | 2000 | 400 | 60000 |
 | [KSM-USDT](config/kairos/KSM-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
 | [LDO-USDT](config/kairos/LDO-USDT.json) | binance, bingx, bitget, btse, bybit, crypto, gateio, huobi, kucoin, lbank, mexc, okx, orangex, xt | 2000 | 400 | 60000 |
