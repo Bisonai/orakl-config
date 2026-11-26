@@ -5463,6 +5463,15 @@
           "base": "EUR",
           "quote": "USD"
         }
+      },
+      {
+        "name": "kraken-wss:EUR-USD",
+        "definition": {
+          "type": "wss",
+          "provider": "kraken",
+          "base": "EUR",
+          "quote": "USD"
+        }
       }
     ],
     "feedDataFreshness": 60000
@@ -6401,6 +6410,15 @@
               ]
             }
           ]
+        }
+      },
+      {
+        "name": "kraken-wss:GBP-USD",
+        "definition": {
+          "type": "wss",
+          "provider": "kraken",
+          "base": "GBP",
+          "quote": "USD"
         }
       }
     ],
