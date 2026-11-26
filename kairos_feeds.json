@@ -3242,26 +3242,6 @@
         }
       },
       {
-        "name": "naver:CHF-USD",
-        "definition": {
-          "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDCHF",
-          "headers": {
-            "Content-Type": "application/json"
-          },
-          "method": "GET",
-          "reducers": [
-            {
-              "function": "PARSE",
-              "args": ["result", "closePrice"]
-            },
-            {
-              "function": "DIVFROM",
-              "args": 1
-            }
-          ]
-        }
-      },
-      {
         "name": "daum:CHF-USD",
         "definition": {
           "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWCHF",
@@ -5393,26 +5373,6 @@
         }
       },
       {
-        "name": "naver:EUR-USD",
-        "definition": {
-          "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDEUR",
-          "headers": {
-            "Content-Type": "application/json"
-          },
-          "method": "GET",
-          "reducers": [
-            {
-              "function": "PARSE",
-              "args": ["result", "closePrice"]
-            },
-            {
-              "function": "DIVFROM",
-              "args": 1
-            }
-          ]
-        }
-      },
-      {
         "name": "daum:EUR-USD",
         "definition": {
           "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWEUR",
@@ -6337,26 +6297,6 @@
         }
       },
       {
-        "name": "naver:GBP-USD",
-        "definition": {
-          "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDGBP",
-          "headers": {
-            "Content-Type": "application/json"
-          },
-          "method": "GET",
-          "reducers": [
-            {
-              "function": "PARSE",
-              "args": ["result", "closePrice"]
-            },
-            {
-              "function": "DIVFROM",
-              "args": 1
-            }
-          ]
-        }
-      },
-      {
         "name": "daum:GBP-USD",
         "definition": {
           "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWGBP",
@@ -7000,27 +6940,6 @@
             {
               "function": "PARSE",
               "args": ["meta", "regularMarketPrice"]
-            },
-            {
-              "function": "DIVFROM",
-              "args": 1
-            }
-          ]
-        }
-      },
-      {
-        "name": "naver:IDR-USD",
-        "definition": {
-          "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDIDR",
-          "headers": {
-            "Content-Type": "application/json",
-            "User-Agent": "Mozilla/5.0"
-          },
-          "method": "GET",
-          "reducers": [
-            {
-              "function": "PARSE",
-              "args": ["result", "closePrice"]
             },
             {
               "function": "DIVFROM",
@@ -10136,27 +10055,6 @@
             {
               "function": "PARSE",
               "args": ["meta", "regularMarketPrice"]
-            },
-            {
-              "function": "DIVFROM",
-              "args": 1
-            }
-          ]
-        }
-      },
-      {
-        "name": "naver:MYR-USD",
-        "definition": {
-          "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDMYR",
-          "headers": {
-            "Content-Type": "application/json",
-            "User-Agent": "Mozilla/5.0"
-          },
-          "method": "GET",
-          "reducers": [
-            {
-              "function": "PARSE",
-              "args": ["result", "closePrice"]
             },
             {
               "function": "DIVFROM",
@@ -13449,27 +13347,6 @@
             {
               "function": "PARSE",
               "args": ["meta", "regularMarketPrice"]
-            },
-            {
-              "function": "DIVFROM",
-              "args": 1
-            }
-          ]
-        }
-      },
-      {
-        "name": "naver:SGD-USD",
-        "definition": {
-          "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDSGD",
-          "headers": {
-            "Content-Type": "application/json",
-            "User-Agent": "Mozilla/5.0"
-          },
-          "method": "GET",
-          "reducers": [
-            {
-              "function": "PARSE",
-              "args": ["result", "closePrice"]
             },
             {
               "function": "DIVFROM",
