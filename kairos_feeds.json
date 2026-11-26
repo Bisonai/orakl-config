@@ -7492,6 +7492,68 @@
             }
           ]
         }
+      },
+      {
+        "name": "gaitamecom:JPY-USD",
+        "definition": {
+          "url": "https://navi.gaitame.com/v3/info/prices/rate",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "PARSE",
+              "args": ["data"]
+            },
+            {
+              "function": "FIND",
+              "args": {
+                "key": "pair",
+                "value": "USDJPY"
+              }
+            },
+            {
+              "function": "MEAN",
+              "args": ["bid", "ask"]
+            },
+            {
+              "function": "DIVFROM",
+              "args": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "minfx:JPY-USD",
+        "definition": {
+          "url": "https://min-fx.jp/marketdata/ratedatamodule.php",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "PARSE",
+              "args": ["data"]
+            },
+            {
+              "function": "FIND",
+              "args": {
+                "key": "symbolName",
+                "value": "USDJPY"
+              }
+            },
+            {
+              "function": "MEAN",
+              "args": ["bid", "ask"]
+            },
+            {
+              "function": "DIVFROM",
+              "args": 1
+            }
+          ]
+        }
       }
     ],
     "feedDataFreshness": 60000
