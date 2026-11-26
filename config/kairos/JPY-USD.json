@@ -87,9 +87,10 @@
             }
           },
           {
-            "function": "PARSE",
+            "function": "MEAN",
             "args": [
-              "bid"
+              "bid",
+              "ask"
             ]
           },
           {
