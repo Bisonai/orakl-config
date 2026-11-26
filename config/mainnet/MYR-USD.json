@@ -42,30 +42,6 @@
       }
     },
     {
-      "name": "naver:MYR-USD",
-      "definition": {
-        "url": "https://m.stock.naver.com/front-api/marketIndex/productDetail?category=exchangeWorld&reutersCode=USDMYR",
-        "headers": {
-          "Content-Type": "application/json",
-          "User-Agent": "Mozilla/5.0"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": [
-              "result",
-              "closePrice"
-            ]
-          },
-          {
-            "function": "DIVFROM",
-            "args": 1
-          }
-        ]
-      }
-    },
-    {
       "name": "daum:MYR-USD",
       "definition": {
         "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWMYR",
