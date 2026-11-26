@@ -7442,27 +7442,6 @@
         }
       },
       {
-        "name": "daum:JPY-USD",
-        "definition": {
-          "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWJPY",
-          "headers": {
-            "Content-Type": "application/json",
-            "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWJPY"
-          },
-          "method": "GET",
-          "reducers": [
-            {
-              "function": "PARSE",
-              "args": ["usDollarRate"]
-            },
-            {
-              "function": "DIV",
-              "args": 100
-            }
-          ]
-        }
-      },
-      {
         "name": "gmo:JPY-USD",
         "definition": {
           "url": "https://forex-api.coin.z.com/public/v1/ticker",
