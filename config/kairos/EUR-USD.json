@@ -57,15 +57,6 @@
       }
     },
     {
-      "name": "kraken-wss:EUR-USD",
-      "definition": {
-        "type": "wss",
-        "provider": "kraken",
-        "base": "EUR",
-        "quote": "USD"
-      }
-    },
-    {
       "name": "gmo:EUR-USD",
       "definition": {
         "url": "https://forex-api.coin.z.com/public/v1/ticker",

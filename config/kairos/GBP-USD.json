@@ -48,15 +48,6 @@
       }
     },
     {
-      "name": "kraken-wss:GBP-USD",
-      "definition": {
-        "type": "wss",
-        "provider": "kraken",
-        "base": "GBP",
-        "quote": "USD"
-      }
-    },
-    {
       "name": "gmo:GBP-USD",
       "definition": {
         "url": "https://forex-api.coin.z.com/public/v1/ticker",
