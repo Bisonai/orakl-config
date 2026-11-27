@@ -106,7 +106,7 @@
     {
       "name": "coinbase:SGD-USD",
       "definition": {
-        "url": "https://api.coinbase.com/v2/prices/USD-SGD/spot",
+        "url": "https://api.coinbase.com/v2/prices/USD-SGD/spot-orakl-freshness-test",
         "headers": {
           "Content-Type": "application/json"
         },
