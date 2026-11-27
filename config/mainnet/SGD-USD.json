@@ -42,21 +42,119 @@
       }
     },
     {
-      "name": "daum:SGD-USD",
+      "name": "swissquote:SGD-USD",
       "definition": {
-        "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWSGD",
+        "url": "https://forex-data-feed.swissquote.com/public-quotes/bboquotes/instrument/USD/SGD",
         "headers": {
-          "Content-Type": "application/json",
-          "User-Agent": "Mozilla/5.0",
-          "referer": "https://m.finance.daum.net/exchanges/FRX.KRWSGD"
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": [
+              "spreadProfilePrices"
+            ]
+          },
+          {
+            "function": "FIND",
+            "args": {
+              "key": "spreadProfile",
+              "value": "premium"
+            }
+          },
+          {
+            "function": "MEAN",
+            "args": [
+              "bid",
+              "ask"
+            ]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "wise:SGD-USD",
+      "definition": {
+        "url": "https://wise.com/rates/live?source=USD&target=SGD",
+        "headers": {
+          "Content-Type": "application/json"
         },
         "method": "GET",
         "reducers": [
           {
             "function": "PARSE",
             "args": [
-              "usDollarRate"
+              "value"
             ]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "coinbase:SGD-USD",
+      "definition": {
+        "url": "https://api.coinbase.com/v2/prices/USD-SGD/spot",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "data",
+              "amount"
+            ]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "cnbc:SGD-USD",
+      "definition": {
+        "url": "https://quote.cnbc.com/quote-html-webservice/quote.htm?symbols=SGD%3D&output=json&partnerId=2&requestMethod=quick&noform=1",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "QuickQuoteResult",
+              "QuickQuote"
+            ]
+          },
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": [
+              "last"
+            ]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
           }
         ]
       }

@@ -48,20 +48,149 @@
       }
     },
     {
-      "name": "daum:CHF-USD",
+      "name": "gaitamecom:CHF-USD",
       "definition": {
-        "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWCHF",
+        "url": "https://navi.gaitame.com/v3/info/prices/rate",
         "headers": {
-          "Content-Type": "application/json",
-          "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWCHF"
+          "Content-Type": "application/json"
         },
         "method": "GET",
         "reducers": [
           {
             "function": "PARSE",
             "args": [
-              "usDollarRate"
+              "data"
             ]
+          },
+          {
+            "function": "FIND",
+            "args": {
+              "key": "pair",
+              "value": "USDCHF"
+            }
+          },
+          {
+            "function": "MEAN",
+            "args": [
+              "bid",
+              "ask"
+            ]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "minfx:CHF-USD",
+      "definition": {
+        "url": "https://min-fx.jp/marketdata/ratedatamodule.php",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "data"
+            ]
+          },
+          {
+            "function": "FIND",
+            "args": {
+              "key": "symbolName",
+              "value": "USDCHF"
+            }
+          },
+          {
+            "function": "MEAN",
+            "args": [
+              "bid",
+              "ask"
+            ]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "swissquote:CHF-USD",
+      "definition": {
+        "url": "https://forex-data-feed.swissquote.com/public-quotes/bboquotes/instrument/USD/CHF",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": [
+              "spreadProfilePrices"
+            ]
+          },
+          {
+            "function": "FIND",
+            "args": {
+              "key": "spreadProfile",
+              "value": "premium"
+            }
+          },
+          {
+            "function": "MEAN",
+            "args": [
+              "bid",
+              "ask"
+            ]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "linefx:CHF-USD",
+      "definition": {
+        "url": "https://line-fx.com/api/fx/market/init-price-list-and-settings",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "priceAndQuotationDto"
+            ]
+          },
+          {
+            "function": "FIND",
+            "args": {
+              "key": "symbolCode",
+              "value": "2047"
+            }
+          },
+          {
+            "function": "MEAN",
+            "args": [
+              "bidRate",
+              "askRate"
+            ]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
           }
         ]
       }
