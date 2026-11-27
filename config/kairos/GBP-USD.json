@@ -48,31 +48,176 @@
       }
     },
     {
-      "name": "daum:GBP-USD",
-      "definition": {
-        "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWGBP",
-        "headers": {
-          "Content-Type": "application/json",
-          "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWGBP"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": [
-              "usDollarRate"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "kraken-wss:GBP-USD",
       "definition": {
         "type": "wss",
         "provider": "kraken",
         "base": "GBP",
         "quote": "USD"
+      }
+    },
+    {
+      "name": "gmo:GBP-USD",
+      "definition": {
+        "url": "https://forex-api.coin.z.com/public/v1/ticker",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "data"
+            ]
+          },
+          {
+            "function": "FIND",
+            "args": {
+              "key": "symbol",
+              "value": "GBP_USD"
+            }
+          },
+          {
+            "function": "MEAN",
+            "args": [
+              "bid",
+              "ask"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "gaitamecom:GBP-USD",
+      "definition": {
+        "url": "https://navi.gaitame.com/v3/info/prices/rate",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "data"
+            ]
+          },
+          {
+            "function": "FIND",
+            "args": {
+              "key": "pair",
+              "value": "GBPUSD"
+            }
+          },
+          {
+            "function": "MEAN",
+            "args": [
+              "bid",
+              "ask"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "minfx:GBP-USD",
+      "definition": {
+        "url": "https://min-fx.jp/marketdata/ratedatamodule.php",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "data"
+            ]
+          },
+          {
+            "function": "FIND",
+            "args": {
+              "key": "symbolName",
+              "value": "GBPUSD"
+            }
+          },
+          {
+            "function": "MEAN",
+            "args": [
+              "bid",
+              "ask"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "swissquote:GBP-USD",
+      "definition": {
+        "url": "https://forex-data-feed.swissquote.com/public-quotes/bboquotes/instrument/GBP/USD",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": [
+              "spreadProfilePrices"
+            ]
+          },
+          {
+            "function": "FIND",
+            "args": {
+              "key": "spreadProfile",
+              "value": "premium"
+            }
+          },
+          {
+            "function": "MEAN",
+            "args": [
+              "bid",
+              "ask"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "linefx:GBP-USD",
+      "definition": {
+        "url": "https://line-fx.com/api/fx/market/init-price-list-and-settings",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "priceAndQuotationDto"
+            ]
+          },
+          {
+            "function": "FIND",
+            "args": {
+              "key": "symbolCode",
+              "value": "2011"
+            }
+          },
+          {
+            "function": "MEAN",
+            "args": [
+              "bidRate",
+              "askRate"
+            ]
+          }
+        ]
       }
     }
   ]

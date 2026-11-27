@@ -3242,18 +3242,129 @@
         }
       },
       {
-        "name": "daum:CHF-USD",
+        "name": "gaitamecom:CHF-USD",
         "definition": {
-          "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWCHF",
+          "url": "https://navi.gaitame.com/v3/info/prices/rate",
           "headers": {
-            "Content-Type": "application/json",
-            "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWCHF"
+            "Content-Type": "application/json"
           },
           "method": "GET",
           "reducers": [
             {
               "function": "PARSE",
-              "args": ["usDollarRate"]
+              "args": ["data"]
+            },
+            {
+              "function": "FIND",
+              "args": {
+                "key": "pair",
+                "value": "USDCHF"
+              }
+            },
+            {
+              "function": "MEAN",
+              "args": ["bid", "ask"]
+            },
+            {
+              "function": "DIVFROM",
+              "args": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "minfx:CHF-USD",
+        "definition": {
+          "url": "https://min-fx.jp/marketdata/ratedatamodule.php",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "PARSE",
+              "args": ["data"]
+            },
+            {
+              "function": "FIND",
+              "args": {
+                "key": "symbolName",
+                "value": "USDCHF"
+              }
+            },
+            {
+              "function": "MEAN",
+              "args": ["bid", "ask"]
+            },
+            {
+              "function": "DIVFROM",
+              "args": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "swissquote:CHF-USD",
+        "definition": {
+          "url": "https://forex-data-feed.swissquote.com/public-quotes/bboquotes/instrument/USD/CHF",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "INDEX",
+              "args": 0
+            },
+            {
+              "function": "PARSE",
+              "args": ["spreadProfilePrices"]
+            },
+            {
+              "function": "FIND",
+              "args": {
+                "key": "spreadProfile",
+                "value": "premium"
+              }
+            },
+            {
+              "function": "MEAN",
+              "args": ["bid", "ask"]
+            },
+            {
+              "function": "DIVFROM",
+              "args": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "linefx:CHF-USD",
+        "definition": {
+          "url": "https://line-fx.com/api/fx/market/init-price-list-and-settings",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "PARSE",
+              "args": ["priceAndQuotationDto"]
+            },
+            {
+              "function": "FIND",
+              "args": {
+                "key": "symbolCode",
+                "value": "2047"
+              }
+            },
+            {
+              "function": "MEAN",
+              "args": ["bidRate", "askRate"]
+            },
+            {
+              "function": "DIVFROM",
+              "args": 1
             }
           ]
         }
@@ -5373,23 +5484,6 @@
         }
       },
       {
-        "name": "daum:EUR-USD",
-        "definition": {
-          "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWEUR",
-          "headers": {
-            "Content-Type": "application/json",
-            "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWEUR"
-          },
-          "method": "GET",
-          "reducers": [
-            {
-              "function": "PARSE",
-              "args": ["usDollarRate"]
-            }
-          ]
-        }
-      },
-      {
         "name": "bitstamp-wss:EUR-USD",
         "definition": {
           "type": "wss",
@@ -5405,6 +5499,145 @@
           "provider": "kraken",
           "base": "EUR",
           "quote": "USD"
+        }
+      },
+      {
+        "name": "gmo:EUR-USD",
+        "definition": {
+          "url": "https://forex-api.coin.z.com/public/v1/ticker",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "PARSE",
+              "args": ["data"]
+            },
+            {
+              "function": "FIND",
+              "args": {
+                "key": "symbol",
+                "value": "EUR_USD"
+              }
+            },
+            {
+              "function": "MEAN",
+              "args": ["bid", "ask"]
+            }
+          ]
+        }
+      },
+      {
+        "name": "gaitamecom:EUR-USD",
+        "definition": {
+          "url": "https://navi.gaitame.com/v3/info/prices/rate",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "PARSE",
+              "args": ["data"]
+            },
+            {
+              "function": "FIND",
+              "args": {
+                "key": "pair",
+                "value": "EURUSD"
+              }
+            },
+            {
+              "function": "MEAN",
+              "args": ["bid", "ask"]
+            }
+          ]
+        }
+      },
+      {
+        "name": "minfx:EUR-USD",
+        "definition": {
+          "url": "https://min-fx.jp/marketdata/ratedatamodule.php",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "PARSE",
+              "args": ["data"]
+            },
+            {
+              "function": "FIND",
+              "args": {
+                "key": "symbolName",
+                "value": "EURUSD"
+              }
+            },
+            {
+              "function": "MEAN",
+              "args": ["bid", "ask"]
+            }
+          ]
+        }
+      },
+      {
+        "name": "swissquote:EUR-USD",
+        "definition": {
+          "url": "https://forex-data-feed.swissquote.com/public-quotes/bboquotes/instrument/EUR/USD",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "INDEX",
+              "args": 0
+            },
+            {
+              "function": "PARSE",
+              "args": ["spreadProfilePrices"]
+            },
+            {
+              "function": "FIND",
+              "args": {
+                "key": "spreadProfile",
+                "value": "premium"
+              }
+            },
+            {
+              "function": "MEAN",
+              "args": ["bid", "ask"]
+            }
+          ]
+        }
+      },
+      {
+        "name": "linefx:EUR-USD",
+        "definition": {
+          "url": "https://line-fx.com/api/fx/market/init-price-list-and-settings",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "PARSE",
+              "args": ["priceAndQuotationDto"]
+            },
+            {
+              "function": "FIND",
+              "args": {
+                "key": "symbolCode",
+                "value": "2010"
+              }
+            },
+            {
+              "function": "MEAN",
+              "args": ["bidRate", "askRate"]
+            }
+          ]
         }
       }
     ],
@@ -6297,29 +6530,151 @@
         }
       },
       {
-        "name": "daum:GBP-USD",
-        "definition": {
-          "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWGBP",
-          "headers": {
-            "Content-Type": "application/json",
-            "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWGBP"
-          },
-          "method": "GET",
-          "reducers": [
-            {
-              "function": "PARSE",
-              "args": ["usDollarRate"]
-            }
-          ]
-        }
-      },
-      {
         "name": "kraken-wss:GBP-USD",
         "definition": {
           "type": "wss",
           "provider": "kraken",
           "base": "GBP",
           "quote": "USD"
+        }
+      },
+      {
+        "name": "gmo:GBP-USD",
+        "definition": {
+          "url": "https://forex-api.coin.z.com/public/v1/ticker",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "PARSE",
+              "args": ["data"]
+            },
+            {
+              "function": "FIND",
+              "args": {
+                "key": "symbol",
+                "value": "GBP_USD"
+              }
+            },
+            {
+              "function": "MEAN",
+              "args": ["bid", "ask"]
+            }
+          ]
+        }
+      },
+      {
+        "name": "gaitamecom:GBP-USD",
+        "definition": {
+          "url": "https://navi.gaitame.com/v3/info/prices/rate",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "PARSE",
+              "args": ["data"]
+            },
+            {
+              "function": "FIND",
+              "args": {
+                "key": "pair",
+                "value": "GBPUSD"
+              }
+            },
+            {
+              "function": "MEAN",
+              "args": ["bid", "ask"]
+            }
+          ]
+        }
+      },
+      {
+        "name": "minfx:GBP-USD",
+        "definition": {
+          "url": "https://min-fx.jp/marketdata/ratedatamodule.php",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "PARSE",
+              "args": ["data"]
+            },
+            {
+              "function": "FIND",
+              "args": {
+                "key": "symbolName",
+                "value": "GBPUSD"
+              }
+            },
+            {
+              "function": "MEAN",
+              "args": ["bid", "ask"]
+            }
+          ]
+        }
+      },
+      {
+        "name": "swissquote:GBP-USD",
+        "definition": {
+          "url": "https://forex-data-feed.swissquote.com/public-quotes/bboquotes/instrument/GBP/USD",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "INDEX",
+              "args": 0
+            },
+            {
+              "function": "PARSE",
+              "args": ["spreadProfilePrices"]
+            },
+            {
+              "function": "FIND",
+              "args": {
+                "key": "spreadProfile",
+                "value": "premium"
+              }
+            },
+            {
+              "function": "MEAN",
+              "args": ["bid", "ask"]
+            }
+          ]
+        }
+      },
+      {
+        "name": "linefx:GBP-USD",
+        "definition": {
+          "url": "https://line-fx.com/api/fx/market/init-price-list-and-settings",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "PARSE",
+              "args": ["priceAndQuotationDto"]
+            },
+            {
+              "function": "FIND",
+              "args": {
+                "key": "symbolCode",
+                "value": "2011"
+              }
+            },
+            {
+              "function": "MEAN",
+              "args": ["bidRate", "askRate"]
+            }
+          ]
         }
       }
     ],
@@ -13549,19 +13904,36 @@
         }
       },
       {
-        "name": "daum:SGD-USD",
+        "name": "swissquote:SGD-USD",
         "definition": {
-          "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWSGD",
+          "url": "https://forex-data-feed.swissquote.com/public-quotes/bboquotes/instrument/USD/SGD",
           "headers": {
-            "Content-Type": "application/json",
-            "User-Agent": "Mozilla/5.0",
-            "referer": "https://m.finance.daum.net/exchanges/FRX.KRWSGD"
+            "Content-Type": "application/json"
           },
           "method": "GET",
           "reducers": [
             {
+              "function": "INDEX",
+              "args": 0
+            },
+            {
               "function": "PARSE",
-              "args": ["usDollarRate"]
+              "args": ["spreadProfilePrices"]
+            },
+            {
+              "function": "FIND",
+              "args": {
+                "key": "spreadProfile",
+                "value": "premium"
+              }
+            },
+            {
+              "function": "MEAN",
+              "args": ["bid", "ask"]
+            },
+            {
+              "function": "DIVFROM",
+              "args": 1
             }
           ]
         }
