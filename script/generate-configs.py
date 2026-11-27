@@ -47,7 +47,10 @@ filter_outs = {
     "bingx": ["gnousdt"],  # symbol offline since 2026-11-16 (2026-11-23)
     "gateio": ["tusdusdt", "usdeusdt"],  # dead/not listed (2026-11-20)
     "gemini": ["eurusd", "btcusdt", "ethusdt"],  # dead/not listed (2026-11-20)
-    "bitstamp": ["usdcusdt", "gbpusd"],  # dead/not listed (2026-11-20)
+    "bitstamp": ["usdcusdt", "gbpusd",  # dead/not listed (2026-11-20)
+                 # fiat FX: thin, trades at a discount to interbank, often >60 s stale;
+                 # FX pairs use broker/bank quotes instead (2026-11-27)
+                 "eurusd", "sgdusd"],
     "hashkey": ["grndusdt"],
     # dead/not listed/delisted (2026-11-20)
     "crypto": ["arusdt", "achusdt", "hotusdt"],
