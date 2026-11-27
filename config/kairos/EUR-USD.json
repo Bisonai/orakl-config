@@ -48,15 +48,6 @@
       }
     },
     {
-      "name": "bitstamp-wss:EUR-USD",
-      "definition": {
-        "type": "wss",
-        "provider": "bitstamp",
-        "base": "EUR",
-        "quote": "USD"
-      }
-    },
-    {
       "name": "gmo:EUR-USD",
       "definition": {
         "url": "https://forex-api.coin.z.com/public/v1/ticker",
