@@ -7251,26 +7251,6 @@
             }
           ]
         }
-      },
-      {
-        "name": "fxratesapi:IDR-USD",
-        "definition": {
-          "url": "https://api.fxratesapi.com/latest?base=USD&currencies=IDR",
-          "headers": {
-            "Content-Type": "application/json"
-          },
-          "method": "GET",
-          "reducers": [
-            {
-              "function": "PARSE",
-              "args": ["rates", "IDR"]
-            },
-            {
-              "function": "DIVFROM",
-              "args": 1
-            }
-          ]
-        }
       }
     ],
     "feedDataFreshness": 60000
@@ -10608,26 +10588,6 @@
             {
               "function": "PARSE",
               "args": ["data", "amount"]
-            },
-            {
-              "function": "DIVFROM",
-              "args": 1
-            }
-          ]
-        }
-      },
-      {
-        "name": "fxratesapi:MYR-USD",
-        "definition": {
-          "url": "https://api.fxratesapi.com/latest?base=USD&currencies=MYR",
-          "headers": {
-            "Content-Type": "application/json"
-          },
-          "method": "GET",
-          "reducers": [
-            {
-              "function": "PARSE",
-              "args": ["rates", "MYR"]
             },
             {
               "function": "DIVFROM",
