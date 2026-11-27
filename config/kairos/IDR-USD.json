@@ -64,6 +64,28 @@
           }
         ]
       }
+    },
+    {
+      "name": "wise:IDR-USD",
+      "definition": {
+        "url": "https://wise.com/rates/live?source=USD&target=IDR",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "value"
+            ]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
+          }
+        ]
+      }
     }
   ]
 }
