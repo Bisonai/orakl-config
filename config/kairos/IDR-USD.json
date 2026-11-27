@@ -86,6 +86,52 @@
           }
         ]
       }
+    },
+    {
+      "name": "coinbase:IDR-USD",
+      "definition": {
+        "url": "https://api.coinbase.com/v2/prices/USD-IDR/spot",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "data",
+              "amount"
+            ]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "fxratesapi:IDR-USD",
+      "definition": {
+        "url": "https://api.fxratesapi.com/latest?base=USD&currencies=IDR",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "rates",
+              "IDR"
+            ]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
+          }
+        ]
+      }
     }
   ]
 }
