@@ -6,82 +6,167 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "yahoo:EUR-USD",
+      "name": "gmo:EUR-USD",
       "definition": {
-        "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=EURUSD%3DX",
+        "url": "https://forex-api.coin.z.com/public/v1/ticker",
         "headers": {
-          "Content-Type": "application/json",
-          "User-Agent": "Mozilla/5.0"
+          "Content-Type": "application/json"
         },
         "method": "GET",
         "reducers": [
           {
             "function": "PARSE",
             "args": [
-              "spark",
-              "result"
+              "data"
             ]
           },
           {
-            "function": "INDEX",
-            "args": 0
+            "function": "FIND",
+            "args": {
+              "key": "symbol",
+              "value": "EUR_USD"
+            }
           },
           {
-            "function": "PARSE",
+            "function": "MEAN",
             "args": [
-              "response"
-            ]
-          },
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": [
-              "meta",
-              "regularMarketPrice"
-            ]
-          }
-        ],
-        "location": "kr"
-      }
-    },
-    {
-      "name": "daum:EUR-USD",
-      "definition": {
-        "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWEUR",
-        "headers": {
-          "Content-Type": "application/json",
-          "referer": "https://m.finance.daum.net/api/exchanges/FRX.KRWEUR"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": [
-              "usDollarRate"
+              "bid",
+              "ask"
             ]
           }
         ]
       }
     },
     {
-      "name": "bitstamp-wss:EUR-USD",
+      "name": "gaitamecom:EUR-USD",
       "definition": {
-        "type": "wss",
-        "provider": "bitstamp",
-        "base": "EUR",
-        "quote": "USD"
+        "url": "https://navi.gaitame.com/v3/info/prices/rate",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "data"
+            ]
+          },
+          {
+            "function": "FIND",
+            "args": {
+              "key": "pair",
+              "value": "EURUSD"
+            }
+          },
+          {
+            "function": "MEAN",
+            "args": [
+              "bid",
+              "ask"
+            ]
+          }
+        ]
       }
     },
     {
-      "name": "kraken-wss:EUR-USD",
+      "name": "minfx:EUR-USD",
       "definition": {
-        "type": "wss",
-        "provider": "kraken",
-        "base": "EUR",
-        "quote": "USD"
+        "url": "https://min-fx.jp/marketdata/ratedatamodule.php",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "data"
+            ]
+          },
+          {
+            "function": "FIND",
+            "args": {
+              "key": "symbolName",
+              "value": "EURUSD"
+            }
+          },
+          {
+            "function": "MEAN",
+            "args": [
+              "bid",
+              "ask"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "swissquote:EUR-USD",
+      "definition": {
+        "url": "https://forex-data-feed.swissquote.com/public-quotes/bboquotes/instrument/EUR/USD",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "INDEX",
+            "args": 0
+          },
+          {
+            "function": "PARSE",
+            "args": [
+              "spreadProfilePrices"
+            ]
+          },
+          {
+            "function": "FIND",
+            "args": {
+              "key": "spreadProfile",
+              "value": "premium"
+            }
+          },
+          {
+            "function": "MEAN",
+            "args": [
+              "bid",
+              "ask"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "linefx:EUR-USD",
+      "definition": {
+        "url": "https://line-fx.com/api/fx/market/init-price-list-and-settings",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "priceAndQuotationDto"
+            ]
+          },
+          {
+            "function": "FIND",
+            "args": {
+              "key": "symbolCode",
+              "value": "2010"
+            }
+          },
+          {
+            "function": "MEAN",
+            "args": [
+              "bidRate",
+              "askRate"
+            ]
+          }
+        ]
       }
     }
   ]

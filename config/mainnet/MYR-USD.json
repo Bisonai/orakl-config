@@ -60,6 +60,51 @@
           }
         ]
       }
+    },
+    {
+      "name": "wise:MYR-USD",
+      "definition": {
+        "url": "https://wise.com/rates/live?source=USD&target=MYR",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "value"
+            ]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "coinbase:MYR-USD",
+      "definition": {
+        "url": "https://api.coinbase.com/v2/prices/USD-MYR/spot",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "data",
+              "amount"
+            ]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
+          }
+        ]
+      }
     }
   ]
 }

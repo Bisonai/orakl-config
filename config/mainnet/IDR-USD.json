@@ -6,20 +6,64 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "yahoo:IDR-USD",
+      "name": "wise:IDR-USD",
       "definition": {
-        "url": "https://query2.finance.yahoo.com/v8/finance/chart/IDR=X",
+        "url": "https://wise.com/rates/live?source=USD&target=IDR",
         "headers": {
-          "Content-Type": "application/json",
-          "User-Agent": "Mozilla/5.0"
+          "Content-Type": "application/json"
         },
         "method": "GET",
         "reducers": [
           {
             "function": "PARSE",
             "args": [
-              "chart",
-              "result"
+              "value"
+            ]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "coinbase:IDR-USD",
+      "definition": {
+        "url": "https://api.coinbase.com/v2/prices/USD-IDR/spot",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "data",
+              "amount"
+            ]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "cnbc:IDR-USD",
+      "definition": {
+        "url": "https://quote.cnbc.com/quote-html-webservice/quote.htm?symbols=IDR%3D&output=json&partnerId=2&requestMethod=quick&noform=1",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "QuickQuoteResult",
+              "QuickQuote"
             ]
           },
           {
@@ -29,38 +73,47 @@
           {
             "function": "PARSE",
             "args": [
-              "meta",
-              "regularMarketPrice"
+              "last"
             ]
           },
           {
             "function": "DIVFROM",
             "args": 1
           }
-        ],
-        "location": "kr"
+        ]
       }
     },
     {
-      "name": "daum:IDR-USD",
+      "name": "binance:IDR-USD",
       "definition": {
-        "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWIDR",
+        "url": "https://www.binance.com/bapi/asset/v1/public/asset-service/product/currency",
         "headers": {
-          "Content-Type": "application/json",
-          "User-Agent": "Mozilla/5.0",
-          "referer": "https://m.finance.daum.net/exchanges/FRX.KRWIDR"
+          "Content-Type": "application/json"
         },
         "method": "GET",
         "reducers": [
           {
             "function": "PARSE",
             "args": [
-              "usDollarRate"
+              "data"
             ]
           },
           {
-            "function": "DIV",
-            "args": 100
+            "function": "FIND",
+            "args": {
+              "key": "pair",
+              "value": "IDR_USD"
+            }
+          },
+          {
+            "function": "PARSE",
+            "args": [
+              "rate"
+            ]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
           }
         ]
       }
