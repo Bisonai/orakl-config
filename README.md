@@ -269,7 +269,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 
 ## Kairos
 
-235 pairs, 1746 feeds.
+235 pairs, 1748 feeds.
 
 | pair | sources | fetchInterval | aggregateInterval | submitInterval |
 | --- | --- | ---: | ---: | ---: |
@@ -366,7 +366,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [HNT-USDT](config/kairos/HNT-USDT.json) | bitget, bybit, crypto, gateio, kucoin, mexc, orangex, xt | 2000 | 400 | 60000 |
 | [HOT-USDT](config/kairos/HOT-USDT.json) | binance, bingx, gateio, huobi, lbank, mexc | 2000 | 400 | 60000 |
 | [HYPE-USDT](config/kairos/HYPE-USDT.json) | binance, bingx, bitget, bybit, gateio, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [IDR-USD](config/kairos/IDR-USD.json) | Daum, Yahoo | 10000 | 400 | 60000 |
+| [IDR-USD](config/kairos/IDR-USD.json) | Daum, wise, Yahoo | 10000 | 400 | 60000 |
 | [IDRP-USDT](config/kairos/IDRP-USDT.json) | DragonSwap | 2000 | 400 | 60000 |
 | [IDRX-USDT](config/kairos/IDRX-USDT.json) | DragonSwap, PancakeSwap, UniswapV3 | 2000 | 400 | 60000 |
 | [IMX-KRW](config/kairos/IMX-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
@@ -408,7 +408,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [MOVE-USDT](config/kairos/MOVE-USDT.json) | binance, bingx, bitget, bybit, gateio, huobi, kucoin, lbank, mexc, okx, orangex | 2000 | 400 | 60000 |
 | [MSFT-USD](config/kairos/MSFT-USD.json) | Yahoo | 10000 | 400 | 15000 |
 | [MTL-KRW](config/kairos/MTL-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
-| [MYR-USD](config/kairos/MYR-USD.json) | Daum, Yahoo | 10000 | 400 | 60000 |
+| [MYR-USD](config/kairos/MYR-USD.json) | Daum, wise, Yahoo | 10000 | 400 | 60000 |
 | [MYRC-USDT](config/kairos/MYRC-USDT.json) | UniswapV3 | 2000 | 400 | 60000 |
 | [NEAR-KRW](config/kairos/NEAR-KRW.json) | bithumb, coinone, korbit, upbit | 2000 | 400 | 60000 |
 | [NEO-USDT](config/kairos/NEO-USDT.json) | binance, bingx, bitget, crypto, gateio, huobi, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |

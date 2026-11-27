@@ -60,6 +60,28 @@
           }
         ]
       }
+    },
+    {
+      "name": "wise:MYR-USD",
+      "definition": {
+        "url": "https://wise.com/rates/live?source=USD&target=MYR",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "GET",
+        "reducers": [
+          {
+            "function": "PARSE",
+            "args": [
+              "value"
+            ]
+          },
+          {
+            "function": "DIVFROM",
+            "args": 1
+          }
+        ]
+      }
     }
   ]
 }

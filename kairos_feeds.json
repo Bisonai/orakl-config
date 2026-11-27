@@ -7263,6 +7263,26 @@
             }
           ]
         }
+      },
+      {
+        "name": "wise:IDR-USD",
+        "definition": {
+          "url": "https://wise.com/rates/live?source=USD&target=IDR",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "PARSE",
+              "args": ["value"]
+            },
+            {
+              "function": "DIVFROM",
+              "args": 1
+            }
+          ]
+        }
       }
     ],
     "feedDataFreshness": 60000
@@ -10564,6 +10584,26 @@
             {
               "function": "PARSE",
               "args": ["usDollarRate"]
+            }
+          ]
+        }
+      },
+      {
+        "name": "wise:MYR-USD",
+        "definition": {
+          "url": "https://wise.com/rates/live?source=USD&target=MYR",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "PARSE",
+              "args": ["value"]
+            },
+            {
+              "function": "DIVFROM",
+              "args": 1
             }
           ]
         }
