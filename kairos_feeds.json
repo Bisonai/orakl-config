@@ -13963,6 +13963,74 @@
             }
           ]
         }
+      },
+      {
+        "name": "wise:SGD-USD",
+        "definition": {
+          "url": "https://wise.com/rates/live?source=USD&target=SGD",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "PARSE",
+              "args": ["value"]
+            },
+            {
+              "function": "DIVFROM",
+              "args": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "coinbase:SGD-USD",
+        "definition": {
+          "url": "https://api.coinbase.com/v2/prices/USD-SGD/spot",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "PARSE",
+              "args": ["data", "amount"]
+            },
+            {
+              "function": "DIVFROM",
+              "args": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "cnbc:SGD-USD",
+        "definition": {
+          "url": "https://quote.cnbc.com/quote-html-webservice/quote.htm?symbols=SGD%3D&output=json&partnerId=2&requestMethod=quick&noform=1",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "method": "GET",
+          "reducers": [
+            {
+              "function": "PARSE",
+              "args": ["QuickQuoteResult", "QuickQuote"]
+            },
+            {
+              "function": "INDEX",
+              "args": 0
+            },
+            {
+              "function": "PARSE",
+              "args": ["last"]
+            },
+            {
+              "function": "DIVFROM",
+              "args": 1
+            }
+          ]
+        }
       }
     ],
     "feedDataFreshness": 60000
