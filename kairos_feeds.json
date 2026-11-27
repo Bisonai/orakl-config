@@ -7213,58 +7213,6 @@
     "submitInterval": 60000,
     "feeds": [
       {
-        "name": "yahoo:IDR-USD",
-        "definition": {
-          "url": "https://query2.finance.yahoo.com/v8/finance/chart/IDR=X",
-          "location": "kr",
-          "headers": {
-            "Content-Type": "application/json",
-            "User-Agent": "Mozilla/5.0"
-          },
-          "method": "GET",
-          "reducers": [
-            {
-              "function": "PARSE",
-              "args": ["chart", "result"]
-            },
-            {
-              "function": "INDEX",
-              "args": 0
-            },
-            {
-              "function": "PARSE",
-              "args": ["meta", "regularMarketPrice"]
-            },
-            {
-              "function": "DIVFROM",
-              "args": 1
-            }
-          ]
-        }
-      },
-      {
-        "name": "daum:IDR-USD",
-        "definition": {
-          "url": "https://m.finance.daum.net/api/exchanges/FRX.KRWIDR",
-          "headers": {
-            "Content-Type": "application/json",
-            "User-Agent": "Mozilla/5.0",
-            "referer": "https://m.finance.daum.net/exchanges/FRX.KRWIDR"
-          },
-          "method": "GET",
-          "reducers": [
-            {
-              "function": "PARSE",
-              "args": ["usDollarRate"]
-            },
-            {
-              "function": "DIV",
-              "args": 100
-            }
-          ]
-        }
-      },
-      {
         "name": "wise:IDR-USD",
         "definition": {
           "url": "https://wise.com/rates/live?source=USD&target=IDR",

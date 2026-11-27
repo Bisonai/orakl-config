@@ -269,7 +269,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 
 ## Kairos
 
-235 pairs, 1752 feeds.
+235 pairs, 1750 feeds.
 
 | pair | sources | fetchInterval | aggregateInterval | submitInterval |
 | --- | --- | ---: | ---: | ---: |
@@ -366,7 +366,7 @@ See [`script/README.md`](script/README.md) for the scripts that generate the bun
 | [HNT-USDT](config/kairos/HNT-USDT.json) | bitget, bybit, crypto, gateio, kucoin, mexc, orangex, xt | 2000 | 400 | 60000 |
 | [HOT-USDT](config/kairos/HOT-USDT.json) | binance, bingx, gateio, huobi, lbank, mexc | 2000 | 400 | 60000 |
 | [HYPE-USDT](config/kairos/HYPE-USDT.json) | binance, bingx, bitget, bybit, gateio, kucoin, lbank, mexc, okx, xt | 2000 | 400 | 60000 |
-| [IDR-USD](config/kairos/IDR-USD.json) | coinbase, Daum, fxratesapi, wise, Yahoo | 10000 | 400 | 60000 |
+| [IDR-USD](config/kairos/IDR-USD.json) | coinbase, fxratesapi, wise | 10000 | 400 | 60000 |
 | [IDRP-USDT](config/kairos/IDRP-USDT.json) | DragonSwap | 2000 | 400 | 60000 |
 | [IDRX-USDT](config/kairos/IDRX-USDT.json) | DragonSwap, PancakeSwap, UniswapV3 | 2000 | 400 | 60000 |
 | [IMX-KRW](config/kairos/IMX-KRW.json) | bithumb, upbit | 2000 | 400 | 60000 |
