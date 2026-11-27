@@ -6,48 +6,6 @@
   "feedDataFreshness": 60000,
   "feeds": [
     {
-      "name": "yahoo:EUR-USD",
-      "definition": {
-        "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=EURUSD%3DX",
-        "headers": {
-          "Content-Type": "application/json",
-          "User-Agent": "Mozilla/5.0"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": [
-              "spark",
-              "result"
-            ]
-          },
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": [
-              "response"
-            ]
-          },
-          {
-            "function": "INDEX",
-            "args": 0
-          },
-          {
-            "function": "PARSE",
-            "args": [
-              "meta",
-              "regularMarketPrice"
-            ]
-          }
-        ],
-        "location": "kr"
-      }
-    },
-    {
       "name": "gmo:EUR-USD",
       "definition": {
         "url": "https://forex-api.coin.z.com/public/v1/ticker",
