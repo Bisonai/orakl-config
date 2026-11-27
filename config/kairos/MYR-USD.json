@@ -105,29 +105,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "fxratesapi:MYR-USD",
-      "definition": {
-        "url": "https://api.fxratesapi.com/latest?base=USD&currencies=MYR",
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "method": "GET",
-        "reducers": [
-          {
-            "function": "PARSE",
-            "args": [
-              "rates",
-              "MYR"
-            ]
-          },
-          {
-            "function": "DIVFROM",
-            "args": 1
-          }
-        ]
-      }
     }
   ]
 }
